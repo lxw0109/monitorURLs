@@ -19,11 +19,14 @@ from MyThread.myThread import MyThread
 #Element format: "url:URL obj"
 urlObjDic = {}
 logLock = threading.RLock()
-#Using the following 2 variables to concatenate email content.
 aeSubject = "【网站故障通知★】"    #The email subject of te  "accessError" url.
 aeContent = ""
+aeCount = 0
 uwSubject = "【网站更新通知】"     #The email subject of te  "updateWarning" url.
 uwContent = ""
+uwCount = 0
+
+#RLock
 aeSubLock = threading.RLock()   # Access Error Email Subject RLock.
 aeConLock = threading.RLock()   # Access Error Email Content RLock.
 uwSubLock = threading.RLock()   # Update Warning Email Content RLock.
@@ -96,6 +99,7 @@ def monitor(url):
     monitor each url.
     """
     global aeSubLock, aeConLock, aeSubject, aeContent, uwSubLock, uwConLock, uwSubject, uwContent
+    global aeCount, uwCount
     checkTime = time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time()))
     try:
         sourceCode = urllib2.urlopen(url).read()
@@ -106,14 +110,13 @@ def monitor(url):
             req = urllib2.Request(url=url, headers=headers)
             sourceCode  = urllib2.urlopen(req).read()
         except Exception, e:
-            if len(aeSubject) < 30:
-                aeSubLock.acquire()
-                aeSubject += url
-                aeSubLock.release()
+            aeSubLock.acquire()
+            if aeCount < 2:
+                aeSubject += " " + url
             else:
-                aeSubLock.acquire()
                 aeSubject += "."
-                aeSubLock.release()
+            aeCount += 1
+            aeSubLock.release()
 
             aeConLock.acquire()
             aeContent += "URL: {0}\n检测时间: {1}\n检测结果:检测到网站访问故障，请查看.\n\n".format(url, checkTime)
@@ -121,27 +124,25 @@ def monitor(url):
         else:
             content = getEmailContent(url, sourceCode, checkTime)
             if content:
-                if len(uwSubject) < 30:
-                    uwSubLock.acquire()
-                    uwSubject += url
-                    uwSubLock.release()
+                uwSubLock.acquire()
+                if uwCount < 2:
+                    uwSubject += " " + url
                 else:
-                    uwSubLock.acquire()
                     uwSubject += "."
-                    uwSubLock.release()
+                uwCount += 1
+                uwSubLock.release()
 
                 uwConLock.acquire()
                 uwContent += content
                 uwConLock.release()
     except Exception, e:
-        if len(aeSubject) < 30:
-            aeSubLock.acquire()
-            aeSubject += url
-            aeSubLock.release()
+        aeSubLock.acquire()
+        if aeCount < 2:
+            aeSubject += " " + url
         else:
-            aeSubLock.acquire()
             aeSubject += "."
-            aeSubLock.release()
+        aeCount += 1
+        aeSubLock.release()
 
         aeConLock.acquire()
         aeContent += "URL: {0}\n检测时间: {1}\n检测结果:检测到网站访问故障，请查看.\n\n".format(url, checkTime)
@@ -149,14 +150,13 @@ def monitor(url):
     else:
         content = getEmailContent(url, sourceCode, checkTime)
         if content:
-            if len(uwSubject) < 30:
-                uwSubLock.acquire()
-                uwSubject += url
-                uwSubLock.release()
+            uwSubLock.acquire()
+            if uwCount < 2:
+                uwSubject += " " + url
             else:
-                uwSubLock.acquire()
                 uwSubject += "."
-                uwSubLock.release()
+            uwCount += 1
+            uwSubLock.release()
 
             uwConLock.acquire()
             uwContent += content
@@ -184,6 +184,7 @@ def getEmailContent(url, sourceCode, checkTime):
 
 
 def main():
+    global uwCount, aeCount
     # set value for urlObjDic dict.
     with open("./criterion") as f:
         while 1:
@@ -210,10 +211,12 @@ def main():
     for thread in threads:
         thread.join()
 
-    if aeContent != "":
-        sendEmail(aeSubject, aeContent)
-    if uwContent != "":
-        sendEmail(uwSubject, uwContent)
+    if aeCount > 0:
+        allContent = "本次共检测到{0}个网站访问异常, 详细信息如下:\n\n{1}".format(aeCount, aeContent)
+        sendEmail(aeSubject, allContent)
+    if uwCount >0:
+        allContent = "本次共检测到{0}个网站有更新, 详细信息如下:\n\n{1}".format(uwCount, uwContent)
+        sendEmail(uwSubject, allContent)
 
 
 if __name__ == '__main__':

@@ -8,5 +8,6 @@
 ps aux|grep "monitorURLs.py"|awk '{print $2}'|xargs kill 
 
 #run th monitor.
-cd /home/mcj/monitorURLs && python ./monitorURLs.py
+#cd /home/mcj/monitorURLs && python ./monitorURLs.py
+cd /home/lxw/Project/monitorURL && python ./monitorURLs.py
 
