@@ -21,3 +21,10 @@ Collect the criterion data that we will use to compare with.
 
 6. monitorURLs.py:<br>
 monitor urls: compare the newest data with criterion and offer warnings if necessary.
+
+####Functionality Wanted:
+1. Give diff content.
+
+
+####Existing Bugs:
+1. encoding problems
