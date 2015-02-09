@@ -56,8 +56,8 @@ def sendEmail(subject, content):
         password = "Python1"
 
         fromAddr = "554188913@qq.com"
-        #toAddrs = ["lxwin@foxmail.com", "lab_student@cnnic.cn"]
-        toAddrs = ["chenyong@cnnic.cn", "liuxiaowei@cnnic.cn", "lxwin@foxmail.com"]
+        toAddrs = ["lxwin@foxmail.com"]
+        #toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn", "lxwin@foxmail.com"]
 
         message = Message()
         message["Subject"] = subject
