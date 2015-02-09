@@ -54,7 +54,7 @@ def sendEmail(subject, content):
 
         fromAddr = "554188913@qq.com"
         #toAddrs = ["lxwin@foxmail.com", "lab_student@cnnic.cn"]
-        toAddrs = ["chenyong@cnnic.cn", "lxwin@foxmail.com", "1217220826@qq.com"]
+        toAddrs = ["chenyong@cnnic.cn", "liuxiaowei@cnnic.cn", "lxwin@foxmail.com"]
 
         message = Message()
         message["Subject"] = subject
@@ -170,9 +170,9 @@ def getEmailContent(url, sourceCode, checkTime):
     length = len(sourceCode)
     content = ""
     if length < urlObjDic[url].getLength():
-        content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, length, urlObjDic[url].getLength())
+        content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
     elif length > urlObjDic[url].getLength():
-        content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, length, urlObjDic[url].getLength())
+        content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
     else:
         #calculate the md5 value of sourceCode string.(32bits).
         md = md5.new()
