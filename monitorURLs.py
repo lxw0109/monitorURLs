@@ -9,16 +9,14 @@
 import urllib2
 import time
 import md5
-import smtplib
-import base64
-from email.message import Message
 import threading
 import datetime
 from MyThread.myThread import MyThread
+import myUtils
 
 #Element format: "url:URL obj"
-urlObjDic = {}
-logLock = threading.RLock()
+oldUrlObjDic = {}
+newUrlObjDic = {}
 aeSubject = "【网站故障通知★】"    #The email subject of te  "accessError" url.
 aeContent = ""
 aeCount = 0
@@ -27,10 +25,10 @@ uwContent = ""
 uwCount = 0
 
 #RLock
-aeSubLock = threading.RLock()   # Access Error Email Subject RLock.
-aeConLock = threading.RLock()   # Access Error Email Content RLock.
-uwSubLock = threading.RLock()   # Update Warning Email Content RLock.
-uwConLock = threading.RLock()   # Update Warning Error Email Content RLock.
+aeLock = threading.RLock()   # Access Error: Email Subject/Content RLock.
+uwLock = threading.RLock()   # Update Warning: Email Subject/Content RLock.
+nuodLock = threading.RLock()    # newUrlObjDic assignment RLock.
+
 
 class URL(object):
     """
@@ -49,56 +47,11 @@ class URL(object):
         return self.md5Str
 
 
-def sendEmail(subject, content):
-    try:
-        smtpServer = "smtp.qq.com" #"smtp.cnnic.cn"
-        userName = "554188913@qq.com"#"liuxiaowei@cnnic.cn"
-        password = "Python1"
-
-        fromAddr = "554188913@qq.com"
-        toAddrs = ["lxwin@foxmail.com"]
-        #toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn", "lxwin@foxmail.com"]
-
-        message = Message()
-        message["Subject"] = subject
-        message["From"] = fromAddr
-        message["To"] = ";".join(toAddrs)
-        #抄送
-        #message["Cc"] = ccAddr
-        message.set_payload(content)
-        msg = message.as_string()
-
-        sm = smtplib.SMTP(smtpServer)
-        #sm.set_debuglevel(1)
-        sm.ehlo()
-        sm.starttls()
-        sm.ehlo()
-        sm.login(userName, password)
-
-        sm.sendmail(fromAddr, toAddrs, msg)
-        time.sleep(5)
-        sm.quit()
-    except Exception, e:
-        end = content.index("\n")
-        writeLog("EMAIL SENDING ERROR", content[:end]+"\n", str(e))
-
-
-def writeLog(tag, url, log):
-    """
-    Write into Error Log.
-    """
-    #with open("./monitorLog", "a") as f:
-    f = open("./monitorLog", "a")
-    logLock.acquire()
-    f.write("{0}: {1}\t{2}\n{3}\n\n".format(tag, url, time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), log))
-    logLock.release()
-
-
 def monitor(url):
     """
     monitor each url.
     """
-    global aeSubLock, aeConLock, aeSubject, aeContent, uwSubLock, uwConLock, uwSubject, uwContent
+    global aeLock, aeSubject, aeContent, uwLock, uwSubject, uwContent
     global aeCount, uwCount
     checkTime = time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time()))
     try:
@@ -110,82 +63,62 @@ def monitor(url):
             req = urllib2.Request(url=url, headers=headers)
             sourceCode  = urllib2.urlopen(req).read()
         except Exception, e:
-            aeSubLock.acquire()
+            aeLock.acquire()
             if aeCount < 2:
                 aeSubject += " " + url
             else:
                 aeSubject += "."
             aeCount += 1
-            aeSubLock.release()
-
-            aeConLock.acquire()
             aeContent += "URL: {0}\n检测时间: {1}\n检测结果:检测到网站访问故障，请查看.\n\n".format(url, checkTime)
-            aeConLock.release()
+            aeLock.release()
         else:
-            content = getEmailContent(url, sourceCode, checkTime)
+            length, md5Str = myUtils.getLengthMd5(sourceCode)
+            nuodLock.acquire()
+            newUrlObjDic[url] = URL(length, md5Str)
+            nuodLock.release()
+
+            content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic)
             if content:
-                uwSubLock.acquire()
+                uwLock.acquire()
                 if uwCount < 2:
                     uwSubject += " " + url
                 else:
                     uwSubject += "."
                 uwCount += 1
-                uwSubLock.release()
-
-                uwConLock.acquire()
                 uwContent += content
-                uwConLock.release()
+                uwLock.release()
     except Exception, e:
-        aeSubLock.acquire()
+        aeLock.acquire()
         if aeCount < 2:
             aeSubject += " " + url
         else:
             aeSubject += "."
         aeCount += 1
-        aeSubLock.release()
-
-        aeConLock.acquire()
         aeContent += "URL: {0}\n检测时间: {1}\n检测结果:检测到网站访问故障，请查看.\n\n".format(url, checkTime)
-        aeConLock.release()
+        aeLock.release()
     else:
-        content = getEmailContent(url, sourceCode, checkTime)
+        length, md5Str = myUtils.getLengthMd5(sourceCode)
+        nuodLock.acquire()
+        newUrlObjDic[url] = URL(length, md5Str)
+        nuodLock.release()
+
+        content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic)
         if content:
-            uwSubLock.acquire()
+            uwLock.acquire()
             if uwCount < 2:
                 uwSubject += " " + url
             else:
                 uwSubject += "."
             uwCount += 1
-            uwSubLock.release()
-
-            uwConLock.acquire()
             uwContent += content
-            uwConLock.release()
-
-
-def getEmailContent(url, sourceCode, checkTime):
-    """
-    Already GET THE CONTENT OF THE URL. Now to get the Email content if URL updates, or nothing if not.
-    """
-    length = len(sourceCode)
-    content = ""
-    if length < urlObjDic[url].getLength():
-        content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
-    elif length > urlObjDic[url].getLength():
-        content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
-    else:
-        #calculate the md5 value of sourceCode string.(32bits).
-        md = md5.new()
-        md.update(sourceCode)
-        md5Str = md.hexdigest()
-        if md5Str != urlObjDic[url].getMD5Str():
-            content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，请查看.\n\n".format(url, checkTime)
-    return content
+            uwLock.release()
 
 
 def main():
-    global uwCount, aeCount
-    # set value for urlObjDic dict.
+    """
+    Monitor URLs.
+    """
+    # set value for oldUrlObjDic dict.
     with open("./criterion") as f:
         while 1:
             string = f.readline().strip()
@@ -193,7 +126,7 @@ def main():
                 break
             arr = string.split(",")
             #URL Object Format: URL(length, md5)
-            urlObjDic[arr[0]] = URL(int(arr[1]), arr[2])
+            oldUrlObjDic[arr[0]] = URL(int(arr[1]), arr[2])
 
     #Just to calculate time, not for thred pool NOW.
     threads = []
@@ -213,10 +146,15 @@ def main():
 
     if aeCount > 0:
         allContent = "本次共检测到{0}个网站访问异常, 详细信息如下:\n\n{1}".format(aeCount, aeContent)
-        sendEmail(aeSubject, allContent)
+        myUtils.sendEmail(aeSubject, allContent)
     if uwCount >0:
         allContent = "本次共检测到{0}个网站有更新, 详细信息如下:\n\n{1}".format(uwCount, uwContent)
-        sendEmail(uwSubject, allContent)
+        myUtils.sendEmail(uwSubject, allContent)
+
+    #Update Criterion file.
+    with open("./criterion", "w") as f:
+        for url in newUrlObjDic.keys():
+            f.write("{0},{1},{2}\n".format(url, newUrlObjDic[url].length, newUrlObjDic[url].getMD5Str()))
 
 
 if __name__ == '__main__':
