@@ -12,7 +12,8 @@ urls(websites) that we want to monitor.
 3. monitorLog:<br>
 Error Log File.
 
-4. **abandoned**_initialize.sh:<br>
+4. **abandoned**<br>
+_initialize.sh:<br>
 Create corresponding directories(each url owns one directory) for urls._
 
 5. getCriterion.py:<br>
