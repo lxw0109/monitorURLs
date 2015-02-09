@@ -45,8 +45,12 @@ def sendEmail(subject, content):
         smtpServer = "smtp.qq.com" #"smtp.cnnic.cn"
         userName = "554188913@qq.com"#"liuxiaowei@cnnic.cn"
         password = "Python1"
+        #smtpServer = "smtp.qq.com" #"smtp.cnnic.cn"
+        #userName = "1217220826@qq.com"#"liuxiaowei@cnnic.cn"
+        #password = "Python1"
 
         fromAddr = "554188913@qq.com"
+        #fromAddr = "1217220826@qq.com"
         toAddrs = ["lxwin@foxmail.com"]
         #toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn", "lxwin@foxmail.com"]
 
@@ -60,7 +64,7 @@ def sendEmail(subject, content):
         msg = message.as_string()
 
         sm = smtplib.SMTP(smtpServer)
-        #sm.set_debuglevel(1)
+        sm.set_debuglevel(1)
         sm.ehlo()
         sm.starttls()
         sm.ehlo()
