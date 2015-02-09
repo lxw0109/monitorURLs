@@ -54,7 +54,7 @@ def sendEmail(subject, content):
 
         fromAddr = "554188913@qq.com"
         #toAddrs = ["lxwin@foxmail.com", "lab_student@cnnic.cn"]
-        toAddrs = ["liuxiaowei199001@sina.com", "lxwin@foxmail.com", "1217220826@qq.com"]
+        toAddrs = ["chenyong@cnnic.cn", "lxwin@foxmail.com", "1217220826@qq.com"]
 
         message = Message()
         message["Subject"] = subject
