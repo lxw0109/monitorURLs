@@ -147,9 +147,11 @@ def main():
     if aeCount > 0:
         allContent = "本次共检测到{0}个网站访问异常, 详细信息如下:\n\n{1}".format(aeCount, aeContent)
         myUtils.sendEmail(aeSubject, allContent)
+        #print aeCount, allContent
     if uwCount >0:
         allContent = "本次共检测到{0}个网站有更新, 详细信息如下:\n\n{1}".format(uwCount, uwContent)
         myUtils.sendEmail(uwSubject, allContent)
+        #print uwCount, allContent
 
     #Update Criterion file.
     with open("./criterion", "w") as f:
