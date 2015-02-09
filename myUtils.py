@@ -154,4 +154,4 @@ if __name__ == '__main__':
     end = datetime.datetime.now()
     print(end - start)
 else:
-    print("Being imported as a module.")
+    writeLog("OK", "", "Being imported as a module.")

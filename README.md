@@ -18,19 +18,14 @@ urls(websites) that we want to monitor.
 3. monitorLog:<br>
 Error Log File.
 
-4. **abandoned**<br>
-_initialize.sh:<br>
-Create corresponding directories(each url owns one directory) for urls._
+4. myUtils.py:<br>
+Utils for monitorURLs.py & Collect the INITIAL criterion data.
 
-5. getCriterion.py:<br>
-Collect the criterion data that we will use to compare with.
-
-6. monitorURLs.py:<br>
-monitor urls: compare the newest data with criterion and offer warnings if necessary.
+5. monitorURLs.py:<br>
+monitor urls: compare the newest data with criterion and offer warnings(emails) if necessary.
 
 ####Functionality Wanted:
 1. Give diff content.
-
 
 ####Existing Bugs:
 1. encoding problems
