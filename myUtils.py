@@ -42,15 +42,15 @@ def writeFile(url, length, md5Str):
 
 def sendEmail(subject, content):
     try:
-        smtpServer = "smtp.qq.com" #"smtp.cnnic.cn"
-        userName = "554188913@qq.com"#"liuxiaowei@cnnic.cn"
-        password = "Python1"
         #smtpServer = "smtp.qq.com" #"smtp.cnnic.cn"
-        #userName = "1217220826@qq.com"#"liuxiaowei@cnnic.cn"
+        #userName = "554188913@qq.com"#"liuxiaowei@cnnic.cn"
         #password = "Python1"
+        smtpServer = "smtp.qq.com" #"smtp.cnnic.cn"
+        userName = "1217220826@qq.com"#"liuxiaowei@cnnic.cn"
+        password = "Python1"
 
-        fromAddr = "554188913@qq.com"
-        #fromAddr = "1217220826@qq.com"
+        #fromAddr = "554188913@qq.com"
+        fromAddr = "1217220826@qq.com"
         toAddrs = ["lxwin@foxmail.com"]
         #toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn", "lxwin@foxmail.com"]
 
