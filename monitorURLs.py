@@ -101,7 +101,8 @@ def monitor(url):
         sourceCode = urllib2.urlopen(url).read()
     except urllib2.HTTPError:
         try:
-            #NOTE: some websites do not allow us to access them by this method, they check the userAgent information, so we forge it.  headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'};
+            #NOTE: some websites do not allow us to access them by this method, they check the userAgent information, so we forge it.
+            headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'};
             req = urllib2.Request(url=url, headers=headers)
             sourceCode  = urllib2.urlopen(req).read()
         except Exception, e:
@@ -209,9 +210,9 @@ def main():
     for thread in threads:
         thread.join()
 
-    if aeSubject != "":
+    if aeContent != "":
         sendEmail(aeSubject, aeContent)
-    if uwSubject != "":
+    if uwContent != "":
         sendEmail(uwSubject, uwContent)
 
 
