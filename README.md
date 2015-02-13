@@ -25,7 +25,9 @@ Utils for monitorURLs.py & Collect the INITIAL criterion data.
 monitor urls: compare the newest data with criterion and offer warnings(emails) if necessary.
 
 ####Functionality Wanted:
-1. Give diff content.
+1. Need 3 files: Criterion, Update URLs, AccessError URLs.
+2. Give diff content.
+
 
 ####Existing Bugs:
 1. encoding problems
