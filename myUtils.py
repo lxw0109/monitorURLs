@@ -84,13 +84,16 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic):
     Already GET THE CONTENT OF THE URL. Now to get the Email content if URL updates, or nothing if not.
     """
     content = ""
-    if length < urlObjDic[url].getLength():
-        content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
-    elif length > urlObjDic[url].getLength():
-        content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
-    else:
-        if md5Str != urlObjDic[url].getMD5Str():
-            content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，请查看.\n\n".format(url, checkTime)
+    try:
+        if length < urlObjDic[url].getLength():
+            content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
+        elif length > urlObjDic[url].getLength():
+            content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
+        else:
+            if md5Str != urlObjDic[url].getMD5Str():
+                content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，请查看.\n\n".format(url, checkTime)
+    except KeyError, ke:
+        writeLog("KeyError", url, str(ke))
     return content
 
 
