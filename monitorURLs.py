@@ -81,8 +81,7 @@ def monitor(url):
             nuodLock.acquire()
             newUrlObjDic[url] = URL(length, md5Str)
             nuodLock.release()
-
-            content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic)
+            content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic, sourceCode)
             if content:
                 uwLock.acquire()
                 if uwCount < 2:
@@ -92,6 +91,7 @@ def monitor(url):
                 uwCount += 1
                 uwContent += content
                 uwLock.release()
+            myUtils.recordInFile(url, sourceCode)
     except Exception, e:
         if url not in aeURLs:
             aeLock.acquire()
@@ -109,8 +109,7 @@ def monitor(url):
         nuodLock.acquire()
         newUrlObjDic[url] = URL(length, md5Str)
         nuodLock.release()
-
-        content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic)
+        content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic, sourceCode)
         if content:
             uwLock.acquire()
             if uwCount < 2:
@@ -120,6 +119,7 @@ def monitor(url):
             uwCount += 1
             uwContent += content
             uwLock.release()
+        myUtils.recordInFile(url, sourceCode)
 
 
 def main():
@@ -185,6 +185,6 @@ if __name__ == '__main__':
     start = datetime.datetime.now()
     main()
     end = datetime.datetime.now()
-    print(end - start)
+    print("END" + "-" * 10 + "Time Cost: " + str(end - start))
 else:
-    print("Being imported as a module.")
+    myUtils.writeLog("", "", "Being imported as a module.")

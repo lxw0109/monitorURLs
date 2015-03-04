@@ -11,4 +11,4 @@ ps aux|grep "monitorURLs.py"|awk '{print $2}'|xargs kill
 cd /home/lxw/Project/monitorURL
 #update/create the following file.
 touch accessErrorURLs
-python ./monitorURLs.py
+python ./monitorURLs.py >> ./monitorLog

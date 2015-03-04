@@ -76,32 +76,72 @@ def sendEmail(subject, content):
         writeLog("EMAIL SENDING ERROR", content[:end], str(e))
 
 
-def getEmailContent(url, length, md5Str, checkTime, urlObjDic):
+def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
     """
     Already GET THE CONTENT OF THE URL. Now to get the Email content if URL updates, or nothing if not.
     length is the new length.
     urlObjDic is the old one.
     """
     content = ""
+    filename = "./Intermedia/" + url.replace("/", "_")
     try:
         if length < urlObjDic[url].getLength():
             content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
-
-
+            for item in diff2Str(filename, sourceCode):
+                content += item + "\n"
         elif length > urlObjDic[url].getLength():
             content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
+            for item in diff2Str(filename, sourceCode):
+                content += item + "\n"
         elif md5Str != urlObjDic[url].getMD5Str():
             content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，请查看.\n\n".format(url, checkTime)
+            for item in diff2Str(filename, sourceCode):
+                content += item + "\n"
     except KeyError, ke:
         writeLog("-" * 20 + "\nThis can be avoided.\n KeyError", url, str(ke) + "\n" + "-" * 20)
     return content
 
 
-def diff2Str(url1, url2):
-    list1 = []
-    list2 = []
-    d = difflib.Differ()
-    resList = list(d.compare(list1, list2))
+def diff2Str(filename, sourceCode):
+    """
+    diff the content of "filename" between the latest 2 monitorings.
+    """
+    try:
+        list1 = []
+        with open(filename) as f:
+            while 1:
+                string = f.readline()
+                if not string:
+                    break
+                list1.append(string)
+
+        list2 = sourceCode.splitlines()
+        d = difflib.Differ()
+        resList = list(d.compare(list1, list2))
+        length = len(resList)
+        finList = []
+
+        """
+        # Note the following code has serious problems.
+        # Problems: index out of boundary.
+        for index in xrange(length):
+            if resList[index].startswith(" "):    # ignore the lines that are identical.
+                del resList[index]
+            elif len(resList[index]) < 5: # delete the lines ht is maningless
+                del resList[index]
+        """
+        for index in xrange(length):
+            if resList[index].startswith(" "):    # ignore the lines that are identical.
+                pass
+            elif len(resList[index]) < 5: # delete the lines ht is maningless
+                pass
+            else:
+                finList.append(resList[index])
+        return finList
+    except Exception, e:
+        writeLog("ERROR", "", str(e))
+        return []
+
 
 
 def eachCriterion(url):
@@ -127,6 +167,17 @@ def eachCriterion(url):
     else:
         length, md5Str = getLengthMd5(sourceCode)
         writeFile(url, length, md5Str)
+
+
+def recordInFile(url, sourceCode):
+    """
+    record he sourceCode of the url into the specific file.
+    """
+    url = url.replace("/", "_")
+
+    filename = "./Intermedia/" + url
+    with open(filename, "w") as f:
+        f.write(sourceCode + "\n")
 
 
 def getLengthMd5(sourceCode):
