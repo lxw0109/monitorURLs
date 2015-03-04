@@ -66,7 +66,7 @@ def monitor(url):
             aeLock.acquire()
             if aeCount < 2:
                 aeSubject += " " + url
-            else:
+            elif aeCount < 5:
                 aeSubject += "."
             aeCount += 1
             aeContent += "URL: {0}\n检测时间: {1}\n检测结果:检测到网站访问故障，请查看.\n\n".format(url, checkTime)
@@ -82,7 +82,7 @@ def monitor(url):
                 uwLock.acquire()
                 if uwCount < 2:
                     uwSubject += " " + url
-                else:
+                elif uwCount < 5:
                     uwSubject += "."
                 uwCount += 1
                 uwContent += content
@@ -91,7 +91,7 @@ def monitor(url):
         aeLock.acquire()
         if aeCount < 2:
             aeSubject += " " + url
-        else:
+        elif aeCount < 5:
             aeSubject += "."
         aeCount += 1
         aeContent += "URL: {0}\n检测时间: {1}\n检测结果:检测到网站访问故障，请查看.\n\n".format(url, checkTime)
@@ -107,7 +107,7 @@ def monitor(url):
             uwLock.acquire()
             if uwCount < 2:
                 uwSubject += " " + url
-            else:
+            elif uwCount < 5:
                 uwSubject += "."
             uwCount += 1
             uwContent += content
@@ -147,11 +147,9 @@ def main():
     if aeCount > 0:
         allContent = "本次共检测到{0}个网站访问异常, 详细信息如下:\n\n{1}".format(aeCount, aeContent)
         myUtils.sendEmail(aeSubject, allContent)
-        #print aeCount, allContent
     if uwCount >0:
         allContent = "本次共检测到{0}个网站有更新, 详细信息如下:\n\n{1}".format(uwCount, uwContent)
         myUtils.sendEmail(uwSubject, allContent)
-        #print uwCount, allContent
 
     #Update Criterion file.
     with open("./criterion", "w") as f:

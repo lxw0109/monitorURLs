@@ -8,7 +8,9 @@ from time import ctime
 
 class MyThread(threading.Thread):
     def __init__(self, func, args, name=""):
-        #if the subclass overrides the constructor, it must make sure to invoke the base class constructor (Thread.__init__()) before doing anything else to the thread.
+        #if the subclass overrides the constructor, it must make sure to
+        #invoke the base class constructor (Thread.__init__()) before
+        #doing anything else to the thread.
         threading.Thread.__init__(self)
         self.func = func
         self.args = args
