@@ -15,6 +15,7 @@ import threading
 import smtplib
 import base64
 from email.message import Message
+import difflib
 
 fileLock = threading.RLock()
 logLock = threading.RLock()
@@ -39,8 +40,6 @@ def writeFile(url, length, md5Str):
         f.write("{0},{1},{2}\n".format(url, length, md5Str))
         fileLock.release()
 
-#def sendEmail(subject, content):
-    print("Subject:{0}\nContent:{1}\n".format(subject, content))
 
 def sendEmail(subject, content):
     try:
@@ -49,7 +48,7 @@ def sendEmail(subject, content):
         password = "Python1"
 
         fromAddr = "monitorURL@foxmail.com"
-        toAddrs = ["lxwin@foxmail.com", "liuxiaowei@cnnic.cn"]
+        toAddrs = ["liuxiaowei199001@sina.com", "lxw.ucas@foxmail.com"]
 
         message = Message()
         message["Subject"] = subject
@@ -87,6 +86,8 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic):
     try:
         if length < urlObjDic[url].getLength():
             content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
+
+
         elif length > urlObjDic[url].getLength():
             content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
         elif md5Str != urlObjDic[url].getMD5Str():
@@ -94,6 +95,13 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic):
     except KeyError, ke:
         writeLog("-" * 20 + "\nThis can be avoided.\n KeyError", url, str(ke) + "\n" + "-" * 20)
     return content
+
+
+def diff2Str(url1, url2):
+    list1 = []
+    list2 = []
+    d = difflib.Differ()
+    resList = list(d.compare(list1, list2))
 
 
 def eachCriterion(url):

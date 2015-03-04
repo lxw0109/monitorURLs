@@ -8,13 +8,13 @@ The version of Python should be newer than **Python 2.6**. Python 2.7 is recomme
 
 ####Usage of each file:
 1. criterion:<br>
-intermedia file, contains the md5 value of each url.
+This file is the intermedia file, contains the md5 value of each url.
 
 2. emails:<br>
-email addresses that we want to send warning emails to.
+This file contains the email addresses that we want to send warning emails to.
 
 3. urls:<br>
-urls(websites) that we want to monitor.
+This file contains the urls(websites) that we want to monitor.
 
 4. monitorLog:<br>
 Log File(monitor Log & Error Log).
@@ -23,10 +23,10 @@ Log File(monitor Log & Error Log).
 Utils for monitorURLs.py & Collect the INITIAL criterion data.
 
 6. **monitorURLs.py**:<br>
-monitor urls: compare the newest data with criterion and offer warnings(emails) if necessary.
+Monitor urls: compare the newest data with criterion and offer warnings(emails) if necessary.
 
 7. run.sh:<br>
-the interface to run the whole program. run(manually & crontab) it like this:<br>
+This script file is the interface to run the whole program. run(manually & crontab) it like this:<br>
 **manually**:<br>
  ```
  bash run.sh
@@ -40,7 +40,12 @@ append the configuration like this(you can modify it as you wish):<br>
  ```
  */3 * * * * lxw bash /home/lxw/Project/monitorURL/run.sh
  ```
+8. updateURLs:
+This file contains the URLs that were found to have been updated when monitored last time.
+
+9. accessErrorURLs:
+This file contains the URLs that were found to have access errors when monitored last time.
+
 
 ####Functionality Wanted:
-1. Need 3 files: Criterion, Update URLs, AccessError URLs.
-2. Give diff content.
+1. Give diff content.
