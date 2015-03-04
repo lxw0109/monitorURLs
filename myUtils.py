@@ -58,6 +58,7 @@ def sendEmail(subject, content):
         #抄送
         #message["Cc"] = ccAddr
         message.set_payload(content)
+        message.set_charset("utf-8")
         msg = message.as_string()
 
         sm = smtplib.SMTP(smtpServer)
