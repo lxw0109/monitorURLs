@@ -7,26 +7,26 @@ To run the program correctly, Python is needed.<br>
 The version of Python should be newer than **Python 2.6**. Python 2.7 is recommended.
 
 ####Usage of each file:
-0. criterion:<br>
+1. criterion:<br>
 intermedia file, contains the md5 value of each url.
 
-1. emails:<br>
+2. emails:<br>
 email addresses that we want to send warning emails to.
 
-2. urls:<br>
+3. urls:<br>
 urls(websites) that we want to monitor.
 
-3. monitorLog:<br>
+4. monitorLog:<br>
 Log File(monitor Log & Error Log).
 
-4. **myUtils.py**:<br>
+5. **myUtils.py**:<br>
 Utils for monitorURLs.py & Collect the INITIAL criterion data.
 
-5. **monitorURLs.py**:<br>
+6. **monitorURLs.py**:<br>
 monitor urls: compare the newest data with criterion and offer warnings(emails) if necessary.
 
-6. run.sh:<br>
-the interface to run the whole program. run(manually & crontab) it like this:
+7. run.sh:<br>
+the interface to run the whole program. run(manually & crontab) it like this:<br>
 **manually**:<br>
 ```
 bash run.sh
