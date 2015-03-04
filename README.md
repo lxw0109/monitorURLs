@@ -28,18 +28,18 @@ monitor urls: compare the newest data with criterion and offer warnings(emails) 
 7. run.sh:<br>
 the interface to run the whole program. run(manually & crontab) it like this:<br>
 **manually**:<br>
-```
-bash run.sh
-```
+ ```
+ bash run.sh
+ ```
 **crontab**:<br>
 edit the /etc/crontab file:<br>
-```
-sudo vim /etc/crontab
-```
+ ```
+ sudo vim /etc/crontab
+ ```
 append the configuration like this(you can modify it as you wish):<br>
-```
-*/3 * * * * lxw bash /home/lxw/Project/monitorURL/run.sh
-```
+ ```
+ */3 * * * * lxw bash /home/lxw/Project/monitorURL/run.sh
+ ```
 
 ####Functionality Wanted:
 1. Need 3 files: Criterion, Update URLs, AccessError URLs.
