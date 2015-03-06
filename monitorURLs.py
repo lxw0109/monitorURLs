@@ -14,7 +14,7 @@ import datetime
 from MyThread.myThread import MyThread
 import myUtils
 
-#Element format: "url:URL obj"
+#Element format: url:length, md5)
 oldUrlObjDic = {}
 newUrlObjDic = {}
 aeSubject = "【网站故障通知★】"    #The email subject of te  "accessError" url.
@@ -23,6 +23,8 @@ aeCount = 0
 uwSubject = "【网站更新通知】"     #The email subject of te  "updateWarning" url.
 uwContent = ""
 uwCount = 0
+#updateURLs = []     #the URLs that have updated when monitored last time.
+aeURLs = []     #the URLs that have access errors when monitored last time.
 
 #RLock
 aeLock = threading.RLock()   # Access Error: Email Subject/Content RLock.
@@ -63,55 +65,61 @@ def monitor(url):
             req = urllib2.Request(url=url, headers=headers)
             sourceCode  = urllib2.urlopen(req).read()
         except Exception, e:
-            aeLock.acquire()
-            if aeCount < 2:
-                aeSubject += " " + url
-            else:
-                aeSubject += "."
-            aeCount += 1
-            aeContent += "URL: {0}\n检测时间: {1}\n检测结果:检测到网站访问故障，请查看.\n\n".format(url, checkTime)
-            aeLock.release()
+            if url not in aeURLs:
+                aeLock.acquire()
+                if aeCount < 2:
+                    aeSubject += " " + url
+                elif aeCount < 5:
+                    aeSubject += "."
+                aeCount += 1
+                aeContent += "URL: {0}\n检测时间: {1}\n检测结果:检测到网站访问故障，请查看.\n\n".format(url, checkTime)
+                with open("./accessErrorURLs", "a") as f:
+                    f.write(url + "\n")
+                aeLock.release()
         else:
             length, md5Str = myUtils.getLengthMd5(sourceCode)
             nuodLock.acquire()
             newUrlObjDic[url] = URL(length, md5Str)
             nuodLock.release()
-
-            content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic)
+            content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic, sourceCode)
             if content:
                 uwLock.acquire()
                 if uwCount < 2:
                     uwSubject += " " + url
-                else:
+                elif uwCount < 5:
                     uwSubject += "."
                 uwCount += 1
                 uwContent += content
                 uwLock.release()
+            myUtils.recordInFile(url, sourceCode)
     except Exception, e:
-        aeLock.acquire()
-        if aeCount < 2:
-            aeSubject += " " + url
-        else:
-            aeSubject += "."
-        aeCount += 1
-        aeContent += "URL: {0}\n检测时间: {1}\n检测结果:检测到网站访问故障，请查看.\n\n".format(url, checkTime)
-        aeLock.release()
+        if url not in aeURLs:
+            aeLock.acquire()
+            if aeCount < 2:
+                aeSubject += " " + url
+            elif aeCount < 5:
+                aeSubject += "."
+            aeCount += 1
+            aeContent += "URL: {0}\n检测时间: {1}\n检测结果:检测到网站访问故障，请查看.\n\n".format(url, checkTime)
+            with open("./accessErrorURLs", "a") as f:
+                f.write(url + "\n")
+            aeLock.release()
     else:
         length, md5Str = myUtils.getLengthMd5(sourceCode)
         nuodLock.acquire()
         newUrlObjDic[url] = URL(length, md5Str)
         nuodLock.release()
-
-        content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic)
+        content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic, sourceCode)
         if content:
             uwLock.acquire()
             if uwCount < 2:
                 uwSubject += " " + url
-            else:
+            elif uwCount < 5:
                 uwSubject += "."
             uwCount += 1
             uwContent += content
             uwLock.release()
+        myUtils.recordInFile(url, sourceCode)
 
 
 def main():
@@ -128,7 +136,23 @@ def main():
             #URL Object Format: URL(length, md5)
             oldUrlObjDic[arr[0]] = URL(int(arr[1]), arr[2])
 
-    #Just to calculate time, not for thred pool NOW.
+    # initialize the 2 lits: updateURLs & aeURLs.
+    #with open("./updateURLs") as f:
+    #    while 1:
+    #        string= f.readline().strip()
+    #        if not string:
+    #            break
+    #        updateURLs.append(string)
+
+    with open("./accessErrorURLs") as f:
+        while 1:
+            string= f.readline().strip()
+            if not string:
+                break
+            aeURLs.append(string)
+
+
+    # Just to calculate time, not for thred pool NOW.
     threads = []
     # monitor each url in urls file
     with open("./urls") as f:
@@ -147,11 +171,9 @@ def main():
     if aeCount > 0:
         allContent = "本次共检测到{0}个网站访问异常, 详细信息如下:\n\n{1}".format(aeCount, aeContent)
         myUtils.sendEmail(aeSubject, allContent)
-        #print aeCount, allContent
     if uwCount >0:
         allContent = "本次共检测到{0}个网站有更新, 详细信息如下:\n\n{1}".format(uwCount, uwContent)
         myUtils.sendEmail(uwSubject, allContent)
-        #print uwCount, allContent
 
     #Update Criterion file.
     with open("./criterion", "w") as f:
@@ -163,6 +185,6 @@ if __name__ == '__main__':
     start = datetime.datetime.now()
     main()
     end = datetime.datetime.now()
-    print(end - start)
+    print("END" + "-" * 10 + "Time Cost: " + str(end - start))
 else:
-    print("Being imported as a module.")
+    myUtils.writeLog("", "", "Being imported as a module.")

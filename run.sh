@@ -5,8 +5,10 @@
 #Usage: Execute "python /home/lxw/Project/monitorURL/monitrURLs.py"
 
 #kill the PROCESSes that are not wanted to be alive.
-ps aux|grep "monitorURLs.py"|awk '{print $2}'|xargs kill 
+ps aux|grep "monitorURLs.py"|awk '{print $2}'|xargs kill
 
 #run th monitor.
-#cd /home/lxw/Project/monitorURL && python ./monitorURLs.py
-cd /home/lxw/monitorURL && python ./monitorURLs.py
+cd /home/lxw/Project/monitorURL
+#update/create the following file.
+touch accessErrorURLs
+python ./monitorURLs.py >> ./monitorLog

@@ -1,3 +1,5 @@
 monitorLog
 *.pyc
 criterion
+test.py
+Intermedia/*
