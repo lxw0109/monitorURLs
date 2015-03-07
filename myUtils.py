@@ -46,6 +46,7 @@ def writeFile(url, length, md5Str):
 
 
 def sendEmail(subject, content):
+    writeLog("EMAIL SENDING", "", "")
     try:
         smtpServer = "smtp.qq.com" #"smtp.cnnic.cn"
         userName = "monitorURL@foxmail.com"#"liuxiaowei@cnnic.cn"
@@ -79,7 +80,8 @@ def sendEmail(subject, content):
         start = content.index("\n") + 2
         end = content[start:].index("\n") + 2
         writeLog("EMAIL SENDING ERROR", content[:end], str(e))
-
+    else:
+        writeLog("EMAIL SENDING SUCCESS", "", "")
 
 def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
     """
