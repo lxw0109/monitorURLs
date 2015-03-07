@@ -1,0 +1,5 @@
+#lxw
+#monitor the URLs: monitor every 30 minutes.
+*/30 * * * * lxw bash /home/lxw/Project/monitorURL/run.sh
+#clear the monitor Log everday.
+* */24 * * * lxw bash /home/lxw/Project/monitorURL/clearLog.sh

@@ -28,7 +28,7 @@ def writeLog(tag, url, log):
     """
     with open("./monitorLog", "a") as f:
         logLock.acquire()
-        f.write("{0}: {1}\t{2}\n{3}\n\n".format(tag, url, time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), log))
+        f.write("{0}: {1}\t{2}\n{3}\n".format(tag, url, time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), log))
         logLock.release()
 
 
@@ -54,7 +54,7 @@ def sendEmail(subject, content):
 
         fromAddr = "monitorURL@foxmail.com"
         #toAddrs = ["liuxiaowei199001@sina.com", "lxw.ucas@foxmail.com"]
-        toAddrs = ["lxw.ucas@foxmail.com"]
+        toAddrs = ["liuxiaowei@cnnic.cn", "lxw.ucas@foxmail.com"]
 
         message = Message()
         message["Subject"] = subject
@@ -126,12 +126,12 @@ def diff2Str(filename, sourceCode):
                 if not string:
                     break
                 #NOTE: the rstrip() in the following line is essential.
-                list1.append(string.rstrip())
+                list1.append(string.strip())
 
         list2 = sourceCode.splitlines()
         length = len(list2)
         for index in xrange(length):
-            list2[index] = list2[index].rstrip()
+            list2[index] = list2[index].strip()
 
         """
         "Test Code"

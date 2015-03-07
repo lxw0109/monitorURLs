@@ -11,8 +11,7 @@
 ps aux|grep "monitorURLs.py"|awk '{print $2}'|xargs kill
 
 #run th monitor.
-#cd /home/lxw/Project/monitorURL
-cd /home/liuxiaowei/Documents/monitorURLs
+cd /home/lxw/Project/monitorURL
 
 #Preparation:
 #update/create the following File/Dir.
