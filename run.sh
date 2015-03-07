@@ -3,6 +3,9 @@
 #Author: lxw
 #Time: 2015-02-07
 #Usage: Execute "python /home/lxw/Project/monitorURL/monitrURLs.py"
+#HOW TO USE THIS FILE: add one command into file /etc/crontab
+#
+
 
 #kill the PROCESSes that are not wanted to be alive.
 ps aux|grep "monitorURLs.py"|awk '{print $2}'|xargs kill

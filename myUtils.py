@@ -93,17 +93,20 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
     filename = "./Intermedia/" + url.replace("/", "_")
     try:
         if length < urlObjDic[url].getLength():
-            content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
+            content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
             for item in diff2Str(filename, sourceCode):
                 content += item + "\n"
+            content += "\n"
         elif length > urlObjDic[url].getLength():
-            content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，请查看.\n\n".format(url, checkTime, urlObjDic[url].getLength(), length)
+            content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
             for item in diff2Str(filename, sourceCode):
                 content += item + "\n"
+            content += "\n"
         elif md5Str != urlObjDic[url].getMD5Str():
-            content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，请查看.\n\n".format(url, checkTime)
+            content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，具体的差异如下:\n".format(url, checkTime)
             for item in diff2Str(filename, sourceCode):
                 content += item + "\n"
+            content += "\n"
     except KeyError, ke:
         #writeLog("-" * 20 + "\nThis can be avoided.\n KeyError", url, str(ke) + "\n" + "-" * 20)
         content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n\n".format(url, checkTime)
@@ -126,6 +129,10 @@ def diff2Str(filename, sourceCode):
                 list1.append(string.rstrip())
 
         list2 = sourceCode.splitlines()
+        length = len(list2)
+        for index in xrange(length):
+            list2[index] = list2[index].rstrip()
+
         """
         "Test Code"
         if flag:
@@ -141,8 +148,8 @@ def diff2Str(filename, sourceCode):
         length = len(resList)
         finList = []
 
+        #NOTE: the following code has serious problems.
         """
-        # Note the following code has serious problems.
         # Problems: index out of boundary.
         for index in xrange(length):
             if resList[index].startswith(" "):    # ignore the lines that are identical.
@@ -150,11 +157,14 @@ def diff2Str(filename, sourceCode):
             elif len(resList[index]) < 5: # delete the lines ht is maningless
                 del resList[index]
         """
+
         for index in xrange(length):
             #print("\n--------------------\n" + resList[index][0] + "\n--------------------\n")
-            if resList[index].startswith(" "):    # ignore the lines that are identical.
+            if resList[index].startswith(" "):      # ignore the lines that are identical.
                 pass
-            elif len(resList[index]) < 5: # delete the lines that is meaningless
+            elif resList[index].startswith("?"):    # ignore the lines that start with "?"
+                pass
+            elif len(resList[index].strip()) < 5:            # delete the lines that is meaningless
                 pass
             else:
                 finList.append(resList[index])
