@@ -20,6 +20,7 @@ import difflib
 fileLock = threading.RLock()
 logLock = threading.RLock()
 
+#flag = True    # For test
 
 def writeLog(tag, url, log):
     """
@@ -41,11 +42,10 @@ def writeFile(url, length, md5Str):
         fileLock.release()
 
 
-#def sendEmail(subject, content):
-#    print(subject, content)
-
-
 def sendEmail(subject, content):
+    """
+    Send Email.
+    """
     writeLog("EMAIL SENDING", "", "")
     try:
         smtpServer = "smtp.qq.com" #"smtp.cnnic.cn"
@@ -115,15 +115,27 @@ def diff2Str(filename, sourceCode):
     diff the content of "filename" between the latest 2 monitorings.
     """
     try:
+        global flag
         list1 = []
         with open(filename) as f:
             while 1:
                 string = f.readline()
                 if not string:
                     break
-                list1.append(string)
+                #NOTE: the rstrip() in the following line is essential.
+                list1.append(string.rstrip())
 
         list2 = sourceCode.splitlines()
+        """
+        "Test Code"
+        if flag:
+            print("-------------Creating list1 & list2")
+            with open("./list1", "w") as f:
+                f.write("\n".join(list1))
+            with open("./list2", "w") as f:
+                f.write("\n".join(list2))
+            flag = False
+        """
         d = difflib.Differ()
         resList = list(d.compare(list1, list2))
         length = len(resList)
@@ -139,9 +151,10 @@ def diff2Str(filename, sourceCode):
                 del resList[index]
         """
         for index in xrange(length):
+            #print("\n--------------------\n" + resList[index][0] + "\n--------------------\n")
             if resList[index].startswith(" "):    # ignore the lines that are identical.
                 pass
-            elif len(resList[index]) < 5: # delete the lines ht is maningless
+            elif len(resList[index]) < 5: # delete the lines that is meaningless
                 pass
             else:
                 finList.append(resList[index])
@@ -149,7 +162,6 @@ def diff2Str(filename, sourceCode):
     except Exception, e:
         writeLog("ERROR", "", str(e))
         return []
-
 
 
 def eachCriterion(url):
