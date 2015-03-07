@@ -185,6 +185,6 @@ if __name__ == '__main__':
     start = datetime.datetime.now()
     main()
     end = datetime.datetime.now()
-    print("END" + "-" * 10 + "Time Cost: " + str(end - start))
+    print("-" * 20 +  "\nEND" + "-" * 10 + "Time Cost: " + str(end - start))
 else:
     myUtils.writeLog("", "", "Being imported as a module.")

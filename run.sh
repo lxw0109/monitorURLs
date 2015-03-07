@@ -8,7 +8,14 @@
 ps aux|grep "monitorURLs.py"|awk '{print $2}'|xargs kill
 
 #run th monitor.
-cd /home/lxw/Project/monitorURL
-#update/create the following file.
+#cd /home/lxw/Project/monitorURL
+cd /home/liuxiaowei/Documents/monitorURLs
+
+#Preparation:
+#update/create the following File/Dir.
+touch criterion
 touch accessErrorURLs
+[ -d Intermedia ] || mkdir Intermedia
+
+#Monitor:
 python ./monitorURLs.py >> ./monitorLog

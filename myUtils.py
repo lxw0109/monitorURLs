@@ -41,6 +41,10 @@ def writeFile(url, length, md5Str):
         fileLock.release()
 
 
+#def sendEmail(subject, content):
+#    print(subject, content)
+
+
 def sendEmail(subject, content):
     try:
         smtpServer = "smtp.qq.com" #"smtp.cnnic.cn"
@@ -48,7 +52,8 @@ def sendEmail(subject, content):
         password = "Python1"
 
         fromAddr = "monitorURL@foxmail.com"
-        toAddrs = ["liuxiaowei199001@sina.com", "lxw.ucas@foxmail.com"]
+        #toAddrs = ["liuxiaowei199001@sina.com", "lxw.ucas@foxmail.com"]
+        toAddrs = ["lxw.ucas@foxmail.com"]
 
         message = Message()
         message["Subject"] = subject
@@ -98,7 +103,8 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
             for item in diff2Str(filename, sourceCode):
                 content += item + "\n"
     except KeyError, ke:
-        writeLog("-" * 20 + "\nThis can be avoided.\n KeyError", url, str(ke) + "\n" + "-" * 20)
+        #writeLog("-" * 20 + "\nThis can be avoided.\n KeyError", url, str(ke) + "\n" + "-" * 20)
+        content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n\n".format(url, checkTime)
     return content
 
 
