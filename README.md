@@ -1,3 +1,7 @@
+####welcome to contact me:
+lxw.ucas@gmail.com
+
+
 ####What this Program used for:
 Monitor a specific list of url to check whether they have updated(legitimately or maliciously). If the website(url) updated, then send an notification email to a specific list of recipients.<br>
 **What's more, if the website(url) cannot be accessed, an an notification email will be sent as well. _Actually This is the main purpose of this program._**<<br>
@@ -38,15 +42,24 @@ edit the /etc/crontab file:<br>
  ```
 append the configuration like this(you can modify it as you wish):<br>
  ```
- */3 * * * * lxw bash /home/lxw/Project/monitorURL/run.sh
+ */30 * * * * lxw bash /home/lxw/Project/monitorURL/run.sh
  ```
-8. updateURLs:
-This file contains the URLs that were found to have been updated when monitored last time.
+
+8. clearLog.sh:<br>
+This script file is the interface to clear the Log information and to reinitialize the corresponding files. run(manually & crontab) it like this:<br>
+**manually**:<br>
+ ```
+ bash clearLog.sh
+ ```
+**crontab**:<br>
+edit the /etc/crontab file:<br>
+ ```
+ sudo vim /etc/crontab
+ ```
+append the configuration like this(you can modify it as you wish):<br>
+ ```
+ * */24 * * * lxw bash /home/lxw/Project/monitorURL/run.sh
+ ```
 
 9. accessErrorURLs:
 This file contains the URLs that were found to have access errors when monitored last time.
-
-
-####Functionality Wanted:
-1. Give diff content.
-diff is not OK right now.

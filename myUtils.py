@@ -16,6 +16,7 @@ import smtplib
 import base64
 from email.message import Message
 import difflib
+import traceback
 
 fileLock = threading.RLock()
 logLock = threading.RLock()
@@ -48,11 +49,14 @@ def sendEmail(subject, content):
     """
     writeLog("EMAIL SENDING", "", "")
     try:
-        smtpServer = "smtp.qq.com" #"smtp.cnnic.cn"
-        userName = "monitorURL@foxmail.com"#"liuxiaowei@cnnic.cn"
+        #smtpServer = "smtp.qq.com" #"smtp.cnnic.cn"
+        smtpServer = "smtp.cnnic.cn"
+        #userName = "monitorURL@foxmail.com"#"liuxiaowei@cnnic.cn"
+        userName = "liuxiaowei@cnnic.cn"
         password = "Python1"
 
-        fromAddr = "monitorURL@foxmail.com"
+        #fromAddr = "monitorURL@foxmail.com"
+        fromAddr = "liuxiaowei@cnnic.cn"
         #toAddrs = ["liuxiaowei199001@sina.com", "lxw.ucas@foxmail.com"]
         toAddrs = ["liuxiaowei@cnnic.cn", "lxw.ucas@foxmail.com"]
 
@@ -77,9 +81,10 @@ def sendEmail(subject, content):
         time.sleep(5)
         sm.quit()
     except Exception, e:
-        start = content.index("\n") + 2
-        end = content[start:].index("\n") + 2
-        writeLog("EMAIL SENDING ERROR", content[:end], str(e))
+        #start = content.index("\n") + 2
+        #end = content[start:].index("\n") + 2
+        #writeLog("EMAIL SENDING ERROR", content[:end], str(e))
+        writeLog("EMAIL SENDING ERROR", "", traceback.format_exc())
     else:
         writeLog("EMAIL SENDING SUCCESS", "", "")
 
