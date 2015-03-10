@@ -42,7 +42,7 @@ edit the /etc/crontab file:<br>
  ```
 append the configuration like this(you can modify it as you wish):<br>
  ```
- */30 * * * * lxw bash /home/lxw/Project/monitorURL/run.sh
+ 0 9 * * * lxw bash /home/lxw/monitorURL/run.sh > /dev/null
  ```
 
 8. clearLog.sh:<br>
@@ -58,7 +58,7 @@ edit the /etc/crontab file:<br>
  ```
 append the configuration like this(you can modify it as you wish):<br>
  ```
- * */24 * * * lxw bash /home/lxw/Project/monitorURL/run.sh
+ 0 0 * * 0 lxw bash /home/lxw/monitorURL/clearLog.sh > /dev/null
  ```
 
 9. accessErrorURLs:
