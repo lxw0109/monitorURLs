@@ -87,7 +87,7 @@ def sendEmail(subject, content):
         #start = content.index("\n") + 2
         #end = content[start:].index("\n") + 2
         #writeLog("EMAIL SENDING ERROR", content[:end], str(e))
-        writeLog("lxw-test: EMAIL SENDING ERROR", "", traceback.format_exc())
+        writeLog("EMAIL SENDING ERROR", "", traceback.format_exc())
     else:
         writeLog("EMAIL SENDING SUCCESS", "", "")
 
