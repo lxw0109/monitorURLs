@@ -72,7 +72,7 @@ def monitor(url):
                 elif aeCount < 5:
                     aeSubject += "."
                 aeCount += 1
-                aeContent += "URL: {0}\n检测时间: {1}\n检测结果:检测到网站访问故障，请查看.\n\n".format(url, checkTime)
+                aeContent += "URL: {0}\n监测时间: {1}\n监测结果:监测到网站访问故障，请查看.\n\n".format(url, checkTime)
                 with open("./accessErrorURLs", "a") as f:
                     f.write(url + "\n")
                 aeLock.release()
@@ -100,7 +100,7 @@ def monitor(url):
             elif aeCount < 5:
                 aeSubject += "."
             aeCount += 1
-            aeContent += "URL: {0}\n检测时间: {1}\n检测结果:检测到网站访问故障，请查看.\n\n".format(url, checkTime)
+            aeContent += "URL: {0}\n监测时间: {1}\n监测结果:监测到网站访问故障，请查看.\n\n".format(url, checkTime)
             with open("./accessErrorURLs", "a") as f:
                 f.write(url + "\n")
             aeLock.release()
@@ -169,10 +169,10 @@ def main():
         thread.join()
 
     if aeCount > 0:
-        allContent = "本次共检测到{0}个网站访问异常, 详细信息如下:\n\n{1}".format(aeCount, aeContent)
+        allContent = "本次共监测网站45个, 其中有{0}个网站访问异常, 详细信息如下:\n\n{1}".format(aeCount, aeContent)
         myUtils.sendEmail(aeSubject, allContent)
     if uwCount >0:
-        allContent = "本次共检测到{0}个网站有更新, 详细信息如下:\n\n{1}".format(uwCount, uwContent)
+        allContent = "本次共监测网站45个, 其中有{0}个网站监测到有更新, 详细信息如下:\n\n{1}".format(uwCount, uwContent)
         myUtils.sendEmail(uwSubject, allContent)
 
     #Update Criterion file.
