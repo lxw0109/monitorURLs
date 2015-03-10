@@ -45,8 +45,3 @@ This file contains the URLs that were found to have been updated when monitored 
 
 9. accessErrorURLs:
 This file contains the URLs that were found to have access errors when monitored last time.
-
-
-####Functionality Wanted:
-1. Give diff content.
-diff is not OK right now.
