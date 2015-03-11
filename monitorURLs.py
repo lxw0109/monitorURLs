@@ -164,15 +164,16 @@ def main():
             mt = MyThread(monitor, (url,))
             mt.start()
             threads.append(mt)
+    #myUtils.writeLog("Monitoring {0} urls".format(len(threads)), "", "")
 
     for thread in threads:
         thread.join()
 
     if aeCount > 0:
-        allContent = "本次共监测网站45个, 其中有{0}个网站访问异常, 详细信息如下:\n\n{1}".format(aeCount, aeContent)
+        allContent = "本次共监测网站44个, 其中有{0}个网站访问异常, 详细信息如下:\n\n{1}".format(aeCount, aeContent)
         myUtils.sendEmail(aeSubject, allContent)
     if uwCount >0:
-        allContent = "本次共监测网站45个, 其中有{0}个网站监测到有更新, 详细信息如下:\n\n{1}".format(uwCount, uwContent)
+        allContent = "本次共监测网站44个, 其中有{0}个网站监测到有更新, 详细信息如下:\n\n{1}".format(uwCount, uwContent)
         myUtils.sendEmail(uwSubject, allContent)
 
     #Update Criterion file.
