@@ -8,7 +8,6 @@
 
 import urllib2
 import time
-import md5
 import threading
 import datetime
 from MyThread.myThread import MyThread
