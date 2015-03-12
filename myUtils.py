@@ -21,7 +21,9 @@ import traceback
 fileLock = threading.RLock()
 logLock = threading.RLock()
 
-#flag = True    # For test
+reviveList = []
+rLLock = threading.RLock()   # reviveList Lock.
+#reviveList is to update the accessErrorURLs, when url revive.
 
 def writeLog(tag, url, log):
     """
@@ -119,6 +121,10 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
     except KeyError, ke:
         #writeLog("-" * 20 + "\nThis can be avoided.\n KeyError", url, str(ke) + "\n" + "-" * 20)
         content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n\n".format(url, checkTime)
+        #This function will be invoked by multi threads.
+        rLLock.acquire()
+        reviveList.append(url)
+        rLLock.release()
     return content
 
 
@@ -141,6 +147,8 @@ def diff2Str(filename, sourceCode):
         length = len(list2)
         for index in xrange(length):
             list2[index] = list2[index].strip()
+        list1 = filter(list1)
+        list2 = filter(list2)
 
         d = difflib.Differ()
         resList = list(d.compare(list1, list2))
@@ -168,9 +176,10 @@ def diff2Str(filename, sourceCode):
             else:
                 finList.append(resList[index])
 
-        #return finList
+        return finList
         #filter finList to ignore the information that's not important.
-        return filter(finList)
+        #return filter(finList)
+        #Actually, we should filter both of the 2 lists in advance.
     except IOError, e:
         writeLog("IOERROR Occurred", "", traceback.format_exc())
     except Exception, e:
