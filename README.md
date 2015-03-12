@@ -63,3 +63,7 @@ append the configuration like this(you can modify it as you wish):<br>
 
 9. accessErrorURLs:
 This file contains the URLs that were found to have access errors when monitored last time.
+
+
+###Todos:
+1. Only keep href & title. Ignore the information meaningless.
