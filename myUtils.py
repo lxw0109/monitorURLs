@@ -46,6 +46,10 @@ def writeFile(url, length, md5Str):
 
 
 def sendEmail(subject, content):
+    print("subject:{0}\nContent:{1}\n\n".format(subject, content))
+
+
+def sendEmail1(subject, content):
     """
     Send Email.
     """
@@ -119,9 +123,8 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
                     content += item + "\n"
                 content += "\n"
     except KeyError, ke:
-        #writeLog("-" * 20 + "\nThis can be avoided.\n KeyError", url, str(ke) + "\n" + "-" * 20)
         content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n\n".format(url, checkTime)
-        #This function will be invoked by multi threads.
+        #This function will be invoked by multi threads, so rLLock is essential here.
         rLLock.acquire()
         reviveList.append(url)
         rLLock.release()
@@ -133,7 +136,6 @@ def diff2Str(filename, sourceCode):
     diff the content of "filename" between the latest 2 monitorings.
     """
     try:
-        global flag
         list1 = []
         with open(filename) as f:
             while 1:
@@ -149,41 +151,34 @@ def diff2Str(filename, sourceCode):
             list2[index] = list2[index].strip()
         list1 = filter(list1)
         list2 = filter(list2)
+        #print "list1--------------------------------------------\n", list1
+        #print "list2--------------------------------------------\n", list2
 
         d = difflib.Differ()
+        # Use set() to remove the duplicated elements in list.
         resList = list(d.compare(list1, list2))
+        print "list:diff list1 & list2-------------------------------\n", resList
+        resList = list(set(resList))
+        print "set:diff list1 & list2-------------------------------\n", resList
+
         length = len(resList)
         finList = []
-
-        #NOTE: the following code has serious problems.
-        """
-        # Problems: index out of boundary.
         for index in xrange(length):
-            if resList[index].startswith(" "):    # ignore the lines that are identical.
-                del resList[index]
-            elif len(resList[index]) < 5: # delete the lines ht is maningless
-                del resList[index]
-        """
-
-        for index in xrange(length):
-            #print("\n--------------------\n" + resList[index][0] + "\n--------------------\n")
             if resList[index].startswith(" "):      # ignore the lines that are identical.
                 pass
-            elif resList[index].startswith("?"):    # ignore the lines that start with "?"
-                pass
+            #elif resList[index].startswith("?"):    # ignore the lines that start with "?"
+            #    pass
             elif len(resList[index].strip()) < 5:            # delete the lines that is meaningless
                 pass
             else:
                 finList.append(resList[index])
-
+        print "finalList:diff list1 & list2-------------------------------\n", finList
         return finList
-        #filter finList to ignore the information that's not important.
-        #return filter(finList)
-        #Actually, we should filter both of the 2 lists in advance.
     except IOError, e:
-        writeLog("IOERROR Occurred", "", traceback.format_exc())
+        writeLog("lxw_IOERROR Occurred(File not found, url revives now.)", "", traceback.format_exc())
+        return []
     except Exception, e:
-        writeLog("ERROR", "", traceback.format_exc())
+        writeLog("lxw_ERROR", "", traceback.format_exc())
         return []
 
 
@@ -197,9 +192,11 @@ def filter(aList):
             index1 = item.find("title=\"")
             if index1 > 0:  #contain
                 index2 = item[index1+7:].find("\"")
-                resList.append(item[0] + item[index1+7:index1+7+index2])
+                string = item[index1+7:index1+7+index2]
+                if string != "":
+                    resList.append(string)
     except Exception, e:
-        writeLog("ERROR", "", traceback.format_exc())
+        writeLog("lxw_filter ERROR", "", traceback.format_exc())
 
     return resList
 

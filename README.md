@@ -69,5 +69,4 @@ This file contains the URLs that were found to have access errors when monitored
 1. myUtils.py
 reviveList is to update the accessErrorURLs, when url revive.
 **_The code update accessErrorURLs has not been offered yet._**
-2. _**The value of "aeCount" & "uwCount" should be modified? But it seemed OK? Check it.**_
-3. Why so much sites get "Access Error"?
+2. finList does have the diff info, why no email sent?
