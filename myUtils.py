@@ -60,7 +60,7 @@ def sendEmail(subject, content):
         fromAddr = "liuxiaowei@cnnic.cn"
         #toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn"]
         #toAddrs = ["chenyong@cnnic.cn", "liuxiaowei@cnnic.cn"]
-        toAddrs = ["liuxiaowei@cnnic.cn"]
+        toAddrs = ["lxwin@foxmail.com", "liuxiaowei@cnnic.cn"]
 
         message = Message()
         message["Subject"] = subject
@@ -99,19 +99,20 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
     content = ""
     filename = "./Intermedia/" + url.replace("/", "_")
     try:
+        conList = diff2Str(filename, sourceCode)
         if length < urlObjDic[url].getLength():
             content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
-            for item in diff2Str(filename, sourceCode):
+            for item in conList:
                 content += item + "\n"
             content += "\n"
         elif length > urlObjDic[url].getLength():
             content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
-            for item in diff2Str(filename, sourceCode):
+            for item in conList:
                 content += item + "\n"
             content += "\n"
         elif md5Str != urlObjDic[url].getMD5Str():
             content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，具体的差异如下:\n".format(url, checkTime)
-            for item in diff2Str(filename, sourceCode):
+            for item in conList:
                 content += item + "\n"
             content += "\n"
     except KeyError, ke:
@@ -187,15 +188,17 @@ def filter(aList):
     """
     filter aList to ignore the information that's not important.
     """
-    length = len(aList)
-    for index in xrange(length):
-        index1 = aList[index].find("title=\"")
-        if index1 > 0:  #contain
-            index2 = aList[index1+7:].find("\"")
-            aList[index] = aList[0] + aList[index1, index1+index2]
+    resList = []
+    try:
+        for item in aList:
+            index1 = item.find("title=\"")
+            if index1 > 0:  #contain
+                index2 = item[index1+7:].find("\"")
+                resList.append(item[0] + item[index1+7:index1+7+index2])
+    except Exception, e:
+        writeLog("ERROR", "", traceback.format_exc())
 
-    return aList
-
+    return resList
 
 
 def eachCriterion(url):
