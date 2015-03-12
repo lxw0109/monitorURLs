@@ -1,0 +1,249 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <title>Gmane -- Search</title>
+    <link href="http://gmane.org/img/gmane.css" rel="stylesheet" type="text/css">
+    <link rel="SHORTCUT ICON" href="http://gmane.org/favicon.ico">
+</head>
+<body bgcolor=white text=black class=main>
+  <table cellpadding=5 cellspacing=10 class="main">
+  <tr valign=top>
+  <td class="maintd">
+  <div class="tdiv">
+  <div>
+  <a href="http://gmane.org/">Home</a><br>
+  <a href="http://dir.gmane.org/">Reading</a><br>
+  <a href="http://search.gmane.org">Searching</a><br>
+  <a href="http://gmane.org/subscribe.php">Subscribe</a><br>
+  <a href="http://gmane.org/sponsors.php">Sponsors</a><br>
+  <a href="http://gmane.org/stats.php">Statistics</a><br>
+  <a href="http://gmane.org/post.php">Posting</a><br>
+  <a href="http://gmane.org/contact.php">Contact</a><br>
+  <a href="http://gmane.org/spam-control.php">Spam</a><br>
+  <a href="http://gmane.org/find.php">Lists</a><br>
+  <a href="http://gmane.org/links.php">Links</a><br>
+<a href="http://gmane.org/about.php">About</a><br>
+<a href="http://gmane.org/host.php">Hosting</a><br>
+<a href="http://gmane.org/filter.php">Filtering</a><br>
+<a href="http://gmane.org/features.php">Features</a>
+<a href="http://gmane.org/dist.php">Download</a><br>
+<a href="http://gmane.org/logo.php">Marketing</a><br>
+<a href="http://gmane.org/import.php">Archives</a><br>
+<a href="http://weaver.gmane.org/">Weaver</a><br>
+  <a href="http://gmane.org/faq.php">FAQ</a><br>
+  &nbsp;<br>
+  </div>
+  <div class="ltd">
+  <!-- <img src="http://gmane.org/img/gmane-25.png" width=25 height=25 alt="Gmane"> -->
+  </div>
+  </div>
+  </td>
+  <td align=center class="maintd">
+  <a href="http://gmane.org/"><img src="http://gmane.org/img/gmane-rot.png" alt="Gmane" border=0></a>
+  </td>
+  <td class="bodytd">  
+<form method="get" id="mform" action="/">
+<table cellpadding=4 width="100%">
+<tr>
+<td class="webtd">
+<table>
+<tr>
+<td class="wetd">Search for words</td>
+<td><input type=text name=query size=80 value="" autofocus></td>
+</tr>
+<tr>
+<td class="wetd">Written by</td>
+<td class="wetd"><input type=text name=author size=40 value=""> (Now accepts real names!)</td></tr>
+<tr>
+<td class="wetd">In group</td>
+<td><input type=text name=group size=40 value="">
+<input type=submit value="Search >>"></td></tr>
+<tr>
+<td class="wetd">Sort by</td>
+<td class="wetd">
+<label><input type=radio name="sort" value="relevance" checked>Relevance</label>
+<label><input type=radio name="sort" value="date">Newest First</label>
+<label><input type=radio name="sort" value="revdate">Oldest First</label>
+</td>
+</tr>
+<tr>
+<td class="wetd">Matching:</td>
+<td class="wetd">
+<label><INPUT TYPE=radio NAME=DEFAULTOP VALUE=and checked>All words (AND)</label>
+<label><INPUT TYPE=radio NAME=DEFAULTOP VALUE=or>Any words (OR)</label>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<div style="float: right;">
+<small><center><a title="Search Plugin for Firefox and Mozilla Web browsers"
+href="http://article.gmane.org/gmane.discuss/8737"><img src="firefox-plugin.png" alt="Search Plugin for Firefox and Mozilla Web browsers" border=0><br>Firefox Search Plugin</a><br>
+<a href="http://www.spreadfirefox.com/?q=affiliates&id=152710&t=64"><img border="0" alt="Get Firefox!" title="Get Firefox!" src="http://sfx-images.mozilla.org/affiliates/Buttons/110x32/get.gif"/></a></center></small></div>
+
+<h1>Welcome to the Xapian-powered Gmane search!</h1>
+
+<p><b style='color:red;'>New:</b>
+<ul compact>
+<li>2008-05-16: Upgraded to a snapshot of Xapian SVN trunk.
+We're now <a href="http://article.gmane.org/gmane.discuss/11701">using
+the new "chert" backend</a>.
+<li>2008-01-10: <a href="http://article.gmane.org/gmane.discuss/11454">New "pre-filled form" feature</a>.</li>
+<li>2007-06-22: Upgraded to Xapian 1.0.1.  Queries are now stemmed by default.  Term tokenisation uses an improved algorithm.</li>
+<li>2007-02-27: The index has been rebuilt with a new fallback algorithm to handle malformed "From:" headers.</li>
+<li>2006-12-04: Approved spam reports have now been removed from the search engine index.</li>
+<li>2006-12-03: <a href="http://article.gmane.org/gmane.discuss/10349">Added "short url for this search" link</a> to the results page.</li>
+<li>2006-12-03: <a href="http://article.gmane.org/gmane.discuss/10349"><code>group:</code> and <code>author:</code> prefixes</a> can now be used in the query.</li>
+<li>2006-12-02: Upgraded to Xapian 0.9.9, which fixes a few query parsing issues.</li>
+<!--
+<li><a href="/~xapian/">Code downloads</a> now available.</li>
+<li><a href="http://article.gmane.org/gmane.discuss/9076">Real names</a> can now be used in the author filter.</li>
+<li>Renamed groups can <a href="http://article.gmane.org/gmane.discuss/8905">now be searched for under the new name as well as the old one</a>.</li>
+<li>The author email filter <a href="http://article.gmane.org/gmane.discuss/8901">now works for encrypted groups</a>.</li>
+<li>Highlighting in the samples <a href="http://article.gmane.org/gmane.discuss/8766">now works with
+unicode</a></li>
+<li><a href="http://article.gmane.org/gmane.discuss/8737">Gmane search plugin</a> for Mozilla and Firefox!</li>
+-->
+</ul></p>
+
+<p>The <a href="/~xapian/">source code for this search</a> is available, licensed under the GPL.</p>
+
+<p>
+Note: At present the index is being updated roughly once a day, so new
+articles may not be searchable until the next day.  Sometimes development
+work can delay updates for a few days too.
+  The most recent update was around 7 hour(s) ago.</p>
+
+<h2>Supported Features</h2>
+
+<dl>
+<dt>Results sorting</dt>
+<dd>You can order results by relevance, date (newest first), or reverse date
+(oldest first).</dd>
+<dt>Boolean query operators</dt>
+<dd><code>AND</code>, <code>OR</code>, <code>NOT</code> (or <code>AND&nbsp;NOT</code>), and <code>XOR</code>
+are supported, and brackets can be used to control operator precedence,
+e.g. <code>(debian OR ubuntu) AND linux</code>  Note that operators must be written with all capital letters to
+be recognised.
+</dd>
+<dt>Required and excluded terms</dt>
+<dd><code>+</code> and <code>-</code> can be used to require or exclude terms,
+e.g. <code>football -american</code>
+</dd>
+<!-- Matching Any or All words -->
+<dt>Unicode handling</dt>
+<dd>The search engine converts all text to utf-8, so searching should work in
+any language.</dd>
+<dt>Stopwords</dt>
+<dd>Common English words (like 'the' and 'a') are ignored by default.  You
+can override this by prefixing such words with a + (e.g. <code>+the</code>)
+or enclosing the word in "" (e.g. <code>"the"</code>).</dd>
+<dt>Group Filter</dt>
+<dd>The group filter can be a single Gmane group name (e.g. <code>gmane.discuss</code>) or a wildcarded hierarchy (e.g. <code>gmane.comp.*</code>).  Since all groups start "gmane.", you can omit that.  Note that arbitrary wildcards and substring matches aren't currently supported.  You can also filter by or exclude groups by using (e.g.) <code>group:gmane.linux.*</code> or <code>-group:gmane.linux.*</code> in the main query.</dd>
+<dt>Author Filter</dt>
+<dd>The author filter accepts real names or a complete email address.
+Wildcards aren't currently supported.
+You can also filter by or exclude authors by using (e.g.) <code>author:fred@example.com</code> or <code>-author:linus</code> in the main query.</dd>
+</dl>
+
+<h2>Adding a "Gmane Search" to your webpages</h2>
+
+<p>We encourage you to add a Gmane Search facility to your webpages if you
+think it would be useful to your visitors.  Here are some examples of the
+HTML required to do it:
+</p>
+
+<pre style="margin:0.5em;padding:0.5em;border:1px;border-style:dotted;background-color:#eeee99;">
+&lt;form method="get" action="http://search.gmane.org/"&gt;
+&lt;input type="text" name="query"&gt;
+&lt;input type="submit" value="Search Gmane"&gt;
+&lt;/form&gt;</pre>
+
+<div style="margin:0.5em;padding:0.5em;border:1px;border-style:solid;">
+<form method="get" action="http://search.gmane.org/">
+<input type="text" name="query">
+<input type="submit" value="Search Gmane">
+</form>
+</div>
+
+<p>You can restrict the search to a particular group by specifying the
+<code>group</code> CGI parameter:</p>
+
+<pre style="margin:0.5em;padding:0.5em;border:1px;border-style:dotted;background-color:#eeee99;">
+&lt;form method="get" action="http://search.gmane.org/"&gt;
+&lt;input type="text" name="query"&gt;
+&lt;input type="hidden" name="group" value="gmane.discuss"&gt;
+&lt;input type="submit" value="Search gmane.discuss"&gt;
+&lt;/form&gt;</pre>
+
+<div style="margin:0.5em;padding:0.5em;border:1px;border-style:solid;">
+<form method="get" action="http://search.gmane.org/">
+<input type="text" name="query">
+<input type="hidden" name="group" value="gmane.discuss">
+<input type="submit" value="Search gmane.discuss">
+</form>
+</div>
+
+<p>Or perhaps you'd like the user to be able to choose the group from a small
+selection:</p>
+
+<pre style="margin:0.5em;padding:0.5em;border:1px;border-style:dotted;background-color:#eeee99;">
+&lt;form method="get" action="http://search.gmane.org/"&gt;
+&lt;input type="text" name="query"&gt;
+&lt;select name="group"&gt;
+&lt;option value="gmane.discuss"&gt;gmane.discuss&lt;/option&gt;
+&lt;option value="gmane.test"&gt;gmane.test&lt;/option&gt;
+&lt;/select&gt;
+&lt;input type="submit" value="Search"&gt;
+&lt;/form&gt;</pre>
+
+<div style="margin:0.5em;padding:0.5em;border:1px;border-style:solid;">
+<form method="get" action="http://search.gmane.org/">
+<input type="text" name="query">
+<select name="group">
+<option value="gmane.discuss">gmane.discuss</option>
+<option value="gmane.test">gmane.test</option>
+</select>
+<input type="submit" value="Search">
+</form>
+</div>
+
+<small>
+<!--
+<h2>Coming Soon!</h2>
+
+<ul>
+</ul>
+-->
+
+<h2>For the future:</h2>
+
+<ul>
+<li> Sort by date could be a lot faster (as fast as Sort by reverse date)
+<li> Allow wildcards anywhere in group filter, e.g. *emacs*
+<li> Reenable phrase searching
+<li> Spelling correction
+<li> Add terms to allow searching for username part of an email address
+</ul>
+</small>
+
+<p>Please report problems to <a href="http://news.gmane.org/gmane.discuss/">gmane.discuss</a>.</p>
+
+<div align=right><a href="http://www.xapian.org/"><img border=0 alt="powered by Xapian" src="http://www.xapian.org/xapian-powered.png"></a></div>
+<script type="text/javascript">
+<!--
+function setfocus() { 
+  document.mform.query.focus(); 
+}  
+setfocus();
+// -->
+</script>
+</form>
+  </td>
+  </tr>
+  </table>
+  </body>
+</html>
+

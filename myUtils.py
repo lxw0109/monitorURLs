@@ -100,21 +100,22 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
     filename = "./Intermedia/" + url.replace("/", "_")
     try:
         conList = diff2Str(filename, sourceCode)
-        if length < urlObjDic[url].getLength():
-            content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
-            for item in conList:
-                content += item + "\n"
-            content += "\n"
-        elif length > urlObjDic[url].getLength():
-            content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
-            for item in conList:
-                content += item + "\n"
-            content += "\n"
-        elif md5Str != urlObjDic[url].getMD5Str():
-            content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，具体的差异如下:\n".format(url, checkTime)
-            for item in conList:
-                content += item + "\n"
-            content += "\n"
+        if conList != []:
+            if length < urlObjDic[url].getLength():
+                content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
+                for item in conList:
+                    content += item + "\n"
+                content += "\n"
+            elif length > urlObjDic[url].getLength():
+                content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
+                for item in conList:
+                    content += item + "\n"
+                content += "\n"
+            elif md5Str != urlObjDic[url].getMD5Str():
+                content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，具体的差异如下:\n".format(url, checkTime)
+                for item in conList:
+                    content += item + "\n"
+                content += "\n"
     except KeyError, ke:
         #writeLog("-" * 20 + "\nThis can be avoided.\n KeyError", url, str(ke) + "\n" + "-" * 20)
         content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n\n".format(url, checkTime)
@@ -141,16 +142,6 @@ def diff2Str(filename, sourceCode):
         for index in xrange(length):
             list2[index] = list2[index].strip()
 
-        """
-        "Test Code"
-        if flag:
-            print("-------------Creating list1 & list2")
-            with open("./list1", "w") as f:
-                f.write("\n".join(list1))
-            with open("./list2", "w") as f:
-                f.write("\n".join(list2))
-            flag = False
-        """
         d = difflib.Differ()
         resList = list(d.compare(list1, list2))
         length = len(resList)
@@ -180,9 +171,12 @@ def diff2Str(filename, sourceCode):
         #return finList
         #filter finList to ignore the information that's not important.
         return filter(finList)
+    except IOError, e:
+        writeLog("IOERROR Occurred", "", traceback.format_exc())
     except Exception, e:
-        writeLog("ERROR", "", str(e))
+        writeLog("ERROR", "", traceback.format_exc())
         return []
+
 
 def filter(aList):
     """
@@ -214,13 +208,13 @@ def eachCriterion(url):
             req = urllib2.Request(url=url, headers=headers)
             sourceCode  = urllib2.urlopen(req).read()
         except Exception, e:
-            writeLog("**Never show because never call.**Access Error", url, str(e))
+            writeLog("**Never show because never call.**Access Error", url, traceback.format_exc())
         else:
             length, md5Str = getLengthMd5(sourceCode)
             writeFile(url, length, md5Str)
 
     except Exception, e:
-        writeLog("**Never show because never call.**Access Error", url, str(e))
+        writeLog("**Never show because never call.**Access Error", url, traceback.format_exc())
     else:
         length, md5Str = getLengthMd5(sourceCode)
         writeFile(url, length, md5Str)
@@ -232,7 +226,7 @@ def recordInFile(url, sourceCode):
     """
     url = url.replace("/", "_")
 
-    filename = "./Intermedia/" + url
+    filename = "./Intermedia_new/" + url
     with open(filename, "w") as f:
         f.write(sourceCode + "\n")
 

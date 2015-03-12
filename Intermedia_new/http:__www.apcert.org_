@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>APCERT</title>
+<meta name="keywords" content="APCERT" />
+<meta name="description" content="APCERT" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<link rel="stylesheet" href="./common/css/font.css" type="text/css" />
+<link rel="stylesheet" href="./common/css/master.css" type="text/css" media="screen, print" />
+<link rel="stylesheet" href="./common/css/print_top.css" type="text/css" media="print" />
+
+<script type="text/javascript" src="./common/js/newWin.js"></script>
+<script type="text/javascript" src="./common/js/popup.js"></script>
+
+</head>
+
+<body onload="changeLdMode();changeLdMode2()" onunload="if(tid){clearTimeout(tid);};if(tid2){clearTimeout(tid2);}"><a name="top" id="top"></a>
+<noscript><p>JavaScript is used in this page.</p></noscript>
+<div id="wrapper">
+	<!-- #header begin -->
+	<div id="headerwrapper">
+		<div id="header">
+			<div id="logo" title="APCERT"><p><a href="./index.html">APCERT</a></p></div>
+
+			<div class="nav"><div class="contact"><a href="./contact/index.html"><img src="./common/img/contact.gif" alt="Contact Us" border="0" width="57" height="9" /></a></div>
+			<ul id="globalnav">
+			<li class="lion"><a href="./index.html"><img src="./common/img/nav01.gif" title="HOME" alt="HOME" border="0" width="51" height="23" /></a></li
+			><li><a href="./about/index.html" onmouseout="menuCloseTimer('1')" onmouseover="showMenu('1')"><img src="./common/img/nav02.gif" alt="About APCERT" title="About APCERT" border="0" width="87" height="23" /></a></li
+			><li><a href="./events/index.html" onmouseout="menuCloseTimer('2')" onmouseover="showMenu('2')"><img src="./common/img/nav03.gif" alt="Events" title="Events" border="0" width="67" height="23" /></a></li
+			><li><a href="./documents/index.html"><img src="./common/img/nav04.gif" alt="Documents" title="Documents" border="0" width="67" height="23" /></a></li
+			><li><a href="./application/index.html" onmouseout="menuCloseTimer('3')" onmouseover="showMenu('3')"><img src="./common/img/nav05.gif" alt="How To Join APCERT" title="How To Join APCERT" border="0" width="116" height="23" /></a></li
+			><li><a href="./related/index.html"><img src="./common/img/nav06.gif" alt="Related Sites" title="Related Sites" border="0" width="91" height="23" /></a></li
+			></ul></div>
+		</div>
+	</div>
+	<div class="headimg"><img src="./common/img/mainimg.jpg" alt="Supporting the Internet Security in ASIA PACIFIC" border="0" width="720" height="86" /></div>
+	<!-- #header end -->
+
+	<!-- #main contents begin -->
+	<div id="topmainarea">
+
+<div class="margin-bb">
+<a href="./about/index.html"><img src="img/top_map_txt.gif" alt="APCERT cooperates with CSIRTs (Computer Security Incident Response Teams) to ensure Internet security in the Asia Pacific region, based around genuine information sharing, trust and cooperation." border="0" width="442" height="108" /></a><img src="img/top_map.gif" alt="" border="0" width="262" height="108" />
+
+<!-- <map name="aboutapcert">
+<area shape="rect" Coords="0,0,704,108" href="./about/index.html" alt="More about APCERT">
+</map> -->
+</div>
+		<div id="topcontentswrapper">
+			<!-- news begin -->
+			<div id="topnews">
+			<table border="0" cellspacing="0" cellpadding="0" width="442">
+			<tr>
+			<td colspan="2" class="newsbar">
+			<span class="float-l"><img src="./img/whatsnew.gif" alt="What's New" border="0" width="67" height="12" /></span>
+			<span class="float-r"><a href="./news/index.html"><img src="./img/backnumber.gif" alt="Back Number" border="0" width="72" height="8" /></a></span>
+			</td>
+			</tr>
+
+
+			<tr valign="top">
+			<td nowrap="nowrap"><div class="tbl-mgn">7 January 2015</div></td>
+			<td><div class="tbl-mgn2">
+			<a href="events/calendar/index.html"><b>APCERT Event Calendar</b></a> Updated<br>
+			</div>
+			</td>
+			</tr>
+
+			<tr valign="top">
+			<td nowrap="nowrap"><div class="tbl-mgn">3 December 2014</div></td>
+			<td><div class="tbl-mgn2">
+			<a href="http://www.secureworks.com"><b>Dell SecureWorks joins APCERT Supporting Member</b></a><br>
+			Dell SecureWorks is now a Supporting Member of APCERT<br />
+			</div>
+			</td>
+			</tr>
+
+			<tr valign="top">
+			<td nowrap="nowrap"><div class="tbl-mgn">3 October 2014</div></td>
+			<td><div class="tbl-mgn2">
+			<a href="https://www.laocert.gov.la/en/Page-1-"><b>LaoCERT (Lao People's Democratic Republic) joins APCERT Operational Member</b></a><br>
+			Laotian National CSIRT, LaoCERT is now an Operational Member of APCERT<br />
+			</div>
+			</td>
+			</tr>
+
+			<tr valign="top">
+			<td nowrap="nowrap"><div class="tbl-mgn">15 September 2014</div></td>
+			<td><div class="tbl-mgn2">
+			<a href="http://mncert.org/"><b>MNCERT/CC (Mongolia) joins APCERT Operational Member</b></a><br>
+			Mongolia's National CSIRT, MNCERT/CC is now an Operational Member of APCERT<br />
+			</div>
+			</td>
+			</tr>
+
+			<tr valign="top">
+			<td nowrap="nowrap"><div class="tbl-mgn">1 May 2014</div></td>
+			<td><div class="tbl-mgn2">
+			<a href="documents/pdf/APCERT_Annual_Report_2013(FINAL).pdf"><b>APCERT Annual Report 2013</b></a><br>
+			APCERT has released its Annual Report covering APCERT and member teams' activities in 2013.<br />
+			</div>
+			</td>
+			</tr>
+
+
+			<tr valign="top">
+			<td nowrap="nowrap"><div class="tbl-mgn">24 March 2014</div></td>
+			<td><div class="tbl-mgn2">
+			<a href="about/structure/committee.html"><b>Results of the APCERT Steering Committee (SC) Election 2014</b></a><br>
+			- Chair: JPCERT/CC (2014-2015)<br />
+			- Deputy Chair: KrCERT/CC (2014-2015)<br />
+			- SC: CERT Australia, CNCERT/CC, KrCERT/CC, TWNCERT (2014-2016)<br />
+			&nbsp;&nbsp;(JPCERT/CC, MOCERT and MyCERT remain until 2015)<br />
+			<br />
+			<a href="http://www.microsoft.com/"><b>Microsoft joins APCERT Supporting Member</b></a><br />
+			Microsoft Corporation's membership as a Supporting Member has been accepted.<br />
+			<br />
+			<a href="http://www.bkav.com.vn/"><b>Bkav (Vietnam) becomes an APCERT Supporting Member</b></a><br />
+			BKIS, now referred as Bkav Corporation, made transit from the APCERT Operational Member<br />
+			<br />
+			<a href="about/structure/groups.html"><b>APCERT Working Groups Updated</b></a><br />
+			Operational Framework WG is now merged into Policy, Procedures and Governance WG.<br />
+			</div>
+			</td>
+			</tr>
+
+			<tr valign="top">
+			<td nowrap="nowrap"><div class="tbl-mgn">19 February 2014</div></td>
+			<td><div class="tbl-mgn2">
+			<a href="documents/pdf/Drill2014_PressRelease.pdf"><b>APCERT embarks on global coordination to counter cyber-ops [PDF 61KB]</b></a><br>
+			APCERT has successfully completed its APCERT Drill 2014 on 19 Feb 2014.<br />
+			</div>
+			</td>
+			</tr>
+
+			<tr valign="top">
+			<td nowrap="nowrap"><div class="tbl-mgn">20 January 2014</div></td>
+			<td><div class="tbl-mgn2">
+			Document Updates<br />
+			<a href="documents/pdf/APCERT_Mailing_List_Procedures(20140114).pdf"><b>APCERT Mailing List and Contact Procedures</b></a><br>
+			<a href="documents/pdf/APCERT_POC_Arrangements_Policy(20131204).pdf"><b>APCERT POC Arrangements Policy</b></a><br>
+			<a href="application"><b>Application Process</b></a><br>
+			<a href="application/faq"><b>FAQ - Membership</b></a><br>
+			</div>
+			</td>
+			</tr>
+
+			<tr valign="top">
+			<td nowrap="nowrap"><div class="tbl-mgn">6 January 2014</div></td>
+			<td><div class="tbl-mgn2"><a href="events/calendar/index.html"><b>APCERT Event Calendar</b></a> Updated<br>
+			</div>
+			</td>
+			</tr>
+
+
+			<tr>
+			<td colspan="2" class="linedot"><img src="./common/img/spacer.gif" alt="" border="0" width="1" height="1" /></td>
+			</tr>
+			<tr valign="top">
+			<td width="1%"><img src="./common/img/spacer.gif" alt="" border="0" width="1" height="30" /></td>
+			<td width="99%"><img src="./common/img/spacer.gif" alt="" border="0" width="1" height="30" /></td>
+			</tr>
+			</table>
+			</div>
+			<!-- news end -->
+
+			<!-- topics begin -->
+			<div id="toptopics">
+			<tr valign="top">
+				<div class="margin-lb">
+
+				<div class="mainclasslarge">
+				<img src="/img/arrow.gif" border="0" width="14" height="13" /><b>APCERT AGM & Conference 2015</b><br /></div>
+				<span class="mainclasssmall">Date: 6 - 10 September 2015<br>
+				Venue: Kuala Lumpur, Malaysia<br>
+				<a href="http://www.mycert.org.my/en/">Hosted by: MyCERT</a><br /></span>
+				<br class="clear-b" />
+				<br />
+
+				<div class="mainclasslarge">
+				<img src="/img/arrow.gif" border="0" width="14" height="13" /><a href="/documents/pdf/APCERT_Annual_Report_2013(FINAL).pdf"><b>APCERT Annual Report 2013</b></a><br /></div>
+				<div class="imgbox-l"><img src="./img/report.jpg" alt="APCERT Annual Report 2013" border="0" width="60" height="69" vspace="10" /></div>
+				<span class="mainclasssmall">APCERT Annual Report introduces activity updates of APCERT and member teams.<img src="./common/img/arrow.gif" alt="" border="0" width="10" height="7" class="margin-la" /><a href="/documents/pdf/APCERT_Annual_Report_2013(FINAL).pdf">read more</a></span>
+				<br class="clear-b" />
+				<br />
+
+				<div class="mainclasslarge">
+				<img src="/img/arrow.gif" border="0" width="14" height="13" /><a href="http://www.apcert.org/events/calendar/index.html"><b>Event Calendar</b></a><br /></div>
+				<div class="imgbox-l"><img src="./img/tp_icon01.jpg" alt="Event Calendar" border="0" width="85" height="78" /></div>
+				<span class="mainclasssmall">International Information Security Event Calendar</span>
+				<br class="clear-b" />
+				<br class="clear-b" />
+
+				<div class="mainclasslarge">
+				<img src="/img/arrow.gif" border="0" width="14" height="13" /><a href="about/structure/tsubame-wg/index.html"><b>TSUBAME WG</b></a><br /></div>
+				<div class="imgbox-l"><img src="./img/tsubame-logo.png" alt="TSUBAME WG" border="0" width="88" height="55" /></div>
+				<span class="mainclasssmall">A technical WG to exchange analytical information of TSUBAME, the packet traffic monitoring system to observe suspicious scanning activities in the Asia Pacific region.</span><br class="clear-b" />
+
+
+				</div>
+			</div>
+			<!-- topics end -->
+		</div>
+	</div>
+	<!-- #main contents end -->
+
+
+
+	<!-- #footer begin -->
+	<div id="footer"><div class="sitemap"><img src="./common/img/arrow.gif" border="0" width="10" height="7" /><a href="./sitemap/index.html">SITEMAP</a></div><div class="copyright">Copyright(C) 2005-2015 APCERT. All rights reserved.</div></div>
+	<!-- #footer end -->
+
+
+<script type="text/javascript" src="./common/js/menu.js"></script>
+
+
+
+</div>
+</body>
+</html>
+
