@@ -67,5 +67,5 @@ This file contains the URLs that were found to have access errors when monitored
 
 ###Todos:
 1. myUtils.py
-reviveList is to update the accessErrorURLs, when url revive.
+reviveList is to update the accessErrorURLs, when url revive.<br>
 _**The code update accessErrorURLs has not been offered yet.**_
