@@ -45,10 +45,6 @@ def writeFile(url, length, md5Str):
         fileLock.release()
 
 
-#def sendEmail(subject, content):
-#    print("subject:{0}\nContent:{1}\n\n".format(subject, content))
-
-
 def sendEmail(subject, content):
     """
     Send Email.
@@ -109,7 +105,6 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
             conList = diff2Str(filename, sourceCode)
             if conList != []:
                 content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
-                #print("contList", conList)
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
@@ -117,7 +112,6 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
             conList = diff2Str(filename, sourceCode)
             if conList != []:
                 content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
-                #print("contList", conList)
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
@@ -125,10 +119,34 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
             conList = diff2Str(filename, sourceCode)
             if conList != []:
                 content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，具体的差异如下:\n".format(url, checkTime)
-                #print("contList", conList)
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
+        """
+        "-------------Debug"
+        else:
+            if "twnic" in filename:
+                conList = diff2Str(filename, sourceCode)
+                if conList != []:
+                    print "twnic conList != []"
+                    content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，具体的差异如下:\n".format(url, checkTime)
+                    #print("contList", conList)
+                    for item in conList:
+                        content += item + "\n"
+                    content += "\n"
+
+                print("---filename:{0}\n---old_md5:{1}\n---new_md5:{2}\n".format(filename, urlObjDic[url].getMD5Str(), md5Str))
+                with open("./new", "w") as f1:
+                    f1.write(sourceCode)
+                with open("./old", "w") as f2:
+                    with open(filename) as f3:
+                        while 1:
+                            string = f3.readline()
+                            if not string:
+                                break
+                            f2.write(string)
+        """
+
     except KeyError, ke:
         content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n\n".format(url, checkTime)
         #This function will be invoked by multi threads, so rLLock is essential here.
@@ -158,11 +176,11 @@ def diff2Str(filename, sourceCode):
             list2[index] = list2[index].strip()
         list1 = filter(list1)
         list2 = filter(list2)
-        #print "list1--------------------------------------------\n", list1
-        #print "list2--------------------------------------------\n", list2
 
-        d = difflib.Differ()
-        res = list(d.compare(list1, list2))
+        #Both methods below are OK.
+        #d = difflib.Differ()
+        #res = list(d.compare(list1, list2))
+        res = list(difflib.ndiff(list1, list2))
         resList = []
         [resList.append(item) for item in res if not item in resList]
 
@@ -185,7 +203,6 @@ def diff2Str(filename, sourceCode):
         writeLog("lxw_ERROR", "", traceback.format_exc())
         return []
 
-
 def filter(aList):
     """
     filter aList to ignore the information that's not important.
@@ -194,9 +211,15 @@ def filter(aList):
     try:
         for item in aList:
             index1 = item.find("title=\"")
+            index3 = item.find("title='")
             if index1 > 0:  #contain
                 index2 = item[index1+7:].find("\"")
                 string = item[index1+7:index1+7+index2]
+                if string != "":
+                    resList.append(string)
+            elif index3 > 0:
+                index4 = item[index3+7:].find("'")
+                string = item[index3+7:index3+7+index4]
                 if string != "":
                     resList.append(string)
     except Exception, e:
