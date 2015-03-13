@@ -45,11 +45,11 @@ def writeFile(url, length, md5Str):
         fileLock.release()
 
 
+#def sendEmail(subject, content):
+#    print("subject:{0}\nContent:{1}\n\n".format(subject, content))
+
+
 def sendEmail(subject, content):
-    print("subject:{0}\nContent:{1}\n\n".format(subject, content))
-
-
-def sendEmail1(subject, content):
     """
     Send Email.
     """
@@ -105,20 +105,27 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
     content = ""
     filename = "./Intermedia/" + url.replace("/", "_")
     try:
-        conList = diff2Str(filename, sourceCode)
-        if conList != []:
-            if length < urlObjDic[url].getLength():
+        if length < urlObjDic[url].getLength():
+            conList = diff2Str(filename, sourceCode)
+            if conList != []:
                 content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
+                #print("contList", conList)
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
-            elif length > urlObjDic[url].getLength():
+        elif length > urlObjDic[url].getLength():
+            conList = diff2Str(filename, sourceCode)
+            if conList != []:
                 content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
+                #print("contList", conList)
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
-            elif md5Str != urlObjDic[url].getMD5Str():
+        elif md5Str != urlObjDic[url].getMD5Str():
+            conList = diff2Str(filename, sourceCode)
+            if conList != []:
                 content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，具体的差异如下:\n".format(url, checkTime)
+                #print("contList", conList)
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
@@ -155,24 +162,21 @@ def diff2Str(filename, sourceCode):
         #print "list2--------------------------------------------\n", list2
 
         d = difflib.Differ()
-        # Use set() to remove the duplicated elements in list.
-        resList = list(d.compare(list1, list2))
-        print "list:diff list1 & list2-------------------------------\n", resList
-        resList = list(set(resList))
-        print "set:diff list1 & list2-------------------------------\n", resList
+        res = list(d.compare(list1, list2))
+        resList = []
+        [resList.append(item) for item in res if not item in resList]
 
         length = len(resList)
         finList = []
         for index in xrange(length):
             if resList[index].startswith(" "):      # ignore the lines that are identical.
                 pass
-            #elif resList[index].startswith("?"):    # ignore the lines that start with "?"
-            #    pass
-            elif len(resList[index].strip()) < 5:            # delete the lines that is meaningless
+            elif resList[index].startswith("?"):    # ignore the lines that start with "?"
+                pass
+            elif len(resList[index].strip()) < 1:            # delete the lines that is meaningless
                 pass
             else:
                 finList.append(resList[index])
-        print "finalList:diff list1 & list2-------------------------------\n", finList
         return finList
     except IOError, e:
         writeLog("lxw_IOERROR Occurred(File not found, url revives now.)", "", traceback.format_exc())
