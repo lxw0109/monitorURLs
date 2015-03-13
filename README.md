@@ -71,7 +71,7 @@ reviveList is to update the accessErrorURLs, when url revive.
 _**The code update accessErrorURLs has not been offered yet.**_
 
 ###Bugs:
-1. **_There is a SERIOUS bug_**:
-I modify one url_file manually(e.g. ./Intermedia_new/http:__blog.dnspod.cn_), it can be monitored. However, the **problem** is that not all files modification can be monitored(e.g. ./Intermedia_new/http:__www.unbound.net_).
+1. **_There is a SERIOUS bug_**:<br>
+I modify one url_file manually(e.g. `./Intermedia_new/http:__blog.dnspod.cn_`), it can be monitored. However, the **problem** is that not all files modification can be monitored(e.g. `./Intermedia_new/http:__www.unbound.net_`).
 2. **_The 2nd bug may have sth to do with the 1st one._**:
-I modify one url_file manually(e.g. ./Intermedia_new/http:__blog.dnspod.cn_), it can be monitored. _However, not all contents that are modified can be monitored._
+I modify one url_file manually(e.g. `./Intermedia_new/http:__blog.dnspod.cn_`), it can be monitored. _However, not all contents that are modified can be monitored._
