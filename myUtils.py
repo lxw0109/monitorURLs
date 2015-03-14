@@ -21,9 +21,7 @@ import traceback
 fileLock = threading.RLock()
 logLock = threading.RLock()
 
-reviveList = []
-rLLock = threading.RLock()   # reviveList Lock.
-#reviveList is to update the accessErrorURLs, when url revive.
+aeLock = threading.RLock()
 
 def writeLog(tag, url, log):
     """
@@ -92,7 +90,8 @@ def sendEmail(subject, content):
     else:
         writeLog("EMAIL SENDING SUCCESS", "", "")
 
-def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
+
+def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURLs):
     """
     Already GET THE CONTENT OF THE URL. Now to get the Email content if URL updates, or nothing if not.
     length is the new length.
@@ -150,9 +149,11 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode):
     except KeyError, ke:
         content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n\n".format(url, checkTime)
         #This function will be invoked by multi threads, so rLLock is essential here.
-        rLLock.acquire()
-        reviveList.append(url)
-        rLLock.release()
+        #NOTE: lxw  Does this rLLock belong to one single thread or all threads share it? If the former situation, it doesn't work for mutex.
+        #I think it's the latter situation. I need to CONFIRM THIS.
+        aeLock.acquire()
+        aeURLs.remove(url)
+        aeLock.release()
     return content
 
 
@@ -282,6 +283,8 @@ def initCriterion():
     """
     #Just to calculate time, not for thred pool NOW.
     threads = []
+
+    #Clear the whole content of the 2 files.
     with open("./criterion", "w") as f:
         with open("./monitorLog", "w") as f1:
             pass

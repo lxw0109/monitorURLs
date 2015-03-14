@@ -65,7 +65,9 @@ append the configuration like this(you can modify it as you wish):<br>
 This file contains the URLs that were found to have access errors when monitored last time.
 
 
-###Todos:
-1. myUtils.py
-reviveList is to update the accessErrorURLs, when url revive.<br>
-_**The code update accessErrorURLs has not been offered yet.**_
+###Feature Functions:
+1. Give the diff content:
+Give the differences between the content of 2 monitoring.
+
+2. Update the accessErrorURLs:
+When url revives(access error ocurred last time, but not this time), remove it from the accessErrorURLs.<br>

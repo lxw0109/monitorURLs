@@ -72,15 +72,16 @@ def monitor(url):
                     aeSubject += "."
                 aeCount += 1
                 aeContent += "URL: {0}\n监测时间: {1}\n监测结果:监测到网站访问故障，请查看.\n\n".format(url, checkTime)
-                with open("./accessErrorURLs", "a") as f:
-                    f.write(url + "\n")
+                #with open("./accessErrorURLs", "a") as f:
+                #    f.write(url + "\n")
+                aeURLs.append(url)
                 aeLock.release()
         else:
             length, md5Str = myUtils.getLengthMd5(sourceCode)
             nuodLock.acquire()
             newUrlObjDic[url] = URL(length, md5Str)
             nuodLock.release()
-            content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic, sourceCode)
+            content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic, sourceCode, aeURLs)
             if content:
                 uwLock.acquire()
                 if uwCount < 2:
@@ -100,15 +101,16 @@ def monitor(url):
                 aeSubject += "."
             aeCount += 1
             aeContent += "URL: {0}\n监测时间: {1}\n监测结果:监测到网站访问故障，请查看.\n\n".format(url, checkTime)
-            with open("./accessErrorURLs", "a") as f:
-                f.write(url + "\n")
+            #with open("./accessErrorURLs", "a") as f:
+            #    f.write(url + "\n")
+            aeURLs.append(url)
             aeLock.release()
     else:
         length, md5Str = myUtils.getLengthMd5(sourceCode)
         nuodLock.acquire()
         newUrlObjDic[url] = URL(length, md5Str)
         nuodLock.release()
-        content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic, sourceCode)
+        content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic, sourceCode, aeURLs)
         if content:
             uwLock.acquire()
             if uwCount < 2:
@@ -149,7 +151,7 @@ def main():
             if not string:
                 break
             aeURLs.append(string)
-
+    #print aeURLs
 
     # Just to calculate time, not for thred pool NOW.
     threads = []
@@ -179,6 +181,13 @@ def main():
     with open("./criterion", "w") as f:
         for url in newUrlObjDic.keys():
             f.write("{0},{1},{2}\n".format(url, newUrlObjDic[url].length, newUrlObjDic[url].getMD5Str()))
+
+    #Update accessErrorURLs file.
+    with open("./accessErrorURLs", "w") as f:
+        for url in aeURLs:
+            f.write(url + "\n")
+
+    #print aeURLs
 
 
 if __name__ == '__main__':
