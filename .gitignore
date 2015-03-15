@@ -1,6 +1,7 @@
 monitorLog
 *.pyc
 !myUtils.pyc
+myUtils.py
 test.py
 Intermedia/*
 Intermedia_new/*
