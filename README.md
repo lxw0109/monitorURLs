@@ -1,7 +1,6 @@
 ####Open for Suggestions & Feedback:
 lxw.ucas@gmail.com
 
-
 ####What this Program used for:
 Monitor a specific list of url to check whether they have updated(legitimately or maliciously). If the website(url) updated, then send an notification email to a specific list of recipients.<br>
 **What's more, if the website(url) cannot be accessed, an an notification email will be sent as well. _Actually This is the main purpose of this program._**<<br>
@@ -71,3 +70,12 @@ Give the differences between the content of 2 monitoring.
 
 2. Update the accessErrorURLs:
 When url revives(access error ocurred last time, but not this time), remove it from the accessErrorURLs.<br>
+
+###Peformance:
+1. Time cost:
+Monitor each url with one single thread. <br>
+The program costs around 26s when running on the Server, while it costs less on my local PC. **_So, it means that the performance of the server I use is not good at all._** :) 
+
+###Negtive Factors:
+1. The clock time on the server loses 4 minutes, which means that we receive the email a little later than expected.
+
