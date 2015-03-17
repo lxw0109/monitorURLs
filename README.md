@@ -79,3 +79,22 @@ The program costs around 26s when running on the Server, while it costs less on 
 ###Negtive Factors:
 1. The clock time on the server loses 4 minutes, which means that we receive the email a little later than expected.
 
+###_*Special Cases_:
+1. What do you think if you got the following information:
+```
+URL: https://www.dns-oarc.net/
+检测时间: 2015-03-17-09:00:01
+检测结果:检测到网站首页信息减少(原来29478B,现在29466B)，具体的差异如下:
++  Root Zone Archive
++ Public Stories, etc
++ Read the rest of Root Zone Archive.
+-  Root Zone Archive
+- Public Stories, etc
+- Read the rest of Root Zone Archive.
+```
+At the first sight of these data, I think there may be something wrong with my program(or may be the diff function offered is not good and smart enough). However, when I checked the sourcecode of the url, I found that this output is rational.<br>
+If you want to check the sourcecode of the url, you can run:
+```
+$ vimdiff Demos/old Demos/new
+```
+Notice the differences between them(especially the lines contain "title="), and you will understand that **"disorder" makes this**.
