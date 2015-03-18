@@ -19,6 +19,7 @@ touch accessErrorURLs
 [ -d Intermedia ] || mkdir Intermedia
 [ -d Intermedia_new ] || mkdir Intermedia_new
 
+#If Debug, delete the 3 lines following.
 cd ./Intermedia/ && rm ./* && cd ..
 pwd
 mv ./Intermedia_new/* ./Intermedia/
