@@ -102,4 +102,7 @@ Notice the differences between them(especially the lines contain "title="), and 
 
 ###Todos:
 1. limit the number of threads.(semaphore)
-2. Add test code to each file.
+2. set a flag to control get the source code of the urls from the urlopen or from the Intermedia_new.
+NOTE: you should control the criterion as the same time.
+This means that I can compare the history datas(last 2 times), don't have to be the newest.
+3. Add test code to each file.
