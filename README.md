@@ -98,3 +98,8 @@ If you want to check the sourcecode of the url, you can run:
 $ vimdiff Demos/old Demos/new
 ```
 Notice the differences between them(especially the lines contain "title="), and you will understand that **"disorder" makes this**.
+
+
+###Todos:
+1. limit the number of threads.(semaphore)
+2. Add test code to each file.
