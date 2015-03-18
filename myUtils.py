@@ -58,10 +58,10 @@ def sendEmail(subject, content):
 
         #fromAddr = "monitorURL@foxmail.com"
         fromAddr = "liuxiaowei@cnnic.cn"
-        #toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn"]
-        toAddrs = ["lxwin@foxmail.com", "liuxiaowei@cnnic.cn"]
-        #ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn"]
-        ccAddrs = ["554188913@qq.com", "lxwin@foxmail.com"]
+        toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn"]
+        #toAddrs = ["lxwin@foxmail.com", "liuxiaowei@cnnic.cn"]
+        ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn"]
+        #ccAddrs = ["554188913@qq.com", "lxwin@foxmail.com"]
 
         message = Message()
         message["Subject"] = subject
