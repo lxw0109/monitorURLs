@@ -103,21 +103,21 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
     """
     content = ""
     filename = "./Intermedia/" + url.replace("/", "_")
-    filename_new = "./Intermedia_new/" + url.replace("/", "_")
+    #filename_new = "./Intermedia_new/" + url.replace("/", "_")
     try:
         if length < urlObjDic[url].getLength():
             conList = diff2Str(filename, sourceCode)
             if conList != []:
-                #content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, getSize(urlObjDic[url].getLength()), getSize(length))
-                content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, getSize(filename), getSize(filename_new))
+                content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, stdSize(urlObjDic[url].getLength()), stdSize(length))
+                #content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, getSize(filename), getSize(filename_new))
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
         elif length > urlObjDic[url].getLength():
             conList = diff2Str(filename, sourceCode)
             if conList != []:
-                #content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, getSize(urlObjDic[url].getLength()), getSize(length))
-                content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, getSize(filename), getSize(filename_new))
+                content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, stdSize(urlObjDic[url].getLength()), stdSize(length))
+                #content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, getSize(filename), getSize(filename_new))
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
@@ -144,9 +144,11 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
     return content
 
 
+#NO_USE
 def getSize(absPath):
     """
     caculate the normal size of the specified file.
+    """
     try:
         size = os.path.getsize(absPath)     # type(size): long
         ksize = size / 1000.0
@@ -158,8 +160,17 @@ def getSize(absPath):
         writeLog("lxw_error", "", traceback.format_exc())
 
     return res
+
+
+def stdSize(length):
     """
-    pass
+    standardize the size of the specified file.
+    """
+    ksize = size / 1000.0
+    if ksize >= 1:
+        return str(ksize) + "K"
+    else:
+        return str(size) + "B"
 
 
 def diff2Str(filename, sourceCode):
