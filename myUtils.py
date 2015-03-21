@@ -17,6 +17,8 @@ import base64
 from email.message import Message
 import difflib
 import traceback
+import os.path
+
 
 fileLock = threading.RLock()
 logLock = threading.RLock()
@@ -58,10 +60,10 @@ def sendEmail(subject, content):
 
         #fromAddr = "monitorURL@foxmail.com"
         fromAddr = "liuxiaowei@cnnic.cn"
-        toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn"]
-        #toAddrs = ["lxwin@foxmail.com", "liuxiaowei@cnnic.cn"]
-        ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn"]
-        #ccAddrs = ["554188913@qq.com", "lxwin@foxmail.com"]
+        #toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn"]
+        toAddrs = ["lxwin@foxmail.com", "liuxiaowei@cnnic.cn"]
+        #ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn"]
+        ccAddrs = ["554188913@qq.com", "lxwin@foxmail.com"]
 
         message = Message()
         message["Subject"] = subject
@@ -101,52 +103,33 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
     """
     content = ""
     filename = "./Intermedia/" + url.replace("/", "_")
+    filename_new = "./Intermedia_new/" + url.replace("/", "_")
     try:
         if length < urlObjDic[url].getLength():
             conList = diff2Str(filename, sourceCode)
             if conList != []:
-                content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
+                #content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, getSize(urlObjDic[url].getLength()), getSize(length))
+                content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, getSize(filename), getSize(filename_new))
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
         elif length > urlObjDic[url].getLength():
             conList = diff2Str(filename, sourceCode)
             if conList != []:
-                content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(原来{2}B,现在{3}B)，具体的差异如下:\n".format(url, checkTime, urlObjDic[url].getLength(), length)
+                #content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, getSize(urlObjDic[url].getLength()), getSize(length))
+                content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, getSize(filename), getSize(filename_new))
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
         elif md5Str != urlObjDic[url].getMD5Str():
             conList = diff2Str(filename, sourceCode)
             if conList != []:
-                content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，具体的差异如下:\n".format(url, checkTime)
+                content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，具体差异如下:\n".format(url, checkTime)
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
-        """
-        "-------------Debug"
-        else:
-            if "twnic" in filename:
-                conList = diff2Str(filename, sourceCode)
-                if conList != []:
-                    print "twnic conList != []"
-                    content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，具体的差异如下:\n".format(url, checkTime)
-                    #print("contList", conList)
-                    for item in conList:
-                        content += item + "\n"
-                    content += "\n"
-
-                print("---filename:{0}\n---old_md5:{1}\n---new_md5:{2}\n".format(filename, urlObjDic[url].getMD5Str(), md5Str))
-                with open("./new", "w") as f1:
-                    f1.write(sourceCode)
-                with open("./old", "w") as f2:
-                    with open(filename) as f3:
-                        while 1:
-                            string = f3.readline()
-                            if not string:
-                                break
-                            f2.write(string)
-        """
+        #else:
+        #    writeLog("equals", url, "")
 
     except KeyError, ke:
         content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n\n".format(url, checkTime)
@@ -154,9 +137,29 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
         #NOTE: lxw  Does this rLLock belong to one single thread or all threads share it? If the former situation, it doesn't work for mutex.
         #I think it's the latter situation. I need to CONFIRM THIS.
         aeLock.acquire()
-        aeURLs.remove(url)
+        writeLog("KeyError", url, "")
+        if url in aeURLs:
+            aeURLs.remove(url)
         aeLock.release()
     return content
+
+
+def getSize(absPath):
+    """
+    caculate the normal size of the specified file.
+    try:
+        size = os.path.getsize(absPath)     # type(size): long
+        ksize = size / 1000.0
+        if ksize >= 1:
+            res = str(ksize) + "K"
+        else:
+            res = str(size) + "B"
+    except Exception, e:
+        writeLog("lxw_error", "", traceback.format_exc())
+
+    return res
+    """
+    pass
 
 
 def diff2Str(filename, sourceCode):

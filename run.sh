@@ -9,7 +9,6 @@
 ps aux|grep "monitorURLs.py"|awk '{print $2}'|xargs kill
 
 #run th monitor.
-#cd /home/lxw/Project/monitorURL
 cd /home/lxw/monitorURL
 
 #Preparation:
@@ -19,9 +18,9 @@ touch accessErrorURLs
 [ -d Intermedia ] || mkdir Intermedia
 [ -d Intermedia_new ] || mkdir Intermedia_new
 
-#If Debug, delete the 3 lines following.
-cd ./Intermedia/ && rm ./* && cd ..
-pwd
+cd ./Intermedia/
+rm ./*
+cd ..   # /home/lxw/monitorURL
 mv ./Intermedia_new/* ./Intermedia/
 
 #Monitor:
