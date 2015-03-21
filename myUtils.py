@@ -166,11 +166,11 @@ def stdSize(length):
     """
     standardize the size of the specified file.
     """
-    ksize = size / 1000.0
-    if ksize >= 1:
-        return str(ksize) + "K"
+    stdLength = length / 1000.0
+    if stdLength >= 1:
+        return "{0:.2f}K".format(stdLength)
     else:
-        return str(size) + "B"
+        return "{0}B".format(length)
 
 
 def diff2Str(filename, sourceCode):
@@ -225,8 +225,7 @@ def diff2Str(filename, sourceCode):
 
         #Sort the result:
         #The content removed shows at front, content added follows behind.
-        sortList(finList)
-        return finList
+        return sortList(finList)
 
     except IOError, e:
         writeLog("lxw_IOERROR Occurred(File not found, url revives now.)", "", traceback.format_exc())

@@ -1,0 +1,849 @@
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-gb">
+
+    
+    
+    
+    
+    
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Forces IE8+ into newest rendering engine even if on an intranet. This has to be defined before any script/style tags. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+    
+        <base href="https://www.ripe.net/" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        
+        <meta content="The RIPE NCC is one of five Regional Internet Registries (RIRs) providing Internet resource allocations, registration services and coordination activities that support the operation of the Internet globally." name="description" />
+
+  
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/reset-cachekey-72c5b7880da10beb942782917297bc54.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.ripe.net/portal_css/Ripe/base-cachekey-ff98a60b70d3ef9f441ca7d3b0da2730.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsmain-cachekey-f119253155c84b0e1cd8750642edd17a.css" />
+    <style type="text/css">@import url(https://www.ripe.net/portal_css/Ripe/ploneglossary_popup-cachekey-f140e3150d8b31ae67584b55cc6ee3ee.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsportals-cachekey-1bd82b917826ee43d7d63499f5b23751.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1px)" href="https://www.ripe.net/portal_css/Ripe/++resource++ripe.plonetheme.stylesheets/grid960.css" />
+        <!--[if lt IE 9]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourcegrid960-cachekey-b000ec8fd5fad2783bad29d8a082fa61.css" />
+        <![endif]-->
+    
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsripeIE7Fixes-cachekey-596c10da3bcb3271fcda2ae93aa9d78b.css" />
+        <![endif]-->
+    
+        <!--[if lt IE 7]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsripeIE6Fixes-cachekey-1dc0142c266d109ebc324d40c702fac5.css" />
+        <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" media="print" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetscustomprint-cachekey-bd7042f1664633ed2f5e39fecb002217.css" />
+    <style type="text/css" media="screen">@import url(https://www.ripe.net/portal_css/Ripe/resourcecollective.solr.resourcesstyle-cachekey-84c0f392fb2452254b93ef6f2fa828c2.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.search-cachekey-272f40211ead6f8c859c5aade6d7f4b9.css" />
+    <style type="text/css">@import url(https://www.ripe.net/portal_css/Ripe/resourceripe.tinyurl.ripetinyurl-cachekey-7ba5f6271307ab905b04bc4027e03996.css);</style>
+    <link rel="stylesheet" type="text/css" href="https://www.ripe.net/portal_css/Ripe/resourceripe.sso.stylesheet.sso-cachekey-14a2f82c100e7337d0ad4567a3030af2.css" />
+
+  
+  
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceplone.app.jquery-cachekey-42e684e2073eeb62a867feb44f4e8c34.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/table_sorter-cachekey-a595e39986f0760ff7638dad0782ef17.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourcedefuscate-cachekey-b11463698707ccc27e0564ab01b87902.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/collective.js.jqueryui.custom.min-cachekey-e3f1cd05cfd09caffc14bdf3e51b35b6.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.tinyurl.ripetinyurl-cachekey-aa5f970f8afa8a5b2553be7db5788616.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/++resource++ripe.sso.javascript.sso.js"></script>
+
+
+<title>RIPE Network Coordination Centre</title>
+        
+    <link rel="canonical" href="https://www.ripe.net" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.ripe.net/favicon.ico" />
+    <link rel="apple-touch-icon" href="https://www.ripe.net/touch_icon.png" />
+
+
+
+
+
+
+
+
+    <link rel="alternate" href="https://www.ripe.net/RSS" title="RIPE Network Coordination Centre - RSS 1.0" type="application/rss+xml" />
+
+    <link rel="alternate" href="https://www.ripe.net/rss.xml" title="RIPE Network Coordination Centre - RSS 2.0" type="application/rss+xml" />
+
+    <link rel="alternate" href="https://www.ripe.net/atom.xml" title="RIPE Network Coordination Centre - Atom" type="application/rss+xml" />
+
+
+    <link rel="search" href="https://www.ripe.net/search" title="Search this site" />
+
+
+
+        
+        
+        
+         <!--[if lt IE 9]>
+             <script src="/++resource++ripe.plonetheme.javascripts/ie7-js.googlecode.com_2.1beta4_IE9.js">
+             </script>
+         <![endif]-->
+        
+        
+
+        <meta name="generator" content="Plone - http://plone.org" />
+    
+</head>
+
+<body class="template-ripehomepage_view portaltype-plone-site site-ripe userrole-anonymous colorSplash" dir="ltr">
+
+
+
+<div id="visual-portal-wrapper">
+
+        <div id="portal-top">
+            <div class="visualPadding">
+              <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="https://www.ripe.net/#content">Skip to content.</a> |
+
+  <a accesskey="6" href="https://www.ripe.net/#portal-globalnav">Skip to navigation</a>
+</p>
+
+<!-- see overrides.zcml -->
+
+    <h5 class="hiddenStructure">Sections</h5>
+    <ul id="portal-globalnav"><li id="portaltab-internet-coordination" class="plain"><a href="https://www.ripe.net/internet-coordination" class="Purple" title="Internet Governance · Infrastructure and Industry Information · IPv4 Exhaustion">Internet Coordination</a></li><li id="portaltab-data-tools" class="plain"><a href="https://www.ripe.net/data-tools" class="Yellow" title="RIPE Database · Statistics · RIPE Labs · RIPE Atlas · RIPEstat">Data &amp; Tools</a></li><li id="portaltab-lir-services" class="plain"><a href="https://www.ripe.net/lir-services" class="Blue" title="LIR Portal · About the RIPE NCC · Get and Manage Resources · Talk to Us · Become a Member · Training">LIR Services</a></li><li id="portaltab-ripe" class="plain"><a href="https://www.ripe.net/ripe" class="Green" title="Get Involved · Policy Development · RIPE Documents · Working Groups · Meetings">RIPE Community</a></li></ul>
+
+
+<ul id="portal-siteactions">
+
+    <li id="ripe-siteaction-sitemap"><a href="https://www.ripe.net/sitemap" accesskey="3" title="Site Map">Site Map</a>
+      <span class="pipe">|</span>
+      </li>
+    <li id="ripe-siteaction-contact"><a href="https://www.ripe.net/contact" accesskey="9" title="Contact">Contact</a>
+      <span class="pipe">|</span>
+      </li>
+    <li id="ripe-siteaction-help"><a href="https://www.ripe.net/support" accesskey="" title="Help">Help</a>
+      <span class="pipe">|</span>
+      </li>
+    <li id="ripe-siteaction-database"><a href="https://apps.db.ripe.net/search/query.html" accesskey="" title="RIPE Database Search">RIPE Database Search</a>
+      
+      </li>
+</ul>
+
+
+
+
+
+<div id="portal-searchbox">
+
+    <form id="searchGadget_form" action="https://www.ripe.net/@@search">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="searchGadget">Search Site</label>
+
+        <input name="SearchableText" type="text" size="18" title="Search Site" placeholder="Search Site" accesskey="4" class="searchField" id="searchGadget" />
+
+        <input class="searchButton" type="submit" value="Search" />
+
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/ripe" />
+            <label for="searchbox_currentfolder_only" style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+
+        <div class="LSResult" id="LSResult"><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="https://www.ripe.net/@@search" accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+
+<a id="portal-logo" title="Home" accesskey="1" href="https://www.ripe.net">
+    <img width="337" height="57" alt="RIPE NCC Network Coordination" src="https://www.ripe.net/++resource++ripe.plonetheme.images/logo.png" /></a>
+
+
+    
+
+
+<div id="termsconditions">
+    <p class="discreet">By pressing the "Search" button you explicitly express your agreement with the <a href="http://www.ripe.net/data-tools/support/documentation/terms">RIPE Database Terms and Conditions</a>.</p>
+</div>
+
+  
+
+
+
+</div>
+
+<div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <span id="breadcrumbs-home">
+        <a href="https://www.ripe.net">Home</a>
+        
+    </span>
+
+</div>
+
+            </div>
+        </div>
+    <div id="portal-columns">
+
+      
+        
+        
+        
+
+        <div id="portal-column-content" class="">
+          <div class="visualPadding">
+
+            <div id="viewlet-above-content"></div>
+            
+            
+                <div class="">
+
+                    
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                        <div id="content">
+
+                            
+
+                                                                                        
+
+                             
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+
+                             
+                                                           
+                                 
+                                 
+            
+            <h1 class="documentFirstHeading">RIPE Network Coordination Centre</h1>
+                                                                                            
+                                                                                                            
+                             <div class="documentByLine" id="plone-document-byline">
+  
+
+  
+
+  
+    <span class="byline">
+  
+  
+      Created: 
+  
+  <span class="date nobreak byline_date">Sep 2010</span> - Last updated:
+  <span class="date nobreak byline_date">09 Sep 2010</span>
+  
+  
+
+  
+  
+</span>
+  
+
+  
+
+  
+
+</div>
+                             
+
+                                               
+                                 
+                                 
+                                   
+            
+            <div class="documentDescription description">The RIPE NCC is one of five Regional Internet Registries (RIRs) providing Internet resource allocations, registration services and coordination activities that support the operation of the Internet globally.</div>
+        
+                                 
+                                                                                                      
+
+                                                           
+                             <div id="content-core">                                                                      
+                                 
+            <div id="homepage">
+                
+                    <div id="row1" class=" row splashHeader">
+                         
+                             <div style="width:70%" class="column innerblock no-style" id="">
+                                 <span class="leftTop"></span>
+                                 <div class="block_item">
+                                 
+                                     
+                                     
+                                     <div class="block_content">
+                                           
+                                           <div class="document_item">
+                                               <h1>Welcome to the RIPE Network Coordination Centre</h1>
+<p class="documentDescription">The RIPE NCC is one of five Regional Internet Registries (RIRs) providing Internet resource allocations, registration services and coordination activities that support the operation of the Internet globally. <span class="template-dashboard"><a title="" href="https://www.ripe.net/lir-services/ncc" target="_self" class="internal-link" id="dashboard">Read more...</a></span></p>
+                                           </div>
+                                     </div>
+                                     
+                                     
+                                     <span class="rightBottom"></span>
+                                 
+                                 
+                                 </div>
+                             </div>
+                         
+                         
+                             <div style="width:20%" class="column innerblock ipaddress-wrapper" id="">
+                                 <span class="leftTop"></span>
+                                 <div class="block_item">
+                                 
+                                 
+                                     
+                                                 <span id="ipaddress-popup">
+          <span class="header">Understanding IP Addressing</span><br />
+          <span class="readmore">Read more about IPv4 and IPv6 addresses</span>
+        </span>
+        <span id="ipaddress-always">
+          <a id="ipaddress-help" href="internet-coordination/press-centre/understanding-ip-addressing">
+          <span class="iplabel">Your IP address is:</span><br />
+          </a>
+          <span id="ipaddress"><span class="noscript">not available</span></span>
+        </span>
+
+
+
+                                     
+                                 
+                                 </div>
+                             </div>
+                         
+                         <div class="clearbreak"></div>
+                     </div>
+                
+                
+                    <div id="row2" class=" row portals">
+                         
+                             <div style="width:218px" class="column innerblock colorPurple" id="">
+                                 <span class="leftTop"></span>
+                                 <div class="block_item">
+                                 
+                                     <div class="header">
+                                         <a href="/internet-coordination">Internet Coordination</a>
+                                         
+                                     </div>
+                                     
+                                     <div class="block_content">
+                                           
+                                           <div class="document_item">
+                                               <p><a title="" href="https://www.ripe.net/internet-coordination/internet-governance/internet-technical-community/iana/iana-oversight-transition" class="image internal-link" target="_self"><img src="https://www.ripe.net/portal-sections/IANATransition04.png" alt="IANA Stewardship Transition" class="image-inline" title="IANA Stewardship Transition" /></a></p>
+<div class="description">
+<ul>
+<li><a href="https://www.ripe.net/internet-coordination/internet-governance" class="internal-link">Internet Governance</a></li>
+<li><a href="https://www.ripe.net/internet-coordination/news" class="internal-link">News</a></li>
+<li><a href="https://www.ripe.net/internet-coordination/ipv6" class="internal-link">IPv6</a></li>
+<li><a title="" href="https://www.ripe.net/internet-coordination/ipv4-exhaustion" class="internal-link" target="_self">IPv4 Exhaustion</a></li>
+<li><a title="" href="https://www.ripe.net/internet-coordination/internet-governance/internet-technical-community/iana/iana-oversight-transition" class="internal-link" target="_self">IANA Stewardship Transition</a></li>
+</ul>
+</div>
+                                           </div>
+                                     </div>
+                                     
+                                     
+                                     <span class="rightBottom"></span>
+                                 
+                                 
+                                 </div>
+                             </div>
+                         
+                         
+                             <div style="width:218px" class="column innerblock colorYellow" id="">
+                                 <span class="leftTop"></span>
+                                 <div class="block_item">
+                                 
+                                     <div class="header">
+                                         <a href="/data-tools">Data &amp; Tools</a>
+                                         
+                                     </div>
+                                     
+                                     <div class="block_content">
+                                           
+                                           <div class="document_item">
+                                               <p><a title="" href="https://www.ripe.net/data-tools" class="image internal-link" target="_self"><img src="++resource++ripe.plonetheme.images/dataandtools.jpg" /></a></p>
+<div class="description">
+<ul>
+<li><a href="https://www.ripe.net/data-tools/db" class="internal-link">RIPE Database</a></li>
+<li><a class="external-link" href="http://labs.ripe.net/statistics">Statistics</a></li>
+<li><a class="external-link" href="https://labs.ripe.net">RIPE Labs</a></li>
+<li><a class="external-link" href="https://atlas.ripe.net">RIPE Atlas</a></li>
+<li><a class="external-link" href="https://stat.ripe.net">RIPEstat</a></li>
+<li><a title="" href="https://www.ripe.net/data-tools/abuse" class="internal-link" target="_self">Abuse Information</a></li>
+</ul>
+</div>
+                                           </div>
+                                     </div>
+                                     
+                                     
+                                     <span class="rightBottom"></span>
+                                 
+                                 
+                                 </div>
+                             </div>
+                         
+                         
+                             <div style="width:218px" class="column innerblock colorBlue" id="">
+                                 <span class="leftTop"></span>
+                                 <div class="block_item">
+                                 
+                                     <div class="header">
+                                         <a href="/lir-services">LIR Services</a>
+                                         
+                                     </div>
+                                     
+                                     <div class="block_content">
+                                           
+                                           <div class="document_item">
+                                               <p><a title="" href="https://www.ripe.net/lir-services" class="image internal-link" target="_self"><img class="image-inline" src="../portal_css/Ripe/++resource++ripe.plonetheme.images/lirservices.jpg" /></a></p>
+<div class="description">
+<ul>
+<li><a class="external-link" href="https://lirportal.ripe.net">LIR Portal</a></li>
+<li><a href="https://www.ripe.net/lir-services/resolveuid/36c26af0322c612a5f3a2d405b63808a" class="internal-link">Get IPv4, IPv6 and ASNs</a></li>
+<li><a href="https://www.ripe.net/lir-services/resolveuid/c14df3b42a3b9f8bd5165d1ecccc0305" class="internal-link">Training</a></li>
+<li><a title="" href="https://www.ripe.net/lir-services/resource-management/certification" class="internal-link" target="_self">Certification</a></li>
+<li><a href="https://www.ripe.net/lir-services/resolveuid/4d9b406e7fdc3e781b368738b5b3c56e" class="internal-link">Talk to Us</a></li>
+<li><a title="" href="https://www.ripe.net/lir-services/member-support/become-a-member" class="internal-link" target="_self">Become a Member</a></li>
+</ul>
+</div>
+                                           </div>
+                                     </div>
+                                     
+                                     
+                                     <span class="rightBottom"></span>
+                                 
+                                 
+                                 </div>
+                             </div>
+                         
+                         
+                             <div style="width:218px" class="column innerblock colorGreen" id="">
+                                 <span class="leftTop"></span>
+                                 <div class="block_item">
+                                 
+                                     <div class="header">
+                                         <a href="/ripe">RIPE Community</a>
+                                         
+                                     </div>
+                                     
+                                     <div class="block_content">
+                                           
+                                           <div class="document_item">
+                                               <p><a title="" href="https://www.ripe.net/ripe" class="image internal-link" target="_self"><img class=" image-inline" src="../++resource++ripe.plonetheme.images/ripecommunity.jpg" /></a></p>
+<div class="description">
+<ul>
+<li><a href="https://www.ripe.net/ripe/mail" class="internal-link">Get Involved</a></li>
+<li><a href="https://www.ripe.net/ripe/policies" class="internal-link">Policy Development</a></li>
+<li><a href="https://www.ripe.net/ripe/docs" class="internal-link">RIPE Documents</a></li>
+<li><a href="https://www.ripe.net/ripe/groups/wg" class="internal-link">Working Groups</a></li>
+<li><a href="https://www.ripe.net/ripe/meetings" class="internal-link">Meetings</a></li>
+</ul>
+</div>
+                                           </div>
+                                     </div>
+                                     
+                                     
+                                     <span class="rightBottom"></span>
+                                 
+                                 
+                                 </div>
+                             </div>
+                         
+                         <div class="clearbreak"></div>
+                     </div>
+                
+                
+                    <div id="row3" class="masonryactive row portalBlocks">
+                         
+                             <div style="width:288px" class="column innerblock portalBlock" id="">
+                                 <span class="leftTop"></span>
+                                 <div class="block_item">
+                                 
+                                     <div class="header">
+                                         <a href="/internet-coordination/news">News &amp; Announcements</a>
+                                         
+                                     </div>
+                                     <div class="block_content">
+                                         
+                                             <dl class="collection_item">
+                                                 <dt><a href="https://www.ripe.net/internet-coordination/news/industry-developments/meeting-with-law-enforcement-agencies">Meeting with Law Enforcement Agencies</a></dt>
+                                                 <dd>
+                                                 
+                                                     <div class="portletItemDetails">
+                                                         <span class="date nobreak byline_date">20 March 2015</span>
+                                                     </div>
+                                                 </dd>
+                                             </dl>
+                                         
+                                         
+                                             <dl class="collection_item">
+                                                 <dt><a href="https://www.ripe.net/internet-coordination/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">RIPE NCC IPv4 Address Space Chart - Now Updated</a></dt>
+                                                 <dd>
+                                                 
+                                                     <div class="portletItemDetails">
+                                                         <span class="date nobreak byline_date">17 March 2015</span>
+                                                     </div>
+                                                 </dd>
+                                             </dl>
+                                         
+                                         
+                                             <dl class="collection_item">
+                                                 <dt><a href="https://www.ripe.net/internet-coordination/news/announcements/ripe-ncc-general-meeting-registration-open">General Meeting May 2015 - Registration Open</a></dt>
+                                                 <dd>
+                                                 
+                                                     <div class="portletItemDetails">
+                                                         <span class="date nobreak byline_date">12 March 2015</span>
+                                                     </div>
+                                                 </dd>
+                                             </dl>
+                                         
+                                         
+                                             <dl class="collection_item">
+                                                 <dt><a href="https://www.ripe.net/internet-coordination/news/announcements/new-ripe-ncc-membership-application-form-now-live">New RIPE NCC Membership Application Form Now Live</a></dt>
+                                                 <dd>
+                                                 
+                                                     <div class="portletItemDetails">
+                                                         <span class="date nobreak byline_date">06 March 2015</span>
+                                                     </div>
+                                                 </dd>
+                                             </dl>
+                                         
+                                         
+                                             <dl class="collection_item">
+                                                 <dt><a href="https://www.ripe.net/internet-coordination/news/about-ripe-ncc-and-ripe/law-enforcement-agency-requests-in-2014">Law Enforcement Agency Requests in 2014</a></dt>
+                                                 <dd>
+                                                 
+                                                     <div class="portletItemDetails">
+                                                         <span class="date nobreak byline_date">06 March 2015</span>
+                                                     </div>
+                                                 </dd>
+                                             </dl>
+                                         
+                                     </div>
+                                     
+                                     
+                                     <div class="footer_link">
+                                         <a class="blockLink" href="/internet-coordination/news">More News</a>
+                                     </div>
+                                     <span class="rightBottom"></span>
+                                 
+                                 
+                                 </div>
+                             </div>
+                         
+                         
+                             <div style="width:288px" class="column innerblock portalBlock" id="">
+                                 <span class="leftTop"></span>
+                                 <div class="block_item">
+                                 
+                                     <div class="header">
+                                         <a href="/ripe/meetings">Meetings</a>
+                                         
+                                     </div>
+                                     <div class="block_content">
+                                         
+                                             <dl class="collection_item">
+                                                 <dt><a href="https://www.ripe.net/ripe/meetings/homepage-meetings/menog-15-dubai">MENOG 15, Dubai</a></dt>
+                                                 <dd>
+                                                 
+                                                     
+                                                 </dd>
+                                             </dl>
+                                         
+                                         
+                                             <dl class="collection_item">
+                                                 <dt><a href="https://www.ripe.net/ripe/meetings/homepage-meetings/see-4-ripe-ncc-regional-meeting">SEE 4/RIPE NCC Regional Meeting </a></dt>
+                                                 <dd>
+                                                 
+                                                     
+                                                 </dd>
+                                             </dl>
+                                         
+                                         
+                                             <dl class="collection_item">
+                                                 <dt><a href="https://www.ripe.net/ripe/meetings/homepage-meetings/ripe-70-amsterdam-the-netherlands">RIPE 70, Amsterdam, The Netherlands</a></dt>
+                                                 <dd>
+                                                 
+                                                     
+                                                 </dd>
+                                             </dl>
+                                         
+                                     </div>
+                                     
+                                     
+                                     <div class="footer_link">
+                                         <a class="blockLink" href="/ripe/meetings">Read more</a>
+                                     </div>
+                                     <span class="rightBottom"></span>
+                                 
+                                 
+                                 </div>
+                             </div>
+                         
+                         
+                             <div style="width:288px" class="column innerblock portalBlock" id="">
+                                 <span class="leftTop"></span>
+                                 <div class="block_item">
+                                 
+                                     <div class="header">
+                                         <a href="http://apps.db.ripe.net/search/query.html">RIPE Database (Whois)</a>
+                                         
+                                     </div>
+                                     
+                                     
+                                     <div class="block_content">
+                                           
+                                           <div class="document_item">
+                                               <div id="searchDatabase" class="portalBlockInner">
+  <div class="blockContent">
+    <form method="get" action="https://apps.db.ripe.net/search/query.html">
+      <input type="text" name="searchtext" id="searchtext" class="searchField" size="20">
+      <input type="submit" class="searchButton" name="search:doSearch" alt="submit search" value="Search">
+    </form>
+    <p class="discreet">By pressing the "Search" button you explicitly express your agreement with the <a href="http://www.ripe.net/data-tools/support/documentation/terms">RIPE Database Terms and Conditions</a>.</p>
+  </div>
+</div>
+                                           </div>
+                                     </div>
+                                     <div class="footer_link">
+                                         <a class="blockLink" href="http://apps.db.ripe.net/search/query.html">RIPE Database Search</a>
+                                     </div>
+                                     <span class="rightBottom"></span>
+                                 
+                                 
+                                 </div>
+                             </div>
+                         
+                         
+                             <div style="width:288px" class="column innerblock portalBlock" id="">
+                                 <span class="leftTop"></span>
+                                 <div class="block_item">
+                                 
+                                     <div class="header">
+                                         <a href="/internet-coordination/news/nro-news">NRO News</a>
+                                         
+                                     </div>
+                                     <div class="block_content">
+                                         
+                                             <dl class="collection_item">
+                                                 <dt><a href="https://www.ripe.net/internet-coordination/news/industry-developments/comment-phase-open-for-2015-icann-board-seat-9-election">Comment Phase Open For 2015 ICANN Board Seat 9 Election</a></dt>
+                                                 <dd>
+                                                 
+                                                     
+                                                 </dd>
+                                             </dl>
+                                         
+                                     </div>
+                                     
+                                     
+                                     <div class="footer_link">
+                                         <a class="blockLink" href="/internet-coordination/news/nro-news">NRO News</a>
+                                     </div>
+                                     <span class="rightBottom"></span>
+                                 
+                                 
+                                 </div>
+                             </div>
+                         
+                         
+                             <div style="width:288px" class="column innerblock no-style" id="">
+                                 <span class="leftTop"></span>
+                                 <div class="block_item">
+                                 
+                                     
+                                     
+                                     
+                                     <div class="block_content">
+                                           
+                                           <div class="document_item">
+                                               <a href="https://academy.ripe.net"><img style="width: 288px; height: 75px; margin:10px 20px; display:block; positon: relative" alt="Help us improve our site navigation" src="/collections-area/ripe-ncc-academy-1"></img></a>
+                                           </div>
+                                     </div>
+                                     
+                                     <span class="rightBottom"></span>
+                                 
+                                 
+                                 </div>
+                             </div>
+                         
+                         
+                             <div style="width:288px" class="column innerblock portalBlock" id="">
+                                 <span class="leftTop"></span>
+                                 <div class="block_item">
+                                 
+                                     <div class="header">
+                                         <a href="/lir-services/resource-management/ipv4-transfers">IPv4 Transfers</a>
+                                         
+                                     </div>
+                                     
+                                     
+                                     
+                                     <div class="footer_link">
+                                         <a class="blockLink" href="/lir-services/resource-management/ipv4-transfers">Read more</a>
+                                     </div>
+                                     <span class="rightBottom"></span>
+                                 
+                                 
+                                 </div>
+                             </div>
+                         
+                         
+                             <div style="width:288px" class="column innerblock portalBlock" id="">
+                                 <span class="leftTop"></span>
+                                 <div class="block_item">
+                                 
+                                     <div class="header">
+                                         <a href="/lir-services/network-health">Service Announcements</a>
+                                         
+                                     </div>
+                                     <div class="block_content">
+                                     </div>
+                                     
+                                     
+                                     <div class="footer_link">
+                                         <a class="blockLink" href="/lir-services/network-health">Check network health</a>
+                                     </div>
+                                     <span class="rightBottom"></span>
+                                 
+                                 
+                                 </div>
+                             </div>
+                         
+                         <div class="clearbreak"></div>
+                     </div>
+                
+            </div>
+                                                                                    
+                             </div>                                                                                       
+                                                           
+
+                            
+                        </div>
+                    
+
+                    
+                </div>
+            
+        
+            <div id="viewlet-below-content">
+
+</div>
+        </div>
+      </div>
+	
+	
+          
+        
+	
+	<div class="visualClear" />
+
+    </div>
+</div>
+
+
+  
+
+<div id="portal-footer">
+  <span id="social-icons">
+    <a href="https://www.ripe.net/lir-services/ncc/contact/social-networking"><img width="130" height="18" alt="Youtube" src="https://www.ripe.net/++resource++ripe.plonetheme.images/social.png" /></a>
+  </span>
+  <span id="footer-links">
+	<a href="https://www.ripe.net/">Home</a>
+        <span> |</span> 
+	<a href="https://www.ripe.net/lir-services/ncc">About RIPE NCC</a>
+        <span> |</span>
+	<a href="https://www.ripe.net/lir-services/network-health">Service Announcements</a>
+        <span> |</span>
+	<a href="https://www.ripe.net/about/jobs">Jobs</a>
+        <span> |</span>
+	<a href="https://lirportal.ripe.net">LIR Portal</a>
+        <span> |</span>
+	<a href="https://www.ripe.net/lir-services/ncc/legal">Legal</a>
+        <span> |</span>
+	<a href="https://www.ripe.net/lir-services/ncc/legal/ripe-ncc-privacy-statement">
+          Privacy Statement
+        </a>
+        <span> |</span>
+	<a href="https://www.ripe.net/lir-services/ncc/legal/ripe-ncc-privacy-statement#cookies">
+          Cookies
+        </a>
+        <span> |</span>
+	<a href="https://www.ripe.net/lir-services/ncc/legal/copyright-statement">Copyright Statement</a>
+  </span>
+
+  </div>
+  
+    <div id="cookiepopup">
+            <div id="cookie-close"><img src="https://www.ripe.net/pb_close.png" /> </div>
+	    	<div class="cookie-content">
+		       <p><span>The RIPE NCC uses cookies. Some of these cookies may have been set already. More information about our cookies can be found in our </span><a title="" href="https://www.ripe.net/lir-services/ncc/legal/ripe-ncc-privacy-statement#cookies" class="external-link" target="_self">privacy<br />policy</a><span>. You can accept our cookies either by </span><span id="cookie-close-span">clicking here</span><span> or by continuing to use the site.</span></p>
+		    </div>
+	</div>
+
+
+
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.www.ripe.net","*.ripe.net","*.ripe.net","*.www.ripe.net"]]);
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www-analytics.ripe.net/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code --> 
+
+
+
+
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>nsfocus</title>
+<meta name="keywords" content="anti-ddos,network security,web security,anomaly traffic detection,ddos mitigation,ddos prevention,ddos mss,ddos attack,ddos threat,what is ddos,ddos flood,flood attack">
+<meta name="description" content="NSFOCUS is a global leading DDoS mitigation (Anti-DDoS) solution provider, as well as in field of Web security.">
+<link href="http://www.nsfocus.com/main.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="http://www.nsfocus.com/css/boxy.css" type="text/css" />
+<script type="text/javascript" src="http://www.nsfocus.com/js/jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="http://www.nsfocus.com/js/jquery.boxy.js"></script>
+<script type="text/javascript">
+if (document.domain.search("nsfocus.net") >= 0) {
+	_uacct = "UA-1164308-2";
+	_domainName = "nsfocus.net";
+}
+else {
+	_uacct = "UA-1164308-1";
+	_domainName = "nsfocus.com";
+}
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', _uacct]);
+_gaq.push(['_setDomainName', _domainName]);
+_gaq.push(['_trackPageview']);
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script type="text/javascript" src="http://www.nsfocus.com/js/jquery/jquery-1.6.3.min.js"></script>
+<script language="javascript">
+//公共幻灯脚本
+/*jQuery(document).ready(function(){
+	 jQuery("#slides").slides({
+			preload: false,
+			preloadImage: 'images/loading.gif',
+			play: 4000,
+			pause: 2500,
+			hoverPause: true
+		});
+	 jQuery("#menumain td").hover(
+		function(e){
+			if(lastMenu!=null){
+				lastMenu.hide();
+				lastMenu = null;
+			}
+			var curParentMenu = jQuery(e.target);
+			lastMenu = curParentMenu.parent().find(".submenu");
+			if(lastMenu!=null){
+				lastMenu.css({'top':curParentMenu.offset().top+40,'left':curParentMenu.offset().left+10});   
+				lastMenu.show();
+			}
+		},
+		function(e){
+			if(lastMenu!=null){
+				lastMenu.hide();
+				lastMenu = null;
+			}
+		}
+	);
+});
+var lastMenu = null;
+*/
+</script>
+<script> 
+function getCookie(name) {
+     var name = name + "=";
+     var ca = document.cookie.split(';');
+     for(var i=0;i < ca.length;i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1,c.length);
+          if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+     }
+     return null;
+}; 
+
+(function(){
+var lang = (getCookie('nsfocusLanguage')||navigator.language || navigator.userLanguage).toLowerCase();
+if(lang.indexOf('en') != 0){
+         if (lang.indexOf('zh') == 0) {
+                   document.location.href = 'http://www.nsfocus.com.cn/index.html'
+         } else if (lang.indexOf('ja') == 0) {
+                   document.location.href = 'http://jp.nsfocus.com/index.html'
+         }
+} else {
+         var date=new Date();
+         date.setTime(date.getTime()+20*24*3600*1000);
+         document.cookie = 'nsfocusLanguage=en;domain=;expire="'+date+'+;path=/'; 
+}
+})();
+</script>
+
+</head>
+<body style="background:#f7f7f7 url(images/index_bg1.jpg) repeat-x">
+<center>
+<!-- 公共头部 -->
+	<div id="banner">
+		<div id="logo" style="position:absolute;left:30px;top:12px;">
+			<a href="http://www.nsfocus.com">
+				<img src="http://www.nsfocus.com/images/logo.png" border="0" width="180" height="25"/>
+			</a>
+		</div>
+<script>
+function check_search()
+{
+	var txt = $.trim($("#search_q").val());
+	if(txt=='' || txt=='Please input...')
+	{
+		$('#search_q').val('Please input...');
+		$('#search_q').css('color','#666666');
+		return false;
+	}
+	return true;
+}
+function key_clear()
+{
+	var txt = $.trim($("#q").val());
+	if(txt == 'Please input...')
+	$("#q").val('');
+}
+</script>
+<script type="text/javascript">
+	$(function(){
+	   var sel = $("#sel_lang_box");
+	   var menu = $("#list_lang");
+	   var t_delay;
+	   sel.mouseenter(function(){
+	      t_delay = setTimeout(function(){
+		    menu.fadeIn("show");},200);
+	   });
+	   sel.mouseleave(function(){
+	     clearTimeout(t_delay);
+	     menu.fadeOut("show");
+	   });
+	});
+   
+		function setCookie(lang){
+		var date=new Date();
+		date.setTime(date.getTime()+20*24*3600*1000);
+		document.cookie = 'nsfocusLanguage='+lang+';domain=.nsfocus.com;expire="'+date+'+;path=/';
+		};
+</script>
+		<div id="bannerLinks" style="">
+			<div class="l">
+<style>
+	#bannerLinks .l a.top_nav{ color:#666666;}
+	#bannerLinks .l a.top_nav:hover{ color:#336600}
+</style>
+				<a class="blue top_nav" href="http://www.nsfocusblog.com/" target="_blank">Blog</a> |&nbsp;&nbsp;
+				<a class="blue top_nav" href="http://www.nsfocus.com/html/htb/">How to Buy</a> |&nbsp;&nbsp;
+				<a class="blue top_nav" href="http://www.nsfocus.com/html/about/contactus/" >Contact Us</a> |&nbsp;&nbsp;
+			</div>
+			<div class="r" id="sel_lang_box">
+				<div class="sel_lang" id="sel_lang" style="cursor:pointer">English</div>
+				<span class="sel" id="sel_btn" >&nbsp;&nbsp;&nbsp;</span>
+				<div class="list_lang" style="display:none" id="list_lang">
+					<a onclick="setCookie('zh')" href="http://www.nsfocus.com.cn/index.html">简体中文</a><br />
+					<a onclick="setCookie('ja')" href="http://jp.nsfocus.com/index.html">日本語</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- 公共头部END -->
+	<div class="clear"></div>
+<!-- 公共导航 -->
+	<div id="menumain_dolphin">
+		<div class="mainmenuiner">
+<style>
+	a.my_nav{ color:#333333;font-family:Arial, Helvetica, sans-serif; width:115px;display:block;float:left;height:31px;}
+	a.my_nav:hover{ color:#336600}
+</style>
+			<table id="menumain" border="0" cellspacing="0" cellpadding="0" align="left">
+				<tr>
+					<td align="center" class="nav_a"><a href="http://www.nsfocus.com/products/" class="my_nav" >PRODUCTS</a></td>
+					<td align="center" class="nav_a"><a href="http://www.nsfocus.com/solutions/" class="my_nav" >SOLUTIONS</a></td>
+					<td align="center" class="nav_a"><a href="http://www.nsfocus.com/html/partners/overview/" class="my_nav" >PARTNERS</a></td>
+					<td align="center" class="nav_a"><a href="http://www.nsfocus.com/support/overview/" class="my_nav" >SUPPORT</a></td>
+					<td align="center" class="nav_a"><a href="http://www.nsfocus.com/html/about/aboutus/" class="my_nav" >COMPANY</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+<!-- 公共导航END -->
+	<div class="index_slide">
+<style>
+/*其他的*/
+	#banner #bannerLinks .l a:hover{ color:#074737}
+	.index_bottom_list{color:#666666;}
+	.index_bottom_list:hover{ color:#336600}
+/*幻灯的*/
+	#imgPlay {
+		OVERFLOW: hidden; WIDTH: 960px; ZOOM: 1; POSITION: relative; HEIGHT: 354px; 
+	}
+	#imgPlay .imgs IMG {
+		 WIDTH: 960px; height:354px;
+	}
+	#imgPlay .imgs LI {
+		FLOAT: left; POSITION: relative
+	}
+	#imgPlay .imgs {
+		WIDTH: 5760px; list-style:none; margin:0; padding:0;
+	}
+	#imgPlay .btn {
+		RIGHT: 12px; OVERFLOW: hidden; WIDTH: 112px; BOTTOM: 12px; TEXT-INDENT: -9999px; POSITION: absolute; HEIGHT: 29px;
+	}
+	#imgPlay .btn A {
+		BACKGROUND: url(images/slide/bg.png) no-repeat;BACKGROUND-POSITION: 0px 0px; DISPLAY: block; WIDTH: 112px; HEIGHT: 29px;
+	}
+	#imgPlay .btn A:hover {
+		BACKGROUND: url(images/slide/bg.png) no-repeat;BACKGROUND-POSITION: 0px -30px;
+	}
+	#imgPlay .prev {
+		BACKGROUND: url(images/slide/imgPlayer.png) no-repeat 0px 0px; LEFT: 1px; WIDTH: 46px; CURSOR: pointer; TEXT-INDENT: -9999px; POSITION: absolute; TOP: 110px; HEIGHT: 81px
+	}
+	#imgPlay .next {
+		BACKGROUND: url(images/slide/imgPlayer.png) no-repeat 0px 0px; LEFT: 1px; WIDTH: 46px; CURSOR: pointer; TEXT-INDENT: -9999px; POSITION: absolute; TOP: 110px; HEIGHT: 81px
+	}
+	#imgPlay .next {
+		BACKGROUND-POSITION: right 0px; RIGHT: 1px; LEFT: auto
+	}
+	#imgPlay .num {
+		DISPLAY: inline; LEFT: 400px; POSITION: absolute; TOP: 275px; HEIGHT: 19px
+	}
+	#imgPlay .num SPAN {
+		DISPLAY: inline-block; BACKGROUND: url(images/slide/imgPlayer.png) no-repeat -19px -82px; MARGIN: 0px 2px; OVERFLOW: hidden; WIDTH: 18px; CURSOR: pointer; LINE-HEIGHT: 0; HEIGHT: 18px
+	; background-color:}
+	#imgPlay .num SPAN.on {
+		BACKGROUND: url(images/slide/imgPlayer.png) no-repeat 0px -82px;
+	}
+	#imgPlay .num .lc {
+		PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(images/slide/lc.png) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 13px; PADDING-TOP: 3px; HEIGHT: 16px
+	}
+	#imgPlay .num .mc {
+		PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(images/slide/lc.png) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 13px; PADDING-TOP: 3px; HEIGHT: 16px
+	}
+	#imgPlay .num .rc {
+		PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(images/slide/lc.png) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 13px; PADDING-TOP: 3px; HEIGHT: 16px
+	}
+	#imgPlay .num .mc {
+		BACKGROUND: url(images/slide/mc.png) repeat-x
+	}
+	#imgPlay .num .rc {
+		BACKGROUND: url(images/slide/rc.png) no-repeat
+	}
+	#imgPlay #numInner {
+		PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; PADDING-TOP: 3px; POSITION: absolute; TOP: 320px; TEXT-ALIGN: center;  white-space:nowrap;
+	}
+</style>
+<script src="js/slide.js"></script>
+		<div id=imgPlay>
+			<ul class=imgs id=actor>
+				<li><a href="2012/ads_pro_0809/26.html"><img src="images/banner_index2.jpg"></a></li>
+				<li><a href="#"><img src="images/banner_nta.jpg"></a></li>
+				<li><a href="2014/news_0805/181.html"><img src="images/banner_index3.jpg"></a></li>
+				<li><a href="2014/news_0715/178.html"><img src="images/banner_index1.jpg"></a></li>
+			</ul>
+			<div class=num id=numInner></div>
+		</div>
+	</div>
+<!-- 幻灯END -->
+<!-- 公共 -->
+<style>
+	#notice a:hover{ color:#336600}
+</style>
+	<div id="mainContent" style="padding-top:19px; background-color:#F7F7F7">
+		<div style="width:940px;">
+			<div id="notice" style="float:left;margin-top:10px">
+				<img src="./images/notice.jpg"/> 
+			</div>
+		</div>
+		<div class="clear"></div>
+<style>
+	.index_solu .fen{ float:left; width:38px; height:200px; background:url(images/index_shuxian.gif) 20px 0px repeat-y;}
+</style>
+		<div id="pics"  class="index_solu">
+			<a href="/2012/solutions_0621/11.html"><img src="./images/index_sol_1.jpg" border="0"/></a>
+			<div class="fen"></div>
+			<a href="/2012/solutions_0621/10.html"><img src="./images/index_sol_2.jpg" border="0"/></a>
+			<div class="fen"></div>
+			<a href="/2012/solutions_0621/12.html"><img src="./images/index_sol_3.jpg" border="0"/></a>
+		</div>
+		<div class="clear"></div>
+		<div id="splitLine" style="width:940px;height:2px;background:url(./images/index_line.gif) repeat-x;margin-top:25px;margin-bottom:12px;">
+		</div>
+		<div>
+			<table width="940">
+				<tr>
+					<td width="33%" style="line-height:22px;" valign="top" align="left">
+						<a href=""><img src="./images/seclabs_title.jpg" border="0"/></a><br/>
+						<img src="images/arraw_01.jpg" border="0"/><a class="  index_bottom_list" href="http://www.nsfocus.com/advisories/" >Security Advisory</a><br/>
+						<img src="images/arraw_01.jpg" border="0"/><a class="  index_bottom_list" href="http://www.nsfocus.com/SecurityView/" >Security View</a><br/>
+						<img src="images/arraw_01.jpg" border="0"/><a class="  index_bottom_list" href="http://www.nsfocus.com/SecurityReport/" >Security Report </a><br/>
+					</td>
+					<td width="33%" style="line-height:20px" valign="top" align="left">
+						<a href="http://www.nsfocus.com/news/"><img src="./images/latestnews_title.jpg" border="0"/></a><br/>
+						<table>
+							<tr>
+								<td width="75" valign="top">12 Nov.2014|</td>
+								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/news_1112/195.html"  class="index_bottom_list">First Dynamic DDoS Mitigation Service Launched by ISP</a></td>
+							</tr>
+							<tr>
+								<td width="75" valign="top">14 Oct.2014|</td>
+								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/news_1014/192.html"  class="index_bottom_list">NSFOCUS Unveils Robust Anti-DDoS Solution for  Hosting Service Providers, Date Centers and MSSPs</a></td>
+							</tr>
+							<tr>
+								<td width="75" valign="top">23 Sep.2014|</td>
+								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/news_0923/191.html"  class="index_bottom_list">2014 Mid-Year DDoS Threat Report Documents High-Volume,  High-Rate Attacks on the Rise</a></td>
+							</tr>
+							<tr>
+								<td width="75" valign="top">20 Aug.2014|</td>
+								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/news_0820/185.html"  class="index_bottom_list">Data Center Detected and Mitigated Emerging DDoS Attack</a></td>
+							</tr>
+						</table>	
+					</td>
+					<td width="33%" style="line-height:20px" valign="top" align="left">
+						<a href="http://www.nsfocus.com/Events/"><img src="./images/events_title.jpg" border="0"/></a><br/>
+						<table>
+							<tr>
+								<td width="74" valign="top">29 Oct.2014|</td>
+								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/Events_1029/194.html"  class="index_bottom_list">NSFOCUS Offers DDoS Attack Solutions for Europe at WHD Munich and WHD London</a></td>
+							</tr>
+							<tr>
+								<td width="74" valign="top">29 Oct.2014|</td>
+								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/Events_1029/193.html"  class="index_bottom_list">DDoS Response in a European Setting: NSFOCUS at HostingCon Europe in Amsterdam</a></td>
+							</tr>
+							<tr>
+								<td width="74" valign="top">16 Sep.2014|</td>
+								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/Events_0916/189.html"  class="index_bottom_list">NSFOCUS Live Webinar:  Myth Busted: NSFOCUS Proves Security Not a Bottleneck, but a Way to Exceed Customer Expectations</a></td>
+							</tr>
+							<tr>
+								<td width="74" valign="top">16 Sep.2014|</td>
+								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/Events_0916/188.html"  class="index_bottom_list">NSFOCUS Weaves Magic at WHD.Asia with Web Security Fabric for IDCs</a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="clear"></div>
+<!-- 公共底部 -->
+<style>
+	.foot_nav a{ color:#666666;}
+	.foot_nav a:hover{ color:#336600;}
+</style>
+		<div id="footer" style="width:940px;;height:60px;margin-top:30px">
+			<div style="float:left">
+				<table  cellpadding="0" cellspacing="0" border="0" >
+					<tr>
+						<td class="foot_nav">
+							<a href="http://www.nsfocus.com/products/">PRODUCTS</a> |
+							<a href="http://www.nsfocus.com/solutions/">SOLUTIONS</a> |
+							<a href="http://www.nsfocus.com/html/partners/overview/">PARTNERS</a> |
+							<a href="http://www.nsfocus.com/support/overview/">SUPPORT</a> |
+							<a href="http://www.nsfocus.com/html/about/aboutus/">COMPANY</a> |
+						</td>
+
+						<td width="15"></td>
+						<td><span style="font-size:14px">Follow Us</span>&nbsp;&nbsp;</td>
+						<td>
+							<a rel="me" href="http://www.linkedin.com/company/nsfocus" target="_blank" class="index_link1"><img src="http://www.nsfocus.com/images/linkin_grey.jpg" alt="Linkin" width="39px" height="39px" border="0" onmouseover="$(this).attr('src','http://www.nsfocus.com/images/linkin.jpg');" onmouseout="$(this).attr('src','http://www.nsfocus.com/images/linkin_grey.jpg');" /></a>&nbsp;&nbsp;
+						</td>
+						<td>
+							<a rel="me" href="https://twitter.com/NSFOCUS_Intl" target="_blank"><img src="http://www.nsfocus.com/images/icon_twitter.png" alt="Twitter" width="39px" height="39px" border="0" onmouseover="$(this).attr('src','http://www.nsfocus.com/images/twtter.png');" onmouseout="$(this).attr('src','http://www.nsfocus.com/images/icon_twitter.png');"/></a>&nbsp;&nbsp;
+						</td>
+						<td>
+							<a rel="me" href="http://www.facebook.com/nsfocus" target="_blank"><img src="http://www.nsfocus.com/images/icon_facebook.png" alt="Facebook" width="39px" height="39px" border="0" onmouseover="$(this).attr('src','http://www.nsfocus.com/images/facebook.png');" onmouseout="$(this).attr('src','http://www.nsfocus.com/images/icon_facebook.png');" /></a>
+						</td>
+
+					</tr>
+				</table>
+			</div>
+			<div style="float:right;font-sizze:16px"><!--NSFOCUS Inc. ICP Beijing  B2-20050367--></div>
+		</div>
+<!-- 公共底部END -->
+	</div>
+</center>
+</body>
+</html>
