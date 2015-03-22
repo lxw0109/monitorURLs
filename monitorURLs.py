@@ -160,6 +160,7 @@ def main():
 
     # Just to calculate time, not for thred pool NOW.
     threads = []
+    urlCount = 0
     # monitor each url in urls file
     with open("./urls") as f:
         while 1:
@@ -170,16 +171,16 @@ def main():
             mt = MyThread(monitor, (url,))
             mt.start()
             threads.append(mt)
-    #myUtils.writeLog("Monitoring {0} urls".format(len(threads)), "", "")
+            urlCount += 1
 
     for thread in threads:
         thread.join()
 
     if aeCount > 0:
-        allContent = "本次共监测网站44个, 其中有{0}个网站访问异常, 详细信息如下:\n\n{1}".format(aeCount, aeContent)
+        allContent = "本次共监测网站{0}个, 其中有{1}个网站访问异常, 详细信息如下:\n\n{2}".format(urlCount, aeCount, aeContent)
         myUtils.sendEmail(aeSubject, allContent)
     if uwCount >0:
-        allContent = "本次共监测网站44个, 其中有{0}个网站监测到有更新, 详细信息如下:\n\n{1}".format(uwCount, uwContent)
+        allContent = "本次共监测网站{0}个, 其中有{1}个网站监测到有更新, 详细信息如下:\n\n{2}".format(urlCount, uwCount, uwContent)
         myUtils.sendEmail(uwSubject, allContent)
 
     #Update Criterion file.

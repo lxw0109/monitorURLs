@@ -32,7 +32,7 @@ def writeLog(tag, url, log):
     with open("./monitorLog", "a") as f:
         logLock.acquire()
         f.write("{0}: {1}\t{2}\n{3}\n".format(tag, url, time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), log))
-        f.flush()
+        #f.flush()
         logLock.release()
 
 
@@ -43,7 +43,6 @@ def writeDate(content):
     with open("./monitorLog", "a") as f:
         logLock.acquire()
         f.write(content)
-        f.flush()
         logLock.release()
 
 
@@ -54,7 +53,6 @@ def writeFile(url, length, md5Str):
     with open("./criterion", "a") as f:
         fileLock.acquire()
         f.write("{0},{1},{2}\n".format(url, length, md5Str))
-        f.flush()
         fileLock.release()
 
 

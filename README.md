@@ -106,7 +106,6 @@ I CANNOT figure it out right now.
 
 
 ###Todos:
-0. Count the number of urls to monitor AUTOMATICALLY.
 1. limit the number of threads.(semaphore)
 2. set a flag to control get the source code of the urls from the urlopen or from the Intermedia_new.
 NOTE: you should control the criterion as the same time.
