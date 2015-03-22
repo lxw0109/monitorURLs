@@ -192,6 +192,6 @@ if __name__ == '__main__':
     start = datetime.datetime.now()
     main()
     end = datetime.datetime.now()
-    myUtils.writeDate("Monitor Finished. Time Cost: {0}\n{1}\n{1}\n".format(end - start, "------"*10))
+    myUtils.writeDate("Monitor Finished.Monitor Time:{0}. Time Cost:{1}\n{2}\n{2}\n".format(time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), end - start, "------"*10))
 else:
     myUtils.writeLog("", "", "Being imported as a module.")
