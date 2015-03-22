@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-mjntJsvhlHXD0G3ee1H0Bdy8CNZjd8zbM-W1JnmO99I" value="form-mjntJsvhlHXD0G3ee1H0Bdy8CNZjd8zbM-W1JnmO99I"  />
+<input type="hidden" name="form_build_id" id="form-qSRXVfmrcqICW7_Jy4lJ_5k7YzZtuZ-zn0pQqsgcggE" value="form-qSRXVfmrcqICW7_Jy4lJ_5k7YzZtuZ-zn0pQqsgcggE"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-TKhMv2GOtZSgvnenWswlzsn8v_AlhHi0sLz4EBJSW_s" value="form-TKhMv2GOtZSgvnenWswlzsn8v_AlhHi0sLz4EBJSW_s"  />
+<input type="hidden" name="form_build_id" id="form-_PpNnLWAhDIZVisrlpWqBZBWlel3Z1JQp5OmCZ__JgQ" value="form-_PpNnLWAhDIZVisrlpWqBZBWlel3Z1JQp5OmCZ__JgQ"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 

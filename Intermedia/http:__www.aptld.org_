@@ -26,7 +26,7 @@
 <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/contrib/tagadelic/tagadelic.css?8" />
 <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/contrib/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.css?8" />
 <link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?8" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/contrib/second/calendar/calendar.css?8" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/contrib/calendar/calendar.css?8" />
 <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/contrib/cck/modules/fieldgroup/fieldgroup.css?8" />
 <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/contrib/views/css/views.css?8" />
 <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/custom/centr/css/custom.css?8" />
@@ -120,7 +120,7 @@ padding-left:0px;
     <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-l" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
   </div>
   <input type="submit" name="op" id="theme-search-submit" value="Search"  class="form-submit" />
-  <input type="hidden" name="form_token" id="edit-search-theme-form-form-token" value="7a79a87af468bf3bf06860d1ad9d1045" />
+  <input type="hidden" name="form_token" id="edit-search-theme-form-form-token" value="f085570c4d1f9b351696211e47532d88" />
   <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form" />
 </div>
 
@@ -184,7 +184,7 @@ padding-left:0px;
 </div>
 <div class="wrapsubmit"><input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" /></div>
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-3d617f424a6b52ce97b504ae6851b592" value="form-3d617f424a6b52ce97b504ae6851b592"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-b627ba77a8717ca9efcf4010b360201e" value="form-b627ba77a8717ca9efcf4010b360201e"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>

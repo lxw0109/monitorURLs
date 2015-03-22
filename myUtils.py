@@ -32,6 +32,7 @@ def writeLog(tag, url, log):
     with open("./monitorLog", "a") as f:
         logLock.acquire()
         f.write("{0}: {1}\t{2}\n{3}\n".format(tag, url, time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), log))
+        f.flush()
         logLock.release()
 
 
@@ -42,6 +43,7 @@ def writeDate(content):
     with open("./monitorLog", "a") as f:
         logLock.acquire()
         f.write(content)
+        f.flush()
         logLock.release()
 
 
@@ -52,6 +54,7 @@ def writeFile(url, length, md5Str):
     with open("./criterion", "a") as f:
         fileLock.acquire()
         f.write("{0},{1},{2}\n".format(url, length, md5Str))
+        f.flush()
         fileLock.release()
 
 
@@ -116,6 +119,7 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
     #filename_new = "./Intermedia_new/" + url.replace("/", "_")
     try:
         if length < urlObjDic[url].getLength():
+            #writeLog("length <(lt)", url, "")
             conList = diff2Str(filename, sourceCode)
             if conList != []:
                 content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, stdSize(urlObjDic[url].getLength()), stdSize(length))
@@ -124,6 +128,7 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
                     content += item + "\n"
                 content += "\n"
         elif length > urlObjDic[url].getLength():
+            #writeLog("length >(gt)", url, "")
             conList = diff2Str(filename, sourceCode)
             if conList != []:
                 content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, stdSize(urlObjDic[url].getLength()), stdSize(length))
@@ -132,6 +137,7 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
                     content += item + "\n"
                 content += "\n"
         elif md5Str != urlObjDic[url].getMD5Str():
+            #writeLog("md5 not equal", url, "")
             conList = diff2Str(filename, sourceCode)
             if conList != []:
                 content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，具体差异如下:\n".format(url, checkTime)
@@ -147,10 +153,11 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
         #NOTE: lxw  Does this rLLock belong to one single thread or all threads share it? If the former situation, it doesn't work for mutex.
         #I think it's the latter situation. I need to CONFIRM THIS.
         aeLock.acquire()
-        #writeLog("[Quite Normal, Don't worry]:lxw_KeyError", url, "")
+        writeLog("[Quite Normal, url recovery.] lxw_KeyError", url, "")
         if url in aeURLs:
             aeURLs.remove(url)
         aeLock.release()
+
     return content
 
 

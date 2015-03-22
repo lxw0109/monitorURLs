@@ -1,0 +1,591 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<html>
+<head>
+<title>nlnetlabs.nl :: Home ::</title>
+<meta name="author" content="NLnet Labs" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="description" content="NLnet Labs Website" />
+<meta name="keywords" content="NLnet Labs, DNSSEC, IPv6, NSD, Unbound, Routing" />
+<link rel="shortcut icon" href="/gx/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="/css/nlnetlabs2008.css" media="screen, projection, tv" />
+<link rel="stylesheet" type="text/css" href="/css/nlnetlabs-print.css" media="print" />
+
+<link rel="stylesheet" type="text/css" href="/css/nav.css" media="screen, projection, tv" />
+<link rel="stylesheet" type="text/css" href="/css/corners.css" media="screen, projection, tv" />
+<link rel="alternate"  title="RSS 2.0" href="/build/out/rss.xml" TYPE="application/rss+xml" />
+</head>
+<body>
+<div class="page">
+
+
+
+<div class="bodytop"></div>
+<div class="bodymiddle">
+ <div class="bodypad">
+  <div class="header">
+  <img class="printlogo" src="/gx/css-elements/LogoInGradientBar2-y100-cropped.png" alt=""/>
+    <div class="title" id="pagetitle">
+    	<h1>NLnet Labs</h1>
+    </div> <!-- title -->
+     
+    <div class="navdiv">
+    	<ul class="nav">
+	<!-- First Column -->
+	<li>
+	<div class="sh1"><a href="/"><i><b>NLnetLabs</b></i></a>
+	<ul>
+        <li><div class="sh1"><a href="/">Home</a></div></li>
+        <li><div class="sh1"><a href="/labs/news/">News</a></div></li>
+        <li><div class="sh1"><a href="/labs/about/">About</a></div></li>
+        <li><div class="sh1"><a href="/labs/mission/">Mission</a></div></li>
+        <li><div class="sh1"><a href="/labs/staff/">Staff</a></div></li>
+        <li><div class="sh1"><a href="/labs/alumni/">Student Alumni</a></div></li>
+        <li><div class="sh1"><a href="/labs/employment/">Employment</a></div></li>
+	</ul>
+	</div>
+	</li>
+
+	<!-- Second Column -->
+	<li>
+	<div class="sh1"><a><i><b>Projects</b></i></a>
+	<ul>
+                <li><div class="sh1"><a href="/projects/nsd/">NSD</a></div></li>
+                <li><div class="sh1"><a href="/projects/ldns/">Ldns</a></div></li>
+                <li><div class="sh1"><a href="/projects/unbound/">Unbound</a></div></li>
+                <li><div class="sh1"><a href="/projects/opendnssec/">OpenDNSSEC</a></div></li>
+                <li><div class="sh1"><a href="/projects/dnssec/">DNSSEC</a></div></li>
+                <li><div class="sh1"><a href="/projects/dnssec-trigger/">Dnssec-Trigger</a></div></li> 
+                <li><div class="sh1"><a href="/projects/dnssec-workshop/">DNSSEC Workshop</a></div></li>
+                <li><div class="sh1"><a href="/projects/credns/">Credns</a></div></li>
+                <li><div class="sh1"><a href="/projects/netdns/">Net::DNS</a></div></li>
+                <li><div class="sh1"><a href="/projects/bgpsim/">BGP Simulation</a></div></li>
+                <li><div class="sh1"><a href="/projects/drill/">Drill</a></div></li>
+                <li><div class="sh1"><a href="/projects/internships/">Student Projects</a></div></li>
+                <li><div class="sh1"><a href="/projects/older/">Older Projects</a></div></li>
+	</ul>
+	</div>
+	</li>
+
+	<!-- Third Column -->
+	<li>
+	<div class="sh1"><a href="/publications/"><i><b>Publications</b></i></a>
+	<ul>
+		<li><div class="sh1"><a href="/publications/">Publications</a></div></li>
+		<li><div class="sh1"><a href="/publications/presentations/">Presentations</a></div></li>
+		<li><div class="sh1"><a href="/publications/dnssec_howto/">DNSSEC Howto</a></div></li>
+	</ul>
+	</div>
+	</li>
+
+	<!-- Fourth Column -->
+	<li>
+	<div class="sh1"><a><i><b>Support</b></i></a>
+	<ul>
+		<li><div class="sh1"><a href="/downloads/">Downloads</a></div></li>
+		<li><div class="sh1"><a href="/labs/bugs/">Bug reports</a></div></li>
+		<!-- <li><div class="sh1"><a href="/svn/">Subversion</a></div></li> -->
+		<li><div class="sh1"><a href="/projects/nsd/support.html">NSD support</a></div></li>
+<!--		<li><div class="sh1"><a href="/forum/">Forum</a></div></li> -->
+	</ul>
+	</div>
+	</li>
+
+	<!-- Fifth Column -->
+	<li>
+	<div class="sh1"><a href="/blog"><i><b>Blog</b></i></a>
+	</div>
+	</li>
+
+	</ul>  <!-- nav -->
+
+    </div>
+
+  </div> <!-- header -->
+ </div> <!-- bodypad -->
+ <div class="bodybottom"></div>
+</div> <!-- bodymiddle -->
+
+
+<div class="bodytop"></div>
+<div class="bodymiddle">
+ <div class="bodypad">
+
+<div class="container">
+    <div class="contentbalk">
+	
+	<table class="maintable">
+    <tr>
+
+
+
+<td class="tdblock" style="vertical-align:top;padding-right:5px;">
+
+	
+<div class="roundedcornr_box_769974">
+   <div class="roundedcornr_top_769974"><div><!-- intentional hack--></div></div>
+      <div class="roundedcornr_content_769974">
+	 	<div class="divblock">
+
+		<h2 class="green">About</h2>
+<p>
+		Stichting NLnet Labs (NLnet Labs for short) is a not-for-profit
+foundation founded in 1999 in the Netherlands. Its statutes define its
+objectives: to develop Open Source software and open standards for the
+benefit of the Internet.
+
+
+
+		<br>
+
+		NLnet Labs' mission is:
+<br/>
+<i>
+To provide globally recognized innovations and expertise for those technologies that turn a network of networks into an Open Internet for All.
+</i>
+
+		<br>
+		<a href="/labs/about/">&raquo; Read more about Labs</a>.
+</p><p>
+NLnet Labs is a charitable foundation (ANBI) and our main source of income is a subsidy from <a href="http://www.sidn.nl">SIDN</a> and a subsidy from the <a href="http://www.nlnet.nl">NLnet Foundation</a>. As we're moving forward and need to ensure our continuity, we welcome your support! In order to develop a sustainable income, we invite you to consider our Support and SLA services, provided by <a href="http://www.opennetlabs.com">Open Netlabs BV</a> being a 100% subsidiary of NLnet Labs. <br><a href="labs/contributors/">&raquo; Read more about our funding</a>.
+</p>
+
+	
+</div><!-- end divblock -->
+<div class="roundedcornr_bottom_769974"></div>
+
+</div> <!-- end roundedcornr_content_769974 -->
+</div> <!-- end roundedcornr_box_769974 -->
+
+
+</td>
+
+
+
+<td class="tdblock" style="width:33%;vertical-align:top;padding-left:5px;">
+
+	
+<div class="roundedcornr_box_769974">
+   <div class="roundedcornr_top_769974"><div><!-- intentional hack--></div></div>
+      <div class="roundedcornr_content_769974">
+	 	<div class="divblock">
+
+		<h2 class="green">Downloads</h2>
+
+		<div class="DownloadsBlock">
+		<table cellspacing="0" cellpadding="0" border="0" class="downloadtable">
+		<tr>
+		    <td><a href="/downloads/nsd/nsd-4.1.1.tar.gz">
+			NSD 4.1.1</a>
+		    </td><td>&nbsp;</td>
+		    <td>
+			&nbsp;
+		    </td>
+		</tr>
+		<tr>
+		    <td><a href="http://unbound.net/downloads/unbound-latest.tar.gz">
+			Unbound 1.5.3</a>
+		    </td><td>&nbsp;</td>
+		    <td>
+			&nbsp;
+		    </td>
+		</tr>
+		<tr>
+		    <td><a href="/downloads/ldns/ldns-1.6.17.tar.gz">
+			ldns 1.6.17</a>
+		    </td><td>&nbsp;</td>
+		    <td>&nbsp;</td>
+		</tr>
+		</table>
+		</div>
+
+		<div class="ContributionsBlock">
+		    
+		    <table>
+		      <tr>
+			<td class="ContributorText" colspan=2>
+			  <A href="/labs/contributors/">
+			  <font><nobr>Subsidy provided by</nobr></font> 
+			  </A>			  
+			</td>
+			</tr>
+			<tr>
+
+                        <td class="ContributorLogo">
+                          <A href="/labs/contributors/">
+                          <img src="/gx/opennetlabs-logo-small.jpg" alt="Open Netlabs">
+                          </A>
+                        </td>
+
+                        <td class="ContributorLogo">
+                          <A href="/labs/contributors/">
+                          <img width="65px" src="/gx/nlnet-logo-small.gif" alt="NLnet">
+                          </A>
+                        </td>
+
+                        <td class="ContributorLogo">
+                          <A href="/labs/contributors/">
+                          <img width="65px" src="/gx/sidn-logo-small.jpg" alt="SIDN">
+                          </A>
+  		     </tr>
+
+		     <tr>
+                        <td class="ContributorText" colspan="2">
+                          <A href="/labs/contributors/">
+                          <font><nobr>With contributions from</nobr></font>
+                          </A>
+                        </td>
+
+			<td class="ContributorLogo">
+			  <A href="/labs/contributors/">
+			  <img src="labs/contributors/animation-small.gif" alt="Contributors" width="65px" >
+			  </A>			  
+ 			</td>
+			
+		      </tr>
+		    </table>
+		</div>
+	
+</div><!-- end divblock -->
+<div class="roundedcornr_bottom_769974"></div>
+
+</div> <!-- end roundedcornr_content_769974 -->
+</div> <!-- end roundedcornr_box_769974 -->
+
+
+
+</td>
+
+
+
+
+
+
+
+
+</tr><tr>
+
+
+
+
+<td class="tdblock" colspan="2" style="vertical-align:top;">
+
+	<table width="100%">
+	<tr>
+		<td width="34%" valign="top">
+			
+<div class="roundedcornr_box_769974">
+   <div class="roundedcornr_top_769974"><div><!-- intentional hack--></div></div>
+      <div class="roundedcornr_content_769974">
+	 	<div class="divblock">
+
+
+			<h2 class="green">Software updates</h2>
+
+			<div class="NewsItems">
+			<!--This page element is generated by source2news xsl--><!--stringparam typeflag news--><!--stringparam category software-update--><!--It is included the /index.html-->
+<div class="item">
+<div class="title"><h3>Unbound 1.5.3 released</h3></div>
+<div class="pubDate">Tue, 10 March 2015</div>
+<div class="description">
+<description>Fix daemon exit after reload, and Solaris portability. </description><br><a href="http://unbound.net">Unbound website</a>.
+  <a href="http://unbound.net/downloads/unbound-1.5.3.tar.gz">Direct Download</a>.
+  <a href="http://unbound.net/download.html">Changes</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>Net::DNS 0.83 released</h3></div>
+<div class="pubDate">Thu, 26 Feb 2015</div>
+<div class="description">
+<description>Bug fixes</description><br><a href="http://www.net-dns.org/blog/2015/02/26/netdns-0-83-released/">Net::DNS 0.83 release announcement</a>.
+  <a href="http://www.net-dns.org/">Project website</a>.
+  <a href="http://www.net-dns.org/download/Net-DNS-0.83.tar.gz">Direct Download</a>.
+  <a href="http://www.net-dns.org/svn/net-dns/release/0.83/Changes">Changes</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>Unbound 1.5.2 released</h3></div>
+<div class="pubDate">Thu, 19 February 2015</div>
+<div class="description">
+<description>Fix validation failure, poison issue with harden-glue off, and add RPZ-style 'inform' local-zone, and control over unix pipes. </description><br><a href="http://unbound.net">Unbound website</a>.
+  <a href="http://unbound.net/downloads/unbound-1.5.2.tar.gz">Direct Download</a>.
+  <a href="http://unbound.net/download.html">Changes</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>Net::DNS::SEC 0.22 released</h3></div>
+<div class="pubDate">Wed, 11 Feb 2015</div>
+<div class="description">
+<description>RRSIG inception and exception in time values, ECDSA and Gost signature creation and verification, Version requirements detection for optional modules</description><br><a href="http://www.net-dns.org/blog/2015/02/11/netdnssec-0-22-released/">Net::DNS::SEC 0.22 release announcement</a>.
+  <a href="http://www.net-dns.org/">Project website</a>.
+  <a href="http://www.net-dns.org/download/Net-DNS-SEC-0.22.tar.gz">Direct Download</a>.
+  <a href="http://www.net-dns.org/svn/net-dns-sec/release/0.22/Changes">Changes</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>NSD 4.1.1 released</h3></div>
+<div class="pubDate">Tue, 3 Feb 2015</div>
+<div class="description">
+<description>zonestatistics, DNAME's CNAME TTL. Fixes for database growth, spinning, and other bugfixes.</description><br><a href="http://www.nlnetlabs.nl/projects/nsd/">NSD project page</a>.
+  <a href="http://www.nlnetlabs.nl/downloads/nsd/nsd-4.1.1.tar.gz">Direct Download</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>getdns 0.1.5 beta released</h3></div>
+<div class="pubDate">Fri, 31 Oct 2014</div>
+<div class="description">
+<description>Bugfixes and Hop-by-hop features for stub resolution</description><br><a href="https://getdnsapi.net/">Poject page</a>.
+  <a href="https://getdnsapi.net/dist/getdns-0.1.5.tar.gz">Direct Download</a>.
+  <a href="https://getdnsapi.net/spec/">API specification</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>NSD 3.2.18 released</h3></div>
+<div class="pubDate">Mon, 28 Jul 2014</div>
+<div class="description">
+<description>Bugfix release</description><br><a href="http://www.nlnetlabs.nl/projects/nsd/">NSD project page</a>.
+  <a href="http://www.nlnetlabs.nl/downloads/nsd/nsd-3.2.18.tar.gz">Direct Download</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>Dnssec-Trigger 0.12 released</h3></div>
+<div class="pubDate">Thu, 22 May 2014</div>
+<div class="description">
+<description>experimental package that provides DNSSEC on personal computers. Bug fixes, ip address change in default config, software update.</description><br><a href="http://www.nlnetlabs.nl/projects/dnssec-trigger">Details</a>.
+  <a href="http://www.nlnetlabs.nl/downloads/dnssec-trigger/dnssec-trigger-0.12.tar.gz">Direct Download</a>.
+  <a href="http://www.nlnetlabs.nl/projects/dnssec-trigger/#changelog">Changes</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>NSD 4.0.2 released</h3></div>
+<div class="pubDate">Wed, 12 Mar 2014</div>
+<div class="description">
+<description>Fix memory leaks. Fix ipv6 by disable of recvmmsg. REFUSED for nonhosted zones.</description><br><a href="http://www.nlnetlabs.nl/projects/nsd/">NSD project page</a>.
+  <a href="http://www.nlnetlabs.nl/downloads/nsd/nsd-4.0.2.tar.gz">Direct Download</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>ldns 1.6.17 released</h3></div>
+<div class="pubDate">Fri, 10 Jan 2014</div>
+<div class="description">
+<description>Many bugfixes, All current (draft) RR types implemented, Better ldns-verify-zone performance and Perl5 bindings with the DNS::LDNS module.
+      </description><br><a href="http://www.nlnetlabs.nl/projects/ldns/">ldns project page</a>.
+  <a href="http://www.nlnetlabs.nl/downloads/ldns/ldns-1.6.17.tar.gz">Direct Download</a>.
+  <a href="http://git.nlnetlabs.nl/ldns/tree/Changelog?id=release-1.6.17">Changes</a>.
+  </div>
+</div><div class="archive"><A href="/labs/news/archive.html">
+		    &gt; archive
+		  </A></div>
+
+			</div>
+
+			
+</div><!-- end divblock -->
+<div class="roundedcornr_bottom_769974"></div>
+
+</div> <!-- end roundedcornr_content_769974 -->
+</div> <!-- end roundedcornr_box_769974 -->
+
+		</td>
+		<td width="33%" valign="top">
+			
+<div class="roundedcornr_box_769974">
+   <div class="roundedcornr_top_769974"><div><!-- intentional hack--></div></div>
+      <div class="roundedcornr_content_769974">
+	 	<div class="divblock">
+
+
+			<h2 class="green">Publications</h2>
+
+			<div class="NewsItems">
+			<!--This page element is generated by source2news xsl--><!--stringparam typeflag news--><!--stringparam category publication--><!--It is included the /index.html-->
+<div class="item">
+<div class="title"><h3>NLnet Labs Annual Report 2013</h3></div>
+<div class="pubDate">Wed, 27 MAy 2013</div>
+<div class="description">
+<description>
+          We are happy to present NLnet Labs Annual report 2013. In it
+          we present an overview of Labs' various activities and
+          describe their impact.
+        </description><br><a href="http://nlnetlabs.nl/downloads/publications/annualreports/annualreport2013.pdf">Annual Report 2013 (PDF)</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>Open Data Analysis to Retrieve Sensitive Information Regarding National-Centric Critical Infrastructures</h3></div>
+<div class="pubDate">Mon, 3 Feb 2014</div>
+<div class="description">
+<description>
+	  Open Data repositories store a variety of information from country governments and private sectors.  A concern is that with publishing data, sensitive information can be obtained by visual analytic techniques.  The report shows that it is possible to retrieve precise locations where critical infrastructures overlap.
+	</description><br><a href="http://www.nlnetlabs.nl/downloads/publications/RP45%20Open%20Data%20Analysis%20-%20Critical%20infrastructures.pdf">MSc. report (PDF)</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>Securing the last mile of DNS with CGA-TSIG</h3></div>
+<div class="pubDate">Tue, 8 Jan 2014</div>
+<div class="description">
+<description>
+        TSIG with shared keys is not scalable as a solution for the DNS last mile problem. CGA-TSIG extends TSIG with CGA so that
+        shared secrets are no longer required. This research investigates the CGA-TSIG proposal by doing a security analysis and
+        by making a PoC implementation in ldns.  
+	</description><br><a href="http://www.nlnetlabs.nl/downloads/publications/report-rp2-buijsman.pdf">MSc. report (PDF)</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>DNSSEC Audit Framework</h3></div>
+<div class="pubDate">Mon, 30 Dec 2013</div>
+<div class="description">
+<description>In collaboration with SWITCH, the .CH and .LI registry, we have created a DNSSEC audit framework, that can be used to conduct a review of your or someone else's DNSSEC implementation.
+	</description><br><a href="http://www.nlnetlabs.nl/downloads/publications/dns-audit-framework-1.0.pdf">PDF</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>NLnet Labs Strategic Plan 2014</h3></div>
+<div class="pubDate">Wed, 9 Oct 2013</div>
+<div class="description">
+<description>
+	  This is the first time we post this type
+	  of plan publicly. With this plan we intend to communicate
+	  who we are and where we are going, it serves the NLnet Labs
+	  Board and Staff but also the parties that support our
+	  mission and want to contribute financially.
+        </description><br><a href="http://www.nlnetlabs.nl/labs/about/Strategic-Plan2014.pdf">Strategic Plan(PDF)</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>Experiences with MPTCP in an International OpenFlow Network</h3></div>
+<div class="pubDate">Tue, 3 Sep 2013</div>
+<div class="description">
+<description>Keeping up with the network demand in order to transfer these data sets over the Internet is a challenge.  Single links do not have enough capacity anymore. Therefore we need to install more interfaces in the servers and use all available paths in the network. In this paper we describe two new technologies that help to optimally use the capacity of all multiple paths simultaneously: OpenFlow and Multipath TCP (MPTCP). 
+        </description><br><a href="https://tnc2013.terena.org/getfile/872">TNC2013 paper (PDF)</a>.
+  </div>
+</div><div class="archive"><A href="/labs/news/archive.html">
+		    &gt; archive
+		  </A></div>
+
+			</div>
+
+			
+</div><!-- end divblock -->
+<div class="roundedcornr_bottom_769974"></div>
+
+</div> <!-- end roundedcornr_content_769974 -->
+</div> <!-- end roundedcornr_box_769974 -->
+
+		</td>
+		<td width="33%" valign="top">
+			
+<div class="roundedcornr_box_769974">
+   <div class="roundedcornr_top_769974"><div><!-- intentional hack--></div></div>
+      <div class="roundedcornr_content_769974">
+	 	<div class="divblock">
+
+
+			<h2 class="green">News</h2>
+
+			<div class="NewsItems">
+			<!--This page element is generated by source2news xsl--><!--stringparam typeflag news--><!--stringparam category other--><!--It is included the /index.html-->
+<div class="item">
+<div class="title"><h3>Akkerhuis selected for DNS Root Zone KSK design team</h3></div>
+<div class="pubDate">Thu, 5 Feb 2015</div>
+<div class="description">
+<description>Jaap Akkerhuis from NLnet Labs has been selected for the DNS Root Zone KSK rollover plan design team.</description><br><a href="https://www.icann.org/news/announcement-2-2015-02-04-en">ICANN Announcements</a>.
+  </div>
+</div><div class="item">
+<div class="title"><h3>ISC and NLnet Labs Joins Forces</h3></div>
+<div class="pubDate">Mon, 10 Nov 2014</div>
+<div class="description">
+<description>ISC and NLnet Labs have signed an agreement to make available a combined Advance Security Notification subscription on their software products.</description><br><a href="http://www.nlnetlabs.nl/labs/news/collaboration-isc.html">Press release</a>.
+  </div>
+</div><div class="archive"><A href="/labs/news/archive.html">
+		    &gt; archive
+		  </A></div>
+
+			</div>
+
+			
+</div><!-- end divblock -->
+<div class="roundedcornr_bottom_769974"></div>
+
+</div> <!-- end roundedcornr_content_769974 -->
+</div> <!-- end roundedcornr_box_769974 -->
+
+
+			
+<div class="roundedcornr_box_769974">
+   <div class="roundedcornr_top_769974"><div><!-- intentional hack--></div></div>
+      <div class="roundedcornr_content_769974">
+	 	<div class="divblock">
+
+
+			<h2 class="green">Recent blog posts</h2>
+
+			<div class="NewsItems">
+			
+
+
+	<div class="item">
+<div class="title"><h3><a href="http://www.nlnetlabs.nl/blog/2014/09/19/nsd-4-1-zonefile-mode-and-fork-fix/">NSD 4.1: zonefile-mode and fork fix</a></h3></div>
+<div class="pubDate">Fri, 19 Sep 2014 by wouter</div>
+<div class="description">
+<description xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">NSD 4.1: zonefile-mode and fork fix Use zone files and not nsd.db NSD 4.1 has been released and it contains a new feature where NSD does not use the nsd.db file, but uses the zonefiles directly.  The feature can be turned on by configuring one line in nsd.conf, it can also be turned off by ...</description><br>
+</div>
+</div>
+		<div class="item">
+<div class="title"><h3><a href="http://www.nlnetlabs.nl/blog/2014/09/15/opendnssec-project-transferred-to-nlnet-labs/">OpenDNSSEC project transferred to NLnet Labs</a></h3></div>
+<div class="pubDate">Mon, 15 Sep 2014 by benno</div>
+<div class="description">
+<description xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">NLnet Labs announces that it will take full responsibility for continuing the activities of both the OpenDNSSEC softwareproject as well as the support activities of the Swedish OpenDNSSEC AB. OpenDNSSEC was created as an open source turn-key solution for DNSSEC, managing the security of domain names on the Internet. The project drives adoption of Domain ...</description><br>
+</div>
+</div>
+		<div class="item">
+<div class="title"><h3><a href="http://www.nlnetlabs.nl/blog/2014/06/02/a-next-step/">A next step...</a></h3></div>
+<div class="pubDate">Mon, 02 Jun 2014 by olaf</div>
+<div class="description">
+<description xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">July 11 I  will be leaving NLnet Labs to join the Internet Society as Chief Internet Technology Officer. During the last one-and half decade I have tried to push the needle to a more secure, resilient, and dependable Internet. For the last eight and a half years I did this at NLnet Labs by leading a ...</description><br>
+</div>
+</div>
+		<div class="item">
+<div class="title"><h3><a href="http://www.nlnetlabs.nl/blog/2014/05/01/hackathon-at-tnw-2014/">Hackathon at TNW-2014</a></h3></div>
+<div class="pubDate">Thu, 01 May 2014 by wouter</div>
+<div class="description">
+<description xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">Wouter Wijngaards en Olaf Kolkman Context At NLnet Labs we believe that DNSSEC allows for security innovations that will change the global security and privacy landscape. Innovations like DANE, a technology that allows people to use the global DNS to bootstrap a encrypted channel, are only the start of currently unimaginable technical innovation. The deployment ...</description><br>
+</div>
+</div>
+
+
+			</div>
+
+			
+</div><!-- end divblock -->
+<div class="roundedcornr_bottom_769974"></div>
+
+</div> <!-- end roundedcornr_content_769974 -->
+</div> <!-- end roundedcornr_box_769974 -->
+
+		</td>
+	</tr>
+	</table>
+
+   
+</td>
+
+
+
+  
+	</tr>
+	</table>
+	
+    </div> <!-- contentbalk -->
+</div> <!-- container -->
+
+ </div> <!-- bodypad -->
+ <div class="bodybottom"></div>
+</div> <!-- bodymiddle -->
+
+
+<div class="FooterNotice">
+<p>Fri Feb 27  2015
+</p>
+<!-- You have to use &#169; otherwise xslt processing will choke -->
+<p> &#169; Stichting NLnet Labs</p>
+<p>Science Park 400, 1098 XH Amsterdam, The Netherlands</p>
+<p><a href="mailto:labs@nlnetlabs.nl">labs@nlnetlabs.nl</a>, subsidised by <a href="http://www.nlnet.nl">NLnet</a> and <a href="http://www.sidn.nl">SIDN</a>.
+</p>
+</div> <!-- FooterNotice -->
+<br /><br />
+</div> <!-- page -->
+
+</body>
+</html>
+
+

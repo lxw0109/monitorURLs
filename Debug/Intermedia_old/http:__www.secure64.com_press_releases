@@ -1,0 +1,518 @@
+
+<!doctype html>
+<html>
+<head>
+<title>Press Releases</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="Press Releases">
+<meta name="description" content="Press Releases">
+<meta name="verify-v1" content="oZReYpMgMn8ZCs5C+A+SkLL6TGI0Ud3g+mGyyEKW9As=" />
+<meta name="verify-v1" content="f+DrmRwri33xCfC1ioSrSQSZiD+sNjuUjgtstJRwfI8=" />
+
+<meta name="viewport" content="width=device-width">
+
+<script type="text/javascript" src="//use.typekit.net/sha1cxx.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<link rel="stylesheet" type="text/css" href="/includes/futura_font.css" />
+<link rel="stylesheet" type="text/css" href="/includes/styles.css?v=2.0" />
+<link rel="stylesheet" type="text/css" href="/includes/infrontcms.css?v=2.0" />
+<link rel="stylesheet" type="text/css" href="/includes/formworks.css" />
+  <!-- JavaScript -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<!-- <link rel="stylesheet" type="text/css" href="/sifr/css/sIFR-screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/sifr/css/sIFR-print.css" media="print" />-->
+<link rel="stylesheet" href="/includes/validationEngine.jquery.css" type="text/css"/>
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" href="/includes/ie7styles.css" />
+	<![endif]-->
+	<!--[if lte IE 6]>
+	<link rel="stylesheet" type="text/css" href="/includes/ie6styles.css" />
+	<![endif]-->
+	<meta name="google-translate-customization" content="5f63609f4330f90c-b878876c7c6a4cb0-g2d8ce70f79855bb5-39" />
+	
+	<!-- <script src="/sifr/js/sifr.js" type="text/javascript"></script>
+	<script src="/sifr/js/sifr-config.js" type="text/javascript"></script> -->
+	<script src="/js/formvalidation.js" type="text/javascript"></script>
+	<script src="/js/jquery.validationEngine-en.js" type="text/javascript"></script>
+	<script src="/js/jquery.validationEngine.js" type="text/javascript"></script>
+	<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+	<script src="js/libs/modernizr-2.5.3.min.js"></script>
+	<script type="text/javascript">
+		<!--
+		var timeout	= 500;
+		var closetimer	= 0;
+		var ddmenuitem	= 0;
+		var curitem = 0;		
+		
+		// open hidden layer
+		function mopen(id)
+		{
+			// cancel close timer
+			mcancelclosetime();
+			
+			// close other menu if open
+			if(ddmenuitem) mclose(ddmenuitem);
+
+			// get new layer and show it
+			if (document.getElementById(id))
+			{
+				ddmenuitem = document.getElementById(id);
+				ddmenuitem.style.visibility = 'visible';
+			}
+		}
+		// close showed layer
+		function mclose()
+		{
+			if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+		}
+
+		// go close timer
+		function mclosetime()
+		{
+			closetimer = window.setTimeout(mclose, timeout);
+		}
+
+		// cancel close timer
+		function mcancelclosetime()
+		{
+			if(closetimer)
+			{
+				window.clearTimeout(closetimer);
+				closetimer = null;
+			}
+		}
+		//-->
+	</script>
+	<meta name="google-translate-customization" content="53a8a3b7e5de535e-4fbab0592e0c6c1e-gf35cc749cd42fee8-10" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1870251-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+	<div id="container">
+<!-- <div class="wrapper"> -->
+  <header>
+<!-- Top social tabs -->
+    <div class="social_tabs">
+      <ul>
+        <li><a href="http://www.facebook.com/pages/Secure64-Software/109669802393055?rf=110693388959002" class="facebook_btn" target="_blank">Facebook</a></li>
+        <li><a href="http://twitter.com/Secure_64" class="twitter_btn" target="_blank">Twitter</a></li>
+        <li><a href="http://www.linkedin.com/company/94603?trk=tyah" class="linkedin_btn" target="_blank">Linkedin</a></li>
+        <li><a href="https://blog.secure64.com/" class="blog_btn"><i class="blog_icon"></i>Blog</a></li>
+        <li><a href="/contact" class="contact_btn"><i class="contact_icon"></i>Contact</a></li>
+      </ul>
+    </div>
+
+<!-- Logo : Positioned absolute -->
+    <div class="secure64_logo">
+      <a href="/"><i></i><h2>Secure64</h2></a>
+    </div>
+
+<!-- Search bar -->
+    <div class="search_bar">
+      <form method="get" class="search_box"action="/page.asp">
+        <input type="hidden" name="id" value="10" />
+		<input type="hidden" name="t" value="Both" />
+		<input type="text" name="q" class="search_field" value="Search..." onfocus="this.value='';" />
+        <input class="search_btn" type="submit" value="">
+      </form>
+
+<!-- Google translator : makes page jump 1px -->
+      <div id="google_translate_element"></div>
+      <script type="text/javascript">
+      function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');}
+      </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+
+<!-- Main nav bar -->
+    <div class="main_nav">
+    	<ul>
+	<li>
+	<a href="/" class="home_nav" onmouseover="mopen('sub_nav_home');" onmouseout="mclosetime();">Home</a>
+	</li>
+	<li >
+	<a href="/products" class="products_nav" onmouseover="mopen('sub_nav_products');" onmouseout="mclosetime();">Products</a>
+		<ul id="sub_nav_products" class="sub_nav" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+			<li class="inactiveitem"><a href="/products" TARGET="_self" ><span>Overview</span></a></li>
+<li class="inactiveitem"><a href="/secure-DNS" TARGET="_self" ><span>Secure64®&nbsp;DNS&nbsp;Authority™</span></a></li>
+<li class="inactiveitem"><a href="/service-optimization-module" TARGET="_self" ><span>Service&nbsp;Optimization&nbsp;Module</span></a></li>
+<li class="inactiveitem"><a href="/fast-secure-DNS-caching" TARGET="_self" ><span>Secure64®&nbsp;DNS&nbsp;Cache™</span></a></li>
+<li class="inactiveitem"><a href="/capacity_expansion_module" TARGET="_self" ><span>Capacity&nbsp;Expansion&nbsp;Module</span></a></li>
+<li class="inactiveitem"><a href="/web-error-redirection-module" TARGET="_self" ><span>Web&nbsp;Error&nbsp;Redirection</span></a></li>
+<li class="inactiveitem"><a href="/automated-DNSSEC-signer-software-appliance" TARGET="_self" ><span>Secure64®&nbsp;DNS&nbsp;Signer™</span></a></li>
+<li class="inactiveitem"><a href="/centralized-management-dns-servers" TARGET="_self" ><span>Secure64®&nbsp;DNS&nbsp;Manager™</span></a></li>
+<li class="inactiveitem"><a href="/dns-guard" TARGET="_self" ><span>Secure64®&nbsp;DNS&nbsp;Guard™</span></a></li>
+<li class="inactiveitem"><a href="/secure-operating-system" TARGET="_self" ><span>SourceT®</span></a></li>
+
+		</ul>
+	</li>
+	<li >
+	<a href="/solutions" class="solutions_nav" onmouseover="mopen('sub_nav_solutions');" onmouseout="mclosetime();">Solutions</a>
+		<ul id="sub_nav_solutions" class="sub_nav" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+			<li class="inactiveitem"><a href="/solutions" TARGET="_self" ><span>Overview</span></a></li>
+<li class="inactiveitem"><a href="/deploying-dnssec-solution" TARGET="_self" ><span>Deploying&nbsp;DNSSEC</span></a></li>
+<li class="inactiveitem"><a href="/dns-ddos-attacks" TARGET="_self" ><span>Defending&nbsp;Against&nbsp;DNS&nbsp;DDoS&nbsp;Attacks</span></a></li>
+<li class="inactiveitem"><a href="/transition-to-ipv6" TARGET="_self" ><span>Transitioning&nbsp;to&nbsp;IPv6</span></a></li>
+
+		</ul>
+	</li>
+	<li >
+	<a href="/industries" class="industries_nav" onmouseover="mopen('sub_nav_industries');" onmouseout="mclosetime();">Industries</a>
+		<ul id="sub_nav_industries" class="sub_nav" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+			<li class="inactiveitem"><a href="/industries" TARGET="_self" ><span>Overview</span></a></li>
+<li class="inactiveitem"><a href="/high-availability-secure-dns" TARGET="_self" ><span>Service&nbsp;Providers</span></a></li>
+<li class="inactiveitem"><a href="/government-omb-dnssec-solution" TARGET="_self" ><span>Government</span></a></li>
+<li class="inactiveitem"><a href="/ipam-dns-dnssec-solutions-for-enterprise" TARGET="_self" ><span>Enterprise</span></a></li>
+<li class="inactiveitem"><a href="/secure-dns-for-tlds" TARGET="_self" ><span>Root/TLD&nbsp;Operators</span></a></li>
+
+		</ul>
+	</li>
+	<li >
+	<a href="/resource_library" class="resources_nav" onmouseover="mopen('sub_nav_resource');" onmouseout="mclosetime();">Resources</a>
+		<ul id="sub_nav_resource" class="sub_nav" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+			<li class="inactiveitem"><a href="/resource_library" TARGET="_self" ><span>Overview</span></a></li>
+<li class="inactiveitem"><a href="/datasheets" TARGET="_self" ><span>Datasheets</span></a></li>
+<li class="inactiveitem"><a href="/whitepapers" TARGET="_self" ><span>Whitepapers</span></a></li>
+<li class="inactiveitem"><a href="/third_party_evals" TARGET="_self" ><span>Third&nbsp;Party&nbsp;Evaluations</span></a></li>
+<li class="inactiveitem"><a href="/case-studies" TARGET="_self" ><span>Case&nbsp;Studies</span></a></li>
+<li class="inactiveitem"><a href="/newsletters" TARGET="_self" ><span>Newsletters</span></a></li>
+<li class="inactiveitem"><a href="/podcasts" TARGET="_self" ><span>Podcasts</span></a></li>
+<li class="inactiveitem"><a href="/videos" TARGET="_self" ><span>Videos</span></a></li>
+<li class="inactiveitem"><a href="/surveys" TARGET="_self" ><span>Surveys</span></a></li>
+<li class="inactiveitem"><a href="/how-to-dnssec-information" TARGET="_self" ><span>DNSSEC&nbsp;Resource&nbsp;Center</span></a></li>
+<li class="inactiveitem"><a href="/dns_security_news" TARGET="_self" ><span>DNS&nbsp;Security&nbsp;News&nbsp;Index</span></a></li>
+
+		</ul>
+	</li>
+	<li >
+	<a href="/support" class="support_nav" onmouseover="mopen('sub_nav_support');" onmouseout="mclosetime();">Support</a>
+		<ul id="sub_nav_support" class="sub_nav" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+			<li class="inactiveitem"><a href="/support" TARGET="_self" ><span>Overview</span></a></li>
+<li class="inactiveitem"><a href="/login" TARGET="_self" ><span>Customer&nbsp;Login</span></a></li>
+
+		</ul>
+	</li>
+	<li  class="activeitem">
+	<a href="/news_events" class="news_nav" onmouseover="mopen('sub_nav_news');" onmouseout="mclosetime();">News &amp; Events</a>
+		<ul id="sub_nav_news" class="sub_nav" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+			<li class="inactiveitem"><a href="/news_events" TARGET="_self" ><span>Overview</span></a></li>
+<li class="inactiveitem"><a href="http://blog.secure64.com" TARGET="_self" ><span>Secure64&nbsp;Blog</span></a></li>
+<li class="activeitem"><a href="/press_releases" TARGET="_self" ><span>Press&nbsp;Releases</span></a></li>
+<li class="inactiveitem"><a href="/articles" TARGET="_self" ><span>Articles</span></a></li>
+<li class="inactiveitem"><a href="/events" TARGET="_self" ><span>Events</span></a></li>
+<li class="inactiveitem"><a href="/press_room" TARGET="_self" ><span>Press&nbsp;Room</span></a></li>
+
+		</ul>
+	</li>
+	<li >
+	<a href="/company" class="company_nav" onmouseover="mopen('sub_nav_company');" onmouseout="mclosetime();">Company</a>
+		<ul id="sub_nav_company" class="sub_nav" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+			<li class="inactiveitem"><a href="/company" TARGET="_self" ><span>Overview</span></a></li>
+<li class="inactiveitem"><a href="/management_team" TARGET="_self" ><span>Management&nbsp;Team</span></a></li>
+<li class="inactiveitem"><a href="/board_of_directors" TARGET="_self" ><span>Board&nbsp;of&nbsp;Directors</span></a></li>
+<li class="inactiveitem"><a href="/customers" TARGET="_self" ><span>Customers</span></a></li>
+<li class="inactiveitem"><a href="/partners" TARGET="_self" ><span>Partners</span></a></li>
+<li class="inactiveitem"><a href="/careers" TARGET="_self" ><span>Careers</span></a></li>
+<li class="inactiveitem"><a href="/testimonials" TARGET="_self" ><span>Testimonials</span></a></li>
+<li class="inactiveitem"><a href="/contact" TARGET="_self" ><span>Contact&nbsp;Us</span></a></li>
+
+		</ul>
+	</li>
+</ul>
+    </div>
+
+  </header>
+		<!-- Special body class for full page -->
+		
+		<div id="body" class="clearfix">	
+			<div id="lcol_int">
+		
+				<div id="bread_crumbs">
+				
+<a href="/page.asp?id=1&amp;name=Secure 64" class="Page_Title">
+				    Home</a> &gt;
+					
+<a href="/news_events" class="Page_Title">
+				    News & Events</a> &gt;
+					Press Releases
+				</div>
+				<div id="content_int_container">
+				
+		<!-- stop excluding -->
+		<!-- Pages that use full-page template -->
+				
+				<div id="content_int">
+				<p>
+</p>
+<p>
+</p>
+<h1>Press Releases<br />
+</h1>
+<br />
+December 19, 2014<br />
+<a href="/pr-121914-tcp-syn-flood-attack">Secure64 Deflects Denial-Of-Service Attack That Takes BIND-Based Appliance Down</a><br />
+<br />
+March 4, 2014<br />
+<a href="/pr-030414-dns-pipeprotector" target="_self">Secure64 Introduces Industry's First DNS Server That Protects Network Bandwidth During DNS-based Denial-Of-Service Attacks</a><br />
+<br />
+January 8, 2014<br />
+<a href="pr-010814-dns-ddos-enhancements">Secure64 Enhances Industry's First Self-Protecting DNS Server With Defenses Against Amplified DNS DDoS Attacks</a><br />
+<br />
+July 27, 2013<br />
+<a href="pr-072713-bind-vul">Secure64 Unaffected By Recently Announced BIND Security Vulnerability</a><br />
+<br />
+July 24, 2013<br />
+<a href="/pr-072413-cem">Secure64 Doubles DNS Cache Product Performance</a><br />
+<br />
+June 12, 2013<br />
+<a href="/pr-06112013-6connect">Secure64 and 6connect Team To Provide Secure DNS and IPAM Network Management and Provisioning Solutions</a><br />
+<br />
+April 3, 2013<br />
+<a href="/pr-040313-poulson">Secure64 Doubles Performance and Attack Resistance of DNS Cache Product</a><br />
+<br />
+February 26, 2013<br />
+<a href="/pr-022613-authority-reverse-dns">Secure64 Enables Mobile Operators and Other Carriers To Offer Better Security and Support for IPv6</a><br />
+<br />
+February 5, 2013<br />
+<a href="/pr-020513-ecommerce-dnssec">Slow Adoption of DNSSEC puts leading ecommerce companies at risk</a><br />
+<br />
+November 19, 2012<br />
+<a href="/pr-111912-media-dnssec">DNSSEC Adoption Taking Longer Than Expected in Key Industries</a><br />
+<br />
+October 23, 2012<br />
+<a href="/pr102312-mobileco">Innovative US Wireless Provider Increases Performance, DDoS Attack Resistance and Security With Secure64 DNS Cache Solution</a><br />
+<br />
+October 16, 2012<br />
+<a href="pr101612-DNSManager" class="PR DNS Manager Enhancement">Secure64 Releases Enhanced Version of DNS Management Software</a><br />
+<br />
+August 7, 2012<br />
+<a href="pr080712-financial" target="_self">Financial Services Industry Receives &quot;Incomplete Grade&quot; on DNSSEC Deployment</a><br />
+<br />
+June 28, 2012<br />
+<a href="pr-062812-diversity">Secure64 DNS Products Offer 'Genetic Diversity' For More Secure DNS Infrastructure</a><br />
+<br />
+May 16, 2012<br />
+<a href="pr_051612_FCC" class="Cybersecurity Threats Identified by FCC">Secure64 Addresses All Cybersecurity Threats Identified by FCC</a><br />
+<br />
+February 22, 2012<br />
+<a href="pr-022212-manager">New Secure64 Product Simplifies, Centralizes DNS Management</a><br />
+<br />
+December 14, 2011<br />
+<a href="pr-121411-award-winner">Secure64 Wins 2011 Mission-Critical Innovation Award For Best New Application</a><br />
+<br />
+November 23, 2011<br />
+<a href="pr-112311-award-finalist" target="_self">Secure64 Named Finalist for 2011 Mission-Critical Innovation Awards</a><br />
+<br />
+October 19, 2011<br />
+<a href="pr-101911-dns64">Secure64 Implements DNS64 Migration Technology at Large U.S. Wireless Provider</a><br />
+<br />
+February 9, 2011<br />
+<a href="pr020911-cache2_5">Secure64 Releases New Version of DNS Caching Software</a><br />
+<br />
+March 23, 2010<a href="pr-032310-lgs"><br />
+LGS and Secure64 Team to Provide Internet Domain Name Security Solutions to Help Protect Government Agencies against Cyber Attacks</a><br />
+<br />
+March 17, 2010<br />
+<a href="pr-031710-small-enterprise-edition">Secure64 Unveils DNS Signing Solution for Small and Medium Sized Government Agencies </a><br />
+<br />
+December 15, 2009<br />
+<a href="pr-121509-cache">Secure64 Releases High-performing DNS Caching Software</a><br />
+<br />
+December 1, 2009<br />
+<a href="pr-120109-fips">Secure64 DNS Signer Earns FIPS 140-2 Level 2 Security Certification</a><br />
+<br />
+October 21, 2009<br />
+<a href="pr-102109-interior">U.S. Department of the Interior Signs on with Secure64 DNSSEC Appliance</a><br />
+<br />
+October 6, 2009<br />
+<a href="pr-100609-labor" target="_self">Department of Labor purchases Secure64 DNSSEC software appliance</a><br />
+<br />
+August 4, 2009<br />
+<a target="_self" href="pr-080409-men-and-mice">Secure64 and Men &amp; Mice Sign Agreement to Provide Integrated IP Address Management and DNSSEC Signing Solution</a><br />
+<br />
+July 15, 2009<br />
+<a href="pr-071509-CMA" target="_self">Secure64 DNS Products Now Available Through GSA Schedule</a><br />
+<br />
+June 29, 2009<br />
+<a href="pr-062909-alvarez">Secure64 DNS Products Now Available Through SEWP Contract</a><br />
+<br />
+June 16, 2009<br />
+<a class="Secure64 DNS Products to be Sold by HP" target="_self" href="pr-061609-HP">Secure64 DNS Products to be sold by HP</a><br />
+<br />
+May 19, 2009<br />
+<a target="_self" href="pr-051909-ipv6">Secure64 Earns IPv6 Ready Gold Certification for All DNS and DNSSEC Products</a><br />
+<br />
+March 24, 2009<br />
+<a href="pr-032409-qwest">Qwest Purchases Secure64 Domain Name System Software</a><br />
+<br />
+March 18, 2009<br />
+<a target="_self" href="pr-031809-fose">Secure64 Wins Government Security Award</a><br />
+<br />
+February 3, 2009<br />
+<a target="_self" href="pr-020309-nist">National Institute of Science and Technology Purchases Secure64 Software</a><br />
+<br />
+November 25, 2008<br />
+<a target="_self" href="pr_112508_webair">Secure64 Selected by Webair to Ensure Scalability of DNS Infrastructure</a><br />
+<br />
+November 18, 2008<br />
+<a target="_self" href="pr_111808_kirei">Secure64 Signs Alliance with European DNSSEC Experts</a><br />
+<br />
+September 16, 2008<br />
+<a target="_self" href="pr_091608_chalk">Secure64 Names Thomas Chalk SVP of Sales &amp; Marketing</a><br />
+<br />
+September 3, 2008<br />
+<a target="_self" href="pr_090308_funding">Secure64 Closes $3.7M in Funding</a><br />
+<br />
+July 30, 2008<br />
+<a target="_self" href="pr_073008_signer">Secure64 Develops First Automated DNSSEC Signing Application to Help Secure the Internet Worldwide</a><br />
+<br />
+May 14, 2008<br />
+<a target="_self" href="pr_051408_grant">United States Government Selects Secure64 for Initiative to Secure Internet Infrastructure</a><br />
+<br />
+December 11, 2007<br />
+<a target="_self" href="pr_121107_nodowntime">Secure64 DNS Enhancement Eliminates Server Downtime During Reloads</a><br />
+<br />
+December 11, 2007<br />
+<a target="_self" href="pr_121107_matasano">Leading Security Researchers Find Secure64 SourceT Micro OS Immune to All Known Rootkits and Malware</a><br />
+<br />
+October 10, 2007<br />
+<a target="_self" href="pr_101007_extremelabs">Independent Tests Confirm Secure64 DNS Applications Highly Resistant to DDoS Attacks</a><br />
+<br />
+September 5, 2007<br />
+<a target="_self" href="pr_090507_anycast">New Secure64 Product Enhancement Dramatically Simplifies Deployments of 'Anycast ' DNS Servers, Increasing Security and Availability</a><br />
+<br />
+August 21, 2007<br />
+<a target="_self" href="pr_082107_swsoft">Secure64 Integrates DNS Application with SWsoft PEM Software</a><br />
+<br />
+July 17, 2007<br />
+<a target="_self" href="pr_071707_survey">New Study Shows Most Internet-Dependent Businesses Losing Costly Battle Against DNS Attacks</a><br />
+<br />
+July 2 , 2007<br />
+<a target="_self" href="pr_070207_webinar">Secure64 to Host Webinar for IT Professionals Entitled &quot;Secure64 DNS: The Foundation for Utility-Grade Networks&quot;</a><br />
+<br />
+May 16, 2007<br />
+<a target="_self" href="pr_051607_ispcon">Secure64 Announces &quot;Stop Living in Denial&quot; Campaign at ISPCON</a><br />
+<br />
+May 1 , 2007<br />
+<a target="_self" href="pr_050107_funding">Secure64 Closes $3.3 Million in New Financing From Accredited Private Investors and Institutions</a><br />
+<br />
+April 17, 2007<br />
+<a target="_self" href="pr_041707_award">Secure64 Wins Entrepreneurial Innovation Award</a><br />
+<br />
+March 19, 2007<br />
+<a target="_self" href="pr_031907_launch">Secure64 Ships the First and Only DNS Server Software Immune To Malware and Resistant To Network Attacks</a><br />
+<br />
+July 18, 2006<br />
+<a target="_self" href="pr_071806_montecito">Secure64 to Debut Its &quot;Genuinely Secure&quot; SourceT Software Technology at Dual Core Intel Itanium 2 Processor Press Event</a><br />
+<br />
+March 3, 2006<br />
+<a target="_self" href="pr_030706_sourcet">Secure64 Announces Platform Control Software That Improves Security and Performance</a><br />
+<br />
+November 29, 2005<br />
+<a target="_self" href="pr_112905_isa">Secure64 Joins Itanium Solutions Alliance</a><br />
+<br />
+September 26, 2005<br />
+<a target="_self" href="pr_102605_bridge">Secure64 Closes $2.7 Million Bridge Loan from Accredited Angel Investors</a></div>
+				</div>
+			</div>
+			<!-- Remove right column from full-page templates -->
+			
+			<div id="rcol_int">  
+				<div id="rcol_int_padding"></div>
+				
+
+<!-- if this is a product page, then use a different secondary nav ID, if it's a normal page, use the standard secondary nav ID -->
+
+<div id="sec_nav">
+
+	<h1>News & Events</h1>
+		<ul>
+			<li class="inactiveitem"><a href="/news_events" TARGET="_self" ><span>Overview</span></a></li>
+<li class="inactiveitem"><a href="http://blog.secure64.com" TARGET="_self" ><span>Secure64&nbsp;Blog</span></a></li>
+<li class="activeitem"><a href="/press_releases" TARGET="_self" ><span>Press&nbsp;Releases</span></a></li>
+<li class="inactiveitem"><a href="/articles" TARGET="_self" ><span>Articles</span></a></li>
+<li class="inactiveitem"><a href="/events" TARGET="_self" ><span>Events</span></a></li>
+<li class="inactiveitem"><a href="/press_room" TARGET="_self" ><span>Press&nbsp;Room</span></a></li>
+
+		</ul>
+</div>
+	<br />
+
+<div id="video">
+<h1>Press Contacts<br />
+</h1>
+<div id="video_content">Mark Beckett<br />
+VP Marketing<br />
+(303) 242-5899<br />
+</div>
+</div>
+			</div>
+			
+		</div>
+		<div id="body_footer"></div>
+		<!-- start excluding -->
+
+		<!-- stop excluding -->	
+	</div>	
+	<footer>
+  <div class="footer_content">
+    <div class="grid">
+      <div class="col-1-3">
+        <h4>Blog Feed</h4>
+        <ul class="blog_feed">
+          <li><i class="plus_icon"></i>Botnets, Route Hijacking...<a href="https://blog.secure64.com/?p=198">Read more ></a></li>
+          <li><i class="plus_icon"></i>Lack of DNSSEC Deployment...<a href="https://blog.secure64.com/?p=187">Read more ></a></li>
+          <li><i class="plus_icon"></i>Four Vulnerabilities in...<a href="https://blog.secure64.com/?p=179">Read more ></a></li>
+        </ul>
+        <a class="blog_archive_btn" href="https://blog.secure64.com/">View blog archive</a>
+      </div>
+      <div class="col-2-3 justify_right">
+        <h4>Sign Up For Our Newsletter</h4>
+        <form action="http://oi.vresp.com?fid=e22ee7d087" method="post" target="vr_optin_popup" onsubmit="window.open( 'http://www.verticalresponse.com', 'vr_optin_popup', 'scrollbars=yes,width=600,height=450' ); return true;" class="email_box">
+          <input class="submit_btn" type="submit" value="Submit">
+          <input name="email_address" class="email_field" type="text" placeholder="Your email address">
+        </form>
+        <ul class="legal">
+          <li><a href="/privacy_policy">Privacy Policy</a> | <a href="/sitemap">Site Map</a> | <a href="/login">Customer Login</a></li>
+          <li>&copy; 2007-2015 Secure64 Software Corporation, All Rights Reserved &nbsp;|&nbsp; <a href="/privacy_policy">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>	
+<!-- 
+--------------------------------------------------------------------
+   The CODE, HTML, and IMAGES in this website is the property of    
+                      Secure 64                
+           Copyright 2015 All Rights Reserved            
+         Copying or Duplication of any CODE,  HTML or IMAGES          
+                    from this website is strictly                   
+             prohibited without the written permission of            
+                        Secure 64.               
+                    support@infront.com                
+           Designed and Maintained by Infront Webworks, Inc.         
+           http://www.infront.com email: support@infront.com         
+-------------------------------------------------------------------- 
+-->
+
+
+</body>
+</html>
+
+

@@ -319,13 +319,13 @@ function check()
 	<div style="height: 118px; overflow:hidden;">
     	<h1 style="overflow: hidden; margin-top:7px; width:476px;"><p style="float: left;">【要闻视点】</p>
         <div class="cmore" style=" float:right;"><a href="/zxzx/ywsd/"><img src="images/12495217.gif"></a></div>
-        <span style="margin-left: 10px; float:right;"><img src="images/02270433.gif"></span></h1>
+        </h1>
         <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-31792.html"   title="《中国互联网站发展状况及其安全报告（2015年）》发布会<br />暨“网站发展与安全趋势论坛”在京召开" class="red">《中国互联网站发展状况及其安全报告（2015年）》发布会<br />暨“网站发展与安全趋势论坛”在京召开</a></h1>
 	<div class="mg10">2015年3月20日，中国互联网协会、国家互联网应急中心在京发布《中国互联网站发展状况及其安全报告（2015）》。... <a  href="/zxzx/ywsd/listinfo-31792.html"   title="详细" class="blue">[详细]</a></div>
 </div>
 <h2><span>协会动态</span><a href="/zxzx/xhdt/" title="更多" class="blue"><img src="images/12495217.gif" /></a></h2>
 <ul class="newslist">
-     <li><a  href="/zxzx/xhdt/listinfo-31793.html" title="《中国互联网站发展状况及其安全报告（2015）》发布" >《中国互联网站发展状况及其安全报告（2015）》发布</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                     
+     <li><a  href="/zxzx/xhdt/listinfo-31793.html" title="《中国互联网站发展状况及其安全报告（2015）》发布" >《中国互联网站发展状况及其安全报告（2015）》发布</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
      <li><a  href="/zxzx/xhdt/listinfo-31704.html" title="“互联中国梦•网聚正能量——新媒体视域下的传统文化”专题论坛在厦门举行" >“互联中国梦•网聚正能量——新媒体视域下的传统文化”专题论坛</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
      <li><a  href="/zxzx/xhdt/listinfo-31444.html" title="关于举办“2015（第十四届）中国互联网大会” 新闻发布会的通知" >关于举办“2015（第十四届）中国互联网大会” 新闻发布会的</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
      <li><a  href="/zxzx/xhdt/listinfo-31379.html" title="英国驻华使馆及英国贸易投资总署一行拜访中国互联网协会" >英国驻华使馆及英国贸易投资总署一行拜访中国互联网协会</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
@@ -459,8 +459,8 @@ function check()
 <div id="dt_01" >
 <span class="mp"><a href="/hydt/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a   href="/hydt/listinfo-31795.html" title="国家食药监总局曝光11家违法发布虚假信息网站" >国家食药监总局曝光11家违法发布虚假信息网站</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-31794.html" title="河南省通信管理局开展2015宽带服务年活动" >河南省通信管理局开展2015宽带服务年活动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-31795.html" title="国家食药监总局曝光11家违法发布虚假信息网站" >国家食药监总局曝光11家违法发布虚假信息网站</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a   href="/hydt/listinfo-31794.html" title="河南省通信管理局开展2015宽带服务年活动" >河南省通信管理局开展2015宽带服务年活动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a   href="/hydt/listinfo-31772.html" title="湖南召开移动互联网产业发展新闻发布会" >湖南召开移动互联网产业发展新闻发布会</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a   href="/hydt/listinfo-31770.html" title="福建出台“互联网+”行动计划" >福建出台“互联网+”行动计划</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
              
@@ -470,7 +470,7 @@ function check()
 <div id="dt_02" class="hidden">
 <span class="mp"><a href="/zxzx/hlwzl/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-       <li><a    href="/zxzx/hlwzl/listinfo-31795.html"  title="国家食药监总局曝光11家违法发布虚假信息网站" >国家食药监总局曝光11家违法发布虚假信息网站</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+       <li><a    href="/zxzx/hlwzl/listinfo-31795.html"  title="国家食药监总局曝光11家违法发布虚假信息网站" >国家食药监总局曝光11家违法发布虚假信息网站</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a    href="/zxzx/hlwzl/listinfo-31768.html"  title="欧盟将加强对网络消费的监管和保护" >欧盟将加强对网络消费的监管和保护</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a    href="/zxzx/hlwzl/listinfo-31758.html"  title="陕西多部门联合净化网络环境" >陕西多部门联合净化网络环境</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a    href="/zxzx/hlwzl/listinfo-31721.html"  title="工商总局发布规定电商平台要对消费者负责" >工商总局发布规定电商平台要对消费者负责</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
@@ -492,7 +492,7 @@ function check()
 <div id="dt_04" class="hidden">
 <span class="mp"><a href="/zxzx/qyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a  href="/zxzx/qyxx/listinfo-31794.html"  title="河南省通信管理局开展2015宽带服务年活动" >河南省通信管理局开展2015宽带服务年活动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+        <li><a  href="/zxzx/qyxx/listinfo-31794.html"  title="河南省通信管理局开展2015宽带服务年活动" >河南省通信管理局开展2015宽带服务年活动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/qyxx/listinfo-31772.html"  title="湖南召开移动互联网产业发展新闻发布会" >湖南召开移动互联网产业发展新闻发布会</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/qyxx/listinfo-31770.html"  title="福建出台“互联网+”行动计划" >福建出台“互联网+”行动计划</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/qyxx/listinfo-31764.html"  title="2015年智能制造试点示范专项行动启动" >2015年智能制造试点示范专项行动启动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
@@ -526,8 +526,8 @@ function check()
 <div id="hy_01" >
 <span class="mp"><a href="/zxzx/hyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a  href="/zxzx/hyxx/listinfo-31797.html"  title="沪江网转型定位于互联网学习平台"  >沪江网转型定位于互联网学习平台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-31796.html"  title="庄辰超获2015 “全球青年领袖” 继马云后成新一代互联网领袖"  >庄辰超获2015 “全球青年领袖” 继马云后成新一代互联网领</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-31797.html"  title="沪江网转型定位于互联网学习平台"  >沪江网转型定位于互联网学习平台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-31796.html"  title="庄辰超获2015 “全球青年领袖” 继马云后成新一代互联网领袖"  >庄辰超获2015 “全球青年领袖” 继马云后成新一代互联网领</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/hyxx/listinfo-31769.html"  title="中国联通发布智慧沃家业务 打造智能家居平台"  >中国联通发布智慧沃家业务 打造智能家居平台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/hyxx/listinfo-31765.html"  title="360清理大师击毙卡慢 强力推出超级加速功能"  >360清理大师击毙卡慢 强力推出超级加速功能</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
  

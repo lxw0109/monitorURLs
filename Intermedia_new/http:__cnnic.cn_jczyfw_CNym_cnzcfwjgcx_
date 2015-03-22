@@ -1,0 +1,538 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>中国互联网络信息中心</title>
+<input type='hidden' />
+    <link href="../../../images/tongyong.css" rel="stylesheet" type="text/css" />
+    <link href="../../../images/main.css" rel="stylesheet" type="text/css" />
+	<LINK href="../../../images/yi_index.css" type="text/css" rel="stylesheet">
+    <script src="../../../images/jquery.js" type="text/javascript" language="javascript"></script>
+	<script src="../../../images/Cpage.js" type="text/javascript" language="javascript"></script>
+
+<style type="text/css">
+<!--
+a:link {
+	color: 330000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+a {
+	font-size: 14px;
+}
+-->
+</style>
+    <style type="text/css">
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script language="javascript">
+        function chanageMenu(id, title, content) {
+            for (var i = 1; i <= 3; i++) {
+                $("#" + content + i).hide();
+                $("#" + title + i + " a").removeClass("hover");
+            }
+            $("#" + content + id).show();
+            $("#" + title + id + " a").addClass("hover");
+        }
+        function menuHover(index, title, content) {
+            //            for (var i = 1; i <= 12; i++) {
+            //                $("#" + content + i).hide();
+            //                $("#" + title + i).removeClass("on");
+            //            }
+            //            $("#" + content + id).show();
+            //            $("#" + title + id).addClass("on");
+            $(".navitem").each(function (i) {
+                var id = i + 1;
+                if (id == index) {
+                    $(this).removeClass("on");
+                    $(this).addClass("on");
+                    $("#" + content + i).show();
+                }
+                else {
+                    $(this).removeClass("on");
+                    $("#" + content + i).hide();
+                }
+            });
+        }
+ 
+        function showMenu(index) {
+            if ($("#child" + index).css("display") != "none") {
+                //                $("#child" + index).css("display", "none");
+                $("#child" + index).slideUp("slow");
+ 
+            }
+            else {
+                //                $("#child" + index).css("display", "inline");
+                $("#child" + index).slideDown("slow");
+            }
+        }
+ 
+        $(document).ready(function () {
+            $(".item").each(function () {
+                $(this).mouseover(function () {
+                    $(this).addClass("hover");
+                });
+                $(this).mouseout(function () {
+                    $(this).removeClass("hover");
+                });
+            });
+        });
+    </script>
+    <link id="main_stylesheet" rel="stylesheet" href="../../../images/style.css" type="text/css" />
+    <link href="../../../images/jczyyw.css" rel="stylesheet" type="text/css" />
+    <!--[if IE 6]>
+<script type="text/javascript" src="../../../images/DD_belatedPNG.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('div');
+</script>
+<![endif]-->
+</head>
+<body>
+    <!--[if !IE]>整体开始<![endif]-->
+   <script src="../../../js/custom.js" type="text/javascript" language="javascript"></script>
+<script src="../../../images/queryCn.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" src="../../../images/jquery.js"></script>
+<script type="text/javascript" src="../../../images/cnnic_index.js"></script>
+<script type="text/javascript" src="../../../images/cnnic_channel_search.js"></script>
+<script type="text/javascript" src="../../../images/gbk.js"></script>
+
+
+
+
+
+<!--[if !IE]>整体开始<![endif]-->
+    <div class="zhengti">
+        <div class="top00">
+            <!--[if !IE]>顶部开始<![endif]-->
+            <div class="qb1">
+                <div class="logo">
+                    <a href="../../../">
+                        <img src="../../../images/logo.jpg" width="173" height="74" /></a></div>
+                <div class="xlink">
+                   <a href="http://www1.cnnic.cn/index.htm"> ENGLISH</a> | <a href="../../../gywm/cpyc/"> 诚聘英才</a> | <a href="../../../gywm/CNNICjs/jj/" >CNNIC介绍</a>
+                    </div>
+                <div class="search">
+                    <div class="search1">
+                        <span>
+                            <input value="输入搜索关键字" onfocus="if(this.value=='输入搜索关键字') this.value='';" onblur="if(this.value=='') this.value='输入搜索关键字';" id='PL_SEARCH_KEYWORD_0' name='PL_SEARCH_KEYWORD_0' style="width:180px; padding-left:10px; height:22px; line-height: 22px; float: left; border: none" type="text" /></span> <span style="float:right"><a href="#"> <img src="../../../images/search.jpg" width="65" height="25" onclick='pl_search_site_btn_0()' /></a></span></div>
+                </div>
+            </div>
+            <!--[if !IE]>顶部结束<![endif]-->
+        </div>
+        <div class="middle0">
+            <!--[if !IE]>中间开始<![endif]-->
+            <div class="qb1">
+                <!--[if !IE]>导航开始<![endif]-->
+                <div class="top_menu">
+                    <ul>
+                        <li><a href="../../../">首页</a></li>
+
+                      <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+
+
+                        <li><a href="../">基础资源服务</a>
+                            <ul style="left: 55px">
+                                <li><a href="../" >CN域名 </a></li>
+                                <li><a href="../../zwym/" >中国域名</a> </li>
+                                <li><a href="../../ipas/" >IP/AS分配</a></li>
+                                <li><a href="../../fwqzs/" >服务器证书</a></li>
+                            </ul>
+                            <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                        </li>
+                        <li><a href="../../../jczyyw/" >基础资源运维</a>
+                            <!--<![endif]-->
+                            <ul style="left: 170px">
+                              
+                                <li><a href="../../../jczyyw/gjymjczyfwyxpt/fwyxptjj/" >运行平台</a></li>
+                               
+                                <li><a href="../../../jczyyw/gjymjczzfwyxyb/yxybybxz/" >运行月报</a></li>
+                               
+                                <li><a href="../../../jczyyw/gjymjczyfwyxtjxx/yxtjxxjxltj/" >运行统计信息</a></li>
+                               
+                            </ul>
+                            <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                        </li>
+                         
+						<li><a href="../../../gjymaqzx/" >国家域名安全中心</a>
+                        <ul style="left: 285px">
+                                
+                                <li><a href="../../../gjymaqzx/aqzxjcsjzs/" >监测数据展示</a></li>
+                                
+                                <li><a href="../../../gjymaqzx/aqgg/" >安全公告</a></li>
+                                
+                                <li><a href="../../../gjymaqzx/aqzxhydt/" >行业动态</a></li>
+                                
+                                <li><a href="../../../gjymaqzx/aqzxtjbg/" >统计报告</a></li>
+                                
+                                <li><a href="../../../gjymaqzx/aqzxzcfg/" >政策法规</a></li>
+                                
+                                <li><a href="../../../gjymaqzx/aqzxwxbz/" >文献标准</a></li>
+                                
+                                <li><a href="../../../gjymaqzx/aqzxyjlb/" >邮件列表</a></li>
+                                
+                                <li><a href="../../../gjymaqzx/aqzxlxfs/" >联系方式</a></li>
+                                
+                                <li><a href="../../../gjymaqzx/aqzxcygj/" >常用工具</a></li>
+                                
+                                <li><a href="../../../gjymaqzx/aqzxxglj/" >相关链接</a></li>
+                                
+                                <li><a href="../../../gjymaqzx/gjymaqlm/" >国家域名安全联盟</a></li>
+                                
+                                
+                            </ul>
+                       </li>
+
+                        <li><a href="../../../gcjsyj/" >科技研究</a>
+                            <ul style="left: 430px">
+                               
+                                <li><a href="../../../gcjsyj/gcjsyqlj/" >研究实验室</a></li>
+                               <li><a href="../../../gcjsyj/qyjsyj/" >前沿技术研究</a></li>
+                              
+                                <li><a href="../../../gcjsyj/kyxm/" >科研项目</a></li>
+
+								<li><a href="../../../gcjsyj/kycg/" >科研成果</a></li>
+								
+
+								<li><a href="../../../gcjsyj/hjqk/" >获奖情况</a></li>					  
+                               
+                                
+                                
+                            </ul>
+                            <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                        </li>
+
+                        <li><a href="../../../hlwfzyj/" >互联网发展研究</a>
+                            <!--<![endif]-->                            
+							<ul style="left: 515px">
+								<li><a href="../../../hlwfzyj/hlwxzbg/" >报告下载</a></li>
+								<li><a href="../../../hlwfzyj/hlwfzzx/qwfb/" >权威发布</a></li>
+								<li><a href="../../../hlwfzyj/hlwdsj/" >互联网大事记</a></li>
+								<li><a href="../../../hlwfzyj/jcsj/" >基础数据</a></li>
+								<li><a href="../../../hlwfzyj/qqwldt/" >全球互联网动态</a></li>
+								<li><a href="../../../hlwfzyj/fxszl/" >分析师专栏</a></li>
+								<li><a href="../../../hlwfzyj/hlwmtgz/" >媒体关注</a></li>
+                                
+                            </ul>
+                            <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                        </li> 
+                         
+
+                        <li><a href="../../../gjjl/" >国际交流</a>
+                            <!--<![endif]-->
+                            <ul style="left: 645px">
+                              
+                                <li><a href="../../../gjjl/gjjlhd/" >国际交流活动</a></li>
+                               
+                                <li><a href="../../../gjjl/gjjgrzjs/" >国际机构任职介绍</a></li>
+                               
+                                <li><a href="../../../gjjl/gjyjydt/" >国际研究与动态</a></li>
+                               
+                                <li><a href="../../../gjjl/gjhyhyycjzc/" >国际会议</a></li>
+                               
+                                <li><a href="../../../gjjl/gjjgjs/" >国际机构</a></li>
+                               
+                             </ul>
+                            <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                        </li>
+
+                          <li><a href="../../../cxwf/">创新服务                            
+                        </a>
+                            <!--<![endif]-->
+                            <ul style="left:730px">
+                              <li><a href="../../../cxwf/NewgTLD_x/" >云注册局服务</a></li>
+			      <li><a href="../../../cxwf/gs/" >.公司</a></li>
+			      <li><a href="../../../cxwf/wl/" >.网络</a></li>
+			      <li><a href="../../../cxwf/dnsjsyfw/" >DNS技术与服务</a></li>
+			      <li><a href="http://wx.cnnic.cn/" >网·信</a></li>                                
+                            </ul>
+                            <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                        </li> 
+                      
+                        
+
+                        
+                        <li><a href="../../../ggfw/fwzx/" >公众服务</a>
+                           <ul style="left: 815px">
+                               
+                                <li><a href="../../../ggfw/fwzx/">国家域名投诉处理中心</a></li>
+                                
+                                
+                                <li><a href="http://gzly.cnnic.cn/gzly/index_new.jsp">公众留言</a></li>
+                                 
+                                <li><a href="../../../ggfw/hyzl/">行业自律</a></li>
+                                 
+                                <li><a href="../../../ggfw/fwzxxgzcfg/">政策法规</a></li>
+                                 
+                            </ul>
+                        </li>
+
+                         <li><a href="../../../gywm/" >关于我们</a>
+                            <ul style="left: 853px">
+                               
+                                <li><a href="../../../gywm/CNNICjs/" >CNNIC简介 </a>
+                                </li>
+                               
+                                <li><a href="../../../gywm/shzr/" >社会责任 </a>
+                                </li>
+                               
+                                <li><a href="../../../gywm/ppjz/" >品牌文化 </a>
+                                </li>
+                               
+                                <li><a href="../../../gywm/xwzx/" >新闻中心 </a>
+                                </li>
+                               
+                                <li><a href="../../../gywm/zzkw/" >组织刊物 </a>
+                                </li>
+                               
+                                <li><a href="../../../gywm/ryygh/" >荣誉与关怀 </a>
+                                </li>
+                               
+                                <li><a href="../../../gywm/cpyc/" >诚聘英才 </a>
+                                </li>
+                               
+                                <li><a href="../../../gywm/gylxwm/" >联系我们 </a>
+                                </li>
+                               
+                              </ul>
+                            <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                        </li> 
+
+
+
+                    </ul>
+                </div>
+                <!--[if !IE]>导航结束<![endif]-->
+            </div>
+        </div>
+  </div>
+    <div class="middle00">
+        <!--[if !IE]>中间开始<![endif]-->
+        <div class="qb2">
+            <!--[if !IE]>地理位置<![endif]-->
+            <div class="location">
+                当前位置：<a href="../../../">首页</a>&nbsp;&gt;&nbsp;<a href="../../">基础资源服务</a>&nbsp;&gt;&nbsp;<a href="../">CN域名</a>&nbsp;&gt;&nbsp;<a href="./">CN域名注册服务机构查询</a>
+            </div>
+            <!--[if !IE]>地理位置结束<![endif]-->
+            <div class="contentp">
+                <div class="leftp">
+                    <div class="menu">
+                        <div id="parent1" class="parent first" onclick="showMenu(1)">
+                            CN域名注册服务机构查询</div>
+			     <div id="child1" class="child" style="display: inline;">
+			               
+                            <div class="item">
+                                <a href="./" style="font-size:12px">CN域名服务合作伙伴查询</a></div> 
+                           <div class="item">
+                                <a href="../../zwym/zgymzcfwjg/" style="font-size:12px">中文域名服务合作伙伴查询</a></div>
+                                                   
+                        </div>                       
+                </div>
+                <div class="rightp">
+                    <div class="title">
+                        CN域名注册服务机构查询
+                    </div>
+                   <!--  <div class="list"> -->
+                        
+                        <table width="681" border="0" align="right" cellpadding="0" cellspacing="0">
+	  <tr align="center">
+          <td><div class="cas_content">
+
+<div><a id="inner_doc_28273" title="CN域名服务合作伙伴" target="_blank" _innerdocid="11431" href="./cnzcjg_ndsq/201206/t20120614_28273.htm">CN域名服务合作伙伴<br />
+</a></div><br/>
+
+
+<div><a id="inner_doc_28274" title="CNNIC海外CN域名认证注册服务机构" target="_blank" _innerdocid="15510" href="./cnzcjg_ndsq/201207/t20120702_30267.htm">CNNIC海外CN域名认证注册服务机构<br />
+</a></div><br/>
+
+</div>
+          </td>
+        </tr>
+	  
+        <tr>
+          <td>
+          
+          <div id="map">
+<h2 class="mapl" style="MARGIN: 218px 0px 0px 493px"><a 
+style="FONT-WEIGHT: bold; COLOR: #FF0000"
+href="./cnzcfwjg/201206/t20120612_26392.htm">北京</a></h2>
+<h2 class="mapl" style="MARGIN: 233px 0px 0px 500px"><a 
+href="./cnzcfwjg/201206/t20120612_26391.htm">天津</a></h2>
+<h2 class="mapr" style="MARGIN: 248px 0px 0px 455px"><a 
+href="./cnzcfwjg/201206/t20120612_26390.htm">河北</a></h2>
+            <h2 class="mapr" style="MARGIN: 280px 0px 0px 432px"><a 
+href="./cnzcfwjg/201206/t20120612_26389.htm">山西</a></h2>
+            <h2 class="mapr" style="MARGIN: 209px 0px 0px 400px"><a 
+href="./cnzcfwjg/201206/t20120612_26388.htm">内蒙古 </a></h2>
+            <h2 class="mapl" style="MARGIN: 194px 0px 0px 545px"><a 
+href="./cnzcfwjg/201206/t20120612_26387.htm">辽宁</a></h2>
+            <h2 class="mapl" style="MARGIN: 160px 0px 0px 575px"><a 
+href="./cnzcfwjg/201206/t20120612_26386.htm">吉林 </a></h2>
+            <h2 class="mapl" style="MARGIN: 120px 0px 0px 610px"><a 
+href="./cnzcfwjg/201206/t20120612_26385.htm">黑龙江</a></h2>
+            <h2 class="mapl" style="MARGIN: 348px 0px 0px 558px"><a 
+href="./cnzcfwjg/201206/t20120612_26384.htm">上海</a></h2>
+            <h2 class="mapl" style="MARGIN: 330px 0px 0px 540px"><a 
+href="./cnzcfwjg/201206/t20120612_26383.htm">江苏</a></h2>
+            <h2 class="mapl" style="MARGIN: 370px 0px 0px 545px"><a 
+href="./cnzcfwjg/201206/t20120612_26382.htm">浙江</a></h2>
+            <h2 class="mapr" style="MARGIN:350px 0px 0px 495px"><a 
+href="./cnzcfwjg/201206/t20120612_26381.htm">安徽</a></h2>
+
+<h2 class="mapr" style="MARGIN: 425px 0px 0px 375px"><a 
+href="./cnzcfwjg/201206/t20120612_26403.htm">贵州</a></h2>
+            <h2 class="mapr" style="MARGIN: 383px 0px 0px 368px"><a 
+href="./cnzcfwjg/201206/t20120612_26405.htm">重庆</a></h2>
+
+            <h2 class="mapr" style="MARGIN: 460px 0px 0px 465px"><a 
+href="./cnzcfwjg/201206/t20120612_26374.htm">广东</a></h2>
+            <h2 class="mapl" style="MARGIN: 358px 0px 0px 320px"><a 
+href="./cnzcfwjg/201206/t20120612_26404.htm">四川</a></h2>
+            <h2 class="mapl" style="MARGIN: 528px 0px 0px 426px"><a 
+href="./cnzcfwjg/201206/t20120612_26406.htm">海南</a></h2>
+
+            <h2 class="mapr" style="MARGIN: 450px 0px 0px 310px"><a 
+href="./cnzcfwjg/201206/t20120612_26402.htm">云南</a></h2>
+            <h2 class="mapr" style="MARGIN: 285px 0px 0px 235px"><a 
+href="./cnzcfwjg/201206/t20120612_26397.htm ">青海</a></h2>
+            <h2 class="mapr" style="Z-INDEX: 100; MARGIN: 320px 0px 0px 385px"><a 
+href="./cnzcfwjg/201206/t20120612_26400.htm">陕西</a></h2>
+            <h2 class="mapl" style="MARGIN: 415px 0px 0px 435px"><a 
+href="./cnzcfwjg/201206/t20120612_26375.htm">湖南</a></h2>
+            <h2 class="mapl" style="MARGIN: 407px 0px 0px 495px"><a 
+href="./cnzcfwjg/201206/t20120612_26379.htm">江西</a></h2>
+            <h2 class="mapl" style="Z-INDEX: 99; MARGIN: 435px 0px 0px 525px"><a 
+href="./cnzcfwjg/201206/t20120612_26380.htm">福建</a></h2>
+
+            <h2 class="mapl" style="MARGIN: 480px 0px 0px 495px"><a 
+href="./cnzcfwjg/201206/t20120612_26395.htm">	香港</a></h2>
+
+ <h2 class="mapl" style="MARGIN: 195px 0px 0px 155px"><a 
+href="./cnzcfwjg/201206/t20120612_26396.htm">新疆</a></h2>
+            <h2 class="mapr" style="MARGIN: 370px 0px 0px 455px"><a 
+href="./cnzcfwjg/201206/t20120612_26376.htm">湖北</a></h2>
+            <h2 class="mapr" style="MARGIN: 313px 0px 0px 441px"><a 
+href="./cnzcfwjg/201206/t20120612_26377.htm">河南</a></h2>
+            <h2 class="mapr" style="MARGIN: 295px 0px 0px 334px"><a 
+href="./cnzcfwjg/201206/t20120612_26399.htm">甘肃</a></h2>
+            <h2 class="mapl" style="MARGIN: 450px 0px 0px 570px"><a 
+href="./cnzcfwjg/201206/t20120612_26393.htm">台湾</a></h2>
+            <h2 class="mapl" style="MARGIN: 280px 0px 0px 510px"><a 
+href="./cnzcfwjg/201206/t20120612_26378.htm">山东</a></h2>
+            <h2 class="mapr" style="MARGIN: 265px 0px 0px 355px"><a 
+href="./cnzcfwjg/201206/t20120612_26398.htm">宁夏</a></h2>
+            <h2 class="mapr" style="MARGIN: 485px 0px 0px 460px"><a 
+href="./cnzcfwjg/201206/t20120612_26394.htm">澳门</a></h2>
+            <h2 class="mapl" style="MARGIN: 350px 0px 0px 150px"><a 
+href="./cnzcfwjg/201206/t20120612_26401.htm">西藏</a></h2>
+            <h2 class="mapl" style="MARGIN:470px 0px 0px 395px"><a 
+href="./cnzcfwjg/201206/t20120612_26373.htm">广西</a></h2>
+          </div>
+</td>
+        </tr>
+        
+      </table>
+                        
+                        
+                 <!--  </div> -->
+                     </div>
+
+                
+            </div>
+            <h1 style="margin-top: 0">
+               <div class="dibu">
+                    <ul>
+                    
+  <li>
+                            <dd class="white1" >
+                                <a href="../../ipas/" target="_blank">IP/AS的申请</a></dd>
+                            <dt class="white2" style="width: 140px;height=140px">
+				                ·<a href="../../ipas/ipasCNNICfplm/" target="_blank">CNNIC分配联盟介绍</a><br />
+                                ·<a href="../../ipas/IPv4dzsq/" target="_blank">地址申请</a><br />
+								·<a href="../../ipas/assq/" target="_blank">AS号码申请</a> </dt>
+                        </li>
+                    
+                        <li style="width: 150px">
+                            <dd class="white1" style="width: 140px">
+                                <a href="../" target="_blank">注册域名</a></dd>
+                            <dt class="white2" style="width: 140px">
+                                ·<a href="../../../" target="_blank">WHOIS查询</a><br />
+                                ·<a href="../../../ggfw/fwzx/zcfwjgzclc/" target="_blank">注册流程</a><br />
+								·<a href="../../../ggfw/fwzx/bzzx/" target="_blank">常见问题</a></dt></li>
+                        <li> 
+                            <dd class="white1">
+                                <a href="../CNymzcfwjgsq/" target="_blank">注册服务机构</a></dd>
+                            <dt class="white2">
+                                ·<a href="./" target="_blank">注册服务机构查询</a><br />
+                                ·<a href="http://www.cnnic.cn/ggfw/hyzl/yxymzcfwjghdljgtj/" target="_blank">星级注册服务机构查询</a><br />
+                                ·<a href="../CNymzcfwjgsq/201206/t20120614_28279.htm" target="_blank">如何成为注册服务机构</a>
+                               
+                            </dt>
+                        </li>
+                        
+                         <li>
+                            <dd class="white1">
+                                <a href="../../../hlwfzyj/" target="_blank">互联网研究</a>
+                            </dd>
+                            <dt class="white2">                                
+                                ·<a href="../../../hlwfzyj/hlwfzzx/qwfb/" target="_blank">权威发布</a><br />
+                                ·<a href="../../../hlwfzyj/hlwxzbg/" target="_blank">报告下载</a><br /> 
+                                ·<a href="../../../hlwfzyj/fxszl/" target="_blank">分析师专栏</a>
+                               </dt>
+                        </li>
+
+                        <li style="background:none">
+                            <dd class="white1">
+                                <a href="../../fwqzs/" target="_blank">服务器证书</a></dd>
+                            <dt class="white2">                                
+                                ·<a href="../../fwqzs/szzsdzclc/" target="_blank">申请流程</a><br />
+                                ·<a href="../../fwqzs/fwqzszcsgdlb/" target="_blank">申请服务机构</a><br />
+                                ·<a href="../../fwqzs/fwqzsxzzx/" target="_blank">下载中心</a></dt>
+						</li>
+
+                        
+
+                    </ul>
+                </div>
+            </h1>
+            <!--[if !IE]>中间结束<![endif]-->
+        </div>
+        <!--[if !IE]>整体开始<![endif]-->
+    </div>
+    <div class="bottom00">
+        <!--[if !IE]>底部开始<![endif]-->
+        <div class="qb3">
+            <div class="left" style="line-height: 26px;float:left">
+                <a href="../../../gywm/" target="_blank">关于我们</a>
+                | <a href="../../../gywm/cpyc/" target="_blank">诚聘英才</a>| <a href="../../../zddt/" target="_blank">
+                    站点地图</a> | <a href="../../../gywm/gylxwm/" target="_blank">联系我们</a>
+                <br />
+                ICP备案编号：<a href="http://www.miitbeian.gov.cn/">京ICP备09112257号</a> 版权所有 中国互联网络信息中心</div>
+            <div class="right" style="line-height:26px; float:right">
+               </a>
+                <a href="../../../zddt/201207/t20120724_32623.htm">
+                    <img width="30" height="30" src="../../../images/CNNIC.gif" border="0" hspace="4" complete="complete" /></a> 
+
+             <!--<a href="../../../zddt/201207/t20120724_32623.htm"><img width="44" height="30" src="../../../images/CNNIC_01.gif" border="0" hspace="4" complete="complete" /></a>-->
+
+ <a href="https://cert.webtrust.org/ViewSeal?id=1731"> <img width="34" height="44" src="../../../images/WT.jpg" border="0" hspace="4" complete="complete" /></a>
+
+<a href="https://cert.webtrust.org/ViewSeal?id=1730"><img width="34" height="44" src="../../../images/WT1.jpg" border="0" hspace="4" complete="complete" /></a>
+
+</div>
+        </div>
+        <!--[if !IE]>底部结束<![endif]-->
+    </div>
+</body>
+</html>
