@@ -110,11 +110,7 @@ def monitor(url):
         nuodLock.acquire()
         newUrlObjDic[url] = URL(length, md5Str)
         nuodLock.release()
-        #if "denic" in url:
-        #    myUtils.writeLog("Before getEmailContent!", "", "")
         content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic, sourceCode, aeURLs)
-        #if "denic" in url:
-        #    myUtils.writeLog("denic getEmailContent ok", "", "")
         if content:
             uwLock.acquire()
             if uwCount < 2:
@@ -124,8 +120,6 @@ def monitor(url):
             uwCount += 1
             uwContent += content
             uwLock.release()
-        #if "denic" in url:
-        #    myUtils.writeLog("denic update warning content INC ok, ready to recordinfile", "", "")
         myUtils.recordInFile(url, sourceCode)
 
 

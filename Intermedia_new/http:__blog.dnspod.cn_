@@ -11,7 +11,7 @@
 			// P2 Configuration
 			var ajaxUrl                 = "http://blog.dnspod.cn/wp-admin/admin-ajax.php?p2ajax=true";
 			var updateRate              = "30000"; // 30 seconds
-			var nonce                   = "f4048488d3";
+			var nonce                   = "598fa75389";
 			var login_url               = "http://blog.dnspod.cn/wp-login.php?redirect_to=http%3A%2F%2Fblog.dnspod.cn%2F";
 			var templateDir             = "http://blog.dnspod.cn/wp-content/themes/p2012";
 			var isFirstFrontPage        = 1;
@@ -28,7 +28,7 @@
 			var inlineEditComments      = 1;
 			var wpUrl                   = "http://blog.dnspod.cn";
 			var rssUrl                  = "";
-			var pageLoadTime            = "2015-03-22 09:01:24";
+			var pageLoadTime            = "2015-03-22 13:01:19";
 			var original_title          = document.title;
 			var commentsOnPost          = new Array;
 			var postsOnPage             = new Array;
@@ -66,7 +66,7 @@
 		//]]>
 		</script>
 		<script type="text/javascript">
-var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=d04aed4aec"},"remote_auth":"W10= c9ce9c13518b175c0ee3e6f21ebae3b3d5bcff4d 1427014884"};
+var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=f1dd4b151a"},"remote_auth":"W10= a0c40c566b2c40704f14a4fe1253929d666fa4cb 1427029279"};
 duoshuoQuery.sso.login += '&redirect_to=' + encodeURIComponent(window.location.href);
 duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.href);
 </script>
@@ -74,7 +74,7 @@ duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var userSettings = {"url":"\/","uid":"0","time":"1427014884"};
+var userSettings = {"url":"\/","uid":"0","time":"1427029279"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/utils.min.js?ver=3.7'></script>
@@ -142,7 +142,7 @@ try{convertEntities(p2txt);}catch(e){};;
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></li>
-<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1427014884325&f=1"></iframe></li>
+<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1427029279846&f=1"></iframe></li>
 <li id="categories-2" class="widget widget_categories"><h2 class="widgettitle">分类目录</h2>
 		<ul>
 	<li class="cat-item cat-item-1"><a href="http://blog.dnspod.cn/category/uncategorized/" title="查看 DNSPod动态 下的所有文章">DNSPod动态</a> (24)
@@ -297,7 +297,7 @@ if (typeof DUOSHUO !== 'undefined')
 							<input type='hidden' name='comment_post_ID' value='5003' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
 						</p>
-						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="8628ec2a16" /></p>					</form>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="d03a29553c" /></p>					</form>
 							</div><!-- #respond -->
 				<script type="text/javascript">
 		jQuery(document).ready(function () {

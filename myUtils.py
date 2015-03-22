@@ -71,10 +71,10 @@ def sendEmail(subject, content):
 
         #fromAddr = "monitorURL@foxmail.com"
         fromAddr = "liuxiaowei@cnnic.cn"
-        toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn"]
-        #toAddrs = ["lxwin@foxmail.com", "liuxiaowei@cnnic.cn"]
-        ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn"]
-        #ccAddrs = ["lxwin@foxmail.com"]
+        #toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn"]
+        toAddrs = ["lxwin@foxmail.com", "liuxiaowei@cnnic.cn"]
+        #ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn"]
+        ccAddrs = ["lxwin@foxmail.com"]
 
         message = Message()
         message["Subject"] = subject
@@ -98,9 +98,6 @@ def sendEmail(subject, content):
         time.sleep(5)
         sm.quit()
     except Exception, e:
-        #start = content.index("\n") + 2
-        #end = content[start:].index("\n") + 2
-        #writeLog("EMAIL SENDING ERROR", content[:end], str(e))
         writeLog("EMAIL SENDING ERROR", "", traceback.format_exc())
     else:
         writeLog("EMAIL SENDING SUCCESS", "", "")
@@ -114,67 +111,38 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
     """
     content = ""
     filename = "./Intermedia/" + url.replace("/", "_")
-    #filename_new = "./Intermedia_new/" + url.replace("/", "_")
     try:
         if length < urlObjDic[url].getLength():
-            #writeLog("length <(lt)", url, "")
             conList = diff2Str(filename, sourceCode)
             if conList != []:
                 content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, stdSize(urlObjDic[url].getLength()), stdSize(length))
-                #content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, getSize(filename), getSize(filename_new))
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
         elif length > urlObjDic[url].getLength():
-            #writeLog("length >(gt)", url, "")
             conList = diff2Str(filename, sourceCode)
             if conList != []:
                 content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, stdSize(urlObjDic[url].getLength()), stdSize(length))
-                #content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, getSize(filename), getSize(filename_new))
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
         elif md5Str != urlObjDic[url].getMD5Str():
-            #writeLog("md5 not equal", url, "")
             conList = diff2Str(filename, sourceCode)
             if conList != []:
                 content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，具体差异如下:\n".format(url, checkTime)
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
-        #else:
-        #    writeLog("equals", url, "")
 
     except KeyError, ke:
         content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n\n".format(url, checkTime)
-        #This function will be invoked by multi threads, so rLLock is essential here.
-        #NOTE: lxw  Does this rLLock belong to one single thread or all threads share it? If the former situation, it doesn't work for mutex.
-        #I think it's the latter situation. I need to CONFIRM THIS.
-        aeLock.acquire()
         writeLog("[Quite Normal, url recovery.] lxw_KeyError", url, "")
         if url in aeURLs:
+            aeLock.acquire()
             aeURLs.remove(url)
-        aeLock.release()
+            aeLock.release()
 
     return content
-
-
-#NO_USE
-def getSize(absPath):
-    """
-    caculate the normal size of the specified file.
-    """
-    try:
-        size = os.path.getsize(absPath)     # type(size): long
-        ksize = size / 1000.0
-        if ksize >= 1:
-            res = str(ksize) + "K"
-        else:
-            res = str(size) + "B"
-    except Exception, e:
-        writeLog("lxw_error", "", traceback.format_exc())
-
-    return res
 
 
 def stdSize(length):
@@ -239,8 +207,8 @@ def diff2Str(filename, sourceCode):
                 finList.append(resList[index])
 
         #Sort the result:
-        #The content removed shows at front, content added follows behind.
-        return sortList(finList)
+        #The content added shows at front, content removed follows behind.
+        return sorted(finList)
 
     except IOError, e:
         writeLog("lxw_IOERROR Occurred(File not found, url revives now.)", "", traceback.format_exc())
@@ -274,14 +242,6 @@ def filter(aList):
         writeLog("lxw_filter ERROR", "", traceback.format_exc())
 
     return resList
-
-
-def sortList(aList):
-    """
-    Sort the result:
-    The content removed shows at front, content added follows behind.
-    """
-    return sorted(aList)
 
 
 def eachCriterion(url):
