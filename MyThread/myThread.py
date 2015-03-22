@@ -19,6 +19,7 @@ class MyThread(threading.Thread):
         self.args = args
         self.name = name
         self.startTime = datetime.datetime.now()
+        self.url = ""
 
 
     def isTimedOut(self):
@@ -27,10 +28,17 @@ class MyThread(threading.Thread):
         """
         now = datetime.datetime.now()
         deltaTime = (now - self.startTime).seconds
-        if deltaTime > 20:
+        if deltaTime > 60:
             return True
         else:
             return False
+
+
+    def getURL(self):
+        """
+        get the url that the thread monitor
+        """
+        return self.url
 
 
     def getResult(self):
@@ -39,4 +47,5 @@ class MyThread(threading.Thread):
 
     def run(self):
         self.startTime = datetime.datetime.now()
+        self.url = self.args[0]
         self.res = apply(self.func, self.args)

@@ -103,6 +103,8 @@ Notice the differences between them(especially the lines contain "title="), and 
 ###HUGE BUGS:
 1. The url `http://www.denic.de/en/homepage.html` always blocks the program.
 I CANNOT figure it out right now.
+Solutions:<br>
+If one url costs too much time and does not stop before the time we can wait(1 minute). We will ignore this url and kill the running thread/process.
 
 
 ###Todos:

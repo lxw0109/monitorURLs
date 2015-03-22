@@ -1,5 +1,6 @@
-#lxw
-#monitor the URLs: monitor at 9:00 everyday.
+#monitor the URLs
 0 9 * * * lxw bash /home/lxw/monitorURL/run.sh > /dev/null
-#clear the monitor Log at 0:00 every Sunday.
-0 0 * * 0 lxw bash /home/lxw/monitorURL/clearLog.sh > /dev/null
+#ignore the URLs that cost too much time
+10 9 * * * lxw bash /home/lxw/monitorURL/killThreads.sh > /dev/null
+#clear t1e monitor Log & accessErrorURLs
+0 0 * * 1 lxw bash /home/lxw/monitorURL/clearLog.sh > /dev/null

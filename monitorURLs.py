@@ -176,6 +176,8 @@ def main():
             if thread.isAlive():
                 if not thread.isTimedOut():     # not "Timed Out".
                     over = False
+                else:
+                    myUtils.writeLog("lxw_Timed Out", thread.getURL(), "")
         if over:
             break
 
