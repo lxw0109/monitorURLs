@@ -1,0 +1,644 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head><script id="f5_cspm">(function(){var f5_cspm={f5_p:'FJABBCHDDAGABAAELCAAAAJAMGEAAAAAEABAKGAANAOFAAAADAAAFPAAGDAFAAAA',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,20,(latency>>8));str=f5_cspm.set_byte(str,21,(latency&0xff));str=f5_cspm.set_byte(str,18,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='aaaaaaaaaaaaaaa='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'){if(pair[1]=='1234'){var d=new Date();d.setTime(d.getTime()-1);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}}
+f5_cspm.go();}());</script>
+<title>HKDNR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<link href="/HKDNR_common.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #3F70FF;
+	word-spacing: normal;
+}
+-->
+</style>
+<script src="/js/jquery-1.4.2.min.js"></script>
+<script src="/js/jquery.address-1.2.2.min.js?crawlable=true"></script>
+<script src="/js/jquery.hoverIntent.js"></script>
+<script src="/js/jquery.dynamicAccordion.js"></script>
+<script src="/js/jquery.url.js"></script>
+<script src="/js/irc_dnr.js"></script>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18423892-2']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="">
+
+
+
+
+<LINK href="css/frontpage/style_sc.css" type="text/css" rel="stylesheet">
+
+
+
+<!-- ImageReady Slices (hkdnr_home_eng.psd) -->
+<table id="Table_01" width="955" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="left" valign="top">
+			<a href="/?lang=cn"><img src="images/newlayout/frontpage4/cn/home_sc_01.jpg" width="335" height="91" alt=""></a></td>
+
+		<td align="left" valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_02.jpg" width="307" height="91" alt=""></td>
+		<td align="left" valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_03.jpg" width="313" height="91" alt=""></td>
+	</tr>
+</table>
+<table id="Table_01" width="955" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="left" valign="top" width=400px></td>
+		<td align="left" valign="top">
+			<a href="/?lang=cn"><img src="images/newlayout/frontpage4/cn/home_sc_05.jpg" alt="" height="24" id="Image1" onMouseOver="MM_swapImage('Image1','','images/newlayout/frontpage4/cn/home_sc_mo_05.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+
+<td align="left" valign="top" class="dropdownMenu">
+			<a href="javascript:;"><img src="images/newlayout/frontpage4/cn/home_sc_06.jpg" alt="" height="24" id="Image2" onMouseOver="MM_swapImage('Image2','','images/newlayout/frontpage4/cn/home_sc_mo_06.jpg',1)" onMouseOut="MM_swapImgRestore()"></a>
+			<!--<br>--><div>
+			<ul>
+									<li><a href="/content.jsp?id=131&lang=cn">注册新域名</a></li>
+						<li><a href="/content.jsp?id=134&lang=cn">如何注册</a></li>
+						<li><a href="/content.jsp?id=135&lang=cn">申请资格及所需文件</a></li>
+						<li><a href="/content.jsp?id=136&lang=cn">网上付款</a></li>
+						<li><a href="/content.jsp?id=137&lang=cn">域名收费及付款方法</a></li>
+						<li><a href="/content.jsp?id=138&lang=cn">保留域名</a></li>
+						<li><a href="/content.jsp?id=284&lang=cn">提交文件</a></li>
+						</ul>
+			</div><!--<br>-->
+			
+			</td>
+		<td align="left" valign="top" class="dropdownMenu">
+			<a href="javascript:;"><img src="images/newlayout/frontpage4/cn/home_sc_07.jpg" alt="" height="24" id="Image3" onMouseOver="MM_swapImage('Image3','','images/newlayout/frontpage4/cn/home_sc_mo_07.jpg',1)" onMouseOut="MM_swapImgRestore()"></a>
+			<!--<br>--><div>
+			<ul>
+									<li><a href="/content.jsp?id=140&lang=cn">更改域名伺服器</a></li>
+						<li><a href="/content.jsp?id=141&lang=cn">更改域名资料</a></li>
+						<li><a href="/content.jsp?id=142&lang=cn">转让域名</a></li>
+						<li><a href="/content.jsp?id=143&lang=cn">更改合作夥伴</a></li>
+						<li><a href="/content.jsp?id=145&lang=cn">网上付款</a></li>
+						<li><a href="/content.jsp?id=146&lang=cn">收费表和付款方式</a></li>
+						<li><a href="/content.jsp?id=147&lang=cn">申请表格</a></li>
+						</ul>
+			</div><!--<br>-->
+			
+			</td>
+<td align="left" valign="top" class="dropdownMenu">
+			<a href="javascript:;"><img src="images/newlayout/frontpage4/cn/home_sc_08.jpg" alt="" height="24" id="Image4" onMouseOver="MM_swapImage('Image4','','images/newlayout/frontpage4/cn/home_sc_mo_08.jpg',1)" onMouseOut="MM_swapImgRestore()"></a>
+			<!--<br>--><div>
+			<ul>
+									<li><a href="/content.jsp?id=149&lang=cn">续用域名</a></li>
+						<li><a href="/content.jsp?id=150&lang=cn">域名收费及付款方法</a></li>
+						</ul>
+			</div><!--<br>-->
+			
+			</td>
+			<td align="left" valign="top" class="dropdownMenu">
+			<a href="javascript:;"><img src="images/newlayout/frontpage4/cn/home_sc_08_5.jpg" alt="" height="24" id="Image4_5" onMouseOver="MM_swapImage('Image4_5','','images/newlayout/frontpage4/cn/home_sc_mo_08_5.jpg',1)" onMouseOut="MM_swapImgRestore()"></a>
+			<div>
+			<ul>
+									<li><a href="/content.jsp?id=292&lang=cn">Minisite</a></li>
+						<li><a href="/content.jsp?id=293&lang=cn">.hk LOCK</a></li>
+						<li><a href="/content.jsp?id=300&lang=cn">制作QR 码</a></li>
+						<li><a href="/content.jsp?id=305&lang=cn">.hk WATCH</a></li>
+						</ul>
+			</div>
+			</td>
+			<td align="left" valign="top">
+			<a href="/whois/whois.jsp?lang=cn" ><img src="images/newlayout/frontpage4/cn/home_sc_09.jpg" alt="" height="24" id="Image5" onMouseOver="MM_swapImage('Image5','','images/newlayout/frontpage4/cn/home_sc_mo_09.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+<td align="left" valign="top" class="dropdownMenu">
+
+			<a href="javascript:;" ><img src="images/newlayout/frontpage4/cn/home_sc_10.jpg" alt="" height="24" id="Image6" onMouseOver="MM_swapImage('Image6','','images/newlayout/frontpage4/cn/home_sc_mo_10.jpg',1)" onMouseOut="MM_swapImgRestore()"></a>
+			<!--<br>--><div>
+			<ul>
+									<li><a href="/content.jsp?id=154&lang=cn">参加合作夥伴计划</a></li>
+						<li><a href="/content.jsp?id=155&lang=cn">我们的合作夥伴</a></li>
+						</ul>
+			</div><!--<br>-->
+			
+			</td>
+<td align="left" valign="top" class="dropdownMenu">
+			<a href="javascript:;"><img src="images/newlayout/frontpage4/cn/home_sc_11.jpg" alt="" height="24" id="Image7" onMouseOver="MM_swapImage('Image7','','images/newlayout/frontpage4/cn/home_sc_mo_11.jpg',1)" onMouseOut="MM_swapImgRestore()"></a>
+			<!--<br>--><div>
+			<ul>
+									<li><a href="/content.jsp?id=157&lang=cn">怎样提出域名争议</a></li>
+						<li><a href="/content.jsp?id=158&lang=cn">域名争议解决政策</a></li>
+						<li><a href="/content.jsp?id=159&lang=cn">程序规则</a></li>
+						<li><a href="/content.jsp?id=160&lang=cn">HKIAC 补充条例</a></li>
+						</ul>
+			</div><!--<br>-->
+			
+			</td>
+<td align="left" valign="top" class="dropdownMenu">
+			<a href="javascript:;"><img src="images/newlayout/frontpage4/cn/home_sc_12.jpg" alt="" height="24" id="Image8" onMouseOver="MM_swapImage('Image8','','images/newlayout/frontpage4/cn/home_sc_mo_12.jpg',1)" onMouseOut="MM_swapImgRestore()"></a>
+			<!--<br>--><div>
+			<ul>
+									<li><a href="/content.jsp?id=164&lang=cn">注册协议</a></li>
+						<li><a href="/content.jsp?id=166&lang=cn">注册服务机构及合作夥伴的行为守则</a></li>
+						<li><a href="/content.jsp?id=168&lang=cn">顾客约章</a></li>
+						<li><a href="/content.jsp?id=282&lang=cn">合作伙伴计划条款与条件</a></li>
+						</ul>
+			</div><!--<br>-->
+			
+			</td>
+<td align="left" valign="top" class="dropdownMenu">
+			<a href="javascript:;"><img src="images/newlayout/frontpage4/cn/home_sc_13.jpg" alt="" height="24" id="Image9" onMouseOver="MM_swapImage('Image9','','images/newlayout/frontpage4/cn/home_sc_mo_13.jpg',1)" onMouseOut="MM_swapImgRestore()"></a>
+			<!--<br>--><div>
+			<ul>
+									<li><a href="/content.jsp?id=172&lang=cn">关于 HKDNR</a></li>
+						<li><a href="/content.jsp?id=179&lang=cn">公共关系</a></li>
+						<li><a href="/content.jsp?id=182&lang=cn">企业社会责任</a></li>
+						<li><a href="/content.jsp?id=187&lang=cn">科技专区</a></li>
+						<li><a href="/content.jsp?id=192&lang=cn">招标公告</a></li>
+						<li><a href="/content.jsp?id=193&lang=cn">职位空缺</a></li>
+						<li><a href="/content.jsp?id=194&lang=cn">统计资料</a></li>
+						<li><a href="/content.jsp?id=200&lang=cn">有关连结</a></li>
+						</ul>
+			</div><!--<br>-->
+			
+			</td>
+<td align="left" valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_14.jpg" height="24" alt=""></td>
+			
+		<td colspan="3" align="left" valign="top">
+			<a href="/?" onclick="javascript:searchLang='eng'"><img src="images/newlayout/frontpage4/cn/home_sc_15.jpg" alt="" height="24" id="Image10" onMouseOver="MM_swapImage('Image10','','images/newlayout/frontpage4/cn/home_sc_mo_15.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+<td align="left" valign="top">
+			<a href="/?lang=zho" onclick="javascript:searchLang='zho'"><img src="images/newlayout/frontpage4/cn/home_sc_16.jpg" alt="" height="24" id="Image11" onMouseOver="MM_swapImage('Image11','','images/newlayout/frontpage4/cn/home_sc_mo_16.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+
+
+  </tr>
+</table>
+<table id="Table_01" width="892" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td  align="left" valign="top" width="65px">&nbsp;</td>
+  		<td>
+  			<table id="Table_01" width="554" style="height:195" border="0" cellpadding="0" cellspacing="0">
+  				<tr>
+  					<td align="left" valign="top">
+  						<!--<div style="font-size:30px;color:green">HKDNR – Your .hk domain name service provider</div><br>--><!--<br><a href="https://www.hkdnr.hk/content.jsp?id=131&lang=cn"><img border="0" width="545" src="/images/banner/hkirc_sc_2.jpg"></a>-->
+	  	<br>
+<table>
+	  		<tr>
+	  			<td><a href="http://www.itfest.hk/template?series=23" target="_blank"><img border=0 src="/images/banner/itfest_banner_170x93_sc.jpg"></a></td>
+	  			<td rowspan="2"><a href="/content.jsp?id=131&lang=cn"  target='_blank'><img border=0 src="/images/banner/hkdomain_cn_385x188.jpg"></a></td>
+	  		</tr>
+	  		<tr>
+	  			<td><a href="http://www.hktdc.com/ictexpo/sc?DCSext.dept=5&WT.mc_id=1756700" target="_blank"><img border=0 src="/images/banner/ICT_Expo_2015_sc.gif"></a></td>
+	  		</tr>
+	  	</table>
+<br>
+	  	 <!--<a href="/content.jsp?id=63#!/&in=https://www.hkirc.hk/company_info/pressrelease.jsp?item=425"><img src="/images/banner/eng_new.JPG"></a>--><ul class='txt_content'><li>近日发现有人利用HKDNR名义发出疑是失实的电邮，详情请<a href='/hkdnr/notice_20120920.jsp?lang=cn'>参阅</a>。</li></ul>
+  					</td>
+  				</tr>
+  			</table>
+  		</td>
+  		<td>
+  			<table id="Table_01" width="270" border="0" cellpadding="0" cellspacing="0">
+  				<tr>
+  					<td colspan=3>
+  						<span class="txt_content">
+	    <form action="searchResult.jsp?lang=cn" id="cse-search-box">
+  <div align=center>网站搜索<br/>
+    <input type="hidden" name="cx" value="004086113589369412006:rjdi2e_nz08" />
+    <input type="hidden" name="cof" value="FORID:9;NB:1" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="25" />
+    <input type="submit" name="sa" value="搜寻"/>
+    <input type="hidden" name="lang" value="cn" />
+  </div>
+</form>
+
+</span>
+  					</td>
+  				</tr>
+  				<tr>
+  					<td colspan=3>&nbsp;</td>
+  				</tr>
+  				<tr>
+  					
+  								<td align="left" valign="top" colspan=3>
+  									<img src="images/newlayout/frontpage4/cn/home_sc_22.jpg" width="270" height="24" alt="">
+  								</td>
+  							</tr>
+  							<tr><td align="left" valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_23.jpg" width="4" height="75" alt=""><!--</td>
+		<td colspan="7" align="right" valign="middle" class="txt_content" id="menu2">-->
+			</td><td align="right" valign="middle" id="menu2" class="txt_content" style="padding-top:0">
+			
+			<form method=POST action='/index.jsp?lang=cn' name="loginForm" style="margin:0" autocomplete="off" target="_blank"> 
+	  <!-- Login ID:--> 域名:
+	    <input name="username" type="text" class="txt_input" id="username" size="25">
+
+		  <br>
+	    <label>
+	      密码:
+	      <input name="password" type="password" class="txt_input" id="password" size="25">
+          <br>
+          <a href="forgetpwd.jsp?lang=cn">忘记密码</a><input name='login2' type=submit value='登入'><!--<img src="images/newlayout/frontpage4/cn/login.gif" width="66" height="17" align="absmiddle" class="button">--><br>
+	    </label>
+	    <input type=hidden name=panel value='4'>
+	    <input type="hidden" name="lang" value="cn" />
+	    <input type=hidden name=login value='yes'>
+	    </form>
+			
+			
+		</td><td align="right" valign="top">	
+<!--</td>
+		<td align="left" valign="top">-->
+			<img src="images/newlayout/frontpage4/cn/home_sc_25.jpg" width="4" height="75" alt=""></td></tr>
+							<tr>
+								<td align="left" valign="top" colspan=3>
+									<img src="images/newlayout/frontpage4/cn/home_sc_26.jpg" width="270" height="10" alt="">
+								</td>
+							
+  				</tr>
+  				
+  				<tr>
+  					<td colspan=3>&nbsp;</td>
+  				</tr>
+  			</table>
+  		</td>
+  		<td  align="left" valign="top">&nbsp;</td>
+  </tr>
+</table>
+<table id="Table_01" width="887" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="65px">&nbsp;</td>
+		<td>
+			<table id="Table_01" width="270" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td colspan="3" align="left" valign="top">
+			<a href="content.jsp?id=131&lang=cn""><img src="images/newlayout/frontpage4/cn/home_sc_28.jpg" width="270" height="24" alt=""></a></td>
+				</tr>
+				<tr>
+					<td align="left" valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_33.jpg" width="4" height="45" alt=""></td>
+		<td valign="middle" class="txt_content" id="menu2"><label>
+      <a href="content.jsp?id=131&lang=cn"">我想注册.hk域名</a></label></td>
+
+		<td align=right valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_35.jpg" width="4" height="45" alt=""></td>
+				</tr>
+				<tr>
+					<td colspan="3" align="left" valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_42.jpg" width="270" height="10" alt=""></td>
+				</tr>
+			</table>
+		</td>
+		<td width="6px">&nbsp;</td>
+		<td>
+			<table id="Table_01" width="270" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td colspan="3" align="left" valign="top">
+			<a href="content.jsp?id=140&lang=cn""><img src="images/newlayout/frontpage4/cn/home_sc_30.jpg" width="270" height="24" alt=""></a></td>
+				</tr>
+				<tr>
+					<td align="left" valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_36.jpg" width="4" height="45" alt=""></td>
+		<td align="left" valign="middle" class="txt_content" id="menu2"><label>
+      <a href="content.jsp?id=140&lang=cn"">我想更改.hk域名的资料</a></label></td>
+  <td align="right" valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_38.jpg" width="4" height="45" alt=""></td>
+				</tr>
+				<tr>
+					<td colspan="3" valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_43.jpg" width="270" height="10" alt=""></td>
+				</tr>
+			</table>
+		</td>
+		<td width="6px">&nbsp;</td>
+		<td>
+			<table id="Table_01" width="270" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td colspan="3" align="left" valign="top">
+			<a href="content.jsp?id=149&lang=cn""><img src="images/newlayout/frontpage4/cn/home_sc_32.jpg" width="270" height="24" alt=""></a></td>
+				</tr>
+				<tr>
+					<td align="left" valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_39.jpg" width="4" height="45" alt=""></td>
+		<td align="left" valign="middle" class="txt_content" id="menu2"><label>
+      <a href="content.jsp?id=149&lang=cn"">我想续用.hk域名</a></label></td>
+  <td align="right" valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_41.jpg" width="4" height="45" alt=""></td>
+				</tr>
+				<tr>
+					<td colspan="3" valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_44.jpg" width="270" height="10" alt=""></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="6" align="left" valign="top">
+
+			<img src="images/newlayout/frontpage4/cn/home_sc_45.jpg" width="824" height="7" alt=""></td>
+	</tr>
+	<tr>
+		<td width="65px">&nbsp;</td>
+		<td>
+			<table id="Table_01" width="270" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td colspan="3" align="left" valign="top">
+			<a href="javascript:searchWhois('')"><img src="images/newlayout/frontpage4/cn/home_sc_46.jpg" width="270" height="24" alt=""></a></td>
+				</tr>
+				<tr>
+					<td>
+			<img src="images/newlayout/frontpage4/cn/home_sc_51.jpg" width="4" height="45" alt=""></td>
+		<td align="left" valign="top" class="txt_content" id="menu2">查询.hk域名资料(WHOIS)<br>
+		  <label>
+
+		    <input style="vertical-align:top" name="textfield" type="text" class="txt_input" id="textfield" size="25">  <input type="button" value="搜寻" onclick="searchWhois(document.getElementById('textfield').value)">
+      </label></td>
+<td align=right>
+			<img src="images/newlayout/frontpage4/cn/home_sc_53.jpg" width="4" height="45" alt=""></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+			<img src="images/newlayout/frontpage4/cn/home_sc_60.jpg" width="270" height="10" alt=""></td>
+				</tr>
+			</table>
+		</td>
+		<td width="6px">&nbsp;</td>
+		<td>
+			<table id="Table_01" width="270" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td colspan="3" align="left" valign="top">
+			<a href="content.jsp?id=154&lang=cn""><img src="images/newlayout/frontpage4/cn/home_sc_48.jpg" width="270" height="24" alt=""></a></td>
+				</tr>
+				<tr>
+					<td>
+			<img src="images/newlayout/frontpage4/cn/home_sc_54.jpg" width="4" height="45" alt=""></td>
+		<td align="left" valign="middle" class="txt_content" id="menu2"><label>
+      <a href="content.jsp?id=154&lang=cn"">我想成为合作伙伴</a></label></td>
+
+		<td align=right>
+			<img src="images/newlayout/frontpage4/cn/home_sc_56.jpg" width="4" height="45" alt=""></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+			<img src="images/newlayout/frontpage4/cn/home_sc_61.jpg" width="270" height="10" alt=""></td>
+				</tr>
+			</table>
+		</td>
+		<td width="6px">&nbsp;</td>
+		<td>
+			<table id="Table_01" width="270" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td colspan="3" align="left" valign="top">
+			<a href="content.jsp?id=156&lang=cn""><img src="images/newlayout/frontpage4/cn/home_sc_50.jpg" width="270" height="24" alt=""></a></td>
+				</tr>
+				<tr>
+					<td>
+			<img src="images/newlayout/frontpage4/cn/home_sc_57.jpg" width="4" height="45" alt=""></td>
+		<td align="left" valign="middle" class="txt_content" id="menu2"><label>
+      <a href="content.jsp?id=156&lang=cn"">我想就.hk域名提出域名争议</a></label></td>
+		<td align=right>
+			<img src="images/newlayout/frontpage4/cn/home_sc_59.jpg" width="4" height="45" alt=""></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+			<img src="images/newlayout/frontpage4/cn/home_sc_62.jpg" width="270" height="10" alt=""></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="6" align="left" valign="top">
+		<img src="images/newlayout/frontpage4/cn/home_sc_63.jpg" width="824" height="7" alt=""></td>
+	</tr>
+	<tr>
+		<td width="65px">&nbsp;</td>
+		<td>
+			<table id="Table_01" width="270" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td colspan="3" align="left" valign="top">
+			<a href="content.jsp?id=166&lang=cn""><img src="images/newlayout/frontpage4/cn/home_sc_64.jpg" width="270" height="24" alt=""></a></td>
+				</tr>
+				<tr>
+					<td>
+			<img src="images/newlayout/frontpage4/cn/home_sc_69.jpg" width="4" height="45" alt=""></td>
+		<td valign="middle" class="txt_content" id="menu2"><label>
+
+      <a href="content.jsp?id=166&lang=cn"">我想了解管理HKDNR营运的规则</a></label></td>
+		<td align=right>
+			<img src="images/newlayout/frontpage4/cn/home_sc_71.jpg" width="4" height="45" alt=""></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+			<img src="images/newlayout/frontpage4/cn/home_sc_78.jpg" width="270" height="10" alt=""></td>
+				</tr>
+			</table>
+		</td>
+		<td width="6px">&nbsp;</td>
+		<td>
+			<table id="Table_01" width="270" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td colspan="3" align="left" valign="top">
+
+			<a href="content.jsp?id=172&lang=cn""><img src="images/newlayout/frontpage4/cn/home_sc_66.jpg" width="270" height="24" alt=""></a></td>
+				</tr>
+				<tr>
+					<td>
+			<img src="images/newlayout/frontpage4/cn/home_sc_72.jpg" width="4" height="45" alt=""></td>
+		<td align="left" valign="middle" class="txt_content" id="menu2"><label>
+      <a href="content.jsp?id=172&lang=cn"">我想知悉HKDNR更多</a></label></td>
+		<td align=right>
+
+			<img src="images/newlayout/frontpage4/cn/home_sc_74.jpg" width="4" height="45" alt=""></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+			<img src="images/newlayout/frontpage4/cn/home_sc_79.jpg" width="270" height="10" alt=""></td>
+				</tr>
+			</table>
+		</td>
+		<td width="6px">&nbsp;</td>
+		<td>
+			<table id="Table_01" width="270" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td colspan="3" align="left" valign="top">
+			<a href="content.jsp?id=246&lang=cn""><img src="images/newlayout/frontpage4/cn/home_sc_68.jpg" width="270" height="24" alt=""></a></td>
+				</tr>
+				<tr>
+					<td>
+			<img src="images/newlayout/frontpage4/cn/home_sc_75.jpg" width="4" height="45" alt=""></td>
+		<td align="left" valign="top" class="txt_content" id="menu2">电话: (852) 2319 1313<br>
+      电邮: <a href="mailto:enquiry@hkdnr.hk">enquiry@hkdnr.hk</a></td>
+		<td align=right>
+			<img src="images/newlayout/frontpage4/cn/home_sc_77.jpg" width="4" height="45" alt=""></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+			<img src="images/newlayout/frontpage4/cn/home_sc_80.jpg" width="270" height="10" alt=""></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	
+	
+	
+	
+	</table>
+<table id="Table_01" width="955" border="0" cellpadding="0" cellspacing="0">
+	
+	<tr>
+
+		<td colspan="25" align="left" valign="top">
+        			<img src="images/newlayout/frontpage4/cn/home_sc_81.jpg" width="824" height="73" alt=""></td>
+
+  </tr>
+	<tr>
+		<td colspan="25" align="center" valign="top" class="txt_subenu" id="subclick">&copy; HKDNR 2011  | <!--  <a href="#">Site Map</a> |  --> <a href="/content.jsp?id=275&lang=cn"">常见问题</a> |  <a href="/content.jsp?id=231&lang=cn"">条款</a> |  <a href="/content.jsp?id=235&lang=cn"">网站使用条款</a> |  <a href="/content.jsp?id=246&lang=cn"">联络我们</a></td>
+
+	</tr>
+	<tr>
+		<td colspan="27" align="left" valign="top">
+			<img src="images/newlayout/frontpage4/cn/home_sc_83.jpg" width="889" height="4" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="20" align="center" valign="top" class="txt_sub">建议使用 IE 7.0 或 Mozilla Firefox 3.5 以上版本浏览器观本网站<br>
+	    <a href="/content.jsp?id=228&lang=cn"">声明</a><br>
+
+      &copy; Copyright 2011 HKDNR All right reserved. <br></td>
+		<td colspan="2" align="left" valign="top">
+			<a href="http://www.facebook.com/HKIRC" target="_TOP"><img src="images/newlayout/frontpage4/cn/home_sc_85.jpg" width="114" height="90" alt=""></a></td>
+		<td colspan="5" align="left" valign="top">
+			<a href="http://www.caringcompany.net/b5_index.php"><img src="images/newlayout/frontpage4/cn/home_sc_86.jpg" width="136" height="90" alt=""></a></td>
+	</tr>
+	<!--<tr>
+		<td>
+
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="40" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="26" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="4" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="47" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="79" height="1" alt=""></td>
+
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="83" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="3" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="3" height="1" alt=""></td>
+		<td>
+
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="1" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="7" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="4" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="53" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="75" height="1" alt=""></td>
+
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="134" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="4" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="6" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="1" height="1" alt=""></td>
+		<td>
+
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="4" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="18" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="37" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="26" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="40" height="1" alt=""></td>
+
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="74" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="36" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="31" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="4" height="1" alt=""></td>
+		<td>
+
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="10" height="1" alt=""></td>
+		<td>
+			<img src="images/newlayout/frontpage4/cn/spacer.gif" width="55" height="1" alt=""></td>
+	</tr>-->
+</table>
+<!-- End ImageReady Slices -->
+
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+
+function searchWhois(whois){
+	window.location=encodeURI("/whois/whois.jsp?whois="+whois+"&lang="+gup("lang"));
+}
+
+</script>

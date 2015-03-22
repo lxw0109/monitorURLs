@@ -1,7 +1,1 @@
-monitorLog
 *.pyc
-!myUtils.pyc
-test.py
-Intermedia/*
-Intermedia_new/*
-temp/

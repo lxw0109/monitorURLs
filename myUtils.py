@@ -63,7 +63,7 @@ def sendEmail(subject, content):
         #toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn"]
         toAddrs = ["lxwin@foxmail.com", "liuxiaowei@cnnic.cn"]
         #ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn"]
-        ccAddrs = ["554188913@qq.com", "lxwin@foxmail.com"]
+        ccAddrs = ["lxwin@foxmail.com"]
 
         message = Message()
         message["Subject"] = subject
@@ -137,7 +137,7 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
         #NOTE: lxw  Does this rLLock belong to one single thread or all threads share it? If the former situation, it doesn't work for mutex.
         #I think it's the latter situation. I need to CONFIRM THIS.
         aeLock.acquire()
-        writeLog("KeyError", url, "")
+        writeLog("lxw_KeyError", url, "")
         if url in aeURLs:
             aeURLs.remove(url)
         aeLock.release()

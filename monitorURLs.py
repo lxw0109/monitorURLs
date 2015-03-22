@@ -151,7 +151,6 @@ def main():
             if not string:
                 break
             aeURLs.append(string)
-    #print aeURLs
 
     # Just to calculate time, not for thred pool NOW.
     threads = []
@@ -192,7 +191,7 @@ if __name__ == '__main__':
     start = datetime.datetime.now()
     main()
     end = datetime.datetime.now()
-    print("Monitor Finished. Time Cost: " + str(end - start) + "\n" + "------"*10 + "\n\n" + "------"*10)
-    #myUtils.writeLog("Monitor Finished. Time Cost: " + str(end - start) + "\n" + "------"*10 + "\n\n" + "------"*10, "", "")
+    #print("Monitor Finished. Time Cost: " + str(end - start) + "\n" + "------"*10 + "\n\n" + "------"*10)
+    myUtils.writeLog("\nMonitor Finished. Time Cost: " + str(end - start) + "\n" + "------"*10 + "\n\n" + "------"*10, "", "")
 else:
     myUtils.writeLog("", "", "Being imported as a module.")
