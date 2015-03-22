@@ -169,12 +169,14 @@ def main():
 
     #for thread in threads:
     #    thread.join()
+
     while 1:
-        flag = True
+        over = True
         for thread in threads:
             if thread.isAlive():
-                flag = False
-        if flag:
+                if not thread.isTimedOut():     # not "Timed Out".
+                    over = False
+        if over:
             break
 
     if aeCount > 0:
@@ -199,6 +201,6 @@ if __name__ == '__main__':
     start = datetime.datetime.now()
     main()
     end = datetime.datetime.now()
-    myUtils.writeDate("Monitor Finished.Monitor Time:{0}. Time Cost:{1}\n{2}\n{2}\n".format(time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), end - start, "------"*10))
+    myUtils.writeDate("Monitor Finished.   Monitor Time: {0}.   Time Cost: {1}'{2}\"\n{3}\n\n{3}\n".format(time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), (end-start).seconds//60, (end - start).seconds%60, "------"*13))
 else:
     myUtils.writeLog("", "", "Being imported as a module.")
