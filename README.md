@@ -100,6 +100,11 @@ $ vimdiff Demos/old Demos/new
 Notice the differences between them(especially the lines contain "title="), and you will understand that **"disorder" makes this**.
 
 
+###HUGE BUGS:
+1. The url `http://www.denic.de/en/homepage.html` always blocks the program.
+I CANNOT figure it out right now.
+
+
 ###Todos:
 1. limit the number of threads.(semaphore)
 2. set a flag to control get the source code of the urls from the urlopen or from the Intermedia_new.

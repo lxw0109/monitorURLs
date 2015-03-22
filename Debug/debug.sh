@@ -17,9 +17,9 @@ touch accessErrorURLs
 [ -d Intermedia ] || mkdir Intermedia
 [ -d Intermedia_new ] || mkdir Intermedia_new
 
-cp ./criterion_debug criterion
+cp ./Debug/criterion_debug criterion
 rm ./Intermedia/*
-cp ./new_debug/* ./Intermedia/
+cp ./Debug/new_debug/* ./Intermedia/
 
 #Monitor:
 python ./monitorURLs.py >> ./monitorLog
