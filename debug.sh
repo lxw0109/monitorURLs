@@ -17,6 +17,7 @@ touch accessErrorURLs
 [ -d Intermedia ] || mkdir Intermedia
 [ -d Intermedia_new ] || mkdir Intermedia_new
 
+cp ./criterion_debug criterion
 rm ./Intermedia/*
 cp ./new_debug/* ./Intermedia/
 

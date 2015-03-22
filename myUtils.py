@@ -35,6 +35,16 @@ def writeLog(tag, url, log):
         logLock.release()
 
 
+def writeDate(content):
+    """
+    Write date into Log.
+    """
+    with open("./monitorLog", "a") as f:
+        logLock.acquire()
+        f.write(content)
+        logLock.release()
+
+
 def writeFile(url, length, md5Str):
     """
     Write into criterion File.
@@ -137,7 +147,7 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
         #NOTE: lxw  Does this rLLock belong to one single thread or all threads share it? If the former situation, it doesn't work for mutex.
         #I think it's the latter situation. I need to CONFIRM THIS.
         aeLock.acquire()
-        writeLog("lxw_KeyError", url, "")
+        #writeLog("[Quite Normal, Don't worry]:lxw_KeyError", url, "")
         if url in aeURLs:
             aeURLs.remove(url)
         aeLock.release()
