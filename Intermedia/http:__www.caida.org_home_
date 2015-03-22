@@ -366,10 +366,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="http://as-rank.caida.org/"><img title="We present the BETA version of AS Rank, CAIDA's ranking of Autonomous Systems (AS) (which approximately map to Internet Service Providers). This ranking is derived from topological data collected by CAIDA's Archipelago Measurement Infrastructure and Border Gateway Protocol (BGP) routing data collected by the Route Views Project and RIPE NCC. ASes are ranked by their customer cone size, which is the number of their direct and indirect customers. Note: We do not have data to rank ASes (ISPs) by traffic, revenue, users, or any other non-topological metric. " alt="" height="250" width="300" src="/images/asrank-relationshipgraph_300h250.png"></a>
+<a href="/research/topology/hiddenmetricspaces/"><img title="We explore common properties of complex networks in order to find a general mechanism that would support a structural model of the network explaining the connection between network structure and function. Our proposed mechanism relies on the presence of a metric space hidden behind an observable network, referred to as the Hidden Metric Space (HMS). " alt="" height="250" width="300" src="/images/hiddenmetricspace_med.png"></a>
 </div>
 <div class="captiontext">
-<a href="http://as-rank.caida.org/">AS Rank: Ranking of Autonomous Systems</a>
+<a href="/research/topology/hiddenmetricspaces/">Hidden Metric Spaces</a>
 </div>
 <hr>
 <div class="captiontext">

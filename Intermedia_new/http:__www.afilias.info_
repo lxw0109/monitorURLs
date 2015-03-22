@@ -89,7 +89,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-2WxnvoBmRrU5zkHAqmSPeREV5RlerNp87Ey-yCshX4k" value="form-2WxnvoBmRrU5zkHAqmSPeREV5RlerNp87Ey-yCshX4k"  />
+<input type="hidden" name="form_build_id" id="form-8K5Rt7n4yDe8frm_VnkM6r46hFRKmR54DetxceFOTrY" value="form-8K5Rt7n4yDe8frm_VnkM6r46hFRKmR54DetxceFOTrY"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 

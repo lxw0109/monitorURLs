@@ -167,8 +167,15 @@ def main():
             threads.append(mt)
             urlCount += 1
 
-    for thread in threads:
-        thread.join()
+    #for thread in threads:
+    #    thread.join()
+    while 1:
+        flag = True
+        for thread in threads:
+            if thread.isAlive():
+                flag = False
+        if flag:
+            break
 
     if aeCount > 0:
         allContent = "本次共监测网站{0}个, 其中有{1}个网站访问异常, 详细信息如下:\n\n{2}".format(urlCount, aeCount, aeContent)
