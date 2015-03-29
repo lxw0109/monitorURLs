@@ -22,13 +22,13 @@
         <meta name="twitter:title" content="Home">
         <meta name="twitter:description" content="">
 <!-- Twitter Summary card images must be at least 200x200px -->
-        <meta name="twitter:image" content="http://www.apnic.net/__data/assets/image/0008/69308/apnic-og-image.jpg">
+        <meta name="twitter:image" content="https://www.apnic.net/__data/assets/image/0008/69308/apnic-og-image.jpg">
 
 <!-- Open Graph data -->
         <meta property="og:title" content="Home">
         <meta property="og:type" content="article">
-        <meta property="og:url" content="http://www.apnic.net/home">
-        <meta property="og:image" content="http://www.apnic.net/__data/assets/image/0008/69308/apnic-og-image.jpg">
+        <meta property="og:url" content="https://www.apnic.net/home">
+        <meta property="og:image" content="https://www.apnic.net/__data/assets/image/0008/69308/apnic-og-image.jpg">
         <meta property="og:description" content="">
         <meta property="og:site_name" content="APNIC">
 
@@ -41,10 +41,10 @@
 <!-- CSS Core -->
 <!-- Respond.js (for IE8) only works with local copy of CSS (bootstrap must be same domain) -->
 <!--[if lt IE 9]>
-    <link href="http://www.apnic.net/_designs/corporate-identity/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://www.apnic.net/_designs/corporate-identity/css/bootstrap.min.css" rel="stylesheet">
 <![endif]-->
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="http://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.2.17" rel="stylesheet">
-        <link href="http://www.apnic.net/__data/assets/css_file/0016/72322/legacy.css?v=0.1.9" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.3.1" rel="stylesheet">
+        <link href="https://www.apnic.net/__data/assets/css_file/0016/72322/legacy.css?v=0.1.9" rel="stylesheet">
 
         <style>
             /* No Javascript stuff */
@@ -54,21 +54,21 @@
         </style>
 
 <!-- CSS Extras -->
-        <link href="http://www.apnic.net/__data/assets/css_file/0009/72675/home-20140815-1.css?v=0.1.28" rel="stylesheet">
+        <link href="https://www.apnic.net/__data/assets/css_file/0009/72675/home-20140815-1.css?v=0.2.1" rel="stylesheet">
 
 
 <!-- IE Support -->
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
-        <script src="http://www.apnic.net/_designs/corporate-identity/js/html5shiv.min.js"></script>
-        <script src="http://www.apnic.net/_designs/corporate-identity/js/respond.min.js"></script>
+        <script src="https://www.apnic.net/_designs/corporate-identity/js/html5shiv.min.js"></script>
+        <script src="https://www.apnic.net/_designs/corporate-identity/js/respond.min.js"></script>
 <![endif]-->
 
 <!-- JS Core -->
         <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <script src="http://www.apnic.net/__data/assets/js_file/0004/76360/miscjs.js"></script>
+        <script src="https://www.apnic.net/__data/assets/js_file/0004/76360/miscjs.js"></script>
 
 
 						
@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 23 March 2015 02:32:37
+  Page generated: 29 March 2015 11:04:09
 -->
 
 
@@ -131,7 +131,7 @@
  <input type="hidden" name="cof" value="FORID:9"><input type="text" name="q" placeholder="Search..." id="search"><input type="submit" name="sa" value="Go" id="go" /></form>
         <ul class="list-inline pull-right">
             <li><a href="https://www.apnic.net/about-APNIC/organization/contact-APNIC"><span>Contact us</span></a></li>
-            <li><a href="/jobs"><span>Jobs</span></a></li>
+            <li><a href="//www.apnic.net/jobs"><span>Jobs</span></a></li>
             <li><a href="https://www.apnic.net/apnic-info/site-map"><span>Site map</span></a></li>
         </ul>
         <p id="ip">Your IP address:</p>
@@ -299,15 +299,12 @@ $('.theme-about #header-label span').text('About APNIC');
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <a href="//conference.apnic.net/40"><img src="http://www.apnic.net/home/carousel/apnic-40-save-the-date.jpg" alt="APNIC 40 - Save the Date!"></a>
+      <a href="//conference.apnic.net/40"><img src="https://www.apnic.net/home/carousel/apnic-40-save-the-date.jpg" alt="APNIC 40 - Save the Date!"></a>
     </div>    <div class="item">
-      <a href="//www.apnic.net/trainingsurvey"><img src="http://www.apnic.net/__data/assets/image/0011/82496/APNIC-Training-Survey-banner-Feb15-01-01.png" alt="Take the APNIC Training Survey"></a>
+      <a href="//www.apnic.net/ROA"><img src="https://www.apnic.net/home/carousel/ROA.png" alt="Create your ROA now in MyAPNIC"></a>
     </div>
     <div class="item">
-      <a href="//www.apnic.net/ROA"><img src="http://www.apnic.net/home/carousel/ROA.png" alt="Create your ROA now in MyAPNIC"></a>
-    </div>
-    <div class="item">
-      <a href="//www.apnic.net/IANAxfer"><img src="http://www.apnic.net/__data/assets/image/0008/76526/iana-transfer-homepage-banner.png" alt="IANA Transition"></a>
+      <a href="//www.apnic.net/IANAxfer"><img src="https://www.apnic.net/__data/assets/image/0008/76526/iana-transfer-homepage-banner.png" alt="IANA Transition"></a>
     </div>
 
   </div>
@@ -325,7 +322,7 @@ $('.theme-about #header-label span').text('About APNIC');
         <div class="col-sm-3" id="whois">
 <!-- Whois box begins -->
 <div class="box">
-<h2 class="h3"><a href="http://www.apnic.net/apnic-info/whois_search/about">Whois search</a></h2>
+<h2 class="h3"><a href="https://www.apnic.net/apnic-info/whois_search/about">Whois search</a></h2>
 <div class="box-body">
 <div class="text-center">
 <form method="post" action="http://wq.apnic.net/apnic-bin/whois.pl" id="whoisform">
@@ -338,9 +335,9 @@ $('.theme-about #header-label span').text('About APNIC');
 <span class="glyphicon glyphicon-chevron-up"></span> <span class="glyphicon glyphicon-chevron-down"></span> <strong>More</strong></div><!-- #whois-more-toggle -->
 <div id="whois-more" role="navigation" class="collapse">
 <ul class="list-inline">
-    <li><a href="http://www.apnic.net/apnic-info/whois_search/using-whois">Whois Guide</a></li>
-    <li><a href="http://www.apnic.net/apnic-info/whois_search/using-whois/updating-whois">Updating Whois</a></li>
-    <li><a href="http://www.apnic.net/apnic-info/whois_search/using-whois/abuse-and-spamming/invalid-contact-form">Report invalid contact</a></li>
+    <li><a href="https://www.apnic.net/apnic-info/whois_search/using-whois">Whois Guide</a></li>
+    <li><a href="https://www.apnic.net/apnic-info/whois_search/using-whois/updating-whois">Updating Whois</a></li>
+    <li><a href="https://www.apnic.net/apnic-info/whois_search/using-whois/abuse-and-spamming/invalid-contact-form">Report invalid contact</a></li>
 </ul>
 </div><!-- /#whois-more -->
 </div>
@@ -352,12 +349,12 @@ $('.theme-about #header-label span').text('About APNIC');
         <div class="col-sm-3 quick-links" id="quick-links-1">
 <h2 class="h3">Internet Resources</h2>
 <ul>
-   <li><a href="http://www.apnic.net/apnic-info/whois_search/about">APNIC Whois</a></li>
-   <li><a href="http://www.apnic.net/services/apply-for-resources">Get resources</a></li>
+   <li><a href="https://www.apnic.net/apnic-info/whois_search/about">APNIC Whois</a></li>
+   <li><a href="https://www.apnic.net/services/apply-for-resources">Get resources</a></li>
 
-   <li><a href="http://www.apnic.net/services/become-a-member/how-much-does-it-cost">Member fees</a></li>
-   <li><a href="http://www.apnic.net/services/make-a-payment">Make a payment</a></li>
-   <li><a href="http://www.apnic.net/publications/research-and-insights/stats">Resource Statistics</a></li>
+   <li><a href="https://www.apnic.net/services/become-a-member/how-much-does-it-cost">Member fees</a></li>
+   <li><a href="https://www.apnic.net/services/make-a-payment">Make a payment</a></li>
+   <li><a href="https://www.apnic.net/publications/research-and-insights/stats">Resource Statistics</a></li>
 </ul>
         </div><!-- /.col-sm-3 -->
         <div class="col-sm-3 quick-links" id="quick-links-2">
@@ -365,21 +362,21 @@ $('.theme-about #header-label span').text('About APNIC');
 <ul>
     <li><a href="//conference.apnic.net">APNIC Conferences</a></li>
 
-    <li><a href="http://www.apnic.net/community/policy/current">Resource Policies</a></li>
-    <li><a href="http://www.apnic.net/community/participate/elections">APNIC Elections</a></li>
-    <li><a href="http://www.apnic.net/community/participate/join-discussions">Mailing Lists</a></li>
-    <li><a href="http://www.apnic.net/events/host-an-event">Host a Conference</a></li>
+    <li><a href="https://www.apnic.net/community/policy/current">Resource Policies</a></li>
+    <li><a href="https://www.apnic.net/community/participate/elections">APNIC Elections</a></li>
+    <li><a href="https://www.apnic.net/community/participate/join-discussions">Mailing Lists</a></li>
+    <li><a href="https://www.apnic.net/events/host-an-event">Host a Conference</a></li>
 </ul>
         </div><!-- /.col-sm-3 -->
         <div class="col-sm-3 quick-links" id="quick-links-3">
 <h2 class="h3">Get Help</h2>
 <ul>
 
-<li><a href="http://www.apnic.net/services/services-apnic-provides/helpdesk">Helpdesk</a></li>
-<li><a href="http://www.apnic.net/community/ipv6-program">IPv6@APNIC</a></li>
-<li><a href="http://training.apnic.net/home">APNIC Training</a></li>
-<li><a href="http://www.apnic.net/apnic-info/whois_search/using-whois/abuse-and-spamming">Hacking and spam</a></li>
-<li><a href="http://www.apnic.net/services/services-apnic-provides/registration-services/reverse-dns">Reverse DNS</a></li>
+<li><a href="https://www.apnic.net/services/services-apnic-provides/helpdesk">Helpdesk</a></li>
+<li><a href="https://www.apnic.net/community/ipv6-program">IPv6@APNIC</a></li>
+<li><a href="https://training.apnic.net/home">APNIC Training</a></li>
+<li><a href="https://www.apnic.net/apnic-info/whois_search/using-whois/abuse-and-spamming">Hacking and spam</a></li>
+<li><a href="https://www.apnic.net/services/services-apnic-provides/registration-services/reverse-dns">Reverse DNS</a></li>
 </ul>
         </div><!-- /.col-sm-3 -->
         <div class="col-sm-3" id="news">
@@ -388,11 +385,9 @@ $('.theme-about #header-label span').text('About APNIC');
 </div>
 <div class="panel-group" id="accordion">
   <div class="panel panel-default">
-    <div class="panel-heading"> 
+    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> 
       <h2 class="panel-title h3">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-          Blog
-        </a>
+        <span><a href="http://blog.apnic.net/">Blog</a></span>
       </h2>
     </div>
     <div id="collapseOne" class="panel-collapse collapse in">
@@ -401,11 +396,9 @@ $('.theme-about #header-label span').text('About APNIC');
     </div>
   </div>
   <div class="panel panel-default">
-    <div class="panel-heading">
+    <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
       <h2 class="panel-title h3">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-          NRO News
-        </a>
+        <span><a href="/publications/news/nro-news">NRO News</a></span>
       </h2>
     </div>
     <div id="collapseTwo" class="panel-collapse collapse">
@@ -415,21 +408,19 @@ $('.theme-about #header-label span').text('About APNIC');
     </div>
   </div>
   <div class="panel panel-default">
-    <div class="panel-heading">
+    <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
       <h2 class="panel-title h3">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-          Service updates
-        </a>
+        <span><a href="/publications/news/announcements">Service updates</a></span>
       </h2>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body"><h3><a href="http://www.apnic.net/publications/news/2015/service-announcement-25-february-2015" class="ellipsis" data-ellipsis-rows="1">Service announcement: 25 February 2015</a></h3>
+      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-25-february-2015" class="ellipsis" data-ellipsis-rows="1">Service announcement: 25 February 2015</a></h3>
 <p class="ellipsis" data-ellipsis-rows="2"><p>Some users experienced problems registering and logging in to MyAPNIC.</p>
 
 
 
 </p>
-<a href="http://www.apnic.net/publications/news/announcements">More announcements</a>      </div>
+<a href="https://www.apnic.net/publications/news/announcements">More announcements</a>      </div>
     </div>
   </div>
 </div>        </div><!-- /.col-sm-3 -->
@@ -437,9 +428,9 @@ $('.theme-about #header-label span').text('About APNIC');
     <div class="row" id="bottom-row">
         <div class="col-sm-9 adverts" id="adverts-1">
 <a class="advert" id="advert-1" href="//www.apnic.net/services/become-a-member"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>Become a Member</span><b class="apnic-sprite apnic-sprite-icons"></b></a>
-<a class="advert" id="advert-2" href="//isif.asia/"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>Support ISIF</span><img src="http://www.apnic.net/__data/assets/image/0006/76407/isif-logo.png" alt=""/></a>
+<a class="advert" id="advert-2" href="//isif.asia/"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>Support ISIF</span><img src="https://www.apnic.net/__data/assets/image/0006/76407/isif-logo.png" alt=""/></a>
 <a class="advert" id="advert-3" href="//nro.net/"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>APNIC is a member of the </span><b class="apnic-sprite apnic-sprite-icons"><span>NRO</span></b></a>
-<a class="advert" id="advert-4" href="http://www.apnic.net/community/iana-transition"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>IANA Oversight Transition</span></a>
+<a class="advert" id="advert-4" href="https://www.apnic.net/community/iana-transition"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>IANA Oversight Transition</span></a>
         </div><!-- /.col-sm-9 -->
         <div class="col-sm-3 adverts" id="adverts-2">
 <a class="advert" id="advert-5" href="//www.apnic.net/helpdesk"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>APNIC Helpdesk</span><em>Need Help?</em><b class="apnic-sprite apnic-sprite-icons"></b></a>
@@ -457,7 +448,7 @@ $('.theme-about #header-label span').text('About APNIC');
 <!-- Footer content -->
 <div class="row" id="footer">
     <div class="col-md-3" id="copyright-stamp">
-        © APNIC | <a href='/apnic-info/privacy'>Privacy</a>
+        © APNIC | <a href='//www.apnic.net/privacy'>Privacy</a>
     </div>
     <div class="col-md-9 text-right">
         <span id="iso9001-stamp" class="apnic-sprite apnic-sprite-icons pull-right"><span>ISO 9001:2008 Certified</span></span>
@@ -486,9 +477,9 @@ $('.theme-about #header-label span').text('About APNIC');
 
 
 <!-- JS Extras -->
-<script src="https://www.google.com/jsapi"></script>        <script src="http://www.apnic.net/__data/assets/js_file/0010/75349/jquery.debouncedresize.min.js?v=0.1.1"></script>
-        <script src="http://www.apnic.net/__data/assets/js_file/0009/75348/jquery.ellipsis.min.js?v=0.1.2"></script>
-        <script src="http://www.apnic.net/__data/assets/js_file/0004/72679/home-20140815-1.js?v=0.1.37"></script>
+<script src="https://www.google.com/jsapi"></script>        <script src="https://www.apnic.net/__data/assets/js_file/0010/75349/jquery.debouncedresize.min.js?v=0.1.2"></script>
+        <script src="https://www.apnic.net/__data/assets/js_file/0009/75348/jquery.ellipsis.min.js?v=0.1.3"></script>
+        <script src="https://www.apnic.net/__data/assets/js_file/0004/72679/home-20140815-1.js?v=0.2.1"></script>
 
 
 <!-- Google Analytics tracking code -->
@@ -506,13 +497,11 @@ $('.theme-about #header-label span').text('About APNIC');
 
 <!-- Labs tracking code -->
 <script type="text/javascript">
-  if (document.location.protocol == "http:") {
-     (function() {
-       var iga = document.createElement('script'); iga.type = 'text/javascript'; iga.async = true;
-       iga.src = 'http://www.potaroo.net/linktest-js.php';
-       var is = document.getElementsByTagName('script')[0]; is.parentNode.insertBefore(iga, is);
-     })();
-  }
+    (function() {
+        var iga = document.createElement('script'); iga.type = 'text/javascript'; iga.async = true;
+        iga.src = ('https:' == document.location.protocol ? 'https://labssl.apnic.net' : 'http://www.potaroo.net') + '/linktest-js.php';
+        var is = document.getElementsByTagName('script')[0]; is.parentNode.insertBefore(iga, is);
+    })();
 </script>
 
 

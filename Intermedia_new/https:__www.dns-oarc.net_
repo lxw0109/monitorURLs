@@ -116,7 +116,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-G8tAVm5cpgQRgP7zJj18pdRTtZRy28OeVeT9G24L4Ew" value="form-G8tAVm5cpgQRgP7zJj18pdRTtZRy28OeVeT9G24L4Ew"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-GRhs84sWCkmIg9wkyDABbc-nONsMUIiFgCBN_NiiLv8" value="form-GRhs84sWCkmIg9wkyDABbc-nONsMUIiFgCBN_NiiLv8"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -133,7 +133,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-YzGbb7i-DwAAkFn8C2LWMdffjZ2d9tdDyug51BudhBI" value="form-YzGbb7i-DwAAkFn8C2LWMdffjZ2d9tdDyug51BudhBI"  />
+<input type="hidden" name="form_build_id" id="form-fem5xNgf_B_A3DlFYQPpnz52y6oH_JRsXnrRBICtYNM" value="form-fem5xNgf_B_A3DlFYQPpnz52y6oH_JRsXnrRBICtYNM"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -166,6 +166,17 @@
   </div>
     <div class="info">
     Submitted by wessels on Thu, 2008-07-03 22:40          </div>
+</div>
+<div class="node  ">
+        <h2><a href=" /ditl/2011 " title=" DITL Data Collection "> DITL Data Collection </a></h2>
+     <div class="content">
+          <p><a href="http://www.caida.org/projects/ditl/" class="blue">A Day in the Life of the Internet</a> is a large-scale data collection project initially undertaken by CAIDA and subsequently by OARC every year since 2006.  This year, the DITL collection will take place in April.  If you would like to participate by collecting and contributing DNS packet captures, please subscribe to the <a href="https://lists.dns-oarc.net/mailman/listinfo/ditl" class="blue">DITL mailing list</a>.</p>
+<h2>Participation Requirements</h2>
+  </div>
+    <div class="info">
+    Submitted by Anonymous on Wed, 2015-03-25 23:45              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/ditl/2011" title="Read the rest of DITL Data Collection.">Read more</a></li>
+</ul> </span>
+      </div>
 </div>
 <div class="node  ">
         <h2><a href=" /oarc/data/zfr/root " title=" Root Zone Archive "> Root Zone Archive </a></h2>
@@ -305,20 +316,6 @@ OARC President</p>
 </ul> </span>
       </div>
 </div>
-<div class="node  ">
-        <h2><a href=" /node/338 " title=" OARC Spring 2014 Workshop and EGM (Warsaw) "> OARC Spring 2014 Workshop and EGM (Warsaw) </a></h2>
-     <div class="content">
-          <p>The agenda for DNS-OARC's 2014 Spring Workshop and Member EGM on the 10th and 11th May, in Warsaw, Poland is now available <a href="https://indico.dns-oarc.net//conferenceTimeTable.py?confId=19">here</a>.</p>
-<p>This will be held at the same location the subsequent <a href=http://ripe68.ripe.net">RIPE68</a> meeting, and we're grateful to Microsoft and Verisign for being our main sponsors for this workshop.</p>
-<p>Our talks include a study of Open Resolvers, on detection of Botnet Domains, and on connection-oriented improvements to DNS security. There's also a review of new IETF work on DNS privacy, and a survey of the Namecoin P2P DNS system. A big thank you to our speakers and programme committee for putting a packed agenda together.</p>
-  </div>
-    <div class="info">
-    Submitted by keith on Thu, 2014-04-17 23:54          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
-</ul> ]</span>
-              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/node/338" title="Read the rest of OARC Spring 2014 Workshop and EGM (Warsaw).">Read more</a></li>
-</ul> </span>
-      </div>
-</div>
 <div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
 <li class="pager-item"><a href="/node?page=1" title="Go to page 2" class="active">2</a></li>
 <li class="pager-item"><a href="/node?page=2" title="Go to page 3" class="active">3</a></li>
@@ -385,7 +382,6 @@ OARC President</p>
 <a href="http://www.nominum.com">Nominum</a><br/>
 <a href="http://www.norid.no/">Norid</a><br/>
 <a href="http://nzrs.net.nz/">NZRS</a><br/>
-<a href="http://www.orange.fr">Orange</a><br/>
 <a href="http://www.registry.si">Registry.si</a><br/>
 <a href="http://www.restena.lu">RESTENA</a><br/>
 <a href="http://www.bskyb.com">Sky</a><br/>

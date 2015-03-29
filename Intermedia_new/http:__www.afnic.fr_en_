@@ -78,12 +78,12 @@
     </div>
 </div>
           <div class="searchBox">
-    <form action="/en/search-result" method="get">
-      <input type="hidden" name="search[sort]" value="score" id="search_sort" />	    <input type="text" name="search[keyword]" id="search_keyword" />      <input type="submit" name="submit" value="Search" />
+    <form action="/fr/resultat-de-la-recherche" method="get">
+      <input type="hidden" name="search[sort]" value="score" id="search_sort" />	    <input type="text" name="search[keyword]" id="search_keyword" />      <input type="submit" name="submit" value="Rechercher" />
     </form>
 
     <div class="clear"></div>
-    <a href="/en/search">Advanced search</a>
+    <a href="/fr/recherche">Recherche avancée</a>
 </div>
         </div>
 
@@ -523,7 +523,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="3cf0c890bb2a45bfa4ed41956e4d8555" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="f7f2dad65a07cddcde08a65df575a888" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>

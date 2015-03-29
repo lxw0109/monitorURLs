@@ -123,12 +123,13 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
             <table width="100%" border="0" cellspacing="2" cellpadding="2">
               <tr>
                 <td bgcolor="#ccccff" valign="top" width="50%"><strong>News</strong></td>
-                <td colspan="2" valign="top" bgcolor="#ccccff"><strong>Next Meeting: <a href="meeting/92/index.html">IETF 92, Dallas, TX, USA</a></strong></td>
+                <td colspan="2" valign="top" bgcolor="#ccccff"><strong>Next Meeting: <a href="meeting/93/index.html">IETF 93, Prague, Czech Republic</a></strong></td>
               </tr>
               <tr>
                 <td height="241" valign="top"><a href="http://open-stand.org/"><img src="../images/openstand-md.png" width="66" height="108" border="0" align="left" hspace="20" alt="Open Stand" longdesc="http://open-stand.org/" />
                   </a>
                   <ul>
+                    <li><a href="media/iesg-iab-new.html">New Internet Engineering Steering Group and Internet Architecture Board Members Selected</a></li>
                     <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/-Pbg5JDZxohiJn3Tc5jzm6Dp26w">Contract Awards January 2015</a></li>
                     <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/4JneJ53BAXmPsJ-ac-enX1LAkjk">IETF 97 - Seoul, South Korea!</a></li>
                     <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/RQR6tw_7s-Z0n_LkZK45KRKJ_K0">IETF 98 - Montreal!</a></li>
@@ -140,27 +141,26 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
                     <li><a href="/blog/">Chair's Blog</a></li>
                     <li><a href="http://tools.ietf.org/dailydose/">IETF Daily Dose</a></li>
                 </ul></td>
-                <td valign="top"><p><a href="meeting/92/index.html">IETF 92, Dallas, TX USA</a> (UTC-5)</p>
+                <td valign="top"><p><a href="meeting/93/index.html">IETF 93, Prague, Czech Republic</a> (UTC +1)</p>
                   <table width="100%" height="117" border="0">
                     <tr valign="top">
                       <td width="80%" valign="top"><br />
                         <ul>
-                          <li><a href="meeting/register.html">Register</a></li>
-                          <li><a href="meeting/important-dates-2015.html#ietf92">Important Dates</a></li>
-                          <li><a href="https://datatracker.ietf.org/meeting/92/agenda.html">IETF 92  Agenda</a></li>
-                          <li><a href="https://datatracker.ietf.org/meeting/92/materials.html">Meeting Materials</a></li>
-                          <li><a href="meeting/92/hotel.html">Venue Information: The Fairmont Dallas</a></li>
-                          <li><a href="meeting/92/remote-participation.html">Remote Participation</a></li>
+                          <li><a href="meeting/important-dates-2015.html#ietf93">Important Dates</a></li>
+                          <li>IETF 93  Agenda</li>
+                          <li>Meeting Materials</li>
+                          <li>Venue Information: The Hilton Prague</li>
+                          <li>Remote Participation</li>
                       </ul></td>
                       <td width="20%" valign="top" nowrap="nowrap"><p><br />
-                          <img src="meeting/92/dallas2.jpg"/ alt="IETF 92" width="175" height="116" /><br />
+                          <img src="meeting/93/images/prague.jpg"/ alt="IETF 93" width="175" height="114" /><br />
                       </p></td>
                     </tr>
                 </table></td>
               </tr>
               <tr>
                 <td bgcolor="#ccccff"><strong>Email Archives </strong></td>
-                <td bgcolor="#ccccff"><strong>Recent Meeting: IETF 91, Honolulu, HI, USA</strong></td>
+                <td bgcolor="#ccccff"><strong>Recent Meeting: IETF 92, Dallas, TX, USA</strong></td>
               </tr>
               <tr>
                 <td rowspan="3" valign="top" bgcolor="#ffffff"><p style="margin-top: 0; margin-bottom: 0;">A new mail archive tool realizing the requirements developed in RFC 6778 is now in use:</p>
@@ -170,8 +170,8 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
                   <p> If you choose to log in, use your datatracker credentials.</p>
                 <p>(<a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/IqX-LAuvAmncjkYmoIB61T4e3C0%3D/">Read full announcement in the archives here</a>.)</p></td>
                 <td height="61" valign="top" bgcolor="#ffffff"><ul>
-                  <li><a href="meeting/91/index.html">IETF 91 Information</a></li>
-                  <li><a href="proceedings/91/index.html">IETF 91 Proceedings</a></li>
+                  <li><a href="meeting/92/index.html">IETF 92 Information</a></li>
+                  <li><a href="https://datatracker.ietf.org/meeting/92/materials.html">IETF 92 Proceedings</a></li>
                 </ul></td>
               </tr>
               <tr>

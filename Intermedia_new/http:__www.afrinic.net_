@@ -332,7 +332,7 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
       <!--Begin Banner Position-->
             <div class="banner-module">
         		<div class="moduletable">
-					<p><a href="http://afrinic.net/en/community/iana-oversight-transition" target="_self"><img style="margin: 0px; float: right;" alt="" src="/images/images/slides/attention_banner.svg" height="77" width="225" /></a></p>		</div>
+					<p><a href="http://afrinic.net/en/community/iana-oversight-transition" target="_blank"><img style="float: right;" alt="" src="http://afrinic.net/images/images/slides/attention_banner.svg" height="77" /></a><a href="http://www.internetsummitafrica.org" target="_blank"><img style="float: right;" alt="ais banner_1" src="/images/ais_banner_1.jpg" height="77" width="213" /></a></p>		</div>
 	
       </div>
             <!--End Banner Position-->
@@ -1178,24 +1178,24 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
         <div id="slider-container326" class="slider-container">
         	<ul id="slider326">
           		          			<li>
-            										<a  href="/en/library/news/1325" target="_self">
-													<img src="/images/stories/sl_call_for_presentations.jpg" alt="AIS'15 Call for Presentations is Open" />
+            										<a  href="/en/library/news/1347" target="_self">
+													<img src="/images/stories/sl_nominate_candidate1.jpg" alt="Nominate a Candidate for the NI&amp;I Service Award 2015" />
 													</a>
 												
 												
 						
 					</li>
                           			<li>
-            										<a  href="https://www.afrinic.net/images/stories/front_slide/number_crunch2.7.pdf" target="_blank">
-													<img src="/images/stories/slide_number_crunch.jpg" alt="Informing the Community with the Number Crunch" />
+            										<a  href="/en/library/news/1343" target="_self">
+													<img src="/images/stories/sl_registration_ais15_open.jpg" alt="Registration for AIS'15 is Open" />
 													</a>
 												
 												
 						
 					</li>
                           			<li>
-            										<a  href="http://learn.afrinic.net/index.php/en/events/request-for-training" target="_blank">
-													<img src="/images/stories/front_slide/slide_host_training.jpg" alt="2015 Training is Open" />
+            										<a  href="/en/library/news/1341" target="_self">
+													<img src="/images/stories/sl_call_for_fellowship_15.jpg" alt="Call for Fellowship for AIS'15  is Open" />
 													</a>
 												
 												
@@ -1204,14 +1204,6 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
                           			<li>
             										<a  href="http://www.fireafrica.org/awards" target="_blank">
 													<img src="/images/stories/sl_fire_feb2.jpg" alt="FIRE Programme 2015 - submit your project" />
-													</a>
-												
-												
-						
-					</li>
-                          			<li>
-            										<a  href="/en/services/afrinic-irr" target="_self">
-													<img src="/images/stories/afrinic_irr.jpg" alt="Call to populate AFRINIC's IRR" />
 													</a>
 												
 												
@@ -1227,7 +1219,6 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
         </div>
 		<div id="cust-navigation326" class="navigation-container-custom">
 							<span class="load-button load-button-active"></span>
-							<span class="load-button"></span>
 							<span class="load-button"></span>
 							<span class="load-button"></span>
 							<span class="load-button"></span>
@@ -1298,15 +1289,15 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <div id="qaccordion1" class="qaccordion">
      	 <h3 class="acc-header">Latest News</h3>
   	 <div class="acc-content">
-      <p>17 March </p>
-<p><a href="/en/library/news/1331-call-for-nominations-for-board-candidates">Call for nominations for Board Candidates</a></p>
-<p>10 March 2015</p>
-<p><span><a href="/en/library/news/1327-report-on-the-rpki-incident">Report on RPKI Inciden<span style="text-decoration: underline;">t</span></a></span></p>
+      <p>27 March 2015</p>
+<p><a href="/en/library/news/1351-announcement-alan-barrett-appointed-as-afrinic-ceo">AFRINIC Appoints New CEO</a></p>
+<p>27 March 2015</p>
+<p><a href="/en/library/news/1347-nominate-a-candidate-for-the-niai-service-award-2015">Nominate a Candidate for the NI&I Service Award 2015</a></p>
 <hr />
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt550eef1d17340rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt55174f91579fdrssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1320,8 +1311,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt550eef1d17340"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt550eef1d17340rssscroller_module", options);
+					instanceId : "pgt55174f91579fd"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt55174f91579fdrssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);

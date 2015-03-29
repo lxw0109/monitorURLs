@@ -11,7 +11,7 @@
 			// P2 Configuration
 			var ajaxUrl                 = "http://blog.dnspod.cn/wp-admin/admin-ajax.php?p2ajax=true";
 			var updateRate              = "30000"; // 30 seconds
-			var nonce                   = "598fa75389";
+			var nonce                   = "dd2cafa98b";
 			var login_url               = "http://blog.dnspod.cn/wp-login.php?redirect_to=http%3A%2F%2Fblog.dnspod.cn%2F";
 			var templateDir             = "http://blog.dnspod.cn/wp-content/themes/p2012";
 			var isFirstFrontPage        = 1;
@@ -28,7 +28,7 @@
 			var inlineEditComments      = 1;
 			var wpUrl                   = "http://blog.dnspod.cn";
 			var rssUrl                  = "";
-			var pageLoadTime            = "2015-03-22 16:31:41";
+			var pageLoadTime            = "2015-03-29 01:01:11";
 			var original_title          = document.title;
 			var commentsOnPost          = new Array;
 			var postsOnPage             = new Array;
@@ -66,7 +66,7 @@
 		//]]>
 		</script>
 		<script type="text/javascript">
-var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=f1dd4b151a"},"remote_auth":"W10= 8184aa8bf08722ec27108305d1e47e0a826c2a1b 1427041901"};
+var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=31ef5c5f94"},"remote_auth":"W10= 69d4c07b469f00f0ba1d231632cef76805ebca27 1427590871"};
 duoshuoQuery.sso.login += '&redirect_to=' + encodeURIComponent(window.location.href);
 duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.href);
 </script>
@@ -74,7 +74,7 @@ duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var userSettings = {"url":"\/","uid":"0","time":"1427041901"};
+var userSettings = {"url":"\/","uid":"0","time":"1427590871"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/utils.min.js?ver=3.7'></script>
@@ -142,7 +142,7 @@ try{convertEntities(p2txt);}catch(e){};;
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></li>
-<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1427041901739&f=1"></iframe></li>
+<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1427590872001&f=1"></iframe></li>
 <li id="categories-2" class="widget widget_categories"><h2 class="widgettitle">分类目录</h2>
 		<ul>
 	<li class="cat-item cat-item-1"><a href="http://blog.dnspod.cn/category/uncategorized/" title="查看 DNSPod动态 下的所有文章">DNSPod动态</a> (24)
@@ -274,7 +274,7 @@ if (typeof DUOSHUO !== 'undefined')
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://1.gravatar.com/avatar/17a5f489302305aa84be5e81c449c5ce?s=16&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.188881.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.188881.com']);"  rel='external nofollow' class='url'>18通讯网</a>, <img alt='' src='http://0.gravatar.com/avatar/84ab7a4b4dadd68abae85b6a9970a0d7?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> DNSPod, and <img alt='' src='http://0.gravatar.com/avatar/a937f72ddab021504b148a7d984bf4cb?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> D are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://1.gravatar.com/avatar/9d749f36eb5418e60e72441beebf2372?s=16&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> www.zhanad.com, <img alt='' src='http://1.gravatar.com/avatar/17a5f489302305aa84be5e81c449c5ce?s=16&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.188881.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.188881.com']);"  rel='external nofollow' class='url'>18通讯网</a>, <img alt='' src='http://0.gravatar.com/avatar/84ab7a4b4dadd68abae85b6a9970a0d7?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> DNSPod and one other person are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	
@@ -283,7 +283,7 @@ if (typeof DUOSHUO !== 'undefined')
 	
 
 <ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2015/03/shujukuweihu/#comments" title="《[通知]数据库维护》上的评论"><span class="ds-thread-count" data-thread-key="5003" data-replace="1">3 条评论</span></a></ul>
+	<a href="http://blog.dnspod.cn/2015/03/shujukuweihu/#comments" title="《[通知]数据库维护》上的评论"><span class="ds-thread-count" data-thread-key="5003" data-replace="1">4 条评论</span></a></ul>
 
 			<div class="respond-wrap" style="display: none; ">
 												<div id="respond" class="comment-respond">
@@ -297,7 +297,7 @@ if (typeof DUOSHUO !== 'undefined')
 							<input type='hidden' name='comment_post_ID' value='5003' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
 						</p>
-						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="d03a29553c" /></p>					</form>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="f894b58e5a" /></p>					</form>
 							</div><!-- #respond -->
 				<script type="text/javascript">
 		jQuery(document).ready(function () {
@@ -412,7 +412,7 @@ f1g1ns2.dnspod.net  122.225.217.191</p>
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://0.gravatar.com/avatar/0f8438d846a216ffd34ed94922bc05c4?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://17975179.cn/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://17975179.cn']);"  rel='external nofollow' class='url'>大学没上过岁数很年轻非得叫老武</a>, <img alt='' src='http://1.gravatar.com/avatar/1beabf2c0b08f31ad5a2f31b29d13848?s=16&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> 海马, <img alt='' src='http://0.gravatar.com/avatar/a41ffcafe8837a5a23b4a02faab27561?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> Fish and 5 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://1.gravatar.com/avatar/9d749f36eb5418e60e72441beebf2372?s=16&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> www.zhanad.com, <img alt='' src='http://0.gravatar.com/avatar/0f8438d846a216ffd34ed94922bc05c4?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://17975179.cn/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://17975179.cn']);"  rel='external nofollow' class='url'>大学没上过岁数很年轻非得叫老武</a>, <img alt='' src='http://1.gravatar.com/avatar/1beabf2c0b08f31ad5a2f31b29d13848?s=16&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> 海马 and 6 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	
@@ -421,7 +421,7 @@ f1g1ns2.dnspod.net  122.225.217.191</p>
 	
 
 <ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2015/01/mianfeifuwuqi/#comments" title="《[通知]免费服务器IP更新、升级 更新》上的评论"><span class="ds-thread-count" data-thread-key="4979" data-replace="1">13 条评论</span></a></ul>
+	<a href="http://blog.dnspod.cn/2015/01/mianfeifuwuqi/#comments" title="《[通知]免费服务器IP更新、升级 更新》上的评论"><span class="ds-thread-count" data-thread-key="4979" data-replace="1">14 条评论</span></a></ul>
 
 </li>
 				    		<li id="prologue-4952" class="post-4952 post type-post status-publish format-standard hentry category-uncategorized category-culture category-announcement category-notice tag-dnspod tag-379 tag-359">
@@ -507,7 +507,7 @@ f1g1ns2.dnspod.net  122.225.217.191</p>
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://0.gravatar.com/avatar/8fb54fdadb20a832c79f680162edd502?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> dreaminlake.com, <img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=16' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://t.qq.com/q258456951753" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://t.qq.com']);"  rel='external nofollow' class='url'>ererwerer</a>, <img alt='' src='http://0.gravatar.com/avatar/84ab7a4b4dadd68abae85b6a9970a0d7?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> DNSPod and 5 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://1.gravatar.com/avatar/d67fb54e9d3673613b9fcf015a15a6d6?s=16&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> 隔壁老王, <img alt='' src='http://0.gravatar.com/avatar/8fb54fdadb20a832c79f680162edd502?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> dreaminlake.com, <img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=16' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://t.qq.com/q258456951753" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://t.qq.com']);"  rel='external nofollow' class='url'>ererwerer</a> and 6 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	
@@ -516,7 +516,7 @@ f1g1ns2.dnspod.net  122.225.217.191</p>
 	
 
 <ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2014/12/tuanjian/#comments" title="《[通知]公司团建通知》上的评论"><span class="ds-thread-count" data-thread-key="4946" data-replace="1">10 条评论</span></a></ul>
+	<a href="http://blog.dnspod.cn/2014/12/tuanjian/#comments" title="《[通知]公司团建通知》上的评论"><span class="ds-thread-count" data-thread-key="4946" data-replace="1">11 条评论</span></a></ul>
 
 </li>
 				    		<li id="prologue-4936" class="post-4936 post type-post status-publish format-standard hentry category-uncategorized category-culture category-notice tag-dnspod tag-377 tag-139">

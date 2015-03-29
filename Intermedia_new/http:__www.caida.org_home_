@@ -366,10 +366,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="/research/topology/hiddenmetricspaces/"><img title="We explore common properties of complex networks in order to find a general mechanism that would support a structural model of the network explaining the connection between network structure and function. Our proposed mechanism relies on the presence of a metric space hidden behind an observable network, referred to as the Hidden Metric Space (HMS). " alt="" height="250" width="300" src="/images/hiddenmetricspace_med.png"></a>
+<a href="http://as-rank.caida.org/"><img title="We present the BETA version of AS Rank, CAIDA's ranking of Autonomous Systems (AS) (which approximately map to Internet Service Providers). This ranking is derived from topological data collected by CAIDA's Archipelago Measurement Infrastructure and Border Gateway Protocol (BGP) routing data collected by the Route Views Project and RIPE NCC. ASes are ranked by their customer cone size, which is the number of their direct and indirect customers. Note: We do not have data to rank ASes (ISPs) by traffic, revenue, users, or any other non-topological metric. " alt="" height="250" width="300" src="/images/asrank-relationshipgraph_300h250.png"></a>
 </div>
 <div class="captiontext">
-<a href="/research/topology/hiddenmetricspaces/">Hidden Metric Spaces</a>
+<a href="http://as-rank.caida.org/">AS Rank: Ranking of Autonomous Systems</a>
 </div>
 <hr>
 <div class="captiontext">
@@ -406,12 +406,35 @@ padding: 0px 8px 2px 12px;
 <div id="feedtablegroup">
 <div class="column">
 <div class="columnheader">
+<span class="headertext">UPCOMING</span>
+</div>
+<div class="messageareas">
+<b class="rc0"></b><b class="rc1"></b><b class="rc2"></b><b class="rc3"></b>
+<div class="rccontent">
+<table summary="CAIDA What's New feed: Upcoming Events" class="feedtable">
+<tr>
+<td><a href="http://www.caida.org/workshops/aims/1503/" title="On March 31, 2015, CAIDA will host the 7th workshop on Active Internet Measurements, a three-day workshop supporting science and policy.
+
+AIMS 2015 is by invitation only.
+    ">AIMS 2015 Workshop on Active Internet Measurements</a></td><td><span style="white-space:nowrap;">Mar 31-Apr 2</span></td>
+</tr>
+</table>
+</div>
+<b class="rc3"></b><b class="rc2"></b><b class="rc1"></b><b class="rc0"></b>
+</div>
+<div class="columnheader">
 <span class="headertext headerlink"><a href="archived-news.xml">NEW</a></span>
 </div>
 <div class="messageareas">
 <b class="rc0"></b><b class="rc1"></b><b class="rc2"></b><b class="rc3"></b>
 <div class="rccontent">
 <table summary="CAIDA What's New main feed" class="feedtable">
+<tr>
+<td><a href="http://www.caida.org/publications/presentations/2015/ipv6_as_relationships_pam/" title="This slideset was presented at the Passive and Active Network Measurement Workshop (PAM) in March 2015.">"IPv6 AS Relationships, Clique, and Congruence" slideset</a></td><td>Mar&nbsp;26</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://www.caida.org/publications/presentations/2015/measuring_characterizing_ipv6_router_pam/" title="This slideset was presented at the  Passive and Active Network Measurement Workshop (PAM) in March 2015.">"Measuring and Characterizing IPv6 Router Availability" slideset</a></td><td>Mar&nbsp;25</td>
+</tr>
 <tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/mapping_technological_frontier_siliconflatirons/" title="This slideset was presented at the Silicon Flatirons Center meeting in February 2015.">"Mapping the Technological Frontier and Sources of Innovation" slideset</a></td><td>Feb&nbsp;11</td>
 </tr>
@@ -462,15 +485,6 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 <tr>
 <td><a href="http://imdc.datcat.org/" title="The DatCat catalog indexes Internet measurement data.  The new version makes it easier than ever to find Collections of relevant data and get right to downloading them. Learn more at imdc.datcat.org/">DatCat 3.0 released</a></td><td>Aug&nbsp;19</td>
 </tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/data/as-organizations" title="
-The AS to Organization Mapping Dataset contains the results of applying CAIDAs method to map Autonomous Systems (AS) to organizations to our quarterly bulk dumps of WHOIS databases from the five Regional Internet Registries, ARIN, LACNIC, RIPE AFRINIC and APNIC, and two National Internet Registries, KRNIC and JPNIC. 
-
-These data are available as a public dataset.">CAIDA "Inferred AS to Organization Mapping Dataset" available</a></td><td>Aug&nbsp;3</td>
-</tr>
-<tr>
-<td><a href="http://www.caida.org/home/about/progplan/progplan2014/" title="A summary of research goals and plans for CAIDA, for the period from July 2014 to December 2017. Also, we are taking this opportunity of reflection and strategic planning to change the expansion of CAIDA's acronym to more accurately match what we do. Effective this month we will be the Center for Applied Internet Data Analysis.">CAIDA Program Plan and CAIDA name change</a></td><td>Jul&nbsp;14</td>
-</tr>
 </table>
 </div>
 <b class="rc3"></b><b class="rc2"></b><b class="rc1"></b><b class="rc0"></b>
@@ -516,6 +530,12 @@ These data are available as a public dataset.">CAIDA "Inferred AS to Organizatio
 <div class="rccontent">
 <table summary="CAIDA What's New feed: New Papers" class="feedtable">
 <tr>
+<td><a href="http://www.caida.org/publications/papers/2015/measuring_characterizing_ipv6_router/" title="R. Beverly, M. Luckie, L. Mosley, and k. claffy, &quot;Measuring and Characterizing IPv6 Router Availability&quot;, in Passive and Active Network Measurement Workshop (PAM), Mar 2015, pp. 123--135.">Measuring and Characterizing IPv6 Router Availability</a></td><td>Mar&nbsp;24</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://www.caida.org/publications/papers/2015/ipv6_as_relationships/" title="V. Giotsas, M. Luckie, B. Huffaker, and k. claffy, &quot;IPv6 AS Relationships, Clique, and Congruence&quot;, in Passive and Active Network Measurement Workshop (PAM), Mar 2015, pp. 111--122.">IPv6 AS Relationships, Clique, and Congruence</a></td><td>Mar&nbsp;24</td>
+</tr>
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/how_to_throw_the_race/" title="E. Kenneally, &quot;How to Throw the Race to the Bottom: Revisiting Signals for Ethical and Legal Research Using Online Data&quot;, ACM SIGCAS Computers and Society, Feb 2015.">How to Throw the Race to the Bottom: Revisiting Signals for Ethical and Legal Research Using Online Data</a></td><td>Jan&nbsp;30</td>
 </tr>
 <tr class="zebra">
@@ -541,12 +561,6 @@ These data are available as a public dataset.">CAIDA "Inferred AS to Organizatio
 </tr>
 <tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2014/approaches_to_transparency_aimed/" title="D. Clark, S. Bauer, and k. claffy, &quot;Approaches to transparency aimed at minimizing harm and maximizing investment&quot;, Federal Communications Commission (FCC) Commission Documents, Sep 2014. Comment In the Matter of Protecting and Promoting the Open Internet, GN Docket No. 14-28.">Approaches to transparency aimed at minimizing harm and maximizing investment</a></td><td>Sep&nbsp;19</td>
-</tr>
-<tr>
-<td><a href="http://www.caida.org/publications/papers/2014/anchoring_policy_development_ict" title="In submission to Telecommunications Policy journal. D. Clark and k. claffy, &quot;Anchoring policy development around stable points: an approach to regulating the co-evolving ICT ecosystem&quot;, Telecommunications Policy, 2014.">Anchoring policy development around stable points: an approach to regulating the co-evolving ICT ecosystem</a></td><td>Sep&nbsp;19</td>
-</tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/papers/2014/platform_models_sustainable_regulation" title="To appear in a future publication of Journal of Information Policy. k. claffy and D. Clark, &quot;Platform Models for Sustainable Internet Regulation&quot;, Journal of Information Policy, 2014.">Platform Models for Sustainable Internet Regulation</a></td><td>Sep&nbsp;19</td>
 </tr>
 </table>
 </div>

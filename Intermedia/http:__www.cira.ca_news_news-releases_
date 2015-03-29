@@ -1,731 +1,646 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en-CA" class="ie6 no-js"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en-CA" class="ie7 no-js"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en-CA" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en-CA" class="ie9 no-js"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--><html lang="en-CA" class="no-js"><!--<![endif]-->
-    <head>
-        <base href="http://www.cira.ca/"><!--[if lte IE 6]></base><![endif]-->
-        <title>News Releases</title>
-        <meta name="generator" content="SilverStripe - http://silverstripe.org" />
-<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-<link rel="alternate" type="text/html" title="Communiqués de presse" hreflang="fr-FR" href="/nouvelles/communiques-de-presse/" />
+<!--[if lt IE 9]><html lang="en" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" >
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://cira.ca/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="dcterms.language" title="ISO639-2" content="eng" />
+<meta name="dcterms.subject" title="gccore" content="none" />
+<meta name="dcterms.title" content="Newsroom" />
+<noscript><link rel="stylesheet" href="/profiles/wetkit/libraries/wet-boew/css/noscript.css" /></noscript>
+  <title>Newsroom | Canadian Internet Registration Authority (CIRA)</title>
+  <style>
+@import url("http://cira.ca/modules/system/system.base.css?nltpki");
+</style>
+<style>
+@import url("http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.tabs.min.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.accordion.min.css?nltpki");
+</style>
+<style>
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/css/wetkit-featured.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/css/wetkit-accordian.css?nltpki");
+@import url("http://cira.ca/sites/all/modules/custom/cira_layouts/css/cira_layouts.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/contrib/date/date_api/date.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/contrib/date/date_popup/themes/datepicker.1.7.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/contrib/environment_indicator/environment_indicator.css?nltpki");
+@import url("http://cira.ca/modules/field/theme/field.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/contrib/picture/picture_wysiwyg.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_admin/wetkit-admin.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_emberx/css/ember-ctools.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_emberx/css/ember-media.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_emberx/css/ember-modal.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_emberx/css/ember-panels-ipe.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_layouts/css/layouts.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_admin/modules/wetkit_navbar/css/wetkit-navbar.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_widgets/css/wetkit_widgets.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_wysiwyg/css/wetkit-wysiwyg.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/contrib/views/css/views.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/css/wetkit.css?nltpki");
+</style>
 
+<!--[if gte IE 9]><!-->
+<style>
+@import url("http://cira.ca/profiles/wetkit/libraries/wet-boew/css/wet-boew.min.css?nltpki");
+</style>
+<!--<![endif]-->
+<style>
+@import url("http://cira.ca/profiles/wetkit/libraries/wet-boew/css/theme.min.css?nltpki");
+</style>
 
-        <meta property="fb:app_id" content="207697859395442" />
-        <meta property="og:site_name" content="Canadian Internet Registration Authority (CIRA)" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="http://cira.ca/assets/fb-logo.jpg" />
-        <meta property="og:url" content="http://cira.ca" />
-        <meta property="og:title" content="Canadian Internet Registration Authority (CIRA)" />
-        <meta property="og:description" content="The Canadian Internet Registration Authority (CIRA) is the organization that manages the .CA domain space on behalf of all Canadians." />
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://cira.ca/profiles/wetkit/libraries/wet-boew/css/ie8-wet-boew.min.css?nltpki" media="all" />
+<![endif]-->
+<style>
+@import url("http://cira.ca/profiles/wetkit/modules/contrib/ctools/css/ctools.css?nltpki");
+@import url("http://cira.ca/sites/all/libraries/fontawesome/css/font-awesome.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/contrib/panels/css/panels.css?nltpki");
+@import url("http://cira.ca/sites/all/modules/custom/cira_layouts/plugins/layouts/cira_75_25/cira-75-25.css?nltpki");
+@import url("http://cira.ca/sites/all/modules/custom/cira_layouts/plugins/layouts/cira_50_50/cira-50-50.css?nltpki");
+@import url("http://cira.ca/sites/all/modules/custom/cira_layouts/plugins/layouts/cira_66_33/cira-66-33.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/contrib/custom_search/custom_search.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_bootstrapx/css/horizontal_tabs.css?nltpki");
+</style>
+<style>
+@import url("http://cira.ca/profiles/wetkit/themes/bootstrap/css/overrides.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/themes/wetkit_bootstrap/css/wetkit_bootstrap.styles.css?nltpki");
+@import url("http://cira.ca/sites/all/themes/cira_bootstrap/css/init.css?nltpki");
+@import url("http://cira.ca/sites/all/themes/cira_bootstrap/css/virtual-keyboard.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_bean/css/wetkit_bean.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_core/css/wetkit_core.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_menu/css/wetkit_menu.css?nltpki");
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_wetboew/css/wetkit_wetboew.css?nltpki");
+</style>
+<style>
+@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_images/css/wetkit_images.css?nltpki");
+</style>
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2"></script>
+<script src="http://cira.ca/misc/jquery.once.js?v=1.2"></script>
+<script src="http://cira.ca/misc/drupal.js?nltpki"></script>
 
-
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="description" content="" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Bing validate -->
-        <meta name="msvalidate.01" content="F20ABAE60CCFCD4D5A27FF957DEA8511" />
-        
-        <link rel="shortcut icon" href="favicon.ico" />
-        <script type="text/javascript" src="themes/cira/javascript/modernizr-1.6.min.js"></script>
-        <link rel="stylesheet" media="print" href="themes/cira/css/print.css" />
-        <script>
-            var WorkSpace = {
-                Locale : 'en_US',
-                AjaxUrl: 'http://www.cira.ca/',
-                Page: 'news-releases',
-                Environment: 'live'
-            }
-        </script>
-        <link rel="stylesheet" href="themes/cira/css/virtual-keyboard/jquery.virtual-keyboard.css" />
-
-        <script type="text/javascript" src="js/common/jquery.min.js"></script>
-        <script src="js/common/all.min.js"></script>
-
-        <!-- asynchronous google analytics -->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-11124418-15']);
-  _gaq.push(['_setDomainName', 'cira.ca']);
-  _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-  _gaq.push(['_trackEvent', "Page Event", "Hit" ,"news-releases"]);
-
-</script>
-
-<link rel="stylesheet" type="text/css" href="http://www.cira.ca/themes/cira/css/main.css?m=1404927061" />
-<link rel="alternate" type="application/rss+xml" title="" href="/rss/news/all?locale=en_US" />
+<!--[if lt IE 9]>
+<script src="http://cira.ca/profiles/wetkit/libraries/wet-boew/js/ie8-wet-boew.min.js?v=4.0.10"></script>
+<![endif]-->
+<script src="http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.10.2"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.tabs.min.js?v=1.10.2"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.accordion.min.js?v=1.10.2"></script>
+<script>document.createElement( "picture" );</script>
+<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/js/wetkit-accordion.js?nltpki"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/contrib/environment_indicator/tinycon.min.js?nltpki"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/contrib/environment_indicator/environment_indicator.js?nltpki"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/contrib/environment_indicator/color.js?nltpki"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_admin/wetkit-admin.js?nltpki"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_bootstrapx/js/alert.js?nltpki"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_bootstrapx/js/collapse.js?nltpki"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_bootstrapx/js/tooltip.js?nltpki"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_bootstrapx/js/vertical_tabs.js?nltpki"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_widgets/js/wetkit_widgets.js?nltpki"></script>
+<script src="http://cira.ca/profiles/wetkit/libraries/jstorage/jstorage.min.js?nltpki"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/contrib/custom_search/js/custom_search.js?nltpki"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_bean/js/wetkit_bean.js?nltpki"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_admin/modules/wetkit_navbar/js/wetkit-navbar.js?nltpki"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-11124418-15", {"cookieDomain":"auto"});ga("require", "linkid", "linkid.js");ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_bootstrapx/js/horizontal_tabs.js?nltpki"></script>
+<script src="http://cira.ca/sites/all/themes/cira_bootstrap/js/min/init.min.js?nltpki"></script>
+<script src="http://cira.ca/sites/all/themes/cira_bootstrap/js/min/init2.min.js?nltpki"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cira_bootstrap","theme_token":"Zv8ewYreYr-9h2vrmJzuIiPLu7VXpKU-wdDDchI-P4M","js":{"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"0":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/js\/wetkit-accordion.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/tinycon.min.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/environment_indicator.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/color.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/alert.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/collapse.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/tooltip.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/vertical_tabs.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_widgets\/js\/wetkit_widgets.js":1,"profiles\/wetkit\/libraries\/jstorage\/jstorage.min.js":1,"profiles\/wetkit\/modules\/contrib\/custom_search\/js\/custom_search.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/horizontal_tabs.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_bean\/js\/wetkit_bean.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/js\/wetkit-navbar.js":1,"1":1,"sites\/all\/themes\/cira_bootstrap\/js\/min\/init.min.js":1,"sites\/all\/themes\/cira_bootstrap\/js\/min\/init2.min.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/wet-boew.min.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew2.min.js":1,"profiles\/wetkit\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"profiles\/wetkit\/modules\/contrib\/picture\/picture.min.js":1,"profiles\/wetkit\/themes\/bootstrap\/js\/bootstrap.js":1,"2":1,"3":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-featured.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-accordian.css":1,"sites\/all\/modules\/custom\/cira_layouts\/css\/cira_layouts.css":1,"profiles\/wetkit\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/wetkit\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/environment_indicator.css":1,"modules\/field\/theme\/field.css":1,"profiles\/wetkit\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-ctools.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-media.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-modal.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-panels-ipe.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_layouts\/css\/layouts.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/css\/wetkit-navbar.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_widgets\/css\/wetkit_widgets.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_wysiwyg\/css\/wetkit-wysiwyg.css":1,"profiles\/wetkit\/modules\/contrib\/views\/css\/views.css":1,"profiles\/wetkit\/css\/wetkit.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/wet-boew.min.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/theme.min.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/ie8-wet-boew.min.css":1,"profiles\/wetkit\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"profiles\/wetkit\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_75_25\/cira-75-25.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_50_50\/cira-50-50.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_66_33\/cira-66-33.css":1,"profiles\/wetkit\/modules\/contrib\/custom_search\/custom_search.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/css\/horizontal_tabs.css":1,"profiles\/wetkit\/themes\/bootstrap\/css\/overrides.css":1,"profiles\/wetkit\/themes\/wetkit_bootstrap\/css\/wetkit_bootstrap.styles.css":1,"sites\/all\/themes\/cira_bootstrap\/css\/init.css":1,"sites\/all\/themes\/cira_bootstrap\/css\/virtual-keyboard.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_bean\/css\/wetkit_bean.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_core\/css\/wetkit_core.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_menu\/css\/wetkit_menu.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_search\/css\/wetkit_search.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_wetboew\/css\/wetkit_wetboew.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_images\/css\/wetkit_images.css":1}},"admin_menu":{"suppress":1},"custom_search":{"form_target":"_self","solr":1},"currentPath":"news\/news-releases","currentPathIsAdmin":false,"bootstrap":{"anchorsFix":0,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
 </head>
+<body class="html not-front not-logged-in no-sidebars page-news page-news-news-releases news-landing i18n-en cira-bootstrap wet-boew" >
+  <ul id="wb-tphp">
+          </ul>
+    <header id="navbar" role="banner" class=" ">
+  <div id="wb-bnr">
+    <div id="wb-bar">
+      <div class="container">
+        <div class="row">
+          <section id="wb-lng" class="visible-md visible-lg">
+            <ul class="text-right"><li id="wet-fullhd-lang"><a href="http://acei.ca/news/news-releases" class="link" hreflang="fr" lang="fr">Français</a></li></ul>          </section>
+          <section class="wb-mb-links col-xs-12 visible-sm visible-xs" id="wb-glb-mn">
+            <h2>Search and menus</h2>
+            <ul class="pnl-btn list-inline text-right">
+              <li>
+                <a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk btn btn-xs btn-default" role="button">
+                  <span class="glyphicon glyphicon-search">
+                    <span class="glyphicon glyphicon-th-list">
+                      <span class="wb-inv">Search and menus</span>
+                    </span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <div id="mb-pnl"></div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div id="wb-sttl" class="col-md-4">
+          <a href="#" id="menutoggle" class="visible-xs visible-sm"><img src="/sites/all/themes/cira_bootstrap/img/menutoggle.png"></a>
+                      <a class="logo" href="/home">
+                         
+                <img alt="CIRA Logo" src="/sites/all/themes/cira_bootstrap/img/logo.png"  />
+                                        </a>
+                  </div>
+        <section id="wb-srch" class="col-md-8 visible-md visible-lg">
+          <div class="fl_right">
 
-    <body class="en content col2" id="news-releases">
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=207697859395442";
-        fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-        <!--<script>
-          var el = document.getElementsByTagName("html")[0];
-          el.className = "";
-        </script>-->
-        <a class="visuallyhidden" href="/news/news-releases/#content-anchor">Skip to Content</a>
-        
 
+                 
+            <a onmouseover="top.status='Chat with a company representative';return true;" onmouseout="top.status=''; return true;" onmousedown="top.status='Chat with a company representative';return true;" href="javascript: var e = window.open('http://livechat.cira.ca/cira/SightMaxAgentInterface/PreChatSurvey.aspx?accountID=19&amp;siteID=24&amp;queueID=55',&#10;    'chatWindow','width=490,height=404,resizable=0,scrollbars=no,menubar=no,status=no');">
+              <img id="live-chat-btn" alt="Chat" src="http://livechat.cira.ca/cira/SightMaxAgentInterface/chat.smgif?accountID=19&amp;siteID=24&amp;queueID=55" border="0">
+            </a>
+            <a class="btn btn-grey blog-btn" target="_blank" href="/blogs"><i class="fa fa-pencil-square-o"></i>BLOGS</a>         
+                        
 
-<div id="header" class="wrapper clearfix">
-  <em id="cira-fulltext"><a href="http://cira.ca" title="Canadian Internet Registration Authority">Canadian Internet Registration Authority</a></em>
-  <a id="logo" href="home" title=".CA Canadians Connected"><img src="themes/cira/images/logo-en.png" width="254" height="54" alt=".CA Canadians Connected"/></a>
-
-  <div id="umbrella">
-    <ul>
-      <li class="first">
-        <ul>
-          <li class="border"><a class="sm-twitter sm-sml" href="http://twitter.com/ciranews" title="Twitter">Twitter</a></li>
-          <li><a class="sm-facebook sm-sml" href="http://www.facebook.com/pages/Ottawa-ON/Canadian-Internet-Registration-Authority/163277507959?ref=ts" title="Facebook">Facebook</a>
-          </li>
-          <li><a class="sm-linkedin sm-sml" href="http://www.linkedin.com/groups?gid=2456714&trk=hb_side_g" title="LinkedIn">LinkedIn</a></li>
-          <li><a class="sm-youtube sm-sml" href="http://www.youtube.com/ciranews" title="YouTube">YouTube</a></li>
-          <li><a class="sm-slideshare sm-sml" href="http://www.slideshare.net/ciranews" title="Slidshare">SlideShare</a></li>
-        </ul>
-      </li>
-      <li><a href="about-cira/corporate-contact/" title="Contact Us">Contact Us</a></li>
-      <li><a href="/news/news-releases/?locale=fr_FR" title="Fran&ccedil;ais" lang="fr-CA">Fran&ccedil;ais</a></li>
-    </ul>
-
-    <div id="header-search">
-      <form action="http://whois.cira.ca/public" method="POST">
-        <label class="visuallyhidden" for="domain">WHOIS Lookup</label>
-        <span class="input-wrapper-for-keyboard">
-        	<input type="text" class="text" name="domain" id="domain" placeholder="WHOIS Search"/>
-        </span>
-        <input type="submit" value="Search" class="search-submit-btn" onClick="trackEvent('Whois_Header', 'Search', jQuery('#header-search #domain').val())"/>
-      </form>
+          <!-- <a class="btn btn-grey livechat" href="javascript: var e = window.open('http://livechat.cira.ca/cira/SightMaxAgentInterface/PreChatSurvey.aspx?accountID=19&siteID=24&queueID=55',
+    'chatWindow','width=490,height=404,resizable=0,scrollbars=no,menubar=no,status=no');" onmouseout="top.status=''; return true;" onmousedown="top.status='Chat with a company representative';return true;" onmouseover="top.status='Chat with a company representative';return true;">LIVE CHAT</a> -->
+          
+          <h2>Search</h2>
+                      <form class="search-form form-inline" role="search" action="/news/news-releases/" method="post" id="search-form" accept-charset="UTF-8"><div><div class="form-type-textfield form-item-custom-search-blocks-form-1 form-item form-group">
+  <label class="element-invisible" for="wb-srch-q">Search this site </label>
+ <input title="Enter the terms you wish to search for." class="custom-search-box form-control form-text" placeholder="" data-toggle="tooltip" type="search" id="wb-srch-q" name="custom_search_blocks_form_1" value="" size="27" maxlength="150" />
+</div>
+<input type="hidden" name="delta" value="1" />
+<input type="hidden" name="form_build_id" value="form-k3e7tTc20woZnJGu8m-kyMUVgK1HM9P3S2A0OhdQU18" />
+<input type="hidden" name="form_id" value="custom_search_blocks_form_1" />
+<input type="hidden" name="custom_search_paths" value="search/site/[key]" />
+<button data-icon="search" value="search" id="wb-srch-sub" name="op" type="submit" class="btn btn-default form-submit">Search</button>
+</div></form>                    </div>
+        </section>
+      </div>
     </div>
   </div>
+  <nav role="navigation" id="wb-sm" class="wb-menu visible-md visible-lg" data-trgt="mb-pnl">
+    <div class="pnl-strt container visible-md visible-lg nvbar">
+      <h2>Topics menu</h2>
+      <div class="menurow">
+        <ul class="list-inline menu" role="menubar"><li class="first expanded menu-mlid-1327 dropdown"><a href="/ca-domain-names" data-target="#" class="item" data-toggle="dropdown">.CA Domains</a><ul class="sm list-unstyled" role="menu"><li class="slflnk"><a href="/ca-domain-names">.CA Domains</a></li><li class="first leaf menu-mlid-1447"><a href="/register-domain-name">Register a Domain</a></li>
+<li class="leaf menu-mlid-3002"><a href="/content/manage-your-ca">Manage your .CA</a></li>
+<li class="leaf menu-mlid-3004"><a href="/content/enhancing-ca-security">Enhancing .CA Security</a></li>
+<li class="last leaf menu-mlid-3003"><a href="/content/register-ca-french">Register a .CA in French</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1366 dropdown"><a href="/products-services" data-target="#" class="item" data-toggle="dropdown">Products and Services</a><ul class="sm list-unstyled" role="menu"><li class="slflnk"><a href="/products-services">Products and Services</a></li><li class="first expanded menu-mlid-1454"><a href="/d-zone">D-Zone Anycast DNS</a></li>
+<li class="last leaf menu-mlid-2844"><a href="/domain_security">Domain Security</a></li>
+</ul></li>
+<li class="expanded active-trail menu-mlid-1367 dropdown"><a href="/about-us" class="active-trail item" data-target="#" data-toggle="dropdown">About Us</a><ul class="sm list-unstyled" role="menu"><li class="slflnk"><a href="/about-us" class="active-trail">About Us</a></li><li class="first expanded menu-mlid-2843"><a href="/membership">Membership</a></li>
+<li class="leaf active-trail menu-mlid-1459"><a href="/news" class="active-trail active">News</a></li>
+<li class="leaf menu-mlid-1460"><a href="/board">Board of Directors</a></li>
+<li class="leaf menu-mlid-3005"><a href="/content/ca-senior-leadership-team">Team .CA</a></li>
+<li class="last leaf menu-mlid-1463"><a href="/careers">Careers</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-1368 dropdown"><a href="/csr" data-target="#" class="item" data-toggle="dropdown">Corporate Social Responsibility</a><ul class="sm list-unstyled" role="menu"><li class="slflnk"><a href="/csr">Corporate Social Responsibility</a></li><li class="first leaf menu-mlid-1483"><a href="/cip">Community Investment Program</a></li>
+<li class="leaf menu-mlid-1484"><a href="/cif">Canadian Internet Forum</a></li>
+<li class="last leaf menu-mlid-1485"><a href="/soi">State of the Internet</a></li>
+</ul></li>
+</ul>        <!-- <ul class="menu nav navbar-nav secondary"><li class="first last leaf"><a href="/user/login">Log in</a></li>
+</ul> -->
+      </div>
+    </div>
+  </nav>
+  <div class="mobilemenuwrapper visible-xs visible-sm">
+    <div class="container">
+      <div class="wrapper"></div>
+    </div>
+  </div>
+  </header><main role="main" class="container">
+  <!-- <nav role="navigation" id="wb-bc" property="breadcrumb">
+    <div class="container">
+      <div class="row">
+        <div class="item-list"><ol class="breadcrumb"><li><a href="/">Home</a></li>
+<li><a href="/about-us">About CIRA</a></li>
+</ol></div>      </div>
+    </div>
+  </nav> -->
+    <section>
+                    <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
 
-  
-  <ul id="top-menu">
-    
-        
-        <li class="first">
-            <a href="/ca-websites/" title=".CA Websites"  class=" ca-websites"> .CA Websites</a>
-
-            
-            <ul class="top-submenu">
-                
-
-                <li class="first"><a href="/ca-websites/benefits/" title="Benefits of a .CA domain name" >Benefits of a .CA domain name</a></li>
-                
-
-                <li><a href="/ca-websites/how-to-register-a-domain-name/" title="How to register a domain name" >How to register a domain name</a></li>
-                
-
-                <li><a href="/ca-websites/enhancing-the-security-of-ca/" title="Enhancing the Security of .CA" >Enhancing the Security of .CA</a></li>
-                
-
-                <li><a href="/ca-websites/manage-your-ca/" title="Manage your .CA " >Manage your .CA </a></li>
-                
-
-                <li><a href="/ca-websites/101/" title="Website 101" >Website 101</a></li>
-                
-
-                <li><a href="http://www.wherelocalmeansbusiness.ca" title="Tips for online success"  target="_blank">Tips for online success</a></li>
-                
-
-                <li class="last"><a href="/ca-websites/ca-support/" title=".CA Support" >.CA Support</a></li>
-                
-            </ul>
-            
-
-        </li>
-        
-    
-        
-        <li>
-            <a href="http://cira.ca/marketplace" title=".CA MarketPlace"  target="_blank" class=" marketplace"> .CA MarketPlace</a>
-
-            
-
-        </li>
-        
-    
-        
-    
-        
-    
-        
-        <li>
-            <a href="/membership/" title="Membership"  class=" membership"> Membership</a>
-
-            
-            <ul class="top-submenu">
-                
-
-                <li class="first"><a href="/membership/memberevents/" title="Member Events" >Member Events</a></li>
-                
-            </ul>
-            
-
-        </li>
-        
-    
-        
-        <li>
-            <a href="/news/" title="CIRA News"  class="current news"> CIRA News</a>
-
-            
-            <ul class="top-submenu">
-                
-
-                <li class="first"><a href="/news/news-releases/" title="News Releases" >News Releases</a></li>
-                
-
-                <li><a href="/news/Announcements/" title="Announcements" >Announcements</a></li>
-                
-
-                <li><a href="/news/cira-in-the-news/" title="CIRA in the News" >CIRA in the News</a></li>
-                
-
-                <li><a href="/news/media-kit/" title="Media Kit" >Media Kit</a></li>
-                
-
-                <li class="last"><a href="/news/events-page/" title="Events" >Events</a></li>
-                
-            </ul>
-            
-
-        </li>
-        
-    
-        
-        <li>
-            <a href="http://blog.cira.ca/" title="Blog"  target="_blank" class=" blog"> Blog</a>
-
-            
-
-        </li>
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-        <li>
-            <a href="/about-cira/" title="About CIRA"  class=" about-cira"> About CIRA</a>
-
-            
-            <ul class="top-submenu">
-                
-
-                <li class="first"><a href="/about-cira/history/" title="History" >History</a></li>
-                
-
-                <li><a href="/about-cira/about-the-board/" title="About the Board" >About the Board</a></li>
-                
-
-                <li><a href="/about-cira/board-meetings/" title="Board Meetings" >Board Meetings</a></li>
-                
-
-                <li><a href="/careers/" title="Careers"  target="_blank">Careers</a></li>
-                
-
-                <li><a href="/about-cira/corporate-contact/" title="Contact Us" >Contact Us</a></li>
-                
-
-                <li><a href="/about-cira/cira-team/" title="CIRA Team" >CIRA Team</a></li>
-                
-
-                <li class="last"><a href="/about-cira/community-investment-program/" title="Community Investment Program" >Community Investment Program</a></li>
-                
-            </ul>
-            
-
-        </li>
-        
-    
-        
-        <li>
-            <a href="/careers/" title="Careers"  class=" careers"> Careers</a>
-
-            
-
-        </li>
-        
-    
-        
-    
-        
-    
-        
-    
-</ul>
-
-
-  <!-- Chat tag for Account cira (ID: 19), Site cira.ca (ID: 24), Queue Support (ID: 55)  -->
-  <!-- Version - adding french chat tag -->
-
-
-
-
-  
-
-  <!-- Chat tag for Account cira (ID: 19), Site cira.ca (ID: 24), Queue Support (ID: 55)  -->
-  <!-- Version - adding english chat tag -->
-
-  <a href="javascript: var e = window.open('http://livechat.cira.ca/cira/SightMaxAgentInterface/PreChatSurvey.aspx?accountID=19&siteID=24&queueID=55',
-    'chatWindow','width=490,height=404,resizable=0,scrollbars=no,menubar=no,status=no');"
-     onmouseout="top.status=''; return true;"
-     onmousedown="top.status='Chat with a company representative';return true;"
-     onmouseover="top.status='Chat with a company representative';return true;">
-    <img border=0 src="http://livechat.cira.ca/cira/SightMaxAgentInterface/chat.smgif?accountID=19&siteID=24&queueID=55" alt="Chat" id="live-chat-btn"/>
-  </a>
-
-
-</div>
-   <!-- END Chat tag -->
-
-
-
-<!-- /#header -->
-
-
-
-<div id="banner">
-  <div id="banner-inside">
-    
-
-    <img src="/themes/cira/images/banners/news.jpg" alt="News Releases" id="page-banner"/>
-
-    <div id="banner-content">
       
-    </div>
+  
+<div class="panel-display cira_75_25 clearfix " >
 
-    
+  <section class="cira-75-25">
+  	<div class="row">
+  		<div class="col-md-12 top">
+  			<div class="panel-pane pane-social-widget"  >
+  
+      
+  
+  <div class="pane-content">
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fbd23df122d4a4d" async="async"></script>  </div>
+
+  
   </div>
-</div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-bean-news-static-header-feature-bean"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="clearfix"><div class="feature-bean text-left  "><div class="static-header"><div class="static-header-image"><img class="featured-bean---static-banner image-actual img-responsive img-responsive" src="http://cira.ca/sites/default/files/styles/featured_bean_-_static_banner/public/images/featured_bean/toronto.jpg?itok=zSoboe7l" width="1140" height="520" alt="A banner image of downtown Toronto at rush hour, promoting .CA news" /></div><div class="static-header-title-body-btn"><h2 class="static-header-title">Insight on Canada&#039;s Internet</h2><div class="static-header-body"></div><div class="static-header-button"></div></div></div></div></div>  </div>
 
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-page-breadcrumb"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="item-list"><ol class="breadcrumb"><li><a href="/">Home</a></li>
+<li><a href="/about-us">About CIRA</a></li>
+</ol></div>  </div>
 
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-page-title"  >
+  
+      
+  
+  <div class="pane-content">
+    <h1>Newsroom</h1>
+  </div>
 
-        <div id="main-wrapper" class="wrapper">
-            <div id="main">
-                <a name="content-anchor"></a>
-                
-
-
-    <div class="leftcol">
-    
-<ul id="leftnav">
+  
+  </div>
+  		</div>
+  	</div>
+  	<div class="row">
+      <div class="col-md-9 left">
+        <div class="panel-pane pane-views-panes pane-news-panel-pane-3 top-press"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-news view-id-news view-display-id-panel_pane_3 view-dom-id-91cf78813b2366e7686a0b663bada976">
         
-    
-    <li id="leftnav-topmostparent"><a href="/news/" title="CIRA News" class="section">CIRA News</a></li>
-    
-    
-    
-    <li class="first">
-        <a href="/news/news-releases/" title="News Releases" class="current" >News Releases</a>
-        
-        
-        <ul>
-            
-                
-                    
-                    <li class="first">
-                        <a href="/news/news-releases/young-canadians-need-mentoring-not-more-surveillance-according-to-new-study-of-online-behaviour-2/" title="Young Canadians need mentoring, not more surveillance according to new study of online behaviour  " class="link" >Young Canadians need mentoring, not more surveillance according to new study of online behaviour  </a>
-                    </li>
-                    
-                    <li >
-                        <a href="/news/news-releases/mobile-app-helps-mentors-and-mentees-connect-online/" title="Mobile app helps mentors and mentees connect online" class="link" >Mobile app helps mentors and mentees connect online</a>
-                    </li>
-                    
-                    <li >
-                        <a href="/news/news-releases/78-of-canadians-report-that-workers-would-be-more-productive-if-they-had-additional-internet-and-technology-skills-according-to-new-poll/" title="78% of Canadians report that workers would be more productive if they had additional Internet and technology skills, according to new poll " class="link" >78% of Canadians report that workers would be more productive if they had additional Internet and technology skills, according to new poll </a>
-                    </li>
-                    
-                    <li class="last">
-                        <a href="/news/news-releases/2015-factbook/" title="E-commerce is going mobile: 20% of younger Canadians have made purchases from mobile devices according to the 2015 .CA Factbook " class="link" >E-commerce is going mobile: 20% of younger Canadians have made purchases from mobile devices according to the 2015 .CA Factbook </a>
-                    </li>
-                    
-                
-            
-        </ul>
-        
-        
-    </li>
-    
-    <li>
-        <a href="/news/Announcements/" title="Announcements" class="link" >Announcements</a>
-        
-    </li>
-    
-    <li>
-        <a href="/news/cira-in-the-news/" title="CIRA in the News" class="link" >CIRA in the News</a>
-        
-    </li>
-    
-    <li>
-        <a href="/news/media-kit/" title="Media Kit" class="link" >Media Kit</a>
-        
-    </li>
-    
-    <li class="last">
-        <a href="/news/events-page/" title="Events" class="link" >Events</a>
-        
-    </li>
-    
-</ul>
-
-    
-</div>
-
-<div id="content" class="col2">
-    
-<div id="breadcrumbs">
-   <a href="http://www.cira.ca/">Home</a> »  <a href="/news/">CIRA News</a> &raquo; News Releases
-</div>
-
-    
-    <div class="content-title-container clearfix">
-        <h1 class="content-title">News Releases</h1>
-        <div class="fb-like-container">
-            <div class="fb-like" data-href="http://cira.ca/news/news-releases/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-        </div>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-via="ciranews">Tweet</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <div class="date"><span class="date-display-single">March 18, 2015</span></div>    
+          <h3 class="title"><a href="/news/cira-2015-board-directors-election-and-annual-general-meeting-dates">CIRA 2015 board of directors election and annual general meeting dates</a></h3>    
+          <p>The Canadian Internet Registration Authority’s (CIRA) 2015 board of directors election process will begin on June 11, 2015 with a call for applications.</p>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <div class="date"><span class="date-display-single">February 24, 2015</span></div>    
+          <h3 class="title"><a href="/news/e-commerce-going-mobile-20-younger-canadians-have-made-purchases-mobile-devices-according-2015">E-commerce is going mobile: 20% of younger Canadians have made purchases from mobile devices according to the 2015 .CA Factbook </a></h3>    
+          <p>The 2015 .CA Factbook, an annual report on the state of the Canadian Internet, points to deepening mobile engagement among Canadians, a declining interest in cable subscriptions and new opportunities for Canadian e-commerce.</p>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <div class="date"><span class="date-display-single">February 12, 2015</span></div>    
+          <h3 class="title"><a href="/news/80-canadians-see-importance-keeping-seniors-connected-through-internet-technology">80% of Canadians see the importance of keeping seniors connected through Internet technology </a></h3>    
+          <p>86 per cent of Canadians, including those over 55 (90%) and those caring for a parent over 65 (87%), agree that providing better access to the Internet, along with training on how to use it, would help older Canadians stay better connected to their communities and families.</p>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <div class="date"><span class="date-display-single">February 4, 2015</span></div>    
+          <h3 class="title"><a href="/news/78-canadians-report-workers-would-be-more-productive-if-they-had-additional-internet-and">78% of Canadians report that workers would be more productive if they had additional Internet and technology skills, according to new poll </a></h3>    
+          <p>.CA Community Investment Program marks launch of 2015 funding program with collaborative research study with Ipsos on Canadian attitudes on digital technology and skills</p>    </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+          <div class="date"><span class="date-display-single">January 27, 2015</span></div>    
+          <h3 class="title"><a href="/news/mobile-app-helps-mentors-and-mentees-connect-online">Mobile app helps mentors and mentees connect online</a></h3>    
+          <p>As job seekers in Canada turn to digital tools to manage the challenges of a career transition, a new application, Menteer from Career Skills Incubator, will ease the process of matching job seekers with an appropriate mentor. The project was funded through the .CA Community Investment Program, which helps drive solutions to social and economic issues in Canada.</p>    </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+          <div class="date"><span class="date-display-single">January 22, 2015</span></div>    
+          <h3 class="title"><a href="/news/young-canadians-need-mentoring-not-more-surveillance-according-new-study-online-behaviour">Young Canadians need mentoring, not more surveillance according to new study of online behaviour</a></h3>    
+          <p>In a new report, funded in part by .CA, Media Smarts calls for a child-centred approach to media literacy to help deal with cyberbullying, sexting and other online threats.</p>    </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+          <div class="date"><span class="date-display-single">December 9, 2014</span></div>    
+          <h3 class="title"><a href="/news/vanishing-evidence-online-or-linkrot-may-put-stability-precedent-legal-system-risk-according">Vanishing evidence online or “LinkRot” may put stability of precedent in legal system at risk, according to new research from the University of Ottawa</a></h3>    
+          <p>Project funded through CIRA’s Community Investment Program aims to help judges and lawyers ensure that information found online is stable and reliable</p>    </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+          <div class="date"><span class="date-display-single">December 2, 2014</span></div>    
+          <h3 class="title"><a href="/news/internet-governance-forum-gets-boost-ca">Internet Governance Forum gets boost from .CA</a></h3>    
+          <p>The Canadian Internet Registration Authority (CIRA) today announced that it had completed a contribution agreement with the Internet Governance Forum Support Association (IGFSA), providing the necessary resources to address emerging issues in Internet governance.</p>    </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+          <div class="date"><span class="date-display-single">December 2, 2014</span></div>    
+          <h3 class="title"><a href="/news/recent-domain-hijackings-should-remind-cios-importance-domain-locking-says-ca-executive">Recent domain hijackings should remind CIOs of the importance of domain locking says .CA executive</a></h3>    
+          <p>Advanced security measures can mitigate risk of hacking</p><p>OTTAWA – December 2, 2014 – Many website hijackings are avoidable with enhanced domain name system safety measures, says the Canadian Internet Registration Authority (CIRA), the organization that manages the .CA domain.</p>    </div>
+  <div class="views-row views-row-10 views-row-even">
+      
+          <div class="date"><span class="date-display-single">November 28, 2014</span></div>    
+          <h3 class="title"><a href="/news/cira-congratulates-john-demco-ubc-award">CIRA congratulates John Demco on UBC award</a></h3>    
+          <p>‘Godfather’ of .CA honoured at UBC awards</p><p>Ottawa – November 28, 2014 – The Canadian Internet Registration Authority (CIRA) and the CIRA Board of Directors extend congratulations to John Demco, ‘Godfather’ of the .CA domain.</p><p>Demco received an honorary alumnus award from the University of British Columbia (UBC) for having the vision and foresight to set up .CA in the 1980s.</p>    </div>
+  <div class="views-row views-row-11 views-row-odd">
+      
+          <div class="date"><span class="date-display-single">November 13, 2014</span></div>    
+          <h3 class="title"><a href="/news/cira-board-directors-selects-new-officers">CIRA Board of Directors selects new officers </a></h3>    
+          <p>The Canadian Internet Registration Authority (CIRA) is pleased to announce the Officers of its Board of Directors for the 2014-2015 board term.</p>    </div>
+  <div class="views-row views-row-12 views-row-even">
+      
+          <div class="date"><span class="date-display-single">November 6, 2014</span></div>    
+          <h3 class="title"><a href="/news/ca-team-recognized-high-performing-engaged-workplace">The .CA team recognized for high-performing, engaged workplace </a></h3>    
+          Aon Hewitt places the Canadian Internet Registration Authority on list of top employers in Canada     </div>
+  <div class="views-row views-row-13 views-row-odd">
+      
+          <div class="date"><span class="date-display-single">November 4, 2014</span></div>    
+          <h3 class="title"><a href="/news/ca-moving-new-offices-ottawas-lansdowne-park-development">.CA moving to new offices in Ottawa’s Lansdowne Park development  </a></h3>    
+          <p>The Canadian Internet Registration Authority (CIRA), steward of the .CA domain name system, is relocating its corporate headquarters to the vibrant live/work/ play community at Lansdowne Park.</p>    </div>
+  <div class="views-row views-row-14 views-row-even">
+      
+          <div class="date"><span class="date-display-single">November 4, 2014</span></div>    
+          <h3 class="title"><a href="/news/minister-blaney-announces-strengthened-partnership-canadian-internet-registration-authority">Minister Blaney announces strengthened partnership with Canadian Internet Registration Authority to further secure Canadian websites</a></h3>    
+          <p>Today, the Honourable Steven Blaney, Canada’s Minister of Public Safety and Emergency Preparedness, gave a keynote address at SecureTech 2014, a conference featuring experts from the defense and security domain. Minister Blaney took this opportunity to announce a strengthened partnership between the Canadian Cyber Incident Response Centre (CCIRC), Canada’s computer security incident response team, and the Canadian Internet Registration Authority (CIRA), the not-for-profit organization that manages Canada’s .ca domain name registry.</p>    </div>
+  <div class="views-row views-row-15 views-row-odd views-row-last">
+      
+          <div class="date"><span class="date-display-single">October 28, 2014</span></div>    
+          <h3 class="title"><a href="/news/steven-barry-joins-canadian-internet-registration-authority-manage-and-maintain-ca-domain">Steven Barry joins the Canadian Internet Registration Authority to manage and maintain the .CA domain</a></h3>    
+          <p>Ottawa, ON – October 28, 2014 – The Canadian Internet Registration Authority today announced that Steven Barry has joined the organization in the role of Director of Information Technology. Barry will be responsible for leading the IT team responsible for the .CA domain name registry, a critical component of Canada’s national Internet infrastructure. Barry will also manage CIRA’s software development and information management efforts, taking responsibility for the delivery of new products and services.</p>    </div>
     </div>
-    
+  
+      <div class="text-center"><div class="item-list"><ul class="pagination"><li class="active"><span>1</span></li>
+<li><a title="Go to page 2" href="/news/news-releases?page=1">2</a></li>
+<li><a title="Go to page 3" href="/news/news-releases?page=2">3</a></li>
+<li><a title="Go to page 4" href="/news/news-releases?page=3">4</a></li>
+<li><a title="Go to page 5" href="/news/news-releases?page=4">5</a></li>
+<li><a title="Go to page 6" href="/news/news-releases?page=5">6</a></li>
+<li><a title="Go to page 7" href="/news/news-releases?page=6">7</a></li>
+<li><a title="Go to page 8" href="/news/news-releases?page=7">8</a></li>
+<li class="next"><a title="Go to next page" href="/news/news-releases?page=1">next ›</a></li>
+</ul></div></div>  
+  
+  
+  
+  
+</div>  </div>
 
-    
-    
-    
-    
-	<div class="WidgetHolder widgets newsWidget first">
-    
+  
+  </div>
+      </div>
+	  	<div class="col-md-3 right">
+	    	<div class="panel-pane pane-block pane-bean-news-contact-us"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="clearfix"><div class="feature-bean text-left  "><div class="feature-bean-image-top"><h2 class="feature-bean-title">Contact Us</h2><div class="feature-bean-body"><p><strong>For more information or interview requests:</strong></p>
 
-<div id="news-years-wrapper">
-    <ul id="news-years" class="filter-links">
-        
-        <li class="selected">
-            <a href="/news/news-releases/?year=2015" title="2015">2015</a>
-        </li>
-        
-        <li>
-            <a href="/news/news-releases/?year=2014" title="2014">2014</a>
-        </li>
-        
-        <li>
-            <a href="/news/news-releases/?year=2013" title="2013">2013</a>
-        </li>
-        
-        <li>
-            <a href="/news/news-releases/?year=2012" title="2012">2012</a>
-        </li>
-        
-        <li>
-            <a href="/news/news-releases/?year=2011" title="2011">2011</a>
-        </li>
-        
-        <li>
-            <a href="/news/news-releases/?year=2010" title="2010">2010</a>
-        </li>
-        
-        <li>
-            <a href="/news/news-releases/?year=2009" title="2009">2009</a>
-        </li>
-        
-        <li>
-            <a href="/news/news-releases/?year=2008" title="2008">2008</a>
-        </li>
-        
-    </ul>
+<p>Ryan Saxby Hill<br />
+	Communications Manager, CIRA<br />
+	<a href="mailto:ryan.hill@cira.ca">ryan.hill@cira.ca</a><br />
+	613-316-2397</p>
+</div></div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-bean-news-about-us"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="clearfix"><div class="feature-bean text-left  "><div class="feature-bean-image-top"><h2 class="feature-bean-title"><a href="http://cira.ca/about-us" title="About CIRA" class="feature-bean-title-link">About Us</a></h2><div class="feature-bean-body"><p>Find out more about CIRA’s history and mandate.</p></div><a href="http://cira.ca/about-us" title="About CIRA" class="feature-bean-button btn btn-lg">Learn More</a></div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-search-widget"  >
+  
+        <h2 class="pane-title">Customize search</h2>
+    
+  
+  <div class="pane-content">
+    <form class="search-widget-form" placeholder="" title="" action="/news/news-releases/" method="post" id="custom-search-api-widget-search-form" accept-charset="UTF-8"><div><div class="form-type-textfield form-item-keys form-item form-group">
+  <label for="edit-keys">Search News </label>
+ <input class="form-control form-text" type="text" id="edit-keys" name="keys" value="" size="15" maxlength="128" />
 </div>
+<div class="form-type-select form-item-fields-field-news-type form-item form-group">
+  <label for="edit-fields-field-news-type">Select </label>
+ <select class="form-control form-select" id="edit-fields-field-news-type" name="fields[field_news_type]"><option value="0" selected="selected">-Any-</option><option value="4">Announcement</option><option value="6">News release</option></select>
+</div>
+<input type="hidden" name="path" value="search/site/[key]?f[0]=type:news" />
+<input type="hidden" name="form_build_id" value="form-cTy3DrcOtE_xLaftQMQeL_GP-lc4yH_RZ4zK27LBO5c" />
+<input type="hidden" name="form_id" value="custom_search_api_widget_search_form" />
+<div class="form-actions form-wrapper form-group" id="edit-actions"><button id="edit-actions-submit" name="op" value="Search" type="submit" class="btn btn-default form-submit">Search</button>
+</div></div></form>  </div>
 
+  
+  </div>
+		  </div>
+	  </div>
+	<div class="row">
+  		<div class="col-md-12 bottom">
+  			<div class="panel-pane pane-panels-mini pane-newsroom-features-beans"  >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="panel-display cira_50_50 clearfix " id="mini-panel-newsroom_features_beans">
 
+  <section class="cira-50-50">
+  	<div class="row">
+  		<div class="col-md-12 top">
+  			  		</div>
+  	</div>
+  	<div class="row">
+	  	<div class="col-md-6 left">
+	    	<div class="panel-pane pane-block pane-bean-news-feature-bean-1"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="clearfix"><div class="feature-bean text-left  "><div class="feature-bean-image-top"><div class="feature-bean-image"><a href="http://cira.ca/factbook/current/index.html" title="http://cira.ca/factbook/current/index.html" class="feature-bean-image-link"><img class="featured-bean---image-top image-actual img-responsive img-responsive" src="http://cira.ca/sites/default/files/styles/featured_bean_-_image_top/public/images/featured_bean/179627130.jpg?itok=7IWVI06f" width="555" height="237" /></a></div><h2 class="feature-bean-title"><a href="http://cira.ca/factbook/current/index.html" title="http://cira.ca/factbook/current/index.html" class="feature-bean-title-link">Internet data and trends</a></h2><div class="feature-bean-body"><p>The .CA Factbook is an annual look at the state of the Internet in Canada. Find data that will inform analysis of Canada’s digital future.</p></div><a href="http://cira.ca/factbook/current/index.html" title="http://cira.ca/factbook/current/index.html" class="feature-bean-button btn btn-lg">Learn More</a></div></div></div>  </div>
 
+  
+  </div>
+		</div>
+		<div class="col-md-6 right">
+	    	<div class="panel-pane pane-block pane-bean-news-feature-bean-2"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="clearfix"><div class="feature-bean text-left  "><div class="feature-bean-image-top"><div class="feature-bean-image"><a href="http://cira.ca/news/canadian-internet-registration-authority-deploys-new-anycast-dns-service-help-protect-online" title="//news/canadian-internet-registration-authority-deploys-new-anycast-dns-service-..." class="feature-bean-image-link"><img class="featured-bean---image-top image-actual img-responsive img-responsive" src="http://cira.ca/sites/default/files/styles/featured_bean_-_image_top/public/images/featured_bean/15.jpg?itok=9UuO7K2T" width="555" height="237" alt="CIRA&amp;#039;s CTO standing by a server rack, promoting Canadian Internet infrastructure" /></a></div><h2 class="feature-bean-title"><a href="http://cira.ca/news/canadian-internet-registration-authority-deploys-new-anycast-dns-service-help-protect-online" title="//news/canadian-internet-registration-authority-deploys-new-anycast-dns-service-..." class="feature-bean-title-link">Building Canadian infrastructure</a></h2><div class="feature-bean-body"><p>Made-in-Canada solution helps reduce the risk of DDoS attacks and improves website and web application performance in the Canadian market</p>
+</div><a href="http://cira.ca/news/canadian-internet-registration-authority-deploys-new-anycast-dns-service-help-protect-online" title="//news/canadian-internet-registration-authority-deploys-new-anycast-dns-service-..." class="feature-bean-button btn btn-lg">Learn More</a></div></div></div>  </div>
 
+  
+  </div>
+		</div>
+	</div>
+	<div class="row">
+  		<div class="col-md-12 bottom">
+  			  		</div>
+  	</div>
+  </section>
+</div><!-- /.cira_home -->
+  </div>
 
+  
+  </div>
+  		</div>
+  	</div>
+  </section>
+</div><!-- /.cira_home -->
 
-<div class="widget widget-news">
-    <div class="widget-header">
-        <h2>2015</h2>
-        <a href="/rss/news/news-releases?locale=en_US" title="RSS" class="rss-btn">RSS</a>
+</section>
+  </div>
+    </section>
+</main>
+<footer role="contentinfo" class="wb-navcurr wb-navcurr-inited">
+  <div class="topfooter">
+    <div class="container">
+      
+<div class="panel-display cira_66_33 clearfix " id="mini-panel-cira_fat_footer">
+
+  <section class="cira-66-33">
+  	<div class="row">
+  		<div class="col-md-12 top">
+  			  		</div>
+  	</div>
+  	<div class="row">
+      <div class="col-sm-8 left">
+        <div class="panel-pane pane-menu-tree pane-menu-footer-menu"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-ctools-menu-footer-menu-1 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li class="first expanded menu-mlid-1338 dropdown"><a href="/registrars" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Registrars <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-1339"><a href="/content/registrar-benefits">Become a Registrar</a></li>
+<li class="leaf menu-mlid-1340"><a href="/content/registrar-recertification">Current Registrars</a></li>
+<li class="leaf menu-mlid-1341"><a href="/search/site/?f%5B0%5D=type%3Apolicy&amp;f%5B1%5D=field_policy_type%3A247">Registrar Resources</a></li>
+<li class="last leaf menu-mlid-2996"><a href="http://tbr.cira.ca/">TBR Domain names</a></li>
+</ul></li>
+<li class="expanded active-trail menu-mlid-1343 dropdown"><a href="/about-us" class="active-trail dropdown-toggle" data-target="#" data-toggle="dropdown">About CIRA <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-1344"><a href="/careers">Careers</a></li>
+<li class="leaf menu-mlid-1348"><a href="/membership">Membership</a></li>
+<li class="leaf active-trail menu-mlid-1347"><a href="/news" class="active-trail active">Media</a></li>
+<li class="last leaf menu-mlid-1345"><a href="/activities">Events</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1350 dropdown"><a href="/products-services" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Products and Services <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-3030"><a href="/marketplace">.CA Marketplace</a></li>
+<li class="leaf menu-mlid-3000"><a href="/ca-domain-names">.CA Domain Names</a></li>
+<li class="leaf menu-mlid-1351"><a href="/d-zone">D-Zone</a></li>
+<li class="leaf menu-mlid-1352"><a href="/content/ca-registry-lock-securing-your-domain-name">Registry Lock</a></li>
+<li class="last leaf menu-mlid-2999"><a href="/content/dnssec-securing-domain-name-system">DNSSEC</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1354 dropdown"><a href="/resources" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-2998"><a href="http://cira.ca/factbook/current/index.html">.CA Factbook</a></li>
+<li class="leaf menu-mlid-1355"><a href="/rapport_corporatifs">Corporate Reports</a></li>
+<li class="leaf menu-mlid-1357"><a href="/blogs/public-domain">Public Domain</a></li>
+<li class="last leaf menu-mlid-1356"><a href="/blogs/where-local-means-business">Where Local Means Business</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-1361 dropdown"><a href="/legal" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Legal, Policy, Compliance <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf menu-mlid-1353"><a href="http://whois.cira.ca">WHOIS</a></li>
+<li class="leaf menu-mlid-1365"><a href="/policies">Policies</a></li>
+<li class="leaf menu-mlid-1363"><a href="/content/dispute-resolution-process">CDRP Process</a></li>
+<li class="leaf menu-mlid-2997"><a href="/cdrp-decisions">CDRP Decisions</a></li>
+<li class="leaf menu-mlid-1364"><a href="/compliance">Compliance</a></li>
+<li class="last leaf menu-mlid-3036"><a href="https://services.cira.ca/agree/mdf/index.action">Interested Party Contact Form</a></li>
+</ul></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-custom-search-blocks-2"  >
+  
+      
+  
+  <div class="pane-content">
+    <form class="search-form" action="/news/news-releases/" method="post" id="custom-search-blocks-form-2" accept-charset="UTF-8"><div><div class="form-type-textfield form-item-custom-search-blocks-form-2 form-item form-group">
+  <label class="element-invisible" for="edit-custom-search-blocks-form-2--2">Search this site </label>
+ <input title="Enter the terms you wish to search for." class="custom-search-box form-control form-text" placeholder="WHOIS search" data-toggle="tooltip" type="text" id="edit-custom-search-blocks-form-2--2" name="custom_search_blocks_form_2" value="" size="15" maxlength="128" />
+</div>
+<input type="hidden" name="delta" value="2" />
+<input type="hidden" name="form_build_id" value="form-2GpxoTgE30WyCubH_cenhF2HTtX9GCEYyedfwgeItg4" />
+<input type="hidden" name="form_id" value="custom_search_blocks_form_2" />
+<input type="hidden" name="custom_search_paths" value="http://whois.cira.ca/public?domain=[key]" />
+<div class="form-actions form-wrapper form-group" id="edit-actions--3"><button id="edit-submit--2" name="op" value="Search" type="submit" class="btn btn-default form-submit">Search</button>
+</div></div></form>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-menu-menu-bottom-footer-menu"  >
+  
+      
+  
+  <div class="pane-content">
+    <ul class="menu nav"><li class="first leaf"><a href="/contact-us">Contact Us</a></li>
+<li class="last leaf"><a href="/support">Support</a></li>
+</ul>  </div>
+
+  
+  </div>
+      </div>
+	  	<div class="col-md-4 right">
+	    	<div class="panel-pane pane-block pane-bean-bean-eng-2"  >
+  
+        <h2 class="pane-title">Connect with us!</h2>
+    
+  
+  <div class="pane-content">
+    <section>
+  <div class="field field-name-field-bean-wetkit-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Stay up to date with the latest .CA news and<br />events by connecting with us.</p><ul><li><a href="http://www.facebook.com/pages/Ottawa-ON/Canadian-Internet-Registration-Authority/163277507959?ref=ts"><img height="48" width="48" class="media-element file-default img-responsive img-responsive" src="http://prd-www-01.corp.acei.ca/sites/default/files/facebookicon.png" alt="" title="" /></a></li><li><a href="http://twitter.com/ciranews"><img height="48" width="48" class="media-element file-default img-responsive img-responsive" src="http://prd-www-01.corp.acei.ca/sites/default/files/twittericon.png" alt="" title="" /></a></li><li><a href="http://www.linkedin.com/groups?gid=2456714&amp;trk=hb_side_g"><img height="48" width="48" class="media-element file-default img-responsive img-responsive" src="http://prd-www-01.corp.acei.ca/sites/default/files/linkedinicon.png" alt="" title="" /></a></li><li><a href="http://www.youtube.com/ciranews"><img height="48" width="48" class="media-element file-default img-responsive img-responsive" src="http://prd-www-01.corp.acei.ca/sites/default/files/youtubeicon.png" alt="" title="" /></a></li><li><a href="http://www.slideshare.net/ciranews"><img height="48" width="48" class="media-element file-default img-responsive img-responsive" src="http://prd-www-01.corp.acei.ca/sites/default/files/shareicon.png" alt="" title="" /></a></li></ul></div></div></div></section>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-bean-bean-eng-1"  >
+  
+        <h2 class="pane-title">We're hiring!</h2>
+    
+  
+  <div class="pane-content">
+    <section>
+  <div class="field field-name-field-bean-wetkit-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>See our latest openings and what it's like to<br />
+	work for one of Canada's best small<br />
+	and medium employers!<br />
+	 </p>
+
+<p><a class="btn btn-red" href="/careers">Apply Now!</a></p>
+</div></div></div></section>
+  </div>
+
+  
+  </div>
+		  </div>
+	  </div>
+	<div class="row">
+  		<div class="col-md-12 bottom">
+  			  		</div>
+  	</div>
+  </section>
+</div><!-- /.cira_home -->
     </div>
-    <div class="widget-content">
-        <ul>
-            
-            <li class="type-news-releases">
-                <div class="newsitem-icon"></div>
-                <div class="newsitem-summary">
-                    <em>News Releases</em>
-                    <h3><a class="read-more" href="/news/news-releases/2015-factbook/" title="E-commerce is going mobile: 20% of younger Canadians have made purchases from mobile devices according to the 2015 .CA Factbook ">E-commerce is going mobile: 20% of younger Canadians have made purchases from mobile devices according to the 2015 .CA Factbook </a></h3>&nbsp;
-                </div>
-            </li>
-            
-            <li class="type-news-releases">
-                <div class="newsitem-icon"></div>
-                <div class="newsitem-summary">
-                    <em>News Releases</em>
-                    <h3><a class="read-more" href="/news/news-releases/78-of-canadians-report-that-workers-would-be-more-productive-if-they-had-additional-internet-and-technology-skills-according-to-new-poll/" title="78% of Canadians report that workers would be more productive if they had additional Internet and technology skills, according to new poll ">78% of Canadians report that workers would be more productive if they had additional Internet and technology skills, according to new poll </a></h3>&nbsp;
-                </div>
-            </li>
-            
-            <li class="type-news-releases">
-                <div class="newsitem-icon"></div>
-                <div class="newsitem-summary">
-                    <em>News Releases</em>
-                    <h3><a class="read-more" href="/news/news-releases/mobile-app-helps-mentors-and-mentees-connect-online/" title="Mobile app helps mentors and mentees connect online">Mobile app helps mentors and mentees connect online</a></h3>&nbsp;
-                </div>
-            </li>
-            
-            <li class="type-news-releases">
-                <div class="newsitem-icon"></div>
-                <div class="newsitem-summary">
-                    <em>News Releases</em>
-                    <h3><a class="read-more" href="/news/news-releases/young-canadians-need-mentoring-not-more-surveillance-according-to-new-study-of-online-behaviour-2/" title="Young Canadians need mentoring, not more surveillance according to new study of online behaviour  ">Young Canadians need mentoring, not more surveillance according to new study of online behaviour  </a></h3>&nbsp;
-                </div>
-            </li>
-            
-        </ul>
+  </div>
+  <div class="botfooter">
+    <div class="container">
+        <div class="region region-footer">
+    <section id="block-bean-bottom-footer" class="block block-bean clearfix">
+
+      
+  <section>
+  <div class="field field-name-field-bean-wetkit-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>By accessing and using CIRA's website you agree that you have read, understood, and consent to the terms and conditions for the use of CIRA's website, as set out in the <a href="http://prd-www-01.corp.cira.ca/website-terms-of-use">Website Terms of Use</a> and Privacy Policy.</p>
+</div></div></div></section>
+
+</section>
+  </div>
     </div>
-</div>
+  </div>
+</footer>  
+<!--[if gte IE 9]><!-->
+<script src="http://cira.ca/profiles/wetkit/libraries/wet-boew/js/wet-boew.min.js?v=4.0.10"></script>
+<!--<![endif]-->
+
+<!--[if lt IE 9]>
+<script src="http://cira.ca/profiles/wetkit/libraries/wet-boew/js/ie8-wet-boew2.min.js?v=4.0.10"></script>
+<![endif]-->
+<script src="http://cira.ca/profiles/wetkit/modules/contrib/picture/picturefill2/picturefill.min.js?v=2.0"></script>
+<script src="http://cira.ca/profiles/wetkit/modules/contrib/picture/picture.min.js?v=7.34"></script>
+<script src="http://cira.ca/profiles/wetkit/themes/bootstrap/js/bootstrap.js?nltpki"></script>
 
 
 
-</div>
-
-
-
-    
-    
-    
-</div>
-
-
-
-                <div class="clear"></div>
-                
-<div id="footer-wrapper" class="clearfix">
-
-    <div id="footer-nav">
-        <div id="footer-nav-cols">
-            <div class="col">
-                <ul class="level-0">
-                    <li>
-                        
-                        <a href="/registrars/" title="Registrars">Registrars</a>
-                        
-
-                        <ul class="level-1">
-                            
-                            
-                            <li><a href="/registrars/become-a-registrar/" title="Become a Registrar"  >Become a Registrar</a></li>
-                            
-                            
-                            
-                            <li><a href="/registrars/current-registrar/" title="Current Registrar"  >Current Registrar</a></li>
-                            
-                            
-                            
-                            <li><a href="/registrars/legal-policies/" title="Registrar Resources"  >Registrar Resources</a></li>
-                            
-                            
-                            
-                            <li><a href="/registrars/registrar-list/" title="Registrar List"  >Registrar List</a></li>
-                            
-                            
-                        </ul>
-
-                        
-                        
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col">
-                <ul class="level-0">
-                    <li>
-                        
-                        <a href="/whois/" title="WHOIS">WHOIS</a>
-
-                        <ul class="level-1">
-                            
-
-                            
-                            
-                            <li><a href="/whois/faq/" title="FAQ" >FAQ</a></li>
-                            
-                            
-                            
-                            <li><a href="https://services.cira.ca/agree/mdf/index.action" title="Interested Party Contact Form"  target="_blank">Interested Party Contact Form</a></li>
-                            
-                            
-                            
-                            
-
-                            
-                            
-                            <li id="footer-search">
-                              <form action="http://whois.cira.ca/public" method="post">
-                                <label class="visuallyhidden" for="domain_footer">Search</label>
-                                <span class="input-wrapper-for-keyboard">
-                                	<input type="text" class="text" id="domain_footer" name="domain" value="" placeholder="WHOIS Search" />
-                                </span>
-                                <input type="submit" value="Search" class="search-submit-btn" onClick="trackEvent('Whois_Footer', 'Search', jQuery('#footer-search #domain_footer').val())" />
-                              </form>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col">
-                <ul class="level-0">
-                    <li>
-                        
-                        <a href="/knowledge-centre/" title="Knowledge Centre">Knowledge Centre</a>
-                        
-
-                        <ul class="level-1">
-                            
-                            
-                            <li><a href="/knowledge-centre/white-papers/" title="White Papers" >White Papers</a></li>
-                            
-                            
-                            
-                            <li><a href="/knowledge-centre/corporate-reports/" title="Corporate Reports" >Corporate Reports</a></li>
-                            
-                            
-                            
-                            <li><a href="/knowledge-centre/resources/" title="Resources" >Resources</a></li>
-                            
-                            
-                            
-                            
-
-                        </ul>
-
-                        
-                        
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col">
-                <ul class="level-0">
-                    <li>
-                        
-                        <a href="/legal/" title="Legal, Policy, Compliance">Legal, Policy, Compliance</a>
-                        
-
-                        <ul class="level-1">
-                            
-                            
-                            <li><a href="/legal/cdrp/" title="CDRP" >CDRP</a></li>
-                            
-                            
-                            
-                            <li><a href="/legal/policies/" title="Policies" >Policies</a></li>
-                            
-                            
-                            
-                            <li><a href="/legal/compliance/" title="Compliance" >Compliance</a></li>
-                            
-                            
-                        </ul>
-
-                        
-                        
-                    </li>
-                </ul>
-            </div>
-        </div><!-- /footer-nav-cols-->
-    </div><!-- /footer-nav -->
-
-    <div id="below-footer">
-
-        <div class="left-col">
-            <p>&copy; 2015  Canadian Internet Registration Authority. All rights reserved</p>
-            <p>By accessing and using CIRA's website you agree that you have read, understood, and consent to the terms and conditions for the use of CIRA's website, as set out in the <a href="http://cira.ca/website-terms-of-use/" title="Website Terms of Use">Website Terms of Use</a> and <a href="http://cira.ca/privacy/policy.html" title="Privacy Policy">Privacy Policy</a>.</p>
-        </div>
-
-        <div class="right-col">
-          <a href="http://www.cira.ca/" title="Home">Home</a>
-          | <a href="http://www.cira.ca/sitemap" title="Site Map">Site Map</a>
-          | <a href="/news/news-releases/?mobileSite=1&locale=en_US">Mobile Site</a>
-          <form action="http://www.cira.ca/news-releases/SearchForm" method="GET">
-            <label class="visuallyhidden" for="Search">Search</label>
-            <input type="text" class="text" name="Search" id="Search" placeholder="Search CIRA.ca" />
-            <input type="submit" value="Search" class="search-submit-btn" onClick="trackEvent('SiteWide_Footer', 'Search', jQuery('#below-footer #Search').val())" />
-          </form>
-        </div>
-
-    </div>
-
-</div><!-- /footer -->
-
-<script src="themes/cira/javascript/cira.js"></script>
-<script type="text/javascript">
-    // <![CDATA[
-    $.noConflict();
-
-    jQuery(document).ready(function($){
-        //remove class 'text' from inputs we're attaching virtual keyboard to
-        jQuery('#domain, #domain_footer, #avail-search-box').removeClass('text');
-
-        jQuery('.text').defaultValue();
-
-        //placeholder replacement
-        if (!Modernizr.input.placeholder) {
-
-            jQuery('#domain, #domain_footer').each(function () {
-                if (!jQuery(this).val()) {
-                    this.value = jQuery(this).attr('placeholder');
-                }
-                jQuery(this).focus(function () {
-                    if (this.value == jQuery(this).attr('placeholder')) {
-                        this.value = '';
-                    }
-                });
-                jQuery(this).blur(function () {
-                    //if input's value is blank, and currently focused item is not a child of .virtual-keyboard-wrapper
-                    //reset input value to original placeholder text
-                    if (this.value == '' && jQuery(':focus').parents('.virtual-keyboard-wrapper').length <= 0) {
-                        this.value = jQuery(this).attr('placeholder');
-                    }
-
-                    //reset the focus to this if the user clicked a virtual keyboard key
-                    if(jQuery(':focus').parents('.virtual-keyboard-wrapper').length){
-                        jQuery(this).focus();
-                    }
-                });
-            });
-
-        }
-    });
-    // ]]>
-</script>
-
-
-            </div><!-- /#main -->
-        </div>
-
-        <!-- Monitor tag for Account cira (ID: 19), Site cira.ca (ID: 24), Queue Support (ID: 55) -->
-        <script language=javascript src="http://livechat.cira.ca/cira/SightMaxAgentInterface/Monitor.smjs?accountID=19&siteID=24&queueID=55"></script>
-    </body>
+</body>
 </html>
+

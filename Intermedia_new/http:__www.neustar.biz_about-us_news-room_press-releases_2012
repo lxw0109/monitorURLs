@@ -1,7 +1,8 @@
 <!DOCTYPE html><html>
     <head>
         <script src="//cdn.optimizely.com/js/156603603.js"></script>
-        <script type="text/javascript">
+        
+<script type="text/javascript">
     var monetateT = new Date().getTime();
     (function() {
         var p = document.location.protocol;
@@ -14,58 +15,68 @@
             document.write(e.innerHTML);
         }
     })();
-</script>
-<!-- Start of Neustar Real User Measurements code -->
+</script><!-- Start of Neustar Real User Measurements code -->
 <script type="text/javascript">
-var ns_rum = {};
+    var ns_rum = {};
 // Optional: uncomment the second line below in order to enable Perceived Load Time (timeout in seconds)
 // Then add a call to ns_rum.onPerceivedLoad(); in your code to mark the perceived load event for each page that has the RUM tag
 //ns_rum.perceivedLoadTimeout = 8;
-var t_pagestart = new Date().getTime(), t_pageend;
-ns_rum.init = function()
-{ t_pageend = new Date().getTime(); var s = document.createElement ('script'); s.id = 'rum'; s.type = 'text/javascript'; s.src = ('https:' === document.location.protocol ? 'https://' : 'http://') + 'd2lo2tipcl3aii.cloudfront.net/036A970FE9904A259303F3DCD5F032B5/neustar.beacon.js'; document.getElementsByTagName('head')[0].appendChild(s); }
+    var t_pagestart = new Date().getTime(), t_pageend;
+    ns_rum.init = function()
+    {
+        t_pageend = new Date().getTime();
+        var s = document.createElement('script');
+        s.id = 'rum';
+        s.type = 'text/javascript';
+        s.src = ('https:' === document.location.protocol ? 'https://' : 'http://') + 'd2lo2tipcl3aii.cloudfront.net/036A970FE9904A259303F3DCD5F032B5/neustar.beacon.js';
+        document.getElementsByTagName('head')[0].appendChild(s);
+    }
 
-;
-window.addEventListener ? window.addEventListener('load', ns_rum.init, false) : window.attachEvent ? window.attachEvent('onload', ns_rum.init) : false;
-ns_rum.errors = [];
-ns_rum.ogErrorHandler = window.onerror;
-window.onerror = function rumErrorHandler(msg, url, line) {
-ns_rum.errors.push(
-{'url': url, 'line': line, 'msg': msg}
+    ;
+    window.addEventListener ? window.addEventListener('load', ns_rum.init, false) : window.attachEvent ? window.attachEvent('onload', ns_rum.init) : false;
+    ns_rum.errors = [];
+    ns_rum.ogErrorHandler = window.onerror;
+    window.onerror = function rumErrorHandler(msg, url, line) {
+        ns_rum.errors.push(
+                {'url': url, 'line': line, 'msg': msg}
 
-);
-if (ns_rum.ogErrorHandler)
-{return ns_rum.ogErrorHandler(msg, url, line);}
+        );
+        if (ns_rum.ogErrorHandler)
+        {
+            return ns_rum.ogErrorHandler(msg, url, line);
+        }
 
-return false;
-};
-ns_rum.onPerceivedLoad = function(description) {
-if (typeof(ns_rum.perceivedLoadTimeEnd) === "undefined") {
-ns_rum.perceivedLoadTimeEnd = new Date().getTime();
-if (typeof(description) !== "undefined")
-{ ns_rum.perceivedLoadTimeDescription = description; }
+        return false;
+    };
+    ns_rum.onPerceivedLoad = function(description) {
+        if (typeof (ns_rum.perceivedLoadTimeEnd) === "undefined") {
+            ns_rum.perceivedLoadTimeEnd = new Date().getTime();
+            if (typeof (description) !== "undefined")
+            {
+                ns_rum.perceivedLoadTimeDescription = description;
+            }
 
-}
-};
+        }
+    };
 </script>
-<!-- End of Neustar Real User Measurements code -->
-<title>Neustar | 2012 Press Releases &amp; Company News</title><meta charset="UTF-8">
+<!-- End of Neustar Real User Measurements code --><title>Neustar | 2012 Press Releases &amp; Company News</title><meta charset="UTF-8">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
 <meta http-equiv="Content-Language" content="en-US" >
 <meta name="description" content="Click here for Neustar's press release archives from the year 2012. Also find media kit download and PR contact info" >
 <meta name="keywords" content="" >
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" >
-<meta name="canonical" content="https://www.neustar.biz/about-us/news-room/press-releases/2012" >
-<meta name="twitter:site" content="@Neustar" />
-<meta name="twitter:title" content="Neustar | 2012 Press Releases & Company News" />
-<meta name="twitter:description" content="Click here for Neustar's press release archives from the year 2012. Also find media kit download and PR contact info" />
-<meta name="twitter:image" content="https://ns-cdn.neustar.biz/creative_services/biz/neustar/www/base/img/neustar-logo.jpg" />
-<meta name="og:title" content="Neustar | 2012 Press Releases & Company News" />
-<meta name="og:type" content="article" />
-<meta name="og:url" content="https://www.neustar.biz/about-us/news-room/press-releases" />
-<meta name="og:image" content="https://ns-cdn.neustar.biz/creative_services/biz/neustar/www/base/img/neustar-logo.jpg" />
-<meta name="og:description" content="Click here for Neustar's press release archives from the year 2012. Also find media kit download and PR contact info" />
-<meta name="og:site_name" content="Neustar" />
+<meta name="description" content="Click here for Neustar's press release archives from the year 2012. Also find media kit download and PR contact info" >
+<meta name="keywords" content="" >
+<meta name="twitter:title" content="Neustar | 2012 Press Releases &amp; Company News" >
+<meta name="twitter:description" content="Click here for Neustar's press release archives from the year 2012. Also find media kit download and PR contact info" >
+<meta name="twitter:site" content="@Neustar" >
+<meta name="twitter:image" content="https://ns-cdn.neustar.biz/creative_services/biz/neustar/www/base/img/neustar-logo.jpg" >
+<meta name="og:title" content="Neustar | 2012 Press Releases &amp; Company News" >
+<meta name="og:url" content="https://www.neustar.biz/about-us/news-room/press-releases" >
+<meta name="og:description" content="Click here for Neustar's press release archives from the year 2012. Also find media kit download and PR contact info" >
+<meta name="og:type" content="article" >
+<meta name="og:image" content="https://ns-cdn.neustar.biz/creative_services/biz/neustar/www/base/img/neustar-logo.jpg" >
+<meta name="og:site_name" content="Neustar" ><link href="https://www.neustar.biz/about-us/news-room/press-releases/2012" rel="canonical" >
 <link href="https://ns-cdn.neustar.biz/biz/neustar/base/css/_min/ns2014_min.css" media="screen" rel="stylesheet" type="text/css" >
 <link href="/base/css/print.css" media="print" rel="stylesheet" type="text/css" >
 <link href="/base/css/tools.css" media="screen" rel="stylesheet" type="text/css" >
@@ -127,7 +138,7 @@ if (typeof(description) !== "undefined")
 		<li><a href="https://www.tcpacompliance.us/dnclogin/login.fcc?TYPE=33554433&amp;REALMOID=06-0f0eed20-153a-101a-bd47-84f27bf20cb3&amp;GUID=&amp;SMAUTHREASON=0&amp;METHOD=GET&amp;SMAGENTNAME=-SM-BiHDoqhCW09iwKH%2fWIUAY6djZe6F9of6%2fKm6RSUTYeaFnRv2uuBHjci%2f%2fQ4h2upL&amp;TARGET=-SM-http%3a%2f%2fwww%2etcpacompliance%2eus%2fdnc%2fprivate%2fcommon%2flogin%2edo " id="gtm.sitew.tcpa" target="_blank">TCPA Compliance</a></li>
 	</ul>
 	</li>
-	<li class="link"><a href="https://hello.neustar.biz/main-request-info.html" id="gtm.sitew.contactUs" target="_blank">Contact Sales</a></li>
+	<li class="link"><a href="https://hello.neustar.biz/main-request-info.html" id="gtm-sitew-contactUs" target="_blank">Contact Sales</a></li>
 	<li class="link"><a href="/support" id="gtm.sitew.support">Support</a></li>
 </ul>
         </div>
@@ -516,6 +527,62 @@ Email: <a href="mailto:PR@neustar.biz">PR@neustar.biz</a></p>
 </div>
 </section>
 </footer>
+<script type="text/javascript">
+$(document).ready(function() {
+	// for modal view of screens
+	$('.salestrigger').click(function() {
+		$('#rfiModal').fadeIn(250);
+		$('.modalbg').fadeIn(250);
+		return false;
+	});
+	$('.close').click(function() {
+		$('.modal').fadeOut(500);
+		$('.modalbg').fadeOut(500);
+	});
+	$('.modalbg').click(function() {
+		$(this).fadeOut(500);
+		$('.modal').fadeOut(500);
+	});
+});
+$(document).keyup(function(e) { 
+    if (e.keyCode == 27) { 
+		$("#rfiModal").fadeOut(500);
+		$('.modalbg').fadeOut(500);
+    } 
+});
+</script>
+
+<div class="modalbg" style="display: none;">&nbsp;</div>
+
+<div class="modal rnd" id="rfiModal" style="display:none;">
+<div class="close rnd">x</div>
+
+<h2>Contact Sales</h2>
+<script src="//app-sjh.marketo.com/js/forms2/js/forms2.min.js"></script>
+
+<form id="mktoForm_1803">&nbsp;</form>
+<script>
+		MktoForms2.loadForm("//app-sjh.marketo.com", "401-EDD-684", 1803, function(form) {
+			//Add an onSuccess handler
+  			form.onSuccess(function(values, followUpUrl) {
+				form.getFormElem().hide();
+				document.getElementById('confirmform').style.visibility = 'visible';
+				document.getElementById('rfiModal').style.height = '230px';
+				window['optimizely'] = window['optimizely'] || [];
+				window.optimizely.push(['trackEvent', 'rfiFormSubmit']);
+				return false;
+			});
+		});
+	</script><script>MktoForms2.whenReady(function (form){Neustar.visitorDataFormPopulator.populate();});</script>
+
+<div id="confirmform" style="visibility:hidden;">
+<h3>Thank You</h3>
+
+<p>Your request was submitted. A Neustar representative will contact you.</p>
+
+<p class="align-center"><span class="btn close">Close Window</span></p>
+</div>
+</div>
 <aside class="mobileNav" id="mobileNav">
 <div id="mNavContainer">
 <ul>

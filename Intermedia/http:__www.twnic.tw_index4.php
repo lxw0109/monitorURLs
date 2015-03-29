@@ -432,11 +432,11 @@ MM_reloadPage(true);
                                 <tr> 
                                   <td valign="top" width="22">
             <tr><td></td><td>[公告]</td><td></td></tr><tr><td><img src="http://www.twnic.net.tw/img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="/NEWS/2211.pdf" target="_blank">
+ICANN 更新發放二字元ASCII Labels之授權程序</a>(2015-03-27)</td></tr>
+<tr><td><img src="http://www.twnic.net.tw/img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="/NEWS/2132.pdf" target="_blank">
 TWNIC徵才公告</a>(2014-12-24)</td></tr>
-<tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="http://www.seminar2015.twnic.tw " target="_blank">
-2015網際網路趨勢研討會  歡迎踴躍報名</a>(2015-03-02)</td></tr>
  
             <? system("perl ./news.cgi"); ?> 
                                   </td>
