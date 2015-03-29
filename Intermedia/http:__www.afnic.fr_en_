@@ -523,7 +523,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="177c4bbc01ecca704da9624eaffc86af" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="5f95aa371772f92d793ef02ded8dabfb" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>

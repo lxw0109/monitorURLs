@@ -83,10 +83,10 @@ def sendEmail(subject, content):
 
         #fromAddr = "monitorURL@foxmail.com"
         fromAddr = "liuxiaowei@cnnic.cn"
-        #toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn"]
-        toAddrs = ["lxwin@foxmail.com", "liuxiaowei@cnnic.cn"]
-        #ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn"]
-        ccAddrs = ["lxwin@foxmail.com"]
+        toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn"]
+        #toAddrs = ["lxwin@foxmail.com", "liuxiaowei@cnnic.cn"]
+        ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn"]
+        #ccAddrs = ["lxwin@foxmail.com"]
 
         message = Message()
         message["Subject"] = subject
@@ -186,37 +186,46 @@ def diff2Str(filename, sourceCode):
         length = len(list2)
         for index in xrange(length):
             list2[index] = list2[index].strip()
-        list1 = filter(list1)
-        list2 = filter(list2)
+
+        #pick out the specific(title) elements ahead of diff.
+        #list1 = pickA(list1)
+        #list2 = pickA(list2)
+
+        #Work Flow: diff -> filter -> pick -> uniq -> sort
 
         #Both methods below are OK.
         #1:
         #d = difflib.Differ()
         #res = list(d.compare(list1, list2))
         #2:
-        res = list(difflib.ndiff(list1, list2))
+        diffList = list(difflib.ndiff(list1, list2))
 
-        resList = []
+        length = len(diffList)
+        filterList = []
+        #Filter the lines that are identical and meaningless.
+        #Why put this code block in front of pickB()? I think pickB() cost a lot of time, so I try to reduce the work load of pickB().
+        for index in xrange(length):
+            if diffList[index].startswith(" "):      # ignore the lines that are identical.
+                pass
+            elif diffList[index].startswith("?"):    # ignore the lines that start with "?"
+                pass
+            elif len(diffList[index].strip()) < 2:   # delete the lines that is meaningless
+                pass
+            else:
+                filterList.append(diffList[index])
 
+        #filterList: only +/- exists.
+        #pick out the specific(title) elements behind of diff.
+        specList = pickB(filterList)
+
+        #uniq should be always behind pick(pickA & pickB).
+        #uniq:
         #remove the duplicate elements in res.
         #The reason to remove the duplicates is that sometimes the same content is represented by more than one objects.
         #For example, the same piece of news is represented by both a link and a img and a text string.
         #So, In this case we don't need to notify all of these differences, we just need to pick any one of them.
-        [resList.append(item) for item in res if not item in resList]
-
-        length = len(resList)
         finList = []
-
-        #Filter the lines that are identical and meaningless.
-        for index in xrange(length):
-            if resList[index].startswith(" "):      # ignore the lines that are identical.
-                pass
-            elif resList[index].startswith("?"):    # ignore the lines that start with "?"
-                pass
-            elif len(resList[index].strip()) < 1:   # delete the lines that is meaningless
-                pass
-            else:
-                finList.append(resList[index])
+        [finList.append(item) for item in specList if not item in finList]
 
         #Sort the result:
         #The content added shows at front, content removed follows behind.
@@ -231,9 +240,9 @@ def diff2Str(filename, sourceCode):
         return []
 
 
-def filter(aList):
+def pickA(aList):
     """
-    filter aList to ignore the information that's not important.
+    deal with aList to ignore the information that's not important(pick out the specific elements).
     """
     resList = []
     try:
@@ -243,17 +252,49 @@ def filter(aList):
             if index1 >= 0:  #contain
                 index2 = item[index1+7:].find("\"")
                 if index2 != -1:
-                    string = item[index1+7:index1+7+index2]
+                    string = item[index1+7:index1+7+index2].strip()
                     if string != "":
                         resList.append(string)
             elif index3 >= 0:
                 index4 = item[index3+7:].find("'")
                 if index4 != -1:
-                    string = item[index3+7:index3+7+index4]
+                    string = item[index3+7:index3+7+index4].strip()
                     if string != "":
                         resList.append(string)
     except Exception, e:
-        writeLog("lxw_filter ERROR", "", traceback.format_exc())
+        writeLog("lxw_pickA ERROR", "", traceback.format_exc())
+
+    return resList
+
+
+def pickB(aList):
+    """
+    deal with aList to ignore the information that's not important(pick out the specific elements).
+    NOTE: the differences between pickA() and pickB() is that elements in pickB all start with +/-.
+    """
+    resList = []
+    try:
+        for item in aList:
+            if item[0] != "-" and item[0] != "+":
+                writeLog("lxw_NOTE: this should not happen.", item, "all should begin with +/-")
+                continue
+
+            index1 = item.find("title=\"")
+            index3 = item.find("title='")
+            if index1 >= 0:  #contain
+                index2 = item[index1+7:].find("\"")
+                if index2 != -1:
+                    string = item[index1+7:index1+7+index2].strip()
+                    if string != "":
+                        resList.append(item[0] + string)
+            elif index3 >= 0:
+                index4 = item[index3+7:].find("'")
+                if index4 != -1:
+                    string = item[index3+7:index3+7+index4].strip()
+                    if string != "":
+                        resList.append(item[0] + string)
+    except Exception, e:
+        writeLog("lxw_pickB ERROR", "", traceback.format_exc())
 
     return resList
 
@@ -358,9 +399,12 @@ def test():
     writeData("stdSize(210913): {0}. to monitorLog.-------6\n".format(stdSize(210913)))
     #getLengthMd5()
     writeData("getLengthMd5(): {0}. to monitorLog.----------7\n".format(getLengthMd5("Hello, this is a test.")))
-    #filter()
-    aList = ["title=\"0 \"", "<>meaningless<>information<> title=\"1 \"", "title=", "title=' 2 '", "title", "", "test str"]
-    writeData("filter(): {0}. to monitorLog.---------------8\n".format(filter(aList)))
+    #pickA()
+    aList = ["title=\"0 \"", "<>meaningless<>information<> title=\"1 \"", "title=", "title=' 2 '", "title", "test str"]
+    writeData("pickA(): {0}. to monitorLog.---------------8\n".format(pickA(aList)))
+    #pickB()
+    aList = ["-title=\"0 \"", "-<>meaningless<>information<> title=\"1 \"", "title=\"0\"", "+title=' 2 '", "-title", "+test str"]
+    writeData("pickB(): {0}. to monitorLog.---------------9\n".format(pickB(aList)))
     #eachCriterion() to criterion
     urls = ["baidu.com", "www.baidu.com", "http://www.baidu.com", "https://www.baidu.com"]
     for url in urls:
@@ -370,7 +414,7 @@ def test():
     #getEmailContent()  # test alone
     #diff2Str() # test alone
     #recordInFile() #test alone
-    writeLog("test myUtils.py---------------------------9", "FINISHED", "")
+    writeLog("test myUtils.py---------------------------10", "FINISHED", "")
 
 
 if __name__ == '__main__':

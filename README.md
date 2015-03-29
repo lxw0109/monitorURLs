@@ -142,9 +142,9 @@ If one url costs too much time and does not stop before the time we can wait(1 m
 
 
 ###Todos:
+1. Use database for data storage.
 2. set a flag to control get the source code of the urls from the urlopen or from the Intermedia_new.
 NOTE: you should control the criterion as the same time.
 This means that I can compare the history datas(last 2 times), don't have to be the newest.
 3. Add test code to each file.
-4. Use database for data storage.
-5. PySpider: 1. QuickStart&Command Line P2 jQuery to select elements to be extracted.
+4. PySpider: 1. QuickStart&Command Line P2 jQuery to select elements to be extracted.
