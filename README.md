@@ -63,6 +63,36 @@ append the configuration like this(you can modify it as you wish):<br>
 9. accessErrorURLs:
 This file contains the URLs that were found to have access errors when monitored last time.
 
+###DATABASE:
+1. create database:
+create database monitorURL character set utf8;
+2. create 3 tables:
+criterion:<br>
+```
+create table criterion
+(
+    url varchar(200) not null primary key,
+    length int unsigned not null,
+    md5Str varchar(100) no null
+);
+```
+oldURLSC:<br>
+```
+create table oldURLSC
+(
+    url varchar(200) not null primary key,
+    sourceCode mediumtext not null
+);
+```
+newURLSC:<br>
+```
+create table newURLSC
+(
+    url varchar(200) not null primary key,
+    sourceCode mediumtext not null
+);
+```
+
 
 ###Feature Functions:
 1. Give the diff content:
@@ -70,6 +100,10 @@ Give the differences between the content of 2 monitoring.
 
 2. Update the accessErrorURLs:
 When url revives(access error ocurred last time, but not this time), remove it from the accessErrorURLs.<br>
+
+3. Limit the number of threads
+Considering that the number of urls to be monitored may be LARGE, the program limits the number of threads to 100 which means less than 100 urls being monitored at each moment. It does matter the time cost of the program, but I think it's OK(not too slow).
+
 
 ###Peformance:
 1. Time cost:
@@ -108,7 +142,6 @@ If one url costs too much time and does not stop before the time we can wait(1 m
 
 
 ###Todos:
-1. limit the number of threads.(semaphore)
 2. set a flag to control get the source code of the urls from the urlopen or from the Intermedia_new.
 NOTE: you should control the criterion as the same time.
 This means that I can compare the history datas(last 2 times), don't have to be the newest.

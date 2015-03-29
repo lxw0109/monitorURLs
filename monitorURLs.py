@@ -30,6 +30,7 @@ aeLock = threading.RLock()   # Access Error: Email Subject/Content RLock.
 uwLock = threading.RLock()   # Update Warning: Email Subject/Content RLock.
 nuodLock = threading.RLock()    # newUrlObjDic assignment RLock.
 
+THREADS_NUM = 100   # limit the number of threads
 
 class URL(object):
     """
@@ -152,7 +153,7 @@ def main():
                 break
             aeURLs.append(string)
 
-    # Just to calculate time, not for thred pool NOW.
+    threadingNum = threading.Semaphore(THREADS_NUM)
     threads = []
     urlCount = 0
     # monitor each url in urls file
@@ -162,13 +163,13 @@ def main():
             if not url:
                 break
             #Multiple Thread: Deal with "one url by one single thread".
-            mt = MyThread(monitor, (url,))
-            mt.start()
+            mt = MyThread(monitor, (url,), threadingNum)
+            #mt.start()
             threads.append(mt)
             urlCount += 1
 
-    #for thread in threads:
-    #    thread.join()
+    for thread in threads:
+        thread.start()
 
     while 1:
         over = True
@@ -203,6 +204,6 @@ if __name__ == '__main__':
     start = datetime.datetime.now()
     main()
     end = datetime.datetime.now()
-    myUtils.writeDate("Monitor Finished.   Monitor Time: {0}.   Time Cost: {1}'{2}\"\n{3}\n\n{3}\n".format(time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), (end-start).seconds//60, (end - start).seconds%60, "------"*13))
+    myUtils.writeData("Monitor Finished.   Monitor Time: {0}.   Time Cost: {1}'{2}\"\n{3}\n\n{3}\n".format(time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), (end-start).seconds//60, (end - start).seconds%60, "------"*13))
 else:
     myUtils.writeLog("", "", "Being imported as a module.")

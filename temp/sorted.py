@@ -5,10 +5,10 @@
 
 
 def main():
-    aList = ["-20", "+1", "-23", "-34","+30"]
-    print("aList:{}".format(aList))
+    aList = ["-20", "+1", "-23", "-34", "+30"]
+    print("aList:{0}".format(aList))
     bList = sorted(aList)
-    print("bList:{}".format(bList))
+    print("bList:{0}".format(bList))
 
 
 if __name__ == '__main__':

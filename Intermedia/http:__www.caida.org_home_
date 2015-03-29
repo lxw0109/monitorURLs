@@ -366,10 +366,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="/research/topology/as_core_network/2014/"><img title="This visualization represents macroscopic snapshots of IPv4 and IPv6 Internet topology samples captured in January 2014. For the IPv4 map, CAIDA collected data from 74 monitors located in 33 countries on 6 continents. For the IPv6 map, CAIDA collected data from 33 Ark monitors located in 21 countries on 6 continents." alt="" height="250" width="300" src="/research/topology/as_core_network/pics/2014/ascore-2014-jan-ipv4v6-standalone-300x250.png"></a>
+<a href="http://as-rank.caida.org/"><img title="We present the BETA version of AS Rank, CAIDA's ranking of Autonomous Systems (AS) (which approximately map to Internet Service Providers). This ranking is derived from topological data collected by CAIDA's Archipelago Measurement Infrastructure and Border Gateway Protocol (BGP) routing data collected by the Route Views Project and RIPE NCC. ASes are ranked by their customer cone size, which is the number of their direct and indirect customers. Note: We do not have data to rank ASes (ISPs) by traffic, revenue, users, or any other non-topological metric. " alt="" height="250" width="300" src="/images/asrank-relationshipgraph_300h250.png"></a>
 </div>
 <div class="captiontext">
-<a href="/research/topology/as_core_network/2014/">AS Core IPv4 + IPv6 (2014)</a>
+<a href="http://as-rank.caida.org/">AS Rank: Ranking of Autonomous Systems</a>
 </div>
 <hr>
 <div class="captiontext">

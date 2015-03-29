@@ -24,6 +24,7 @@ fileLock = threading.RLock()
 logLock = threading.RLock()
 
 aeLock = threading.RLock()
+THREADS_NUM = 100   # limit the number of threads
 
 def writeLog(tag, url, log):
     """
@@ -36,9 +37,9 @@ def writeLog(tag, url, log):
         logLock.release()
 
 
-def writeDate(content):
+def writeData(content):
     """
-    Write date into Log.
+    Write data into Log.
     """
     with open("./monitorLog", "a") as f:
         logLock.acquire()
@@ -54,6 +55,17 @@ def writeFile(url, length, md5Str):
         fileLock.acquire()
         f.write("{0},{1},{2}\n".format(url, length, md5Str))
         fileLock.release()
+
+
+def intoFile(url, sourceCode):
+    """
+    record the sourceCode of the url into the specific file.
+    """
+    url = url.replace("/", "_")
+
+    filename = "./test_" + url
+    with open(filename, "w") as f:
+        f.write(sourceCode + "\n")
 
 
 def sendEmail(subject, content):
@@ -95,7 +107,7 @@ def sendEmail(subject, content):
         sm.login(userName, password)
 
         sm.sendmail(fromAddr, toAddrs+ccAddrs, msg)
-        time.sleep(5)
+        #time.sleep(5)
         sm.quit()
     except Exception, e:
         writeLog("EMAIL SENDING ERROR", "", traceback.format_exc())
@@ -228,16 +240,18 @@ def filter(aList):
         for item in aList:
             index1 = item.find("title=\"")
             index3 = item.find("title='")
-            if index1 > 0:  #contain
+            if index1 >= 0:  #contain
                 index2 = item[index1+7:].find("\"")
-                string = item[index1+7:index1+7+index2]
-                if string != "":
-                    resList.append(string)
-            elif index3 > 0:
+                if index2 != -1:
+                    string = item[index1+7:index1+7+index2]
+                    if string != "":
+                        resList.append(string)
+            elif index3 >= 0:
                 index4 = item[index3+7:].find("'")
-                string = item[index3+7:index3+7+index4]
-                if string != "":
-                    resList.append(string)
+                if index4 != -1:
+                    string = item[index3+7:index3+7+index4]
+                    if string != "":
+                        resList.append(string)
     except Exception, e:
         writeLog("lxw_filter ERROR", "", traceback.format_exc())
 
@@ -248,8 +262,9 @@ def eachCriterion(url):
     """
     Create the criterion file. File format: url,length,md5.
     """
+    sourceCode = ""
     try:
-        sourceCode  = urllib2.urlopen(url).read()
+        sourceCode = urllib2.urlopen(url).read()
     except urllib2.HTTPError:
         try:
             #NOTE: some websites do not allow us to access them by this method, they check the userAgent information, so we forge it.
@@ -257,21 +272,23 @@ def eachCriterion(url):
             req = urllib2.Request(url=url, headers=headers)
             sourceCode  = urllib2.urlopen(req).read()
         except Exception, e:
-            writeLog("**Never show because never call.**Access Error", url, traceback.format_exc())
+            writeLog("Access Error", url, traceback.format_exc())
         else:
             length, md5Str = getLengthMd5(sourceCode)
             writeFile(url, length, md5Str)
 
     except Exception, e:
-        writeLog("**Never show because never call.**Access Error", url, traceback.format_exc())
+        writeLog("Access Error", url, traceback.format_exc())
     else:
         length, md5Str = getLengthMd5(sourceCode)
         writeFile(url, length, md5Str)
 
+    return sourceCode
+
 
 def recordInFile(url, sourceCode):
     """
-    record he sourceCode of the url into the specific file.
+    record the sourceCode of the url into the specific file.
     """
     url = url.replace("/", "_")
 
@@ -296,33 +313,64 @@ def initCriterion():
     """
     When first time to get criterion information of each url, call this method.
     """
-    #Just to calculate time, not for thred pool NOW.
+    threadingNum = threading.Semaphore(THREADS_NUM)
     threads = []
-
-    #Clear the whole content of the 2 files.
-    with open("./criterion", "w") as f:
-        with open("./monitorLog", "w") as f1:
-            pass
-
     with open("./urls") as f:
         while 1:
             url = f.readline().strip()
             if not url:
                 break
             #Multiple Thread: Deal with "each url by one single thread".
-            mt = MyThread(eachCriterion, (url,))
-            mt.start()
+            mt = MyThread(eachCriterion, (url,), threadingNum)
+            #mt.start()
             threads.append(mt)
 
     for thread in threads:
-        thread.join()
+        thread.start()
+
+    while 1:
+        over = True
+        for thread in threads:
+            if thread.isAlive():
+                if not thread.isTimedOut():     # not "Timed Out".
+                    over = False
+                else:
+                    myUtils.writeLog("lxw_Timed Out", thread.getURL(), "")
+        if over:
+            break
 
 
 def test():
     """
     Test each function in this file.
     """
-    pass
+    writeLog("test myUtils.py----------------------------0", "START", "")
+    #writeLog()
+    writeLog("writeLog() to monitorLog-------------------1", "", "")
+    #writeData()
+    writeData("writeData() to monitorLog------------------2\n")
+    #writeFile()
+    writeFile("writeFile() to criterion-------------------3\nurl", "length", "md5")
+    #sendEmail()
+    sendEmail("sendEmail() to lxwin@foxmail.com-----------4", "test-sendEmail_4")
+    sendEmail("sendEmail() to lxwin@foxmail.com.a\nb\nc---5", "test-sendEmail_5")
+    #stdSize()
+    writeData("stdSize(210913): {0}. to monitorLog.-------6\n".format(stdSize(210913)))
+    #getLengthMd5()
+    writeData("getLengthMd5(): {0}. to monitorLog.----------7\n".format(getLengthMd5("Hello, this is a test.")))
+    #filter()
+    aList = ["title=\"0 \"", "<>meaningless<>information<> title=\"1 \"", "title=", "title=' 2 '", "title", "", "test str"]
+    writeData("filter(): {0}. to monitorLog.---------------8\n".format(filter(aList)))
+    #eachCriterion() to criterion
+    urls = ["baidu.com", "www.baidu.com", "http://www.baidu.com", "https://www.baidu.com"]
+    for url in urls:
+        intoFile(url, eachCriterion(url))
+    #initCriterion()
+    initCriterion()
+    #getEmailContent()  # test alone
+    #diff2Str() # test alone
+    #recordInFile() #test alone
+    writeLog("test myUtils.py---------------------------9", "FINISHED", "")
 
 
 if __name__ == '__main__':

@@ -8,7 +8,7 @@ import threading
 import datetime
 
 class MyThread(threading.Thread):
-    def __init__(self, func, args, name=""):
+    def __init__(self, func, args, num, name=""):
         """
         if the subclass overrides the constructor, it must make sure to
         invoke the base class constructor (Thread.__init__()) before
@@ -19,7 +19,8 @@ class MyThread(threading.Thread):
         self.args = args
         self.name = name
         self.startTime = datetime.datetime.now()
-        self.url = ""
+        self.threadingNum = num
+        self.url = self.args[0]
 
 
     def isTimedOut(self):
@@ -34,6 +35,7 @@ class MyThread(threading.Thread):
             return False
 
 
+    #NO_USE
     def getURL(self):
         """
         get the url that the thread monitor
@@ -46,6 +48,6 @@ class MyThread(threading.Thread):
 
 
     def run(self):
-        self.startTime = datetime.datetime.now()
-        self.url = self.args[0]
-        self.res = apply(self.func, self.args)
+        with self.threadingNum:
+            self.startTime = datetime.datetime.now()
+            self.res = apply(self.func, self.args)
