@@ -366,10 +366,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="/research/topology/hiddenmetricspaces/"><img title="We explore common properties of complex networks in order to find a general mechanism that would support a structural model of the network explaining the connection between network structure and function. Our proposed mechanism relies on the presence of a metric space hidden behind an observable network, referred to as the Hidden Metric Space (HMS). " alt="" height="250" width="300" src="/images/hiddenmetricspace_med.png"></a>
+<a href="/research/id-consumption/census-map/"><img title="A visualization of IPv4 address space. Using the results of a census taken by the LANDER project that probed every IPv4 address with an ICMP echo request (ping) packet, and mapping 1-dimensional IPv4 address space into a 2-dimensional image, the resultant census map can give some indication of how the Internet's IPv4 address space is being used." alt="" height="250" width="300" src="/research/id-consumption/census-map/images/20061108_med.png"></a>
 </div>
 <div class="captiontext">
-<a href="/research/topology/hiddenmetricspaces/">Hidden Metric Spaces</a>
+<a href="/research/id-consumption/census-map/">IPv4 Census Map (2007)</a>
 </div>
 <hr>
 <div class="captiontext">

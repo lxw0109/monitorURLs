@@ -51,7 +51,7 @@ def writeFile(url, length, md5Str):
     """
     Write into criterion File.
     """
-    with open("./criterion", "a") as f:
+    with open("./criterion_new", "a") as f:
         fileLock.acquire()
         f.write("{0},{1},{2}\n".format(url, length, md5Str))
         fileLock.release()
@@ -83,10 +83,10 @@ def sendEmail(subject, content):
 
         #fromAddr = "monitorURL@foxmail.com"
         fromAddr = "liuxiaowei@cnnic.cn"
-        toAddrs = ["chenyong@cnnic.cn", "lab_student@cnnic.cn"]
-        #toAddrs = ["lxwin@foxmail.com", "liuxiaowei@cnnic.cn"]
-        ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn"]
-        #ccAddrs = ["lxwin@foxmail.com"]
+        #toAddrs = ["chenyong@cnnic.cn", "liuxiaowei@cnnic.cn"]
+        toAddrs = ["lxwin@foxmail.com", "liuxiaowei@cnnic.cn"]
+        #ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn"]
+        ccAddrs = ["lxwin@foxmail.com"]
 
         message = Message()
         message["Subject"] = subject
@@ -94,7 +94,7 @@ def sendEmail(subject, content):
         message["To"] = ";".join(toAddrs)
         #Copy to
         #message["CC"] is only for display, to send the email we must specify it in the method "SMTP.sendmail".
-        message["CC"] = "gengguanggang@cnnic.cn;yanzhiwei@cnnic.cn"
+        #message["CC"] = "gengguanggang@cnnic.cn;yanzhiwei@cnnic.cn"
         message.set_payload(content)
         message.set_charset("utf-8")
         msg = message.as_string()
@@ -157,6 +157,44 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
     return content
 
 
+def getEmailContent_stale(url, oldUrlObj, newUrlObj):
+    """
+    Get the Email content if URL updates, or nothing if not.
+    if length or md5 changes, then diff the source code.
+    """
+    content = ""
+    filename = "./Intermedia/" + url.replace("/", "_")
+    filenameNew = "./Intermedia_new/" + url.replace("/", "_")
+    checkTime = time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time()))
+    try:
+        if newUrlObj.getLength() < oldUrlObj.getLength():
+            conList = diff2Str_stale(filename, filenameNew)
+            if conList != []:
+                content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息减少(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, stdSize(oldUrlObj.getLength()), stdSize(newUrlObj.getLength()))
+                for item in conList:
+                    content += item + "\n"
+                content += "\n"
+        elif newUrlObj.getLength() > oldUrlObj.getLength():
+            conList = diff2Str_stale(filename, filenameNew)
+            if conList != []:
+                content = "URL: {0}\n检测时间: {1}\n检测结果:检测到网站首页信息增加(上次检测{2},本次检测{3})，具体差异如下:\n".format(url, checkTime, stdSize(oldUrlObj.getLength()), stdSize(newUrlObj.getLength()))
+                for item in conList:
+                    content += item + "\n"
+                content += "\n"
+        elif oldUrlObj.getMD5Str() != newUrlObj.getMD5Str():
+            conList = diff2Str_stale(filename, filenameNew)
+            if conList != []:
+                content = "URL: {0}\n检测时间: {1}\n检测结果: 检测到网站首页信息更新，具体差异如下:\n".format(url, checkTime)
+                for item in conList:
+                    content += item + "\n"
+                content += "\n"
+
+    except Exception, e:
+        writeLog("lxw_Exception.", "", traceback.format_exc())
+
+    return content
+
+
 def stdSize(length):
     """
     standardize the size of the specified file.
@@ -198,6 +236,70 @@ def diff2Str(filename, sourceCode):
         #d = difflib.Differ()
         #res = list(d.compare(list1, list2))
         #2:
+        diffList = list(difflib.ndiff(list1, list2))
+
+        length = len(diffList)
+        filterList = []
+        #Filter the lines that are identical and meaningless.
+        #Why put this code block in front of pickB()? I think pickB() cost a lot of time, so I try to reduce the work load of pickB().
+        for index in xrange(length):
+            if diffList[index].startswith(" "):      # ignore the lines that are identical.
+                pass
+            elif diffList[index].startswith("?"):    # ignore the lines that start with "?"
+                pass
+            elif len(diffList[index].strip()) < 2:   # delete the lines that is meaningless
+                pass
+            else:
+                filterList.append(diffList[index])
+
+        #filterList: only +/- exists.
+        #pick out the specific(title) elements behind of diff.
+        specList = pickB(filterList)
+
+        #uniq should be always behind pick(pickA & pickB).
+        #uniq:
+        #remove the duplicate elements in res.
+        #The reason to remove the duplicates is that sometimes the same content is represented by more than one objects.
+        #For example, the same piece of news is represented by both a link and a img and a text string.
+        #So, In this case we don't need to notify all of these differences, we just need to pick any one of them.
+        finList = []
+        [finList.append(item) for item in specList if not item in finList]
+
+        #Sort the result:
+        #The content added shows at front, content removed follows behind.
+        return sorted(finList)
+
+    except IOError, e:
+        writeLog("lxw_IOERROR Occurred(File not found, url revives now.)", "", traceback.format_exc())
+        return []
+
+    except Exception, e:
+        writeLog("lxw_ERROR", "", traceback.format_exc())
+        return []
+
+
+def diff2Str_stale(filename, filenameNew):
+    """
+    diff the content of "filename" and "filenameNew".
+    """
+    try:
+        list1 = []
+        with open(filename) as f:
+            while 1:
+                string = f.readline()
+                if not string:
+                    break
+                list1.append(string.strip())
+
+        list2 = []
+        with open(filenameNew) as f:
+            while 1:
+                string = f.readline()
+                if not string:
+                    break
+                list2.append(string.strip())
+
+        #Work Flow: diff -> filter -> pick -> uniq -> sort
         diffList = list(difflib.ndiff(list1, list2))
 
         length = len(diffList)

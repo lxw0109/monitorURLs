@@ -2,7 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="title" content="Registry of .fr, .re, .yt, .tf, .pm and .wf TLD / Registry solutions - AFNIC" />
+    <meta name="twitter:dnt" content="on" />
+<meta name="title" content="Registry of .fr, .re, .yt, .tf, .pm and .wf TLD / Registry solutions - AFNIC" />
 <meta name="description" content="Afnic is the registry for domain names in .fr (France), .re (Reunion Island), .pm (St. Pierre and Miquelon), .yt (Mayotte), .wf (Wallis and Futuna) and .tf (French Southern Territories)" />
     <title>Registry of .fr, .re, .yt, .tf, .pm and .wf TLD / Registry solutions - AFNIC</title>
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -222,7 +223,7 @@
                   							                    									 <li><a href="/en/about-afnic/presentation/afnic-assignments-strategic-priorities-2012-2015.html">AFNIC assignments &amp; strategic priorities 2012 - 2015</a></li>
                   							                    									 <li><a href="/en/about-afnic/presentation/our-values.html">Our values</a></li>
                   							                    									 <li><a href="/en/about-afnic/presentation/afnic-key-dates-3.html">AFNIC key dates</a></li>
-                  							                    									 <li><a href="/en/about-afnic/presentation/our-team-39.html">Our team</a></li>
+                  							                    									 <li><a href="/en/about-afnic/presentation/our-team-40.html">Our team</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/about-afnic/presentation/members/">Members</a></li>
                   								                    								                  							</ul>
@@ -449,6 +450,11 @@
         <td><input type="password" name="password"/></td>
       </tr>
       <tr>
+        <td colspan="2">
+                    <p class="alignCenter"><strong>From 30/03, access<br/><a href="http://extranet.nic.fr">your new Extranet (beta)</a></strong></p>
+        	</td>
+      </tr>
+      <tr>
         <td class="alignCenter" colspan="2"><input type="submit" name="" value="Connexion" /></td>
       </tr>
     </table>
@@ -501,9 +507,6 @@
           <div class="homepage_header">
               <div class="homeBanner">        <div style="position: relative;width: 705px; height: 320px"> 
             <div  class="slideshow theatre theatre-fade" >
-                                    <a href="https://www.afnic.fr/en/about-afnic/news/general-news/8744/show/short-fr-domain-names-phase-2-opening-to-the-general-public-on-02-16-2015.html" title="animation">
-                        <img src="/uploads/animations/front/8cdd0ecb552d0dbd17d1f711b9462131f25fe276.jpg" alt="" />
-                    </a>
                                     <a href="http://www.réussir-en.fr/" title="animation">
                         <img src="/uploads/animations/front/0fa86e06ae83d16a437893189bad2b7875339880.jpg" alt="" />
                     </a>
@@ -516,6 +519,9 @@
                                     <a href="http://www.pik.bzh" title="animation">
                         <img src="/uploads/animations/front/214293ec7ea5e10cc668283253ab65d072901ee9.jpg" alt="" />
                     </a>
+                                    <a href="http://www.afnic.fr/en/resources/blog/" title="animation">
+                        <img src="/uploads/animations/front/86b7069b96c7c3bf93e0c588a35998e37e26aa39.jpg" alt="" />
+                    </a>
                             </div>
         </div>
         <ul class="imgPager" id="imgPager"><li><a class="jump" title="jump">{#}</a></li></ul> 
@@ -523,7 +529,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="5f95aa371772f92d793ef02ded8dabfb" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="9f8309d53e9ab308639369ad5977dd59" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -577,62 +583,16 @@
 
         
 <div class="mainContentHomeLeft">
-    <div class="profile">
-        <img src="/images/portal/layout/home_profile_bkg.png" alt="profile" />
-        <h4><span>You are :</span></h4>
+    
+    
+                        <div class="profile">
+    <img src="/images/portal/layout/home_profile_bkg.png" alt="profile" />
+    <h4><span>You are :</span></h4>
 
-        <div id="profileContent">
-                            <h3><span>A registrar</span></h3>
-                <div>
-                    <ul class="navigation_link">
-			                    
-		                    			<li>- <a href="/en/my-afnic/my-products/" title="Manage my products">Manage my products</a></li>
-                    			
-			                    
-		                    			<li>- <a href="/en/products-and-services/" title="Know more about our products">Know more about our products</a></li>
-                    			
-			                    
-		                    			<li>- <a href="/en/products-and-services/the-fr-tld/become-a-registrar/" title="Become registrar and sell domain names">Become registrar and sell domain names</a></li>
-                    			
-			                    
-		                    			<li>- <a href="/en/about-afnic/news/operations-news/" title="Read the operations news">Read the operations news</a></li>
-                    			
-			                    
-		                                            <li>- <a href="/en/products-and-services/services/dnssec-11.html" title="Secure your domain names with DNSSEC">Secure your domain names with DNSSEC</a></li>
-                    			
-	</ul>
-                </div>
-                            <h3><span>A right owner</span></h3>
-                <div>
-                    <ul class="navigation_link">
-			                    
-		                    			<li>- <a href="/en/dispute-resolution/" title="Domain Name Dispute resolution">Domain Name Dispute resolution</a></li>
-                    			
-			                    
-		                    			<li>- <a href="/en/dispute-resolution/tools-and-procedures/" title="Tools and procedures">Tools and procedures</a></li>
-                    			
-			                    
-					<li>- <a target="_blank" href="https://www.syreli.fr/" title="Access to Syreli">Access to Syreli</a></li>
-			
-			                    
-		                    			<li>- <a href="/en/resources/reference/" title="See the reference documents">See the reference documents</a></li>
-                    			
-	</ul>
-                </div>
-                            <h3><span>A member of the association</span></h3>
-                <div>
-                    <ul class="navigation_link">
-			                    
-		                    			<li>- <a href="/en/my-afnic/my-documents/member-services/" title="Read my documents">Read my documents</a></li>
-                    			
-			                    
-		                    			<li>- <a href="/en/about-afnic/calendar/" title="Check out the agenda">Check out the agenda</a></li>
-                    			
-	</ul>
-                </div>
-                            <h3><span>A domain name holder</span></h3>
-                <div>
-                    <ul class="navigation_link">
+    <div id="profileContent">
+                    <h3><span>A domain name holder</span></h3>
+            <div>
+                <ul class="navigation_link">
 			                    
 		                    			<li>- <a href="/en/products-and-services/the-fr-tld/" title="Discover the .fr!">Discover the .fr!</a></li>
                     			
@@ -649,11 +609,59 @@
 		                    			<li>- <a href="/en/about-afnic/organisation/" title="Become a member of the association!">Become a member of the association!</a></li>
                     			
 	</ul>
-                </div>
-                    </div>
-
-    </div>
-
+            </div>
+                    <h3><span>A right owner</span></h3>
+            <div>
+                <ul class="navigation_link">
+			                    
+		                    			<li>- <a href="/en/dispute-resolution/" title="Domain Name Dispute resolution">Domain Name Dispute resolution</a></li>
+                    			
+			                    
+		                    			<li>- <a href="/en/dispute-resolution/tools-and-procedures/" title="Tools and procedures">Tools and procedures</a></li>
+                    			
+			                    
+					<li>- <a target="_blank" href="https://www.syreli.fr/" title="Access to Syreli">Access to Syreli</a></li>
+			
+			                    
+		                    			<li>- <a href="/en/resources/reference/" title="See the reference documents">See the reference documents</a></li>
+                    			
+	</ul>
+            </div>
+                    <h3><span>A registrar</span></h3>
+            <div>
+                <ul class="navigation_link">
+			                    
+		                    			<li>- <a href="/en/my-afnic/my-products/" title="Manage my products">Manage my products</a></li>
+                    			
+			                    
+		                    			<li>- <a href="/en/products-and-services/" title="Know more about our products">Know more about our products</a></li>
+                    			
+			                    
+		                    			<li>- <a href="/en/products-and-services/the-fr-tld/become-a-registrar/" title="Become registrar and sell domain names">Become registrar and sell domain names</a></li>
+                    			
+			                    
+		                    			<li>- <a href="/en/about-afnic/news/operations-news/" title="Read the operations news">Read the operations news</a></li>
+                    			
+			                    
+		                                            <li>- <a href="/en/products-and-services/services/dnssec-11.html" title="Secure your domain names with DNSSEC">Secure your domain names with DNSSEC</a></li>
+                    			
+	</ul>
+            </div>
+                    <h3><span>A member of the association</span></h3>
+            <div>
+                <ul class="navigation_link">
+			                    
+		                    			<li>- <a href="/en/my-afnic/my-documents/member-services/" title="Read my documents">Read my documents</a></li>
+                    			
+			                    
+		                    			<li>- <a href="/en/about-afnic/calendar/" title="Check out the agenda">Check out the agenda</a></li>
+                    			
+	</ul>
+            </div>
+            </div>
+</div>
+        
+    
 </div>
 
 
@@ -689,6 +697,9 @@
       <span class="content"><a href="/en/about-afnic/news/general-news/8784/show/2014-year-zero-for-ntlds.html">The February 2015 edition of the Afnic Industry Report on Domain Names reviews the launch of the new Internet Top Level Domains.</a></span>
     </li>
      </ul>
+    <div class="mainContent" style="padding:0">
+        <ul><li><a href="/en/about-afnic/news/general-news/">See all news</a></li></ul>
+    </div>
 </div>
 <div class="clear"></div>
 
@@ -703,32 +714,32 @@
       
       
   
-  
-          <div class="bcBox separate">
-    <div style="text-align: center;"><a
+    
+                        <div class="bcBox separate">
+                <div style="text-align: center;"><a
  href="https://www.afnic.fr/en/about-afnic/contact/"><img
  onmouseover="Contact AFNIC"
  style="border: 0px solid ; width: 250px; height: 40px;"
  alt="Contact AFNIC"
- src="/medias/colonnedroite-contact-us.jpg"></img></a></div>    </div>
-    
-          <div class="bcBox separate">
-    <div style="text-align: center;"><a
+ src="/medias/colonnedroite-contact-us.jpg"></img></a></div>            </div>
+        
+                        <div class="bcBox separate">
+                <div style="text-align: center;"><a
  href="/en/resources/blog/"><img
  onmouseover="Le blog de l&#039;Afnic !"
  style="border: 0px solid ; width: 250px; height: 40px;"
  alt="Afnic Blog"
- src="/medias/colonnedroite-blog.jpg"></img></a></div>    </div>
-    
-          <div class="bcBox separate">
-    <a class="twitter-timeline"  href="https://twitter.com/AFNIC"  data-widget-id="314750944233521152">Tweets de @AFNIC</a>
+ src="/medias/colonnedroite-blog.jpg"></img></a></div>            </div>
+        
+                        <div class="bcBox separate">
+                <a class="twitter-timeline"  href="https://twitter.com/AFNIC"  data-widget-id="314750944233521152">Tweets de @AFNIC</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>
+            </div>
+        
+                        <div class="bcBox separate">
+                <img src="/medias/images/logo_TN_partenaire2015.jpg" width="250px">            </div>
+        
     
-          <div class="bcBox separate">
-    <img src="/medias/images/logo_TN_partenaire2015.jpg" width="250px">    </div>
-    
-  
  
   
 </div>              </div>
@@ -822,7 +833,7 @@
                   		                   			<span><a href="/en/about-afnic/presentation/afnic-assignments-strategic-priorities-2012-2015.html" >AFNIC assignments &amp; strategic priorities 2012 - 2015</a></span>
                   		                   			<span><a href="/en/about-afnic/presentation/our-values.html" >Our values</a></span>
                   		                   			<span><a href="/en/about-afnic/presentation/afnic-key-dates-3.html" >AFNIC key dates</a></span>
-                  		                   			<span><a href="/en/about-afnic/presentation/our-team-39.html" >Our team</a></span>
+                  		                   			<span><a href="/en/about-afnic/presentation/our-team-40.html" >Our team</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/about-afnic/organisation/">Organisation</a>
@@ -936,35 +947,26 @@
      
 </div>
 
-<div id="cookie-policy" style="display:none; color: white; font-size: 13px;">
+<div id="cookie-policy" style="display:none; color: white; font-size: 13px;padding-top: 5px; padding-bottom: 10px; background-color:rgb(34, 46, 68)">
     <div style="width:750px; margin-left: auto; margin-right: auto; font-size: 13px;">
         <div style="text-align: center; margin-top: 5px; color: white">
             <a style="float:right" id="disable-cookie-policy" href="#"><img src="/images/close.png"></a>
             By continuing your visit to this site, you accept the use of cookies in order to achieve statistical hearings and offer information, services and offers that meet to your interests.        </div>
-        <div style="text-align: center; margin-bottom: 10px;margin-top: 5px;font:11px/20px Arial"><a href="/en/terms-of-use/#cookies">Read more</a></div>
+        <div style="text-align: center;font:11px/20px Arial">
+            <a href="/en/terms-of-use/#cookies">Read more</a>&nbsp;
+            <a href="#" id="decline-cookies">Decline cookies</a>
+        </div>
     </div>
     <script type="text/javascript">
-        var name = "AFNIC_COOKIE_POLICY=";
+        var name = "AFNIC_COOKIE_POLICY";
         var cookiePolicyBlock = document.getElementById("cookie-policy");
-        var policyValue = getPolicyCookie(name);
+        var policyValue = $.cookie(name);
         var body = document.getElementsByTagName("body")[0];
-
-        function getPolicyCookie(name) {
-            var ca = document.cookie.split(";");
-            for(var i=0; i < ca.length; i++) {
-                var c = ca[i];
-                while (c.charAt(0)==" ") c = c.substring(1);
-                if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
-            }
-
-            return "";
-        }
 
         function enableCookieBlock() {
             body.insertBefore(cookiePolicyBlock, body.firstChild);
             cookiePolicyBlock.style.display = "inherit";
             body.style.backgroundPosition = "left 72px";
-            body.style.backgroundColor = "rgb(34,46,68)";
         }
 
         function disableCookieBlock() {
@@ -972,8 +974,14 @@
             body.style.backgroundPosition = "left 0";
         }
 
+        function setCookiePolicy(value) {
+            var d = new Date();
+            d.setTime(d.getTime() + 31536000000);
+            $.cookie(name, value, { expires: d, path: "/" });
+        }
+
         (function() {
-            if (policyValue) {
+            if (policyValue !== null) {
                 disableCookieBlock();
             } else {
                 enableCookieBlock();
@@ -981,10 +989,13 @@
 
             var disableLink = document.getElementById("disable-cookie-policy");
             disableLink.onclick = function() {
-                var d = new Date();
-                d.setTime(d.getTime() + 31536000000);
-                var expires = "expires=" + d.toUTCString();
-                document.cookie = name + "1; " + expires;
+                setCookiePolicy(1);
+                disableCookieBlock();
+            };
+
+            var declineLink = document.getElementById("decline-cookies");
+            declineLink.onclick = function() {
+                setCookiePolicy(0);
                 disableCookieBlock();
             }
         })();

@@ -89,7 +89,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-oG38Fha9kdkZEMhv6ZjlaEDxBqTV6TTv07UOhgfiSzw" value="form-oG38Fha9kdkZEMhv6ZjlaEDxBqTV6TTv07UOhgfiSzw"  />
+<input type="hidden" name="form_build_id" id="form-Fx_dgbn-j9rDY1QqYtopNYEuRNXTGqxezAnk_3o8PDI" value="form-Fx_dgbn-j9rDY1QqYtopNYEuRNXTGqxezAnk_3o8PDI"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 
@@ -446,6 +446,11 @@ width: 16.2em!important;
 					<img alt="dot Green Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotGreen.png" title="Afilias - dot Green Logo" /><img alt="dot Green Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotGreen1.png" title="Afilias - dot Green Logo" />
 				</a>
 			</div>
+<div>
+				<a href="http://get.poker/" class="gray-logo-hover" title="Dot Poker" target="_blank">
+					<img alt="dot Poker Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotPOKER.png" title="Afilias - dot Poker Logo" /><img alt="dot Poker Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotPOKER1.png" title="Afilias - dot Poker Logo" />
+				</a>
+			</div>
 			
 		</div>
 	</div>
@@ -563,13 +568,18 @@ width: 16.2em!important;
 				</a>
 			</div>
 			<div>
-				<a href="http://www.nic.porn/" class="gray-logo-hover" title="Porn" target="_blank">
+				<a href="http://www.nic.porn/" class="gray-logo-hover" title="Dot Porn" target="_blank">
 					<img alt="dot Porn Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotPORN.jpg" title="dot Porn Logo" /><img alt="dot Porn Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotPORN1.jpg" title="dot Porn Logo" />
 				</a>
 			</div>
 			<div>
-				<a href="http://www.nic.adult/" class="gray-logo-hover" title="Adult" target="_blank">
+				<a href="http://www.nic.adult/" class="gray-logo-hover" title="Dot Adult" target="_blank">
 					<img alt="dot Adult Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotADULT.jpg" title="dot Adult Logo" /><img alt="dot Adult Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotADULT1.jpg" title="dot Adult Logo" />
+				</a>
+			</div>
+<div>
+				<a href="http://www.nic.irish/" class="gray-logo-hover" title="Dot Irish" target="_blank">
+					<img alt="dot Irish Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotIRISH.jpg" title="dot Irish Logo" /><img alt="dot Irish Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotIRISH1.jpg" title="dot Irish Logo" />
 				</a>
 			</div>
 	</div>

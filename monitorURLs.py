@@ -12,6 +12,8 @@ import threading
 import datetime
 from MyThread.myThread import MyThread
 import myUtils
+import sys
+import traceback
 
 #Element format: url:length, md5)
 oldUrlObjDic = {}
@@ -124,12 +126,32 @@ def monitor(url):
         myUtils.recordInFile(url, sourceCode)
 
 
-def main():
+def process_stale(url):
     """
-    Monitor URLs.
+    change from monitor()
+    diff website source code using history data in Intermedia/ and Intermedia_new/.
+    Primarily use this method to reproduce the same dealing process TO DEBUG.
+    """
+    global uwLock, uwSubject, uwContent, uwCount
+    #lxw_NOTE:getEmailContent_stale() "thread safe"?
+    content = myUtils.getEmailContent_stale(url, oldUrlObjDic[url], newUrlObjDic[url])
+    if content:
+        uwLock.acquire()
+        if uwCount < 2:
+            uwSubject += " " + url
+        elif uwCount < 5:
+            uwSubject += "."
+        uwCount += 1
+        uwContent += content
+        uwLock.release()
+
+
+def main_fresh():
+    """
+    Monitor URLs using fresh data.
     """
     # set value for oldUrlObjDic dict.
-    with open("./criterion") as f:
+    with open("./criterion_new") as f:
         while 1:
             string = f.readline().strip()
             if not string:
@@ -167,7 +189,6 @@ def main():
             #mt.start()
             threads.append(mt)
             urlCount += 1
-
     for thread in threads:
         thread.start()
 
@@ -190,7 +211,7 @@ def main():
         myUtils.sendEmail(uwSubject, allContent)
 
     #Update Criterion file.
-    with open("./criterion", "w") as f:
+    with open("./criterion_new", "w") as f:
         for url in newUrlObjDic.keys():
             f.write("{0},{1},{2}\n".format(url, newUrlObjDic[url].length, newUrlObjDic[url].getMD5Str()))
 
@@ -200,10 +221,81 @@ def main():
             f.write(url + "\n")
 
 
+def main_stale():
+    """
+    Monitor URLs using stale data(history data).
+    Primarily use this method to reproduce the same dealing process TO DEBUG.
+    """
+    try:
+        # set value for oldUrlObjDic dict.
+        with open("./criterion") as f:
+            while 1:
+                string = f.readline().strip()
+                if not string:
+                    break
+                arr = string.split(",")
+                #URL Object Format: URL(length, md5)
+                oldUrlObjDic[arr[0]] = URL(int(arr[1]), arr[2])
+
+        # set value for newUrlObjDic dict.
+        with open("./criterion_new") as f:
+            while 1:
+                string = f.readline().strip()
+                if not string:
+                    break
+                arr = string.split(",")
+                #URL Object Format: URL(length, md5)
+                newUrlObjDic[arr[0]] = URL(int(arr[1]), arr[2])
+    except IOError, ioe:
+        myUtils.writeLog("lxw_IOError.", "", traceback.format_exc())
+
+    threadingNum = threading.Semaphore(THREADS_NUM)
+    threads = []
+
+    for url in newUrlObjDic.keys():
+        #Multiple Thread: Deal with "one url by one single thread".
+        mt = MyThread(process_stale, (url,), threadingNum)
+        threads.append(mt)
+
+    for thread in threads:
+        thread.start()
+
+    """
+    while 1:
+        over = True
+        for thread in threads:
+            if thread.isAlive():
+                if not thread.isTimedOut():     # not "Timed Out".
+                    over = False
+                else:
+                    myUtils.writeLog("lxw_Timed Out", thread.getURL(), "")
+        if over:
+            break
+    """
+    for thread in threads:
+        thread.join()
+
+    urlCount = len(newUrlObjDic)
+    if aeCount > 0:
+        allContent = "本次共监测网站{0}个, 其中有{1}个网站访问异常, 详细信息如下:\n\n{2}".format(urlCount, aeCount, aeContent)
+        myUtils.sendEmail(aeSubject, allContent)
+    if uwCount >0:
+        allContent = "本次共监测网站{0}个, 其中有{1}个网站监测到有更新, 详细信息如下:\n\n{2}".format(urlCount, uwCount, uwContent)
+        myUtils.sendEmail(uwSubject, allContent)
+
+
 if __name__ == '__main__':
     start = datetime.datetime.now()
-    main()
+
+    if len(sys.argv) < 2:
+        main_fresh()
+        #myUtils.writeData("len<2\t{0}\n".format(sys.argv))
+    elif sys.argv[1] == "debug":
+        main_stale()
+        #myUtils.writeData("len>=2\tlen:{0}\t{1}\n".format(len(sys.argv), sys.argv))
+
     end = datetime.datetime.now()
+
     myUtils.writeData("Monitor Finished.   Monitor Time: {0}.   Time Cost: {1}'{2}\"\n{3}\n\n{3}\n".format(time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), (end-start).seconds//60, (end - start).seconds%60, "------"*13))
 else:
     myUtils.writeLog("", "", "Being imported as a module.")

@@ -116,7 +116,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-w1Pl7vYJSaMHLVyDqdfMuKV7wpDQzaMUrOF3p4bQy3g" value="form-w1Pl7vYJSaMHLVyDqdfMuKV7wpDQzaMUrOF3p4bQy3g"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-5kxt3L21ybJDpxR5UGVvM5iq5S75jSjrQ_v62KKvduo" value="form-5kxt3L21ybJDpxR5UGVvM5iq5S75jSjrQ_v62KKvduo"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -133,7 +133,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-x9vDM1hodHTHy2xbg1IwRfjejduOh7-gY8OtI95oc9M" value="form-x9vDM1hodHTHy2xbg1IwRfjejduOh7-gY8OtI95oc9M"  />
+<input type="hidden" name="form_build_id" id="form-yVyURMANvJkmkL6yhs7mBr72zQ_prNJOnZd64hPKOas" value="form-yVyURMANvJkmkL6yhs7mBr72zQ_prNJOnZd64hPKOas"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -288,18 +288,17 @@ Ondrej will be standing for re-election.
 <p>
 Current open positions:
 <ul>
-<li>None at present
-</li></ul>
-</p><p>Later in 2015 OARC will be seeking a full-time Software Engineer.</p>
-<p>Candidates should submit a Resume/CV and any supporting documents by<br />
-email to <a href="mailto:jobs@dns-oarc.net">jobs@dns-oarc.net</a>.</p>
-<p>Keith Mitchell<br />
-OARC President</p>
+<h2 class="western"><font face="Arial, Helvetica, sans-serif"><font size="2" style="font-size: 11pt;">Software Engineer</font></font></h2>
+</ul>
+</p><p><body></body></p>
+<h2 class="western"><font face="Arial, Helvetica, sans-serif"><font size="2" style="font-size: 11pt;">Background:</font></font></h2>
   </div>
     <div class="info">
     Submitted by keith on Thu, 2014-07-17 20:38          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
 </ul> ]</span>
-          </div>
+              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/oarc/careers" title="Read the rest of Vacancies at DNS-OARC.">Read more</a></li>
+</ul> </span>
+      </div>
 </div>
 <div class="node  ">
         <h2><a href=" /wiki/dns-looking-glass-information " title=" DNS Looking Glass Information "> DNS Looking Glass Information </a></h2>

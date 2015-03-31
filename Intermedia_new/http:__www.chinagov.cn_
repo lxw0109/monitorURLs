@@ -392,15 +392,15 @@ A.bxx:hover {
 
   <LI><IMG alt=标题图片 src="./tpqh/201503/W020150309685217596674.jpg" width='320' height='223' /><a style="" href="./tpqh/201503/t20150309_272559.html" target="_blank"><span class='jiaodiantupian'>中央编办主任张纪南视察域名管理中心</span> </a>
 
+  <LI><IMG alt=标题图片 src="./tpqh/201503/W020150331341509621674.jpg" width='320' height='223' /><a style="" href="./tpqh/201503/t20150331_273702.html" target="_blank"><span class='jiaodiantupian'>第二期电子政务与信息化培训班顺利结束</span><img src="./images/newsconac.gif" /> </a>
+
+  <LI><IMG alt=标题图片 src="./tpqh/201503/W020150330561814680804.jpg" width='320' height='223' /><a style="" href="./tpqh/201503/t20150330_273658.html" target="_blank"><span class='jiaodiantupian'>我中心宋庆同志一行赴云南调研指导工作</span><img src="./images/newsconac.gif" /> </a>
+
+  <LI><IMG alt=标题图片 src="./tpqh/201503/W020150330497570958951.jpg" width='320' height='223' /><a style="" href="./tpqh/201503/t20150330_273638.html" target="_blank"><span class='jiaodiantupian'>法国现代中国研究中心中国互联网问题专...</span><img src="./images/newsconac.gif" /> </a>
+
   <LI><IMG alt=标题图片 src="./tpqh/201503/W020150313647351907975.jpg" width='320' height='223' /><a style="" href="./tpqh/201503/t20150313_272785.html" target="_blank"><span class='jiaodiantupian'>ICANN总裁全球战略高级顾问Theresa Swin...</span> </a>
 
   <LI><IMG alt=标题图片 src="./tpqh/201502/W020150215582464263636.jpg" width='320' height='223' /><a style="" href="./tpqh/201502/t20150215_271854.html" target="_blank"><span class='jiaodiantupian'>CONAC代表团参加ICANN第52届新加坡会议</span> </a>
-
-  <LI><IMG alt=标题图片 src="./tpqh/201411/W020141125342271613124.jpg" width='320' height='223' /><a style="" href="./tpqh/201411/t20141125_268348.html" target="_blank"><span class='jiaodiantupian'>CONAC精彩亮相首届国家网络安全宣传周  ...</span> </a>
-
-  <LI><IMG alt=标题图片 src="./tpqh/201411/W020141126389740012194.jpg" width='320' height='223' /><a style="" href="./tpqh/201411/t20141126_268442.html" target="_blank"><span class='jiaodiantupian'>CCTV：【朝闻天下】党政机关事业单位网...</span> </a>
-
-  <LI><IMG alt=标题图片 src="./tpqh/201411/W020141126370805138160.jpg" width='320' height='223' /><a style="" href="./tpqh/201411/t20141126_268435.html" target="_blank"><span class='jiaodiantupian'>CCTV：党政机关网站统一标识正式发布</span> </a>
 
   </UL><!--end 6459884-7153391-1--></DIV>
   
@@ -497,6 +497,18 @@ change_img();
 				var imgText = new Array();
 				var imgLink = new Array();
 				
+				imgLink.push('./tpqh/201503/t20150331_273702.html');
+				imgUrl.push('./tpqh/201503/W020150331341509621674.jpg');
+				imgText.push('第二期电子政务与信息化培训班顺利结束');
+				
+				imgLink.push('./tpqh/201503/t20150330_273658.html');
+				imgUrl.push('./tpqh/201503/W020150330561814680804.jpg');
+				imgText.push('我中心宋庆同志一行赴云南调研指导工作');
+				
+				imgLink.push('./tpqh/201503/t20150330_273638.html');
+				imgUrl.push('./tpqh/201503/W020150330497570958951.jpg');
+				imgText.push('法国现代中国研究中心中国互联网问题专...');
+				
 				imgLink.push('./tpqh/201503/t20150313_272785.html');
 				imgUrl.push('./tpqh/201503/W020150313647351907975.jpg');
 				imgText.push('ICANN总裁全球战略高级顾问Theresa Swin...');
@@ -504,18 +516,6 @@ change_img();
 				imgLink.push('./tpqh/201503/t20150309_272559.html');
 				imgUrl.push('./tpqh/201503/W020150309685217596674.jpg');
 				imgText.push('中央编办主任张纪南视察域名管理中心');
-				
-				imgLink.push('./tpqh/201502/t20150215_271854.html');
-				imgUrl.push('./tpqh/201502/W020150215582464263636.jpg');
-				imgText.push('CONAC代表团参加ICANN第52届新加坡会议');
-				
-				imgLink.push('./tpqh/201501/t20150112_270518.html');
-				imgUrl.push('');
-				imgText.push('首期电子政务与信息化培训班1月10日开班');
-				
-				imgLink.push('./tpqh/201412/t20141225_269891.html');
-				imgUrl.push('./tpqh/201412/W020141225584357989408.jpg');
-				imgText.push('CONAC国际事务专员当选NCUC新一届执行委...');
 				
 				var pics=imgUrl.join("|");
 				var links=imgLink.join("|");
@@ -544,6 +544,36 @@ change_img();
                                   <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
                                       <td width="5%" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
+                                      <td width="95%" align="left" valign="middle" class='lan12'><a href="./zxdt/201503/t20150331_273701.html" target="_blank" class='lan12'>第二期电子政务与信息化培训班顺利结束</a><img src="./images/newsconac.gif" /></td>
+                                    </tr>
+                                    <tr >
+                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
+                                    </tr>
+                              </table>
+                                
+                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                      <td width="5%" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
+                                      <td width="95%" align="left" valign="middle" class='lan12'><a href="./zxdt/201503/t20150330_273657.html" target="_blank" class='lan12'>我中心宋庆同志一行赴云南调研指导工作</a><img src="./images/newsconac.gif" /></td>
+                                    </tr>
+                                    <tr >
+                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
+                                    </tr>
+                              </table>
+                                
+                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                      <td width="5%" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
+                                      <td width="95%" align="left" valign="middle" class='lan12'><a href="./zxdt/201503/t20150330_273637.html" target="_blank" class='lan12'>法国现代中国研究中心中国互联网问题专家安诗...</a><img src="./images/newsconac.gif" /></td>
+                                    </tr>
+                                    <tr >
+                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
+                                    </tr>
+                              </table>
+                                
+                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                      <td width="5%" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
                                       <td width="95%" align="left" valign="middle" class='lan12'><a href="./zxdt/201503/t20150327_273493.html" target="_blank" class='lan12'>七省编办代表就网上名称管理工作进行探讨与交流</a><img src="./images/newsconac.gif" /></td>
                                     </tr>
                                     <tr >
@@ -554,7 +584,7 @@ change_img();
                                   <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
                                       <td width="5%" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
-                                      <td width="95%" align="left" valign="middle" class='lan12'><a href="./zxdt/201503/t20150324_273267.html" target="_blank" class='lan12'>第二期电子政务与信息化培训班在云南大学成功召开</a><img src="./images/newsconac.gif" /></td>
+                                      <td width="95%" align="left" valign="middle" class='lan12'><a href="./zxdt/201503/t20150324_273267.html" target="_blank" class='lan12'>第二期电子政务与信息化培训班在云南大学成功召开</a></td>
                                     </tr>
                                     <tr >
                                       <td height="7" colspan="2" background="./images/xx.gif"></td>
@@ -575,36 +605,6 @@ change_img();
                                     <tr>
                                       <td width="5%" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
                                       <td width="95%" align="left" valign="middle" class='lan12'><a href="./zxdt/201503/t20150313_272778.html" target="_blank" class='lan12'>宋庆同志到哈尔滨市香坊区调研座谈</a></td>
-                                    </tr>
-                                    <tr >
-                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
-                                    </tr>
-                              </table>
-                                
-                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                      <td width="5%" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
-                                      <td width="95%" align="left" valign="middle" class='lan12'><a href="./zxdt/201503/t20150310_272605.html" target="_blank" class='lan12'>河南省编办电子政务中心一行来我中心参观考察</a></td>
-                                    </tr>
-                                    <tr >
-                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
-                                    </tr>
-                              </table>
-                                
-                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                      <td width="5%" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
-                                      <td width="95%" align="left" valign="middle" class='lan12'><a href="./zxdt/201503/t20150309_272557.html" target="_blank" class='lan12'>中央编办主任张纪南视察政务和公益机构域名注...</a></td>
-                                    </tr>
-                                    <tr >
-                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
-                                    </tr>
-                              </table>
-                                
-                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                      <td width="5%" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
-                                      <td width="95%" align="left" valign="middle" class='lan12'><a href="./zxdt/201503/t20150309_272546.html" target="_blank" class='lan12'>中央编办二司等司局领导同志来我中心调研座谈</a></td>
                                     </tr>
                                     <tr >
                                       <td height="7" colspan="2" background="./images/xx.gif"></td>
@@ -638,33 +638,33 @@ href="./zxdt/" target="_blank">更多>></A>
   <div style="height:7px; background:url(./images/xx.gif) repeat-x"></div>
    
   <div style=" height:24px; line-height:24px;">
+   <img style="border:0px; margin-right:5px; margin-left:10px" src="./images/hongb_1.gif" /><A style="font-size:12px" class="lan12" href="./zxdt/201503/t20150331_273701.html" 
+  target=_blank title='第二期电子政务与信息化培训班顺利结束'>第二期电子政务与信息化培训班顺利结束</A><img src="./images/newsconac.gif" /></div>
+  <div style="height:7px; background:url(./images/xx.gif) repeat-x"></div>
+   
+  <div style=" height:24px; line-height:24px;">
+   <img style="border:0px; margin-right:5px; margin-left:10px" src="./images/hongb_1.gif" /><A style="font-size:12px" class="lan12" href="./zxdt/201503/t20150330_273657.html" 
+  target=_blank title='我中心宋庆同志一行赴云南调研指导工作'>我中心宋庆同志一行赴云南调研指导工作</A><img src="./images/newsconac.gif" /></div>
+  <div style="height:7px; background:url(./images/xx.gif) repeat-x"></div>
+   
+  <div style=" height:24px; line-height:24px;">
+   <img style="border:0px; margin-right:5px; margin-left:10px" src="./images/hongb_1.gif" /><A style="font-size:12px" class="lan12" href="./zxdt/201503/t20150330_273637.html" 
+  target=_blank title='法国现代中国研究中心中国互联网问题专家安诗琳博士访问CONAC'>法国现代中国研究中心中国互联网问题专家安...</A><img src="./images/newsconac.gif" /></div>
+  <div style="height:7px; background:url(./images/xx.gif) repeat-x"></div>
+   
+  <div style=" height:24px; line-height:24px;">
    <img style="border:0px; margin-right:5px; margin-left:10px" src="./images/hongb_1.gif" /><A style="font-size:12px" class="lan12" href="./zxdt/201503/t20150327_273493.html" 
   target=_blank title='七省编办代表就网上名称管理工作进行探讨与交流'>七省编办代表就网上名称管理工作进行探讨与交流</A><img src="./images/newsconac.gif" /></div>
   <div style="height:7px; background:url(./images/xx.gif) repeat-x"></div>
    
   <div style=" height:24px; line-height:24px;">
    <img style="border:0px; margin-right:5px; margin-left:10px" src="./images/hongb_1.gif" /><A style="font-size:12px" class="lan12" href="./zxdt/201503/t20150324_273267.html" 
-  target=_blank title='第二期电子政务与信息化培训班在云南大学成功召开'>第二期电子政务与信息化培训班在云南大学成...</A><img src="./images/newsconac.gif" /></div>
+  target=_blank title='第二期电子政务与信息化培训班在云南大学成功召开'>第二期电子政务与信息化培训班在云南大学成...</A></div>
   <div style="height:7px; background:url(./images/xx.gif) repeat-x"></div>
    
   <div style=" height:24px; line-height:24px;">
    <img style="border:0px; margin-right:5px; margin-left:10px" src="./images/hongb_1.gif" /><A style="font-size:12px" class="lan12" href="./zxdt/201503/t20150313_272784.html" 
   target=_blank title='ICANN总裁全球战略高级顾问Theresa Swinehart一行访问CONAC'>ICANN总裁全球战略高级顾问Theresa Swinehar...</A></div>
-  <div style="height:7px; background:url(./images/xx.gif) repeat-x"></div>
-   
-  <div style=" height:24px; line-height:24px;">
-   <img style="border:0px; margin-right:5px; margin-left:10px" src="./images/hongb_1.gif" /><A style="font-size:12px" class="lan12" href="./zxdt/201503/t20150313_272778.html" 
-  target=_blank title='宋庆同志到哈尔滨市香坊区调研座谈'>宋庆同志到哈尔滨市香坊区调研座谈</A></div>
-  <div style="height:7px; background:url(./images/xx.gif) repeat-x"></div>
-   
-  <div style=" height:24px; line-height:24px;">
-   <img style="border:0px; margin-right:5px; margin-left:10px" src="./images/hongb_1.gif" /><A style="font-size:12px" class="lan12" href="./zxdt/201503/t20150310_272605.html" 
-  target=_blank title='河南省编办电子政务中心一行来我中心参观考察'>河南省编办电子政务中心一行来我中心参观考察</A></div>
-  <div style="height:7px; background:url(./images/xx.gif) repeat-x"></div>
-   
-  <div style=" height:24px; line-height:24px;">
-   <img style="border:0px; margin-right:5px; margin-left:10px" src="./images/hongb_1.gif" /><A style="font-size:12px" class="lan12" href="./zxdt/201503/t20150309_272546.html" 
-  target=_blank title='中央编办二司等司局领导同志来我中心调研座谈'>中央编办二司等司局领导同志来我中心调研座谈</A></div>
   <div style="height:7px; background:url(./images/xx.gif) repeat-x"></div>
    
    </DIV></DIV>
@@ -980,9 +980,9 @@ href="./sptj/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 
                                   <table width="100%" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
-                                      <td width="113" height="75" rowspan="2"><a href='./xwzx/gdxx/201503/t20150319_273019.html' target="_blank"><img src="./xwzx/gdxx/201503/W020150319355626999224.jpg" width="113" height="77" border="0" /></a> </td>
+                                      <td width="113" height="75" rowspan="2"><a href='./xwzx/gdxx/201503/t20150330_273594.html' target="_blank"><img src="./xwzx/gdxx/201503/W020150330343881797782.jpg" width="113" height="77" border="0" /></a> </td>
                                       <td width="10" rowspan="2" valign="top"></td>
-                                      <td width="192" valign="top" class="hong12c"><a href="./xwzx/gdxx/201503/t20150319_273019.html" target="_balnk" title="四川绵阳三台县委编办统筹推进党政机关网站名称管理成效显著" class='hong12c'>四川绵阳三台县委编办统筹推进党政机关网站名称管理成效显著</a></td>
+                                      <td width="192" valign="top" class="hong12c"><a href="./xwzx/gdxx/201503/t20150330_273594.html" target="_balnk" title="湖北省荆门市掇刀区编办“三字诀”全面完成中文域名续费工作" class='hong12c'>湖北省荆门市掇刀区编办“三字诀”全面完成中文域名续费工作</a></td>
                                     </tr>
                                     <!--<tr>
                                       <td valign="top" class="lan12"></td>
@@ -995,6 +995,26 @@ href="./sptj/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
                                 </tr>
                                 <tr align="left" valign="top">
                                   <td>
+                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                      <td width="18" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
+                                      <td align="left" valign="middle" class='lan12'><a href="./xwzx/gdxx/201503/t20150330_273591.html" target="_blank" class='lan12'>攀枝花西区编办“造、提、促”推进中文域...</a><img src="./images/newsconac.gif" /></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
+                                    </tr>
+                              </table>
+                                
+                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                      <td width="18" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
+                                      <td align="left" valign="middle" class='lan12'><a href="./xwzx/gdxx/201503/t20150319_273019.html" target="_blank" class='lan12'>四川绵阳三台县委编办统筹推进党政机关网...</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
+                                    </tr>
+                              </table>
+                                
                                   <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
                                       <td width="18" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
@@ -1034,26 +1054,6 @@ href="./sptj/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
                                       <td height="7" colspan="2" background="./images/xx.gif"></td>
                                     </tr>
                               </table>
-                                
-                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                      <td width="18" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
-                                      <td align="left" valign="middle" class='lan12'><a href="./xwzx/gdxx/201503/t20150303_272289.html" target="_blank" class='lan12'>河北省涿州市机构编制委员会办公室完成全...</a></td>
-                                    </tr>
-                                    <tr>
-                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
-                                    </tr>
-                              </table>
-                                
-                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                      <td width="18" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
-                                      <td align="left" valign="middle" class='lan12'><a href="./xwzx/gdxx/201502/t20150211_271557.html" target="_blank" class='lan12'>黎平县中文域名工作步入“新常态”</a></td>
-                                    </tr>
-                                    <tr>
-                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
-                                    </tr>
-                              </table>
                                 </td>
                                 </tr>
                                 <tr align="left" valign="top">
@@ -1079,7 +1079,7 @@ href="./sptj/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
                                   <td height="12">
                                   <table width="100%" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
-                                      <td width="113" height="75" rowspan="2"><a href='./xwzx/hyxw/201503/t20150327_273491.html' target="_blank"><img src="./xwzx/hyxw/201503/W020150327333661340623.jpg" width="113" height="77" border="0" /></a> </td>
+                                      <td width="113" height="75" rowspan="2"><a href='./xwzx/hyxw/201503/t20150327_273491.html' target="_blank"><img src="./xwzx/hyxw/201503/W020150331542854411648.jpg" width="113" height="77" border="0" /></a> </td>
                                       <td width="10" rowspan="2" valign="top"></td>
                                       <td width="192" valign="top" class="hong12c"><a href="./xwzx/hyxw/201503/t20150327_273491.html" target="_balnk" title="邓崧：网上名称管理助力电子政务发展" class='hong12c'>邓崧：网上名称管理助力电子政务发展</a></td>
                                     </tr>
@@ -1094,6 +1094,16 @@ href="./sptj/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
                                 </tr>
                                 <tr align="left" valign="top">
                                   <td>
+                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                      <td width="18" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
+                                      <td align="left" valign="middle" class='lan12'><a href="./xwzx/hyxw/201503/t20150327_273491.html" target="_blank" class='lan12'>邓崧：网上名称管理助力电子政务发展</a><img src="./images/newsconac.gif" /></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
+                                    </tr>
+                              </table>
+                                
                                   <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
                                       <td width="18" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
@@ -1138,16 +1148,6 @@ href="./sptj/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
                                     <tr>
                                       <td width="18" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
                                       <td align="left" valign="middle" class='lan12'><a href="./xwzx/hyxw/201501/t20150112_270519.html" target="_blank" class='lan12'>王欢：网上名称管理为应对公关危机提供强支撑</a></td>
-                                    </tr>
-                                    <tr>
-                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
-                                    </tr>
-                              </table>
-                                
-                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                      <td width="18" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
-                                      <td align="left" valign="middle" class='lan12'><a href="./xwzx/hyxw/201407/t20140710_263646.html" target="_blank" class='lan12'>善用大数据平台 提升政府治理和服务能力</a></td>
                                     </tr>
                                     <tr>
                                       <td height="7" colspan="2" background="./images/xx.gif"></td>
@@ -1267,6 +1267,16 @@ href="./sptj/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
                                   <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
                                     <tr>
                                       <td width="18" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
+                                      <td align="left" valign="middle" class='lan12'><a href="./gjjl/gjjlzxdt/201503/t20150330_273640.html" target="_blank" class='lan12'>法国现代中国研究中心中国互联网问题专家安...</a><img src="./images/newsconac.gif" /></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
+                                    </tr>
+                              </table>
+                                
+                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                      <td width="18" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
                                       <td align="left" valign="middle" class='lan12'><a href="./gjjl/gjjlzxdt/201503/t20150313_272787.html" target="_blank" class='lan12'>ICANN总裁全球战略高级顾问Theresa Swinehar...</a></td>
                                     </tr>
                                     <tr>
@@ -1308,16 +1318,6 @@ href="./sptj/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
                                     <tr>
                                       <td width="18" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
                                       <td align="left" valign="middle" class='lan12'><a href="./gjjl/gjjlzxdt/201412/t20141202_268632.html" target="_blank" class='lan12'>CONAC法务专家张小慧在ICANN第50届伦敦会议...</a></td>
-                                    </tr>
-                                    <tr>
-                                      <td height="7" colspan="2" background="./images/xx.gif"></td>
-                                    </tr>
-                              </table>
-                                
-                                  <table width="100%" height="22" border="0" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                      <td width="18" align="left" valign="top" style="padding-top:5px;"><img src="./images/hongb_1.gif" width="11" height="11" /></td>
-                                      <td align="left" valign="middle" class='lan12'><a href="./gjjl/gjjlzxdt/201412/t20141202_268628.html" target="_blank" class='lan12'>CONAC代表参加ICANN第49届大会关注下一代WHOIS</a></td>
                                     </tr>
                                     <tr>
                                       <td height="7" colspan="2" background="./images/xx.gif"></td>

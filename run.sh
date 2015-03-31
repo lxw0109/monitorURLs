@@ -13,7 +13,8 @@ cd /home/lxw/monitorURL
 
 #Preparation:
 #update/create the following File/Dir.
-touch criterion
+touch criterion_new
+cp criterion_new criterion
 touch accessErrorURLs
 [ -d Intermedia ] || mkdir Intermedia
 [ -d Intermedia_new ] || mkdir Intermedia_new

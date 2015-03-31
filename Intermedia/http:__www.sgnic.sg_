@@ -7,19 +7,19 @@
 <link rel="alternate" type="application/rss+xml" title="SGNIC - Singapore Network Information Centre RSS" href="http://www.sgnic.sg/rss.xml" />
 <link rel="shortcut icon" href="/sites/default/files/favicon.gif" type="image/x-icon" />
         <title>SGNIC - Singapore Network Information Centre</title>
-        <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/themes/sgnic/style.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/themes/sgnic/content.css?M" />
-        <script type="text/javascript" src="/misc/jquery.js?M"></script>
-<script type="text/javascript" src="/misc/drupal.js?M"></script>
-<script type="text/javascript" src="/sites/all/modules/pngfix/jquery.pngFix.js?M"></script>
-<script type="text/javascript" src="/themes/sgnic/sgnic.js?M"></script>
+        <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?o" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?o" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?o" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?o" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?o" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?o" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?o" />
+<link type="text/css" rel="stylesheet" media="all" href="/themes/sgnic/style.css?o" />
+<link type="text/css" rel="stylesheet" media="all" href="/themes/sgnic/content.css?o" />
+        <script type="text/javascript" src="/misc/jquery.js?o"></script>
+<script type="text/javascript" src="/misc/drupal.js?o"></script>
+<script type="text/javascript" src="/sites/all/modules/pngfix/jquery.pngFix.js?o"></script>
+<script type="text/javascript" src="/themes/sgnic/sgnic.js?o"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 jQuery.extend(Drupal.settings, { "basePath": "/" });
@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-NCtZSnZrCXAnFh1e6k6DJ7lCc5SwnVyH-ey3Nx1uqi4" value="form-NCtZSnZrCXAnFh1e6k6DJ7lCc5SwnVyH-ey3Nx1uqi4"  />
+<input type="hidden" name="form_build_id" id="form-pwhQZGCMbTGqxQV4ZVc0DFoP3RY7XaM6_xrUyb_ZQkA" value="form-pwhQZGCMbTGqxQV4ZVc0DFoP3RY7XaM6_xrUyb_ZQkA"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-ZLvmIxoopd3YzWeWUQv7bccXue9B6ds8AZyhwqkq5P8" value="form-ZLvmIxoopd3YzWeWUQv7bccXue9B6ds8AZyhwqkq5P8"  />
+<input type="hidden" name="form_build_id" id="form-cN4CfkKe40BRaDmAdvmV6c3TGPaDA69dzhTeFJydq_A" value="form-cN4CfkKe40BRaDmAdvmV6c3TGPaDA69dzhTeFJydq_A"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -120,6 +120,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-created">
+                <span class="field-content">March 30, 2015, 10:16 am</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/special-names-limited-period-grab-it-now-15">Special names for a limited period! Grab it now!</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-created">
                 <span class="field-content">March 23, 2015, 2:46 pm</span>
   </div>
   
@@ -127,22 +136,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="/news/remembering-mr-lee-kuan-yew-1923-2015">Remembering Mr Lee Kuan Yew (1923-2015)</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-created">
                 <span class="field-content">March 6, 2015, 9:00 am</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="/news/sgnic-q-15001-invitation-quote-rack-servers">SGNIC-Q-15001: Invitation to Quote for Rack Servers</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-created">
-                <span class="field-content">February 4, 2015, 12:55 pm</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/sgnic-t-15001-invitation-tender-itt-system-software-and-hardware-sgnic-domain-name-registration">SGNIC-T-15001: Invitation To Tender (ITT)  for System Software And Hardware For SGNIC Domain Name Registration System</a></span>
   </div>
 </li>
       </ul>
@@ -171,6 +171,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
+                <span class="field-content">March 30, 2015, 2:06 pm</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://blog.apnic.net/2015/03/30/free-apnic-training/">Free APNIC training!</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-timestamp">
                 <span class="field-content">March 27, 2015, 9:35 am</span>
   </div>
   
@@ -178,22 +187,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="http://blog.apnic.net/2015/03/27/rdap-now-a-published-standard/">RDAP now a published standard</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
                 <span class="field-content">March 26, 2015, 11:11 am</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="http://blog.apnic.net/2015/03/26/research-project-by-university-of-malta/">Research project by University of Malta</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-timestamp">
-                <span class="field-content">March 26, 2015, 6:50 am</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/03/26/ietf92-edns-compliance-at-iepg/">IETF92: EDNS compliance at IEPG</a></span>
   </div>
 </li>
       </ul>
