@@ -300,849 +300,646 @@ h1 {
 	</div>
 	
 	
-	<script type="text/javascript">
-		$(function() {
-			var sWidth = $("#focus").width(); //获取焦点图的宽度（显示面积）
-			var len = $("#focus ul li").length; //获取焦点图个数
-			var index = 0;
-			var picTimer;
-			
-			//以下代码添加数字按钮和按钮后的半透明条，还有上一页、下一页两个按钮
-			var btn = "<div class='btn'>";
-			for(var i=0; i < len; i++) {
-				btn += "<span></span>";
-			}
-			btn += "</div><div class='preNext pre' style='z-index:1000000;'></div><div class='preNext next' style='z-index:1000000;'></div>";
-			$("#focus").append(btn);
-			
-			
+<script type="text/javascript">
+$(function() {
+	var sWidth = $("#focus").width(); //获取焦点图的宽度（显示面积）
+	var len = $("#focus ul li").length; //获取焦点图个数
+	var index = 0;
+	var picTimer;
+	
+	//以下代码添加数字按钮和按钮后的半透明条，还有上一页、下一页两个按钮
+	var btn = "<div class='btn'>";
+	for(var i=0; i < len; i++) {
+		btn += "<span></span>";
+	}
+	btn += "</div><div class='preNext pre' style='z-index:1000000;'></div><div class='preNext next' style='z-index:1000000;'></div>";
+	$("#focus").append(btn);
+	
+	
+
+	//为小按钮添加鼠标滑入事件，以显示相应的内容
+	$("#focus .btn span").css("opacity",0.4).mouseover(function() {
+		index = $("#focus .btn span").index(this);
+		showPics(index);
+	}).eq(0).trigger("mouseover");
+
+	//上一页、下一页按钮透明度处理
+	$("#focus .preNext").css("opacity",0.2).hover(function() {
+		$(this).stop(true,false).animate({"opacity":"0.5"},300);
+	},function() {
+		$(this).stop(true,false).animate({"opacity":"0.2"},300);
+	});
+
+	//上一页按钮
+	$("#focus .pre").click(function() {
+		index -= 1;
+		if(index == -1) {index = len - 1;}
+		showPics(index);
+	});
+
+	//下一页按钮
+	$("#focus .next").click(function() {
+		index += 1;
+		if(index == len) {index = 0;}
+		showPics(index);
+	});
+
+	//本例为左右滚动，即所有li元素都是在同一排向左浮动，所以这里需要计算出外围ul元素的宽度
+	$("#focus ul").css("width",sWidth * (len));
+	
+	//鼠标滑上焦点图时停止自动播放，滑出时开始自动播放
+	$("#focus").hover(function() {
+		clearInterval(picTimer);
+	},function() {
+		picTimer = setInterval(function() {
+			showPics(index);
+			index++;
+			if(index == len) {index = 0;}
+		},4000); //此4000代表自动播放的间隔，单位：毫秒
+	}).trigger("mouseleave");
+	
+	//显示图片函数，根据接收的index值显示相应的内容
+	function showPics(index) { //普通切换
+		var nowLeft = -index*sWidth; //根据index值计算ul元素的left值
 		
-			//为小按钮添加鼠标滑入事件，以显示相应的内容
-			$("#focus .btn span").css("opacity",0.4).mouseover(function() {
-				index = $("#focus .btn span").index(this);
-				showPics(index);
-			}).eq(0).trigger("mouseover");
-		
-			//上一页、下一页按钮透明度处理
-			$("#focus .preNext").css("opacity",0.2).hover(function() {
-				$(this).stop(true,false).animate({"opacity":"0.5"},300);
-			},function() {
-				$(this).stop(true,false).animate({"opacity":"0.2"},300);
-			});
-		
-			//上一页按钮
-			$("#focus .pre").click(function() {
-				index -= 1;
-				if(index == -1) {index = len - 1;}
-				showPics(index);
-			});
-		
-			//下一页按钮
-			$("#focus .next").click(function() {
-				index += 1;
-				if(index == len) {index = 0;}
-				showPics(index);
-			});
-		
-			//本例为左右滚动，即所有li元素都是在同一排向左浮动，所以这里需要计算出外围ul元素的宽度
-			$("#focus ul").css("width",sWidth * (len));
-			
-			//鼠标滑上焦点图时停止自动播放，滑出时开始自动播放
-			$("#focus").hover(function() {
-				clearInterval(picTimer);
-			},function() {
-				picTimer = setInterval(function() {
-					showPics(index);
-					index++;
-					if(index == len) {index = 0;}
-				},4000); //此4000代表自动播放的间隔，单位：毫秒
-			}).trigger("mouseleave");
-			
-			//显示图片函数，根据接收的index值显示相应的内容
-			function showPics(index) { //普通切换
-				var nowLeft = -index*sWidth; //根据index值计算ul元素的left值
-				
-				$("#focus ul").stop(true,false).animate({"left":nowLeft},0); //通过animate()调整ul元素滚动到计算出的position
-				//$("#focus .btn span").removeClass("on").eq(index).addClass("on"); //为当前的按钮切换到选中的效果
-				$("#focus .btn span").stop(true,false).animate({"opacity":"0.4"},0).eq(index).stop(true,false).animate({"opacity":"1"},0); //为当前的按钮切换到选中的效果
-			}
-		});
-	</script>
-		<div class="clf mw divContent">
-			<div class="b_w">
-				<div class="clf b_c " style="height: 276px; border: 0px solid #E5E5E5;">
+		$("#focus ul").stop(true,false).animate({"left":nowLeft},0); //通过animate()调整ul元素滚动到计算出的position
+		//$("#focus .btn span").removeClass("on").eq(index).addClass("on"); //为当前的按钮切换到选中的效果
+		$("#focus .btn span").stop(true,false).animate({"opacity":"0.4"},0).eq(index).stop(true,false).animate({"opacity":"1"},0); //为当前的按钮切换到选中的效果
+	}
+});
+
+</script>
+<div class="clf mw main" >
+		<div class="b_w">
+				<div class="clf b_c " style=" height:276px;border:1px solid #E5E5E5;">
 					<div id="focus">
 						<ul>
 							<li>
-								<span style="margin-left: 620px; text-align: center; float: right;">
-									<a href="javascript:void(0);" id="weekCol" class="columnLink" onclick="selectUnitMemberCol(this.id)">周</a>&nbsp; 
-									<a href="javascript:void(0);" id="monthCol" class="columnLink" onclick="selectUnitMemberCol(this.id)">月</a>&nbsp; 
+								<span style="margin-left:620px;text-align:center;float:right;">
+									<a href="javascript:void(0);" id="weekCol" class="columnLink" onclick="selectUnitMemberCol(this.id)">周</a>&nbsp;
+									<a href="javascript:void(0);" id="monthCol" class="columnLink" onclick="selectUnitMemberCol(this.id)">月</a>&nbsp;
 									<a href="javascript:void(0);" id="yearCol" class="columnLink" onclick="selectUnitMemberCol(this.id)">年</a>
 								</span>
 								<div id="unitMemberColDiv"></div>
 							</li>
 							<li>
-								<span style="margin-left: 290px; text-align: center;">
+								<span style="margin-left:290px;text-align:center;">
 									<b>白帽子贡献排名</b>
-								</span>
+								</span>	
 								<br></br>
-								<div id="personal"></div>
+							<div id="personal"></div>
 							</li>
 							<li>
-								<span style="margin-left: 290px; text-align: center;">
+								<span style="margin-left:290px;text-align:center;">
 									<b>贡献单位排名</b>
 								</span>
 								<br></br>
-								<div id="corPartner"></div>
+								<div id="corPartner">
+								</div>
 							</li>
 						</ul>
-						<div style="clear: both;"></div>
+						<div style="clear:both;"></div>
 					</div>
 				</div>
-			</div>
-			<script type="text/javascript">
-				$(function(){
-					selectUnitMemberCol("weekCol");
-					var so2 = new SWFObject("/amcharts/amcolumn.swf", "amcolumn", "680", "220", "8", "#FFFFFF");
-					so2.addVariable("path", "/amcharts/");
-					so2.addVariable("error_loading_file", "暂无统计数据"); 
-					so2.addParam('wmode', 'Transparent'); 
-					so2.addVariable("settings_file", encodeURIComponent("/amcharts/amcolumn_settings.xml"));
-					so2.addVariable("data_file", encodeURIComponent("/amcharts/data1/corPartner_data.xml"));
-					
-					so2.addVariable("preloader_color", "#999999");
-					so2.write("corPartner"); 
-					var so3 = new SWFObject("/amcharts/amcolumn.swf", "amcolumn", "680", "220", "8", "#FFFFFF");
-					so3.addVariable("path", "/amcharts/");
-					so3.addVariable("error_loading_file", "暂无统计数据");  
-					so3.addParam('wmode', 'Transparent'); 
-					so3.addVariable("settings_file", encodeURIComponent("/amcharts/amcolumn_settings.xml"));
-					so3.addVariable("data_file", encodeURIComponent("/amcharts/data1/personal_data1.xml"));
-					so3.addVariable("preloader_color", "#999999");
-					so3.write("personal");
-				});
-				function selectUnitMemberCol(flag){
-					$(".columnLink").removeClass("currentCol");
-					$("#"+flag).addClass("currentCol");
-					$.ajax({
-					    type: "POST",
-					    dataType:"html",
-				    	url: "/flaw/unitMemberCol",
-				    	data:"flag="+flag,
-					    success: function(msg) {
-						    if(msg != 'error') {
-						    	$('#unitMemberColDiv').html(msg);
-						    }
-					    }
-					});
-				}
-			</script>
-
-			<!-- 大列表结束 -->
-			<div class="s_w">
-				<a href="/flaw/list.htm?flag=true"> 
-					<img src="images/ldcx.jpg" style="margin-right: 3px;" />
-				</a>
-				<a href="/certificate/certificate_search">
-					<img src="images/zscx.jpg" alt="证书查询" />
-				</a>
-				<a href="/flaw/create">
-					<img src="images/ldbs.jpg" alt="漏洞报送" style="margin-right: 3px;" />
-				</a>
-				<a href="/flaw/flawTrack">
-					<img src="images/ldgz.jpg" alt="漏洞跟踪" />
-				</a>
-			</div>
-
-			<!-- 大列表 -->
-			<div class="b_w t1">
-				<div class="t1_tab">
-					<ul class="t1_menu" id="menutitle">
-						<li id="t1_tab_1" class="t1_aaa">
-							<a href="/webinfo/list?type=1" id="t1_tab_link1" class="t1_blank" onmouseover="t1_tabs('1');">热点推荐</a>
-						</li>
-						<li id="t1_tab_2">
-							<a href="/webinfo/list?type=2" id="t1_tab_link2" onmouseover="t1_tabs('2');">热点新闻</a>
-						</li>
-					</ul>
-					<a href="/webinfo/list?type=1" class="t1_more">> More</a>
-					<div class="t1_tab_b" id="t1_tab_a1">
-						<ul>
-							
-							
-								<li>
-									<a href="/webinfo/show/3573" title="关于GNU glibc函数库存在缓冲区溢出高危漏洞（&ldquo;幽灵&rdquo;漏洞）的情况公告"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												关于GNU glibc函数库存在缓冲区溢出高危漏洞（&ldquo;幽灵&rdquo;漏洞）的情况公告
-											
-										</span>
-										<span class="t1_sp_right">
-											2015-01-29
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3536" title="微软披露影响所有Windows版本的高危漏洞"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												微软披露影响所有Windows版本的高危漏洞
-											
-										</span>
-										<span class="t1_sp_right">
-											2014-11-18
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3507" title="关于GNU Bash存在远程代码执行漏洞的情况通报"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												关于GNU Bash存在远程代码执行漏洞的情况通报
-											
-										</span>
-										<span class="t1_sp_right">
-											2014-09-26
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3428" title="关于Internet Explorer VGX.DLL远程代码执行漏洞的安全公告"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												关于Internet Explorer VGX.DLL远程代码执行漏洞的安全公告
-											
-										</span>
-										<span class="t1_sp_right">
-											2014-04-28
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3427" title="关于Apache Struts 2存在补丁绕过漏洞的情况公告"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												关于Apache Struts 2存在补丁绕过漏洞的情况公告
-											
-										</span>
-										<span class="t1_sp_right">
-											2014-04-24
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3399" title="关于OpenSSL存在高危漏洞可被利用发起大规模攻击的情况通报（4月9日结果）"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												关于OpenSSL存在高危漏洞可被利用发起大规模攻击的情况通报（4月9日结果）
-											
-										</span>
-										<span class="t1_sp_right">
-											2014-04-09
-										</span>
-									</a>
-								</li>
-							
-						</ul>
-					</div>
-					<div class="t1_tab_b t1_tab_b2" id="t1_tab_a2">
-						<ul>
-							
-							
-								<li>
-									<a href="/webinfo/show/3604"	title="Cisco IP电话暴高危漏洞可致远程窃听"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												Cisco IP电话暴高危漏洞可致远程窃听
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-03-31
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3602"	title="SSL/TLS又曝新漏洞，可明文读取传输数据"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												SSL/TLS又曝新漏洞，可明文读取传输数据
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-03-30
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3601"	title="一种强大的新型BIOS Bootkit病毒曝光"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												一种强大的新型BIOS Bootkit病毒曝光
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-03-24
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3600"	title="苹果Mac OS X系统被发现存在DLL劫持漏洞"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												苹果Mac OS X系统被发现存在DLL劫持漏洞
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-03-24
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3595"	title="Dropbox SDK存在远程利用漏洞，已紧急修复"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												Dropbox SDK存在远程利用漏洞，已紧急修复
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-03-17
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3594"	title="WordPressSEO插件曝高危SQL注入漏洞"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												WordPressSEO插件曝高危SQL注入漏洞
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-03-17
-										</span>
-									</a>
-								</li>
-							
-						</ul>
-					</div>
-				</div>
-			</div>
-			<!-- 大列表结束 -->
-
-			<!--上周漏洞关注排行榜 -->
-			<div class="s_w">
-				<div class="t_align_right">
-					<img src="images/szgzld.jpg" />
-				</div>
-				<div class="t_gz">
-					<ul>
-						<li>
-							<span class="t_gz_bt">漏洞标题</span> <span class="t_gz_gzs">点击数</span>
-						</li>
-						
-						
-							
-								<li>
-									<a href="/flaw/show/CNVD-2015-01961" title="Google Android 'get_option()'函数远程代码执行漏洞"> 
-										<img src="images/t_1.jpg" />
-										<font color="#333333;"> 
-											
-												Google Android 'get_...
-											
-										</font>
-										<span class="t_gz_sz_span">[952]</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/flaw/show/CNVD-2015-01946" title="IBM Business Process Manager跨站脚本漏洞（CNVD-2015-01946）"> 
-										<img src="images/t_2.jpg" />
-										<font color="#333333;"> 
-											
-												IBM Business Process...
-											
-										</font>
-										<span class="t_gz_sz_span">[950]</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/flaw/show/CNVD-2015-01944" title="IBM Business Process Manager存在多个跨站脚本漏洞"> 
-										<img src="images/t_3.jpg" />
-										<font color="#333333;"> 
-											
-												IBM Business Process...
-											
-										</font>
-										<span class="t_gz_sz_span">[935]</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/flaw/show/CNVD-2015-01962" title="GNU glibc拒绝服务漏洞（CNVD-2015-01962）"> 
-										<img src="images/t_4.jpg" />
-										<font color="#333333;"> 
-											
-												GNU glibc拒绝服务漏洞...
-											
-										</font>
-										<span class="t_gz_sz_span">[933]</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/flaw/show/CNVD-2015-01923" title="Cisco Small Business IP phones SPA 300和SPA 500信息泄露漏洞"> 
-										<img src="images/t_5.jpg" />
-										<font color="#333333;"> 
-											
-												Cisco Small Business...
-											
-										</font>
-										<span class="t_gz_sz_span">[929]</span>
-									</a>
-								</li>
-							
-						
-					</ul>
-				</div>
-				<div class="t_xx"></div>
-			</div>
-			<!-- 上周漏洞关注排行榜 -->
-
-			<!-- 大列表 -->
-			<div class="b_w"
-				style="background: url(images/tab_b1.jpg) no-repeat; width: 709px; height: 280px;">
-				<div class="t2_tab" style="">
-					<ul class="t2_menu" id="menutitle" style="float: left">
-						<li id="t2_tab_1" class="t2_aaa">
-							<a href="/flaw/list.htm" id="t2_tab_link1" class="t2_blank" onmouseover="t2_tabs('1');">漏洞信息</a>
-						</li>
-						<li id="t2_tab_2">
-							<a href="/patchInfo/list" id="t2_tab_link2" onmouseover="t2_tabs('2');">补丁信息</a>
-						</li>
-					</ul>
-					<a href="/flaw/list.htm" style="float: right; font-size: 12px; margin: 15px 30px auto auto; color: #FFFFFF">>	More</a>
-					<div class="t2_tab_b" id="t2_tab_a1" style="display: block;clear:both; ">
-					<ul style=" margin-top:8px;  margin-left:20px; ">
-						<li>
-							<span style="margin-left:110px; font-size:14px; color:#999999; font-weight:600;">漏洞名称</span>
-							<span class="t2_sp_sz" style=" margin-right:45px; font-size:14px; color:#999999;font-weight:600;">时间</span>
-							<span class="t2_sp_right" style="font-size:14px; color:#999999;font-weight:600;margin-right:50px;">点击数</span>
-						</li>
-						
-						
-							<li>
-								<a href="/flaw/show/CNVD-2015-02059" title="Schneider Electric InduSoft Web Studio和InTouch Machine Edition信息泄露漏洞（CNVD-2015-02059）">
-									<img src="images/tab_jt.jpg"/>
-									<span>
-										
-											Schneider Electric InduSoft Web Studio和InTouch Machine Edit...
-										
-									</span>
-									<span class="t2_sp_sz">2015-03-31</span>
-									<span class="t2_sp_right">34</span>
-								</a>
-							</li>
-						
-							<li>
-								<a href="/flaw/show/CNVD-2015-02058" title="Schneider Electric InduSoft Web Studio和InTouch Machine Edition信息泄露漏洞（CNVD-2015-02058）">
-									<img src="images/tab_jt.jpg"/>
-									<span>
-										
-											Schneider Electric InduSoft Web Studio和InTouch Machine Edit...
-										
-									</span>
-									<span class="t2_sp_sz">2015-03-31</span>
-									<span class="t2_sp_right">35</span>
-								</a>
-							</li>
-						
-							<li>
-								<a href="/flaw/show/CNVD-2015-02057" title="Schneider Electric InduSoft Web Studio和InTouch Machine Edition信息泄露漏洞（CNVD-2015-02057）">
-									<img src="images/tab_jt.jpg"/>
-									<span>
-										
-											Schneider Electric InduSoft Web Studio和InTouch Machine Edit...
-										
-									</span>
-									<span class="t2_sp_sz">2015-03-31</span>
-									<span class="t2_sp_right">36</span>
-								</a>
-							</li>
-						
-							<li>
-								<a href="/flaw/show/CNVD-2015-02056" title="Schneider Electric InduSoft Web Studio和InTouch Machine Edition信息泄露漏洞（CNVD-2015-02056）">
-									<img src="images/tab_jt.jpg"/>
-									<span>
-										
-											Schneider Electric InduSoft Web Studio和InTouch Machine Edit...
-										
-									</span>
-									<span class="t2_sp_sz">2015-03-31</span>
-									<span class="t2_sp_right">34</span>
-								</a>
-							</li>
-						
-							<li>
-								<a href="/flaw/show/CNVD-2015-02065" title="potrace整数溢出漏洞">
-									<img src="images/tab_jt.jpg"/>
-									<span>
-										
-											potrace整数溢出漏洞
-										
-									</span>
-									<span class="t2_sp_sz">2015-03-31</span>
-									<span class="t2_sp_right">35</span>
-								</a>
-							</li>
-						
-							<li>
-								<a href="/flaw/show/CNVD-2015-02066" title="pbm212030缓冲区溢出漏洞">
-									<img src="images/tab_jt.jpg"/>
-									<span>
-										
-											pbm212030缓冲区溢出漏洞
-										
-									</span>
-									<span class="t2_sp_sz">2015-03-31</span>
-									<span class="t2_sp_right">34</span>
-								</a>
-							</li>
-						
-				</ul>
-			</div>
-			<div class="t2_tab_b" id="t2_tab_a2" style="display: none; clear:both;">
-				<ul style="margin-top:8px; margin-left:20px;">
-					
-					
-						<li>
-							<a href="/patchInfo/show/56829" title="多个Websense产品'explorer_wse'路径访问绕过漏洞的补丁">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										多个Websense产品'explorer_wse'路径访问绕过漏洞的补丁
-									
-								</span>
-								<span class="t2_sp_sz">2015-03-31</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/patchInfo/show/56828" title="多个Websense产品数据安全模块页面跨站脚本漏洞的补丁">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										多个Websense产品数据安全模块页面跨站脚本漏洞的补丁
-									
-								</span>
-								<span class="t2_sp_sz">2015-03-31</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/patchInfo/show/56827" title="多个Websense产品存在未明跨站脚本漏洞的补丁">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										多个Websense产品存在未明跨站脚本漏洞的补丁
-									
-								</span>
-								<span class="t2_sp_sz">2015-03-31</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/patchInfo/show/56826" title="IBM Java SDK远程信息泄露漏洞的补丁">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										IBM Java SDK远程信息泄露漏洞的补丁
-									
-								</span>
-								<span class="t2_sp_sz">2015-03-31</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/patchInfo/show/56820" title="Cisco IOS TCP报文拒绝服务漏洞的补丁">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										Cisco IOS TCP报文拒绝服务漏洞的补丁
-									
-								</span>
-								<span class="t2_sp_sz">2015-03-31</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/patchInfo/show/56819" title="Cisco IOS内存泄露拒绝服务漏洞的补丁">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										Cisco IOS内存泄露拒绝服务漏洞的补丁
-									
-								</span>
-								<span class="t2_sp_sz">2015-03-31</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/patchInfo/show/56818" title="Cisco IOS CIP UDP拒绝服务漏洞的补丁">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										Cisco IOS CIP UDP拒绝服务漏洞的补丁
-									
-								</span>
-								<span class="t2_sp_sz">2015-03-31</span>
-							</a>
-						</li>
-					
-				</ul>
-			</div>
 		</div>
+	
+		<script type="text/javascript">
+			$(function(){
+				selectUnitMemberCol("weekCol");
+				var so2 = new SWFObject("/amcharts/amcolumn.swf", "amcolumn", "680", "220", "8", "#FFFFFF");
+				so2.addVariable("path", "/amcharts/");
+				so2.addVariable("error_loading_file", "暂无统计数据"); 
+				so2.addParam('wmode', 'Transparent'); 
+				so2.addVariable("settings_file", encodeURIComponent("/amcharts/amcolumn_settings.xml"));
+				so2.addVariable("data_file", encodeURIComponent("/amcharts/data1/corPartner_data.xml"));
+				
+				so2.addVariable("preloader_color", "#999999");
+				so2.write("corPartner"); 
+				var so3 = new SWFObject("/amcharts/amcolumn.swf", "amcolumn", "680", "220", "8", "#FFFFFF");
+				so3.addVariable("path", "/amcharts/");
+				so3.addVariable("error_loading_file", "暂无统计数据");  
+				so3.addParam('wmode', 'Transparent'); 
+				so3.addVariable("settings_file", encodeURIComponent("/amcharts/amcolumn_settings.xml"));
+				so3.addVariable("data_file", encodeURIComponent("/amcharts/data1/personal_data1.xml"));
+				so3.addVariable("preloader_color", "#999999");
+				so3.write("personal");
+			});
+			function selectUnitMemberCol(flag){
+				$(".columnLink").removeClass("currentCol");
+				$("#"+flag).addClass("currentCol");
+				$.ajax({
+				    type: "POST",
+				    dataType:"html",
+			    	url: "/flaw/unitMemberCol",
+			    	data:"flag="+flag,
+				    success: function(msg) {
+					    if(msg != 'error') {
+					    	$('#unitMemberColDiv').html(msg);
+					    }
+				    }
+				});
+			}
+		</script>
+		
+	<!-- 大列表结束 -->
+	<div class="s_w">
+		<div class="clf " style="border:1px solid #E5E5E5;">
+			<form class="search_holeinfo" action="/flaw/list.html" method="post">
+				<input class="searchtext" type="text" onfocus="this.select()" value="漏洞标题" name="keyword"/>
+				<input class="searchbtn" type="submit" value=""/>
+				<a href="/flaw/list.htm?flag=true">高级搜索</a>
+			</form>
+			<a href="/certificate/certificate_search">
+				<img style="border:medium none;" alt="证书查询" src="/images/zhengshuchaxun.jpg"/>
+			</a>
+			<a href="/flaw/create">
+				<img style="border:medium none;" alt="漏洞报送" src="/images/loudongbaosong.jpg"/>
+			</a>
+			<a href="/flaw/flawTrack">
+				<img style="border:medium none;" alt="漏洞跟踪" src="/images/loudonggenzong.jpg"/>
+			</a>
+		</div>
+	</div>
+
+	<!-- 大列表 -->
+	<div class="b_w">
+		<div class="b_t tab_3">
+			<h3 class="tab">
+				<a class="t1 current1 hotLink" href="/webinfo/list?type=1" id="hotRecommend" divId="hotRecommendDiv">热点推荐</a>
+				<a class="t2 hotLink" href="/webinfo/list?type=2" id="hotNews" divId="hotNewsDiv">热点新闻</a>
+			</h3>
+			<a class="hotLinkMore more" href="/webinfo/list?type=1">更多</a>
+		</div>
+		<div class="clf b_c hotDiv" id="hotRecommendDiv">
+			<ul class="TitleList">
+				
+				
+					<li>
+						<a href="/webinfo/show/3573">
+							<span>关于GNU glibc函数库存在缓冲区溢出高危漏洞（&ldquo;幽灵&rdquo;漏洞）的情况公告</span>
+							<span class="date">2015-01-29</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3536">
+							<span>微软披露影响所有Windows版本的高危漏洞</span>
+							<span class="date">2014-11-18</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3507">
+							<span>关于GNU Bash存在远程代码执行漏洞的情况通报</span>
+							<span class="date">2014-09-26</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3428">
+							<span>关于Internet Explorer VGX.DLL远程代码执行漏洞的安全公告</span>
+							<span class="date">2014-04-28</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3427">
+							<span>关于Apache Struts 2存在补丁绕过漏洞的情况公告</span>
+							<span class="date">2014-04-24</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3399">
+							<span>关于OpenSSL存在高危漏洞可被利用发起大规模攻击的情况通报（4月9日结果）</span>
+							<span class="date">2014-04-09</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3398">
+							<span>关于OpenSSL存在内存泄露高危漏洞的安全公告</span>
+							<span class="date">2014-04-08</span>
+						</a>
+					</li>
+				
+			</ul>
+		</div>
+		<div class="clf b_c hotDiv" id="hotNewsDiv" style="display:none;">
+			<ul class="TitleList">
+				
+				
+					<li>
+						<a href="/webinfo/show/3604">
+							<span>Cisco IP电话暴高危漏洞可致远程窃听</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3602">
+							<span>SSL/TLS又曝新漏洞，可明文读取传输数据</span>
+							<span class="date">2015-03-30</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3601">
+							<span>一种强大的新型BIOS Bootkit病毒曝光</span>
+							<span class="date">2015-03-24</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3600">
+							<span>苹果Mac OS X系统被发现存在DLL劫持漏洞</span>
+							<span class="date">2015-03-24</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3595">
+							<span>Dropbox SDK存在远程利用漏洞，已紧急修复</span>
+							<span class="date">2015-03-17</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3594">
+							<span>WordPressSEO插件曝高危SQL注入漏洞</span>
+							<span class="date">2015-03-17</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3591">
+							<span>D-Link（友讯）路由器存在远程命令注入漏洞</span>
+							<span class="date">2015-03-10</span>
+						</a>
+					</li>
+				
+			</ul>
+		</div>
+		<div class="b_b"></div>
+	</div>
+	<!-- 大列表结束 -->
+	
+	<!--上周漏洞关注排行榜 -->
+	<div class="s_w">
+		<div class="b_t">
+			<h3><span>上周最受关注漏洞</span></h3>
+		</div>
+		<div class="clf b_c">
+			
+			
+				<table class="TopList">
+					<thead>
+						<tr>
+							<th class="name">漏洞标题</th>
+							<th class="date">点击数</th>
+						</tr>
+					</thead>
+					<tbody>
+						
+							<tr>
+								<td width="83%"><a href="/flaw/show/CNVD-2015-01961" title="Google Android 'get_option()'函数远程代码执行漏洞">
+									
+										Google Android 'get_option(...
+									
+								</a></td>
+								<td class="date" width="17%">[952]</td>
+							</tr>
+						
+							<tr>
+								<td width="83%"><a href="/flaw/show/CNVD-2015-01946" title="IBM Business Process Manager跨站脚本漏洞（CNVD-2015-01946）">
+									
+										IBM Business Process Manage...
+									
+								</a></td>
+								<td class="date" width="17%">[950]</td>
+							</tr>
+						
+							<tr>
+								<td width="83%"><a href="/flaw/show/CNVD-2015-01944" title="IBM Business Process Manager存在多个跨站脚本漏洞">
+									
+										IBM Business Process Manage...
+									
+								</a></td>
+								<td class="date" width="17%">[935]</td>
+							</tr>
+						
+							<tr>
+								<td width="83%"><a href="/flaw/show/CNVD-2015-01962" title="GNU glibc拒绝服务漏洞（CNVD-2015-01962）">
+									
+										GNU glibc拒绝服务漏洞（CNVD...
+									
+								</a></td>
+								<td class="date" width="17%">[933]</td>
+							</tr>
+						
+							<tr>
+								<td width="83%"><a href="/flaw/show/CNVD-2015-01923" title="Cisco Small Business IP phones SPA 300和SPA 500信息泄露漏洞">
+									
+										Cisco Small Business IP pho...
+									
+								</a></td>
+								<td class="date" width="17%">[929]</td>
+							</tr>
+						
+							<tr>
+								<td width="83%"><a href="/flaw/show/CNVD-2015-01964" title="Qt 'qbmphandler.cpp'除零拒绝服务漏洞">
+									
+										Qt 'qbmphandler.cpp'除零拒绝...
+									
+								</a></td>
+								<td class="date" width="17%">[919]</td>
+							</tr>
+						
+					</tbody>
+				</table>
+			
+		</div>
+		<div class="b_b"></div>
+	</div>
+	<!-- 上周漏洞关注排行榜 -->
+	
+	<!-- 大列表 -->
+	<div class="b_w">
+		<div class="b_t tab_3">
+			<h3 class="tab">
+				<a class="t1 current1 infoLink" href="/flaw/list.htm" id="flawInfo" divId="flawInfoDiv">漏洞信息</a>
+				<a class="t2 infoLink" href="/patchInfo/list" id="patchInfo" divId="patchInfoDiv">补丁信息</a>
+			</h3>
+			<a class="infoLinkMore more" href="/flaw/list.htm">更多</a>
+		</div>
+		<div class="clf b_c infoDiv" id="flawInfoDiv">
+			<ul class="TitleList">
+				<li>
+					<span style="width:83%;float:left;color:#888888;">漏洞名称</span>
+					<span style="width:7%;text-align:center;color:#888888;">点击数</span>
+					<span style="float:right;width:10%;text-align:center;color:#888888;">时间</span>
+				</li>
+				
+				
+					<li>
+						<a href="/flaw/show/CNVD-2015-01560">
+							<span style="width:80%;float:left;">ILAS II图书管理系统SQL注入漏洞</span>
+							<span style="width:10%;text-align:center;">4</span>
+							<span class="date">2015-04-01</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/flaw/show/CNVD-2015-02059">
+							<span style="width:80%;float:left;">Schneider Electric InduSoft Web Studio和InTouch Machine ...</span>
+							<span style="width:10%;text-align:center;">39</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/flaw/show/CNVD-2015-02058">
+							<span style="width:80%;float:left;">Schneider Electric InduSoft Web Studio和InTouch Machine ...</span>
+							<span style="width:10%;text-align:center;">40</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/flaw/show/CNVD-2015-02057">
+							<span style="width:80%;float:left;">Schneider Electric InduSoft Web Studio和InTouch Machine ...</span>
+							<span style="width:10%;text-align:center;">41</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/flaw/show/CNVD-2015-02056">
+							<span style="width:80%;float:left;">Schneider Electric InduSoft Web Studio和InTouch Machine ...</span>
+							<span style="width:10%;text-align:center;">39</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/flaw/show/CNVD-2015-02065">
+							<span style="width:80%;float:left;">potrace整数溢出漏洞</span>
+							<span style="width:10%;text-align:center;">40</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+			</ul>
+		</div>
+		<div class="clf b_c infoDiv" id="patchInfoDiv" style="display:none;">
+			<ul class="TitleList">
+				
+				
+					<li>
+						<a href="/patchInfo/show/56829">
+							<span>多个Websense产品'explorer_wse'路径访问绕过漏洞的补丁</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/patchInfo/show/56828">
+							<span>多个Websense产品数据安全模块页面跨站脚本漏洞的补丁</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/patchInfo/show/56827">
+							<span>多个Websense产品存在未明跨站脚本漏洞的补丁</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/patchInfo/show/56826">
+							<span>IBM Java SDK远程信息泄露漏洞的补丁</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/patchInfo/show/56820">
+							<span>Cisco IOS TCP报文拒绝服务漏洞的补丁</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/patchInfo/show/56819">
+							<span>Cisco IOS内存泄露拒绝服务漏洞的补丁</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/patchInfo/show/56818">
+							<span>Cisco IOS CIP UDP拒绝服务漏洞的补丁</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+			</ul>
+		</div>
+		<div class="b_b"></div>
 	</div>
 	<!-- 大列表结束 -->
 	
 	<!-- 漏洞趋势柱状图开始 -->
 	<div class="s_w">
-		<div class="b_t" style="background:url(images/ldqs.jpg) no-repeat; width:280px; height:50px;">
+		<div class="b_t">
+			<h3><span>漏洞趋势</span></h3>
+			
 			<a class="more trendColumnLink" style="text-decoration: none" id="yearTrendCol" href="javascript:void(0);"  onclick="selectTrendCol(this.id)">年</a>
 			<a class="more trendColumnLink" style="text-decoration: none" id="monthTrendCol" href="javascript:void(0);" onclick="selectTrendCol(this.id)">月</a>
 			<a class="more trendColumnLink" style="text-decoration: none" id="weekTrendCol" href="javascript:void(0);" onclick="selectTrendCol(this.id)">周</a>
 		</div>
-		<div id="trendColDiv" class="clf"></div>
-		<div class="t_xx" ></div>
+		<div id="trendColDiv" class="clf b_c"></div>
+		<div class="b_b"></div>
 	</div>
 	<!-- 漏洞趋势结束 -->
 	
 	<!-- 大列表 -->
-	<div class="b_w" style=" background:url(images/tab_b1.jpg) no-repeat; width:709px; height:280px;">
-		<div class="t3_tab" style="">
-			<ul class="t3_menu" id="menutitle" style=" float:left">
-				<li id="t3_tab_1" class="t3_aaa"><a href="/webinfo/list?type=14" id="t3_tab_link1" class="t3_blank" onmouseover="t3_tabs('1');">安全公告</a></li>
-				<li id="t3_tab_2"><a href="/webinfo/list?type=4" id="t3_tab_link2" onmouseover="t3_tabs('2');">研究报告</a></li>
-			</ul>
-			<a href="/webinfo/list?type=14" style=" float:right; font-size:12px; margin:15px 30px auto auto; color:#FFFFFF">> More</a>
-			<div class="t3_tab_b" id="t3_tab_a1" style="display: block; clear:both;">
-				<ul style=" margin-top:8px; margin-left:20px;">
-					<li>
-						<span style="margin-left:110px; font-size:14px; color:#999999; font-weight:600;">公告名称</span>
-						<span class="t3_sp_sz" style=" margin-right:45px; font-size:14px; color:#999999;font-weight:600;">时间</span>
-						<span class="t3_sp_right" style="font-size:14px; color:#999999;font-weight:600;margin-right:50px;">点击数</span>
-					</li>
-					
-					
-						<li>
-							<a href="/webinfo/show/3592" title="Microsoft发布2015年3月安全更新">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										Microsoft发布2015年3月安全更新
-									
-								</span>
-								<span class="t3_sp_sz">2015-03-13</span>
-								<span class="t3_sp_right">241</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3585" title="关于Samba存在远程代码执行高危漏洞的情况公告">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										关于Samba存在远程代码执行高危漏洞的情况公告
-									
-								</span>
-								<span class="t3_sp_sz">2015-02-26</span>
-								<span class="t3_sp_right">669</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3581" title="Microsoft发布2015年2月安全更新">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										Microsoft发布2015年2月安全更新
-									
-								</span>
-								<span class="t3_sp_sz">2015-02-11</span>
-								<span class="t3_sp_right">530</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3573" title="关于GNU glibc函数库存在缓冲区溢出高危漏洞（&ldquo;幽灵&rdquo;漏洞）的情况公告">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										关于GNU glibc函数库存在缓冲区溢出高危漏洞（&ldquo;幽灵&rdquo;漏洞）的情况公...
-									
-								</span>
-								<span class="t3_sp_sz">2015-01-29</span>
-								<span class="t3_sp_right">6151</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3569" title="Oracle发布2015年1月的安全公告">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										Oracle发布2015年1月的安全公告
-									
-								</span>
-								<span class="t3_sp_sz">2015-01-21</span>
-								<span class="t3_sp_right">983</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3565" title="Microsoft发布2015年1月安全更新">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										Microsoft发布2015年1月安全更新
-									
-								</span>
-								<span class="t3_sp_sz">2015-01-15</span>
-								<span class="t3_sp_right">1396</span>
-							</a>
-						</li>
-					
-				</ul>
-			</div>
-			<div class="t3_tab_b" id="t3_tab_a2" style="display: none; clear:both;">
-				<ul style=" margin-top:8px; margin-left:20px;">
-					
-					
-						<li>
-							<a href="/webinfo/show/3603" title="2015年CNVD漏洞周报第13期（2015年03月23日-2015年03月29日）">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									[研究报告/周报]
-									
-										2015年CNVD漏洞周报第13期（2015年03月23日-2015年03月29日...
-									
-								</span>
-								<span class="t3_sp_sz">2015-03-31</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3599" title="2015年CNVD漏洞周报第12期（2015年03月16日-2015年03月22日）">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									[研究报告/周报]
-									
-										2015年CNVD漏洞周报第12期（2015年03月16日-2015年03月22日...
-									
-								</span>
-								<span class="t3_sp_sz">2015-03-24</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3593" title="2015年CNVD漏洞周报第11期（2015年03月09日-2015年03月15日）">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									[研究报告/周报]
-									
-										2015年CNVD漏洞周报第11期（2015年03月09日-2015年03月15日...
-									
-								</span>
-								<span class="t3_sp_sz">2015-03-17</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3589" title="2015年CNVD漏洞周报第10期（2015年03月02日-2015年03月08日）">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									[研究报告/周报]
-									
-										2015年CNVD漏洞周报第10期（2015年03月02日-2015年03月08日...
-									
-								</span>
-								<span class="t3_sp_sz">2015-03-10</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3586" title="2015年CNVD漏洞周报第8、9期（2015年02月16日-2015年03月01日）">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									[研究报告/周报]
-									
-										2015年CNVD漏洞周报第8、9期（2015年02月16日-2015年03月01...
-									
-								</span>
-								<span class="t3_sp_sz">2015-03-02</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3582" title="2015年CNVD漏洞周报第7期（2015年02月09日-2015年02月15日）">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									[研究报告/周报]
-									
-										2015年CNVD漏洞周报第7期（2015年02月09日-2015年02月15日）...
-									
-								</span>
-								<span class="t3_sp_sz">2015-02-25</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3578" title="2015年CNVD漏洞周报第6期(2015年02月02日-2015年02月08日)">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									[研究报告/周报]
-									
-										2015年CNVD漏洞周报第6期(2015年02月02日-2015年02月08日)
-									
-								</span>
-								<span class="t3_sp_sz">2015-02-09</span>
-							</a>
-						</li>
-					
-				</ul>
-			</div>
+	<div class="b_w">
+		<div class="b_t">
+			<h3 class="tab tab_3">
+				<a class="t1 current1 reportLink" href="/webinfo/list?type=14" id="securityReport" divId="securityNoticeDiv">安全公告</a>
+				<a class="t2 reportLink" href="/webinfo/list?type=4" id="researchReport" divId="researchReportDiv">研究报告</a>
+			</h3>
+			<a class="reportLinkMore more" href="/webinfo/list?type=14">更多</a>
 		</div>
+		<div class="clf b_c reportDiv" id="securityNoticeDiv">
+			<ul class="TitleList">
+				<li>
+					<span style="width:83%;float:left;color:#888888;">公告名称</span>
+					<span style="width:7%;text-align:center;color:#888888;">点击数</span>
+					<span style="float:right;width:10%;text-align:center;color:#888888;">时间</span>
+				</li>
+				
+				
+					<li>
+						<a href="/webinfo/show/3592">
+							<span style="width:80%;float:left;">Microsoft发布2015年3月安全更新</span>
+							<span style="width:10%;text-align:center;">241</span>
+							<span class="date">2015-03-13</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3585">
+							<span style="width:80%;float:left;">关于Samba存在远程代码执行高危漏洞的情况公告</span>
+							<span style="width:10%;text-align:center;">669</span>
+							<span class="date">2015-02-26</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3581">
+							<span style="width:80%;float:left;">Microsoft发布2015年2月安全更新</span>
+							<span style="width:10%;text-align:center;">530</span>
+							<span class="date">2015-02-11</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3573">
+							<span style="width:80%;float:left;">关于GNU glibc函数库存在缓冲区溢出高危漏洞（&ldquo;幽灵&rdquo;漏洞）的情况公告</span>
+							<span style="width:10%;text-align:center;">6152</span>
+							<span class="date">2015-01-29</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3569">
+							<span style="width:80%;float:left;">Oracle发布2015年1月的安全公告</span>
+							<span style="width:10%;text-align:center;">983</span>
+							<span class="date">2015-01-21</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3565">
+							<span style="width:80%;float:left;">Microsoft发布2015年1月安全更新</span>
+							<span style="width:10%;text-align:center;">1396</span>
+							<span class="date">2015-01-15</span>
+						</a>
+					</li>
+				
+			</ul>
+		</div>
+		<div class="clf b_c reportDiv" id="researchReportDiv" style="display:none;">
+			<ul class="TitleList">
+				
+				
+					<li>
+						<a href="/webinfo/show/3603">
+							<span>[研究报告/周报]2015年CNVD漏洞周报第13期（2015年03月23日-2015年03月29日）</span>
+							<span class="date">2015-03-31</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3599">
+							<span>[研究报告/周报]2015年CNVD漏洞周报第12期（2015年03月16日-2015年03月22日）</span>
+							<span class="date">2015-03-24</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3593">
+							<span>[研究报告/周报]2015年CNVD漏洞周报第11期（2015年03月09日-2015年03月15日）</span>
+							<span class="date">2015-03-17</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3589">
+							<span>[研究报告/周报]2015年CNVD漏洞周报第10期（2015年03月02日-2015年03月08日）</span>
+							<span class="date">2015-03-10</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3586">
+							<span>[研究报告/周报]2015年CNVD漏洞周报第8、9期（2015年02月16日-2015年03月01日）</span>
+							<span class="date">2015-03-02</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3582">
+							<span>[研究报告/周报]2015年CNVD漏洞周报第7期（2015年02月09日-2015年02月15日）</span>
+							<span class="date">2015-02-25</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/webinfo/show/3578">
+							<span>[研究报告/周报]2015年CNVD漏洞周报第6期(2015年02月02日-2015年02月08日)</span>
+							<span class="date">2015-02-09</span>
+						</a>
+					</li>
+				
+			</ul>
+		</div>
+		<div class="b_b"></div>
 	</div>
 	<!-- 大列表结束 -->
 	<div class="s_w">
-		<div class="t_align_right"><img src="images/zldjb.jpg"/></div>
-		<div class="clf" style="text-align:center;">
-			<span style="color:#999999;">2015-03-23--2015-03-29</span>
+		<div class="b_t">
+			<h3><span>周漏洞威胁级别</span></h3>
+		</div>
+		<div class="clf b_c" style="text-align:center;">
+			<span >2015-03-23--2015-03-29</span>
 			<div id="weekSerietyLevelPie"></div>
 			<!-- 周漏洞威胁级别趋势图 -->
 		</div>
-		<div class="t_xx" ></div>
+		<div class="b_b"></div>
 	</div>
 	<!-- 周漏洞威胁级别结束 -->
 </div>
@@ -1210,7 +1007,7 @@ h1 {
 			    }
 			});
 		}
-	</script>
+		</script>
 
 
 	<r:layoutResources></r:layoutResources>

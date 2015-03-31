@@ -131,7 +131,18 @@ If you want to check the sourcecode of the url, you can run:
 ```
 $ vimdiff Demos/old Demos/new
 ```
-Notice the differences between them(especially the lines contain "title="), and you will understand that **"disorder" makes this**.
+Notice the differences between them(especially the lines contain "title="), and you will understand that **"DISORDER" makes this**.
+2. If we run DIFF before PICK, the result maybe confusing:
+```
+URL: http://www.denic.de/en/homepage.html
+检测时间: 2015-03-31-23:48:53
+检测结果:检测到网站首页信息减少(上次检测23.93K,本次检测23.83K)，具体差异如下:
+-Sprunglink
++Sprunglink
+-Opens internal link in current window
++Opens internal link in current window
+```
+REASON: the difference between the lines contains **title=""**, but the different part is not **title=""**. So when we pick out the title="", it seems weird.
 
 
 ###HUGE BUGS:

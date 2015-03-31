@@ -267,7 +267,8 @@ def diff2Str(filename, sourceCode):
 
         #Sort the result:
         #The content added shows at front, content removed follows behind.
-        return sorted(finList)
+        #return sorted(finList)
+        return finList
 
     except IOError, e:
         writeLog("lxw_IOERROR Occurred(File not found, url revives now.)", "", traceback.format_exc())
@@ -331,7 +332,8 @@ def diff2Str_stale(filename, filenameNew):
 
         #Sort the result:
         #The content added shows at front, content removed follows behind.
-        return sorted(finList)
+        #return sorted(finList)
+        return finList
 
     except IOError, e:
         writeLog("lxw_IOERROR Occurred(File not found, url revives now.)", "", traceback.format_exc())
