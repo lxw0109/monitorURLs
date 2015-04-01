@@ -229,7 +229,12 @@ def diff2Str(filename, sourceCode):
         #list1 = pickA(list1)
         #list2 = pickA(list2)
 
-        #Work Flow: diff -> filter -> pick -> uniq -> sort
+        #Work Flow: diff   ->   filter   ->   pick   ->   uniq   ->   sort
+        #diff: do the diff among 2 sourceCode.
+        #filter: only keep the different information(lines start with +/-).
+        #pick: pick out the content of specific labels(e.g. title/div).
+        #uniq: remove the duplicate content.
+        #sort: keep lines begin with "+" at the front of lines begin with "-".
 
         #Both methods below are OK.
         #1:
@@ -264,6 +269,9 @@ def diff2Str(filename, sourceCode):
         #So, In this case we don't need to notify all of these differences, we just need to pick any one of them.
         finList = []
         [finList.append(item) for item in specList if not item in finList]
+
+        #solve the "specific labels unchange problem"
+        finList = pickFilter(finList[:])
 
         #Sort the result:
         #The content added shows at front, content removed follows behind.
@@ -329,6 +337,9 @@ def diff2Str_stale(filename, filenameNew):
         #So, In this case we don't need to notify all of these differences, we just need to pick any one of them.
         finList = []
         [finList.append(item) for item in specList if not item in finList]
+
+        #solve the "specific labels unchange problem"
+        finList = pickFilter(finList[:])
 
         #Sort the result:
         #The content added shows at front, content removed follows behind.
@@ -401,6 +412,46 @@ def pickB(aList):
         writeLog("lxw_pickB ERROR", "", traceback.format_exc())
 
     return resList
+
+
+def pickFilter(aList):
+    """
+    NOTE: no sort method allowed between diff() and pickFilter().
+
+    After pick the specific labels in the result, a problems exists(let's call it "specific labels unchange problem"):
+    SourceCode:          Old             New        (Assuming that "A" is the specific labels.)
+                        abcA             bcA
+    we got the following result:
+    -abcA
+    +bcA
+    after pick():
+    -A
+    +A
+    The result seems confusing.
+
+    This method is to solve the problem mentioned above.
+    """
+
+    length = len(aList)
+    pickFilList = []
+    index = 0
+    while index < length:
+        if aList[index][0] == "-":
+            lineM = aList[index]    #line begins with "-"(Minus)
+            content1 = lineM[1:]
+            index += 1
+            if index == length:
+                pickFilList.append(lineM)
+                break
+            if aList[index][0] == "+":
+                lineA = aList[index]    #line begins with "+"(Add)
+                content2 = lineA[1:]
+                if content1 != content2:
+                    pickFilList.append(lineM)
+                    pickFilList.append(lineA)
+        index += 1
+
+    return pickFilList
 
 
 def eachCriterion(url):

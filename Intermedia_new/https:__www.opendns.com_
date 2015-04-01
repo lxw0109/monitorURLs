@@ -14,11 +14,11 @@
 
 	
 	<!--[if (gt IE 8) | (IEMobile)]><!-->
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/main.css?v=b07e83772356ec339e52040b81a93482" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/main.css?v=13e61c28d8e2e3c001843f95345e429e" />
 	<!--<![endif]-->
 
 	<!--[if IE 8]>
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/ie.css?v=f455894d56ec1a6c0ece7271239ef7db" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/ie.css?v=b98a691310679a1395073538f9f9c80e" />
 	<![endif]-->
 
 	<link rel='stylesheet' id='style-css'  href='https://www.opendns.com/wp-content/themes/opendns/style.css?ver=4.1.1' type='text/css' media='all' />
@@ -28,7 +28,7 @@
 <link rel='stylesheet' id='chosen-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/chosen.css?ver=4.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.1.1' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=ed2e3a3cc0d2668cd09a81e6348316cb">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=7e66055455dbe85caf95437ea9579a13">
 
 	<meta name="viewport" content="width=device-width">
 	
@@ -47,7 +47,7 @@
 
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=c50df3a37a02cc2728c256c98814bdbf'></script>
+<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=a133976e79dcbb80b21753387e3e0ae4'></script>
 <meta name="generator" content="WordPress 4.1.1" />
 <script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 
@@ -162,7 +162,7 @@
 			<a href="http://careers.opendns.com">
 				<span class="icon "></span>Careers</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="/about/#contact">
-				<span class="icon "></span>Contact</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=ac99159dde288688139111db5862c3ae"></script>
+				<span class="icon "></span>Contact</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=d1d98d2705004db0a331a3c22a75854a"></script>
 		</div>
 	</header>
 	<!--
@@ -329,17 +329,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Mar 26</span>
+							<span class="date">Mar 31</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="http://blog.opendns.com/2015/03/26/business-is-about-relationships-so-meet-the-people-of-opendns/" title="Business Is About Relationships...so Meet the People of OpenDNS!">Business Is About Relationships...so Meet the People of OpenDNS!</a>
+							<a href="http://blog.opendns.com/2015/03/31/survey_cloud-based_security/" title="Survey Says...Cloud-Based Security Is Easier, Faster, More Affordable">Survey Says...Cloud-Based Security Is Easier, Faster, More Affordable</a>
 						</p>
-						<p class="author">Author: Chris Doell</p>
-						<div class="excerpt"><p>A few days ago, I attended a presentation by Jill Rowley, a social selling expert. During the meeting, Jill shared &hellip;<span class="overflow"> some fascinating insights on customer and business relationships, one of which I have always believed to be true:&hellip;</span></p>
+						<p class="author">Author: Stephen Lynch</p>
+						<div class="excerpt"><p>Survey results from a recent OpenDNS-commissioned study—titled “Securing Direct-To-Internet Branch Offices: Cloud-Based Security Offers More Flexibility And Control”—by Forrester Consulting &hellip;<span class="overflow"> show that IT decision makers are&hellip;</span></p>
 </div>
-						<a href="http://blog.opendns.com/2015/03/26/business-is-about-relationships-so-meet-the-people-of-opendns/" title="Business Is About Relationships...so Meet the People of OpenDNS!" class="read-more">Read More &rarr;</a>
+						<a href="http://blog.opendns.com/2015/03/31/survey_cloud-based_security/" title="Survey Says...Cloud-Based Security Is Easier, Faster, More Affordable" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 								<li class="post clearfix">
@@ -351,17 +351,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Mar 24</span>
+							<span class="date">Mar 26</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="http://blog.opendns.com/2015/03/24/new-survey-data-branch-office-security/" title="New Survey Data Predicts the End of Hub-and-Spoke Networks for Branch Office Connectivity">New Survey Data Predicts the End of Hub-and-Spoke Networks for Branch Office Connectivity</a>
+							<a href="http://blog.opendns.com/2015/03/26/business-is-about-relationships-so-meet-the-people-of-opendns/" title="Business Is About Relationships...so Meet the People of OpenDNS!">Business Is About Relationships...so Meet the People of OpenDNS!</a>
 						</p>
-						<p class="author">Author: Stephen Lynch</p>
-						<div class="excerpt"><p>The traditional hub-and-spoke network topology is dying. That’s the conclusion drawn by Forrester Consulting in a new OpenDNS-commissioned Technology Adoption &hellip;<span class="overflow"> Profile, titled “Securing Direct-To-Internet Branch Offices:&hellip;</span></p>
+						<p class="author">Author: Chris Doell</p>
+						<div class="excerpt"><p>A few days ago, I attended a presentation by Jill Rowley, a social selling expert. During the meeting, Jill shared &hellip;<span class="overflow"> some fascinating insights on customer and business relationships, one of which I have always believed to be true:&hellip;</span></p>
 </div>
-						<a href="http://blog.opendns.com/2015/03/24/new-survey-data-branch-office-security/" title="New Survey Data Predicts the End of Hub-and-Spoke Networks for Branch Office Connectivity" class="read-more">Read More &rarr;</a>
+						<a href="http://blog.opendns.com/2015/03/26/business-is-about-relationships-so-meet-the-people-of-opendns/" title="Business Is About Relationships...so Meet the People of OpenDNS!" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -605,10 +605,10 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=b432967e79dfd989ef322361a00c6e62'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":409,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=f915516bd0833b3428063fce310b256e'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":376,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
- Served from: www.opendns.com @ 2015-03-31 09:27:28 by W3 Total Cache -->
+ Served from: www.opendns.com @ 2015-04-01 08:02:40 by W3 Total Cache -->

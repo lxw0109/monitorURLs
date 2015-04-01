@@ -51,6 +51,8 @@
 <a href="https://indico.dns-oarc.net//conferenceTimeTable.py?confId=20#all.detailed">DNS-OARC Fall 2014 Workshop Presentations/Videos</a></p>
 <p>
 <a href="https://www.linkedin.com/groups?home=&amp;gid=3193714">DNS-OARC on LinkedIn</a></p>
+<p></p><p>
+<a href="https://www.dns-oarc.net/sweng">Job Posting: Software Engineer</a></p>
 <p>
 <a href="/wiki/mitigating-dns-denial-of-service-attacks">Mitigating DNS Denial of Service Attacks</a></p>
 <p>
@@ -93,7 +95,7 @@
 <li class="expanded"><a href="/oarc/about" title="About OARC">About OARC</a><ul class="menu"><li class="leaf first"><a href="/oarc/corporation">Corporation</a></li>
 <li class="leaf"><a href="/oarc/faq/general" title="Frequently Asked Questions about OARC">OARC FAQ</a></li>
 <li class="leaf"><a href="/oarc/mission" title="DNS-OARC&#039;s Mission Statement">Mission</a></li>
-<li class="leaf"><a href="/oarc/careers" title="Current Vacancies at OARC">Careers</a></li>
+<li class="collapsed"><a href="/oarc/careers" title="Current Vacancies at OARC">Careers</a></li>
 <li class="leaf"><a href="/oarc/programme">Programme Committee</a></li>
 <li class="leaf"><a href="/oarc/admin" title="How to reach DNS-OARC">Contacting OARC</a></li>
 <li class="leaf last"><a href="/node/335">Presentations</a></li>
@@ -116,7 +118,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-vJvRiiZqMQF-hr_bAno4BF4NuiFSaXBiZlbC9wyHszM" value="form-vJvRiiZqMQF-hr_bAno4BF4NuiFSaXBiZlbC9wyHszM"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-ZUhN70Z9xwU-s7pKKis1Gx4WhMQ8zg9yN4B4TXvYI8s" value="form-ZUhN70Z9xwU-s7pKKis1Gx4WhMQ8zg9yN4B4TXvYI8s"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -133,7 +135,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-jWzfOm-OvWhFdipVg9MnVW_XfaZRFASQ3-7VK6qrO4U" value="form-jWzfOm-OvWhFdipVg9MnVW_XfaZRFASQ3-7VK6qrO4U"  />
+<input type="hidden" name="form_build_id" id="form-9dZrVkgffxzLM4UOS2Gn6PT1iduFiC3hLt1LVF2Z1Fk" value="form-9dZrVkgffxzLM4UOS2Gn6PT1iduFiC3hLt1LVF2Z1Fk"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -286,12 +288,8 @@ Ondrej will be standing for re-election.
      <div class="content">
           <p>As part of OARC's strategic development plan, we will be hiring for a number of positions in 2014/5. These are unique opportunities for independent-minded candidates seeking to develop their experience and skills with a nonprofit organization of critical importance to the future of the Internet. This is a chance to play a key role in growing OARC as a respected, sustainable, autonomous, neutral organization.</p>
 <p>
-Current open positions:
-<ul>
-<h2 class="western"><font face="Arial, Helvetica, sans-serif"><font size="2" style="font-size: 11pt;">Software Engineer</font></font></h2>
-</ul>
-</p><p><body></body></p>
-<h2 class="western"><font face="Arial, Helvetica, sans-serif"><font size="2" style="font-size: 11pt;">Background:</font></font></h2>
+Current open positions:</p>
+<h2 class="western"><a href="https://www.dns-oarc.net/sweng"><font face="Arial, Helvetica, sans-serif"><font size="2" style="font-size: 11pt;">Software Engineer</font></font></a></h2>
   </div>
     <div class="info">
     Submitted by keith on Thu, 2014-07-17 20:38          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
