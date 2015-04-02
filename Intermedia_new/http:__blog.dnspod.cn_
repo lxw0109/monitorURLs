@@ -11,8 +11,8 @@
 			// P2 Configuration
 			var ajaxUrl                 = "http://blog.dnspod.cn/wp-admin/admin-ajax.php?p2ajax=true";
 			var updateRate              = "30000"; // 30 seconds
-			var nonce                   = "2b6a66230b";
-			var login_url               = "http://blog.dnspod.cn/wp-login.php?redirect_to=http%3A%2F%2Fblog.dnspod.cn%2F";
+			var nonce                   = "276c536475";
+			var login_url               = "http://blog.dnspod.cn/wp-login.php?redirect_to=http%3A%2F%2Fblog.dnspod.cn%2F%3Ftads%3D3581578265";
 			var templateDir             = "http://blog.dnspod.cn/wp-content/themes/p2012";
 			var isFirstFrontPage        = 1;
 			var isFrontPage             = 1;
@@ -28,7 +28,7 @@
 			var inlineEditComments      = 1;
 			var wpUrl                   = "http://blog.dnspod.cn";
 			var rssUrl                  = "";
-			var pageLoadTime            = "2015-04-01 14:59:33";
+			var pageLoadTime            = "2015-04-02 01:01:08";
 			var original_title          = document.title;
 			var commentsOnPost          = new Array;
 			var postsOnPage             = new Array;
@@ -66,7 +66,7 @@
 		//]]>
 		</script>
 		<script type="text/javascript">
-var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=4aa43aba9a"},"remote_auth":"W10= 7c7cf7b5a8ef01275087467f75faea572ea3d8ae 1427900373"};
+var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=976a7c05f5"},"remote_auth":"W10= 44be98343da95dff8d2de72f4242680249c4c8d7 1427936468"};
 duoshuoQuery.sso.login += '&redirect_to=' + encodeURIComponent(window.location.href);
 duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.href);
 </script>
@@ -74,7 +74,7 @@ duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var userSettings = {"url":"\/","uid":"0","time":"1427900373"};
+var userSettings = {"url":"\/","uid":"0","time":"1427936468"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/utils.min.js?ver=3.7'></script>
@@ -142,7 +142,7 @@ try{convertEntities(p2txt);}catch(e){};;
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></li>
-<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1427900373960&f=1"></iframe></li>
+<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1427936468688&f=1"></iframe></li>
 <li id="categories-2" class="widget widget_categories"><h2 class="widgettitle">分类目录</h2>
 		<ul>
 	<li class="cat-item cat-item-1"><a href="http://blog.dnspod.cn/category/uncategorized/" title="查看 DNSPod动态 下的所有文章">DNSPod动态</a> (24)
@@ -287,7 +287,7 @@ if (typeof DUOSHUO !== 'undefined')
 
 			<div class="respond-wrap" style="display: none; ">
 												<div id="respond" class="comment-respond">
-				<h3 id="reply-title" class="comment-reply-title">回复 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/#respond" style="display:none;">取消回复</a></small></h3>
+				<h3 id="reply-title" class="comment-reply-title">回复 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/?tads=3581578265#respond" style="display:none;">取消回复</a></small></h3>
 									<form action="http://blog.dnspod.cn/wp-comments-post.php" method="post" id="commentform" class="comment-form">
 																			<p class="comment-notes"> 必填项已用 <span class="required">*</span> 标注</p>							<p class="comment-form-author"><label for="author">姓名 <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' /></p>
 <p class="comment-form-email"><label for="email">电子邮件 <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-required='true' /></p>
@@ -297,7 +297,7 @@ if (typeof DUOSHUO !== 'undefined')
 							<input type='hidden' name='comment_post_ID' value='5003' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
 						</p>
-						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="ab5cbdda87" /></p>					</form>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="50eedf9f62" /></p>					</form>
 							</div><!-- #respond -->
 				<script type="text/javascript">
 		jQuery(document).ready(function () {
@@ -752,7 +752,7 @@ f1g1ns2.dnspod.net  122.225.217.191</p>
 				</ul>
 
 		<div class="navigation">
-			<p class="nav-older"><a href="http://blog.dnspod.cn/page/2/" >&larr; Older posts</a></p>
+			<p class="nav-older"><a href="http://blog.dnspod.cn/page/2/?tads=3581578265" >&larr; Older posts</a></p>
 			<p class="nav-newer"></p>
 		</div>
 
