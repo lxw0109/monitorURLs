@@ -561,6 +561,34 @@ h1 {
 							
 							
 								<li>
+									<a href="/webinfo/show/3608"	title="Java官网曝本地文件包含（LFI）漏洞"> 
+										<img src="/images/tab_jt.jpg" /> 
+										<span>
+											
+												Java官网曝本地文件包含（LFI）漏洞
+											
+										</span> 
+										<span class="t1_sp_right">
+											2015-04-08
+										</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/webinfo/show/3607"	title="白帽子发现YouTube任意视频删除漏洞"> 
+										<img src="/images/tab_jt.jpg" /> 
+										<span>
+											
+												白帽子发现YouTube任意视频删除漏洞
+											
+										</span> 
+										<span class="t1_sp_right">
+											2015-04-08
+										</span>
+									</a>
+								</li>
+							
+								<li>
 									<a href="/webinfo/show/3604"	title="Cisco IP电话暴高危漏洞可致远程窃听"> 
 										<img src="/images/tab_jt.jpg" /> 
 										<span>
@@ -616,34 +644,6 @@ h1 {
 									</a>
 								</li>
 							
-								<li>
-									<a href="/webinfo/show/3595"	title="Dropbox SDK存在远程利用漏洞，已紧急修复"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												Dropbox SDK存在远程利用漏洞，已紧急修复
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-03-17
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3594"	title="WordPressSEO插件曝高危SQL注入漏洞"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												WordPressSEO插件曝高危SQL注入漏洞
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-03-17
-										</span>
-									</a>
-								</li>
-							
 						</ul>
 					</div>
 				</div>
@@ -664,62 +664,62 @@ h1 {
 						
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-01961" title="Google Android 'get_option()'函数远程代码执行漏洞"> 
+									<a href="/flaw/show/CNVD-2015-02085" title="Cisco IOS/IOS XE畸形AN消息处理拒绝服务漏洞（CNVD-2015-02085）"> 
 										<img src="images/t_1.jpg" />
 										<font color="#333333;"> 
 											
-												Google Android 'get_...
+												Cisco IOS/IOS XE畸形...
 											
 										</font>
-										<span class="t_gz_sz_span">[964]</span>
+										<span class="t_gz_sz_span">[1223]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-01946" title="IBM Business Process Manager跨站脚本漏洞（CNVD-2015-01946）"> 
+									<a href="/flaw/show/CNVD-2015-02081" title="Cisco IOS XR DHCPv4服务器拒绝服务漏洞"> 
 										<img src="images/t_2.jpg" />
 										<font color="#333333;"> 
 											
-												IBM Business Process...
+												Cisco IOS XR DHCPv4服...
 											
 										</font>
-										<span class="t_gz_sz_span">[961]</span>
+										<span class="t_gz_sz_span">[1211]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-01944" title="IBM Business Process Manager存在多个跨站脚本漏洞"> 
+									<a href="/flaw/show/CNVD-2015-02082" title="Cisco IOS Service Discovery Gateway拒绝服务漏洞"> 
 										<img src="images/t_3.jpg" />
 										<font color="#333333;"> 
 											
-												IBM Business Process...
+												Cisco IOS Service Di...
 											
 										</font>
-										<span class="t_gz_sz_span">[943]</span>
+										<span class="t_gz_sz_span">[1210]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-01923" title="Cisco Small Business IP phones SPA 300和SPA 500信息泄露漏洞"> 
+									<a href="/flaw/show/CNVD-2015-02074" title="Cisco Wireless LAN Controller WEB验证拒绝服务漏洞"> 
 										<img src="images/t_4.jpg" />
 										<font color="#333333;"> 
 											
-												Cisco Small Business...
+												Cisco Wireless LAN C...
 											
 										</font>
-										<span class="t_gz_sz_span">[941]</span>
+										<span class="t_gz_sz_span">[1206]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-01962" title="GNU glibc拒绝服务漏洞（CNVD-2015-01962）"> 
+									<a href="/flaw/show/CNVD-2015-02076" title="Cisco NX-OS PowerOn Auto Provisioning (POAP)任意命令执行漏洞"> 
 										<img src="images/t_5.jpg" />
 										<font color="#333333;"> 
 											
-												GNU glibc拒绝服务漏洞...
+												Cisco NX-OS PowerOn ...
 											
 										</font>
-										<span class="t_gz_sz_span">[939]</span>
+										<span class="t_gz_sz_span">[1202]</span>
 									</a>
 								</li>
 							
@@ -753,80 +753,80 @@ h1 {
 						
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-02127" title="WordPress插件WPML 'menu sync'函数存在未明漏洞">
+								<a href="/flaw/show/CNVD-2015-02228" title="Dell System Detect恶意代码执行漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											WordPress插件WPML 'menu sync'函数存在未明漏洞
+											Dell System Detect恶意代码执行漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-04-01</span>
-									<span class="t2_sp_right">104</span>
+									<span class="t2_sp_sz">2015-04-09</span>
+									<span class="t2_sp_right">129</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-02126" title="WordPress插件WPML存在未明漏洞">
+								<a href="/flaw/show/CNVD-2015-02235" title="Wordpress The Semper Fi All in One SEO Pack插件信息泄露漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											WordPress插件WPML存在未明漏洞
+											Wordpress The Semper Fi All in One SEO Pack插件信息泄露漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-04-01</span>
-									<span class="t2_sp_right">103</span>
+									<span class="t2_sp_sz">2015-04-09</span>
+									<span class="t2_sp_right">126</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-02110" title="PHP PostgreSQL扩展拒绝服务漏洞">
+								<a href="/flaw/show/CNVD-2015-02234" title="ANTlabs InnGate固件任意文件读写漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											PHP PostgreSQL扩展拒绝服务漏洞
+											ANTlabs InnGate固件任意文件读写漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-04-01</span>
-									<span class="t2_sp_right">103</span>
+									<span class="t2_sp_sz">2015-04-09</span>
+									<span class="t2_sp_right">124</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-02111" title="PHP calendar扩展整数溢出漏洞">
+								<a href="/flaw/show/CNVD-2015-02233" title="Citrix NetScaler Nitro API跨站请求伪造漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											PHP calendar扩展整数溢出漏洞
+											Citrix NetScaler Nitro API跨站请求伪造漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-04-01</span>
-									<span class="t2_sp_right">102</span>
+									<span class="t2_sp_sz">2015-04-09</span>
+									<span class="t2_sp_right">122</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-02112" title="PHP phar_rename_archive函数内存错误引用漏洞">
+								<a href="/flaw/show/CNVD-2015-02231" title="Citrix NetScaler Citrix NetScaler AppFirewall访问限制绕过漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											PHP phar_rename_archive函数内存错误引用漏洞
+											Citrix NetScaler Citrix NetScaler AppFirewall访问限制绕过漏洞...
 										
 									</span>
-									<span class="t2_sp_sz">2015-04-01</span>
-									<span class="t2_sp_right">104</span>
+									<span class="t2_sp_sz">2015-04-09</span>
+									<span class="t2_sp_right">125</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-02113" title="PHP move_uploaded_file实现安全绕过文件创建漏洞">
+								<a href="/flaw/show/CNVD-2015-02232" title="Citrix NetScaler Nitro help/rt/large_search.html跨站脚本漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											PHP move_uploaded_file实现安全绕过文件创建漏洞
+											Citrix NetScaler Nitro help/rt/large_search.html跨站脚本漏洞...
 										
 									</span>
-									<span class="t2_sp_sz">2015-04-01</span>
-									<span class="t2_sp_right">106</span>
+									<span class="t2_sp_sz">2015-04-09</span>
+									<span class="t2_sp_right">117</span>
 								</a>
 							</li>
 						
@@ -837,86 +837,86 @@ h1 {
 					
 					
 						<li>
-							<a href="/patchInfo/show/56857" title="PHP PostgreSQL扩展拒绝服务漏洞的补丁">
+							<a href="/patchInfo/show/57095" title="QEMU拒绝服务漏洞（CNVD-2015-02254）的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										PHP PostgreSQL扩展拒绝服务漏洞的补丁
+										QEMU拒绝服务漏洞（CNVD-2015-02254）的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-01</span>
+								<span class="t2_sp_sz">2015-04-09</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/56856" title="PHP calendar扩展整数溢出漏洞的补丁">
+							<a href="/patchInfo/show/57094" title="Dell System Detect恶意代码执行漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										PHP calendar扩展整数溢出漏洞的补丁
+										Dell System Detect恶意代码执行漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-01</span>
+								<span class="t2_sp_sz">2015-04-09</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/56854" title="PHP phar_rename_archive函数内存错误引用漏洞的补丁">
+							<a href="/patchInfo/show/57093" title="Cisco Prime Data Center Network Manager文件信息泄露漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										PHP phar_rename_archive函数内存错误引用漏洞的补丁
+										Cisco Prime Data Center Network Manager文件信息泄露漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-01</span>
+								<span class="t2_sp_sz">2015-04-09</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/56853" title="PHP move_uploaded_file实现安全绕过文件创建漏洞的补丁">
+							<a href="/patchInfo/show/57092" title=" ANTlabs InnGate固件任意文件读写漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										PHP move_uploaded_file实现安全绕过文件创建漏洞的补丁
+										 ANTlabs InnGate固件任意文件读写漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-01</span>
+								<span class="t2_sp_sz">2015-04-09</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/56852" title="PHP ZIP扩展_zip_cdir_new函数整数溢出漏洞的补丁">
+							<a href="/patchInfo/show/57091" title="Wordpress The Semper Fi All in One SEO Pack插件信息泄露漏洞的补丁 ">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										PHP ZIP扩展_zip_cdir_new函数整数溢出漏洞的补丁
+										Wordpress The Semper Fi All in One SEO Pack插件信息泄露漏洞的补丁 
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-01</span>
+								<span class="t2_sp_sz">2015-04-09</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/56851" title="Byzanz GIF编码拒绝服务漏洞的补丁">
+							<a href="/patchInfo/show/57090" title="Citrix NetScaler help/rt/large_search.html跨站脚本漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Byzanz GIF编码拒绝服务漏洞的补丁
+										Citrix NetScaler help/rt/large_search.html跨站脚本漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-01</span>
+								<span class="t2_sp_sz">2015-04-09</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/56849" title="Websense TRITON AP-EMAIL存在未明漏洞的补丁">
+							<a href="/patchInfo/show/57089" title="Citrix NetScaler Nitro API跨站脚本漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Websense TRITON AP-EMAIL存在未明漏洞的补丁
+										Citrix NetScaler Nitro API跨站脚本漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-01</span>
+								<span class="t2_sp_sz">2015-04-09</span>
 							</a>
 						</li>
 					
@@ -956,6 +956,19 @@ h1 {
 					
 					
 						<li>
+							<a href="/webinfo/show/3605" title="关于SSL/TLS协议使用加密算法RC4存在漏洞(受戒礼)的情况公告">
+								<img src="images/tab_jt.jpg"/>
+								<span>
+									
+										关于SSL/TLS协议使用加密算法RC4存在漏洞(受戒礼)的情况公告
+									
+								</span>
+								<span class="t3_sp_sz">2015-04-03</span>
+								<span class="t3_sp_right">75</span>
+							</a>
+						</li>
+					
+						<li>
 							<a href="/webinfo/show/3592" title="Microsoft发布2015年3月安全更新">
 								<img src="images/tab_jt.jpg"/>
 								<span>
@@ -964,7 +977,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-03-13</span>
-								<span class="t3_sp_right">260</span>
+								<span class="t3_sp_right">352</span>
 							</a>
 						</li>
 					
@@ -977,7 +990,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-02-26</span>
-								<span class="t3_sp_right">683</span>
+								<span class="t3_sp_right">761</span>
 							</a>
 						</li>
 					
@@ -990,7 +1003,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-02-11</span>
-								<span class="t3_sp_right">540</span>
+								<span class="t3_sp_right">606</span>
 							</a>
 						</li>
 					
@@ -1003,7 +1016,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-01-29</span>
-								<span class="t3_sp_right">6260</span>
+								<span class="t3_sp_right">6772</span>
 							</a>
 						</li>
 					
@@ -1016,20 +1029,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-01-21</span>
-								<span class="t3_sp_right">995</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3565" title="Microsoft发布2015年1月安全更新">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										Microsoft发布2015年1月安全更新
-									
-								</span>
-								<span class="t3_sp_sz">2015-01-15</span>
-								<span class="t3_sp_right">1407</span>
+								<span class="t3_sp_right">1039</span>
 							</a>
 						</li>
 					
@@ -1038,6 +1038,19 @@ h1 {
 			<div class="t3_tab_b" id="t3_tab_a2" style="display: none; clear:both;">
 				<ul style=" margin-top:8px; margin-left:20px;">
 					
+					
+						<li>
+							<a href="/webinfo/show/3606" title="2015年CNVD漏洞周报第14期（2015年03月30日-2015年04月05日）">
+								<img src="images/tab_jt.jpg"/>
+								<span>
+									[研究报告/周报]
+									
+										2015年CNVD漏洞周报第14期（2015年03月30日-2015年04月05日...
+									
+								</span>
+								<span class="t3_sp_sz">2015-04-08</span>
+							</a>
+						</li>
 					
 						<li>
 							<a href="/webinfo/show/3603" title="2015年CNVD漏洞周报第13期（2015年03月23日-2015年03月29日）">
@@ -1117,19 +1130,6 @@ h1 {
 							</a>
 						</li>
 					
-						<li>
-							<a href="/webinfo/show/3578" title="2015年CNVD漏洞周报第6期(2015年02月02日-2015年02月08日)">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									[研究报告/周报]
-									
-										2015年CNVD漏洞周报第6期(2015年02月02日-2015年02月08日)
-									
-								</span>
-								<span class="t3_sp_sz">2015-02-09</span>
-							</a>
-						</li>
-					
 				</ul>
 			</div>
 		</div>
@@ -1138,7 +1138,7 @@ h1 {
 	<div class="s_w">
 		<div class="t_align_right"><img src="images/zldjb.jpg"/></div>
 		<div class="clf" style="text-align:center;">
-			<span style="color:#999999;">2015-03-23--2015-03-29</span>
+			<span style="color:#999999;">2015-03-30--2015-04-05</span>
 			<div id="weekSerietyLevelPie"></div>
 			<!-- 周漏洞威胁级别趋势图 -->
 		</div>

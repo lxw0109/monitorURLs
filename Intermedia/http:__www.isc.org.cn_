@@ -16,7 +16,7 @@
 <!--顶部条开始-->
 <div class="isc_top">
     <div class="data">
-2015年04月01日 星期三
+2015年04月09日 星期四
 </div>
      <div class="email">
      <FORM method="post" name="form1" action="http://mm.263.com/login" onsubmit="return check();" target="_blank">
@@ -284,31 +284,31 @@ function check()
 	<div id="ifocus_pic">
 		<div id="ifocus_piclist" style="left:0; top:0;">
 			<ul>
-				<li><a   href="/zxzx/ywsd/listinfo-31852.html"  target="_blank"><img src="/upimages/article20150401132241.jpg" alt="苗圩出席博鳌亚洲论坛2015年年会" /></a></li>
+				<li><a   href="/zxzx/ywsd/listinfo-31893.html"  target="_blank"><img src="/upimages/article20150409085939.jpg" alt="邬贺铨院士：中国无企业掌握核心技术就不是制造强国" /></a></li>
+				<li><a  href="/zxzx/ywsd/listinfo-31883.html"  target="_blank"><img src="/upimages/article20150403162822.jpg" alt="工业和信息化部开展2015年智能制造试点示范项目推荐工作" /></a></li>
+				<li><a  href="/zxzx/ywsd/listinfo-31852.html"  target="_blank"><img src="/upimages/article20150401132241.jpg" alt="苗圩出席博鳌亚洲论坛2015年年会" /></a></li>
 				<li><a  href="/zxzx/ywsd/listinfo-31804.html"  target="_blank"><img src="/upimages/article20150324145958.png" alt="中国互联网协会与宁波市政府签署战略合作框架协议" /></a></li>
-				<li><a  href="/zxzx/ywsd/listinfo-31792.html"  target="_blank"><img src="/upimages/article20150320144924.jpg" alt="《中国互联网站发展状况及其安全报告（2015年）》发布会<br />暨“网站发展与安全趋势论坛”在京召开" /></a></li>
-				<li><a  href="/zxzx/ywsd/listinfo-31695.html"  target="_blank"><img src="/upimages/article20150310112437.jpg" alt="尚冰出席2015年中国互联网企业领袖调研座谈会并讲话" /></a></li>
-                <li><a  href="/zxzx/ywsd/listinfo-31614.html"  target="_blank"><img src="/upimages/article20150306095138.jpg" alt="制定“互联网+”行动计划，引导互联网企业拓展国际市场" /></a></li>
+                <li><a  href="/zxzx/ywsd/listinfo-31792.html"  target="_blank"><img src="/upimages/article20150320144924.jpg" alt="《中国互联网站发展状况及其安全报告（2015年）》发布会<br />暨“网站发展与安全趋势论坛”在京召开" /></a></li>
 			</ul>
 		</div>
 		<div id="ifocus_opdiv"></div>
 		<div id="ifocus_tx">
 			<ul>
-				<li class="current">苗圩出席博鳌亚洲论坛2015年年会</li>
+				<li class="current">邬贺铨院士：中国无企业掌握核心技术就不是制造强国</li>
+				<li class="normal">工业和信息化部开展2015年智能制造试点示范项目推荐工作</li>
+				<li class="normal">苗圩出席博鳌亚洲论坛2015年年会</li>
 				<li class="normal">中国互联网协会与宁波市政府签署战略合作框架协议</li>
-				<li class="normal">《中国互联网站发展状况及其安全报告（2015年）》发布会<br />暨“网站发展与安全趋势论坛”在京召开</li>
-				<li class="normal">尚冰出席2015年中国互联网企业领袖调研座谈会并讲话</li>
-                <li class="normal">制定“互联网+”行动计划，引导互联网企业拓展国际市场</li>
+                <li class="normal">《中国互联网站发展状况及其安全报告（2015年）》发布会<br />暨“网站发展与安全趋势论坛”在京召开</li>
 			</ul>
 		</div>
 	</div>
 	<div id="ifocus_btn">
 		<ul>
-			<li class="current"><img src="/upimages/article20150401132241.jpg" alt="苗圩出席博鳌亚洲论坛2015年年会" /></li>
-			<li class="normal"><img src="/upimages/article20150324145958.png" alt="苗圩出席博鳌亚洲论坛2015年年会" /></li>
-			<li class="normal"><img src="/upimages/article20150320144924.jpg" alt="苗圩出席博鳌亚洲论坛2015年年会" /></li>
-			<li class="normal"><img src="/upimages/article20150310112437.jpg" alt="苗圩出席博鳌亚洲论坛2015年年会" /></li>
-            <li class="normal"><img src="/upimages/article20150306095138.jpg" alt="苗圩出席博鳌亚洲论坛2015年年会" /></li>
+			<li class="current"><img src="/upimages/article20150409085939.jpg" alt="邬贺铨院士：中国无企业掌握核心技术就不是制造强国" /></li>
+			<li class="normal"><img src="/upimages/article20150403162822.jpg" alt="邬贺铨院士：中国无企业掌握核心技术就不是制造强国" /></li>
+			<li class="normal"><img src="/upimages/article20150401132241.jpg" alt="邬贺铨院士：中国无企业掌握核心技术就不是制造强国" /></li>
+			<li class="normal"><img src="/upimages/article20150324145958.png" alt="邬贺铨院士：中国无企业掌握核心技术就不是制造强国" /></li>
+            <li class="normal"><img src="/upimages/article20150320144924.jpg" alt="邬贺铨院士：中国无企业掌握核心技术就不是制造强国" /></li>
 		</ul>
 	</div>
 </div>
@@ -320,8 +320,8 @@ function check()
     	<h1 style="overflow: hidden; margin-top:7px; width:476px;"><p style="float: left;">【要闻视点】</p>
         <div class="cmore" style=" float:right;"><a href="/zxzx/ywsd/"><img src="images/12495217.gif"></a></div>
         <span style="margin-left: 10px; float:right;"><img src="images/02270433.gif"></span></h1>
-        <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-31852.html"   title="苗圩出席博鳌亚洲论坛2015年年会" class="red">苗圩出席博鳌亚洲论坛2015年年会</a></h1>
-	<div class="mg10">2015年3月28日，工业和信息化部部长苗圩出席博鳌亚洲论坛2015年年会开幕式。当天下午，作为嘉宾出席“3D打印、数字制造与第三次工业革命”分论坛。... <a  href="/zxzx/ywsd/listinfo-31852.html"   title="详细" class="blue">[详细]</a></div>
+        <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-31893.html"   title="邬贺铨院士：中国无企业掌握核心技术就不是制造强国" class="red">邬贺铨院士：中国无企业掌握核心技术就不是制造强国</a></h1>
+	<div class="mg10">今年的政府工作报告中指出，要实施“中国制造2025”，坚持创新驱动、智能转型、强化基础、绿色发展，加快从制造大国转向制造强国。... <a  href="/zxzx/ywsd/listinfo-31893.html"   title="详细" class="blue">[详细]</a></div>
 </div>
 <h2><span>协会动态</span><a href="/zxzx/xhdt/" title="更多" class="blue"><img src="images/12495217.gif" /></a></h2>
 <ul class="newslist">
@@ -422,9 +422,9 @@ function check()
 
         <tr><td width="130" valign="top"><span><a  href="/zxzx/zfxx/listinfo-31744.html"  ><img src="/upimages/article20150317090020.png" class="bor" width="110" height="75" alt="2015年CeBIT合作伙伴国中央展区开幕"/></a></span></td><td><div>德国汉诺威当地时间3月16日上午9点，2015汉诺威消费电子、信息及通信博览会（CeBIT）合作伙伴国中国中央展区开幕式在汉诺威展览中心举行。...<a  href="/zxzx/zfxx/listinfo-31744.html"   title="2015年CeBIT合作伙伴国中央展区开幕" class="blue">[详细]</a></div></td></tr></table>
         <ul class="newslist">
-                <li><a  href="/zxzx/zfxx/listinfo-31854.html"  " title="张峰出席APEC第十次电信部长会"  >张峰出席APEC第十次电信部长会</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                
-                <li><a  href="/zxzx/zfxx/listinfo-31827.html"  " title="尚冰出席加强共建共享促进4G建设电视电话会议"  >尚冰出席加强共建共享促进4G建设电视电话会议</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
-                <li><a  href="/zxzx/zfxx/listinfo-31819.html"  " title="张峰出席中国首届上市互联网企业发展论坛"  >张峰出席中国首届上市互联网企业发展论坛</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-31886.html"  " title="怀进鹏出席第三届中国国际云计算技术和应用展览会暨论坛"  >怀进鹏出席第三届中国国际云计算技术和应用展览会暨论坛</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-31876.html"  " title="尚冰赴奇虎360公司考察调研"  >尚冰赴奇虎360公司考察调研</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-31870.html"  " title="国务院常务会议确定加快发展电子商务的措施 培育经济新动力"  >国务院常务会议确定加快发展电子商务的措施 培育经济新动力</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
                 </ul>
         </div>
         <div id="zf_02"  class="hidden">
@@ -459,10 +459,10 @@ function check()
 <div id="dt_01" >
 <span class="mp"><a href="/hydt/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a   href="/hydt/listinfo-31851.html" title="今年我国云计算产业进入成长期" >今年我国云计算产业进入成长期</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-31849.html" title="商务部：网购刷信誉、虚构信用评价等手段将违法" >商务部：网购刷信誉、虚构信用评价等手段将违法</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-31848.html" title="我国首个大型互联网创业平台上线" >我国首个大型互联网创业平台上线</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-31845.html" title="河南2015重拳打击网络传销" >河南2015重拳打击网络传销</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-31890.html" title="O2O餐饮平台首推食品安全保单" >O2O餐饮平台首推食品安全保单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-31889.html" title="湖南发布全国首份省级宽带发展水平报告" >湖南发布全国首份省级宽带发展水平报告</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-31884.html" title="公共WiFi使用应注意的安全事项" >公共WiFi使用应注意的安全事项</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-31879.html" title="第六届中国卫星导航学术年会5月将在西安召开" >第六届中国卫星导航学术年会5月将在西安召开</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
              
 </ul>
 </div>
@@ -470,10 +470,10 @@ function check()
 <div id="dt_02" class="hidden">
 <span class="mp"><a href="/zxzx/hlwzl/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-       <li><a    href="/zxzx/hlwzl/listinfo-31849.html"  title="商务部：网购刷信誉、虚构信用评价等手段将违法" >商务部：网购刷信誉、虚构信用评价等手段将违法</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a    href="/zxzx/hlwzl/listinfo-31845.html"  title="河南2015重拳打击网络传销" >河南2015重拳打击网络传销</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a    href="/zxzx/hlwzl/listinfo-31835.html"  title="去年网购投诉同比增3.57倍 微商监管成新难点" >去年网购投诉同比增3.57倍 微商监管成新难点</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a    href="/zxzx/hlwzl/listinfo-31826.html"  title="全国政府网站普查3月启动 不更新的为不合格" >全国政府网站普查3月启动 不更新的为不合格</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+       <li><a    href="/zxzx/hlwzl/listinfo-31890.html"  title="O2O餐饮平台首推食品安全保单" >O2O餐饮平台首推食品安全保单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a    href="/zxzx/hlwzl/listinfo-31884.html"  title="公共WiFi使用应注意的安全事项" >公共WiFi使用应注意的安全事项</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a    href="/zxzx/hlwzl/listinfo-31878.html"  title="14起网络新闻敲诈和编造传播假新闻典型案例公布" >14起网络新闻敲诈和编造传播假新闻典型案例公布</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a    href="/zxzx/hlwzl/listinfo-31849.html"  title="商务部：网购刷信誉、虚构信用评价等手段将违法" >商务部：网购刷信誉、虚构信用评价等手段将违法</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
                   
 </ul>
 </div>
@@ -481,10 +481,10 @@ function check()
 <div id="dt_03" class="hidden">
 <span class="mp"><a href="/zxzx/jsyy/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a href="/zxzx/jsyy/listinfo-31848.html"   title="我国首个大型互联网创业平台上线" >我国首个大型互联网创业平台上线</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+        <li><a href="/zxzx/jsyy/listinfo-31877.html"   title="我国用于无线专网的1.4GHz频谱发放" >我国用于无线专网的1.4GHz频谱发放</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a href="/zxzx/jsyy/listinfo-31848.html"   title="我国首个大型互联网创业平台上线" >我国首个大型互联网创业平台上线</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a href="/zxzx/jsyy/listinfo-31836.html"   title="海南构建中小企业“在线服务超市”" >海南构建中小企业“在线服务超市”</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a href="/zxzx/jsyy/listinfo-31834.html"   title="全国旅游网上投诉平台5月开通" >全国旅游网上投诉平台5月开通</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a href="/zxzx/jsyy/listinfo-31720.html"   title="韩国2018年冬奥会率先启用5G" >韩国2018年冬奥会率先启用5G</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
              
 </ul>
 </div>
@@ -492,10 +492,10 @@ function check()
 <div id="dt_04" class="hidden">
 <span class="mp"><a href="/zxzx/qyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a  href="/zxzx/qyxx/listinfo-31851.html"  title="今年我国云计算产业进入成长期" >今年我国云计算产业进入成长期</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/qyxx/listinfo-31830.html"  title="首届大数据时代创新与媒介变革研讨会在京召开" >首届大数据时代创新与媒介变革研讨会在京召开</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/qyxx/listinfo-31812.html"  title="各地政府力推机器人计划 智能制造业前景广阔" >各地政府力推机器人计划 智能制造业前景广阔</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/qyxx/listinfo-31808.html"  title="工行加快实施互联网金融战略" >工行加快实施互联网金融战略</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+        <li><a  href="/zxzx/qyxx/listinfo-31889.html"  title="湖南发布全国首份省级宽带发展水平报告" >湖南发布全国首份省级宽带发展水平报告</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/qyxx/listinfo-31879.html"  title="第六届中国卫星导航学术年会5月将在西安召开" >第六届中国卫星导航学术年会5月将在西安召开</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/qyxx/listinfo-31872.html"  title="“电子信息产业知识产权大课堂”正式启动" >“电子信息产业知识产权大课堂”正式启动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/qyxx/listinfo-31851.html"  title="今年我国云计算产业进入成长期" >今年我国云计算产业进入成长期</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
                    
 </ul>
 </div>
@@ -503,10 +503,10 @@ function check()
 <div id="dt_05" class="hidden">
 <span class="mp"><a href="/zxzx/gzwm/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a  href="/zxzx/gzwm/listinfo-31762.html"  title="" >国内手机用户达12.9亿户 4G用户占比超过10%</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+        <li><a  href="/zxzx/gzwm/listinfo-31874.html"  title="" >皮尤：7%美国人只用智能手机上网</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/gzwm/listinfo-31762.html"  title="" >国内手机用户达12.9亿户 4G用户占比超过10%</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/gzwm/listinfo-31670.html"  title="" >北京手机网民达2635万户</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/gzwm/listinfo-31609.html"  title="" >研究称13%英国人手机成瘾 自恋是成瘾最常见迹象</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/gzwm/listinfo-31570.html"  title="" >麦肯锡：仅16%的中国网民在传统门店购物</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
        
 </ul>
 </div>  
@@ -526,10 +526,10 @@ function check()
 <div id="hy_01" >
 <span class="mp"><a href="/zxzx/hyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a  href="/zxzx/hyxx/listinfo-31853.html"  title="网易云阅读书摘分享 开启立体化阅读社交"  >网易云阅读书摘分享 开启立体化阅读社交</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-31850.html"  title="邮储银行:普惠金融要有可持续性 不会从农村撤点"  >邮储银行:普惠金融要有可持续性 不会从农村撤点</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-31846.html"  title="去哪儿网客户端架构升级 告别版本频繁更新"  >去哪儿网客户端架构升级 告别版本频繁更新</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-31844.html"  title="百度与中网在线签署交叉销售服务合作协议"  >百度与中网在线签署交叉销售服务合作协议</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-31892.html"  title="百度钱包在北京推一卡通充值 三种方式可选"  >百度钱包在北京推一卡通充值 三种方式可选</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-31891.html"  title="阿里巴巴成立汽车事业部 王立成任总经理"  >阿里巴巴成立汽车事业部 王立成任总经理</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-31888.html"  title="小米手环与支付宝合作：实现免密码支付"  >小米手环与支付宝合作：实现免密码支付</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-31885.html"  title="美的阿里签署合作协议 前者加码线上销售"  >美的阿里签署合作协议 前者加码线上销售</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
  
 </ul>
 </div>
@@ -580,8 +580,8 @@ function check()
 <div class="bor pad10 not_list">
    <div id="not1">   
     <ul id="notice1"> 
-                <li> <a  class="st" id="re" href="/wzgg/listinfo-31855.html"  title="“金网奖”案例征集启事"  class="orange" >•“金网奖”案例征集启事</a></li>           
-                <li> <a  class="st" id="re" href="/wzgg/listinfo-31847.html"  title="关于开展2015中国互联网100强评价工作的通知"  class="orange" >•关于开展2015中国互联网100强评价工作的通知</a></li>           
+                <li> <a  class="st" id="re" href="/wzgg/listinfo-31855.html"  title="“金网奖”案例征集启事" >•“金网奖”案例征集启事</a></li>           
+                <li> <a  class="st" id="re" href="/wzgg/listinfo-31847.html"  title="关于开展2015中国互联网100强评价工作的通知" >•关于开展2015中国互联网100强评价工作的通知</a></li>           
                 <li> <a  class="st" id="re" href="/wzgg/listinfo-31745.html"  title="2015（第十四届）中国互联网大会将于7月21日-23日在北京举行" >•2015（第十四届）中国互联网大会将于7月21日-23日在北京举行</a></li>           
                 <li> <a  class="st" id="be" href="/wzgg/listinfo-30802.html"  title="《中国互联网发展报告》（2014）征订通知" >•《中国互联网发展报告》（2014）征订通知</a></li>           
                 <li> <a  class="st" id="be" href="/wzgg/listinfo-30376.html"  title="2014中国互联网协会互联网公益日捐款用途公示" >•2014中国互联网协会互联网公益日捐款用途公示</a></li>           

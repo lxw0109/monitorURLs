@@ -406,29 +406,26 @@ padding: 0px 8px 2px 12px;
 <div id="feedtablegroup">
 <div class="column">
 <div class="columnheader">
-<span class="headertext">UPCOMING</span>
-</div>
-<div class="messageareas">
-<b class="rc0"></b><b class="rc1"></b><b class="rc2"></b><b class="rc3"></b>
-<div class="rccontent">
-<table summary="CAIDA What's New feed: Upcoming Events" class="feedtable">
-<tr>
-<td><a href="http://www.caida.org/workshops/aims/1503/" title="On March 31, 2015, CAIDA will host the 7th workshop on Active Internet Measurements, a three-day workshop supporting science and policy.
-
-AIMS 2015 is by invitation only.
-    ">AIMS 2015 Workshop on Active Internet Measurements</a></td><td><span style="white-space:nowrap;">Mar 31-Apr 2</span></td>
-</tr>
-</table>
-</div>
-<b class="rc3"></b><b class="rc2"></b><b class="rc1"></b><b class="rc0"></b>
-</div>
-<div class="columnheader">
 <span class="headertext headerlink"><a href="archived-news.xml">NEW</a></span>
 </div>
 <div class="messageareas">
 <b class="rc0"></b><b class="rc1"></b><b class="rc2"></b><b class="rc3"></b>
 <div class="rccontent">
 <table summary="CAIDA What's New main feed" class="feedtable">
+<tr>
+<td><a href="http://www.caida.org/data/passive/passive_2015_dataset.xml" title="
+ This dataset contains anonymized passive traffic traces from CAIDA's equinix-chicago monitor on high-speed Internet backbone links. This data is useful for research on the characteristics of Internet traffic, including application breakdown, security events, geographic and topological distribution, and flow volume and duration.
+
+Starting with the 2014 dataset the yearly passive trace datasets will only contain one trace per quarter (previous years contain one trace per month). While we still collect a one-hour trace each month (and add statistics about each trace to the trace statistics page), we are forced by storage limitations to select only one of the three traces for each quarter for inclusion in this yearly collection.
+
+Traffic traces in this dataset are anonymized using CryptoPan prefix-preserving anonymization. All traces in this dataset are anonymized with the same key. In addition, the payload has been removed from all packets.">CAIDA "Anonymized Internet Traces 2015 Dataset" dataset available</a></td><td>Apr&nbsp;7</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://www.caida.org/workshops/aims/1503/" title="On March 31, 2015, CAIDA hosted the 7th workshop on Active Internet Measurements, a three-day workshop supporting science and policy.
+
+AIMS 2015 was by invitation only.
+    ">AIMS 2015 Workshop on Active Internet Measurements</a></td><td><span style="white-space:nowrap;">Mar 31-Apr 2</span></td>
+</tr>
 <tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/ipv6_as_relationships_pam/" title="This slideset was presented at the Passive and Active Network Measurement Workshop (PAM) in March 2015.">"IPv6 AS Relationships, Clique, and Congruence" slideset</a></td><td>Mar&nbsp;26</td>
 </tr>
@@ -475,16 +472,6 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 <tr>
 <td><a href="http://www.caida.org/workshops/ndn/1409/" title="We are pleased to announce the first NDNcomm meeting: an opportunity to discuss existing capabilities and potential opportunities for the NDN software platform to serve the scientific research community. This 2-day meeting will be hosted by UCLA in the first week of September 2014.">NDN Community Meeting (NDNcomm 2014)</a></td><td><span style="white-space:nowrap;">Sep 4-5</span></td>
 </tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/data/internet-topology-data-kit/" title="The ITDK contains data about connectivity and routing gathered from a large cross-section of the global Internet. This dataset is useful for studying the topology of the Internet at the router-level, among other uses.
-
- The latest ITDK release, 2014-04, currently consists of two related router-level topologies, router-to-AS assignments, geographic location of each router, and DNS lookups of all observed IP addresses.
-
-">CAIDA "Macroscopic Internet Topology Data Kit (ITDK)" 2014-04 dataset available</a></td><td>Aug&nbsp;20</td>
-</tr>
-<tr>
-<td><a href="http://imdc.datcat.org/" title="The DatCat catalog indexes Internet measurement data.  The new version makes it easier than ever to find Collections of relevant data and get right to downloading them. Learn more at imdc.datcat.org/">DatCat 3.0 released</a></td><td>Aug&nbsp;19</td>
-</tr>
 </table>
 </div>
 <b class="rc3"></b><b class="rc2"></b><b class="rc1"></b><b class="rc0"></b>
@@ -501,22 +488,22 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 <div class="rccontent">
 <table summary="CAIDA Blog: According to the Best Available Data" class="feedtable">
 <tr>
+<td><a href="http://blog.caida.org/best_available_data/2015/04/01/rfc-7514-really-explicit-congestion-notification-recn/" title="I feel that somewhere up there Jon Postel is smiling about Matthew&amp;#8217;s RFC 7514, published today: The deployment of Explicit Congestion Notification (ECN) [RFC3168] remains stalled. While most operating systems support ECN, it is currently disabled by default because of fears that enabling ECN will break transport protocols. This document proposes a new ICMP message [&amp;#8230;]">RFC 7514 : Really Explicit Congestion Notification (RECN)</a></td><td>Apr&nbsp;2</td>
+</tr>
+<tr class="zebra">
 <td><a href="http://blog.caida.org/best_available_data/2015/02/13/mapping-the-technological-frontier-and-sources-of-innovation/" title="Last weekend I had the honor of participating in a conference on &amp;#8220;The Digital Broadband Migration: First Principles for a Twenty First Century Innovation Policy&amp;#8221; hosted by the Silicon Flatirons Center at the University of Colorado. David Clark and I kicked off a panel on the topic of &amp;#8220;Mapping the Technological Frontier and the Sources [&amp;#8230;]">Mapping the Technological Frontier and Sources of Innovation</a></td><td>Feb&nbsp;14</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://blog.caida.org/best_available_data/2015/01/13/report-from-the-1st-ndn-community-meeting-ndncomm/" title="The report for the 1st NDN Community Meeting (NDNcomm) is available online now. This report, &amp;#8220;The First Named Data Networking Community Meeting (NDNcomm)&amp;#8220;, is a brief summary of the first NDN Community Meeting held at UCLA in Los Angeles, California on September 4-5, 2014. The meeting provided a platform for the attendees from 39 institutions [&amp;#8230;]">Report from the 1st NDN Community Meeting (NDNcomm)</a></td><td>Jan&nbsp;13</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td style="background: center"></td><td align="left"><span class="yeartext">2014</span></td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://blog.caida.org/best_available_data/2014/12/23/north-korean-internet-outages-observed/" title="As reported by Dyn Research, North Korea has experienced extremely unstable Internet connectivity in the last few days. We offer a near real-time (30-minute delayed) view of the BGP-visibility of the 4 IPv4 prefixes announced by STAR-KP, Ryugyong-dong (North Korea&amp;#8217;s national telecommunications provider). This real-time view represents a sneak peek of the intended outcomes of [&amp;#8230;]">North Korean Internet outages observed</a></td><td>Dec&nbsp;24</td>
 </tr>
-<tr class="zebra">
-<td><a href="http://blog.caida.org/best_available_data/2014/10/17/architecture-innovation-2020-and-2030/" title="Today I participated as a panelist in the Internet Regulation 2020 hosted by Duke Law&amp;#8217;s Center for Innovation Policy at the National Academy of Sciences. The questions for my panel were: What are the most significant realistic changes in network architecture, capacity, and connectivity by 2020? In what ways might these developments be affected, perhaps [&amp;#8230;]">architecture innovation 2020 (and 2030)</a></td><td>Oct&nbsp;17</td>
-</tr>
 <tr>
-<td><a href="http://blog.caida.org/best_available_data/2014/10/10/imaps-workshop-on-internet-measurements-and-political-science-network-outages/" title="On Wednesday 1 October 2014, CAIDA hosted a small invitation only workshop&nbsp;that brought together researchers working on large-scale Internet outage detection and characterization with researchers from the political sciences with specific expertise in Internet censorship, political violence (including Internet connectivity disruption ordered by authoritarian regimes for censorship), and Internet penetration. Participants viewed and demonstration of [&amp;#8230;]">IMAPS Workshop on Internet Measurements and Political Science: Network Outages</a></td><td>Oct&nbsp;10</td>
+<td><a href="http://blog.caida.org/best_available_data/2014/10/17/architecture-innovation-2020-and-2030/" title="Today I participated as a panelist in the Internet Regulation 2020 hosted by Duke Law&amp;#8217;s Center for Innovation Policy at the National Academy of Sciences. The questions for my panel were: What are the most significant realistic changes in network architecture, capacity, and connectivity by 2020? In what ways might these developments be affected, perhaps [&amp;#8230;]">architecture innovation 2020 (and 2030)</a></td><td>Oct&nbsp;17</td>
 </tr>
 </table>
 </div>
@@ -590,7 +577,7 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 <div style="text-align:center">
         Center for Applied Internet Data Analysis
       
-    &nbsp;&nbsp; | &nbsp;&nbsp;Based at the <a href="http://www.sdsc.edu/">University of California's San Diego Supercomputer Center</a>
+    &nbsp;&nbsp; | &nbsp;&nbsp;Based at the <a href="//www.sdsc.edu/">University of California's San Diego Supercomputer Center</a>
 </div>
 <div style="position:absolute; bottom:0.5em; right:1em;" class="noprint" id="privacynotice">
 <a href="/home/legal/privacy/">Privacy</a>

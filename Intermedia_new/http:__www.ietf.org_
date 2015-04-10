@@ -134,10 +134,7 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
                     <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/4JneJ53BAXmPsJ-ac-enX1LAkjk">IETF 97 - Seoul, South Korea!</a></li>
                     <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/RQR6tw_7s-Z0n_LkZK45KRKJ_K0">IETF 98 - Montreal!</a></li>
                     <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/5MgSXXCaiN5pYzGAYtQQ_c9kULo">IETF 95 - Buenos Aires!</a></li>
-                    <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/r1RKvmz5mg0qvZ5w80B44fZVjis">RFC Editor Digital Object Identifiers Project</a></li>
-                    <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/cwIz49qJjyooiRyJUYmnEdT0JuM">RFP: RFC Editor Website Revamp</a></li>
                     <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/dmixjsxZii4IrZm4tf034spGDHI">Juniper to Host IETF 96 in Berlin!</a></li>
-                    <li><a href="/media/2014-03-14-internet-techncial-leaders-welcome-iana-globalization-progress.html">Internet Technical Leaders Welcome IANA Globalization Progress</a></li>
                     <li><a href="/blog/">Chair's Blog</a></li>
                     <li><a href="http://tools.ietf.org/dailydose/">IETF Daily Dose</a></li>
                 </ul></td>
@@ -149,7 +146,7 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
                           <li><a href="meeting/important-dates-2015.html#ietf93">Important Dates</a></li>
                           <li>IETF 93  Agenda</li>
                           <li>Meeting Materials</li>
-                          <li>Venue Information: The Hilton Prague</li>
+                          <li><a href="meeting/93/hotel.html">Venue Information: The Hilton Prague</a></li>
                           <li>Remote Participation</li>
                       </ul></td>
                       <td width="20%" valign="top" nowrap="nowrap"><p><br />

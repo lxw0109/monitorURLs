@@ -153,6 +153,9 @@ If one url costs too much time and does not stop before the time we can wait(1 m
 
 
 ###Todos:
+0. Only show the information that is added.
+&
+Offer a function that we can **specify a few words** so that only the information contains the words shows.
 1. Use database for data storage.
 2. Add test code to each file.
 3. PySpider: 1. QuickStart&Command Line P2 jQuery to select elements to be extracted.

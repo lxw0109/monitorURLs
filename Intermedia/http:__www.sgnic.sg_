@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-tvS0tld2b7K7LFB7QLTcCEbJSk16-LGsmH8fa79g3KU" value="form-tvS0tld2b7K7LFB7QLTcCEbJSk16-LGsmH8fa79g3KU"  />
+<input type="hidden" name="form_build_id" id="form-7XaBWsGE1V6PEjBzggIlblw63339iOOM7j0rzhzmO4s" value="form-7XaBWsGE1V6PEjBzggIlblw63339iOOM7j0rzhzmO4s"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-WLk9Z6B3dOwywAfLInswm-w-2elxsb0Pvx2ZLWHKLsE" value="form-WLk9Z6B3dOwywAfLInswm-w-2elxsb0Pvx2ZLWHKLsE"  />
+<input type="hidden" name="form_build_id" id="form-s-4f2z5_NkjhV_dpe0pziG4IAqDwRREWw9i0ewqtw3c" value="form-s-4f2z5_NkjhV_dpe0pziG4IAqDwRREWw9i0ewqtw3c"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -120,6 +120,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-created">
+                <span class="field-content">April 7, 2015, 4:19 pm</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/sg50-celebration-registrars-offer-savings-sg-domain-name-registration">SG50 Celebration: Registrars offer savings in .SG domain name registration</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-created">
                 <span class="field-content">March 30, 2015, 10:16 am</span>
   </div>
   
@@ -127,22 +136,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="/news/special-names-limited-period-grab-it-now-15">Special names for a limited period! Grab it now!</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-created">
                 <span class="field-content">March 23, 2015, 2:46 pm</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="/news/remembering-mr-lee-kuan-yew-1923-2015">Remembering Mr Lee Kuan Yew (1923-2015)</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-created">
-                <span class="field-content">March 6, 2015, 9:00 am</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/sgnic-q-15001-invitation-quote-rack-servers">SGNIC-Q-15001: Invitation to Quote for Rack Servers</a></span>
   </div>
 </li>
       </ul>
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">April 1, 2015, 11:54 am</span>
+                <span class="field-content">April 8, 2015, 10:49 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/04/01/event-wrap-rightscon-2015-southeast-asia-conference/">Event Wrap: RightsCon 2015 Southeast Asia Conference</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/04/08/rewarding-innovation-online-the-anzias-are-open/">Rewarding innovation online, the ANZIAs are open</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">March 30, 2015, 2:06 pm</span>
+                <span class="field-content">April 7, 2015, 10:07 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/03/30/free-apnic-training/">Free APNIC training!</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/04/07/all-your-base-are-belong-to-us/">“All Your Base Are Belong To Us!”</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">March 27, 2015, 9:35 am</span>
+                <span class="field-content">April 3, 2015, 10:39 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/03/27/rdap-now-a-published-standard/">RDAP now a published standard</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/04/03/crystal-balls-cannot-predict-arin-ipv4-d-day/">Crystal balls cannot predict ARIN IPv4 D-Day</a></span>
   </div>
 </li>
       </ul>

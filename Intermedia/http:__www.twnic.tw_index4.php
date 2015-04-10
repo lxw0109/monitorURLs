@@ -437,6 +437,9 @@ ICANN 更新發放二字元ASCII Labels之授權程序</a>(2015-03-27)</td></tr>
 <tr><td><img src="http://www.twnic.net.tw/img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="/NEWS/2132.pdf" target="_blank">
 TWNIC徵才公告</a>(2014-12-24)</td></tr>
+<tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://www.sharecourse.net/sharecourse/course/view/courseInfo/475" target="_blank">
+2015 IPv6前瞻通訊技術人才教育訓練(MOOCs)開始報名</a>(2015-04-06)</td></tr>
  
             <? system("perl ./news.cgi"); ?> 
                                   </td>

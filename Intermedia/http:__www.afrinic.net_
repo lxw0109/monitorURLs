@@ -1306,7 +1306,7 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt551c088fa4cd0rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt5525d013ba5afrssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1320,8 +1320,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt551c088fa4cd0"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt551c088fa4cd0rssscroller_module", options);
+					instanceId : "pgt5525d013ba5af"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt5525d013ba5afrssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);
@@ -1488,7 +1488,7 @@ google.setOnLoadCallback(loadFeedControl);
 			<!-- Piwik -->
 			<a href="http://piwik.org" title="Web analytics api" onclick="window.open(this.href);return(false);">
 			<script type="text/javascript">
-			var pkBaseURL = (("https:" == document.location.protocol) ? "https://webstats01.jnb.afrinic.net/piwik/" : "http://webstats01.jnb.afrinic.net/piwik/");
+			var pkBaseURL = (("https:" == document.location.protocol) ? "https://webstats02.jnb.afrinic.net" : "http://webstats02.jnb.afrinic.net");
 			document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
 			</script><script type="text/javascript">
 			piwik_action_name = '';
@@ -1496,7 +1496,7 @@ google.setOnLoadCallback(loadFeedControl);
 			piwik_url = pkBaseURL + "piwik.php";
 			piwik_log(piwik_action_name, piwik_idsite, piwik_url);
 			</script>
-			<object><noscript><p>Web analytics api <img src="http://webstats01.jnb.afrinic.net/piwik/piwik.php" style="border:0" alt=""/></p></noscript></object></a>
+			<object><noscript><p>Web analytics api <img src="http://webstats02.jnb.afrinic.netpiwik.php" style="border:0" alt=""/></p></noscript></object></a>
 			<!-- End Piwik Tag -->
 			</body>
 </html>

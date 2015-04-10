@@ -118,7 +118,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-bMb5gt3CoLl_M8_bmOVHz22rKkeHPpp4Ap2iCxXNZgE" value="form-bMb5gt3CoLl_M8_bmOVHz22rKkeHPpp4Ap2iCxXNZgE"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-hJlXpHY8EwT9UuV58hxtqvT4J8lVaLgV_X9_qbjPoJs" value="form-hJlXpHY8EwT9UuV58hxtqvT4J8lVaLgV_X9_qbjPoJs"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -135,7 +135,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-9SmcWbrDHsfu7P10Z1aCRxcDAT6ez3gFazbA_dOpZl8" value="form-9SmcWbrDHsfu7P10Z1aCRxcDAT6ez3gFazbA_dOpZl8"  />
+<input type="hidden" name="form_build_id" id="form-jCfY1id2vqn2c3ZEEwSS_hV9Ll2jVg72VFDr0EXbG4A" value="form-jCfY1id2vqn2c3ZEEwSS_hV9Ll2jVg72VFDr0EXbG4A"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -204,8 +204,7 @@
 <div class="node  ">
         <h2><a href=" /node/349 " title=" OARC 2015 Spring Workshop (Amsterdam) "> OARC 2015 Spring Workshop (Amsterdam) </a></h2>
      <div class="content">
-          <p>DNS-OARC&#39;s <a href="https://indico.dns-oarc.net/event/21/">Spring 2015 Workshop</a> will take place co-located with the <a href="https://ripe70.ripe.net">RIPE70</a> meeting at the <a href="https://www.okura.nl">Hotel Okura</a> in Amsterdam, sponsored by <a href="https://www.sidn.nl">SIDN</a> and <a href="https://www.verisigninc.com">Verisign</a> on the 9th and 10th of May.</p>
-<p>DNS-OARC Workshop meetings are open to OARC members and to all other parties interested in DNS operations and research, with RIPE attendees particularly welcome this time around. Attendance is free for OARC Members, Speakers and Sponsors. There are charges for other attendees and late registrations.</p>
+          <p>DNS-OARC&#39;s <a href="https://indico.dns-oarc.net/event/21/">Spring 2015 Workshop</a> will take place co-located with the <a href="https://ripe70.ripe.net">RIPE70</a> meeting at the <a href="https://www.okura.nl">Hotel Okura</a> in Amsterdam, sponsored by <a href="https://www.sidn.nl">SIDN</a>, <a href="https://www.verisigninc.com">Verisign</a> and <a href="http://www.nominum.com">Nominum</a> on the 9th and 10th of May.</p>
   </div>
     <div class="info">
     Submitted by keith on Fri, 2015-03-13 20:02          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
@@ -330,13 +329,13 @@ Current open positions:</p>
 
   <div class="content">
     <p><center>Platinum</center><a href="http://corporate.comcast.com/">Comcast</a><br/>
+<a href="http://www.google.com/">Google</a><br/>
 <a href="http://www.infoblox.com">Infoblox</a><br/>
 <a href="http://www.isc.org/">ISC</a><br/>
 <a href="http://www.microsoft.com/">Microsoft</a><br/>
 <a href="http://verisigninc.com/">VeriSign</a><br/>
 <p><center>Gold</center><a href="http://www.afilias.info/">Afilias</a><br/>
 <a href="http://www.dyn.com">Dyn</a><br/>
-<a href="http://www.google.com/">Google</a><br/>
 <a href="http://www.icann.org/">ICANN</a><br/>
 <a href="http://www.nominet.org.uk">Nominet</a><br/>
 <a href="http://rightside.co/about/about-us/">Rightside</a><br/>

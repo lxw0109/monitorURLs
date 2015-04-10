@@ -486,6 +486,9 @@ document.getElementById(imgArr[random]).style.display="block";
                     <div id="content_02" class="tzgg" style="height: 200px; overflow: hidden; display: none">
                         <ul>
 						                               
+                            <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201504/t20150403_52055.htm">CNNIC清明节放假通知</a>[04/03] 
+							</li> 
+						                               
                             <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201504/t20150402_52050.htm">声明</a>[04/02] 
 							</li> 
 						                               
@@ -493,9 +496,6 @@ document.getElementById(imgArr[random]).style.display="block";
 							</li> 
 						                               
                             <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201408/t20140819_47847.htm">“.公司”和“.网络”抢滩期注册及竞价规则</a>[08/19] 
-							</li> 
-						                               
-                            <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201408/t20140812_47690.htm">关于“.CN”及“.中国”（简繁体）DNSSEC密钥轮转的公告</a>[08/12] 
 							</li> 
 						   
                         </ul>

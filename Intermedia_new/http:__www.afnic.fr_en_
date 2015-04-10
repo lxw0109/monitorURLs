@@ -118,10 +118,10 @@
                                               							<ul class="submenu">
                                                     									 <li><a href="/en/your-domain-name/manage-your-domain-name/changing-registrars-3.html">Changing Registrars</a></li>
                   							                    									 <li><a href="/en/your-domain-name/manage-your-domain-name/deleting-your-domain-name-3.html">Deleting your domain name</a></li>
-                  							                    									 <li><a href="/en/your-domain-name/manage-your-domain-name/remember-to-renew-your-domain-name-3.html">Remember to renew your domain name</a></li>
                   							                    									 <li><a href="/en/your-domain-name/manage-your-domain-name/keep-your-contact-information-up-to-date-2.html">Keep your contact information up to date</a></li>
                   							                    									 <li><a href="/en/your-domain-name/manage-your-domain-name/orphan-domain-name-7.html">Orphan domain name</a></li>
                   							                    									 <li><a href="/en/your-domain-name/manage-your-domain-name/selling-or-transferring-your-domain-name-4.html">Selling or transferring your domain name</a></li>
+                  							                    									 <li><a href="/en/your-domain-name/manage-your-domain-name/remember-to-renew-your-domain-name-5.html">Remember to renew your domain name</a></li>
                   							  
                   								                  							</ul>
                                                       </td>
@@ -529,7 +529,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="f516926cb56c4a881dfa6bebc98e7eef" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="5fc8adbb7483eb6c084e0d86fa1895a7" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -672,6 +672,16 @@
   
   <ul>
           <li>
+      <span class="type"><em>Press release</em></span>      <span class="date"><em>4/7/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8948/show/april-7-2015-opening-of-the-alsace-geotld-the-point-is-you.html">April 7, 2015:  Opening of the .alsace geoTLD: the point is you!</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/8948/show/april-7-2015-opening-of-the-alsace-geotld-the-point-is-you.html">As of April 7, 2015, the &quot;.alsace&quot; geoTLD will be accessible to all on the Internet.</a></span>
+    </li>
+       <li>
+            <span class="date"><em>4/2/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8934/show/the-fr-tld-a-love-story-that-now-lasts-several-years.html">The .fr TLD: a love story that now lasts several years</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/8934/show/the-fr-tld-a-love-story-that-now-lasts-several-years.html">Since March 30, 2015, Afnic has offered the registration of domain names with the .fr TLD for periods ranging from one to ten years.</a></span>
+    </li>
+       <li>
             <span class="date"><em>3/10/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8862/show/opening-of-1-2-character-s-in-fr-311-domains-made-available-on-03-11-2.html">Opening of 1 &amp; 2 character(s) in .fr : 311 domains made available on 03/11</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/8862/show/opening-of-1-2-character-s-in-fr-311-domains-made-available-on-03-11-2.html">During the landrush phase of the opening of registrations for domain names under .fr with 1 &amp; 2 character(s),</a></span>
@@ -685,16 +695,6 @@
             <span class="date"><em>3/6/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8820/show/adr-trends-the-results-of-afnic-resolution-procedures-q1-2015.html">ADR trends, the results of Afnic resolution procedures - Q1 2015</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/8820/show/adr-trends-the-results-of-afnic-resolution-procedures-q1-2015.html">Afnic now publishes a quarterly review of its alternative dispute resolution procedures. Here is an overview of the findings of the study for Q1 2015....</a></span>
-    </li>
-       <li>
-            <span class="date"><em>2/24/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8788/show/fr-lock-by-afnic-the-solution-to-protect-strategic-domain-names.html">.fr Lock by Afnic : the solution to protect strategic domain names</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/8788/show/fr-lock-by-afnic-the-solution-to-protect-strategic-domain-names.html">As of February 24, 2015, Afnic is upgrading its offer with a new service for locking .fr domain names.</a></span>
-    </li>
-       <li>
-            <span class="date"><em>2/19/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8784/show/2014-year-zero-for-ntlds.html">2014, &quot;Year Zero&quot; for nTLDs</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/8784/show/2014-year-zero-for-ntlds.html">The February 2015 edition of the Afnic Industry Report on Domain Names reviews the launch of the new Internet Top Level Domains.</a></span>
     </li>
      </ul>
     <div class="mainContent" style="padding:0">
@@ -775,10 +775,10 @@
                   		<a href="/en/your-domain-name/manage-your-domain-name/">Manage your Domain Name</a>
                   		                   			<span><a href="/en/your-domain-name/manage-your-domain-name/changing-registrars-3.html" >Changing Registrars</a></span>
                   		                   			<span><a href="/en/your-domain-name/manage-your-domain-name/deleting-your-domain-name-3.html" >Deleting your domain name</a></span>
-                  		                   			<span><a href="/en/your-domain-name/manage-your-domain-name/remember-to-renew-your-domain-name-3.html" >Remember to renew your domain name</a></span>
                   		                   			<span><a href="/en/your-domain-name/manage-your-domain-name/keep-your-contact-information-up-to-date-2.html" >Keep your contact information up to date</a></span>
                   		                   			<span><a href="/en/your-domain-name/manage-your-domain-name/orphan-domain-name-7.html" >Orphan domain name</a></span>
                   		                   			<span><a href="/en/your-domain-name/manage-your-domain-name/selling-or-transferring-your-domain-name-4.html" >Selling or transferring your domain name</a></span>
+                  		                   			<span><a href="/en/your-domain-name/manage-your-domain-name/remember-to-renew-your-domain-name-5.html" >Remember to renew your domain name</a></span>
                   							</li>
           						</ul>
 			        </td>
