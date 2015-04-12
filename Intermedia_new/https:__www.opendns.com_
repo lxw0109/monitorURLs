@@ -14,11 +14,11 @@
 
 	
 	<!--[if (gt IE 8) | (IEMobile)]><!-->
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/main.css?v=b5073b852723f4ede32b0e548540253f" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/main.css?v=10fd8357c8eeee9f429ebc3a67ff8b8a" />
 	<!--<![endif]-->
 
 	<!--[if IE 8]>
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/ie.css?v=0015a3abfc11d0deb6fb6ffb38b8d54c" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/ie.css?v=406bc07048434a2b175a158889cc6663" />
 	<![endif]-->
 
 	<link rel='stylesheet' id='style-css'  href='https://www.opendns.com/wp-content/themes/opendns/style.css?ver=4.1.1' type='text/css' media='all' />
@@ -28,7 +28,7 @@
 <link rel='stylesheet' id='chosen-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/chosen.css?ver=4.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.1.1' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=1b2132c8e309814d34bb3620145834cc">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=981d39f7dbf8ece6afabe8784d68e948">
 
 	<meta name="viewport" content="width=device-width">
 	
@@ -47,7 +47,7 @@
 
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=3d134267acdd133297ae433e5ef4cd79'></script>
+<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=19028a4d59c9ea7cd71d18343dc68ea9'></script>
 <meta name="generator" content="WordPress 4.1.1" />
 <script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 
@@ -162,7 +162,7 @@
 			<a href="http://careers.opendns.com">
 				<span class="icon "></span>Careers</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="/about/#contact">
-				<span class="icon "></span>Contact</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=4b79fd176717d8fbff0f3c307ab4cde4"></script>
+				<span class="icon "></span>Contact</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=02421a1f31fa035a7ea28b6f87dcc2ea"></script>
 		</div>
 	</header>
 	<!--
@@ -340,17 +340,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Apr 9</span>
+							<span class="date">Apr 10</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="http://blog.opendns.com/2015/04/09/why-apis-should-be-a-major-factor-in-your-security-buying-decisions/" title="Why APIs Should Be a Major Factor in Your Security Buying Decisions">Why APIs Should Be a Major Factor in Your Security Buying Decisions</a>
+							<a href="http://blog.opendns.com/2015/04/10/the-brief-april-6th-2015/" title="The Brief: April 6th, 2015">The Brief: April 6th, 2015</a>
 						</p>
-						<p class="author">Author: Owen Lystrup</p>
-						<div class="excerpt"><p>Security Has Entered the Board Room &nbsp; Both the economy and methodology of IT security are changing rapidly. And whether &hellip;<span class="overflow"> they like it or not, business executives are finding themselves involved in more IT security decisions&hellip;</span></p>
+						<p class="author">Author: The Brief</p>
+						<div class="excerpt"><p>  &nbsp; Also available as a PDF: Brief462015             &hellip;<span class="overflow">                                                                                                                                                                            &hellip;</span></p>
 </div>
-						<a href="http://blog.opendns.com/2015/04/09/why-apis-should-be-a-major-factor-in-your-security-buying-decisions/" title="Why APIs Should Be a Major Factor in Your Security Buying Decisions" class="read-more">Read More &rarr;</a>
+						<a href="http://blog.opendns.com/2015/04/10/the-brief-april-6th-2015/" title="The Brief: April 6th, 2015" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 								<li class="post clearfix">
@@ -362,17 +362,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Apr 7</span>
+							<span class="date">Apr 9</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="http://blog.opendns.com/2015/04/07/rsa-research-real-world/" title="RSA Conference: Where Research and Real-World Problems Meet">RSA Conference: Where Research and Real-World Problems Meet</a>
+							<a href="http://blog.opendns.com/2015/04/09/why-apis-should-be-a-major-factor-in-your-security-buying-decisions/" title="Why APIs Should Be a Major Factor in Your Security Buying Decisions">Why APIs Should Be a Major Factor in Your Security Buying Decisions</a>
 						</p>
-						<p class="author">Author: Stephen Lynch</p>
-						<div class="excerpt"><p>Once a year, the RSA Conference USA gathers thousands of executives, vendors, and sales representatives together to transform San Francisco’s &hellip;<span class="overflow"> Moscone Center into the central nexus of the worldwide information security industry&hellip;</span></p>
+						<p class="author">Author: Owen Lystrup</p>
+						<div class="excerpt"><p>Security Has Entered the Board Room &nbsp; Both the economy and methodology of IT security are changing rapidly. And whether &hellip;<span class="overflow"> they like it or not, business executives are finding themselves involved in more IT security decisions&hellip;</span></p>
 </div>
-						<a href="http://blog.opendns.com/2015/04/07/rsa-research-real-world/" title="RSA Conference: Where Research and Real-World Problems Meet" class="read-more">Read More &rarr;</a>
+						<a href="http://blog.opendns.com/2015/04/09/why-apis-should-be-a-major-factor-in-your-security-buying-decisions/" title="Why APIs Should Be a Major Factor in Your Security Buying Decisions" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -388,17 +388,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Apr 9</span>
+							<span class="date">Apr 10</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="https://labs.opendns.com/2015/04/09/finding-malicious-connections-within-memory/" title="Finding Malicious Connections within Memory">Finding Malicious Connections within Memory</a>
+							<a href="https://labs.opendns.com/2015/04/10/operation-source-aaeh-botnet-takedown/" title=""Operation Source" AAEH Botnet Takedown">"Operation Source" AAEH Botnet Takedown</a>
 						</p>
-						<p class="author">Author: Anthony Kasza</p>
-						<div class="excerpt"><p>The Importance of Memory Forensics  Information security practitioners know the benefits of examining multiple sources of system data. This &hellip;<span class="overflow"> is one of the corner stones of the SIEM. By accumulating multiple sources of log data a&hellip;</span></p>
+						<p class="author">Author: Mark Nunnikhoven</p>
+						<div class="excerpt"><p>  “Operation Source” scored a win for the home team yesterday by taking down the AAEH botnet (also known &hellip;<span class="overflow"> as Beebone). This multi-organization effort (see the full list of organizations below) resulted in the domains associated&hellip;</span></p>
 </div>
-						<a href="https://labs.opendns.com/2015/04/09/finding-malicious-connections-within-memory/" title="Finding Malicious Connections within Memory" class="read-more">Read More &rarr;</a>
+						<a href="https://labs.opendns.com/2015/04/10/operation-source-aaeh-botnet-takedown/" title=""Operation Source" AAEH Botnet Takedown" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -616,10 +616,10 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=a711969127727f54ef707277ea64ff98'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":400,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=a664ea944e3e63a5e842f3c2f960145b'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":373,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
- Served from: www.opendns.com @ 2015-04-09 18:04:19 by W3 Total Cache -->
+ Served from: www.opendns.com @ 2015-04-11 18:04:20 by W3 Total Cache -->

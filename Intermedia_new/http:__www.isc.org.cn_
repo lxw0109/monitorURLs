@@ -16,7 +16,7 @@
 <!--顶部条开始-->
 <div class="isc_top">
     <div class="data">
-2015年04月10日 星期五
+2015年04月12日 星期天
 </div>
      <div class="email">
      <FORM method="post" name="form1" action="http://mm.263.com/login" onsubmit="return check();" target="_blank">
@@ -319,7 +319,7 @@ function check()
 	<div style="height: 118px; overflow:hidden;">
     	<h1 style="overflow: hidden; margin-top:7px; width:476px;"><p style="float: left;">【要闻视点】</p>
         <div class="cmore" style=" float:right;"><a href="/zxzx/ywsd/"><img src="images/12495217.gif"></a></div>
-        <span style="margin-left: 10px; float:right;"><img src="images/02270433.gif"></span></h1>
+        </h1>
         <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-31893.html"   title="邬贺铨院士：智能转型抢占先机" class="red">邬贺铨院士：智能转型抢占先机</a></h1>
 	<div class="mg10">今年的政府工作报告中指出，要实施“中国制造2025”，坚持创新驱动、智能转型、强化基础、绿色发展，加快从制造大国转向制造强国。... <a  href="/zxzx/ywsd/listinfo-31893.html"   title="详细" class="blue">[详细]</a></div>
 </div>
@@ -422,7 +422,7 @@ function check()
 
         <tr><td width="130" valign="top"><span><a  href="/zxzx/zfxx/listinfo-31744.html"  ><img src="/upimages/article20150317090020.png" class="bor" width="110" height="75" alt="2015年CeBIT合作伙伴国中央展区开幕"/></a></span></td><td><div>德国汉诺威当地时间3月16日上午9点，2015汉诺威消费电子、信息及通信博览会（CeBIT）合作伙伴国中国中央展区开幕式在汉诺威展览中心举行。...<a  href="/zxzx/zfxx/listinfo-31744.html"   title="2015年CeBIT合作伙伴国中央展区开幕" class="blue">[详细]</a></div></td></tr></table>
         <ul class="newslist">
-                <li><a  href="/zxzx/zfxx/listinfo-31894.html"  " title="文化部：加强网游宣传推广活动监管 近期将公布违规企业“黑名单”"  >文化部：加强网游宣传推广活动监管 近期将公布违规企业“黑名单”</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-31894.html"  " title="文化部：加强网游宣传推广活动监管 近期将公布违规企业“黑名单”"  >文化部：加强网游宣传推广活动监管 近期将公布违规企业“黑名单”</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
                 <li><a  href="/zxzx/zfxx/listinfo-31886.html"  " title="怀进鹏出席第三届中国国际云计算技术和应用展览会暨论坛"  >怀进鹏出席第三届中国国际云计算技术和应用展览会暨论坛</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
                 <li><a  href="/zxzx/zfxx/listinfo-31876.html"  " title="尚冰赴奇虎360公司考察调研"  >尚冰赴奇虎360公司考察调研</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
                 </ul>
@@ -459,10 +459,10 @@ function check()
 <div id="dt_01" >
 <span class="mp"><a href="/hydt/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a   href="/hydt/listinfo-31898.html" title="陕西互联网应急中心加强与企业合作助力形成网络安全合力" >陕西互联网应急中心加强与企业合作助力形成网络安全合力</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-31890.html" title="O2O餐饮平台首推食品安全保单" >O2O餐饮平台首推食品安全保单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-31889.html" title="湖南发布全国首份省级宽带发展水平报告" >湖南发布全国首份省级宽带发展水平报告</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-31884.html" title="公共WiFi使用应注意的安全事项" >公共WiFi使用应注意的安全事项</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a   href="/hydt/listinfo-31903.html" title="亚马逊中国网购世博会盛大开幕" >亚马逊中国网购世博会盛大开幕</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-31899.html" title="全国扫黄打非办通报“净网2015”第二批案件查处情况" >全国扫黄打非办通报“净网2015”第二批案件查处情况</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-31898.html" title="陕西互联网应急中心加强与企业合作助力形成网络安全合力" >陕西互联网应急中心加强与企业合作助力形成网络安全合力</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a   href="/hydt/listinfo-31890.html" title="O2O餐饮平台首推食品安全保单" >O2O餐饮平台首推食品安全保单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
              
 </ul>
 </div>
@@ -470,10 +470,10 @@ function check()
 <div id="dt_02" class="hidden">
 <span class="mp"><a href="/zxzx/hlwzl/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-       <li><a    href="/zxzx/hlwzl/listinfo-31890.html"  title="O2O餐饮平台首推食品安全保单" >O2O餐饮平台首推食品安全保单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+       <li><a    href="/zxzx/hlwzl/listinfo-31899.html"  title="全国扫黄打非办通报“净网2015”第二批案件查处情况" >全国扫黄打非办通报“净网2015”第二批案件查处情况</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a    href="/zxzx/hlwzl/listinfo-31890.html"  title="O2O餐饮平台首推食品安全保单" >O2O餐饮平台首推食品安全保单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a    href="/zxzx/hlwzl/listinfo-31884.html"  title="公共WiFi使用应注意的安全事项" >公共WiFi使用应注意的安全事项</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a    href="/zxzx/hlwzl/listinfo-31878.html"  title="14起网络新闻敲诈和编造传播假新闻典型案例公布" >14起网络新闻敲诈和编造传播假新闻典型案例公布</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a    href="/zxzx/hlwzl/listinfo-31849.html"  title="商务部：网购刷信誉、虚构信用评价等手段将违法" >商务部：网购刷信誉、虚构信用评价等手段将违法</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
                   
 </ul>
 </div>
@@ -492,10 +492,10 @@ function check()
 <div id="dt_04" class="hidden">
 <span class="mp"><a href="/zxzx/qyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a  href="/zxzx/qyxx/listinfo-31898.html"  title="陕西互联网应急中心加强与企业合作助力形成网络安全合力" >陕西互联网应急中心加强与企业合作助力形成网络安全合力</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/qyxx/listinfo-31889.html"  title="湖南发布全国首份省级宽带发展水平报告" >湖南发布全国首份省级宽带发展水平报告</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+        <li><a  href="/zxzx/qyxx/listinfo-31903.html"  title="亚马逊中国网购世博会盛大开幕" >亚马逊中国网购世博会盛大开幕</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/qyxx/listinfo-31898.html"  title="陕西互联网应急中心加强与企业合作助力形成网络安全合力" >陕西互联网应急中心加强与企业合作助力形成网络安全合力</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/qyxx/listinfo-31889.html"  title="湖南发布全国首份省级宽带发展水平报告" >湖南发布全国首份省级宽带发展水平报告</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/qyxx/listinfo-31879.html"  title="第六届中国卫星导航学术年会5月将在西安召开" >第六届中国卫星导航学术年会5月将在西安召开</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/qyxx/listinfo-31872.html"  title="“电子信息产业知识产权大课堂”正式启动" >“电子信息产业知识产权大课堂”正式启动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
                    
 </ul>
 </div>
@@ -526,10 +526,10 @@ function check()
 <div id="hy_01" >
 <span class="mp"><a href="/zxzx/hyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a  href="/zxzx/hyxx/listinfo-31895.html"  title="阿里宣布成立汽车事业部：要做汽车电商O2O"  >阿里宣布成立汽车事业部：要做汽车电商O2O</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-31892.html"  title="百度钱包在北京推一卡通充值 三种方式可选"  >百度钱包在北京推一卡通充值 三种方式可选</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-31891.html"  title="阿里巴巴成立汽车事业部 王立成任总经理"  >阿里巴巴成立汽车事业部 王立成任总经理</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-31888.html"  title="小米手环与支付宝合作：实现免密码支付"  >小米手环与支付宝合作：实现免密码支付</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-31902.html"  title="阿里巴巴与北京海淀区政府达成广泛合作"  >阿里巴巴与北京海淀区政府达成广泛合作</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-31900.html"  title="高德发布“LBS+”开放平台 与神州租车达成合作"  >高德发布“LBS+”开放平台 与神州租车达成合作</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-31895.html"  title="阿里宣布成立汽车事业部：要做汽车电商O2O"  >阿里宣布成立汽车事业部：要做汽车电商O2O</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-31892.html"  title="百度钱包在北京推一卡通充值 三种方式可选"  >百度钱包在北京推一卡通充值 三种方式可选</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
  
 </ul>
 </div>

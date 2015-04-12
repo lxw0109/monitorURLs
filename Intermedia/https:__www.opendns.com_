@@ -14,11 +14,11 @@
 
 	
 	<!--[if (gt IE 8) | (IEMobile)]><!-->
-	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/main.css?v=626042984c28556b12261641d7068492" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/main.css?v=43c70a6dae3a3b8c72996a78ace7d1b6" />
 	<!--<![endif]-->
 
 	<!--[if IE 8]>
-	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/ie.css?v=5d0614462d54973201ee7de8e6ef06fa" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/ie.css?v=6cc801f11af58228632afc15614ef750" />
 	<![endif]-->
 
 	<link rel='stylesheet' id='style-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/style.css?ver=4.1.1' type='text/css' media='all' />
@@ -28,7 +28,7 @@
 <link rel='stylesheet' id='chosen-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/chosen.css?ver=4.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.1.1' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/search.css?v=8b4a697bd468058a5dfb7fc7b6e7915f">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/search.css?v=53865fb0b2c33801a18fd88b9c68cc12">
 
 	<meta name="viewport" content="width=device-width">
 	
@@ -47,7 +47,7 @@
 
 <script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
 <script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=f45462cf8607a14659714b761b05b5ab'></script>
+<script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=e2749897048af1dadb8ab19aad7cd41f'></script>
 <meta name="generator" content="WordPress 4.1.1" />
 <script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 
@@ -162,7 +162,7 @@
 			<a href="http://careers.opendns.com">
 				<span class="icon "></span>Careers</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="/about/#contact">
-				<span class="icon "></span>Contact</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=e4940473c291b0dee9987bc5004e5f73"></script>
+				<span class="icon "></span>Contact</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=83755c280d4cb242390f0b29dcba7462"></script>
 		</div>
 	</header>
 	<!--
@@ -340,17 +340,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Apr 7</span>
+							<span class="date">Apr 10</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="http://blog.opendns.com/2015/04/07/rsa-research-real-world/" title="RSA Conference: Where Research and Real-World Problems Meet">RSA Conference: Where Research and Real-World Problems Meet</a>
+							<a href="http://blog.opendns.com/2015/04/10/the-brief-april-6th-2015/" title="The Brief: April 6th, 2015">The Brief: April 6th, 2015</a>
 						</p>
-						<p class="author">Author: Stephen Lynch</p>
-						<div class="excerpt"><p>Once a year, the RSA Conference USA gathers thousands of executives, vendors, and sales representatives together to transform San Francisco’s &hellip;<span class="overflow"> Moscone Center into the central nexus of the worldwide information security industry&hellip;</span></p>
+						<p class="author">Author: The Brief</p>
+						<div class="excerpt"><p>  &nbsp; Also available as a PDF: Brief462015             &hellip;<span class="overflow">                                                                                                                                                                            &hellip;</span></p>
 </div>
-						<a href="http://blog.opendns.com/2015/04/07/rsa-research-real-world/" title="RSA Conference: Where Research and Real-World Problems Meet" class="read-more">Read More &rarr;</a>
+						<a href="http://blog.opendns.com/2015/04/10/the-brief-april-6th-2015/" title="The Brief: April 6th, 2015" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 								<li class="post clearfix">
@@ -362,17 +362,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Apr 3</span>
+							<span class="date">Apr 9</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="http://blog.opendns.com/2015/04/03/the-brief-march-30th-2015/" title="The Brief: March 30th, 2015">The Brief: March 30th, 2015</a>
+							<a href="http://blog.opendns.com/2015/04/09/why-apis-should-be-a-major-factor-in-your-security-buying-decisions/" title="Why APIs Should Be a Major Factor in Your Security Buying Decisions">Why APIs Should Be a Major Factor in Your Security Buying Decisions</a>
 						</p>
-						<p class="author">Author: The Brief</p>
-						<div class="excerpt"><p>                    &hellip;<span class="overflow">                                                                                                                                                                                                                   &hellip;</span></p>
+						<p class="author">Author: Owen Lystrup</p>
+						<div class="excerpt"><p>Security Has Entered the Board Room &nbsp; Both the economy and methodology of IT security are changing rapidly. And whether &hellip;<span class="overflow"> they like it or not, business executives are finding themselves involved in more IT security decisions&hellip;</span></p>
 </div>
-						<a href="http://blog.opendns.com/2015/04/03/the-brief-march-30th-2015/" title="The Brief: March 30th, 2015" class="read-more">Read More &rarr;</a>
+						<a href="http://blog.opendns.com/2015/04/09/why-apis-should-be-a-major-factor-in-your-security-buying-decisions/" title="Why APIs Should Be a Major Factor in Your Security Buying Decisions" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -388,17 +388,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Apr 7</span>
+							<span class="date">Apr 10</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="https://labs.opendns.com/2015/04/07/honeynet-weird-python/" title="Solving the Honeynet Forensic Challenge - "Weird Python"">Solving the Honeynet Forensic Challenge - "Weird Python"</a>
+							<a href="https://labs.opendns.com/2015/04/10/operation-source-aaeh-botnet-takedown/" title=""Operation Source" AAEH Botnet Takedown">"Operation Source" AAEH Botnet Takedown</a>
 						</p>
-						<p class="author">Author: Anthony Kasza</p>
-						<div class="excerpt"><p>Two weeks ago I saw on Twitter that Thomas Chopitea and Maximilian Hils of The Honeynet Project were nice enough &hellip;<span class="overflow"> to create an online forensics challenge. I had a Sunday afternoon free and thought I&#8217;d give it a shot. I ended up&hellip;</span></p>
+						<p class="author">Author: Mark Nunnikhoven</p>
+						<div class="excerpt"><p>  “Operation Source” scored a win for the home team yesterday by taking down the AAEH botnet (also known &hellip;<span class="overflow"> as Beebone). This multi-organization effort (see the full list of organizations below) resulted in the domains associated&hellip;</span></p>
 </div>
-						<a href="https://labs.opendns.com/2015/04/07/honeynet-weird-python/" title="Solving the Honeynet Forensic Challenge - "Weird Python"" class="read-more">Read More &rarr;</a>
+						<a href="https://labs.opendns.com/2015/04/10/operation-source-aaeh-botnet-takedown/" title=""Operation Source" AAEH Botnet Takedown" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -616,12 +616,12 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=d4474f524707cc086c823d88533ba21a'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":509,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=25e67b868ddefcec0a4fed69e6d87780'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":486,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
 Content Delivery Network via Amazon Web Services: CloudFront: d295hzzivaok4k.cloudfront.net
 
- Served from: www.opendns.com @ 2015-04-08 18:04:18 by W3 Total Cache -->
+ Served from: www.opendns.com @ 2015-04-10 18:04:19 by W3 Total Cache -->
