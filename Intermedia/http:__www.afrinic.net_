@@ -1186,24 +1186,8 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 						
 					</li>
                           			<li>
-            										<a  href="/en/library/news/1347" target="_self">
-													<img src="/images/stories/sl_nominate_candidate1.jpg" alt="Nominate a Candidate for the NI&amp;I Service Award 2015" />
-													</a>
-												
-												
-						
-					</li>
-                          			<li>
             										<a  href="/en/library/news/1343" target="_self">
 													<img src="/images/stories/sl_registration_ais15_open.jpg" alt="Registration for AIS'15 is Open" />
-													</a>
-												
-												
-						
-					</li>
-                          			<li>
-            										<a  href="/en/library/news/1341" target="_self">
-													<img src="/images/stories/sl_call_for_fellowship_15.jpg" alt="Call for Fellowship for AIS'15  is Open" />
 													</a>
 												
 												
@@ -1227,8 +1211,6 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
         </div>
 		<div id="cust-navigation326" class="navigation-container-custom">
 							<span class="load-button load-button-active"></span>
-							<span class="load-button"></span>
-							<span class="load-button"></span>
 							<span class="load-button"></span>
 							<span class="load-button"></span>
 			        </div>
@@ -1298,15 +1280,15 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <div id="qaccordion1" class="qaccordion">
      	 <h3 class="acc-header">Latest News</h3>
   	 <div class="acc-content">
-      <p>27 March 2015</p>
-<p><a href="/en/library/news/1351-announcement-alan-barrett-appointed-as-afrinic-ceo">AFRINIC Appoints New CEO</a></p>
-<p>27 March 2015</p>
-<p><a href="/en/library/news/1347-nominate-a-candidate-for-the-niai-service-award-2015">Nominate a Candidate for the NI&I Service Award 2015</a></p>
+      <p>21 April 2015</p>
+<p><a href="/en/library/news/1355-mark-elkins-appointed-to-the-nro-nc">Mark Elkins appointed to the NRO NC</a></p>
+<p>16 April 2015</p>
+<p><a href="/en/library/news/1353-mr-janvier-ngnoulaye-appointed-on-the-crisp-team">Mr Janvier Ngnoulaye Appointed on the CRISP Team</a></p>
 <hr />
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt55287313bac91rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt5539969bdf613rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1320,8 +1302,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt55287313bac91"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt55287313bac91rssscroller_module", options);
+					instanceId : "pgt5539969bdf613"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt5539969bdf613rssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);
@@ -1477,7 +1459,7 @@ google.setOnLoadCallback(loadFeedControl);
         <!--Begin Copyright Section-->
         <div class="copyright-block">
       <div class="copyright-block2">
-                <div id="copyright"> &copy;  2005 - 2013 AFRINIC - All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#" id="top-scroll" class="top-button-desc">Back to Top </div>
+                <div id="copyright"> &copy;  2005 - 2015  AFRINIC - All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#" id="top-scroll" class="top-button-desc">Back to Top </div>
               </div>
     </div>
         <!--End Copyright Section-->

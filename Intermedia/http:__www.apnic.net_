@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 11 April 2015 11:04:16
+  Page generated: 24 April 2015 11:04:25
 -->
 
 
@@ -328,12 +328,12 @@ $('.theme-about #header-label span').text('About APNIC');
 <h2 class="h3"><a href="https://www.apnic.net/apnic-info/whois_search/about">Whois search</a></h2>
 <div class="box-body">
 <div class="text-center">
-<form method="get" action="https://wq.apnic.net/apnic-bin/whois.pl" id="whoisform">
+<form method="get" action="https://wq.apnic.net/whois-search/static/search.html" id="whoisform">
 <input title="WHOIS search" name="query" class="search" value="" type="text" placeholder="Search..." >
 <input name="whois" title="Search" value="Go" class="go" type="submit" >
 </form>
 </div>
-<p class="text-right pull-right"><a href="https://wq.apnic.net/apnic-bin/whois.pl">Advanced search</a></p>
+<p class="text-right pull-right"><a href="https://wq.apnic.net/whois-search/static/search.html">Advanced search</a></p>
 <div id="whois-more-toggle" data-toggle="collapse" data-target="#whois-more" class="collapsed pull-left">
 <span class="glyphicon glyphicon-chevron-up"></span> <span class="glyphicon glyphicon-chevron-down"></span> <strong>More</strong></div><!-- #whois-more-toggle -->
 <div id="whois-more" role="navigation" class="collapse">

@@ -688,7 +688,7 @@ scroll_70.Start(true);//开始滚动
 											 
                                                 
                                                 <td>
-                                                    <div class="homepage-slider-item" id="aktuals1" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2015/201502/t20150203_51631.htm"><img src="./sylhtb/201502/W020150203469016419467.jpg" width=715 height=240 target='_blank'/></a></div>
+                                                    <div class="homepage-slider-item" id="aktuals1" ><a href="http://cnnic.cn"><img src="./sylhtb/201504/W020150420546960551803.jpg" width=715 height=240 target='_blank'/></a></div>
                                                 </td>
                                                 
                                                 
@@ -708,42 +708,32 @@ scroll_70.Start(true);//开始滚动
                                                 
                                                 
                                                 <td>
-                                                    <div class="homepage-slider-item" id="aktuals5" ><a href="http://www.cnnic.cn/cxwf/gs/zwymtfjhzt/"><img src="./sylhtb/201408/W020140924370125811436.jpg" width=715 height=240 target='_blank'/></a></div>
+                                                    <div class="homepage-slider-item" id="aktuals5" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2014/201406/t20140620_47279.htm"><img src="./sylhtb/201406/W020140620848405013815.jpg" width=715 height=240 target='_blank'/></a></div>
                                                 </td>
                                                 
                                                 
                                                 <td>
-                                                    <div class="homepage-slider-item" id="aktuals6" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2014/201406/t20140620_47279.htm"><img src="./sylhtb/201406/W020140620848405013815.jpg" width=715 height=240 target='_blank'/></a></div>
+                                                    <div class="homepage-slider-item" id="aktuals6" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2014/201406/t20140620_47275.htm"><img src="./sylhtb/201406/W020140620565302653596.jpg" width=715 height=240 target='_blank'/></a></div>
                                                 </td>
                                                 
                                                 
                                                 <td>
-                                                    <div class="homepage-slider-item" id="aktuals7" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2014/201406/t20140620_47275.htm"><img src="./sylhtb/201406/W020140620565302653596.jpg" width=715 height=240 target='_blank'/></a></div>
+                                                    <div class="homepage-slider-item" id="aktuals7" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2014/201406/t20140609_47203.htm"><img src="./sylhtb/201406/W020140609761223190070.jpg" width=715 height=240 target='_blank'/></a></div>
                                                 </td>
                                                 
                                                 
                                                 <td>
-                                                    <div class="homepage-slider-item" id="aktuals8" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2014/201406/t20140609_47203.htm"><img src="./sylhtb/201406/W020140609761223190070.jpg" width=715 height=240 target='_blank'/></a></div>
+                                                    <div class="homepage-slider-item" id="aktuals8" ><a href="http://www.cnnic.cn/gywm/xwzx/rdxw/2014/201406/t20140607_47177.htm"><img src="./sylhtb/201406/W020140606845120003244.jpg" width=715 height=240 target='_blank'/></a></div>
                                                 </td>
                                                 
                                                 
                                                 <td>
-                                                    <div class="homepage-slider-item" id="aktuals9" ><a href="http://www.cnnic.cn/gywm/xwzx/rdxw/2014/201406/t20140607_47177.htm"><img src="./sylhtb/201406/W020140606845120003244.jpg" width=715 height=240 target='_blank'/></a></div>
+                                                    <div class="homepage-slider-item" id="aktuals9" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2014/201406/t20140604_47151.htm"><img src="./sylhtb/201406/W020140604836580359898.jpg" width=715 height=240 target='_blank'/></a></div>
                                                 </td>
                                                 
                                                 
                                                 <td>
-                                                    <div class="homepage-slider-item" id="aktuals10" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2014/201406/t20140604_47151.htm"><img src="./sylhtb/201406/W020140604836580359898.jpg" width=715 height=240 target='_blank'/></a></div>
-                                                </td>
-                                                
-                                                
-                                                <td>
-                                                    <div class="homepage-slider-item" id="aktuals11" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2014/201405/t20140527_47098.htm"><img src="./sylhtb/201405/W020140527789412081301.jpg" width=715 height=240 target='_blank'/></a></div>
-                                                </td>
-                                                
-                                                
-                                                <td>
-                                                    <div class="homepage-slider-item" id="aktuals12" ><a href="http://www.cnnic.cn/cnnicztxl/hlwbwg/"><img src="./sylhtb/201312/W020140610447206544664.jpg" width=715 height=240 target='_blank'/></a></div>
+                                                    <div class="homepage-slider-item" id="aktuals10" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2014/201405/t20140527_47098.htm"><img src="./sylhtb/201405/W020140527789412081301.jpg" width=715 height=240 target='_blank'/></a></div>
                                                 </td>
                                                 
                                             </tr>
@@ -774,10 +764,6 @@ scroll_70.Start(true);//开始滚动
                                         <a href="#" id="aktuals9_btn" onmouseover="scrollToElem(9); return false;"></a>
                                        
                                         <a href="#" id="aktuals10_btn" onmouseover="scrollToElem(10); return false;"></a>
-                                       
-                                        <a href="#" id="aktuals11_btn" onmouseover="scrollToElem(11); return false;"></a>
-                                       
-                                        <a href="#" id="aktuals12_btn" onmouseover="scrollToElem(12); return false;"></a>
                                        
                                         
                                         <!--[if !IE]> END .navigation <![endif]-->

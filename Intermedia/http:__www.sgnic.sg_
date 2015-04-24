@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-8OltbYqFcGVRYf9WVNnJxHH3k5vjW2_arXe6FTJlXHY" value="form-8OltbYqFcGVRYf9WVNnJxHH3k5vjW2_arXe6FTJlXHY"  />
+<input type="hidden" name="form_build_id" id="form-lAoLztjjmz2I0EXr9Py4SJ9uAPUnuRAxoVLwkObifW8" value="form-lAoLztjjmz2I0EXr9Py4SJ9uAPUnuRAxoVLwkObifW8"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-vsCHkivBlc6ej_hXN7QNLUKzJopGoNHFZAqbAKMfgIU" value="form-vsCHkivBlc6ej_hXN7QNLUKzJopGoNHFZAqbAKMfgIU"  />
+<input type="hidden" name="form_build_id" id="form-jdmawk-HbVcgruqTmZuN0-8q67Kyx6IPquMe2ZWEZYM" value="form-jdmawk-HbVcgruqTmZuN0-8q67Kyx6IPquMe2ZWEZYM"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -120,6 +120,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-created">
+                <span class="field-content">April 16, 2015, 8:55 am</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/sgnic-q-15003-invitation-quote-rack-servers">SGNIC-Q-15003: Invitation to Quote for Rack Servers</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-created">
                 <span class="field-content">April 7, 2015, 4:19 pm</span>
   </div>
   
@@ -127,22 +136,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="/news/sg50-celebration-registrars-offer-savings-sg-domain-name-registration">SG50 Celebration: Registrars offer savings in .SG domain name registration</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-created">
                 <span class="field-content">March 30, 2015, 10:16 am</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="/news/special-names-limited-period-grab-it-now-15">Special names for a limited period! Grab it now!</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-created">
-                <span class="field-content">March 23, 2015, 2:46 pm</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/remembering-mr-lee-kuan-yew-1923-2015">Remembering Mr Lee Kuan Yew (1923-2015)</a></span>
   </div>
 </li>
       </ul>
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">April 10, 2015, 10:46 am</span>
+                <span class="field-content">April 23, 2015, 1:22 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/04/10/event-wrap-apec-telmin-10/">Event Wrap: APEC TELMIN 10</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/04/23/event-wrap-arin-35/">Event Wrap: ARIN 35</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">April 10, 2015, 8:47 am</span>
+                <span class="field-content">April 23, 2015, 10:06 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/04/10/any-product-and-service-deployed-today-without-ipv6-represents-a-missed-opportunity-and-a-future-cost/">“Any product and service deployed today without IPv6 represents a missed opportunity and a future cost”</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/04/23/all-you-can-eat-data-at-nation-scale/">All you can eat data, at nation scale</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">April 9, 2015, 12:14 pm</span>
+                <span class="field-content">April 21, 2015, 10:05 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/04/09/towards-the-grand-opening-of-netmundial-initiative/">Towards the grand opening of NETmundial Initiative</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/04/21/architecture-at-apnic-eventual-consistency/">Architecture at APNIC: Eventual Consistency</a></span>
   </div>
 </li>
       </ul>

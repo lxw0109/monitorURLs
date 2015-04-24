@@ -79,12 +79,12 @@
     </div>
 </div>
           <div class="searchBox">
-    <form action="/en/search-result" method="get">
-      <input type="hidden" name="search[sort]" value="score" id="search_sort" />	    <input type="text" name="search[keyword]" id="search_keyword" />      <input type="submit" name="submit" value="Search" />
+    <form action="/fr/resultat-de-la-recherche" method="get">
+      <input type="hidden" name="search[sort]" value="score" id="search_sort" />	    <input type="text" name="search[keyword]" id="search_keyword" />      <input type="submit" name="submit" value="Rechercher" />
     </form>
 
     <div class="clear"></div>
-    <a href="/en/search">Advanced search</a>
+    <a href="/fr/recherche">Recherche avancée</a>
 </div>
         </div>
 
@@ -268,7 +268,7 @@
               							<a href="/en/about-afnic/press-room/">Press Room</a>
                                               							<ul class="submenu">
                                                     									 <li><a href="/en/about-afnic/press-room/media-library-2.html">Media Library</a></li>
-                  							                    									 <li><a href="/en/about-afnic/press-room/press-kits-11.html">Press kits</a></li>
+                  							                    									 <li><a href="/en/about-afnic/press-room/press-kits-12.html">Press kits</a></li>
                   							  
                   								                  							</ul>
                                                       </td>
@@ -391,7 +391,7 @@
                                                       <a href="/en/resources/subscriptions-and-social-networks-6.html">Subscriptions and social networks</a>
                                                   </li>
                                                                                                 <li>
-                                                      <a href="/en/resources/afnic-newsletter-33.html">Afnic Newsletter</a>
+                                                      <a href="/en/resources/afnic-newsletter-34.html">Afnic Newsletter</a>
                                                   </li>
                                                                                         </ul>
                                                                 </td>
@@ -529,7 +529,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="9c8c9786f09de5e201073fd94ac49d73" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="6bbe381a76d35f522161191f892b9cc1" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -672,6 +672,11 @@
   
   <ul>
           <li>
+            <span class="date"><em>4/16/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8993/show/new-gtlds-accounted-for-21-of-the-net-growth-of-the-domain-name-market-in-2014.html">New gTLDs accounted for 21% of the net growth of the domain name market in 2014</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/8993/show/new-gtlds-accounted-for-21-of-the-net-growth-of-the-domain-name-market-in-2014.html">The April 2015 edition of the Afnic Industry Report on Domain Names provides an overview of the domain name market in 2014: figures, review and trends...</a></span>
+    </li>
+       <li>
       <span class="type"><em>Press release</em></span>      <span class="date"><em>4/7/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8948/show/april-7-2015-opening-of-the-alsace-geotld-the-point-is-you.html">April 7, 2015:  Opening of the .alsace geoTLD: the point is you!</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/8948/show/april-7-2015-opening-of-the-alsace-geotld-the-point-is-you.html">As of April 7, 2015, the &quot;.alsace&quot; geoTLD will be accessible to all on the Internet.</a></span>
@@ -690,11 +695,6 @@
             <span class="date"><em>3/9/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8836/show/opening-of-1-2-character-s-under-fr-last-week-of-landrush.html">Opening of 1 &amp; 2 character(s) under .fr : Last week of Landrush</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/8836/show/opening-of-1-2-character-s-under-fr-last-week-of-landrush.html">Since today at noon, registration by all of domain names in 1 &amp; 2 character(s) is possible for 100€ excl. VAT invoiced by Afnic to its registrar...</a></span>
-    </li>
-       <li>
-            <span class="date"><em>3/6/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8820/show/adr-trends-the-results-of-afnic-resolution-procedures-q1-2015.html">ADR trends, the results of Afnic resolution procedures - Q1 2015</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/8820/show/adr-trends-the-results-of-afnic-resolution-procedures-q1-2015.html">Afnic now publishes a quarterly review of its alternative dispute resolution procedures. Here is an overview of the findings of the study for Q1 2015....</a></span>
     </li>
      </ul>
     <div class="mainContent" style="padding:0">
@@ -854,7 +854,7 @@
           		                	<li>
                   		<a href="/en/about-afnic/press-room/">Press Room</a>
                   		                   			<span><a href="/en/about-afnic/press-room/media-library-2.html" >Media Library</a></span>
-                  		                   			<span><a href="/en/about-afnic/press-room/press-kits-11.html" >Press kits</a></span>
+                  		                   			<span><a href="/en/about-afnic/press-room/press-kits-12.html" >Press kits</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/about-afnic/calendar/">Calendar</a>

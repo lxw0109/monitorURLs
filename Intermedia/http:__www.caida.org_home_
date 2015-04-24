@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -237,7 +237,7 @@ padding: 0px 8px 2px 12px;
 <a title="DNS Decoding database" href="http://ddec.caida.org/">DDec</a>
 </li>
 <li>
-<a title="On-demand topology measurement service (restricted access)" href="http://www.caida.org/projects/ark/vela/">Vela</a>
+<a title="On-demand topology measurement service (restricted access)" href="//www.caida.org/projects/ark/vela/">Vela</a>
 </li>
 </ul>
 </li>
@@ -366,10 +366,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="/research/topology/as_core_network/2014/"><img title="This visualization represents macroscopic snapshots of IPv4 and IPv6 Internet topology samples captured in January 2014. For the IPv4 map, CAIDA collected data from 74 monitors located in 33 countries on 6 continents. For the IPv6 map, CAIDA collected data from 33 Ark monitors located in 21 countries on 6 continents." alt="" height="250" width="300" src="/research/topology/as_core_network/pics/2014/ascore-2014-jan-ipv4v6-standalone-300x250.png"></a>
+<a href="/projects/ark/"><img title="We are now deploying small, inexpensive network measurement nodes, based on the Raspberry Pi, in the Ark measurement infrastructure.  Although tiny, a Raspberry Pi is as capable as a desktop system of several generations ago and offers a flexible Linux-powered programmable platform for conducting networking research.  These systems can be placed anywhere that is convenient for a hosting site, including on someone's desk, and the transition from deploying traditional rack-mounted servers to Raspberry Pi's will allow us to scale up the Ark infrastructure." alt="" height="250" width="300" src="/images/ark-raspi-monitor_300h250.png"></a>
 </div>
 <div class="captiontext">
-<a href="/research/topology/as_core_network/2014/">AS Core IPv4 + IPv6 (2014)</a>
+<a href="/projects/ark/">Ark Raspberry Pi-based Network Monitor (2013)</a>
 </div>
 <hr>
 <div class="captiontext">

@@ -14,11 +14,11 @@
 
 	
 	<!--[if (gt IE 8) | (IEMobile)]><!-->
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/main.css?v=10fd8357c8eeee9f429ebc3a67ff8b8a" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/main.css?v=05b9e569d71c1a338d24bad0287f9400" />
 	<!--<![endif]-->
 
 	<!--[if IE 8]>
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/ie.css?v=406bc07048434a2b175a158889cc6663" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/ie.css?v=471b24a8640dca1f5af85229d6686510" />
 	<![endif]-->
 
 	<link rel='stylesheet' id='style-css'  href='https://www.opendns.com/wp-content/themes/opendns/style.css?ver=4.1.1' type='text/css' media='all' />
@@ -28,12 +28,12 @@
 <link rel='stylesheet' id='chosen-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/chosen.css?ver=4.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.1.1' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=981d39f7dbf8ece6afabe8784d68e948">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=8f43fee7fcdfd74361129323c65b0313">
 
 	<meta name="viewport" content="width=device-width">
 	
 	
-<!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.3.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<!-- This site is optimized with the Yoast WordPress SEO plugin v2.1 - https://yoast.com/wordpress/plugins/seo/ -->
 <meta name="description" content="Predict and prevent attacks before they happen using our cloud-delivered enterprise security service. Protect any device, anywhere with OpenDNS."/>
 <link rel="canonical" href="https://www.opendns.com/" />
 <meta property="og:locale" content="en_US" />
@@ -42,12 +42,13 @@
 <meta property="og:description" content="Predict and prevent attacks before they happen using our cloud-delivered enterprise security service. Protect any device, anywhere with OpenDNS." />
 <meta property="og:url" content="https://www.opendns.com/" />
 <meta property="og:site_name" content="OpenDNS" />
-<script type="application/ld+json">{ "@context": "http://schema.org", "@type": "WebSite", "url": "https://www.opendns.com/", "potentialAction": { "@type": "SearchAction", "target": "https://www.opendns.com/?s={search_term}", "query-input": "required name=search_term" } }</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"https:\/\/www.opendns.com\/","name":"OpenDNS","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.opendns.com\/?s={search_term}","query-input":"required name=search_term"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"https:\/\/www.opendns.com\/","name":"OpenDNS","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.opendns.com\/?s={search_term}","query-input":"required name=search_term"}}</script>
 <!-- / Yoast WordPress SEO plugin. -->
 
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=19028a4d59c9ea7cd71d18343dc68ea9'></script>
+<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=6b76bc236e3cf5894f13477ccfc2f130'></script>
 <meta name="generator" content="WordPress 4.1.1" />
 <script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 
@@ -162,7 +163,15 @@
 			<a href="http://careers.opendns.com">
 				<span class="icon "></span>Careers</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="/about/#contact">
-				<span class="icon "></span>Contact</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=02421a1f31fa035a7ea28b6f87dcc2ea"></script>
+				<span class="icon "></span>Contact</a></li></ul></li><li class="hidden investigate-menu menu-item menu-item-type-post_type menu-item-object-enterprise-product menu-item-has-children">
+			<a href="https://www.opendns.com/enterprise-security/threat-intelligence/" class="parent-link">
+				<span class="icon hidden"></span>OpenDNS Investigate</a>
+<ul class="subnav">
+<li class=" menu-item menu-item-type-post_type menu-item-object-enterprise-product">
+			<a href="https://www.opendns.com/enterprise-security/threat-intelligence/">
+				<span class="icon "></span>OpenDNS Investigate</a></li><li class="contact-sales demo-request button menu-item menu-item-type-custom menu-item-object-custom">
+			<a href="#">
+				<span class="icon contact-sales"></span>Request a Demo</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=4eccf6537481625bc66ff3923429fe9d"></script>
 		</div>
 	</header>
 	<!--
@@ -219,15 +228,23 @@
 			<ul>
 				<li>
 					<a href="/enterprise-security/">
-						<img src="/wp-content/uploads/2014/09/security-icon-@2x.png" alt="Enterprise Network Security" title="Enterprise Network Security" class="enterprise circle">
+						<img src="/wp-content/uploads/2015/04/shield.png" alt="Enterprise Network Security" title="Enterprise Network Security" class="enterprise circle">
 					</a>
 					<h3>
-						<a href="/enterprise-security/">Enterprise Security</a>
+						<a href="/enterprise-security/">Security Enforcement</a>
+					</h3>
+				</li>
+				<li>
+					<a href="/enterprise-security/threat-intelligence/">
+						<img src="/wp-content/uploads/2015/04/big-data.png" alt="Enterprise Network Security" title="Enterprise Network Security" class="enterprise circle">
+					</a>
+					<h3>
+						<a href="/enterprise-security/threat-intelligence/">Security Intelligence</a>
 					</h3>
 				</li>
 				<li>
 					<a href="/enterprise-security/solutions/web-filtering/">
-						<img src="/wp-content/uploads/2014/09/filtering-icon-@2x.png" alt="Web Filtering" title="Web Filtering" class="filtering circle">
+						<img src="/wp-content/uploads/2015/04/web-filtering.png" alt="Web Filtering" title="Web Filtering" class="filtering circle">
 					</a>
 					<h3>
 						<a href="/enterprise-security/solutions/web-filtering/">Web Filtering</a>
@@ -235,18 +252,18 @@
 				</li>
 				<li>
 					<a href="/partners/msp-partners/">
-						<img src="/wp-content/uploads/2014/09/msp-icon-@2x.png" alt="Managed Service Provider" title="Managed Service Provider" class="msp circle">
+						<img src="/wp-content/uploads/2015/04/msp.png" alt="Managed Service Provider" title="Managed Service Provider" class="msp circle">
 					</a>
 					<h3>
-						<a href="/partners/msp-partners/">MSP</a>
+						<a href="/partners/msp-partners/">Security for MSP</a>
 					</h3>
 				</li>
 				<li>
 					<a href="/premium-dns/">
-						<img src="/wp-content/uploads/2014/09/dns-icon-@2x.png" alt="DNS" title="DNS" class="dns circle">
+						<img src="/wp-content/uploads/2015/04/dns.png" alt="DNS" title="DNS" class="dns circle">
 					</a>
 					<h3>
-						<a href="/premium-dns/">DNS</a>
+						<a href="/premium-dns/">Enhanced DNS</a>
 					</h3>
 				</li>
 			</ul>
@@ -303,7 +320,7 @@
 			<img src="/wp-content/uploads/2014/08/devices-@2x.png" alt="devices" title="Devices OpenDNS protects" width="589" height="72">
 		</div>
 		<div class="cta">
-			<a href="/enterprise-security/products/" class="orange large hide-arrow button" title="See Product Features">See Product Features</a>
+			<a href="/enterprise-security/features/" class="orange large hide-arrow button" title="See Product Features">See Product Features</a>
 			<a href="#" class="button hide-arrow gold large contact-sales info-request" title="See Product Features">Contact Sales</a>
 		</div>
 		<p><a href="/home-internet-security/" class="readmore">Show me OpenDNS Products for Personal Use &rarr;</a></p>
@@ -335,44 +352,44 @@ daily DNS requests
 					<div class="blog-property">
 						<span class="logo blog"></span>
 						<p class="blog-title">
-							<a href="http://blog.opendns.com">Company Blog</a>
+							<a href="https://blog.opendns.com">Company Blog</a>
 						</p>
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Apr 10</span>
+							<span class="date">Apr 22</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="http://blog.opendns.com/2015/04/10/the-brief-april-6th-2015/" title="The Brief: April 6th, 2015">The Brief: April 6th, 2015</a>
+							<a href="https://blog.opendns.com/2015/04/22/the-ransomware-of-things/" title="The Ransomware of Things">The Ransomware of Things</a>
 						</p>
-						<p class="author">Author: The Brief</p>
-						<div class="excerpt"><p>  &nbsp; Also available as a PDF: Brief462015             &hellip;<span class="overflow">                                                                                                                                                                            &hellip;</span></p>
+						<p class="author">Author: Owen Lystrup</p>
+						<div class="excerpt"><p>Imagine you settle into your favorite couch after a long day, kick your feet up, maybe crack open a beer, &hellip;<span class="overflow"> and turn on your SmartTV to catch up on Game of Thrones. But instead of Lannisters and dragons, you get a message that your&hellip;</span></p>
 </div>
-						<a href="http://blog.opendns.com/2015/04/10/the-brief-april-6th-2015/" title="The Brief: April 6th, 2015" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/04/22/the-ransomware-of-things/" title="The Ransomware of Things" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 								<li class="post clearfix">
 					<div class="blog-property">
 						<span class="logo blog"></span>
 						<p class="blog-title">
-							<a href="http://blog.opendns.com">Company Blog</a>
+							<a href="https://blog.opendns.com">Company Blog</a>
 						</p>
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Apr 9</span>
+							<span class="date">Apr 21</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="http://blog.opendns.com/2015/04/09/why-apis-should-be-a-major-factor-in-your-security-buying-decisions/" title="Why APIs Should Be a Major Factor in Your Security Buying Decisions">Why APIs Should Be a Major Factor in Your Security Buying Decisions</a>
+							<a href="https://blog.opendns.com/2015/04/21/legendary-rsa-cryptographers-panel-delivers-laughs-security-insights/" title="Legendary RSA Cryptographers' Panel Delivers Laughs, Security Insights">Legendary RSA Cryptographers' Panel Delivers Laughs, Security Insights</a>
 						</p>
-						<p class="author">Author: Owen Lystrup</p>
-						<div class="excerpt"><p>Security Has Entered the Board Room &nbsp; Both the economy and methodology of IT security are changing rapidly. And whether &hellip;<span class="overflow"> they like it or not, business executives are finding themselves involved in more IT security decisions&hellip;</span></p>
+						<p class="author">Author: Kara Drapala</p>
+						<div class="excerpt"><p>[View the story &#8220;Legendary RSA Cryptographers&#8217; Panel Delivers Laughs, Security Insights&#8221; on Storify]        &hellip;<span class="overflow">                                                                                                                           &hellip;</span></p>
 </div>
-						<a href="http://blog.opendns.com/2015/04/09/why-apis-should-be-a-major-factor-in-your-security-buying-decisions/" title="Why APIs Should Be a Major Factor in Your Security Buying Decisions" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/04/21/legendary-rsa-cryptographers-panel-delivers-laughs-security-insights/" title="Legendary RSA Cryptographers' Panel Delivers Laughs, Security Insights" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -616,10 +633,10 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=a664ea944e3e63a5e842f3c2f960145b'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":373,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=d3f983418ee2acac9358cf2f7cd8399e'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":413,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
- Served from: www.opendns.com @ 2015-04-11 18:04:20 by W3 Total Cache -->
+ Served from: www.opendns.com @ 2015-04-23 18:13:16 by W3 Total Cache -->

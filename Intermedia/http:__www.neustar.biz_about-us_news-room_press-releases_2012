@@ -2,20 +2,7 @@
     <head>
         <script src="//cdn.optimizely.com/js/156603603.js"></script>
         
-<script type="text/javascript">
-    var monetateT = new Date().getTime();
-    (function() {
-        var p = document.location.protocol;
-        if (p == "http:" || p == "https:") {
-            var m = document.createElement("script");
-            m.type = "text/javascript";
-            m.src = (p == "https:" ? "https://s" : "http://") + "e.monetate.net/js/2/a-e074754b/p/neustar.biz/entry.js";
-            var e = document.createElement("div");
-            e.appendChild(m);
-            document.write(e.innerHTML);
-        }
-    })();
-</script><!-- Start of Neustar Real User Measurements code -->
+<!-- Start of Neustar Real User Measurements code -->
 <script type="text/javascript">
     var ns_rum = {};
 // Optional: uncomment the second line below in order to enable Perceived Load Time (timeout in seconds)

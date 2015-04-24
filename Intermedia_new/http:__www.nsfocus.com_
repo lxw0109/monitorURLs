@@ -298,6 +298,10 @@ function key_clear()
 						<a href="http://www.nsfocus.com/news/"><img src="./images/latestnews_title.jpg" border="0"/></a><br/>
 						<table>
 							<tr>
+								<td width="75" valign="top">21 Apr.2015|</td>
+								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2015/news_0421/197.html"  class="index_bottom_list">NSFOCUS DDoS Threat Report Reveals IoT-Connected Devices  Contributing to the Rise in SSDP-based Reflection Attacks </a></td>
+							</tr>
+							<tr>
 								<td width="75" valign="top">12 Nov.2014|</td>
 								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/news_1112/195.html"  class="index_bottom_list">First Dynamic DDoS Mitigation Service Launched by ISP</a></td>
 							</tr>
@@ -308,10 +312,6 @@ function key_clear()
 							<tr>
 								<td width="75" valign="top">23 Sep.2014|</td>
 								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/news_0923/191.html"  class="index_bottom_list">2014 Mid-Year DDoS Threat Report Documents High-Volume,  High-Rate Attacks on the Rise</a></td>
-							</tr>
-							<tr>
-								<td width="75" valign="top">20 Aug.2014|</td>
-								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/news_0820/185.html"  class="index_bottom_list">Data Center Detected and Mitigated Emerging DDoS Attack</a></td>
 							</tr>
 						</table>	
 					</td>

@@ -84,7 +84,7 @@ def sendEmail(subject, content):
         #fromAddr = "monitorURL@foxmail.com"
         fromAddr = "liuxiaowei@cnnic.cn"
         #toAddrs = ["chenyong@cnnic.cn", "liuxiaowei@cnnic.cn"]
-        toAddrs = ["lxwin@foxmail.com"]
+        toAddrs = ["lxwin@foxmail.com", "huangshenglin@cnnic.cn", "xiangjingjing@cnnic.cn"]
         #ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn"]
         ccAddrs = ["lxwin@foxmail.com"]
 
