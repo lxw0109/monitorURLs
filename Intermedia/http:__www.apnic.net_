@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 24 April 2015 11:04:25
+  Page generated: 30 April 2015 11:04:24
 -->
 
 
@@ -390,7 +390,7 @@ $('.theme-about #header-label span').text('About APNIC');
   <div class="panel panel-default">
     <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> 
       <h2 class="panel-title h3">
-        <span><a href="http://blog.apnic.net/">Blog</a></span>
+        <span><a href="//blog.apnic.net/">Blog</a></span>
       </h2>
     </div>
     <div id="collapseOne" class="panel-collapse collapse in">
@@ -486,16 +486,15 @@ $('.theme-about #header-label span').text('About APNIC');
 
 
 <!-- Google Analytics tracking code -->
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-3140864-1']);
-  _gaq.push(['_trackPageview']);
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  ga('create', 'UA-3140864-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
 
 <!-- Labs tracking code -->

@@ -31,43 +31,61 @@
 <link rel="apple-touch-icon" href="http://pir.org/wp-content/themes/nitro/images/apple-touch-icon.png">
 	
 
-<!-- All in One SEO Pack 2.2.6.1 by Michael Torbert of Semper Fi Web Design[347,400] -->
+<!-- All in One SEO Pack 2.2.6.2 by Michael Torbert of Semper Fi Web Design[347,400] -->
 <link rel="canonical" href="http://pir.org/news-events/for-press/press-releases/" />
 <!-- /all in one seo pack -->
 <link rel="alternate" type="application/rss+xml" title="Your Public Interest Registry &raquo; Feed" href="http://pir.org/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Your Public Interest Registry &raquo; Comments Feed" href="http://pir.org/comments/feed/" />
-<link rel='stylesheet' id='Base-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/base.css?ver=4.1.3' type='text/css' media='all' />
-<link rel='stylesheet' id='skeleton-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/skeleton.css?ver=4.1.3' type='text/css' media='all' />
-<link rel='stylesheet' id='iLightbox-css'  href='http://pir.org/wp-content/themes/nitro/assets/lightbox/ilightbox.css?ver=4.1.3' type='text/css' media='all' />
-<link rel='stylesheet' id='comments-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/comments.css?ver=4.1.3' type='text/css' media='all' />
-<link rel='stylesheet' id='custom-buttons-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/buttons.css?ver=4.1.3' type='text/css' media='all' />
-<link rel='stylesheet' id='superfish-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/superfish.css?ver=4.1.3' type='text/css' media='all' />
-<link rel='stylesheet' id='prettyphoto-css'  href='http://pir.org/wp-content/themes/nitro/assets/javascripts/prettyPhoto/css/prettyPhoto.css?ver=4.1.3' type='text/css' media='all' />
-<link rel='stylesheet' id='Styles-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/styles.css?ver=4.1.3' type='text/css' media='all' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/pir.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.1"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f;c.supports={simple:d("simple"),flag:d("flag")},c.supports.simple&&c.supports.flag||(f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='Base-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/base.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='skeleton-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/skeleton.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='iLightbox-css'  href='http://pir.org/wp-content/themes/nitro/assets/lightbox/ilightbox.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='comments-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/comments.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-buttons-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/buttons.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='superfish-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/superfish.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyphoto-css'  href='http://pir.org/wp-content/themes/nitro/assets/javascripts/prettyPhoto/css/prettyPhoto.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='Styles-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/styles.css?ver=4.2.1' type='text/css' media='all' />
 <link rel='stylesheet' id='events-manager-css'  href='http://pir.org/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.55' type='text/css' media='all' />
-<link rel='stylesheet' id='parent-style-css'  href='http://pir.org/wp-content/themes/nitro/style.css?ver=4.1.3' type='text/css' media='all' />
-<link rel='stylesheet' id='child-style-css'  href='http://pir.org/wp-content/themes/pir/style.css?ver=4.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='http://pir.org/wp-content/themes/nitro/style.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='http://pir.org/wp-content/themes/pir/style.css?ver=4.2.1' type='text/css' media='all' />
 <link rel='stylesheet' id='shiftnav-css'  href='http://pir.org/wp-content/plugins/shiftnav-pro/pro/assets/css/shiftnav.css?ver=1.2.1-beta-4' type='text/css' media='all' />
 <link rel='stylesheet' id='shiftnav-font-awesome-css'  href='http://pir.org/wp-content/plugins/shiftnav-pro/assets/css/fontawesome/css/font-awesome.min.css?ver=1.2.1-beta-4' type='text/css' media='all' />
 <link rel='stylesheet' id='shiftnav-custom-css'  href='http://pir.org/wp-content/plugins/shiftnav-pro/custom/custom.css?ver=1.2.1-beta-4' type='text/css' media='all' />
 <link rel='stylesheet' id='ubermenu-css'  href='http://pir.org/wp-content/plugins/ubermenu/pro/assets/css/ubermenu.min.css?ver=3.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-paginate-css'  href='http://pir.org/wp-content/plugins/wp-paginate/wp-paginate.css?ver=1.3.1' type='text/css' media='screen' />
 <link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://pir.org/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.9' type='text/css' media='all' />
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
 <script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/prescripts.js'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.2'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.2'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/position.min.js?ver=1.11.2'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.2'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.2'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.2'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.2'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.2'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.2'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.2'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/button.min.js?ver=1.11.2'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var EM = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","locationajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"0","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"http:\/\/pir.org\/wp-content\/plugins\/events-manager\/includes\/css\/ui-lightness.css","show24hours":"1","is_ssl":"","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading..."};
@@ -76,7 +94,7 @@ var EM = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","locationajaxur
 <script type='text/javascript' src='http://pir.org/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.55'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://pir.org/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://pir.org/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 4.1.3" />
+<meta name="generator" content="WordPress 4.2.1" />
 <link rel='shortlink' href='http://pir.org/?p=1693' />
 
 	<!-- ShiftNav CSS 
@@ -305,7 +323,7 @@ a2a_config.color_main = "173B4F";a2a_config.color_border = "173B4F";a2a_config.c
 				<div class="pressrelease-line"></div>
 
 				<!-- THE POST EXCERPT -->	
-								<div id="post-4448" class="post-4448 post type-post status-publish format-standard hentry category-press-release the_content hybrid-excerpt clearfix">	
+								<div id="post-4448" class="the_content post type-post hentry hybrid-excerpt clearfix post-4448 status-publish format-standard category-press-release">	
 										 
 				 	<!-- Grab the image path and set our variables -->
 											 <!--this is what's used when there isn't a featured image -->
@@ -329,7 +347,7 @@ a2a_config.color_main = "173B4F";a2a_config.color_border = "173B4F";a2a_config.c
 				<div class="pressrelease-line"></div>
 
 				<!-- THE POST EXCERPT -->	
-								<div id="post-3933" class="post-3933 post type-post status-publish format-standard hentry category-press-release the_content hybrid-excerpt clearfix">	
+								<div id="post-3933" class="the_content post type-post hentry hybrid-excerpt clearfix post-3933 status-publish format-standard category-press-release">	
 										 
 				 	<!-- Grab the image path and set our variables -->
 											 <!--this is what's used when there isn't a featured image -->
@@ -353,7 +371,7 @@ a2a_config.color_main = "173B4F";a2a_config.color_border = "173B4F";a2a_config.c
 				<div class="pressrelease-line"></div>
 
 				<!-- THE POST EXCERPT -->	
-								<div id="post-3869" class="post-3869 post type-post status-publish format-standard hentry category-press-release the_content hybrid-excerpt clearfix">	
+								<div id="post-3869" class="the_content post type-post hentry hybrid-excerpt clearfix post-3869 status-publish format-standard category-press-release">	
 										 
 				 	<!-- Grab the image path and set our variables -->
 											 <!--this is what's used when there isn't a featured image -->
@@ -377,7 +395,7 @@ a2a_config.color_main = "173B4F";a2a_config.color_border = "173B4F";a2a_config.c
 				<div class="pressrelease-line"></div>
 
 				<!-- THE POST EXCERPT -->	
-								<div id="post-3786" class="post-3786 post type-post status-publish format-standard hentry category-press-release the_content hybrid-excerpt clearfix">	
+								<div id="post-3786" class="the_content post type-post hentry hybrid-excerpt clearfix post-3786 status-publish format-standard category-press-release">	
 										 
 				 	<!-- Grab the image path and set our variables -->
 											 <!--this is what's used when there isn't a featured image -->
@@ -402,7 +420,7 @@ a2a_config.color_main = "173B4F";a2a_config.color_border = "173B4F";a2a_config.c
 				<div class="pressrelease-line"></div>
 
 				<!-- THE POST EXCERPT -->	
-								<div id="post-3796" class="post-3796 post type-post status-publish format-standard hentry category-press-release the_content hybrid-excerpt clearfix">	
+								<div id="post-3796" class="the_content post type-post hentry hybrid-excerpt clearfix post-3796 status-publish format-standard category-press-release">	
 										 
 				 	<!-- Grab the image path and set our variables -->
 											 <!--this is what's used when there isn't a featured image -->
@@ -425,7 +443,7 @@ a2a_config.color_main = "173B4F";a2a_config.color_border = "173B4F";a2a_config.c
 				<div class="pressrelease-line"></div>
 
 				<!-- THE POST EXCERPT -->	
-								<div id="post-3794" class="post-3794 post type-post status-publish format-standard hentry category-press-release the_content hybrid-excerpt clearfix">	
+								<div id="post-3794" class="the_content post type-post hentry hybrid-excerpt clearfix post-3794 status-publish format-standard category-press-release">	
 										 
 				 	<!-- Grab the image path and set our variables -->
 											 <!--this is what's used when there isn't a featured image -->
@@ -449,7 +467,7 @@ a2a_config.color_main = "173B4F";a2a_config.color_border = "173B4F";a2a_config.c
 				<div class="pressrelease-line"></div>
 
 				<!-- THE POST EXCERPT -->	
-								<div id="post-3784" class="post-3784 post type-post status-publish format-standard hentry category-press-release the_content hybrid-excerpt clearfix">	
+								<div id="post-3784" class="the_content post type-post hentry hybrid-excerpt clearfix post-3784 status-publish format-standard category-press-release">	
 										 
 				 	<!-- Grab the image path and set our variables -->
 											 <!--this is what's used when there isn't a featured image -->
@@ -474,7 +492,7 @@ a2a_config.color_main = "173B4F";a2a_config.color_border = "173B4F";a2a_config.c
 				<div class="pressrelease-line"></div>
 
 				<!-- THE POST EXCERPT -->	
-								<div id="post-3799" class="post-3799 post type-post status-publish format-standard hentry category-press-release the_content hybrid-excerpt clearfix">	
+								<div id="post-3799" class="the_content post type-post hentry hybrid-excerpt clearfix post-3799 status-publish format-standard category-press-release">	
 										 
 				 	<!-- Grab the image path and set our variables -->
 											 <!--this is what's used when there isn't a featured image -->
@@ -538,29 +556,20 @@ a2a_config.color_main = "173B4F";a2a_config.color_border = "173B4F";a2a_config.c
 </div
 
 <!-- Super Container | Footer Widget Space (Optional) -->
-
-
-<!-- ============================================== -->
-
-
-<!-- Super Container | Footer Widget Space (Optional) -->
-<div class="super-container full-width" id="section-footer">
-
-<!-- 960 Container -->
-<div class="container">
-<!-- footer -->
-<footer>
-	<div class="sixteen columns" id="footer-row"> 
-		<br />
-		<div class="one-sixth column alpha">
-		<div id="text-7" class="widget widget_text"><h5 class="footer-widget-title">Connect to us</h5>			<div class="textwidget"><a href="https://www.facebook.com/PIRegistry" onClick="ga('send', 'event', 'social-icon', 'Click', 'facebook-footer');"><span class="social_icon icon-facebook"></span></a>
+	<div class="super-container full-width" id="section-footer">
+		<div class="container"><!-- 960 Container -->
+			<footer><!-- footer -->
+				<div class="sixteen columns" id="footer-row"> 
+					<br />
+					<div class="one-sixth column alpha">
+					<div id="text-7" class="widget widget_text"><h5 class="footer-widget-title">Connect to us</h5>			<div class="textwidget"><a href="https://www.facebook.com/PIRegistry" onClick="ga('send', 'event', 'social-icon', 'Click', 'facebook-footer');"><span class="social_icon icon-facebook"></span></a>
 <a href="https://twitter.com/piregistry" onClick="_gaq.push(['_trackEvent', 'social-icon', click, twitter-footer, 1, true]);"><span class="social_icon icon-twitter-2"></span></a>
 <a href="http://instagram.com/piregistry" onClick="_gaq.push(['_trackEvent', 'social-icon', click, instagram-footer, 1, true]);"><span class="social_icon icon-instagram"></span></a>
 <a href="http://www.youtube.com/user/piregistry" onClick="_gaq.push(['_trackEvent', 'social-icon', click, youtube-footer, 1, true]);"><span class="social_icon icon-youtube"></span></a>
 <a href="https://plus.google.com/u/0/113326307679645577958/videos" onClick="_gaq.push(['_trackEvent', 'social-icon', click, google-plus-footer, 1, true]);"><span class="social_icon icon-google-plus-2"></span></a></div>
-		</div>		</div>
-		<div class="one-sixth column">
-		<div id="nav_menu-4" class="widget widget_nav_menu"><div class="menu-footer-2-menu-container"><ul id="menu-footer-2-menu" class="menu"><li id="menu-item-194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-194"><a href="http://pir.org/products/">Products</a>
+		</div>					</div>
+					<div class="one-sixth column">
+					<div id="nav_menu-4" class="widget widget_nav_menu"><div class="menu-footer-2-menu-container"><ul id="menu-footer-2-menu" class="menu"><li id="menu-item-194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-194"><a href="http://pir.org/products/">Products</a>
 <ul class="sub-menu">
 	<li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a href="http://pir.org/products/org-domain/">.org Domain</a></li>
 	<li id="menu-item-4295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4295"><a href="http://pir.org/products/ongood/">OnGood™</a></li>
@@ -571,18 +580,18 @@ a2a_config.color_main = "173B4F";a2a_config.color_border = "173B4F";a2a_config.c
 	<li id="menu-item-1101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1101"><a href="http://pir.org/products/find-a-registrar/">Find A Registrar</a></li>
 </ul>
 </li>
-</ul></div></div>		</div>
-		<div class="one-sixth column">
-		<div id="nav_menu-8" class="widget widget_nav_menu"><div class="menu-footer-3-menu-container"><ul id="menu-footer-3-menu" class="menu"><li id="menu-item-1145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1145"><a href="http://pir.org/services/">Services</a>
+</ul></div></div>					</div>
+					<div class="one-sixth column">
+					<div id="nav_menu-8" class="widget widget_nav_menu"><div class="menu-footer-3-menu-container"><ul id="menu-footer-3-menu" class="menu"><li id="menu-item-1145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1145"><a href="http://pir.org/services/">Services</a>
 <ul class="sub-menu">
 	<li id="menu-item-1409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1409"><a href="http://pir.org/services/become-a-registrar/">Become a Registrar</a></li>
 	<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://pir.org/services/become-a-reseller/">Become a Reseller</a></li>
 	<li id="menu-item-1411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1411"><a href="http://pir.org/services/registrar-login/">Registrar Login</a></li>
 </ul>
 </li>
-</ul></div></div>		</div>
-		<div class="one-sixth column">
-		<div id="nav_menu-7" class="widget widget_nav_menu"><div class="menu-footer-4a-menu-container"><ul id="menu-footer-4a-menu" class="menu"><li id="menu-item-1414" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1414"><a href="http://pir.org/resources/">Resources</a>
+</ul></div></div>					</div>
+					<div class="one-sixth column">
+					<div id="nav_menu-7" class="widget widget_nav_menu"><div class="menu-footer-4a-menu-container"><ul id="menu-footer-4a-menu" class="menu"><li id="menu-item-1414" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1414"><a href="http://pir.org/resources/">Resources</a>
 <ul class="sub-menu">
 	<li id="menu-item-1415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1415"><a href="http://pir.org/resources/faq/">Frequently Asked Questions</a></li>
 	<li id="menu-item-1416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1416"><a href="http://pir.org/resources/glossary/">Glossary</a></li>
@@ -596,17 +605,17 @@ a2a_config.color_main = "173B4F";a2a_config.color_border = "173B4F";a2a_config.c
 	<li id="menu-item-2363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2363"><a href="http://pir.org/news-events/calendar/">Calendar of Events</a></li>
 </ul>
 </li>
-</ul></div></div>		</div>				
-		<div class="one-sixth column">
-		<div id="nav_menu-6" class="widget widget_nav_menu"><div class="menu-footer-5-menu-container"><ul id="menu-footer-5-menu" class="menu"><li id="menu-item-1420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1420"><a href="http://pir.org/policies/">Policies</a>
+</ul></div></div>					</div>				
+					<div class="one-sixth column">
+					<div id="nav_menu-6" class="widget widget_nav_menu"><div class="menu-footer-5-menu-container"><ul id="menu-footer-5-menu" class="menu"><li id="menu-item-1420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1420"><a href="http://pir.org/policies/">Policies</a>
 <ul class="sub-menu">
 	<li id="menu-item-4296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4296"><a href="http://pir.org/policies/org-idn-policies/">.org, .机构, .संगठन, .орг Policies</a></li>
 	<li id="menu-item-4297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4297"><a href="http://pir.org/policies/ngo-ong-policies/">.ngo &#038; .ong Policies</a></li>
 </ul>
 </li>
-</ul></div></div>		</div>		
-		<div class="one-sixth column omega">
-		<div id="nav_menu-5" class="widget widget_nav_menu"><div class="menu-footer-6-menu-about-us-container"><ul id="menu-footer-6-menu-about-us" class="menu"><li id="menu-item-1425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1425"><a href="http://pir.org/about-us/">About Us</a>
+</ul></div></div>					</div>		
+					<div class="one-sixth column omega">
+					<div id="nav_menu-5" class="widget widget_nav_menu"><div class="menu-footer-6-menu-about-us-container"><ul id="menu-footer-6-menu-about-us" class="menu"><li id="menu-item-1425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1425"><a href="http://pir.org/about-us/">About Us</a>
 <ul class="sub-menu">
 	<li id="menu-item-1426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1426"><a href="http://pir.org/about-us/get-to-know-us/">Get to Know Us</a></li>
 	<li id="menu-item-1427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1427"><a href="http://pir.org/about-us/history/">History</a></li>
@@ -620,23 +629,15 @@ a2a_config.color_main = "173B4F";a2a_config.color_border = "173B4F";a2a_config.c
 <a href="http://cn.pir.org">中国的</a></br>
 <a href="http://ru.pir.org">русский алфавит</a></br>
 <a href="http://in.pir.org">हिंदी</a></div>
-		</div>		</div>
-		<br />
+		</div>					</div>
+				</div>
 
-	</div>
-
-	<div class="copyright" role="contentinfo">
-		Copyright &copy; 2015 <a href="http://www.pir.org/" title="Your Public Interest Registry">Public Interest Registry</a> | <a href="http://pir.org/?page_id=179">Privacy Policy</a>
-	</div>
-
-</footer>
-<!-- /End Footer -->
-
-
-</div>
-<!-- /End 960 Container -->
-</div>
-<!-- /End Super Container -->
+				<div class="copyright" role="contentinfo">
+					Copyright &copy; 2015 <a href="http://www.pir.org/" title="Your Public Interest Registry">Public Interest Registry</a> | <a href="http://pir.org/?page_id=179">Privacy Policy</a>
+				</div>
+			</footer><!-- /End Footer -->
+		</div><!-- /End 960 Container -->
+	</div><!-- /End Super Container -->
 
 
 	<!-- ShiftNav Main Toggle -->
@@ -706,7 +707,7 @@ wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.scrip
 <!-- Default Portfolio View - Grabs the variable set in the template-xxx.php files -->
 
 
-<!-- End Default Portfolio View --><link rel='stylesheet' id='theme-style-css'  href='http://pir.org/wp-content/themes/nitro/style.css?ver=4.1.3' type='text/css' media='all' />
+<!-- End Default Portfolio View --><link rel='stylesheet' id='theme-style-css'  href='http://pir.org/wp-content/themes/nitro/style.css?ver=4.2.1' type='text/css' media='all' />
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/jquery.touchwipe.min.js'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/jquery.isotope.js'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/jquery.prettyPhoto.js'></script>

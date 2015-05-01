@@ -89,7 +89,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-TiGj4opSEd4jfTAFCsSfhz8PsZM-aQmectL_Fv1Dsbg" value="form-TiGj4opSEd4jfTAFCsSfhz8PsZM-aQmectL_Fv1Dsbg"  />
+<input type="hidden" name="form_build_id" id="form-1mUXVs31HIuDIvTGIg2LJtL-xNz0CWTZt2kL-StJEf8" value="form-1mUXVs31HIuDIvTGIg2LJtL-xNz0CWTZt2kL-StJEf8"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 
@@ -750,20 +750,20 @@ div#content {display:none; visibility:hidden;}
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-title">
+                <span class="field-content"><a href="/news/2015/04/27/new-and-memorable-web-addresses-launched-arizona-voters-wwwarizonavote-and-wwwarizon">New and Memorable Web Addresses Launched for Arizona Voters:  www.arizona.vote and www.arizona.voto</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">Apr 27, 2015</span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field-title">
                 <span class="field-content"><a href="/news/2015/04/21/deal-yourself-poker-names-now-open-all">Deal Yourself In: .POKER Names Now Open to All</a></span>
   </div>
   
   <div class="views-field-created">
                 <span class="field-content">Apr 21, 2015</span>
-  </div>
-</li>
-          <li class="views-row views-row-2 views-row-even views-row-last">  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/2015/03/26/afilias-supports-cryptech-project-most-ambitious-hardware-encryption-effort-ever-pro">Afilias Supports the CrypTech Project  - The Most Ambitious Hardware Encryption Effort Ever to Protect User Privacy</a></span>
-  </div>
-  
-  <div class="views-field-created">
-                <span class="field-content">Mar 26, 2015</span>
   </div>
 </li>
       </ul>
@@ -794,19 +794,6 @@ div#content {display:none; visibility:hidden;}
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-title">
-                <span class="field-content"><a href="/news/events/2015/04/27/retail-cpg-executive-summit-customer-2025">The Retail &amp; CPG Executive Summit: Customer 2025</a></span>
-  </div>
-  
-  <div class="views-field-field-location-city-value">
-                <span class="field-content">Nasdaq Marketsite, NYC</span>
-  </div>
-  
-  <div class="views-field-field-date-value">
-                <span class="field-content"><span class="date-display-single">Apr 27, 2015</span></span>
-  </div>
-</li>
-          <li class="views-row views-row-2 views-row-even views-row-last">  
-  <div class="views-field-title">
                 <span class="field-content"><a href="/news/events/2015/05/02/inta-annual-meeting-2015">INTA Annual Meeting 2015</a></span>
   </div>
   
@@ -816,6 +803,19 @@ div#content {display:none; visibility:hidden;}
   
   <div class="views-field-field-date-value">
                 <span class="field-content"><span class="date-display-single">May 02, 2015</span></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/events/2015/05/18/lacnic-23">LACNIC 23</a></span>
+  </div>
+  
+  <div class="views-field-field-location-city-value">
+                <span class="field-content">Lima, Peru</span>
+  </div>
+  
+  <div class="views-field-field-date-value">
+                <span class="field-content"><span class="date-display-single">May 18, 2015</span></span>
   </div>
 </li>
       </ul>

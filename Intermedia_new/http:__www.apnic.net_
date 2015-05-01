@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 24 April 2015 11:13:17
+  Page generated: 01 May 2015 11:04:25
 -->
 
 
@@ -390,7 +390,7 @@ $('.theme-about #header-label span').text('About APNIC');
   <div class="panel panel-default">
     <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> 
       <h2 class="panel-title h3">
-        <span><a href="http://blog.apnic.net/">Blog</a></span>
+        <span><a href="//blog.apnic.net/">Blog</a></span>
       </h2>
     </div>
     <div id="collapseOne" class="panel-collapse collapse in">
@@ -436,7 +436,7 @@ $('.theme-about #header-label span').text('About APNIC');
 <a class="advert" id="advert-4" href="https://www.apnic.net/community/iana-transition"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>IANA Oversight Transition</span></a>
         </div><!-- /.col-sm-9 -->
         <div class="col-sm-3 adverts" id="adverts-2">
-<a class="advert" id="advert-5" href="//www.apnic.net/helpdesk"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>APNIC Helpdesk</span><em>Need Help?</em><b class="apnic-sprite apnic-sprite-icons"></b></a>
+<a class="advert" id="advert-5" href="//www.apnic.net/helpdesk" data-ga-label="APNIC Helpdesk Need Help?"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>APNIC Helpdesk</span><em>Need Help?</em><b class="apnic-sprite apnic-sprite-icons"></b></a>
         </div><!-- /.col-sm-3 -->
     </div><!-- /.row -->
 </div><!-- /.container --> 
@@ -482,24 +482,76 @@ $('.theme-about #header-label span').text('About APNIC');
 <!-- JS Extras -->
 <script src="https://www.google.com/jsapi"></script>        <script src="https://www.apnic.net/__data/assets/js_file/0010/75349/jquery.debouncedresize.min.js?v=0.1.2"></script>
         <script src="https://www.apnic.net/__data/assets/js_file/0009/75348/jquery.ellipsis.min.js?v=0.1.3"></script>
-        <script src="https://www.apnic.net/__data/assets/js_file/0004/72679/home-20140815-1.js?v=0.2.1"></script>
+        <script src="https://www.apnic.net/__data/assets/js_file/0004/72679/home-20140815-1.js?v=0.2.3"></script>
 
 
 <!-- Google Analytics tracking code -->
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-3140864-1']);
-  _gaq.push(['_trackPageview']);
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  ga('create', 'UA-3140864-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Custom event tracking -->
+<script>
+
+    // Do this only once pages is fully loaded (NB - this may be too late!)
+    $(document).ready(function() {
+
+        // Track only links tagged as Google Analytics events 
+        // (scoped to body so links dynamically created after page load are captured too) 
+        $('body').on('click','a.ga-event',function(e){
+            e.preventDefault(); // Stop the default behaviour of following the link
+
+            // Get the link's href (and target if there is one)
+            var href     = $(this).attr('href');
+            var target   = ($(this).is('[target]') ? $(this).attr('target') : "_self");
+
+            // Get (or default) the link's custom event details 
+            var category = ($(this).is('[data-ga-category]') ? $(this).attr('data-ga-category') : "Links");
+            var action   = ($(this).is('[data-ga-event]') ? $(this).attr('data-ga-event') : "Click");
+            var label    = ($(this).is('[data-ga-label]') ? $(this).attr('data-ga-label') : $(this).text());
+
+            // Send the custom event to Google Analytics
+            ga('send', 'event', category, action, label);
+
+            // Wait a split second so the event has time to register
+            setTimeout(function() {
+                // Open the link as the user expects
+                window.open(href,target); 
+            },300);
+        });
+
+        // Now tag some links as custom events
+        var map = {'#banner':          'Banner',
+                   '#site-top-nav':    'Top Nav',
+                   '#site-second-nav': 'Second Nav',
+                   '#extra-content':   'Related Links',
+                   '#footer':          'Footer'
+        };
+        var selectors = $.map(map, function(e,i) {return i});
+        $('a:not(.ga-event)',selectors.toString()).each(function(){
+            $(this).addClass('ga-event');
+            $(this).not('[data-ga-label]').attr('data-ga-label',($(this).text()));
+            $(this).not('[data-ga-event]').attr('data-ga-event','click');
+        });
+        $.each(selectors, function( i, selector ) {
+            $('a:not([data-ga-category])',selector).each(function(){
+                $(this).attr('data-ga-category',map[selector])
+            });
+        });
+
+    });
+
 </script>
 
 <!-- Labs tracking code -->
-<script type="text/javascript">
+<script>
     (function() {
         var iga = document.createElement('script'); iga.type = 'text/javascript'; iga.async = true;
         iga.src = ('https:' == document.location.protocol ? 'https://labssl.apnic.net' : 'http://www.potaroo.net') + '/linktest-js.php';

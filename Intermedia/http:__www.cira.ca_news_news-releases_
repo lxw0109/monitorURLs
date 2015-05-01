@@ -13,107 +13,38 @@
 <meta name="dcterms.title" content="Newsroom" />
 <noscript><link rel="stylesheet" href="/profiles/wetkit/libraries/wet-boew/css/noscript.css" /></noscript>
   <title>Newsroom | Canadian Internet Registration Authority (CIRA)</title>
-  <style>
-@import url("http://cira.ca/modules/system/system.base.css?nn6875");
-</style>
-<style>
-@import url("http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.tabs.min.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.accordion.min.css?nn6875");
-</style>
-<style>
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/css/wetkit-featured.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/css/wetkit-accordian.css?nn6875");
-@import url("http://cira.ca/sites/all/modules/custom/cira_layouts/css/cira_layouts.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/contrib/date/date_api/date.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/contrib/date/date_popup/themes/datepicker.1.7.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/contrib/environment_indicator/environment_indicator.css?nn6875");
-@import url("http://cira.ca/modules/field/theme/field.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/contrib/picture/picture_wysiwyg.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_admin/wetkit-admin.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_emberx/css/ember-ctools.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_emberx/css/ember-media.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_emberx/css/ember-modal.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_emberx/css/ember-panels-ipe.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_layouts/css/layouts.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_admin/modules/wetkit_navbar/css/wetkit-navbar.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_widgets/css/wetkit_widgets.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_wysiwyg/css/wetkit-wysiwyg.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/contrib/views/css/views.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/css/wetkit.css?nn6875");
-</style>
+  <link type="text/css" rel="stylesheet" href="http://cira.ca/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://cira.ca/sites/default/files/css/css_E7BUREsDBrAxxz2qAzv85BoLTH7fjofNTk0uCY-Wd3k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://cira.ca/sites/default/files/css/css_1HOi57tRWhW83tywR0N2ChLOUgnQD7XdgwihzeFMmo0.css" media="all" />
 
 <!--[if gte IE 9]><!-->
-<style>
-@import url("http://cira.ca/profiles/wetkit/libraries/wet-boew/css/wet-boew.min.css?nn6875");
-</style>
+<link type="text/css" rel="stylesheet" href="http://cira.ca/sites/default/files/css/css_STJX3nUSxV_NNJHLi3iSnLzMuX0kIzSLyEIBkIr_6Sw.css" media="all" />
 <!--<![endif]-->
-<style>
-@import url("http://cira.ca/profiles/wetkit/libraries/wet-boew/css/theme.min.css?nn6875");
-</style>
+<link type="text/css" rel="stylesheet" href="http://cira.ca/sites/default/files/css/css_5RLbSko3hezzFud-tG5tVj4LEU9YtktePt4j_auOb38.css" media="all" />
 
 <!--[if lt IE 9]>
-<link type="text/css" rel="stylesheet" href="http://cira.ca/profiles/wetkit/libraries/wet-boew/css/ie8-wet-boew.min.css?nn6875" media="all" />
+<link type="text/css" rel="stylesheet" href="http://cira.ca/profiles/wetkit/libraries/wet-boew/css/ie8-wet-boew.min.css?nnhfkw" media="all" />
 <![endif]-->
-<style>
-@import url("http://cira.ca/profiles/wetkit/modules/contrib/ctools/css/ctools.css?nn6875");
-@import url("http://cira.ca/sites/all/libraries/fontawesome/css/font-awesome.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/contrib/panels/css/panels.css?nn6875");
-@import url("http://cira.ca/sites/all/modules/custom/cira_layouts/plugins/layouts/cira_75_25/cira-75-25.css?nn6875");
-@import url("http://cira.ca/sites/all/modules/custom/cira_layouts/plugins/layouts/cira_50_50/cira-50-50.css?nn6875");
-@import url("http://cira.ca/sites/all/modules/custom/cira_layouts/plugins/layouts/cira_66_33/cira-66-33.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/contrib/custom_search/custom_search.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_bootstrapx/css/horizontal_tabs.css?nn6875");
-</style>
-<style>
-@import url("http://cira.ca/profiles/wetkit/themes/bootstrap/css/overrides.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/themes/wetkit_bootstrap/css/wetkit_bootstrap.styles.css?nn6875");
-@import url("http://cira.ca/sites/all/themes/cira_bootstrap/css/init.css?nn6875");
-@import url("http://cira.ca/sites/all/themes/cira_bootstrap/css/virtual-keyboard.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_bean/css/wetkit_bean.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_core/css/wetkit_core.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_menu/css/wetkit_menu.css?nn6875");
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_wetboew/css/wetkit_wetboew.css?nn6875");
-</style>
-<style>
-@import url("http://cira.ca/profiles/wetkit/modules/custom/wetkit_images/css/wetkit_images.css?nn6875");
-</style>
+<link type="text/css" rel="stylesheet" href="http://cira.ca/sites/default/files/css/css_WzOswBa2Qy7SoOzHRDELWwnhE_szKlsZRHiz_qMI1Zc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://cira.ca/sites/default/files/css/css_6auMQw5AiS08uO9ODbQtXRDkSHbYtc0Gugj4Ch18k3k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://cira.ca/sites/default/files/css/css_iMW7SElNswQG5jAdGu4PihWRfc_ZbnnOXcT8ZoZAylQ.css" media="all" />
   <!-- HTML5 element support for IE6-8 -->
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  <script src="http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2"></script>
-<script src="http://cira.ca/misc/jquery.once.js?v=1.2"></script>
-<script src="http://cira.ca/misc/drupal.js?nn6875"></script>
+  <script src="http://cira.ca/sites/default/files/js/js_-z-2lAhufzBeVjYseT6cTzSICUy9vnoLBpu1sF_zZrs.js"></script>
 
 <!--[if lt IE 9]>
 <script src="http://cira.ca/profiles/wetkit/libraries/wet-boew/js/ie8-wet-boew.min.js?v=4.0.10"></script>
 <![endif]-->
-<script src="http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.10.2"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.tabs.min.js?v=1.10.2"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.accordion.min.js?v=1.10.2"></script>
+<script src="http://cira.ca/sites/default/files/js/js_CwA9uD2kYGc1ubylea-Ul8iN5PWYS40GWBA4ue9Bo4w.js"></script>
 <script>document.createElement( "picture" );</script>
-<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/js/wetkit-accordion.js?nn6875"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/contrib/environment_indicator/tinycon.min.js?nn6875"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/contrib/environment_indicator/environment_indicator.js?nn6875"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/contrib/environment_indicator/color.js?nn6875"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_admin/wetkit-admin.js?nn6875"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_bootstrapx/js/alert.js?nn6875"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_bootstrapx/js/collapse.js?nn6875"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_bootstrapx/js/tooltip.js?nn6875"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_bootstrapx/js/vertical_tabs.js?nn6875"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_widgets/js/wetkit_widgets.js?nn6875"></script>
-<script src="http://cira.ca/profiles/wetkit/libraries/jstorage/jstorage.min.js?nn6875"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/contrib/custom_search/js/custom_search.js?nn6875"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_bean/js/wetkit_bean.js?nn6875"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_admin/modules/wetkit_navbar/js/wetkit-navbar.js?nn6875"></script>
+<script src="http://cira.ca/sites/default/files/js/js_S6tYvIh4GLDWh37l21VpEeQ6ggGaI5zfwz99kg244Fg.js"></script>
+<script src="http://cira.ca/sites/default/files/js/js_a_MHriJhvZ4ZtSmWc5nZ1ZSQPEM1O4eC_-PfCX7c0qw.js"></script>
 <script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-11124418-15", {"cookieDomain":"auto"});ga("require", "linkid", "linkid.js");ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
-<script src="http://cira.ca/profiles/wetkit/modules/custom/wetkit_theme/modules/wetkit_bootstrapx/js/horizontal_tabs.js?nn6875"></script>
-<script src="http://cira.ca/sites/all/themes/cira_bootstrap/js/min/init.min.js?nn6875"></script>
-<script src="http://cira.ca/sites/all/themes/cira_bootstrap/js/min/init2.min.js?nn6875"></script>
-<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cira_bootstrap","theme_token":"A1MyzPN0x2oe6xIVblJN2shAiDz2n5Am5zws5IK9ZwY","js":{"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"0":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/js\/wetkit-accordion.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/tinycon.min.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/environment_indicator.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/color.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/alert.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/collapse.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/tooltip.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/vertical_tabs.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_widgets\/js\/wetkit_widgets.js":1,"profiles\/wetkit\/libraries\/jstorage\/jstorage.min.js":1,"profiles\/wetkit\/modules\/contrib\/custom_search\/js\/custom_search.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/horizontal_tabs.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_bean\/js\/wetkit_bean.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/js\/wetkit-navbar.js":1,"1":1,"sites\/all\/themes\/cira_bootstrap\/js\/min\/init.min.js":1,"sites\/all\/themes\/cira_bootstrap\/js\/min\/init2.min.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/wet-boew.min.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew2.min.js":1,"profiles\/wetkit\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"profiles\/wetkit\/modules\/contrib\/picture\/picture.min.js":1,"profiles\/wetkit\/themes\/bootstrap\/js\/bootstrap.js":1,"2":1,"3":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-featured.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-accordian.css":1,"sites\/all\/modules\/custom\/cira_layouts\/css\/cira_layouts.css":1,"profiles\/wetkit\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/wetkit\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/environment_indicator.css":1,"modules\/field\/theme\/field.css":1,"profiles\/wetkit\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-ctools.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-media.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-modal.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-panels-ipe.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_layouts\/css\/layouts.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/css\/wetkit-navbar.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_widgets\/css\/wetkit_widgets.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_wysiwyg\/css\/wetkit-wysiwyg.css":1,"profiles\/wetkit\/modules\/contrib\/views\/css\/views.css":1,"profiles\/wetkit\/css\/wetkit.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/wet-boew.min.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/theme.min.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/ie8-wet-boew.min.css":1,"profiles\/wetkit\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"profiles\/wetkit\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_75_25\/cira-75-25.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_50_50\/cira-50-50.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_66_33\/cira-66-33.css":1,"profiles\/wetkit\/modules\/contrib\/custom_search\/custom_search.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/css\/horizontal_tabs.css":1,"profiles\/wetkit\/themes\/bootstrap\/css\/overrides.css":1,"profiles\/wetkit\/themes\/wetkit_bootstrap\/css\/wetkit_bootstrap.styles.css":1,"sites\/all\/themes\/cira_bootstrap\/css\/init.css":1,"sites\/all\/themes\/cira_bootstrap\/css\/virtual-keyboard.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_bean\/css\/wetkit_bean.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_core\/css\/wetkit_core.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_menu\/css\/wetkit_menu.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_search\/css\/wetkit_search.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_wetboew\/css\/wetkit_wetboew.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_images\/css\/wetkit_images.css":1}},"admin_menu":{"suppress":1},"custom_search":{"form_target":"_self","solr":1},"currentPath":"news\/news-releases","currentPathIsAdmin":false,"bootstrap":{"anchorsFix":0,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+<script src="http://cira.ca/sites/default/files/js/js_TvFPEFdtzLrfnfpoOb0XFtiLhTlBav2mlgXM60wzuF8.js"></script>
+<script src="http://cira.ca/sites/default/files/js/js_gTWkzzLkCYEKDyITlMA3qpbOWxY8zXDsk9H1hEbGLwU.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cira_bootstrap","theme_token":"cxhDLHYf4EN6aCKWpan7bICfx-FdMsm0afl0D4HopMQ","js":{"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"0":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/js\/wetkit-accordion.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/tinycon.min.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/environment_indicator.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/color.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/alert.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/collapse.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/tooltip.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/vertical_tabs.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_widgets\/js\/wetkit_widgets.js":1,"profiles\/wetkit\/libraries\/jstorage\/jstorage.min.js":1,"profiles\/wetkit\/modules\/contrib\/custom_search\/js\/custom_search.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/horizontal_tabs.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_bean\/js\/wetkit_bean.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/js\/wetkit-navbar.js":1,"1":1,"sites\/all\/themes\/cira_bootstrap\/js\/min\/init.min.js":1,"sites\/all\/themes\/cira_bootstrap\/js\/min\/init2.min.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/wet-boew.min.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew2.min.js":1,"profiles\/wetkit\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"profiles\/wetkit\/modules\/contrib\/picture\/picture.min.js":1,"profiles\/wetkit\/themes\/bootstrap\/js\/bootstrap.js":1,"2":1,"3":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-featured.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-accordian.css":1,"sites\/all\/modules\/custom\/cira_layouts\/css\/cira_layouts.css":1,"profiles\/wetkit\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/wetkit\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/environment_indicator.css":1,"modules\/field\/theme\/field.css":1,"profiles\/wetkit\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-ctools.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-media.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-modal.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-panels-ipe.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_layouts\/css\/layouts.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/css\/wetkit-navbar.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_widgets\/css\/wetkit_widgets.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_wysiwyg\/css\/wetkit-wysiwyg.css":1,"profiles\/wetkit\/modules\/contrib\/views\/css\/views.css":1,"profiles\/wetkit\/css\/wetkit.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/wet-boew.min.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/theme.min.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/ie8-wet-boew.min.css":1,"profiles\/wetkit\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"profiles\/wetkit\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_75_25\/cira-75-25.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_50_50\/cira-50-50.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_66_33\/cira-66-33.css":1,"profiles\/wetkit\/modules\/contrib\/custom_search\/custom_search.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/css\/horizontal_tabs.css":1,"profiles\/wetkit\/themes\/bootstrap\/css\/overrides.css":1,"profiles\/wetkit\/themes\/wetkit_bootstrap\/css\/wetkit_bootstrap.styles.css":1,"sites\/all\/themes\/cira_bootstrap\/css\/init.css":1,"sites\/all\/themes\/cira_bootstrap\/css\/virtual-keyboard.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_bean\/css\/wetkit_bean.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_core\/css\/wetkit_core.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_menu\/css\/wetkit_menu.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_search\/css\/wetkit_search.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_wetboew\/css\/wetkit_wetboew.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_images\/css\/wetkit_images.css":1}},"admin_menu":{"suppress":1},"custom_search":{"form_target":"_self","solr":1},"currentPath":"news\/news-releases","currentPathIsAdmin":false,"bootstrap":{"anchorsFix":0,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
 </head>
 <body class="html not-front not-logged-in no-sidebars page-news page-news-news-releases news-landing i18n-en cira-bootstrap wet-boew" >
   <ul id="wb-tphp">
@@ -172,7 +103,7 @@
  <input title="Enter the terms you wish to search for." class="custom-search-box form-control form-text" placeholder="" data-toggle="tooltip" type="search" id="wb-srch-q" name="custom_search_blocks_form_1" value="" size="27" maxlength="150" />
 </div>
 <input type="hidden" name="delta" value="1" />
-<input type="hidden" name="form_build_id" value="form-0YtAlPQOKUiLYn6t-qUgynR4qTFwFoxUmHYncW0hUTU" />
+<input type="hidden" name="form_build_id" value="form-6dbscGrwEfS8r4vqQcz-bosjBGTPEVDa_affGWAFOWs" />
 <input type="hidden" name="form_id" value="custom_search_blocks_form_1" />
 <input type="hidden" name="custom_search_paths" value="search/site/[key]" />
 <button data-icon="search" value="search" id="wb-srch-sub" name="op" type="submit" class="btn btn-default form-submit">Search</button>
@@ -248,7 +179,7 @@
       
   
   <div class="pane-content">
-    <div class="clearfix"><div class="feature-bean text-left  "><div class="static-header"><div class="static-header-image"><img class="featured-bean---static-banner image-actual img-responsive img-responsive" src="http://cira.ca/sites/default/files/styles/featured_bean_-_static_banner/public/images/featured_bean/toronto.jpg?itok=zSoboe7l" width="1140" height="520" alt="A banner image of downtown Toronto at rush hour, promoting .CA news" /></div><div class="static-header-title-body-btn"><h2 class="static-header-title">Insight into Canada&#039;s Internet</h2><div class="static-header-body"></div><div class="static-header-button"></div></div></div></div></div>  </div>
+    <div class="clearfix"><div class="feature-bean text-left  "><div class="static-header"><div class="static-header-image"><img class="featured-bean---static-banner image-actual img-responsive img-responsive" src="http://cira.ca/sites/default/files/styles/featured_bean_-_static_banner/public/images/featured_bean/toronto_new.jpg?itok=y2AIc4rC" width="1140" height="520" alt="Secondary Anycast DNS service to help Canadian organizations and subsidiaries optimize and secure their DNS" title="D-Zone Anycast DNS" /></div><div class="static-header-title-body-btn"><h2 class="static-header-title">Insight into Canada&#039;s Internet</h2><div class="static-header-body"></div><div class="static-header-button"></div></div></div></div></div>  </div>
 
   
   </div>
@@ -282,7 +213,7 @@
       
   
   <div class="pane-content">
-    <div class="view view-news view-id-news view-display-id-panel_pane_3 view-dom-id-1baebe506661ab3f5376f62b46e22608">
+    <div class="view view-news view-id-news view-display-id-panel_pane_3 view-dom-id-d89b9b1793321240fcaffab147a2eb4c">
         
   
   
@@ -423,7 +354,7 @@
  <select class="form-control form-select" id="edit-fields-field-news-type" name="fields[field_news_type]"><option value="0" selected="selected">-Any-</option><option value="4">Announcement</option><option value="6">News release</option></select>
 </div>
 <input type="hidden" name="path" value="search/site/[key]?f[0]=type:news" />
-<input type="hidden" name="form_build_id" value="form-nEQ27YZWpzzApxZS_V7RTGtKByeN-lxjuwkqa-aS5hU" />
+<input type="hidden" name="form_build_id" value="form-D8h_xczJQa3BwcBLcu6iX935kwfuWIRJwLyiKGNLlJE" />
 <input type="hidden" name="form_id" value="custom_search_api_widget_search_form" />
 <div class="form-actions form-wrapper form-group" id="edit-actions"><button id="edit-actions-submit" name="op" value="Search" type="submit" class="btn btn-default form-submit">Search</button>
 </div></div></form>  </div>
@@ -553,7 +484,7 @@
  <input title="Enter the terms you wish to search for." class="custom-search-box form-control form-text" placeholder="WHOIS search" data-toggle="tooltip" type="text" id="edit-custom-search-blocks-form-2--2" name="custom_search_blocks_form_2" value="" size="15" maxlength="128" />
 </div>
 <input type="hidden" name="delta" value="2" />
-<input type="hidden" name="form_build_id" value="form-0Rn4Pp2GeSyXFyUHKMkjH-0zGwjQgi5Iqqb5XuSJJCY" />
+<input type="hidden" name="form_build_id" value="form-gAbJwH2OIFymhOIdW8MaylqI4uWNYd2PE8bTJV9rhZo" />
 <input type="hidden" name="form_id" value="custom_search_blocks_form_2" />
 <input type="hidden" name="custom_search_paths" value="http://whois.cira.ca/public?domain=[key]" />
 <div class="form-actions form-wrapper form-group" id="edit-actions--3"><button id="edit-submit--2" name="op" value="Search" type="submit" class="btn btn-default form-submit">Search</button>
@@ -634,11 +565,10 @@
 <!--<![endif]-->
 
 <!--[if lt IE 9]>
-<script src="http://cira.ca/profiles/wetkit/libraries/wet-boew/js/ie8-wet-boew2.min.js?v=4.0.10"></script>
+<script src="http://cira.ca/sites/default/files/js/js_gJqoeYeqBf_bArxppS9FuiwCqx8TQKhCYYtdwKTrl3M.js"></script>
 <![endif]-->
-<script src="http://cira.ca/profiles/wetkit/modules/contrib/picture/picturefill2/picturefill.min.js?v=2.0"></script>
-<script src="http://cira.ca/profiles/wetkit/modules/contrib/picture/picture.min.js?v=7.34"></script>
-<script src="http://cira.ca/profiles/wetkit/themes/bootstrap/js/bootstrap.js?nn6875"></script>
+<script src="http://cira.ca/sites/default/files/js/js_REsLPu7rmWMjWdJcbmAAi4_CGneW_u1kgEQ0gfYfPC4.js"></script>
+<script src="http://cira.ca/sites/default/files/js/js_g40IOOmAUKB4LOr_crtMT06ZrSerBwvf1iETKXfE6wQ.js"></script>
 
 
 

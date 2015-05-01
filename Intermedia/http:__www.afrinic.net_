@@ -1280,15 +1280,15 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <div id="qaccordion1" class="qaccordion">
      	 <h3 class="acc-header">Latest News</h3>
   	 <div class="acc-content">
-      <p>21 April 2015</p>
+      <p>27 April 2015</p>
+<p><a href="/en/library/news/1357-afrinic-22-fellowship-winners">AFRINIC-22 Fellowship Winners</a></p>
+<p>21 April 2015</p>
 <p><a href="/en/library/news/1355-mark-elkins-appointed-to-the-nro-nc">Mark Elkins appointed to the NRO NC</a></p>
-<p>16 April 2015</p>
-<p><a href="/en/library/news/1353-mr-janvier-ngnoulaye-appointed-on-the-crisp-team">Mr Janvier Ngnoulaye Appointed on the CRISP Team</a></p>
 <hr />
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt5539969bdf613rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt55417f9c199f3rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1302,8 +1302,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt5539969bdf613"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt5539969bdf613rssscroller_module", options);
+					instanceId : "pgt55417f9c199f3"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt55417f9c199f3rssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);

@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-nL_anC5TsIwzpjJap0ZFdrGnwqMXs2eNQYA81-b9FTY" value="form-nL_anC5TsIwzpjJap0ZFdrGnwqMXs2eNQYA81-b9FTY"  />
+<input type="hidden" name="form_build_id" id="form-YkjqJlW00j7qDVgMm40HQo7QvQypFRQqmJWN8IJH_Yw" value="form-YkjqJlW00j7qDVgMm40HQo7QvQypFRQqmJWN8IJH_Yw"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-ZEsAkUCbcU_pORTJdgKQDP-U7IyHbTEtcYcb7hGO7ks" value="form-ZEsAkUCbcU_pORTJdgKQDP-U7IyHbTEtcYcb7hGO7ks"  />
+<input type="hidden" name="form_build_id" id="form--lg6Cg5CGBpFyzPv0V8e5zAfjUDN-_x7OUs43GvrBYQ" value="form--lg6Cg5CGBpFyzPv0V8e5zAfjUDN-_x7OUs43GvrBYQ"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">April 29, 2015, 10:09 am</span>
+                <span class="field-content">April 30, 2015, 12:57 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/04/29/apnic-training-on-youtube/">APNIC Training on YouTube</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/04/30/event-wrap-pita-19/">Event Wrap: PITA 19</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">April 29, 2015, 7:07 am</span>
+                <span class="field-content">April 30, 2015, 12:56 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/04/29/event-wrap-hknog-2015-and-apnic-member-gathering/">Event Wrap: HKNOG 2015 and APNIC Member gathering</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/04/30/the-internet-of-stupid-things/">The Internet of Stupid Things</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">April 28, 2015, 10:19 am</span>
+                <span class="field-content">April 30, 2015, 9:37 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/04/28/apnic-40-call-for-papers-is-now-open/">APNIC 40 Call for Papers is now open</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/04/30/what-snail-mail-tells-us-about-quality-of-service/">What snail mail tells us about Quality of Service</a></span>
   </div>
 </li>
       </ul>

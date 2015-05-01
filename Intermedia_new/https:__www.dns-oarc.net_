@@ -118,7 +118,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-VX_9Yj4-1JN6PRDapLz74B8mIOZiYThWldKVHXEZ1B4" value="form-VX_9Yj4-1JN6PRDapLz74B8mIOZiYThWldKVHXEZ1B4"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-dFDaAzNv-wEWGCSkeIqoT_zJk-8vlqUP2L6mHsoaRfU" value="form-dFDaAzNv-wEWGCSkeIqoT_zJk-8vlqUP2L6mHsoaRfU"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -135,7 +135,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-gsMGB6XQG7g-KzGqo3svSopGnizVWSClf8iHafDaKrU" value="form-gsMGB6XQG7g-KzGqo3svSopGnizVWSClf8iHafDaKrU"  />
+<input type="hidden" name="form_build_id" id="form-U87J-CRMJD9fRYQ5h-MfuBDdJIuHk9LeD1kBGBknhnM" value="form-U87J-CRMJD9fRYQ5h-MfuBDdJIuHk9LeD1kBGBknhnM"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -361,7 +361,6 @@ Current open positions:</p>
 <a href="http://www.nic.cz">CZ.NIC</a><br/>
 <a href="http://www.dk-hostmaster.dk/">DK Hostmaster</a><br/>
 <a href="https://www.dns.pt/">DNS.PT</a><br/>
-<a href="http://www.dnspod.cn">DNSPod</a><br/>
 <a href="http://www.donuts.co">Donuts</a><br/>
 <a href="http://www.dotberlin.de">dotBERLIN</a><br/>
 <a href="https://www.viestintavirasto.fi/en/">FICORA</a><br/>
@@ -387,6 +386,7 @@ Current open positions:</p>
 <p><center>Blue</center><a href="http://www.nlnetlabs.nl/">NLnet Labs</a><br/>
 <p><center>Supporter</center><a href="http://www.ottix.net/">OTTIX</a><br/>
 <a href="http://www.tudelft.nl/">TUDelft Univ.</a><br/>
+<a href="http://www.ics.uci.edu/">UC Irvine</a><br/>
 <p><center>Beneficial</center><a href="http://afrinic.net">AFRINIC</a><br/>
 <a href="http://www.caida.org/">CAIDA</a><br/>
 <a href="http://www.cogentco.com/">Cogent</a><br/>

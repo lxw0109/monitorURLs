@@ -539,6 +539,9 @@ TWNIC徵才公告</a>(2014-12-24)</td></tr>
                       <td><img src="http://www.twnic.net.tw/img/link.gif" width="135" height="21"></td>
                     </tr>
 <tr align="center">
+<td><a href="http://www.myhome.net.tw/timeline  " target="_blank"><img src="http://www.twnic.net.tw/brarchive/235.gif" border="0"></a></td>
+</tr>
+<tr align="center">
 <td><a href="http://www.seminar2015.twnic.tw" target="_blank"><img src="http://www.twnic.net.tw/brarchive/231.gif" border="0"></a></td>
 </tr>
 <tr align="center">

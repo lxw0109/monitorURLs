@@ -529,7 +529,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="db33856735e90ebd1987c504ed5027a8" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="137ecee22921fb4273600ed71a3ebea5" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -672,6 +672,11 @@
   
   <ul>
           <li>
+            <span class="date"><em>4/27/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9003/show/the-fr-partners-with-the-open-of-web-on-may-7-2015.html">The .fr partners with &quot;the Open of Web&quot; on May 7, 2015</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9003/show/the-fr-partners-with-the-open-of-web-on-may-7-2015.html">The .fr Internet Top Level Domain believes in individual success and supports &quot;the Open of Web&quot; talent development contest.</a></span>
+    </li>
+       <li>
             <span class="date"><em>4/16/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8993/show/new-gtlds-accounted-for-21-of-the-net-growth-of-the-domain-name-market-in-2014.html">New gTLDs accounted for 21% of the net growth of the domain name market in 2014</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/8993/show/new-gtlds-accounted-for-21-of-the-net-growth-of-the-domain-name-market-in-2014.html">The April 2015 edition of the Afnic Industry Report on Domain Names provides an overview of the domain name market in 2014: figures, review and trends...</a></span>
@@ -690,11 +695,6 @@
             <span class="date"><em>3/10/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8862/show/opening-of-1-2-character-s-in-fr-311-domains-made-available-on-03-11-2.html">Opening of 1 &amp; 2 character(s) in .fr : 311 domains made available on 03/11</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/8862/show/opening-of-1-2-character-s-in-fr-311-domains-made-available-on-03-11-2.html">During the landrush phase of the opening of registrations for domain names under .fr with 1 &amp; 2 character(s),</a></span>
-    </li>
-       <li>
-            <span class="date"><em>3/9/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8836/show/opening-of-1-2-character-s-under-fr-last-week-of-landrush.html">Opening of 1 &amp; 2 character(s) under .fr : Last week of Landrush</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/8836/show/opening-of-1-2-character-s-under-fr-last-week-of-landrush.html">Since today at noon, registration by all of domain names in 1 &amp; 2 character(s) is possible for 100€ excl. VAT invoiced by Afnic to its registrar...</a></span>
     </li>
      </ul>
     <div class="mainContent" style="padding:0">

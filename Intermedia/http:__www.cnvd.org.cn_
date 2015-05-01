@@ -561,6 +561,34 @@ h1 {
 							
 							
 								<li>
+									<a href="/webinfo/show/3622"	title="安卓WiFi管理组件wpa_supplicant存在高危漏洞"> 
+										<img src="/images/tab_jt.jpg" /> 
+										<span>
+											
+												安卓WiFi管理组件wpa_supplicant存在高危漏洞
+											
+										</span> 
+										<span class="t1_sp_right">
+											2015-04-27
+										</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/webinfo/show/3621"	title="流行iOS网络通信库AFNetworking曝SSL漏洞"> 
+										<img src="/images/tab_jt.jpg" /> 
+										<span>
+											
+												流行iOS网络通信库AFNetworking曝SSL漏洞
+											
+										</span> 
+										<span class="t1_sp_right">
+											2015-04-27
+										</span>
+									</a>
+								</li>
+							
+								<li>
 									<a href="/webinfo/show/3619"	title="苹果iOS及Mac系统存在漏洞，可导致远程DoS（拒绝式服务）攻击"> 
 										<img src="/images/tab_jt.jpg" /> 
 										<span>
@@ -616,34 +644,6 @@ h1 {
 									</a>
 								</li>
 							
-								<li>
-									<a href="/webinfo/show/3608"	title="Java官网曝本地文件包含（LFI）漏洞"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												Java官网曝本地文件包含（LFI）漏洞
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-04-08
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3607"	title="白帽子发现YouTube任意视频删除漏洞"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												白帽子发现YouTube任意视频删除漏洞
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-04-08
-										</span>
-									</a>
-								</li>
-							
 						</ul>
 					</div>
 				</div>
@@ -664,62 +664,62 @@ h1 {
 						
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-02444" title="Microsoft Internet Explorer内存破坏漏洞（CNVD-2015-02444）"> 
+									<a href="/flaw/show/CNVD-2015-02609" title="Google Chrome FileSystem API安全绕过漏洞"> 
 										<img src="images/t_1.jpg" />
 										<font color="#333333;"> 
 											
-												Microsoft Internet E...
+												Google Chrome FileSy...
 											
 										</font>
-										<span class="t_gz_sz_span">[847]</span>
+										<span class="t_gz_sz_span">[1085]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-02452" title="Microsoft Internet Explorer内存破坏漏洞（CNVD-2015-02452）"> 
+									<a href="/flaw/show/CNVD-2015-02617" title="Google Chrome Skia越界写漏洞（CNVD-2015-02617）"> 
 										<img src="images/t_2.jpg" />
 										<font color="#333333;"> 
 											
-												Microsoft Internet E...
+												Google Chrome Skia越...
 											
 										</font>
-										<span class="t_gz_sz_span">[830]</span>
+										<span class="t_gz_sz_span">[1054]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-02445" title="Microsoft Internet Explorer内存破坏漏洞（CNVD-2015-02445）"> 
+									<a href="/flaw/show/CNVD-2015-02611" title="Google Chrome Blink越界读漏洞"> 
 										<img src="images/t_3.jpg" />
 										<font color="#333333;"> 
 											
-												Microsoft Internet E...
+												Google Chrome Blink越...
 											
 										</font>
-										<span class="t_gz_sz_span">[830]</span>
+										<span class="t_gz_sz_span">[1052]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-02447" title="Microsoft Internet Explorer内存破坏漏洞（CNVD-2015-02447）"> 
+									<a href="/flaw/show/CNVD-2015-02613" title="Google Chrome 'URLRequest::GetHSTSRedirect'信息泄露漏洞"> 
 										<img src="images/t_4.jpg" />
 										<font color="#333333;"> 
 											
-												Microsoft Internet E...
+												Google Chrome 'URLRe...
 											
 										</font>
-										<span class="t_gz_sz_span">[823]</span>
+										<span class="t_gz_sz_span">[1048]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-02441" title="IBM Security SiteProtector System远程命令执行漏洞"> 
+									<a href="/flaw/show/CNVD-2015-02619" title="Google Chrome Blink同源策略绕过漏洞"> 
 										<img src="images/t_5.jpg" />
 										<font color="#333333;"> 
 											
-												IBM Security SitePro...
+												Google Chrome Blink同...
 											
 										</font>
-										<span class="t_gz_sz_span">[822]</span>
+										<span class="t_gz_sz_span">[1041]</span>
 									</a>
 								</li>
 							
@@ -753,80 +753,80 @@ h1 {
 						
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-02661" title="Drupal Shibboleth Authentication模块跨站请求伪造漏洞">
+								<a href="/flaw/show/CNVD-2015-02789" title="Kallithea跨站请求伪造漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											Drupal Shibboleth Authentication模块跨站请求伪造漏洞
+											Kallithea跨站请求伪造漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-04-23</span>
-									<span class="t2_sp_right">118</span>
+									<span class="t2_sp_sz">2015-04-29</span>
+									<span class="t2_sp_right">99</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-02662" title="Drupal Node Invite模块跨站请求伪造漏洞">
+								<a href="/flaw/show/CNVD-2015-02790" title="Net-SNMP 'snmp_api.c'远程拒绝服务漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											Drupal Node Invite模块跨站请求伪造漏洞
+											Net-SNMP 'snmp_api.c'远程拒绝服务漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-04-23</span>
-									<span class="t2_sp_right">114</span>
+									<span class="t2_sp_sz">2015-04-29</span>
+									<span class="t2_sp_right">100</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-02663" title="Drupal Taxonews模块跨站脚本漏洞">
+								<a href="/flaw/show/CNVD-2015-02791" title="Tor 'dns.c'拒绝服务漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											Drupal Taxonews模块跨站脚本漏洞
+											Tor 'dns.c'拒绝服务漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-04-23</span>
-									<span class="t2_sp_right">114</span>
+									<span class="t2_sp_sz">2015-04-29</span>
+									<span class="t2_sp_right">97</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-02664" title="Drupal Classified Ads模块跨站脚本漏洞">
+								<a href="/flaw/show/CNVD-2015-02792" title="LibTIFF内存破坏漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											Drupal Classified Ads模块跨站脚本漏洞
+											LibTIFF内存破坏漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-04-23</span>
-									<span class="t2_sp_right">115</span>
+									<span class="t2_sp_sz">2015-04-29</span>
+									<span class="t2_sp_right">96</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-02665" title="Drupal Patterns模块跨站请求伪造漏洞">
+								<a href="/flaw/show/CNVD-2015-02793" title="cabextract本地目录遍历漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											Drupal Patterns模块跨站请求伪造漏洞
+											cabextract本地目录遍历漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-04-23</span>
-									<span class="t2_sp_right">113</span>
+									<span class="t2_sp_sz">2015-04-29</span>
+									<span class="t2_sp_right">95</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-02666" title="Drupal Alfresco模块跨站请求伪造漏洞">
+								<a href="/flaw/show/CNVD-2015-02794" title="fedora-business-cards不安全临时文件创建漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											Drupal Alfresco模块跨站请求伪造漏洞
+											fedora-business-cards不安全临时文件创建漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-04-23</span>
-									<span class="t2_sp_right">112</span>
+									<span class="t2_sp_sz">2015-04-29</span>
+									<span class="t2_sp_right">97</span>
 								</a>
 							</li>
 						
@@ -837,86 +837,86 @@ h1 {
 					
 					
 						<li>
-							<a href="/patchInfo/show/57699" title="Drupal Path Breadcrumbs模块访问绕过漏洞的补丁">
+							<a href="/patchInfo/show/57879" title="IBM Curam Social Program Management (SPM)跨站请求伪造漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Drupal Path Breadcrumbs模块访问绕过漏洞的补丁
+										IBM Curam Social Program Management (SPM)跨站请求伪造漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-23</span>
+								<span class="t2_sp_sz">2015-04-29</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/57692" title="Drupal Alfresco模块跨站请求伪造漏洞的补丁">
+							<a href="/patchInfo/show/57876" title="Dnsmasq 'setup_reply()'拒绝服务漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Drupal Alfresco模块跨站请求伪造漏洞的补丁
+										Dnsmasq 'setup_reply()'拒绝服务漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-23</span>
+								<span class="t2_sp_sz">2015-04-29</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/57691" title="Drupal Patterns模块跨站请求伪造漏洞的补丁">
+							<a href="/patchInfo/show/57871" title="IBM WebSphere Portal拒绝服务漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Drupal Patterns模块跨站请求伪造漏洞的补丁
+										IBM WebSphere Portal拒绝服务漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-23</span>
+								<span class="t2_sp_sz">2015-04-29</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/57690" title="Drupal Classified Ads模块跨站脚本漏洞的补丁">
+							<a href="/patchInfo/show/57869" title="IBM WebSphere Portal跨站脚本漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Drupal Classified Ads模块跨站脚本漏洞的补丁
+										IBM WebSphere Portal跨站脚本漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-23</span>
+								<span class="t2_sp_sz">2015-04-29</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/57689" title="Drupal Taxonews模块跨站脚本漏洞的补丁">
+							<a href="/patchInfo/show/57867" title="IBM WebSphere Application Server (WAS)权限提升漏洞（CNVD-2015-02800）的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Drupal Taxonews模块跨站脚本漏洞的补丁
+										IBM WebSphere Application Server (WAS)权限提升漏洞（CNVD-2015-02800）的补丁...
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-23</span>
+								<span class="t2_sp_sz">2015-04-29</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/57688" title="Drupal Node Invite模块跨站请求伪造漏洞的补丁">
+							<a href="/patchInfo/show/57866" title="IBM WebSphere Application Server (WAS)权限提升漏洞的补丁 ">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Drupal Node Invite模块跨站请求伪造漏洞的补丁
+										IBM WebSphere Application Server (WAS)权限提升漏洞的补丁 
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-23</span>
+								<span class="t2_sp_sz">2015-04-29</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/57682" title="Drupal Shibboleth Authentication模块跨站请求伪造漏洞的补丁">
+							<a href="/patchInfo/show/57864" title="HP TippingPoint Security Management System and TippingPoint Virtual Security Management System远程命令执行漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Drupal Shibboleth Authentication模块跨站请求伪造漏洞的补丁
+										HP TippingPoint Security Management System and TippingPoint Virtual Securi...
 									
 								</span>
-								<span class="t2_sp_sz">2015-04-23</span>
+								<span class="t2_sp_sz">2015-04-29</span>
 							</a>
 						</li>
 					
@@ -964,7 +964,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-04-16</span>
-								<span class="t3_sp_right">958</span>
+								<span class="t3_sp_right">1561</span>
 							</a>
 						</li>
 					
@@ -977,7 +977,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-04-15</span>
-								<span class="t3_sp_right">129</span>
+								<span class="t3_sp_right">173</span>
 							</a>
 						</li>
 					
@@ -990,7 +990,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-04-15</span>
-								<span class="t3_sp_right">260</span>
+								<span class="t3_sp_right">314</span>
 							</a>
 						</li>
 					
@@ -1003,7 +1003,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-04-03</span>
-								<span class="t3_sp_right">244</span>
+								<span class="t3_sp_right">290</span>
 							</a>
 						</li>
 					
@@ -1016,7 +1016,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-03-13</span>
-								<span class="t3_sp_right">448</span>
+								<span class="t3_sp_right">467</span>
 							</a>
 						</li>
 					
@@ -1029,7 +1029,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-02-26</span>
-								<span class="t3_sp_right">861</span>
+								<span class="t3_sp_right">890</span>
 							</a>
 						</li>
 					
@@ -1038,6 +1038,19 @@ h1 {
 			<div class="t3_tab_b" id="t3_tab_a2" style="display: none; clear:both;">
 				<ul style=" margin-top:8px; margin-left:20px;">
 					
+					
+						<li>
+							<a href="/webinfo/show/3620" title="2015年CNVD漏洞周报第17期（2015年04月20日-2015年04月26日）">
+								<img src="images/tab_jt.jpg"/>
+								<span>
+									[研究报告/周报]
+									
+										2015年CNVD漏洞周报第17期（2015年04月20日-2015年04月26日...
+									
+								</span>
+								<span class="t3_sp_sz">2015-04-27</span>
+							</a>
+						</li>
 					
 						<li>
 							<a href="/webinfo/show/3617" title="2015年CNVD漏洞周报第16期（2015年04月13日-2015年04月19日）">
@@ -1117,19 +1130,6 @@ h1 {
 							</a>
 						</li>
 					
-						<li>
-							<a href="/webinfo/show/3589" title="2015年CNVD漏洞周报第10期（2015年03月02日-2015年03月08日）">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									[研究报告/周报]
-									
-										2015年CNVD漏洞周报第10期（2015年03月02日-2015年03月08日...
-									
-								</span>
-								<span class="t3_sp_sz">2015-03-10</span>
-							</a>
-						</li>
-					
 				</ul>
 			</div>
 		</div>
@@ -1138,7 +1138,7 @@ h1 {
 	<div class="s_w">
 		<div class="t_align_right"><img src="images/zldjb.jpg"/></div>
 		<div class="clf" style="text-align:center;">
-			<span style="color:#999999;">2015-04-13--2015-04-19</span>
+			<span style="color:#999999;">2015-04-20--2015-04-26</span>
 			<div id="weekSerietyLevelPie"></div>
 			<!-- 周漏洞威胁级别趋势图 -->
 		</div>
