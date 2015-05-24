@@ -15,6 +15,7 @@
 	<script type="text/javascript" src="/_js/2013.1/iana.js"></script>
 
 	
+<link rel="canonical" href="http://iana.org/"/>
 <script>
   (function() {
     var cx = '010470622406686203020:_xpfzicvcbs';
@@ -75,14 +76,6 @@
                     <li><a href="/time-zones">Time Zone Database</a></li>
                 </ul>
             </div>
-        </div>
-
-        <div id="home-panel-news">
-            <span><a href="/reports/2014/customer-survey-20141217.pdf">IANA Customer Survey</a></span>
-            In September 2014 ICANN invited customers of the IANA services to participate in its third annual
-            customer satisfaction survey. We have now analyzed the results and are happy to report that the
-            feedback was very positive. This report summarizes the survey methodology and the responses received
-            and compares them to last year's results.
         </div>
 
         <div id="home-panel-search">

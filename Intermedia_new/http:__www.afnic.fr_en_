@@ -79,12 +79,12 @@
     </div>
 </div>
           <div class="searchBox">
-    <form action="/fr/resultat-de-la-recherche" method="get">
-      <input type="hidden" name="search[sort]" value="score" id="search_sort" />	    <input type="text" name="search[keyword]" id="search_keyword" />      <input type="submit" name="submit" value="Rechercher" />
+    <form action="/en/search-result" method="get">
+      <input type="hidden" name="search[sort]" value="score" id="search_sort" />	    <input type="text" name="search[keyword]" id="search_keyword" />      <input type="submit" name="submit" value="Search" />
     </form>
 
     <div class="clear"></div>
-    <a href="/fr/recherche">Recherche avancée</a>
+    <a href="/en/search">Advanced search</a>
 </div>
         </div>
 
@@ -164,9 +164,9 @@
                           						                          </tr><tr>                                                    <td>
               							<a href="/en/products-and-services/services/">Services</a>
                                               							<ul class="submenu">
-                                                    									 <li><a href="/en/products-and-services/services/dnssec-7.html">DNSSEC</a></li>
-                  							                    									 <li><a href="/en/products-and-services/services/whois-data-access-qualified-service-squaw-9.html">Whois Data Access Qualified Service (SQUAW)</a></li>
+                                                    									 <li><a href="/en/products-and-services/services/whois-data-access-qualified-service-squaw-9.html">Whois Data Access Qualified Service (SQUAW)</a></li>
                   							                    									 <li><a href="/en/products-and-services/services/fr-lock-by-afnic-2.html">.fr Lock by Afnic</a></li>
+                  							                    									 <li><a href="/en/products-and-services/services/dnssec-14.html">DNSSEC</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/products-and-services/services/whois/">Whois</a></li>
                   								                    								    <li><a href="/en/products-and-services/services/zonecheck/">ZoneCheck</a></li>
@@ -223,7 +223,7 @@
                   							                    									 <li><a href="/en/about-afnic/presentation/afnic-assignments-strategic-priorities-2012-2015.html">AFNIC assignments &amp; strategic priorities 2012 - 2015</a></li>
                   							                    									 <li><a href="/en/about-afnic/presentation/our-values.html">Our values</a></li>
                   							                    									 <li><a href="/en/about-afnic/presentation/afnic-key-dates-3.html">AFNIC key dates</a></li>
-                  							                    									 <li><a href="/en/about-afnic/presentation/our-team-41.html">Our team</a></li>
+                  							                    									 <li><a href="/en/about-afnic/presentation/our-team-42.html">Our team</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/about-afnic/presentation/members/">Members</a></li>
                   								                    								                  							</ul>
@@ -377,7 +377,7 @@
                           						                                                                              <td>
               							<a href="/en/resources/statistics/">Statistics</a>
                                               							<ul class="submenu">
-                                                    									 <li><a href="/en/resources/statistics/quality-of-service-performance-49.html">Quality of service performance</a></li>
+                                                    									 <li><a href="/en/resources/statistics/quality-of-service-performance-50.html">Quality of service performance</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/resources/statistics/detailed-data-on-domain-names/">Detailed data on domain names</a></li>
                   								                    								                  							</ul>
@@ -529,7 +529,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="db91b130bf13863a1592cf4874e7582d" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="0e6a392794c902eff95e9b3bde5aa9ae" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -642,9 +642,6 @@
 			                    
 		                    			<li>- <a href="/en/about-afnic/news/operations-news/" title="Read the operations news">Read the operations news</a></li>
                     			
-			                    
-		                                            <li>- <a href="/en/products-and-services/services/dnssec-11.html" title="Secure your domain names with DNSSEC">Secure your domain names with DNSSEC</a></li>
-                    			
 	</ul>
             </div>
                     <h3><span>A member of the association</span></h3>
@@ -672,6 +669,11 @@
   
   <ul>
           <li>
+            <span class="date"><em>5/7/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9033/show/afnic-takes-part-in-the-development-of-the-transition-numerique-plus-association.html">Afnic takes part in the development of the Transition Numérique Plus associatio...</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9033/show/afnic-takes-part-in-the-development-of-the-transition-numerique-plus-association.html">At its General Assembly in late March 2015, the Transition Numérique Plus association appointed Julien Naillet, Communications Director for Afnic, as...</a></span>
+    </li>
+       <li>
             <span class="date"><em>4/27/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9003/show/the-fr-partners-with-the-open-of-web-on-may-7-2015.html">The .fr partners with &quot;the Open of Web&quot; on May 7, 2015</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9003/show/the-fr-partners-with-the-open-of-web-on-may-7-2015.html">The .fr Internet Top Level Domain believes in individual success and supports &quot;the Open of Web&quot; talent development contest.</a></span>
@@ -690,11 +692,6 @@
             <span class="date"><em>4/2/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8934/show/the-fr-tld-a-love-story-that-now-lasts-several-years.html">The .fr TLD: a love story that now lasts several years</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/8934/show/the-fr-tld-a-love-story-that-now-lasts-several-years.html">Since March 30, 2015, Afnic has offered the registration of domain names with the .fr TLD for periods ranging from one to ten years.</a></span>
-    </li>
-       <li>
-            <span class="date"><em>3/10/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8862/show/opening-of-1-2-character-s-in-fr-311-domains-made-available-on-03-11-2.html">Opening of 1 &amp; 2 character(s) in .fr : 311 domains made available on 03/11</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/8862/show/opening-of-1-2-character-s-in-fr-311-domains-made-available-on-03-11-2.html">During the landrush phase of the opening of registrations for domain names under .fr with 1 &amp; 2 character(s),</a></span>
     </li>
      </ul>
     <div class="mainContent" style="padding:0">
@@ -797,9 +794,9 @@
                   							</li>
           		                	<li>
                   		<a href="/en/products-and-services/services/">Services</a>
-                  		                   			<span><a href="/en/products-and-services/services/dnssec-7.html" >DNSSEC</a></span>
                   		                   			<span><a href="/en/products-and-services/services/whois-data-access-qualified-service-squaw-9.html" >Whois Data Access Qualified Service (SQUAW)</a></span>
                   		                   			<span><a href="/en/products-and-services/services/fr-lock-by-afnic-2.html" >.fr Lock by Afnic</a></span>
+                  		                   			<span><a href="/en/products-and-services/services/dnssec-14.html" >DNSSEC</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/products-and-services/afnic-consulting/">Afnic Consulting</a>
@@ -833,7 +830,7 @@
                   		                   			<span><a href="/en/about-afnic/presentation/afnic-assignments-strategic-priorities-2012-2015.html" >AFNIC assignments &amp; strategic priorities 2012 - 2015</a></span>
                   		                   			<span><a href="/en/about-afnic/presentation/our-values.html" >Our values</a></span>
                   		                   			<span><a href="/en/about-afnic/presentation/afnic-key-dates-3.html" >AFNIC key dates</a></span>
-                  		                   			<span><a href="/en/about-afnic/presentation/our-team-41.html" >Our team</a></span>
+                  		                   			<span><a href="/en/about-afnic/presentation/our-team-42.html" >Our team</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/about-afnic/organisation/">Organisation</a>
@@ -901,7 +898,7 @@
                   							</li>
           		                	<li>
                   		<a href="/en/resources/statistics/">Statistics</a>
-                  		                   			<span><a href="/en/resources/statistics/quality-of-service-performance-49.html" >Quality of service performance</a></span>
+                  		                   			<span><a href="/en/resources/statistics/quality-of-service-performance-50.html" >Quality of service performance</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/resources/publications/">Publications</a>

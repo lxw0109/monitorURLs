@@ -460,6 +460,13 @@ document.getElementById(imgArr[random]).style.display="block";
                         <ul>
 						   
 						   <li>						                           
+							   <a href="./gywm/xwzx/rdxw/2015/201505/t20150511_52185.htm"><img src="./gywm/xwzx/rdxw/2015/201505/W020150511627596490233.jpg" width="66" height="46"/></a>							 
+                                <dd class="thirdtitle" style="height:auto;font-size:12px;">
+                                    <a href="./gywm/xwzx/rdxw/2015/201505/t20150511_52185.htm">CNNIC发布2014年社会责任报告和年报</a>[05/11]</dd>
+                                      						
+                             </li>
+							   
+						   <li>						                           
 							   <a href="./gywm/xwzx/rdxw/2015/201504/t20150427_52139.htm"><img src="./gywm/xwzx/rdxw/2015/201504/W020150427758840259121.jpg" width="66" height="46"/></a>							 
                                 <dd class="thirdtitle" style="height:auto;font-size:12px;">
                                     <a href="./gywm/xwzx/rdxw/2015/201504/t20150427_52139.htm">IEEE秘书长詹姆斯•普兰德盖斯特一行到访CNNIC</a>[04/27]</dd>
@@ -472,22 +479,12 @@ document.getElementById(imgArr[random]).style.display="block";
                                     <a href="./gywm/xwzx/rdxw/2015/201503/t20150330_52031.htm">CNNIC技术专家主导制定互联网下一代WHOIS国际标准</a>[03/30]</dd>
                                       						
                              </li>
-							   
-						   <li>						                           
-							   <a href="./gywm/xwzx/rdxw/2015/201503/t20150327_52026.htm"><img src="./gywm/xwzx/rdxw/2015/201503/W020150327646481128171.jpg" width="66" height="46"/></a>							 
-                                <dd class="thirdtitle" style="height:auto;font-size:12px;">
-                                    <a href="./gywm/xwzx/rdxw/2015/201503/t20150327_52026.htm">CNNIC沈志当选新一届APNIC执行委员会委员</a>[03/27]</dd>
-                                      						
-                             </li>
 							 
                             
                         </ul>
                     </div>
                     <div id="content_02" class="tzgg" style="height: 200px; overflow: hidden; display: none">
                         <ul>
-						                               
-                            <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201504/t20150429_52147.htm">CNNIC劳动节放假通知</a>[04/29] 
-							</li> 
 						                               
                             <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201504/t20150402_52050.htm">声明</a>[04/02] 
 							</li> 
@@ -496,6 +493,9 @@ document.getElementById(imgArr[random]).style.display="block";
 							</li> 
 						                               
                             <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201408/t20140819_47847.htm">“.公司”和“.网络”抢滩期注册及竞价规则</a>[08/19] 
+							</li> 
+						                               
+                            <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201408/t20140812_47690.htm">关于“.CN”及“.中国”（简繁体）DNSSEC密钥轮转的公告</a>[08/12] 
 							</li> 
 						   
                         </ul>

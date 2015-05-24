@@ -7,19 +7,19 @@
 <link rel="alternate" type="application/rss+xml" title="SGNIC - Singapore Network Information Centre RSS" href="http://www.sgnic.sg/rss.xml" />
 <link rel="shortcut icon" href="/sites/default/files/favicon.gif" type="image/x-icon" />
         <title>SGNIC - Singapore Network Information Centre</title>
-        <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?o" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?o" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?o" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?o" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?o" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?o" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?o" />
-<link type="text/css" rel="stylesheet" media="all" href="/themes/sgnic/style.css?o" />
-<link type="text/css" rel="stylesheet" media="all" href="/themes/sgnic/content.css?o" />
-        <script type="text/javascript" src="/misc/jquery.js?o"></script>
-<script type="text/javascript" src="/misc/drupal.js?o"></script>
-<script type="text/javascript" src="/sites/all/modules/pngfix/jquery.pngFix.js?o"></script>
-<script type="text/javascript" src="/themes/sgnic/sgnic.js?o"></script>
+        <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/themes/sgnic/style.css?j" />
+<link type="text/css" rel="stylesheet" media="all" href="/themes/sgnic/content.css?j" />
+        <script type="text/javascript" src="/misc/jquery.js?j"></script>
+<script type="text/javascript" src="/misc/drupal.js?j"></script>
+<script type="text/javascript" src="/sites/all/modules/pngfix/jquery.pngFix.js?j"></script>
+<script type="text/javascript" src="/themes/sgnic/sgnic.js?j"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 jQuery.extend(Drupal.settings, { "basePath": "/" });
@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-nL_anC5TsIwzpjJap0ZFdrGnwqMXs2eNQYA81-b9FTY" value="form-nL_anC5TsIwzpjJap0ZFdrGnwqMXs2eNQYA81-b9FTY"  />
+<input type="hidden" name="form_build_id" id="form-8K4rMLklvNXDDi0w91_ITf7g7DzroQExKHSy2BV9GNY" value="form-8K4rMLklvNXDDi0w91_ITf7g7DzroQExKHSy2BV9GNY"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-ZEsAkUCbcU_pORTJdgKQDP-U7IyHbTEtcYcb7hGO7ks" value="form-ZEsAkUCbcU_pORTJdgKQDP-U7IyHbTEtcYcb7hGO7ks"  />
+<input type="hidden" name="form_build_id" id="form-5F6yOLXR9Xp3r-WMQ1aWWnHARCgr-IAfKBzVCPl7GMQ" value="form-5F6yOLXR9Xp3r-WMQ1aWWnHARCgr-IAfKBzVCPl7GMQ"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -120,6 +120,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-created">
+                <span class="field-content">May 11, 2015, 12:44 pm</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/results-april-2015-premium-domain-name-pdn-exercise">Results of April 2015 Premium Domain Name (&quot;PDN&quot;) Exercise</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-created">
                 <span class="field-content">April 16, 2015, 9:00 am</span>
   </div>
   
@@ -127,22 +136,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="/news/sgnic-q-15002-invitation-quote-laptops">SGNIC-Q-15002: Invitation to Quote for Laptops</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-created">
                 <span class="field-content">April 16, 2015, 8:55 am</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="/news/sgnic-q-15003-invitation-quote-rack-servers">SGNIC-Q-15003: Invitation to Quote for Rack Servers</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-created">
-                <span class="field-content">March 30, 2015, 10:16 am</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/special-names-limited-period-grab-it-now-15">Special names for a limited period! Grab it now!</a></span>
   </div>
 </li>
       </ul>
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">April 29, 2015, 10:09 am</span>
+                <span class="field-content">May 13, 2015, 11:14 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/04/29/apnic-training-on-youtube/">APNIC Training on YouTube</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/05/14/its-dns-but-not-as-we-know-it-dns-oarc-at-ripe-70/">Its DNS, but not as we know it: DNS-OARC at RIPE 70</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">April 29, 2015, 7:07 am</span>
+                <span class="field-content">May 13, 2015, 12:15 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/04/29/event-wrap-hknog-2015-and-apnic-member-gathering/">Event Wrap: HKNOG 2015 and APNIC Member gathering</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/05/13/upcoming-arm-in-philippines/">Upcoming ARM in Philippines</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">April 28, 2015, 10:19 am</span>
+                <span class="field-content">May 13, 2015, 10:10 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/04/28/apnic-40-call-for-papers-is-now-open/">APNIC 40 Call for Papers is now open</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/05/13/training-in-the-cook-islands/">Training in the Cook Islands</a></span>
   </div>
 </li>
       </ul>

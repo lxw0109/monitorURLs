@@ -672,6 +672,16 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 		
 </li>	
 							
+					<li class="item569" >
+			<a class="orphan item bullet" href="/en/community/bod-candidate-2015"  >
+			<span>
+		    			BoD Candidate 2015			   
+			</span>
+		</a>
+		
+		
+</li>	
+							
 					<li class="item499" >
 			<a class="orphan item bullet" href="/en/community/iana-oversight-transition"  >
 			<span>
@@ -1178,8 +1188,8 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
         <div id="slider-container326" class="slider-container">
         	<ul id="slider326">
           		          			<li>
-            										<a  href="/en/library/news/1351" target="_self">
-													<img src="/images/stories/sl_ceo.jpg" alt="Alan Barrett Appointed as AFRINIC CEO" />
+            										<a  href="https://apps.afrinic.net/nmrp/" target="_blank">
+													<img src="/images/stories/nmrp_banner.jpg" alt="NMRP Banner" />
 													</a>
 												
 												
@@ -1280,15 +1290,15 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <div id="qaccordion1" class="qaccordion">
      	 <h3 class="acc-header">Latest News</h3>
   	 <div class="acc-content">
-      <p>27 April 2015</p>
-<p><a href="/en/library/news/1357-afrinic-22-fellowship-winners">AFRINIC-22 Fellowship Winners</a></p>
-<p>21 April 2015</p>
-<p><a href="/en/library/news/1355-mark-elkins-appointed-to-the-nro-nc">Mark Elkins appointed to the NRO NC</a></p>
+      <p>14 May 2015</p>
+<p><a href="/en/library/news/1381-afbc-2015">Call for Public Comments on AFRINIC Board Candidates</a></p>
+<p>9 May 2015</p>
+<p><a href="/en/library/news/1361-board-statement-on-iana-transition">Board Statement on IANA Transition</a></p>
 <hr />
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt5542d11d8ed46rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt55554626347b8rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1302,8 +1312,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt5542d11d8ed46"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt5542d11d8ed46rssscroller_module", options);
+					instanceId : "pgt55554626347b8"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt55554626347b8rssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);

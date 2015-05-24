@@ -69,8 +69,8 @@
 <link rel="alternate" type="application/rss+xml" title="Internet Systems Consortium &raquo; Feed" href="https://www.isc.org/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Internet Systems Consortium &raquo; Comments Feed" href="https://www.isc.org/comments/feed/" />
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.isc.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.1"}};
-			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f;c.supports={simple:d("simple"),flag:d("flag")},c.supports.simple&&c.supports.flag||(f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.isc.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.2"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
 img.wp-smiley,
@@ -89,12 +89,12 @@ img.emoji {
 <link rel='stylesheet' id='js_composer_front-css'  href='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.css?ver=3.0.2' type='text/css' media='screen' />
 <link rel='stylesheet' id='contact-form-7-css'  href='http://www.isc.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1.2' type='text/css' media='all' />
 <link rel='stylesheet' id='events-manager-css'  href='http://www.isc.org/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.55' type='text/css' media='all' />
-<link rel='stylesheet' id='select2-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/select2.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='select2-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/select2.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='woocommerce-layout-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=2.3.8' type='text/css' media='all' />
 <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=2.3.8' type='text/css' media='only screen and (max-width: 768px)' />
 <link rel='stylesheet' id='woocommerce-general-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=2.3.8' type='text/css' media='all' />
-<link rel='stylesheet' id='wprssmi_template_styles-css'  href='http://www.isc.org/wp-content/plugins/wp-rss-multi-importer/templates/templates.css?ver=4.2.1' type='text/css' media='all' />
-<link rel='stylesheet' id='dlm-frontend-css'  href='http://www.isc.org/wp-content/plugins/download-monitor/assets/css/frontend.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wprssmi_template_styles-css'  href='http://www.isc.org/wp-content/plugins/wp-rss-multi-importer/templates/templates.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dlm-frontend-css'  href='http://www.isc.org/wp-content/plugins/download-monitor/assets/css/frontend.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='bootstrap-css'  href='http://www.isc.org/wp-content/themes/flexform/css/bootstrap.min.css' type='text/css' media='screen' />
 <link rel='stylesheet' id='bootstrap-responsive-css'  href='http://www.isc.org/wp-content/themes/flexform/css/bootstrap-responsive.min.css' type='text/css' media='screen' />
 <link rel='stylesheet' id='fontawesome-css-css'  href='//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css' type='text/css' media='screen' />
@@ -528,10 +528,10 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	<ul class="sub-menu">
 		<li id="menu-item-10881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10881 "><a href="https://www.isc.org/downloads/bind/doc/">Documentation</a>
 		<ul class="sub-menu">
-			<li id="menu-item-10885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10885 "><a href="https://www.isc.org/downloads/bind/doc/bind-9-10/">BIND 9.10 ARM</a></li>
-			<li id="menu-item-10884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10884 "><a href="https://www.isc.org/downloads/bind/doc/bind-9-9/">BIND 9.9 ARM</a></li>
-			<li id="menu-item-10883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10883 "><a href="https://www.isc.org/downloads/bind/doc/bind-9-8/">BIND 9.8 ARM</a></li>
-			<li id="menu-item-10882" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10882 "><a href="https://www.isc.org/downloads/bind/doc/bind-9-6-esv/">BIND 9.6 ESV ARM</a></li>
+			<li id="menu-item-162538" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162538"><a href="http://ftp.isc.org/isc/bind9/cur/9.10/doc/arm/Bv9ARM.html">BIND 9.10 ARM</a></li>
+			<li id="menu-item-162539" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162539"><a href="http://ftp.isc.org/isc/bind9/cur/9.9/doc/arm/Bv9ARM.html">BIND 9.9 ARM</a></li>
+			<li id="menu-item-162540" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162540"><a href="http://ftp.isc.org/isc/bind9/cur/9.8/doc/arm/Bv9ARM.html">BIND 9.8 ARM</a></li>
+			<li id="menu-item-162541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162541"><a href="http://ftp.isc.org/isc/bind9/cur/9.6/doc/arm/Bv9ARM.html">BIND 9.6 ESV ARM</a></li>
 		</ul>
 </li>
 		<li id="menu-item-111195" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111195"><a href="https://www.mail-archive.com/bind-users@lists.isc.org/">BIND Users searchable archive</a></li>
@@ -578,12 +578,15 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	<li id="menu-item-70217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70217 "><a href="https://www.isc.org/bind-subscription-2/">BIND Support Subscription</a></li>
 	<li id="menu-item-12374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12374 "><a href="https://www.isc.org/downloads/bind/doc/">BIND Documentation</a>
 	<ul class="sub-menu">
-		<li id="menu-item-12382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12382"><a href="https://www.isc.org/downloads/bind/doc/bind-9-10/">BIND 9.10 ARM</a></li>
-		<li id="menu-item-12383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12383"><a href="https://www.isc.org/downloads/bind/doc/bind-9-9/">BIND 9.9 ARM</a></li>
-		<li id="menu-item-12385" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12385"><a href="https://www.isc.org/downloads/bind/doc/bind-9-8/">BIND 9.8 ARM</a></li>
-		<li id="menu-item-12384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12384"><a href="https://www.isc.org/downloads/bind/doc/bind-9-6-esv/">BIND 9.6 ESV ARM</a></li>
-		<li id="menu-item-12393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12393"><a href="https://www.isc.org/bind-9-10-new-features/">BIND 9.10 New Features</a></li>
-		<li id="menu-item-12376" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12376 "><a href="https://www.isc.org/downloads/bind/dnssec/">DNSSEC and BIND</a></li>
+		<li id="menu-item-162537" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-162537"><a href="http://ftp.isc.org/isc/bind9/cur/9.10/doc/arm/Bv9ARM.html">BIND 9.10 ARM</a>
+		<ul class="sub-menu">
+			<li id="menu-item-12393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12393"><a href="https://www.isc.org/bind-9-10-new-features/">BIND 9.10 New Features</a></li>
+		</ul>
+</li>
+		<li id="menu-item-162534" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162534"><a href="http://ftp.isc.org/isc/bind9/cur/9.9/doc/arm/Bv9ARM.html">BIND 9.9 ARM</a></li>
+		<li id="menu-item-162535" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162535"><a href="http://ftp.isc.org/isc/bind9/cur/9.8/doc/arm/Bv9ARM.html">BIND 9.8 ARM</a></li>
+		<li id="menu-item-12384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12384"><a href="http://ftp.isc.org/isc/bind9/cur/9.6/doc/arm/Bv9ARM.html">BIND 9.6 ESV ARM</a></li>
+		<li id="menu-item-162536" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162536"><a href="http://users.isc.org/~jreed/dnssec-guide/dnssec-guide.html">BIND DNSSEC Guide</a></li>
 	</ul>
 </li>
 	<li id="menu-item-70216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70216 "><a href="https://www.isc.org/dhcp-subscription/">DHCP Support Subscription</a>
@@ -591,19 +594,13 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<li id="menu-item-12387" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12387"><a href="https://www.isc.org/wp-content/uploads/2014/08/DHCP-4.3.1-Distribution-Documentation-Aug-4-14.pdf">DHCP 4.3.1 Documentation</a></li>
 	</ul>
 </li>
-	<li id="menu-item-8687" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8687"><a target="_blank" href="https://kb.isc.org/">Knowledge Base</a>
-	<ul class="sub-menu">
-		<li id="menu-item-11035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11035 "><a href="https://www.isc.org/community/tools/">Tools and Resources</a></li>
-		<li id="menu-item-11463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11463 "><a href="https://www.isc.org/mission/webinars/">Webinars and other Presentations</a></li>
-	</ul>
-</li>
+	<li id="menu-item-8687" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8687"><a target="_blank" href="https://kb.isc.org/">Knowledge Base</a></li>
 	<li id="menu-item-12375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12375 "><a href="https://www.isc.org/community/report-bug/">Report a Bug</a></li>
 	<li id="menu-item-12377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12377 "><a href="https://www.isc.org/downloads/software-support-policy/security-advisory/">Security Advisory</a>
 	<ul class="sub-menu">
 		<li id="menu-item-12381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12381"><a href="https://kb.isc.org/article/AA-00913/0/BIND-9-Security-Vulnerability-Matrix.html">BIND9 Vulnerability Matrix</a></li>
 	</ul>
 </li>
-	<li id="menu-item-70373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70373 "><a href="https://www.isc.org/training/">Training</a></li>
 </ul>
 </li>
 <li id="menu-item-8189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8189 default"><a href="https://www.isc.org/community/">Community</a>
@@ -629,6 +626,8 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<li id="menu-item-12395" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12395"><a href="http://kea.isc.org/wiki">Kea Wiki</a></li>
 	</ul>
 </li>
+	<li id="menu-item-11035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11035 "><a href="https://www.isc.org/community/tools/">Tools and Resources</a></li>
+	<li id="menu-item-11463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11463 "><a href="https://www.isc.org/mission/webinars/">Webinars and other Presentations</a></li>
 </ul>
 </li>
 <li id="menu-item-8194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8194 default"><a href="https://www.isc.org/services/">Network</a>
@@ -665,11 +664,11 @@ nav .menu > li {border-top-color: #e4e4e4;}
 </li>
 	<li id="menu-item-70169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70169 "><a href="https://www.isc.org/dhcp-subscription/">DHCP Subscription</a>
 	<ul class="sub-menu">
-		<li id="menu-item-70459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70459"><a href="https://www.isc.org/dhcp-subscription-contact/‎">DHCP subscription contact</a></li>
+		<li id="menu-item-70459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70459"><a href="https://www.isc.org/dhcp-subscription-contact/">DHCP subscription contact</a></li>
 	</ul>
 </li>
-	<li id="menu-item-137423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137423 "><a href="https://www.isc.org/unbound-subscription/">Unbound &#038; NSD Support Subscription</a></li>
-	<li id="menu-item-70167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70167 "><a href="https://www.isc.org/training/">Training</a></li>
+	<li id="menu-item-137423" class="menu-item menu-item-type- menu-item-object-page menu-item-137423 "><a>Unbound &#038; NSD Support Subscription</a></li>
+	<li id="menu-item-70373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70373 "><a href="https://www.isc.org/training/">Training</a></li>
 </ul>
 </li>
 </ul></div>			
@@ -719,10 +718,10 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	<ul class="sub-menu">
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10881 "><a href="https://www.isc.org/downloads/bind/doc/">Documentation</a>
 		<ul class="sub-menu">
-			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10885 "><a href="https://www.isc.org/downloads/bind/doc/bind-9-10/">BIND 9.10 ARM</a></li>
-			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10884 "><a href="https://www.isc.org/downloads/bind/doc/bind-9-9/">BIND 9.9 ARM</a></li>
-			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10883 "><a href="https://www.isc.org/downloads/bind/doc/bind-9-8/">BIND 9.8 ARM</a></li>
-			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10882 "><a href="https://www.isc.org/downloads/bind/doc/bind-9-6-esv/">BIND 9.6 ESV ARM</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162538"><a href="http://ftp.isc.org/isc/bind9/cur/9.10/doc/arm/Bv9ARM.html">BIND 9.10 ARM</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162539"><a href="http://ftp.isc.org/isc/bind9/cur/9.9/doc/arm/Bv9ARM.html">BIND 9.9 ARM</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162540"><a href="http://ftp.isc.org/isc/bind9/cur/9.8/doc/arm/Bv9ARM.html">BIND 9.8 ARM</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162541"><a href="http://ftp.isc.org/isc/bind9/cur/9.6/doc/arm/Bv9ARM.html">BIND 9.6 ESV ARM</a></li>
 		</ul>
 </li>
 		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111195"><a href="https://www.mail-archive.com/bind-users@lists.isc.org/">BIND Users searchable archive</a></li>
@@ -769,12 +768,15 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70217 "><a href="https://www.isc.org/bind-subscription-2/">BIND Support Subscription</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12374 "><a href="https://www.isc.org/downloads/bind/doc/">BIND Documentation</a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12382"><a href="https://www.isc.org/downloads/bind/doc/bind-9-10/">BIND 9.10 ARM</a></li>
-		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12383"><a href="https://www.isc.org/downloads/bind/doc/bind-9-9/">BIND 9.9 ARM</a></li>
-		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12385"><a href="https://www.isc.org/downloads/bind/doc/bind-9-8/">BIND 9.8 ARM</a></li>
-		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12384"><a href="https://www.isc.org/downloads/bind/doc/bind-9-6-esv/">BIND 9.6 ESV ARM</a></li>
-		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12393"><a href="https://www.isc.org/bind-9-10-new-features/">BIND 9.10 New Features</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12376 "><a href="https://www.isc.org/downloads/bind/dnssec/">DNSSEC and BIND</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-162537"><a href="http://ftp.isc.org/isc/bind9/cur/9.10/doc/arm/Bv9ARM.html">BIND 9.10 ARM</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12393"><a href="https://www.isc.org/bind-9-10-new-features/">BIND 9.10 New Features</a></li>
+		</ul>
+</li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162534"><a href="http://ftp.isc.org/isc/bind9/cur/9.9/doc/arm/Bv9ARM.html">BIND 9.9 ARM</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162535"><a href="http://ftp.isc.org/isc/bind9/cur/9.8/doc/arm/Bv9ARM.html">BIND 9.8 ARM</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12384"><a href="http://ftp.isc.org/isc/bind9/cur/9.6/doc/arm/Bv9ARM.html">BIND 9.6 ESV ARM</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162536"><a href="http://users.isc.org/~jreed/dnssec-guide/dnssec-guide.html">BIND DNSSEC Guide</a></li>
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70216 "><a href="https://www.isc.org/dhcp-subscription/">DHCP Support Subscription</a>
@@ -782,19 +784,13 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12387"><a href="https://www.isc.org/wp-content/uploads/2014/08/DHCP-4.3.1-Distribution-Documentation-Aug-4-14.pdf">DHCP 4.3.1 Documentation</a></li>
 	</ul>
 </li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8687"><a target="_blank" href="https://kb.isc.org/">Knowledge Base</a>
-	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11035 "><a href="https://www.isc.org/community/tools/">Tools and Resources</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11463 "><a href="https://www.isc.org/mission/webinars/">Webinars and other Presentations</a></li>
-	</ul>
-</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8687"><a target="_blank" href="https://kb.isc.org/">Knowledge Base</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12375 "><a href="https://www.isc.org/community/report-bug/">Report a Bug</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12377 "><a href="https://www.isc.org/downloads/software-support-policy/security-advisory/">Security Advisory</a>
 	<ul class="sub-menu">
 		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12381"><a href="https://kb.isc.org/article/AA-00913/0/BIND-9-Security-Vulnerability-Matrix.html">BIND9 Vulnerability Matrix</a></li>
 	</ul>
 </li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70373 "><a href="https://www.isc.org/training/">Training</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8189 default"><a href="https://www.isc.org/community/">Community</a>
@@ -820,6 +816,8 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12395"><a href="http://kea.isc.org/wiki">Kea Wiki</a></li>
 	</ul>
 </li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11035 "><a href="https://www.isc.org/community/tools/">Tools and Resources</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11463 "><a href="https://www.isc.org/mission/webinars/">Webinars and other Presentations</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8194 default"><a href="https://www.isc.org/services/">Network</a>
@@ -856,11 +854,11 @@ nav .menu > li {border-top-color: #e4e4e4;}
 </li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70169 "><a href="https://www.isc.org/dhcp-subscription/">DHCP Subscription</a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70459"><a href="https://www.isc.org/dhcp-subscription-contact/‎">DHCP subscription contact</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70459"><a href="https://www.isc.org/dhcp-subscription-contact/">DHCP subscription contact</a></li>
 	</ul>
 </li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137423 "><a href="https://www.isc.org/unbound-subscription/">Unbound &#038; NSD Support Subscription</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70167 "><a href="https://www.isc.org/training/">Training</a></li>
+	<li class="menu-item menu-item-type- menu-item-object-page menu-item-137423 "><a>Unbound &#038; NSD Support Subscription</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70373 "><a href="https://www.isc.org/training/">Training</a></li>
 </ul>
 </li>
 </ul></div>			
@@ -1135,10 +1133,10 @@ var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","fragmen
 /* ]]> */
 </script>
 <script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.3.8'></script>
-<script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.js?ver=4.2.1'></script>
+<script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.js?ver=4.2.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"2664a39102","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
+var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"76f55084d9","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/plugins/love-it-pro/includes/js/love-it.js'></script>
@@ -1151,7 +1149,7 @@ var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php",
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/js/jquery.fitvids.js'></script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/js/view.min.js?auto'></script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/js/functions.js'></script>
-<script type='text/javascript' src='http://www.isc.org/wp-includes/js/comment-reply.min.js?ver=4.2.1'></script>
+<script type='text/javascript' src='http://www.isc.org/wp-includes/js/comment-reply.min.js?ver=4.2.2'></script>
 
 	
 	<!--// CLOSE BODY //-->

@@ -68,7 +68,7 @@
         <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <script src="https://www.apnic.net/__data/assets/js_file/0004/76360/miscjs.js"></script>
+        <script src="https://www.apnic.net/__data/assets/js_file/0004/76360/miscjs.js?v=0.4.8"></script>
 
 
 						
@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 01 May 2015 11:04:25
+  Page generated: 15 May 2015 11:04:34
 -->
 
 
@@ -125,7 +125,7 @@
 
 						
 						<div id="banner">
-    <a href="/" title="Home"><img src="https://www.apnic.net/__data/assets/image/0003/69384/apnic-logotype-200x55.png" alt="APNIC"></a>
+    <a href="/" title="Home" data-ga-label="APNIC Logo"><img src="https://www.apnic.net/__data/assets/image/0003/69384/apnic-logotype-200x55.png" alt="APNIC"></a>
     <div id="utilities" class="pull-right hidden-print">
         <form class="pull-right" action="https://www.apnic.net/apnic-info/search" id="searchbox_017734767665402110967:0tnb60adzvo"><input type="hidden" name="cx"  value="017734767665402110967:0tnb60adzvo">
  <input type="hidden" name="cof" value="FORID:9"><input type="text" name="q" placeholder="Search..." id="search"><input type="submit" name="sa" value="Go" id="go" /></form>
@@ -167,7 +167,7 @@
                 var ip = response.ip;
                 var ipv6 = ip.indexOf(':')!=-1;
                 var url = "https://www.apnic.net/apnic-info/whois_search/your-ip";
-                var markup = txt + " <a href='" + url + "'>" + ip + "</a>";
+                var markup = txt + " <a href='" + url + "' data-ga-category='Banner' data-ga-event='click' data-ga-label='Your IP address' class='ga-event'>" + ip + "</a>";
                 $node.html(markup);
                 if(ipv6){
                     $node.prepend('<strong id="via-ipv6" class="apnic-sprite apnic-sprite-icons"><span>Connected Via IPv6</span></strong>');
@@ -299,15 +299,15 @@ $('.theme-about #header-label span').text('About APNIC');
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <a href="//training.apnic.net/events"><img src="https://www.apnic.net/home/carousel/eLearning-website-banner-191x873-01.png" alt="eLearning - Free, one-hour classes held every Wednesday. Register now!"></a>
+      <a href="//training.apnic.net/events" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="eLearning - Free, one-hour classes held every Wednesday. Register now!"><img src="https://www.apnic.net/home/carousel/eLearning-website-banner-191x873-01.png" alt="eLearning - Free, one-hour classes held every Wednesday. Register now!"></a>
     </div>    <div class="item">
-      <a href="//conference.apnic.net/40"><img src="https://www.apnic.net/home/carousel/apnic-40-save-the-date.jpg" alt="APNIC 40 - Save the Date!"></a>
+      <a href="//conference.apnic.net/40" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="APNIC 40 - Save the Date!"><img src="https://www.apnic.net/home/carousel/apnic-40-save-the-date.jpg" alt="APNIC 40 - Save the Date!"></a>
     </div>
     <div class="item">
-      <a href="//www.apnic.net/ROA"><img src="https://www.apnic.net/home/carousel/ROA.png" alt="Create your ROA now in MyAPNIC"></a>
+      <a href="//www.apnic.net/ROA" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="Create your ROA now in MyAPNIC"><img src="https://www.apnic.net/home/carousel/ROA.png" alt="Create your ROA now in MyAPNIC"></a>
     </div>
     <div class="item">
-      <a href="//www.apnic.net/IANAxfer"><img src="https://www.apnic.net/__data/assets/image/0008/76526/iana-transfer-homepage-banner.png" alt="IANA Transition"></a>
+      <a href="//www.apnic.net/IANAxfer" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="IANA Transition"><img src="https://www.apnic.net/__data/assets/image/0008/76526/iana-transfer-homepage-banner.png" alt="IANA Transition"></a>
     </div>
 
   </div>
@@ -390,40 +390,42 @@ $('.theme-about #header-label span').text('About APNIC');
   <div class="panel panel-default">
     <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> 
       <h2 class="panel-title h3">
-        <span><a href="//blog.apnic.net/">Blog</a></span>
+        <span><a href="//blog.apnic.net/" class="ga-event" data-ga-category="Homepage Blog Posts">Blog</a></span>
       </h2>
     </div>
     <div id="collapseOne" class="panel-collapse collapse in">
       <div class="panel-body"><span id="latest-blog-post">Loading...</span>
-<a class="more" href="//blog.apnic.net/">More...</a>      </div>
+<a class="more ga-event" href="//blog.apnic.net/" data-ga-category="Homepage Blog Posts">More...</a>      </div>
     </div>
   </div>
   <div class="panel panel-default">
     <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
       <h2 class="panel-title h3">
-        <span><a href="/publications/news/nro-news">NRO News</a></span>
+        <span><a href="/publications/news/nro-news" class="ga-event" data-ga-category="Homepage NRO News">NRO News</a></span>
       </h2>
     </div>
     <div id="collapseTwo" class="panel-collapse collapse">
       <div class="panel-body"><span id="latest-nro-post">Loading...</span>
-<a class="more" href="https://www.nro.net/category/news">More...</a>
+<a class="more ga-event" href="https://www.nro.net/category/news" data-ga-category='Homepage NRO News'>More...</a>
      </div>
     </div>
   </div>
   <div class="panel panel-default">
     <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
       <h2 class="panel-title h3">
-        <span><a href="/publications/news/announcements">Service updates</a></span>
+        <span><a href="/publications/news/announcements" class="ga-event" data-ga-category="Homepage Service Updates">Service updates</a></span>
       </h2>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-25-february-2015" class="ellipsis" data-ellipsis-rows="1">Service announcement: 25 February 2015</a></h3>
-<p class="ellipsis" data-ellipsis-rows="2"><p>Some users experienced problems registering and logging in to MyAPNIC.</p>
+      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-14-may-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 14 May 2015</a></h3>
+<p class="ellipsis" data-ellipsis-rows="2">
+<p>Some users experienced problems access the MyAPNIC website, FTP website and RPKI.</p>
+
 
 
 
 </p>
-<a href="https://www.apnic.net/publications/news/announcements">More announcements</a>      </div>
+<a href="https://www.apnic.net/publications/news/announcements" class="ga-event" data-ga-category="Homepage Service Updates">More announcements</a>      </div>
     </div>
   </div>
 </div>        </div><!-- /.col-sm-3 -->
@@ -482,7 +484,7 @@ $('.theme-about #header-label span').text('About APNIC');
 <!-- JS Extras -->
 <script src="https://www.google.com/jsapi"></script>        <script src="https://www.apnic.net/__data/assets/js_file/0010/75349/jquery.debouncedresize.min.js?v=0.1.2"></script>
         <script src="https://www.apnic.net/__data/assets/js_file/0009/75348/jquery.ellipsis.min.js?v=0.1.3"></script>
-        <script src="https://www.apnic.net/__data/assets/js_file/0004/72679/home-20140815-1.js?v=0.2.3"></script>
+        <script src="https://www.apnic.net/__data/assets/js_file/0004/72679/home-20140815-1.js?v=0.3.1"></script>
 
 
 <!-- Google Analytics tracking code -->
@@ -494,59 +496,6 @@ $('.theme-about #header-label span').text('About APNIC');
 
   ga('create', 'UA-3140864-1', 'auto');
   ga('send', 'pageview');
-
-</script>
-
-<!-- Custom event tracking -->
-<script>
-
-    // Do this only once pages is fully loaded (NB - this may be too late!)
-    $(document).ready(function() {
-
-        // Track only links tagged as Google Analytics events 
-        // (scoped to body so links dynamically created after page load are captured too) 
-        $('body').on('click','a.ga-event',function(e){
-            e.preventDefault(); // Stop the default behaviour of following the link
-
-            // Get the link's href (and target if there is one)
-            var href     = $(this).attr('href');
-            var target   = ($(this).is('[target]') ? $(this).attr('target') : "_self");
-
-            // Get (or default) the link's custom event details 
-            var category = ($(this).is('[data-ga-category]') ? $(this).attr('data-ga-category') : "Links");
-            var action   = ($(this).is('[data-ga-event]') ? $(this).attr('data-ga-event') : "Click");
-            var label    = ($(this).is('[data-ga-label]') ? $(this).attr('data-ga-label') : $(this).text());
-
-            // Send the custom event to Google Analytics
-            ga('send', 'event', category, action, label);
-
-            // Wait a split second so the event has time to register
-            setTimeout(function() {
-                // Open the link as the user expects
-                window.open(href,target); 
-            },300);
-        });
-
-        // Now tag some links as custom events
-        var map = {'#banner':          'Banner',
-                   '#site-top-nav':    'Top Nav',
-                   '#site-second-nav': 'Second Nav',
-                   '#extra-content':   'Related Links',
-                   '#footer':          'Footer'
-        };
-        var selectors = $.map(map, function(e,i) {return i});
-        $('a:not(.ga-event)',selectors.toString()).each(function(){
-            $(this).addClass('ga-event');
-            $(this).not('[data-ga-label]').attr('data-ga-label',($(this).text()));
-            $(this).not('[data-ga-event]').attr('data-ga-event','click');
-        });
-        $.each(selectors, function( i, selector ) {
-            $('a:not([data-ga-category])',selector).each(function(){
-                $(this).attr('data-ga-category',map[selector])
-            });
-        });
-
-    });
 
 </script>
 

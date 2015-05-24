@@ -16,7 +16,7 @@
 <!--顶部条开始-->
 <div class="isc_top">
     <div class="data">
-2015年04月30日 星期四
+2015年05月14日 星期四
 </div>
      <div class="email">
      <FORM method="post" name="form1" action="http://mm.263.com/login" onsubmit="return check();" target="_blank">
@@ -83,7 +83,7 @@ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/g
           
      <span>【要闻视点】</span><a  href="/zxzx/ywsd/listinfo-31485.html" target="_blank">2015（第十四届）中国互联网大会将于7月21日-23日在北京举行</a>
                 
-               <span>【访谈/发言】</span><a  href="/ftfy/fy/listinfo-31959.html"  target="_blank">卢卫秘书长：互联网金融迎来发展春天</a>
+               <span>【访谈/发言】</span><a  href="/ftfy/ft/listinfo-32071.html"  target="_blank">卢卫秘书长：多元化 智能化——传媒业转型发展的新态势</a>
              </p>
    
     <p class="menu01" id=qh_con1>
@@ -284,31 +284,31 @@ function check()
 	<div id="ifocus_pic">
 		<div id="ifocus_piclist" style="left:0; top:0;">
 			<ul>
-				<li><a   href="/zxzx/ywsd/listinfo-31975.html"  target="_blank"><img src="/upimages/article20150422123037.jpg" alt="国家安全法草案二审增加“维护国家网络空间主权”的规定" /></a></li>
-				<li><a  href="/zxzx/ywsd/listinfo-31954.html"  target="_blank"><img src="/upimages/article20150418211745.png" alt="高新民副理事长：“十三五”信息化发展呈五大趋势" /></a></li>
-				<li><a  href="/zxzx/ywsd/listinfo-31933.html"  target="_blank"><img src="/upimages/article20150415084021" alt="2015年全国互联网协会工作交流会议召开" /></a></li>
-				<li><a  href="/zxzx/ywsd/listinfo-31908.html"  target="_blank"><img src="/upimages/article20150413122133.jpg" alt="卢卫秘书长：传媒转型首先要把产品做好" /></a></li>
-                <li><a  href="/zxzx/ywsd/listinfo-31893.html"  target="_blank"><img src="/upimages/article20150409085939.jpg" alt="邬贺铨院士：智能转型抢占先机" /></a></li>
+				<li><a   href="/zxzx/ywsd/listinfo-32083.html"  target="_blank"><img src="/upimages/article20150513181601.jpg" alt="“移动互联网+”行动计划在京启动" /></a></li>
+				<li><a  href="/zxzx/ywsd/listinfo-32065.html"  target="_blank"><img src="/upimages/article20150511090329.jpg" alt="工信部发布关于实施“宽带中国”2015专项行动的意见" /></a></li>
+				<li><a  href="/zxzx/ywsd/listinfo-32048.html"  target="_blank"><img src="/upimages/article20150507090149.jpg" alt="2015中小企业信息化服务信息发布会在京举办" /></a></li>
+				<li><a  href="/zxzx/ywsd/listinfo-32028.html"  target="_blank"><img src="/upimages/article20150504160138.jpg" alt="工业和信息化部组织开展规范域名注册服务市场专项行动" /></a></li>
+                <li><a  href="/zxzx/ywsd/listinfo-32017.html"  target="_blank"><img src="/upimages/article20150430132028.jpg" alt="中国互联网协会互联网法治工作委员会成立大会暨法治论坛在京召开" /></a></li>
 			</ul>
 		</div>
 		<div id="ifocus_opdiv"></div>
 		<div id="ifocus_tx">
 			<ul>
-				<li class="current">国家安全法草案二审增加“维护国家网络空间主权”的规定</li>
-				<li class="normal">高新民副理事长：“十三五”信息化发展呈五大趋势</li>
-				<li class="normal">2015年全国互联网协会工作交流会议召开</li>
-				<li class="normal">卢卫秘书长：传媒转型首先要把产品做好</li>
-                <li class="normal">邬贺铨院士：智能转型抢占先机</li>
+				<li class="current">“移动互联网+”行动计划在京启动</li>
+				<li class="normal">工信部发布关于实施“宽带中国”2015专项行动的意见</li>
+				<li class="normal">2015中小企业信息化服务信息发布会在京举办</li>
+				<li class="normal">工业和信息化部组织开展规范域名注册服务市场专项行动</li>
+                <li class="normal">中国互联网协会互联网法治工作委员会成立大会暨法治论坛在京召开</li>
 			</ul>
 		</div>
 	</div>
 	<div id="ifocus_btn">
 		<ul>
-			<li class="current"><img src="/upimages/article20150422123037.jpg" alt="国家安全法草案二审增加“维护国家网络空间主权”的规定" /></li>
-			<li class="normal"><img src="/upimages/article20150418211745.png" alt="国家安全法草案二审增加“维护国家网络空间主权”的规定" /></li>
-			<li class="normal"><img src="/upimages/article20150415084021" alt="国家安全法草案二审增加“维护国家网络空间主权”的规定" /></li>
-			<li class="normal"><img src="/upimages/article20150413122133.jpg" alt="国家安全法草案二审增加“维护国家网络空间主权”的规定" /></li>
-            <li class="normal"><img src="/upimages/article20150409085939.jpg" alt="国家安全法草案二审增加“维护国家网络空间主权”的规定" /></li>
+			<li class="current"><img src="/upimages/article20150513181601.jpg" alt="“移动互联网+”行动计划在京启动" /></li>
+			<li class="normal"><img src="/upimages/article20150511090329.jpg" alt="“移动互联网+”行动计划在京启动" /></li>
+			<li class="normal"><img src="/upimages/article20150507090149.jpg" alt="“移动互联网+”行动计划在京启动" /></li>
+			<li class="normal"><img src="/upimages/article20150504160138.jpg" alt="“移动互联网+”行动计划在京启动" /></li>
+            <li class="normal"><img src="/upimages/article20150430132028.jpg" alt="“移动互联网+”行动计划在京启动" /></li>
 		</ul>
 	</div>
 </div>
@@ -319,17 +319,17 @@ function check()
 	<div style="height: 118px; overflow:hidden;">
     	<h1 style="overflow: hidden; margin-top:7px; width:476px;"><p style="float: left;">【要闻视点】</p>
         <div class="cmore" style=" float:right;"><a href="/zxzx/ywsd/"><img src="images/12495217.gif"></a></div>
-        </h1>
-        <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-31975.html"   title="国家安全法草案二审增加“维护国家网络空间主权”的规定" class="red">国家安全法草案二审增加“维护国家网络空间主权”的规定</a></h1>
-	<div class="mg10">4月20日提请十二届全国人大常委会第十四次会议进行二次审议的国家安全法草案，根据维护国家安全的需要，增加了一些重要领域的安全任务。... <a  href="/zxzx/ywsd/listinfo-31975.html"   title="详细" class="blue">[详细]</a></div>
+        <span style="margin-left: 10px; float:right;"><img src="images/02270433.gif"></span></h1>
+        <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-32083.html"   title="“移动互联网+”行动计划在京启动" class="red">“移动互联网+”行动计划在京启动</a></h1>
+	<div class="mg10">5月12日，为落实“互联网+”国家战略，促进中小企业转型升级，由中国互联网协会指导、中国互联网协会中小企业服务工作委员会主办、中网公司承办的“移动互联网+行动计划”全国巡展在北京正式宣布启动。活动现场，还同时上线了中小企... <a  href="/zxzx/ywsd/listinfo-32083.html"   title="详细" class="blue">[详细]</a></div>
 </div>
 <h2><span>协会动态</span><a href="/zxzx/xhdt/" title="更多" class="blue"><img src="images/12495217.gif" /></a></h2>
 <ul class="newslist">
+     <li><a  href="/zxzx/xhdt/listinfo-32070.html" title="第二届全国大学生移动应用创新大赛在京启动" >第二届全国大学生移动应用创新大赛在京启动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
      <li><a  href="/zxzx/xhdt/listinfo-31986.html" title="第六期全国接入服务商网站备案安全管理专项技术培训班在上海举办" >第六期全国接入服务商网站备案安全管理专项技术培训班在上海举办</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
      <li><a  href="/zxzx/xhdt/listinfo-31953.html" title="2015贵阳国际大数据产业博览会暨全球大数据时代贵阳峰会新闻发布会在京举行" >2015贵阳国际大数据产业博览会暨全球大数据时代贵阳峰会新闻</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
      <li><a  href="/zxzx/xhdt/listinfo-31793.html" title="《中国互联网站发展状况及其安全报告（2015）》发布" >《中国互联网站发展状况及其安全报告（2015）》发布</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
      <li><a  href="/zxzx/xhdt/listinfo-31704.html" title="“互联中国梦•网聚正能量——新媒体视域下的传统文化”专题论坛在厦门举行" >“互联中国梦•网聚正能量——新媒体视域下的传统文化”专题论坛</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
-     <li><a  href="/zxzx/xhdt/listinfo-31444.html" title="关于举办“2015（第十四届）中国互联网大会” 新闻发布会的通知" >关于举办“2015（第十四届）中国互联网大会” 新闻发布会的</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
    
 </ul>
 </div>
@@ -384,6 +384,7 @@ function check()
 		            <li><a  href="/zxzx/gzwyh/show-43.html"  target="_blank">• 互联网金融工作委员会 </a></li>
 		            <li><a  href="/zxzx/gzwyh/show-44.html"  target="_blank">• 虚拟运营服务工作委员会 </a></li>
 		            <li><a  href="/zxzx/gzwyh/show-45.html"  target="_blank">• 中小企业服务工作委员会 </a></li>
+		            <li><a  href="/zxzx/gzwyh/show-46.html"  target="_blank">• 互联网法治工作委员会 </a></li>
 		        <li><a href="/zxzx/gzwyh/show-37.html" target="_blank">• 海峡两岸互联网交流委员会</a></li>
          </ul>   
      </div>
@@ -422,9 +423,9 @@ function check()
 
         <tr><td width="130" valign="top"><span><a  href="/zxzx/zfxx/listinfo-32007.html"  ><img src="/upimages/article20150428144413.jpg" class="bor" width="110" height="75" alt="工业和信息化部部长苗圩：正抓紧编制“互联网+”规划"/></a></span></td><td><div>中国工业和信息化部部长苗圩近日在京表示，今年的政府工作报告提出实施互联网+专项行动计划，工信部正联合国家发展和改革委员会加紧编制相关规划。...<a  href="/zxzx/zfxx/listinfo-32007.html"   title="工业和信息化部部长苗圩：正抓紧编制“互联网+”规划" class="blue">[详细]</a></div></td></tr></table>
         <ul class="newslist">
-                <li><a  href="/zxzx/zfxx/listinfo-32005.html"  " title="全国人大常委会举行《信息技术与信息安全》专题讲座"  >全国人大常委会举行《信息技术与信息安全》专题讲座</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                
-                <li><a  href="/zxzx/zfxx/listinfo-31993.html"  " title="国家版权局将推互联网正版付费"  >国家版权局将推互联网正版付费</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
-                <li><a  href="/zxzx/zfxx/listinfo-31983.html"  " title="尚冰赴安徽调研信息通信业发展和管理情况"  >尚冰赴安徽调研信息通信业发展和管理情况</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32068.html"  " title="国务院印发大力发展电子商务的意见"  >国务院印发大力发展电子商务的意见</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32050.html"  " title="我国拟立法规范网店、电视购物"  >我国拟立法规范网店、电视购物</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32027.html"  " title="发改委：正抓紧制定“互联网+”的行动计划"  >发改委：正抓紧制定“互联网+”的行动计划</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
                 </ul>
         </div>
         <div id="zf_02"  class="hidden">
@@ -459,10 +460,10 @@ function check()
 <div id="dt_01" >
 <span class="mp"><a href="/hydt/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a   href="/hydt/listinfo-32016.html" title="中国网民表情 “呲牙”使用频率最高" >中国网民表情 “呲牙”使用频率最高</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-32013.html" title="调查称北京70%大学生每天上网超2小时" >调查称北京70%大学生每天上网超2小时</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-32012.html" title="北京市网信办发布51家山寨旅行社网站黑名单" >北京市网信办发布51家山寨旅行社网站黑名单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-32011.html" title="2015全球移动互联网大会揭幕 科技应用抢了"大腕"风头" >2015全球移动互联网大会揭幕 科技应用抢了"大腕"风头</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-32082.html" title="国家能源互联网行动计划望年内出台" >国家能源互联网行动计划望年内出台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-32081.html" title="科技部力推制造业信息化工程" >科技部力推制造业信息化工程</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-32080.html" title="跨境电商迎来密集扶持政策" >跨境电商迎来密集扶持政策</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-32078.html" title="“互联网+流通”计划将出 农村电商最受益" >“互联网+流通”计划将出 农村电商最受益</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
              
 </ul>
 </div>
@@ -470,10 +471,10 @@ function check()
 <div id="dt_02" class="hidden">
 <span class="mp"><a href="/zxzx/hlwzl/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-       <li><a    href="/zxzx/hlwzl/listinfo-32012.html"  title="北京市网信办发布51家山寨旅行社网站黑名单" >北京市网信办发布51家山寨旅行社网站黑名单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a    href="/zxzx/hlwzl/listinfo-32004.html"  title="弘扬网上正能量 唱响青年好声音——共青团持续深入开展构建清朗网络空间工作" >弘扬网上正能量 唱响青年好声音——共青团持续深入开展构建清朗</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a    href="/zxzx/hlwzl/listinfo-32002.html"  title="最严食品安全法通过 经营食品网店要实名登记" >最严食品安全法通过 经营食品网店要实名登记</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a    href="/zxzx/hlwzl/listinfo-31995.html"  title="深圳查处一批重大网络侵权盗版案" >深圳查处一批重大网络侵权盗版案</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+       <li><a    href="/zxzx/hlwzl/listinfo-32057.html"  title="工商总局：清理整治网络交易平台销售非法彩票" >工商总局：清理整治网络交易平台销售非法彩票</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a    href="/zxzx/hlwzl/listinfo-32044.html"  title="国家网信办关闭违法违规网站40家" >国家网信办关闭违法违规网站40家</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a    href="/zxzx/hlwzl/listinfo-32026.html"  title="中国去年网络安全漏洞事件同比增3倍" >中国去年网络安全漏洞事件同比增3倍</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a    href="/zxzx/hlwzl/listinfo-32025.html"  title="中国出台工作意见严治互联网涉毒违法犯罪" >中国出台工作意见严治互联网涉毒违法犯罪</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
                   
 </ul>
 </div>
@@ -481,10 +482,10 @@ function check()
 <div id="dt_03" class="hidden">
 <span class="mp"><a href="/zxzx/jsyy/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a href="/zxzx/jsyy/listinfo-31877.html"   title="我国用于无线专网的1.4GHz频谱发放" >我国用于无线专网的1.4GHz频谱发放</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+        <li><a href="/zxzx/jsyy/listinfo-32043.html"   title="“创客中国”公共服务平台上线 建立产业创新创业生态圈" >“创客中国”公共服务平台上线 建立产业创新创业生态圈</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a href="/zxzx/jsyy/listinfo-31877.html"   title="我国用于无线专网的1.4GHz频谱发放" >我国用于无线专网的1.4GHz频谱发放</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a href="/zxzx/jsyy/listinfo-31848.html"   title="我国首个大型互联网创业平台上线" >我国首个大型互联网创业平台上线</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a href="/zxzx/jsyy/listinfo-31836.html"   title="海南构建中小企业“在线服务超市”" >海南构建中小企业“在线服务超市”</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a href="/zxzx/jsyy/listinfo-31834.html"   title="全国旅游网上投诉平台5月开通" >全国旅游网上投诉平台5月开通</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
              
 </ul>
 </div>
@@ -492,10 +493,10 @@ function check()
 <div id="dt_04" class="hidden">
 <span class="mp"><a href="/zxzx/qyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a  href="/zxzx/qyxx/listinfo-32011.html"  title="2015全球移动互联网大会揭幕 科技应用抢了"大腕"风头" >2015全球移动互联网大会揭幕 科技应用抢了"大腕"风头</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/qyxx/listinfo-32006.html"  title="国内首家互联网金融风控实验室成立" >国内首家互联网金融风控实验室成立</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/qyxx/listinfo-32001.html"  title="青海全力做好宽带青海信息消费统计工作" >青海全力做好宽带青海信息消费统计工作</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/qyxx/listinfo-31977.html"  title="全国首家互联网金融行业服务平台在中关村成立" >全国首家互联网金融行业服务平台在中关村成立</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+        <li><a  href="/zxzx/qyxx/listinfo-32082.html"  title="国家能源互联网行动计划望年内出台" >国家能源互联网行动计划望年内出台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/qyxx/listinfo-32081.html"  title="科技部力推制造业信息化工程" >科技部力推制造业信息化工程</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/qyxx/listinfo-32080.html"  title="跨境电商迎来密集扶持政策" >跨境电商迎来密集扶持政策</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/qyxx/listinfo-32078.html"  title="“互联网+流通”计划将出 农村电商最受益" >“互联网+流通”计划将出 农村电商最受益</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
                    
 </ul>
 </div>
@@ -503,10 +504,10 @@ function check()
 <div id="dt_05" class="hidden">
 <span class="mp"><a href="/zxzx/gzwm/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a  href="/zxzx/gzwm/listinfo-32016.html"  title="" >中国网民表情 “呲牙”使用频率最高</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/gzwm/listinfo-32013.html"  title="" >调查称北京70%大学生每天上网超2小时</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/gzwm/listinfo-32003.html"  title="" >美调查称1/3幼童尚未学步已接触手机或平板电脑</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/gzwm/listinfo-31964.html"  title="" >超六成成人手机阅读微信 人均每天读微信超40分钟</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+        <li><a  href="/zxzx/gzwm/listinfo-32067.html"  title="" >学生群体占网民总数近三成 高校成移动互联网必争之地</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/gzwm/listinfo-32030.html"  title="" >亚洲WiFi用户最易受攻击 专家提醒警惕免费WiFi</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/gzwm/listinfo-32016.html"  title="" >中国网民表情 “呲牙”使用频率最高</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/gzwm/listinfo-32013.html"  title="" >调查称北京70%大学生每天上网超2小时</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
        
 </ul>
 </div>  
@@ -526,10 +527,10 @@ function check()
 <div id="hy_01" >
 <span class="mp"><a href="/zxzx/hyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a  href="/zxzx/hyxx/listinfo-32015.html"  title="北京网安联手腾讯启动“金盾守卫计划”"  >北京网安联手腾讯启动“金盾守卫计划”</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-32010.html"  title="第6届金鼠标奖项揭晓：搜狗斩获营销案例金奖"  >第6届金鼠标奖项揭晓：搜狗斩获营销案例金奖</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-31998.html"  title="旅游大省云南牵手阿里云 开发旅游大数据"  >旅游大省云南牵手阿里云 开发旅游大数据</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-31997.html"  title="百度资助国际救援组织赴尼泊尔救灾"  >百度资助国际救援组织赴尼泊尔救灾</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32079.html"  title="腾讯6亿元投资安全公司知道创宇"  >腾讯6亿元投资安全公司知道创宇</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32077.html"  title="网宿扩大海外版图 与中东运营商Etisalat达成合作"  >网宿扩大海外版图 与中东运营商Etisalat达成合作</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32076.html"  title="福建省政府与阿里巴巴集团签署战略合作协议"  >福建省政府与阿里巴巴集团签署战略合作协议</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32074.html"  title="中国反骚扰反欺诈联盟移动支付安全峰会即将召开"  >中国反骚扰反欺诈联盟移动支付安全峰会即将召开</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
  
 </ul>
 </div>
@@ -540,19 +541,19 @@ function check()
 
     <li>
       
-    <a  href="/zxzx/gzwyh/listinfo-31058.html" title="中国互联网协会中小企业服务工作委员会首批成员单位名单" >中国互联网协会中小企业服务工作委员会首批成员单位名单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>            
+    <a  href="/zxzx/gzwyh/listinfo-32036.html" title="中国互联网协会互联网法治工作委员会领导成员名单" >中国互联网协会互联网法治工作委员会领导成员名单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>            
 
     <li>
       
-    <a  href="/zxzx/gzwyh/listinfo-31056.html" title="中国互联网协会中小企业服务工作委员会领导成员名单" >中国互联网协会中小企业服务工作委员会领导成员名单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>            
+    <a  href="/zxzx/gzwyh/listinfo-32035.html" title="中国互联网协会互联网法治工作委员会工作规则（草案）" >中国互联网协会互联网法治工作委员会工作规则（草案）</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>            
 
     <li>
       
-    <a  href="/zxzx/gzwyh/listinfo-31054.html" title="中国互联网协会中小企业服务工作委员会 第一届领导机构选举办法（草案）" >中国互联网协会中小企业服务工作委员会 第一届领导机构选举办法</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>            
+    <a  href="/zxzx/gzwyh/listinfo-32034.html" title="中国互联网协会互联网法治工作委员会首批成员单位名单" >中国互联网协会互联网法治工作委员会首批成员单位名单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>            
 
     <li>
       
-    <a  href="/zxzx/gzwyh/listinfo-31053.html" title="中国互联网协会中小企业服务工作委员会工作规则（草案）" >中国互联网协会中小企业服务工作委员会工作规则（草案）</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>            
+    <a  href="/zxzx/gzwyh/listinfo-32033.html" title="中国互联网协会互联网法治工作委员会成立大会暨法治论坛在京召开" >中国互联网协会互联网法治工作委员会成立大会暨法治论坛在京召开</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>            
            
 </ul>
 </div>
@@ -580,11 +581,11 @@ function check()
 <div class="bor pad10 not_list">
    <div id="not1">   
     <ul id="notice1"> 
-                <li> <a  class="st" id="re" href="/wzgg/listinfo-31855.html"  title="“金网奖”案例征集启事" >•“金网奖”案例征集启事</a></li>           
+                <li> <a  class="st" id="re" href="/wzgg/listinfo-32062.html"  title="第十七期全国互联网信息服务与新闻编辑业务培训班学员名单" >•第十七期全国互联网信息服务与新闻编辑业务培训班学员名单</a></li>           
+                <li> <a  class="st" id="be" href="/wzgg/listinfo-31855.html"  title="“金网奖”案例征集启事" >•“金网奖”案例征集启事</a></li>           
                 <li> <a  class="st" id="re" href="/wzgg/listinfo-31847.html"  title="关于开展2015中国互联网100强评价工作的通知" >•关于开展2015中国互联网100强评价工作的通知</a></li>           
                 <li> <a  class="st" id="re" href="/wzgg/listinfo-31745.html"  title="2015（第十四届）中国互联网大会将于7月21日-23日在北京举行" >•2015（第十四届）中国互联网大会将于7月21日-23日在北京举行</a></li>           
                 <li> <a  class="st" id="be" href="/wzgg/listinfo-30802.html"  title="《中国互联网发展报告》（2014）征订通知" >•《中国互联网发展报告》（2014）征订通知</a></li>           
-                <li> <a  class="st" id="be" href="/wzgg/listinfo-30376.html"  title="2014中国互联网协会互联网公益日捐款用途公示" >•2014中国互联网协会互联网公益日捐款用途公示</a></li>           
              
     </ul>
    <ul id="notice2"></ul>   
@@ -678,14 +679,14 @@ function checkEmail()
     </div>
     <div class="ft_right">
         <ul class="newslist" style='height:170px;'>
-                            <li><span>【发言】</span><a  href="/ftfy/fy/listinfo-32009.html"  title="高新民：移动互联网让互联网进入新阶段"  style="display:-moz-stack; width:170px; overflow:hidden;"  >高新民：移动互联网让互联网进入新阶段</a> <span style="margin-left: 1px;"><img src="images/02270433.gif"></span>  </li>                
+                            <li><span>【访谈】</span><a  href="/ftfy/ft/listinfo-32071.html"  title="卢卫秘书长：多元化 智能化——传媒业转型发展的新态势" >卢卫秘书长：多元化 智能化——传媒业转型发展的新态势</a></li>                
+                            <li><span>【发言】</span><a  href="/ftfy/fy/listinfo-32009.html"  title="高新民：移动互联网让互联网进入新阶段" >高新民：移动互联网让互联网进入新阶段</a></li>                
                             <li><span>【发言】</span><a  href="/ftfy/fy/listinfo-31974.html"  title="高新民副理事长：中国信息化已经进入融合发展阶段" >高新民副理事长：中国信息化已经进入融合发展阶段</a></li>                
                             <li><span>【发言】</span><a  href="/ftfy/fy/listinfo-31959.html"  title="卢卫秘书长：互联网金融迎来发展春天" >卢卫秘书长：互联网金融迎来发展春天</a></li>                
                             <li><span>【发言】</span><a  href="/ftfy/fy/listinfo-31958.html"  title="卢卫秘书长：互联网+，传媒转型与融合" >卢卫秘书长：互联网+，传媒转型与融合</a></li>                
                             <li><span>【发言】</span><a  href="/ftfy/fy/listinfo-31907.html"  title="卢卫：传媒转型首先要把产品做好" >卢卫：传媒转型首先要把产品做好</a></li>                
                             <li><span>【访谈】</span><a  href="http://news.cntv.cn/special/gdft/xzfwhq/index.shtml"   title="央视网：专访邬贺铨理事长" >央视网：专访邬贺铨理事长</a></li>                
                             <li><span>【访谈】</span><a  href="/ftfy/ft/listinfo-30928.html"  title="《中国能源报》专访卢卫秘书长：能源互联网是大势所趋" >《中国能源报》专访卢卫秘书长：能源互联网是大势所趋</a></li>                
-                            <li><span>【发言】</span><a  href="/ftfy/fy/listinfo-31254.html"  title="邬贺铨：产业互联网助中国跨越发展" >邬贺铨：产业互联网助中国跨越发展</a></li>                
                   
         </ul>
     </div>

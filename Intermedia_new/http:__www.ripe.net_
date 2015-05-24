@@ -491,7 +491,7 @@
                                         <a href="https://www.ripe.net/participate/ripe/raci">RIPE Academic Cooperation Initiative (RACI)</a>
                                     </li>
                                     <li>
-                                        <a href="https://www.ripe.net/participate/ripe/ripe-deputy-chair">RIPE Chair</a>
+                                        <a href="https://www.ripe.net/participate/ripe/ripe-chair">RIPE Chair</a>
                                     </li>
                                 </ul>
                             </div>
@@ -819,13 +819,19 @@
                                 <a class="h6" href="https://www.ripe.net/about-us/legal">Legal</a>
                                 <ul>
                                     <li>
-                                        <a href="https://www.ripe.net/about-us/legal/arbitration">Conflict Arbitration Procedure</a>
+                                        <a href="https://www.ripe.net/about-us/legal/corporate-governance-documents">Corporate Governance</a>
                                     </li>
                                     <li>
-                                        <a href="https://www.ripe.net/about-us/legal/copyright-statement">Copyright Statement</a>
+                                        <a href="https://www.ripe.net/about-us/legal/internet-number-resources">Internet Number Resources</a>
                                     </li>
                                     <li>
-                                        <a href="https://www.ripe.net/about-us/legal/ripe-ncc-listing-service-terms-and-conditions">RIPE NCC Listing Service Terms and Conditions</a>
+                                        <a href="https://www.ripe.net/about-us/legal/arbitration-1">Arbitration</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.ripe.net/about-us/legal/other-ripe-ncc-services-documents">Other RIPE NCC Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.ripe.net/about-us/legal/information-for-law-enforcement-agencies">Information for Law Enforcement Agencies</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1046,7 +1052,7 @@
 </div>
 <div id="sectione137fb48-b97c-417d-9a6b-2868a86761c9" class="row masonry collections white-bg box-shadow clearfix">
 <div id="block-7ec65837-420c-48f6-bfe3-e420e6d74717" class="padding grey-border landing-box collection">
-<div id="item2a342a199519eed2e29290b87c8027ac" class="tab-pane fade in desc_False date_True title_True">
+<div id="item5f36f34b7ab3dd107ba7f53c5be6af8f" class="tab-pane fade in desc_False date_True title_True">
 <div class="block_item">
 <div class="header">
 <a class="h5" href="/resolveuid/656fc10c1727accea30d6a37001130b9">News and Announcements</a>
@@ -1055,26 +1061,26 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
+<span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date: 12 May 2015</span>
+</span>
+</a>
+</li>
+<li>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ripe-ncc-announces-train-the-trainer-initiative-in-partnership-with-citc-in-kingdom-of-saudi-arabia">
+<span class="Title">RIPE NCC Announces "Train the Trainer" Initiative in Partnership with CITC in Kingdom of Saudi Arabia</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date: 06 May 2015</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/uae-tra-centre-of-innovation-organises-train-the-trainer-initiative-in-cooperation-with-the-ripe-ncc">
 <span class="Title">UAE TRA Centre of Innovation Organises "Train the Trainer" Initiative in Cooperation with the RIPE NCC</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date: 29 Apr 2015</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
-<span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date: 28 Apr 2015</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/publications/news/announcements/ripe-ncc-involvement-at-see-4">
-<span class="Title">RIPE NCC Involvement at SEE 4</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date: 23 Apr 2015</span>
 </span>
 </a>
 </li>
@@ -1104,24 +1110,6 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
-<a href="https://www.ripe.net/participate/meetings/calendar/ripe-70">
-<span class="Title">RIPE 70 Amsterdam</span>
-<span class="item-details">
-<span class="date nobreak byline_date">11 May 2015 - 15 May 2015</span>
-<span class="location nobreak">Amsterdam, the Netherlands</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/participate/meetings/calendar/ripe-ncc-general-meeting-1">
-<span class="Title">RIPE NCC General Meeting May 2015</span>
-<span class="item-details">
-<span class="date nobreak byline_date">13 May 2015 - 15 May 2015</span>
-<span class="location nobreak">Amsterdam, Netherlands</span>
-</span>
-</a>
-</li>
-<li>
 <a href="https://www.ripe.net/participate/meetings/calendar/ripe-ncc-regional-meeting-tbilisi">
 <span class="Title">RIPE NCC Regional Meeting Tbilisi</span>
 <span class="item-details">
@@ -1136,6 +1124,24 @@
 <span class="item-details">
 <span class="date nobreak byline_date">08 Jun 2015 - 10 Jun 2015</span>
 <span class="location nobreak">Kazan, Russia</span>
+</span>
+</a>
+</li>
+<li>
+<a href="https://www.ripe.net/participate/meetings/calendar/ripe-ncc-regional-meeting-yerevan">
+<span class="Title">RIPE NCC Regional Meeting Yerevan</span>
+<span class="item-details">
+<span class="date nobreak byline_date">15 Sep 2015 - 16 Sep 2015</span>
+<span class="location nobreak">Yerevan, Armenia</span>
+</span>
+</a>
+</li>
+<li>
+<a href="https://www.ripe.net/participate/meetings/calendar/enog-10">
+<span class="Title">ENOG 10 / RIPE NCC Regional Meeting</span>
+<span class="item-details">
+<span class="date nobreak byline_date">12 Oct 2015 - 14 Oct 2015</span>
+<span class="location nobreak">TBC</span>
 </span>
 </a>
 </li>
@@ -1201,31 +1207,31 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
-<a href="https://labs.ripe.net/Members/emileaben/measuring-countries-and-ixps-in-the-see-region" rel="nofollow">
-<span class="Title">Measuring Countries and IXPs in the SEE Region</span>
+<a href="https://labs.ripe.net/Members/kistel/the-ams-ix-outage-as-seen-with-ripe-atlas" rel="nofollow">
+<span class="Title">The AMS-IX Outage as Seen with RIPE Atlas</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>24 Apr 2015</span>
+                              <span>14 May 2015</span>
 </span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://labs.ripe.net/Members/romeo_zwart/k-root-expansion-plan" rel="nofollow">
-<span class="Title">K-root Expansion Plan</span>
+<a href="https://labs.ripe.net/Members/yasuhiro_ohara/bgpdump2" rel="nofollow">
+<span class="Title">BGPdump2: A Tool to Read and Compare the BGP RIB Dump Files</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>23 Apr 2015</span>
+                              <span>12 May 2015</span>
 </span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://labs.ripe.net/Members/marco_schmidt/website_redesign_simplifies_policy_proposal_discussions" rel="nofollow">
-<span class="Title">Website Redesign Simplifies Policy Proposal Discussions</span>
+<a href="https://labs.ripe.net/Members/fanou_roderick/on-the-diversity-of-interdomain-routing-in-africa" rel="nofollow">
+<span class="Title">On the Diversity of Interdomain Routing in Africa</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>22 Apr 2015</span>
+                              <span>08 May 2015</span>
 </span>
 </span>
 </a>
@@ -1284,8 +1290,8 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
-<a href="https://www.nro.net/news/mr-janvier-ngnoulaye-appointed-on-the-crisp-team" rel="nofollow">
-<span class="Title">Mr Janvier Ngnoulaye Appointed on the CRISP Team</span>
+<a href="https://www.nro.net/news/nro-statement-on-the-internet-coordination-meeting-in-london-uk-may-2015" rel="nofollow">
+<span class="Title">NRO Statement on the Internet Coordination Meeting in London UK, May 2015</span>
 </a>
 </li>
 </ul>

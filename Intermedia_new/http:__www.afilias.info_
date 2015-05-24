@@ -14,46 +14,46 @@
 <link rel="canonical" href="http://www.afilias.info" />
 <meta name="revisit-after" content="1 day" />
 <meta name="robots" content="noodp, noydir" />
-        <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/ctools/css/ctools.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/nice_menus/nice_menus.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/nice_menus/nice_menus_default.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/logintoboggan/logintoboggan.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/calendar/calendar.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/views/css/views.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/afilias_base/afilias_base.css?F" />
-<link type="text/css" rel="stylesheet" media="screen" href="/sites/all/themes/afilias_base/css/blueprint/screen.css?F" />
-<link type="text/css" rel="stylesheet" media="screen" href="/sites/afilias.info/themes/afilias.info.2014/css/afilias.2014.css?F" />
-<link type="text/css" rel="stylesheet" media="screen" href="/sites/afilias.info/themes/afilias.info.2014/css/responsivetables.css?F" />
-<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/afilias_base/css/blueprint/print.css?F" />
-        <script type="text/javascript" src="/misc/jquery.js?F"></script>
-<script type="text/javascript" src="/misc/drupal.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/superfish.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/jquery.bgiframe.min.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/nice_menus.js?F"></script>
-<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?F"></script>
-<script type="text/javascript" src="/sites/all/modules/views_slideshow/js/jquery.cycle.all.min.js?F"></script>
-<script type="text/javascript" src="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/inewsticker.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/modernizr.min.custom.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/default.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/responsivetables.js?F"></script>
+        <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/ctools/css/ctools.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/nice_menus/nice_menus.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/nice_menus/nice_menus_default.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/logintoboggan/logintoboggan.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/calendar/calendar.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/views/css/views.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/afilias_base/afilias_base.css?P" />
+<link type="text/css" rel="stylesheet" media="screen" href="/sites/all/themes/afilias_base/css/blueprint/screen.css?P" />
+<link type="text/css" rel="stylesheet" media="screen" href="/sites/afilias.info/themes/afilias.info.2014/css/afilias.2014.css?P" />
+<link type="text/css" rel="stylesheet" media="screen" href="/sites/afilias.info/themes/afilias.info.2014/css/responsivetables.css?P" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/afilias_base/css/blueprint/print.css?P" />
+        <script type="text/javascript" src="/misc/jquery.js?P"></script>
+<script type="text/javascript" src="/misc/drupal.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/superfish.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/jquery.bgiframe.min.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/nice_menus.js?P"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?P"></script>
+<script type="text/javascript" src="/sites/all/modules/views_slideshow/js/jquery.cycle.all.min.js?P"></script>
+<script type="text/javascript" src="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/inewsticker.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/modernizr.min.custom.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/default.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/responsivetables.js?P"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay": 800, "speed": 1 }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "viewsSlideshowSingleFrame": { "#views_slideshow_singleframe_main_slideshow-default": { "num_divs": 4, "id_prefix": "#views_slideshow_singleframe_main_", "div_prefix": "#views_slideshow_singleframe_div_", "vss_id": "slideshow-default", "timeout": "4000", "sort": 1, "effect": "fade", "speed": "700", "start_paused": 0, "delay": "0", "fixed_height": "1", "random": "0", "pause": "1", "pause_on_click": "0", "pause_when_hidden": 0, "pause_when_hidden_type": "full", "amount_allowed_visible": "", "remember_slide": 0, "remember_slide_days": "1", "controls": "0", "items_per_slide": "1", "pager": "2", "pager_type": "Numbered", "pager_hover": "2", "pager_click_to_page": 0, "image_count": "0", "nowrap": "0", "sync": "1", "advanced": "", "ie": { "cleartype": "true", "cleartypenobg": "false" } } } });
@@ -89,7 +89,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-Qgkp6IVJbYT-4St6eG5f_HX0ulqV074eHkZcVnWEaAs" value="form-Qgkp6IVJbYT-4St6eG5f_HX0ulqV074eHkZcVnWEaAs"  />
+<input type="hidden" name="form_build_id" id="form-4PJVropZfp61RGMe-9ObZmVC41LPGOdp5l2lZDMjUII" value="form-4PJVropZfp61RGMe-9ObZmVC41LPGOdp5l2lZDMjUII"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 
@@ -578,6 +578,11 @@ width: 16.2em!important;
 				</a>
 			</div>
 <div>
+				<a href="http://www.nic.sex/" class="gray-logo-hover" title="Dot Sex" target="_blank">
+					<img alt="dot Sex Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotSEX.jpg" title="dot Sex Logo" /><img alt="dot Sex Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotSEX1.jpg" title="dot Sex Logo" />
+				</a>
+			</div>
+<div>
 				<a href="http://www.nic.irish/" class="gray-logo-hover" title="Dot Irish" target="_blank">
 					<img alt="dot Irish Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotIRISH.jpg" title="dot Irish Logo" /><img alt="dot Irish Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotIRISH1.jpg" title="dot Irish Logo" />
 				</a>
@@ -750,20 +755,20 @@ div#content {display:none; visibility:hidden;}
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-title">
+                <span class="field-content"><a href="/news/2015/05/04/welcome-alabama%E2%80%99s-new-voter-web-address-wwwalabamavote">Welcome to Alabama’s New Voter Web Address: www.Alabama.vote</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">May 4, 2015</span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field-title">
                 <span class="field-content"><a href="/news/2015/04/27/new-and-memorable-web-addresses-launched-arizona-voters-wwwarizonavote-and-wwwarizon">New and Memorable Web Addresses Launched for Arizona Voters:  www.arizona.vote and www.arizona.voto</a></span>
   </div>
   
   <div class="views-field-created">
                 <span class="field-content">Apr 27, 2015</span>
-  </div>
-</li>
-          <li class="views-row views-row-2 views-row-even views-row-last">  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/2015/04/21/deal-yourself-poker-names-now-open-all">Deal Yourself In: .POKER Names Now Open to All</a></span>
-  </div>
-  
-  <div class="views-field-created">
-                <span class="field-content">Apr 21, 2015</span>
   </div>
 </li>
       </ul>
@@ -794,19 +799,6 @@ div#content {display:none; visibility:hidden;}
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-title">
-                <span class="field-content"><a href="/news/events/2015/05/02/inta-annual-meeting-2015">INTA Annual Meeting 2015</a></span>
-  </div>
-  
-  <div class="views-field-field-location-city-value">
-                <span class="field-content">San Diego, CA</span>
-  </div>
-  
-  <div class="views-field-field-date-value">
-                <span class="field-content"><span class="date-display-single">May 02, 2015</span></span>
-  </div>
-</li>
-          <li class="views-row views-row-2 views-row-even views-row-last">  
-  <div class="views-field-title">
                 <span class="field-content"><a href="/news/events/2015/05/18/lacnic-23">LACNIC 23</a></span>
   </div>
   
@@ -816,6 +808,19 @@ div#content {display:none; visibility:hidden;}
   
   <div class="views-field-field-date-value">
                 <span class="field-content"><span class="date-display-single">May 18, 2015</span></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/events/2015/06/21/icann-53-buenos-aires">ICANN 53 - Buenos Aires</a></span>
+  </div>
+  
+  <div class="views-field-field-location-city-value">
+                <span class="field-content">Buenos Aires, Argentina</span>
+  </div>
+  
+  <div class="views-field-field-date-value">
+                <span class="field-content"><span class="date-display-single">Jun 21, 2015</span></span>
   </div>
 </li>
       </ul>
