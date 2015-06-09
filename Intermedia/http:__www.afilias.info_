@@ -14,46 +14,46 @@
 <link rel="canonical" href="http://www.afilias.info" />
 <meta name="revisit-after" content="1 day" />
 <meta name="robots" content="noodp, noydir" />
-        <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/ctools/css/ctools.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/nice_menus/nice_menus.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/nice_menus/nice_menus_default.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/logintoboggan/logintoboggan.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/calendar/calendar.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/views/css/views.css?F" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/afilias_base/afilias_base.css?F" />
-<link type="text/css" rel="stylesheet" media="screen" href="/sites/all/themes/afilias_base/css/blueprint/screen.css?F" />
-<link type="text/css" rel="stylesheet" media="screen" href="/sites/afilias.info/themes/afilias.info.2014/css/afilias.2014.css?F" />
-<link type="text/css" rel="stylesheet" media="screen" href="/sites/afilias.info/themes/afilias.info.2014/css/responsivetables.css?F" />
-<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/afilias_base/css/blueprint/print.css?F" />
-        <script type="text/javascript" src="/misc/jquery.js?F"></script>
-<script type="text/javascript" src="/misc/drupal.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/superfish.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/jquery.bgiframe.min.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/nice_menus.js?F"></script>
-<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?F"></script>
-<script type="text/javascript" src="/sites/all/modules/views_slideshow/js/jquery.cycle.all.min.js?F"></script>
-<script type="text/javascript" src="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/inewsticker.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/modernizr.min.custom.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/default.js?F"></script>
-<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/responsivetables.js?F"></script>
+        <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/ctools/css/ctools.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/nice_menus/nice_menus.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/nice_menus/nice_menus_default.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/logintoboggan/logintoboggan.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/calendar/calendar.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/views/css/views.css?P" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/afilias_base/afilias_base.css?P" />
+<link type="text/css" rel="stylesheet" media="screen" href="/sites/all/themes/afilias_base/css/blueprint/screen.css?P" />
+<link type="text/css" rel="stylesheet" media="screen" href="/sites/afilias.info/themes/afilias.info.2014/css/afilias.2014.css?P" />
+<link type="text/css" rel="stylesheet" media="screen" href="/sites/afilias.info/themes/afilias.info.2014/css/responsivetables.css?P" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/afilias_base/css/blueprint/print.css?P" />
+        <script type="text/javascript" src="/misc/jquery.js?P"></script>
+<script type="text/javascript" src="/misc/drupal.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/superfish.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/jquery.bgiframe.min.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/nice_menus.js?P"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?P"></script>
+<script type="text/javascript" src="/sites/all/modules/views_slideshow/js/jquery.cycle.all.min.js?P"></script>
+<script type="text/javascript" src="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/inewsticker.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/modernizr.min.custom.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/default.js?P"></script>
+<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/responsivetables.js?P"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay": 800, "speed": 1 }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "viewsSlideshowSingleFrame": { "#views_slideshow_singleframe_main_slideshow-default": { "num_divs": 4, "id_prefix": "#views_slideshow_singleframe_main_", "div_prefix": "#views_slideshow_singleframe_div_", "vss_id": "slideshow-default", "timeout": "4000", "sort": 1, "effect": "fade", "speed": "700", "start_paused": 0, "delay": "0", "fixed_height": "1", "random": "0", "pause": "1", "pause_on_click": "0", "pause_when_hidden": 0, "pause_when_hidden_type": "full", "amount_allowed_visible": "", "remember_slide": 0, "remember_slide_days": "1", "controls": "0", "items_per_slide": "1", "pager": "2", "pager_type": "Numbered", "pager_hover": "2", "pager_click_to_page": 0, "image_count": "0", "nowrap": "0", "sync": "1", "advanced": "", "ie": { "cleartype": "true", "cleartypenobg": "false" } } } });
@@ -89,7 +89,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-tm01vOdSmvPQVvTpu3ozlYbyyIj0j9xkBK18cqrqpMk" value="form-tm01vOdSmvPQVvTpu3ozlYbyyIj0j9xkBK18cqrqpMk"  />
+<input type="hidden" name="form_build_id" id="form-6-24ZjJUWHQvkjr5fpRq4OOeg7q1Zm2KiXopO0tNrfY" value="form-6-24ZjJUWHQvkjr5fpRq4OOeg7q1Zm2KiXopO0tNrfY"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 
@@ -578,6 +578,11 @@ width: 16.2em!important;
 				</a>
 			</div>
 <div>
+				<a href="http://www.nic.sex/" class="gray-logo-hover" title="Dot Sex" target="_blank">
+					<img alt="dot Sex Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotSEX.jpg" title="dot Sex Logo" /><img alt="dot Sex Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotSEX1.jpg" title="dot Sex Logo" />
+				</a>
+			</div>
+<div>
 				<a href="http://www.nic.irish/" class="gray-logo-hover" title="Dot Irish" target="_blank">
 					<img alt="dot Irish Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotIRISH.jpg" title="dot Irish Logo" /><img alt="dot Irish Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotIRISH1.jpg" title="dot Irish Logo" />
 				</a>
@@ -696,20 +701,20 @@ div#content {display:none; visibility:hidden;}
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-title">
+                <span class="field-content"><a href="/blogs/ram-mohan/internet-things-solving-security-challenges-fringe-core">The Internet of Things: Solving Security Challenges from the Fringe to the Core</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">Jun 02, 2015</span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field-title">
                 <span class="field-content"><a href="/blogs/roland-laplante/afilias-releases-160000-names-across-8-new-tlds">Afilias Releases 160,000+ Names across 8 New TLDs</a></span>
   </div>
   
   <div class="views-field-created">
                 <span class="field-content">Apr 21, 2015</span>
-  </div>
-</li>
-          <li class="views-row views-row-2 views-row-even views-row-last">  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/blogs/roland-laplante/2014%E5%B9%B4%E7%AC%AC%E5%9B%9B%E5%AD%A3%E5%BA%A6%EF%BC%9Aafilias%E6%8A%A2%E6%BB%A9%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA%EF%BC%81">2014年第四季度：Afilias抢滩中国市场！</a></span>
-  </div>
-  
-  <div class="views-field-created">
-                <span class="field-content">Jan 27, 2015</span>
   </div>
 </li>
       </ul>
@@ -731,9 +736,9 @@ div#content {display:none; visibility:hidden;}
   <h2>In the News</h2>
 
   <div class="content">
-    <div class="item-list"><ul><li class="first"><a href="http://blog.europeandomaincentre.com/understanding-the-value-of-poker-domain-names-interview-with-afilias-and-danske-spil/">Understanding the value of .POKER domain names – Interview with Afilias and Danske Spil</a>
+    <div class="item-list"><ul><li class="first"><a href="http://www.itproportal.com/2015/05/28/new-report-reveals-deep-insights-into-our-smartphone-preferences/">New report reveals deep insights into our smartphone preferences</a>
 </li>
-<li class="last"><a href="http://www.washingtonpost.com/news/the-intersect/wp/2015/03/25/from-tedcruz-ca-to-taylorswift-porn-how-the-golden-age-of-domain-trolling-was-born/">From TedCruz.ca to TaylorSwift.porn: How the golden age of domain-trolling was born - The Washington Post</a>
+<li class="last"><a href="http://www.bettingpro.com/category/poker/dot-poker-url-20150422-00247/">New branding opportunities as dot.poker URL extension goes on sale</a>
 </li>
 </ul></div><div class="more-link"><a href="/news/media-coverage" title="View this feed&#039;s recent news.">more</a></div>  </div>
 </div>
@@ -794,19 +799,6 @@ div#content {display:none; visibility:hidden;}
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-title">
-                <span class="field-content"><a href="/news/events/2015/05/18/lacnic-23">LACNIC 23</a></span>
-  </div>
-  
-  <div class="views-field-field-location-city-value">
-                <span class="field-content">Lima, Peru</span>
-  </div>
-  
-  <div class="views-field-field-date-value">
-                <span class="field-content"><span class="date-display-single">May 18, 2015</span></span>
-  </div>
-</li>
-          <li class="views-row views-row-2 views-row-even views-row-last">  
-  <div class="views-field-title">
                 <span class="field-content"><a href="/news/events/2015/06/21/icann-53-buenos-aires">ICANN 53 - Buenos Aires</a></span>
   </div>
   
@@ -816,6 +808,19 @@ div#content {display:none; visibility:hidden;}
   
   <div class="views-field-field-date-value">
                 <span class="field-content"><span class="date-display-single">Jun 21, 2015</span></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/events/2015/07/27/hostingcon-2015">HostingCon 2015</a></span>
+  </div>
+  
+  <div class="views-field-field-location-city-value">
+                <span class="field-content">San Diego, CA</span>
+  </div>
+  
+  <div class="views-field-field-date-value">
+                <span class="field-content"><span class="date-display-single">Jul 27, 2015</span></span>
   </div>
 </li>
       </ul>

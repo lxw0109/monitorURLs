@@ -291,7 +291,7 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
       <!--Begin Top Left Tools-->
             <div id="topleft-mod">
         		<div class="moduletable">
-					Your  IP address is 218.241.108.74		</div>
+					Your  IP address is 218.241.104.79		</div>
 	
       </div>
             <!--End Top Left Tools-->
@@ -662,20 +662,30 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 		
 </li>	
 							
-					<li class="item176" >
-			<a class="orphan item bullet" href="/en/community/email-a-mailing-lists"  >
+					<li class="item569" >
+			<a class="orphan item bullet" href="/en/community/bod-candidate-2015"  >
 			<span>
-		    			Email &amp; mailing lists			   
+		    			BoD Candidate			   
 			</span>
 		</a>
 		
 		
 </li>	
 							
-					<li class="item569" >
-			<a class="orphan item bullet" href="/en/community/bod-candidate-2015"  >
+					<li class="item593" >
+			<a class="orphan item bullet" href="/en/community/pdwg-co-chair-election-2015"  >
 			<span>
-		    			BoD Candidate 2015			   
+		    			PDWG-CC Candidates			   
+			</span>
+		</a>
+		
+		
+</li>	
+							
+					<li class="item176" >
+			<a class="orphan item bullet" href="/en/community/email-a-mailing-lists"  >
+			<span>
+		    			Email &amp; mailing lists			   
 			</span>
 		</a>
 		
@@ -1188,24 +1198,16 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
         <div id="slider-container326" class="slider-container">
         	<ul id="slider326">
           		          			<li>
+            										<a  href="http://afrinic.net/en/library/news/1415-afrinic-annual-audit-report-and-financial-statements-on-2014" target="_blank">
+													<img src="/images/stories/financeslide-01.png" alt="AFRINIC Annual Audit Report and Financial Statements on 2014" />
+													</a>
+												
+												
+						
+					</li>
+                          			<li>
             										<a  href="https://apps.afrinic.net/nmrp/" target="_blank">
 													<img src="/images/stories/nmrp_banner.jpg" alt="NMRP Banner" />
-													</a>
-												
-												
-						
-					</li>
-                          			<li>
-            										<a  href="/en/library/news/1343" target="_self">
-													<img src="/images/stories/sl_registration_ais15_open.jpg" alt="Registration for AIS'15 is Open" />
-													</a>
-												
-												
-						
-					</li>
-                          			<li>
-            										<a  href="http://www.fireafrica.org/awards" target="_blank">
-													<img src="/images/stories/sl_fire_feb2.jpg" alt="FIRE Programme 2015 - submit your project" />
 													</a>
 												
 												
@@ -1221,7 +1223,6 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
         </div>
 		<div id="cust-navigation326" class="navigation-container-custom">
 							<span class="load-button load-button-active"></span>
-							<span class="load-button"></span>
 							<span class="load-button"></span>
 			        </div>
     </div>
@@ -1290,15 +1291,17 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <div id="qaccordion1" class="qaccordion">
      	 <h3 class="acc-header">Latest News</h3>
   	 <div class="acc-content">
-      <p>14 May 2015</p>
-<p><a href="/en/library/news/1381-afbc-2015">Call for Public Comments on AFRINIC Board Candidates</a></p>
-<p>9 May 2015</p>
-<p><a href="/en/library/news/1361-board-statement-on-iana-transition">Board Statement on IANA Transition</a></p>
+      <p>5 June 2015</p>
+<p><a href="/en/library/news/1419-pdwg-new-co-chairs-selected">PDWG - New Co-Chairs selected</a></p>
+<p>5 June 2015</p>
+<p><a href="/en/library/news/1417-afrinic-board-elections-2015">AFRINIC Elects New Board Members</a></p>
+<p>3 June 2015</p>
+<p><a href="/en/library/news/1415-afrinic-annual-audit-report-and-financial-statements-on-2014">AFRINIC Annual Audit Report 2014</a></p>
 <hr />
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt55554626347b8rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt55769aca78d67rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1312,8 +1315,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt55554626347b8"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt55554626347b8rssscroller_module", options);
+					instanceId : "pgt55769aca78d67"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt55769aca78d67rssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);
@@ -1414,50 +1417,50 @@ google.setOnLoadCallback(loadFeedControl);
 			<div class="module-surround">
 				<div class="module-surround2"></div><div class="module-surround3"></div><div class="module-surround4"></div><div class="module-surround5"></div>
 								<p>&nbsp;</p>
-<table style="width: 100%;" align="center">
+<table style="width: 100%;">
 <tbody>
 <tr>
-<td colspan="6" align="left" valign="middle"><a href="#smap1"><img style="margin-right: 5px;" src="/images/stories/sitemap_32.png" alt="sitemap 32" width="18" height="18" /><span style="font-size: 10pt;">Sitemap</span></a></td>
-<td colspan="2" align="right" valign="middle"><a class="jcetooltip" title="Subscribe to AFRINIC RSS feeds" href="http://www.afrinic.net/index.php?option=com_mediarss&amp;feed_id=1&amp;format=raw" target="_blank"><img src="/images/stories/RSS_32.png" alt="AFRINIC RSS feeds" width="16" height="16" /></a>&nbsp;<a title="AFRINIC on LINKEDIN" href="http://www.linkedin.com/company/afrinic" target="_blank"><img src="/images/stories/linkedin.png" alt="linkedin" width="16" height="16" /></a>&nbsp;<a title="AFRINIC on TWITTER" href="https://twitter.com/AFRINIC" target="_blank"><img src="/images/stories/twitter_16.png" alt="twitter 16" width="16" height="16" /></a>&nbsp;<a title="AFRINIC on FACEBOOK" href="https://www.facebook.com/afrinic" target="_blank"><img src="/images/stories/Facebook_32.png" alt="Facebook 32" width="16" height="16" /></a>&nbsp;<a title="AFRINIC on FLICKR" href="http://www.flickr.com/photos/afrinic/" target="_blank"><img src="/images/stories/flickr.png" alt="flickr" width="16" height="16" border="0" /></a>&nbsp;<a title="AFRINIC on YOUTUBE" href="http://www.youtube.com/user/AfriNICMedia/" target="_blank"><img src="/images/stories/youtube.png" alt="youtube" width="16" height="16" /></a></td>
+<td style="vertical-align: top;" colspan="6"><a href="#smap1"><img style="margin-right: 5px;" alt="sitemap 32" src="/images/stories/sitemap_32.png" height="18" width="18" /><span style="font-size: 10pt;">Sitemap</span></a></td>
+<td style="vertical-align: top;" colspan="2"><a href="http://www.afrinic.net/index.php?option=com_mediarss&amp;feed_id=1&amp;format=raw" target="_blank" class="jcetooltip" title="Subscribe to AFRINIC RSS feeds"><img alt="AFRINIC RSS feeds" src="/images/stories/RSS_32.png" height="16" width="16" /></a>&nbsp;<a href="http://www.linkedin.com/company/afrinic" target="_blank" title="AFRINIC on LINKEDIN"><img alt="linkedin" src="/images/stories/linkedin.png" height="16" width="16" /></a>&nbsp;<a href="https://twitter.com/AFRINIC" target="_blank" title="AFRINIC on TWITTER"><img alt="twitter 16" src="/images/stories/twitter_16.png" height="16" width="16" /></a>&nbsp;<a href="https://www.facebook.com/afrinic" target="_blank" title="AFRINIC on FACEBOOK"><img alt="Facebook 32" src="/images/stories/Facebook_32.png" height="16" width="16" /></a>&nbsp;<a href="http://www.flickr.com/photos/afrinic/" target="_blank" title="AFRINIC on FLICKR"><img alt="flickr" src="/images/stories/flickr.png" height="16" width="16" /></a>&nbsp;<a href="http://www.youtube.com/user/AfriNICMedia/" target="_blank" title="AFRINIC on YOUTUBE"><img alt="youtube" src="/images/stories/youtube.png" height="16" width="16" /></a></td>
 </tr>
 <tr>
-<td colspan="8" align="left"></td>
+<td style="vertical-align: top;" colspan="8">&nbsp;</td>
 </tr>
 <tr>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
+<td style="vertical-align: top;">&nbsp;</td>
+<td style="vertical-align: top;">&nbsp;</td>
+<td style="vertical-align: top;">&nbsp;</td>
+<td style="vertical-align: top;">&nbsp;</td>
+<td style="vertical-align: top;">&nbsp;</td>
+<td style="vertical-align: top;">&nbsp;</td>
+<td style="vertical-align: top;">&nbsp;</td>
+<td style="vertical-align: top;">&nbsp;</td>
 </tr>
 <tr>
-<td align="left" width="14%"><span style="color: #ff6600;">About Us</span></td>
-<td align="left" width="14%"><span style="color: #ff6600;">Services</span></td>
-<td align="left" width="14%"><span style="color: #ff6600;">Community</span></td>
-<td align="left" width="14%"><span style="color: #ff6600;">Library</span></td>
-<td align="left" width="14%"><span style="color: #ff6600;">Initiatives</span></td>
-<td align="left" width="14%"><span style="color: #ff6600;">MyAFRINIC</span></td>
-<td align="left" width="14%"><span style="color: #ff6600;">FAQ</span></td>
-<td align="left" width="14%"><span style="color: #ff6600;">ICANN-ASWG</span></td>
+<td style="vertical-align: top;"><span style="color: #ff6600;">About Us</span></td>
+<td style="vertical-align: top;"><span style="color: #ff6600;">Services</span></td>
+<td style="vertical-align: top;"><span style="color: #ff6600;">Community</span></td>
+<td style="vertical-align: top;"><span style="color: #ff6600;">Library</span></td>
+<td style="vertical-align: top;"><span style="color: #ff6600;">Initiatives</span></td>
+<td style="vertical-align: top;"><span style="color: #ff6600;">MyAFRINIC</span></td>
+<td style="vertical-align: top;"><span style="color: #ff6600;">FAQ</span></td>
+<td style="vertical-align: top;"><span style="color: #ff6600;">ICANN-ASWG</span></td>
 </tr>
 <tr>
-<td colspan="8" align="center"><hr /></td>
+<td style="vertical-align: top;" colspan="8"><hr /></td>
 </tr>
 <tr>
-<td align="left" valign="top"><span style="font-size: 7pt;"><a href="/en/about-us/origins">Origins</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/about-us/our-structure">Structure</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/about-us/our-structure/bod">BoD</a></span><br /> <span style="font-size: 7pt;">–›<a href="/en/about-us/our-members">&nbsp;CoE</a></span><br /> <span style="font-size: 7pt;">–›<a href="/en/about-us/our-structure/our-team">&nbsp;Our Team</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/about-us/bylaws">Bylaws</a></span><br /><span style="font-size: 7pt;"><a href="/en/about-us/agmm">AGMM</a><br /></span> <span style="font-size: 7pt;"><a href="/en/about-us/our-members">Our Members</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/partners-support">Partners &amp; Support&nbsp;</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/career">Careers</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/branding">Branding</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/contact-us">Contact us<br /> </a><a href="/en/about-us/office-hours">Office hours<br /> </a></span></td>
-<td align="left" valign="top"><span style="font-size: 7pt;"><a href="/en/services/rs/121">Registration services</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/membership-eligibility">Membership eligibility</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/membership-types">Membership types</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/membership-fees">Membership fees</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/online-payment">Online Payment</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/rsa">RSA</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/services/whois-query?view=whois">Whois</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/statistics">Statistics</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/training">Training</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/virtual-lab">Virtual lab</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/ipv6-programme">IPv6 programme</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/ip-tools">IP utilities</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/peering">Peering</a></span><br /><span style="font-size: 7pt;"><a href="/en/services/bpki">BPKI</a></span> <span style="font-size: 7pt;"><br /><a href="/en/services/afrinic-irr">AFRINIC IRR</a><br /></span></td>
-<td align="left" valign="top"><span style="font-size: 7pt;"><a href="/en/community/afrinic-events">AFRINIC events</a></span><br /> <span style="font-size: 7pt;">–› <a href="http://www.afrinic.net/en/community/afrinic-events/events-calendar">Events calendar</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/sponsorship">Sponsorship</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/fellowship">Fellowship</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/presentation-guide">Presentation guides</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/events-archive">Events archive</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/official-visits">Official Visits</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/community/policy-development">Policy Developement.</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/policy-development/policy-support-guides">Policy support guides</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/policy-development/policy-proposals/89">Policy proposals</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/policy-development/pdwg">PDWG</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/community/elections">Elections.</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/bod-election">BOD election</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/pdwg-election">PDWG election</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/nro-aso-election">NRO-NC/ ASO-AC election</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/afrinic-nomcom">AFRINIC NomCom</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/voting">Voting</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/community/email-a-mailing-lists">Email &amp; Mailing Lists</a></span><br /> <br /> <span style="font-size: 7pt;"> <span style="font-size: 7pt;"><a href="/en/icann-aswg">ICANN-ASWG</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/icann-aswg/tor">TOR</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/888">Strategy Matrix</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/icann-aswg/swot-analysis">SWOT Analysis</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/icann-aswg/questionnaires">Questionnaires</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/proposed-timeline">Proposed Timeline</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/comments">Comments</a></span><br /> <br /><a href="/en/component/content/category/237">IANA Oversight</a></span><br /> <br /><span style="font-size: 7pt;"><a href="/en/community/ipv4-exhaustion">IPv4 Exhaustion</a></span><br /><span style="font-size: 7pt;"><br /><a href="/en/community/ig/intro/1031">Internet Governance</a><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/889">Technical Community</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/888">NRO and ASO</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/1039">IANA Globalisation</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/1035">IGF</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/893">AF*</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/1041">WCIT</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/1033">IG Stakeholders</a></span></span></td>
-<td align="left" valign="top"><span style="font-size: 7pt;"><a href="/en/library/news">News &amp; Publications</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/news/press">Press release</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/news/our-factsheets">Factsheets</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/library/policies">Policies</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/policies/current">Current</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/policy-development/policy-proposals/89">Proposals</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/policies/archive">Archive</a></span><br /> <br /> <span style="font-size: 7pt;">Documents</span><br /> <span style="font-size: 7pt;">–›<a href="/en/library/membership-documents/224"> Members support</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/corporate-documents">Corporate</a></span><br /> <span style="font-size: 7pt;">–›<a href="http://learn.afrinic.net/index.php/resources"> Training materials</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/library/cfc">Call for Comments</a></span></td>
-<td align="left" valign="top"><span style="font-size: 7pt;"><a href="/en/initiatives/resource-certification">Resource Certification</a></span><br /> <span style="font-size: 7pt;"><a href="/en/initiatives/dnssec">DNSSec</a></span><br /> <span style="font-size: 7pt;"><a href="/en/initiatives/root-server-copy" target="_self">Root Server Copy</a></span><br /> <span style="font-size: 7pt;"><a href="/en/initiatives/dns-support">DNS Support</a></span><span style="font-size: 7pt;"><br /> </span><span style="font-size: 7pt;"><a href="/en/initiatives/tinga-tinga">Ting'a Ting'a</a></span><span style="font-size: 7pt;"><br /> </span></td>
-<td align="left" valign="top"><span style="font-size: 7pt;"><a href="https://my.afrinic.net/help/faq#4">About</a></span><br /> <span style="font-size: 7pt;"><a href="https://my.afrinic.net/registration">Register</a></span><br /> <span style="font-size: 7pt;"><a href="https://my.afrinic.net/help/policies/">Terms &amp; Policies</a></span><br /> <span style="font-size: 7pt;"><a href="https://my.afrinic.net/login">Login</a></span></td>
-<td align="left" valign="top"><span style="font-size: 7pt;"><a href="/en/faqs/afrinic-members?view=faq&amp;catid=6">AFRINIC Members </a></span><br /> <span style="font-size: 7pt;"><a href="/en/faqs/billing?view=faq&amp;catid=1">Billing </a></span><br /> <span style="font-size: 7pt;"><a href="/en/faqs/general-queries?view=faq&amp;catid=3">General Queries </a></span><br /> <span style="font-size: 7pt;"><a href="/en/faqs/myafrinic?view=faq&amp;catid=4">MyAFRINIC<br /> </a></span><span style="font-size: 7pt;"><a href="/en/faqs/non-members?view=faq&amp;catid=5">Non Members<br /> </a></span><span style="font-size: 7pt;"><a href="/en/faqs/whois?view=faq&amp;catid=2">WHOIS<br /> </a></span></td>
-<td align="left" valign="top"><span style="font-size: 7pt;"><a href="/en/tor">Terms of Reference</a></span><br /> <span style="font-size: 7pt;"><a href="/en/strategy-matrix">Strategy Matrix</a></span><br /> <span style="font-size: 7pt;"><a href="/en/swot-analysis">SWOT Analysis</a></span><br /> <span style="font-size: 7pt;"><a href="/en/questionnaires">Questionnaires<br /> Assessment</a></span></td>
+<td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="/en/about-us/origins">Origins</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/about-us/our-structure">Structure</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/about-us/our-structure/bod">BoD</a></span><br /> <span style="font-size: 7pt;">–›<a href="/en/about-us/our-members">&nbsp;CoE</a></span><br /> <span style="font-size: 7pt;">–›<a href="/en/about-us/our-structure/our-team">&nbsp;Our Team</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/about-us/bylaws">Bylaws</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/agmm/1075">AGMM</a><br /> </span><span style="font-size: 7pt;"><a href="/en/about-us/our-members">Our Members</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/partners-support">Partners &amp; Support&nbsp;</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/career">Careers</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/branding">Branding</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/contact-us">Contact us<br /> </a><a href="/en/about-us/office-hours">Office hours<br /> </a></span></td>
+<td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="/en/services/rs/121">Registration services</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/membership-eligibility">Membership eligibility</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/membership-types">Membership types</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/membership-fees">Membership fees</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/online-payment">Online Payment</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/rsa">RSA</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/services/whois-query?view=whois">Whois</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/statistics">Statistics</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/training">Training</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/virtual-lab">Virtual lab</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/ipv6-programme">IPv6 programme</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/ip-tools">IP utilities</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/peering">Peering</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/bpki/916">BPKI</a></span><span style="font-size: 7pt;"><br /> <a href="/en/services/afrinic-irr">AFRINIC IRR</a><br /> </span></td>
+<td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="/en/community/afrinic-events">AFRINIC events</a></span><br /> <span style="font-size: 7pt;">–› <a href="http://www.afrinic.net/en/community/afrinic-events/events-calendar">Events calendar</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/sponsorship">Sponsorship</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/fellowship">Fellowship</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/presentation-guide">Presentation guides</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/events-archive">Events archive</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/official-visits">Official Visits</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/community/policy-development">Policy Developement.</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/policy-development/policy-support-guides">Policy support guides</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/policy-development/policy-proposals/89">Policy proposals</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/policy-development/pdwg">PDWG</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/community/elections">Elections.</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/bod-election">BOD election</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/pdwg-election">PDWG election</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/nro-aso-election">NRO-NC/ ASO-AC election</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/afrinic-nomcom">AFRINIC NomCom</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/voting">Voting</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/community/email-a-mailing-lists">BoD Candidates 2015</a></span><br /><br /> <span style="font-size: 7pt;"><a href="/en/community/email-a-mailing-lists">PDWG Co-Chair Candidates 2015</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/community/email-a-mailing-lists">Email &amp; Mailing Lists</a></span><br /> <span style="font-size: 7pt;"><br /> <a href="/en/component/content/category/237">IANA Oversight</a> </span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/community/ipv4-exhaustion">IPv4 Exhaustion</a></span><br /> <span style="font-size: 7pt;"><br /> <a href="/en/community/ig/intro/1031">Internet Governance</a><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/889">Technical Community</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/888">NRO and ASO</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/1039">IANA Globalisation</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/1035">IGF</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/893">AF*</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/1041">WCIT</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/1033">IG Stakeholders</a></span></span></td>
+<td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="/en/library/news">News &amp; Publications</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/news/press">Press release</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/news/our-factsheets">Factsheets</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/library/policies">Policies</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/policies/current">Current</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/policy-development/policy-proposals/89">Proposals</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/policies/archive">Archive</a></span><br /> <br /> <span style="font-size: 7pt;">Documents</span><br /> <span style="font-size: 7pt;">–›<a href="/en/library/membership-documents/224"> Members support</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/corporate-documents">Corporate</a></span><br /> <span style="font-size: 7pt;">–›<a href="http://learn.afrinic.net/index.php/resources"> Training materials</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/library/cfc">Call for Comments</a></span></td>
+<td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="/en/initiatives/resource-certification">Resource Certification</a></span><br /> <span style="font-size: 7pt;"><a href="/en/initiatives/dnssec">DNSSec</a></span><br /> <span style="font-size: 7pt;"><a href="/en/initiatives/root-server-copy" target="_self">Root Server Copy</a></span><br /> <span style="font-size: 7pt;"><a href="/en/initiatives/dns-support">DNS Support</a></span><span style="font-size: 7pt;"><br /> </span><span style="font-size: 7pt;"><a href="/en/initiatives/tinga-tinga">Ting'a Ting'a</a></span><span style="font-size: 7pt;"><br /> </span></td>
+<td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="https://my.afrinic.net/help/faq#4">About</a></span><br /> <span style="font-size: 7pt;"><a href="https://my.afrinic.net/registration">Register</a></span><br /> <span style="font-size: 7pt;"><a href="https://my.afrinic.net/help/policies/">Terms &amp; Policies</a></span><br /> <span style="font-size: 7pt;"><a href="https://my.afrinic.net/login">Login</a></span></td>
+<td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="/en/faqs/afrinic-members?view=faq&amp;catid=6">AFRINIC Members </a></span><br /> <span style="font-size: 7pt;"><a href="/en/faqs/billing?view=faq&amp;catid=1">Billing </a></span><br /> <span style="font-size: 7pt;"><a href="/en/faqs/general-queries?view=faq&amp;catid=3">General Queries </a></span><br /> <span style="font-size: 7pt;"><a href="/en/faqs/myafrinic?view=faq&amp;catid=4">MyAFRINIC<br /> </a></span><span style="font-size: 7pt;"><a href="/en/faqs/non-members?view=faq&amp;catid=5">Non Members<br /> </a></span><span style="font-size: 7pt;"><a href="/en/faqs/whois?view=faq&amp;catid=2">WHOIS<br /> </a></span></td>
+<td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="/en/tor">Terms of Reference</a></span><br /> <span style="font-size: 7pt;"><a href="/en/strategy-matrix">Strategy Matrix</a></span><br /> <span style="font-size: 7pt;"><a href="/en/swot-analysis">SWOT Analysis</a></span><br /> <span style="font-size: 7pt;"><a href="/en/questionnaires">Questionnaires<br /> Assessment</a></span></td>
 </tr>
 <tr>
-<td colspan="8" align="left" valign="top"></td>
+<td style="vertical-align: top;" colspan="8">&nbsp;</td>
 </tr>
 </tbody>
 </table>			</div>

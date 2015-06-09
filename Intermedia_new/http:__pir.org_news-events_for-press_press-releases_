@@ -63,6 +63,8 @@ img.emoji {
 <link rel='stylesheet' id='prettyphoto-css'  href='http://pir.org/wp-content/themes/nitro/assets/javascripts/prettyPhoto/css/prettyPhoto.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='Styles-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/styles.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='events-manager-css'  href='http://pir.org/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.55' type='text/css' media='all' />
+<link rel='stylesheet' id='et_monarch-open-sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='et_monarch-css-css'  href='http://pir.org/wp-content/plugins/monarch/css/style.css?ver=1.2' type='text/css' media='all' />
 <link rel='stylesheet' id='parent-style-css'  href='http://pir.org/wp-content/themes/nitro/style.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='child-style-css'  href='http://pir.org/wp-content/themes/pir/style.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='shiftnav-css'  href='http://pir.org/wp-content/plugins/shiftnav-pro/pro/assets/css/shiftnav.css?ver=1.2.1-beta-4' type='text/css' media='all' />
@@ -95,7 +97,9 @@ var EM = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","locationajaxur
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://pir.org/wp-includes/wlwmanifest.xml" /> 
 
 <link rel='shortlink' href='http://pir.org/?p=1693' />
-
+<style type="text/css" id="et-social-custom-css">
+				 
+			</style>
 	<!-- ShiftNav CSS 
 	================================================================ -->
 	<style type="text/css" id="shiftnav-dynamic-css">
@@ -160,7 +164,7 @@ wfscr.type = 'text/javascript';
 wfscr.async = true;
 wfscr.src = url + '&r=' + Math.random();
 (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-})('//pir.org/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=E5FBD9D628BBEFB420DB0113D85D109C');
+})('//pir.org/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=798842D180394C5766C694F71213DB9C');
 </script>		
 
 <!-- Etrigue Tracking Code -->
@@ -177,7 +181,7 @@ wfscr.src = url + '&r=' + Math.random();
 
 <!-- Start the Markup
 ================================================== -->
-<body class="page page-id-1693 page-child parent-pageid-1124 page-template page-template-template-PIRpress-2 page-template-template-PIRpress-2-php" >
+<body class="page page-id-1693 page-child parent-pageid-1124 page-template page-template-template-PIRpress-2 page-template-template-PIRpress-2-php et_monarch" >
 
 	
 	<!-- Top Hat -->
@@ -261,8 +265,8 @@ wfscr.src = url + '&r=' + Math.random();
 		<!-- CONTENT -->
 		<div class="sixteen columns content">
 			<div class="breadcrumbs">
-			    <!-- Breadcrumb NavXT 5.2.0 -->
-<a title="Go to Your Public Interest Registry." href="http://pir.org" class="home">Home</a> &#047; <a title="Go to News &amp; Events." href="http://pir.org/news-events/" class="post post-page">News &#038; Events</a> &#047; <a title="Go to For Press." href="http://pir.org/news-events/for-press/" class="post post-page">For Press</a> &#047; Press Releases			</div>
+			    <!-- Breadcrumb NavXT 5.2.1 -->
+<a title="Go to Your Public Interest Registry." href="http://pir.org" class="home">Home</a> &#047; <a title="Go to News &amp; Events." href="http://pir.org/news-events/" class="post post-page">News &#038; Events</a> &#047; <a title="Go to For Press." href="http://pir.org/news-events/for-press/" class="post post-page">For Press</a> &#047; <span typeof="v:Breadcrumb"><span property="v:title">Press Releases</span></span>			</div>
 		</div>
 	</div>
 </div>
@@ -319,6 +323,53 @@ wfscr.src = url + '&r=' + Math.random();
 					
 			
 								
+									
+				<div class="eight columns hybrid">
+				
+				<div class="pressrelease-line"></div>
+
+				<!-- THE POST EXCERPT -->	
+								<div id="post-4589" class="the_content post type-post hentry hybrid-excerpt clearfix post-4589 status-publish format-standard category-press-release">	
+										 
+				 	<!-- Grab the image path and set our variables -->
+											 <!--this is what's used when there isn't a featured image -->
+						<div class="hybrid-excerpt">
+							<h4><a href="http://pir.org/call-for-nominations-now-open-for-candidates-to-advise-nonprofit-registrar-on-issues-within-the-global-ngo-community/">Call for Nominations Now Open for Candidates to Advise Nonprofit Registrar on Issues within the Global NGO Community</a></h4>				
+							<p>RESTON, Va., May 18, 2015 /PRNewswire-USNewswire/ &#8212; <a class="icon " href="http://pir.org/" target="_new"><strong>Public Interest Registry</strong></a> &#8212; the not-for-profit manager of .org, .ngo, .ong and four IDNs &#8212; today announced it...							<a href="http://pir.org/call-for-nominations-now-open-for-candidates-to-advise-nonprofit-registrar-on-issues-within-the-global-ngo-community/" class="readmore"> Read More &raquo;</a>
+						</div> 
+										
+										
+				</div>
+				<!-- /THE POST EXCERPT -->	
+				
+				
+				</div>
+							
+					
+									
+				<div class="eight columns hybrid">
+				
+				<div class="pressrelease-line"></div>
+
+				<!-- THE POST EXCERPT -->	
+								<div id="post-4591" class="the_content post type-post hentry hybrid-excerpt clearfix post-4591 status-publish format-standard category-press-release">	
+										 
+				 	<!-- Grab the image path and set our variables -->
+											 <!--this is what's used when there isn't a featured image -->
+						<div class="hybrid-excerpt">
+							<h4><a href="http://pir.org/public-interest-registry-seeks-candidates-to-serve-on-its-org-advisory-council/">Public Interest Registry Seeks Candidates to Serve on its .ORG Advisory Council</a></h4>				
+							<p><strong><em> Nonprofit and Internet Leaders Welcome to Participate in Call for Nominations Now through June</em></strong></p>
+<p><strong>RESTON, Va. – May 4, 2015 </strong>– Public Interest Registry, the nonprofit operator of the...							<a href="http://pir.org/public-interest-registry-seeks-candidates-to-serve-on-its-org-advisory-council/" class="readmore"> Read More &raquo;</a>
+						</div> 
+										
+										
+				</div>
+				<!-- /THE POST EXCERPT -->	
+				
+				
+				</div>
+							
+					
 									
 				<div class="eight columns hybrid">
 				
@@ -462,55 +513,6 @@ wfscr.src = url + '&r=' + Math.random();
 				
 				</div>
 							
-					
-									
-				<div class="eight columns hybrid">
-				
-				<div class="pressrelease-line"></div>
-
-				<!-- THE POST EXCERPT -->	
-								<div id="post-3784" class="the_content post type-post hentry hybrid-excerpt clearfix post-3784 status-publish format-standard category-press-release">	
-										 
-				 	<!-- Grab the image path and set our variables -->
-											 <!--this is what's used when there isn't a featured image -->
-						<div class="hybrid-excerpt">
-							<h4><a href="http://pir.org/women-lead-announced-winner-of-the-whyichose-org-contest/">Women LEAD Announced Winner of the WhyIChose.org Contest</a></h4>				
-							<p><em>Nepali Young Women’s Leadership Organization Awarded $5,000 from Public Interest Registry</em></p>
-<p><strong>RESTON, Va., July 21, 2014<br />
-</strong>Public Interest Registry, the not-for-profit operator of the .org domain, today announced <a href="http://women-lead.org/"...							<a href="http://pir.org/women-lead-announced-winner-of-the-whyichose-org-contest/" class="readmore"> Read More &raquo;</a>
-						</div> 
-										
-										
-				</div>
-				<!-- /THE POST EXCERPT -->	
-				
-				
-				</div>
-							
-					
-									
-				<div class="eight columns hybrid">
-				
-				<div class="pressrelease-line"></div>
-
-				<!-- THE POST EXCERPT -->	
-								<div id="post-3799" class="the_content post type-post hentry hybrid-excerpt clearfix post-3799 status-publish format-standard category-press-release">	
-										 
-				 	<!-- Grab the image path and set our variables -->
-											 <!--this is what's used when there isn't a featured image -->
-						<div class="hybrid-excerpt">
-							<h4><a href="http://pir.org/public-interest-registry-names-dave-stewart-as-vice-president-of-sales-and-marketing/">Public Interest Registry Names Dave Stewart as Vice President of Sales and Marketing</a></h4>				
-							<p><em>Industry Veteran to Helm Global Marketing Strategies for .org and .ngo|.ong</em></p>
-<p><strong>Reston, Va. (July 1, 2014)</strong> – Public Interest Registry, the not-for-profit operator of the .org domain, today announced the...							<a href="http://pir.org/public-interest-registry-names-dave-stewart-as-vice-president-of-sales-and-marketing/" class="readmore"> Read More &raquo;</a>
-						</div> 
-										
-										
-				</div>
-				<!-- /THE POST EXCERPT -->	
-				
-				
-				</div>
-							
 						<!-- /STOP LOOP -->
 			
 			
@@ -644,7 +646,12 @@ wfscr.src = url + '&r=' + Math.random();
 	</div><!-- /End Super Container -->
 
 
-	<!-- ShiftNav Main Toggle -->
+<div class="et_social_pin_images_outer">
+					<div class="et_social_pinterest_window">
+						<div class="et_social_modal_header"><h3>Pin It on Pinterest</h3><span class="et_social_close"></span></div>
+						<div class="et_social_pin_images" data-permalink="http://pir.org/public-interest-registry-names-marc-saitta-as-chief-financial-officer/" data-title="Public Interest Registry Names Marc Saitta as Chief Financial Officer" data-post_id="3794"></div>
+					</div>
+				</div>	<!-- ShiftNav Main Toggle -->
 		<div id="shiftnav-toggle-main" class="shiftnav-toggle-main-align-left shiftnav-toggle-edge-right shiftnav-toggle-icon-x shiftnav-toggle-main-align-left shiftnav-toggle-edge-right shiftnav-toggle-icon-x" data-shiftnav-target="shiftnav-main"><span id="shiftnav-toggle-main-button" class="shiftnav-toggle shiftnav-toggle-shiftnav-main shiftnav-toggle-burger" data-shiftnav-target="shiftnav-main"><i class="fa fa-bars"></i></span>	<span class="shiftnav-main-toggle-content shiftnav-toggle-main-block"><a href="/"><img src="/wp-content/themes/pir/images/PIR-reverse-small.svg" width="145" height="41"></a></span></div>	
 	<!-- /#shiftnav-toggle-main --> 
 
@@ -718,6 +725,13 @@ wfscr.src = url + '&r=' + Math.random();
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/lightbox/ilightbox.js'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/jquery.carouFredSel-6.2.0.js'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/skeleton-key.js'></script>
+<script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/idle-timer.min.js?ver=1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monarchSettings = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/pir.org\/news-events\/for-press\/press-releases\/","stats_nonce":"9027b5a39d","share_counts":"2a21b9890f","follow_counts":"b312e4b274","total_counts":"ef1e7b9c0d","media_single":"67381119ff","media_total":"222ce13380","generate_all_window_nonce":"386ccf0904","no_img_message":"No images available for sharing on this page"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/custom.js?ver=1.2'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/plugins/dynamic-to-top/js/libs/jquery.easing.js?ver=1.3'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */

@@ -91,9 +91,9 @@ img.emoji {
 <link rel='stylesheet' id='contact-form-7-css'  href='http://www.isc.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1.2' type='text/css' media='all' />
 <link rel='stylesheet' id='events-manager-css'  href='http://www.isc.org/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.55' type='text/css' media='all' />
 <link rel='stylesheet' id='select2-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/select2.css?ver=4.2.2' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-layout-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=2.3.8' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=2.3.8' type='text/css' media='only screen and (max-width: 768px)' />
-<link rel='stylesheet' id='woocommerce-general-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=2.3.8' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=2.3.9' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=2.3.9' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=2.3.9' type='text/css' media='all' />
 <link rel='stylesheet' id='wprssmi_template_styles-css'  href='http://www.isc.org/wp-content/plugins/wp-rss-multi-importer/templates/templates.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='dlm-frontend-css'  href='http://www.isc.org/wp-content/plugins/download-monitor/assets/css/frontend.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='bootstrap-css'  href='http://www.isc.org/wp-content/themes/flexform/css/bootstrap.min.css' type='text/css' media='screen' />
@@ -154,7 +154,7 @@ article.type-post #respond .form-submit input#submit {background-color: #2e2e36;
 /*========== Main Styles ==========*/
 body {color: #444444;}
 .pagination-wrap a, .search-pagination a {color: #444444;}
-body {background: #e4e4e4 url(https://www.isc.org/wp-content/themes/flexform/images/preset-backgrounds/grid_noise.png) repeat center top fixed;}
+body {background: #e4e4e4 url(https://www.isc.org/wp-content/themes/flexform/images/preset-backgrounds/blu_stripes.png) repeat center top fixed;}
 body {background-size: auto;}
 #main-container, .tm-toggle-button-wrap a {background-color: #ffffff;}
 a, .ui-widget-content a {color: #0080c4;}
@@ -388,9 +388,10 @@ ul.member-contact li a:hover {color: #333;}
 .alt-nine.full-width-text:after {border-top-color:#FFFFFF;}
 .alt-nine h3.wpb_heading {border-bottom-color:#222222;}
 .alt-bg.alt-ten {background-color: #FFFFFF;}
-.alt-bg.alt-ten, .alt-bg.alt-ten h1, .alt-bg.alt-ten h2, .alt-bg.alt-ten h3, .alt-bg.alt-ten h3, .alt-bg.alt-ten h4, .alt-bg.alt-ten h5, .alt-bg.alt-ten h6, .alt-ten .carousel-wrap > a {color: #222222;}
+.alt-bg.alt-ten {background-image: url(https://www.isc.org/wp-content/uploads/2015/03/eda0fb7c.jpeg); background-repeat: repeat; background-position: center top; background-size:auto;}
+.alt-bg.alt-ten, .alt-bg.alt-ten h1, .alt-bg.alt-ten h2, .alt-bg.alt-ten h3, .alt-bg.alt-ten h3, .alt-bg.alt-ten h4, .alt-bg.alt-ten h5, .alt-bg.alt-ten h6, .alt-ten .carousel-wrap > a {color: #ffffff;}
 .alt-ten.full-width-text:after {border-top-color:#FFFFFF;}
-.alt-ten h3.wpb_heading {border-bottom-color:#222222;}
+.alt-ten h3.wpb_heading {border-bottom-color:#ffffff;}
 
 /*========== Custom Font Styles ==========*/
 body, h6, #sidebar .widget-heading h3, #header-search input, .header-items h3.phone-number, .related-wrap h4, #comments-list > h4, .item-heading h1, .sf-button, button, input[type="submit"], input[type="reset"], input[type="button"], input[type="email"], .wpb_accordion_section h3, #header-login input, #mobile-navigation > div, .search-form input {font-family: "Lato", sans-serif;font-weight: regular;}
@@ -607,7 +608,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 <li id="menu-item-8189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8189 default"><a href="https://www.isc.org/community/">Community</a>
 <ul class="sub-menu">
 	<li id="menu-item-8733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8733 default"><a href="https://www.isc.org/community/blogs/">Blogs</a></li>
-	<li id="menu-item-8531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8531 "><a href="https://www.isc.org/services/certification/">Certification</a></li>
+	<li id="menu-item-8531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8531 "><a href="https://www.isc.org/network/certification/">Certification</a></li>
 	<li id="menu-item-72367" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72367"><a href="https://www.isc.org/events/categories/conference/">Conferences</a></li>
 	<li id="menu-item-8628" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8628 "><a href="https://www.isc.org/community/mailing-list/">Mailing Lists</a></li>
 	<li id="menu-item-10723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10723 "><a href="https://www.isc.org/community/report-bug/">Report a Bug</a></li>
@@ -631,7 +632,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	<li id="menu-item-11463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11463 "><a href="https://www.isc.org/mission/webinars/">Webinars and other Presentations</a></li>
 </ul>
 </li>
-<li id="menu-item-8194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8194 default"><a href="https://www.isc.org/services/">Network</a>
+<li id="menu-item-8194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8194 default"><a href="https://www.isc.org/network/">Network</a>
 <ul class="sub-menu">
 	<li id="menu-item-8190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8190 "><a href="https://www.isc.org/f-root/">F-Root</a>
 	<ul class="sub-menu">
@@ -639,9 +640,9 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<li id="menu-item-8293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8293 default"><a href="https://www.isc.org/f-root/f-root-resources/">F-Root Resources</a></li>
 	</ul>
 </li>
-	<li id="menu-item-8532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8532 default"><a href="https://www.isc.org/services/sns/">SNS-PB</a></li>
-	<li id="menu-item-8577" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8577 "><a href="https://www.isc.org/services/host/">Hosted@ISC</a></li>
-	<li id="menu-item-8572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8572 "><a href="https://www.isc.org/services/survey/">ISC Domain Survey</a></li>
+	<li id="menu-item-8532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8532 default"><a href="https://www.isc.org/network/sns/">SNS-PB</a></li>
+	<li id="menu-item-8577" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8577 "><a href="https://www.isc.org/network/host/">Hosted@ISC</a></li>
+	<li id="menu-item-8572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8572 "><a href="https://www.isc.org/network/survey/">ISC Domain Survey</a></li>
 </ul>
 </li>
 <li id="menu-item-8188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8188 default"><a href="https://www.isc.org/mission/">About Us</a>
@@ -656,7 +657,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	<li id="menu-item-8629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8629 default"><a href="https://www.isc.org/mission/contact/">Contact</a></li>
 </ul>
 </li>
-<li id="menu-item-9524" class="dns-co-orange menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9524"><a target="_blank">Professional Solutions</a>
+<li id="menu-item-187946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-187946 "><a href="https://www.isc.org/services/">Professional Support</a>
 <ul class="sub-menu">
 	<li id="menu-item-70170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70170 "><a href="https://www.isc.org/bind-subscription-2/">BIND Subscription</a>
 	<ul class="sub-menu">
@@ -668,7 +669,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<li id="menu-item-70459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70459"><a href="https://www.isc.org/dhcp-subscription-contact/">DHCP subscription contact</a></li>
 	</ul>
 </li>
-	<li id="menu-item-137423" class="menu-item menu-item-type- menu-item-object-page menu-item-137423 "><a>Unbound &#038; NSD Support Subscription</a></li>
+	<li id="menu-item-179405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179405 "><a href="https://www.isc.org/unbound-subscription/">Unbound &#038; NSD Support Subscription</a></li>
 	<li id="menu-item-70373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70373 "><a href="https://www.isc.org/training/">Training</a></li>
 </ul>
 </li>
@@ -797,7 +798,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8189 default"><a href="https://www.isc.org/community/">Community</a>
 <ul class="sub-menu">
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8733 default"><a href="https://www.isc.org/community/blogs/">Blogs</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8531 "><a href="https://www.isc.org/services/certification/">Certification</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8531 "><a href="https://www.isc.org/network/certification/">Certification</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72367"><a href="https://www.isc.org/events/categories/conference/">Conferences</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8628 "><a href="https://www.isc.org/community/mailing-list/">Mailing Lists</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10723 "><a href="https://www.isc.org/community/report-bug/">Report a Bug</a></li>
@@ -821,7 +822,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11463 "><a href="https://www.isc.org/mission/webinars/">Webinars and other Presentations</a></li>
 </ul>
 </li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8194 default"><a href="https://www.isc.org/services/">Network</a>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8194 default"><a href="https://www.isc.org/network/">Network</a>
 <ul class="sub-menu">
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8190 "><a href="https://www.isc.org/f-root/">F-Root</a>
 	<ul class="sub-menu">
@@ -829,9 +830,9 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8293 default"><a href="https://www.isc.org/f-root/f-root-resources/">F-Root Resources</a></li>
 	</ul>
 </li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8532 default"><a href="https://www.isc.org/services/sns/">SNS-PB</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8577 "><a href="https://www.isc.org/services/host/">Hosted@ISC</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8572 "><a href="https://www.isc.org/services/survey/">ISC Domain Survey</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8532 default"><a href="https://www.isc.org/network/sns/">SNS-PB</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8577 "><a href="https://www.isc.org/network/host/">Hosted@ISC</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8572 "><a href="https://www.isc.org/network/survey/">ISC Domain Survey</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8188 default"><a href="https://www.isc.org/mission/">About Us</a>
@@ -846,7 +847,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8629 default"><a href="https://www.isc.org/mission/contact/">Contact</a></li>
 </ul>
 </li>
-<li class="dns-co-orange menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9524"><a target="_blank">Professional Solutions</a>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-187946 "><a href="https://www.isc.org/services/">Professional Support</a>
 <ul class="sub-menu">
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70170 "><a href="https://www.isc.org/bind-subscription-2/">BIND Subscription</a>
 	<ul class="sub-menu">
@@ -858,7 +859,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70459"><a href="https://www.isc.org/dhcp-subscription-contact/">DHCP subscription contact</a></li>
 	</ul>
 </li>
-	<li class="menu-item menu-item-type- menu-item-object-page menu-item-137423 "><a>Unbound &#038; NSD Support Subscription</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179405 "><a href="https://www.isc.org/unbound-subscription/">Unbound &#038; NSD Support Subscription</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70373 "><a href="https://www.isc.org/training/">Training</a></li>
 </ul>
 </li>
@@ -933,7 +934,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<div class="wpb_wrapper clearfix">
 			<div class="heading-wrap"><i class="icon-cog"></i><h3 class="wpb_heading">BIND</h3></div>
 			
-<div class="rssmi_wrap"><span style="color: #000000; font-weight: bold;margin: 0 0 0.8125em;"></span><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01235"  style="color:">CVE-2015-1349:  A Problem with Trust Anchor Management Can Cause named to Crash</a></span></div><div class="body">When configured to perform DNSSEC validation, named can crash when encountering a rare set of conditions in the managed trust anchors. <a href="https://kb.isc.org/article/AA-01235" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Wed, Feb 18, 2015</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01217"  style="color:">CVE-2014-8680:  Defects in GeoIP features can cause BIND to crash</a></span></div><div class="body">Two defects have been identified in the GeoIP feature added in BIND 9.10 which, when triggered, cause BIND to exit with an assertion failure. <a href="https://kb.isc.org/article/AA-01217" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, Dec 08, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01216"  style="color:">CVE-2014-8500:  A Defect in Delegation Handling Can Be Exploited to Crash BIND</a></span></div><div class="body">Failure to place limits on delegation chaining can allow an attacker to crash BIND or cause memory exhaustion. <a href="https://kb.isc.org/article/AA-01216" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Tue, Nov 18, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01166"  style="color:">CVE-2014-3859: BIND named can crash due to a defect in EDNS printing processing</a></span></div><div class="body">A specially crafted query sent to a BIND nameserver can cause it to crash with a REQUIRE assertion error. <a href="https://kb.isc.org/article/AA-01166" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Wed, May 28, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01161"  style="color:">CVE-2014-3214: A Defect in Prefetch Can Cause Recursive Servers to Crash</a></span></div><div class="body">A defect in the prefetch feature can cause named to crash when handling some queries. <a href="https://kb.isc.org/article/AA-01161" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, May 05, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div></div>
+<div class="rssmi_wrap"><span style="color: #000000; font-weight: bold;margin: 0 0 0.8125em;">Earlier</span><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01235"  style="color:">CVE-2015-1349:  A Problem with Trust Anchor Management Can Cause named to Crash</a></span></div><div class="body">When configured to perform DNSSEC validation, named can crash when encountering a rare set of conditions in the managed trust anchors. <a href="https://kb.isc.org/article/AA-01235" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Wed, Feb 18, 2015</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01217"  style="color:">CVE-2014-8680:  Defects in GeoIP features can cause BIND to crash</a></span></div><div class="body">Two defects have been identified in the GeoIP feature added in BIND 9.10 which, when triggered, cause BIND to exit with an assertion failure. <a href="https://kb.isc.org/article/AA-01217" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, Dec 08, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01216"  style="color:">CVE-2014-8500:  A Defect in Delegation Handling Can Be Exploited to Crash BIND</a></span></div><div class="body">Failure to place limits on delegation chaining can allow an attacker to crash BIND or cause memory exhaustion. <a href="https://kb.isc.org/article/AA-01216" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Tue, Nov 18, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01166"  style="color:">CVE-2014-3859: BIND named can crash due to a defect in EDNS printing processing</a></span></div><div class="body">A specially crafted query sent to a BIND nameserver can cause it to crash with a REQUIRE assertion error. <a href="https://kb.isc.org/article/AA-01166" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Wed, May 28, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01161"  style="color:">CVE-2014-3214: A Defect in Prefetch Can Cause Recursive Servers to Crash</a></span></div><div class="body">A defect in the prefetch feature can cause named to crash when handling some queries. <a href="https://kb.isc.org/article/AA-01161" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, May 05, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div></div>
 <p style="text-align: center;"><a title="BIND 9 Security Advisories" href="https://kb.isc.org/category/74/0/10/Software-Products/BIND9/Security-Advisories/" target="_blank">[Complete List]</a></p>
 
 		</div> 
@@ -942,7 +943,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<div class="wpb_wrapper clearfix">
 			<div class="heading-wrap"><i class="icon-cog"></i><h3 class="wpb_heading">ISC DHCP</h3></div>
 			
-<div class="rssmi_wrap"><span style="color: #000000; font-weight: bold;margin: 0 0 0.8125em;"></span><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-00880"  style="color:">CVE-2013-2494: A Vulnerability in libdns Could Cause Excessive Memory Use in ISC DHCP 4.2</a></span></div><div class="body">A memory exhaustion bug has been discovered in libdns, which is used by ISC DHCP 4.2.  Theoretically this could be exploited to cause memory exhaustion in ISC DHCP 4.2. <a href="https://kb.isc.org/article/AA-00880" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, Mar 18, 2013</span><br /><span class="source" style="font-style:italic;">Source: DHCP Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-00779"  style="color:">CVE-2012-3955: Reducing the expiration time for an IPv6 lease may cause the server to crash</a></span></div><div class="body"> CVE:  <a href="https://kb.isc.org/article/AA-00779" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Thu, Aug 23, 2012</span><br /><span class="source" style="font-style:italic;">Source: DHCP Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-00737"  style="color:">CVE-2012-3954: Memory Leaks Found in ISC DHCP</a></span></div><div class="body"> Title: Memory Leaks Found In ISC DHCP <a href="https://kb.isc.org/article/AA-00737" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, Jul 23, 2012</span><br /><span class="source" style="font-style:italic;">Source: DHCP Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-00714"  style="color:">CVE-2012-3570: An Error in the Handling of an Unexpected Client Identifiers can Cause Server Crash When Serving DHCPv6</a></span></div><div class="body">Title:  An error in the handling of an unexpected client identifiers can cause a server crash when serving DHCPv6. <a href="https://kb.isc.org/article/AA-00714" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, Jul 02, 2012</span><br /><span class="source" style="font-style:italic;">Source: DHCP Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-00712"  style="color:">CVE-2012-3571: An Error in the Handling of Malformed Client Identifiers can Cause a Denial-of-Service Condition in Affected Servers</a></span></div><div class="body">An error in the handling of malformed client identifiers can cause a denial-of-service condition in affected servers. <a href="https://kb.isc.org/article/AA-00712" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, Jul 02, 2012</span><br /><span class="source" style="font-style:italic;">Source: DHCP Security Advisory</span></div></div>
+<div class="rssmi_wrap"><span style="color: #000000; font-weight: bold;margin: 0 0 0.8125em;">Earlier</span><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-00880"  style="color:">CVE-2013-2494: A Vulnerability in libdns Could Cause Excessive Memory Use in ISC DHCP 4.2</a></span></div><div class="body">A memory exhaustion bug has been discovered in libdns, which is used by ISC DHCP 4.2.  Theoretically this could be exploited to cause memory exhaustion in ISC DHCP 4.2. <a href="https://kb.isc.org/article/AA-00880" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, Mar 18, 2013</span><br /><span class="source" style="font-style:italic;">Source: DHCP Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-00779"  style="color:">CVE-2012-3955: Reducing the expiration time for an IPv6 lease may cause the server to crash</a></span></div><div class="body"> CVE:  <a href="https://kb.isc.org/article/AA-00779" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Thu, Aug 23, 2012</span><br /><span class="source" style="font-style:italic;">Source: DHCP Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-00737"  style="color:">CVE-2012-3954: Memory Leaks Found in ISC DHCP</a></span></div><div class="body"> Title: Memory Leaks Found In ISC DHCP <a href="https://kb.isc.org/article/AA-00737" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, Jul 23, 2012</span><br /><span class="source" style="font-style:italic;">Source: DHCP Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-00714"  style="color:">CVE-2012-3570: An Error in the Handling of an Unexpected Client Identifiers can Cause Server Crash When Serving DHCPv6</a></span></div><div class="body">Title:  An error in the handling of an unexpected client identifiers can cause a server crash when serving DHCPv6. <a href="https://kb.isc.org/article/AA-00714" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, Jul 02, 2012</span><br /><span class="source" style="font-style:italic;">Source: DHCP Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-00712"  style="color:">CVE-2012-3571: An Error in the Handling of Malformed Client Identifiers can Cause a Denial-of-Service Condition in Affected Servers</a></span></div><div class="body">An error in the handling of malformed client identifiers can cause a denial-of-service condition in affected servers. <a href="https://kb.isc.org/article/AA-00712" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, Jul 02, 2012</span><br /><span class="source" style="font-style:italic;">Source: DHCP Security Advisory</span></div></div>
 <p style="text-align: center;"><a title="BIND 9 Security Advisories" href="https://kb.isc.org/category/74/0/10/Software-Products/DHCP/Security-Advisories/" target="_blank">[Complete List]</a></p>
 
 		</div> 
@@ -1057,7 +1058,7 @@ var _wpcf7 = {"loaderUrl":"http:\/\/www.isc.org\/wp-content\/plugins\/contact-fo
 var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","i18n_view_cart":"View Cart","cart_url":"https:\/\/www.isc.org\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.3.8'></script>
+<script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.3.9'></script>
 <script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/select2/select2.min.js?ver=3.5.2'></script>
 <script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.60'></script>
 <script type='text/javascript'>
@@ -1065,18 +1066,18 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","i18n_view_
 var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.3.8'></script>
+<script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.3.9'></script>
 <script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","fragment_name":"wc_fragments"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.3.8'></script>
+<script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.3.9'></script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.js?ver=4.2.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"76f55084d9","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
+var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"814656ccc7","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/plugins/love-it-pro/includes/js/love-it.js'></script>

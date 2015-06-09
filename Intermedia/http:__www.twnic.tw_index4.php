@@ -130,8 +130,8 @@ MM_reloadPage(true);
               <tr> 
                 <td width="120" valign="bottom"><font class="date"><!-- 到訪人數：
     000001  -->
-    <img src='http://218.241.108.74.right.dnssectest.tw/dnssec.php' width='1' height='1'>
-<img src='http://218.241.108.74.rrsigexpire.dnssectest.tw/dnssec.php' width='1' height='1'>                  </font></td>
+    <img src='http://218.241.104.79.right.dnssectest.tw/dnssec.php' width='1' height='1'>
+<img src='http://218.241.104.79.rrsigexpire.dnssectest.tw/dnssec.php' width='1' height='1'>                  </font></td>
                 <td width="91"><a href="index2.php"><img src="img/english02.gif" width="97" height="22" border="0"></a></td>
               </tr>
             </table> 
@@ -319,7 +319,7 @@ MM_reloadPage(true);
                                   <td><a href="http://www.ipmirror.tw/" target="_blank"><img src="img/lgmirror.gif" border="0" width="120" height="30"></a></td>
                                 </tr>
                                 <tr align="center"> 
-                                  <td><a href="http://dn.ccnet.com.tw/" target="_blank"><img src="img/ccnet.gif" border="0" width="120" height="30"></a></td>
+                                  <td><a href="http://itn.tw/" target="_blank"><img src="img/ccnet.gif" border="0" width="120" height="30"></a></td>
                                 </tr>
                                 <tr align="center"> </tr>
                               </table>
@@ -431,13 +431,10 @@ MM_reloadPage(true);
                               <table border="0" cellpadding="0" cellspacing="0">
                                 <tr> 
                                   <td valign="top" width="22">
-            <tr><td></td><td>[公告]</td><td></td></tr><tr><td><img src="http://www.twnic.net.tw/img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="/NEWS/2211.pdf" target="_blank">
-ICANN 更新發放二字元ASCII Labels之授權程序</a>(2015-03-27)</td></tr>
-<tr><td><img src="http://www.twnic.net.tw/img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="/NEWS/2132.pdf" target="_blank">
-TWNIC徵才公告</a>(2014-12-24)</td></tr>
-<tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+            <tr><td></td><td>[公告]</td><td></td></tr><tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://opm.twnic.net.tw/24th/" target="_blank">
+歡迎報名參加第24屆TWNIC IP政策資源管理會議</a>(2015-06-08)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://www.gsnv6.tw/ipv6_104/" target="_blank">
 2015 IPv6教育訓練開始報名</a>(2015-04-15)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
@@ -539,7 +536,16 @@ TWNIC徵才公告</a>(2014-12-24)</td></tr>
                       <td><img src="http://www.twnic.net.tw/img/link.gif" width="135" height="21"></td>
                     </tr>
 <tr align="center">
+<td><a href="http://opm.twnic.net.tw/24th/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/241.jpeg" border="0"></a></td>
+</tr>
+<tr align="center">
+<td><a href="http://2015.iwrite.twnic.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/238.gif" border="0"></a></td>
+</tr>
+<tr align="center">
 <td><a href="http://www.myhome.net.tw/timeline  " target="_blank"><img src="http://www.twnic.net.tw/brarchive/235.gif" border="0"></a></td>
+</tr>
+<tr align="center">
+<td><a href="https://www.facebook.com/twnicNEWS/app_262457097152634" target="_blank"><img src="http://www.twnic.net.tw/brarchive/239.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="http://www.twnic.net.tw/cp" target="_blank"><img src="http://www.twnic.net.tw/brarchive/234.gif" border="0"></a></td>
@@ -549,6 +555,9 @@ TWNIC徵才公告</a>(2014-12-24)</td></tr>
 </tr>
 <tr align="center">
 <td><a href="https://www.gsnv6.tw/moocs_104/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/233.gif" border="0"></a></td>
+</tr>
+<tr align="center">
+<td><a href="http://dns-security.twnic.net.tw" target="_blank"><img src="http://www.twnic.net.tw/brarchive/58.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="http://www.twnic.net.tw/tw-class/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/159.gif" border="0"></a></td>

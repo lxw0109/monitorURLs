@@ -79,12 +79,12 @@
     </div>
 </div>
           <div class="searchBox">
-    <form action="/en/search-result" method="get">
-      <input type="hidden" name="search[sort]" value="score" id="search_sort" />	    <input type="text" name="search[keyword]" id="search_keyword" />      <input type="submit" name="submit" value="Search" />
+    <form action="/fr/resultat-de-la-recherche" method="get">
+      <input type="hidden" name="search[sort]" value="score" id="search_sort" />	    <input type="text" name="search[keyword]" id="search_keyword" />      <input type="submit" name="submit" value="Rechercher" />
     </form>
 
     <div class="clear"></div>
-    <a href="/en/search">Advanced search</a>
+    <a href="/fr/recherche">Recherche avancée</a>
 </div>
         </div>
 
@@ -223,7 +223,7 @@
                   							                    									 <li><a href="/en/about-afnic/presentation/afnic-assignments-strategic-priorities-2012-2015.html">AFNIC assignments &amp; strategic priorities 2012 - 2015</a></li>
                   							                    									 <li><a href="/en/about-afnic/presentation/our-values.html">Our values</a></li>
                   							                    									 <li><a href="/en/about-afnic/presentation/afnic-key-dates-3.html">AFNIC key dates</a></li>
-                  							                    									 <li><a href="/en/about-afnic/presentation/our-team-42.html">Our team</a></li>
+                  							                    									 <li><a href="/en/about-afnic/presentation/our-team-43.html">Our team</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/about-afnic/presentation/members/">Members</a></li>
                   								                    								                  							</ul>
@@ -233,10 +233,10 @@
                                               							<ul class="submenu">
                                                     									 <li><a href="/en/about-afnic/organisation/consultative-committees-1.html">Consultative Committees</a></li>
                   							                    									 <li><a href="/en/about-afnic/organisation/international-cooperation-4.html">International cooperation</a></li>
-                  							                    									 <li><a href="/en/about-afnic/organisation/board-of-directors-12.html">Board of Directors</a></li>
                   							                    									 <li><a href="/en/about-afnic/organisation/become-a-member-of-afnic-12.html">Become a member of AFNIC </a></li>
                   							                    									 <li><a href="/en/about-afnic/organisation/articles-of-association-4.html">Articles of Association</a></li>
                   							                    									 <li><a href="/en/about-afnic/organisation/internal-regulations-7.html">Internal regulations</a></li>
+                  							                    									 <li><a href="/en/about-afnic/organisation/board-of-directors-14.html">Board of Directors</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/about-afnic/organisation/international-college/">International College</a></li>
                   								                    								                  							</ul>
@@ -391,7 +391,7 @@
                                                       <a href="/en/resources/subscriptions-and-social-networks-6.html">Subscriptions and social networks</a>
                                                   </li>
                                                                                                 <li>
-                                                      <a href="/en/resources/afnic-newsletter-34.html">Afnic Newsletter</a>
+                                                      <a href="/en/resources/afnic-newsletter-35.html">Afnic Newsletter</a>
                                                   </li>
                                                                                         </ul>
                                                                 </td>
@@ -529,7 +529,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="0e6a392794c902eff95e9b3bde5aa9ae" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="fc0eadca72f16a93dd09dd2d648a35b1" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -669,29 +669,29 @@
   
   <ul>
           <li>
-            <span class="date"><em>5/7/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9033/show/afnic-takes-part-in-the-development-of-the-transition-numerique-plus-association.html">Afnic takes part in the development of the Transition Numérique Plus associatio...</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/9033/show/afnic-takes-part-in-the-development-of-the-transition-numerique-plus-association.html">At its General Assembly in late March 2015, the Transition Numérique Plus association appointed Julien Naillet, Communications Director for Afnic, as...</a></span>
+            <span class="date"><em>6/1/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9093/show/the-fr-tld-at-the-lyon-rhone-alpes-trade-fair-for-entrepreneurs-on-2-and-3-june-2015.html">The .fr TLD at the Lyon Rhône-Alpes Trade Fair for Entrepreneurs on 2 and 3 Jun...</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9093/show/the-fr-tld-at-the-lyon-rhone-alpes-trade-fair-for-entrepreneurs-on-2-and-3-june-2015.html">At the 2015 Lyon Rhône-Alpes Trade Fair for Entrepreneurs, Afnic and two .fr registrars will be advising business people about choosing their domain ...</a></span>
     </li>
        <li>
-            <span class="date"><em>4/27/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9003/show/the-fr-partners-with-the-open-of-web-on-may-7-2015.html">The .fr partners with &quot;the Open of Web&quot; on May 7, 2015</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/9003/show/the-fr-partners-with-the-open-of-web-on-may-7-2015.html">The .fr Internet Top Level Domain believes in individual success and supports &quot;the Open of Web&quot; talent development contest.</a></span>
+            <span class="date"><em>5/26/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9084/show/june-2-2015-an-inclusive-internet-workshop-during-the-internet-governance-forum.html">June 2, 2015: An Inclusive Internet Workshop during the Internet Governance Foru...</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9084/show/june-2-2015-an-inclusive-internet-workshop-during-the-internet-governance-forum.html">Afnic and the Internet Society France are to co-host a workshop on June 2, 2015 on inclusive Internet issues during the second Forum on Internet Gover...</a></span>
     </li>
        <li>
-            <span class="date"><em>4/16/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8993/show/new-gtlds-accounted-for-21-of-the-net-growth-of-the-domain-name-market-in-2014.html">New gTLDs accounted for 21% of the net growth of the domain name market in 2014</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/8993/show/new-gtlds-accounted-for-21-of-the-net-growth-of-the-domain-name-market-in-2014.html">The April 2015 edition of the Afnic Industry Report on Domain Names provides an overview of the domain name market in 2014: figures, review and trends...</a></span>
+            <span class="date"><em>5/21/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9063/show/the-domain-name-market-2017-year-of-consolidation.html">The domain name market: 2017, year of consolidation?</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9063/show/the-domain-name-market-2017-year-of-consolidation.html">The May 2015 edition of the Afnic Industry Report on Domain Names sets out a projection of the domain name market development for the next five years....</a></span>
     </li>
        <li>
-      <span class="type"><em>Press release</em></span>      <span class="date"><em>4/7/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8948/show/april-7-2015-opening-of-the-alsace-geotld-the-point-is-you.html">April 7, 2015:  Opening of the .alsace geoTLD: the point is you!</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/8948/show/april-7-2015-opening-of-the-alsace-geotld-the-point-is-you.html">As of April 7, 2015, the &quot;.alsace&quot; geoTLD will be accessible to all on the Internet.</a></span>
+            <span class="date"><em>5/19/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9066/show/afnic-scientific-council-open-day-set-for-thursday-9-july-2015-1.html">Afnic Scientific Council Open Day set for Thursday 9 July 2015!</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9066/show/afnic-scientific-council-open-day-set-for-thursday-9-july-2015-1.html">Afnic publishes the program for its 5th Scientific Council Open Day.</a></span>
     </li>
        <li>
-            <span class="date"><em>4/2/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/8934/show/the-fr-tld-a-love-story-that-now-lasts-several-years.html">The .fr TLD: a love story that now lasts several years</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/8934/show/the-fr-tld-a-love-story-that-now-lasts-several-years.html">Since March 30, 2015, Afnic has offered the registration of domain names with the .fr TLD for periods ranging from one to ten years.</a></span>
+            <span class="date"><em>5/15/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9057/show/17-may-2015-world-telecommunication-and-information-society-day-wtisd-2015-1.html">17 May 2015: World Telecommunication and Information Society Day (WTISD 2015)</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9057/show/17-may-2015-world-telecommunication-and-information-society-day-wtisd-2015-1.html">A day to stimulate reflections and exchange ideas on Internet and Information and communication technologies assets.</a></span>
     </li>
      </ul>
     <div class="mainContent" style="padding:0">
@@ -714,19 +714,27 @@
     
                         <div class="bcBox separate">
                 <div style="text-align: center;"><a
- href="https://www.afnic.fr/en/about-afnic/contact/"><img
- onmouseover="Contact AFNIC"
- style="border: 0px solid ; width: 250px; height: 40px;"
- alt="Contact AFNIC"
- src="/medias/colonnedroite-contact-us.jpg"></img></a></div>            </div>
-        
-                        <div class="bcBox separate">
-                <div style="text-align: center;"><a
  href="/en/resources/blog/"><img
  onmouseover="Le blog de l&#039;Afnic !"
  style="border: 0px solid ; width: 250px; height: 40px;"
  alt="Afnic Blog"
  src="/medias/colonnedroite-blog.jpg"></img></a></div>            </div>
+        
+                        <div class="bcBox separate">
+                <div style="text-align: center;"><a
+ href="/en/resources/afnic-newsletter-35.html"><img
+ onmouseover="Recevez la newsletter Afnic"
+ style="border: 0px solid ; width: 250px; height: 40px;"
+ alt="Newsletter Afnic"
+ src="/medias/images/boutons/colonnedroite-newsletter.jpg"></img></a></div>            </div>
+        
+                        <div class="bcBox separate">
+                <div style="text-align: center;"><a
+ href="https://www.afnic.fr/en/about-afnic/contact/"><img
+ onmouseover="Contact AFNIC"
+ style="border: 0px solid ; width: 250px; height: 40px;"
+ alt="Contact AFNIC"
+ src="/medias/colonnedroite-contact-us.jpg"></img></a></div>            </div>
         
                         <div class="bcBox separate">
                 <a class="twitter-timeline"  href="https://twitter.com/AFNIC"  data-widget-id="314750944233521152">Tweets de @AFNIC</a>
@@ -830,16 +838,16 @@
                   		                   			<span><a href="/en/about-afnic/presentation/afnic-assignments-strategic-priorities-2012-2015.html" >AFNIC assignments &amp; strategic priorities 2012 - 2015</a></span>
                   		                   			<span><a href="/en/about-afnic/presentation/our-values.html" >Our values</a></span>
                   		                   			<span><a href="/en/about-afnic/presentation/afnic-key-dates-3.html" >AFNIC key dates</a></span>
-                  		                   			<span><a href="/en/about-afnic/presentation/our-team-42.html" >Our team</a></span>
+                  		                   			<span><a href="/en/about-afnic/presentation/our-team-43.html" >Our team</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/about-afnic/organisation/">Organisation</a>
                   		                   			<span><a href="/en/about-afnic/organisation/consultative-committees-1.html" >Consultative Committees</a></span>
                   		                   			<span><a href="/en/about-afnic/organisation/international-cooperation-4.html" >International cooperation</a></span>
-                  		                   			<span><a href="/en/about-afnic/organisation/board-of-directors-12.html" >Board of Directors</a></span>
                   		                   			<span><a href="/en/about-afnic/organisation/become-a-member-of-afnic-12.html" >Become a member of AFNIC </a></span>
                   		                   			<span><a href="/en/about-afnic/organisation/articles-of-association-4.html" >Articles of Association</a></span>
                   		                   			<span><a href="/en/about-afnic/organisation/internal-regulations-7.html" >Internal regulations</a></span>
+                  		                   			<span><a href="/en/about-afnic/organisation/board-of-directors-14.html" >Board of Directors</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/about-afnic/news/">News</a>

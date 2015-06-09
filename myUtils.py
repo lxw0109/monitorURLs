@@ -74,7 +74,6 @@ def sendEmail(subject, content):
     """
     writeLog("EMAIL SENDING", "", "")
     try:
-        #smtpServer = "smtp.qq.com" #"smtp.cnnic.cn"
         smtpServer = "smtp.cnnic.cn"
         #userName = "monitorURL@foxmail.com"#"liuxiaowei@cnnic.cn"
         userName = "liuxiaowei@cnnic.cn"

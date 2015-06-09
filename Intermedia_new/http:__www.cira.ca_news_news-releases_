@@ -23,7 +23,7 @@
 <link type="text/css" rel="stylesheet" href="http://cira.ca/sites/default/files/css/css_5RLbSko3hezzFud-tG5tVj4LEU9YtktePt4j_auOb38.css" media="all" />
 
 <!--[if lt IE 9]>
-<link type="text/css" rel="stylesheet" href="http://cira.ca/profiles/wetkit/libraries/wet-boew/css/ie8-wet-boew.min.css?nnxurh" media="all" />
+<link type="text/css" rel="stylesheet" href="http://cira.ca/profiles/wetkit/libraries/wet-boew/css/ie8-wet-boew.min.css?npdkxk" media="all" />
 <![endif]-->
 <link type="text/css" rel="stylesheet" href="http://cira.ca/sites/default/files/css/css_WzOswBa2Qy7SoOzHRDELWwnhE_szKlsZRHiz_qMI1Zc.css" media="all" />
 <link type="text/css" rel="stylesheet" href="http://cira.ca/sites/default/files/css/css_6auMQw5AiS08uO9ODbQtXRDkSHbYtc0Gugj4Ch18k3k.css" media="all" />
@@ -44,7 +44,7 @@
 <script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-11124418-15", {"cookieDomain":"auto"});ga("require", "linkid", "linkid.js");ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
 <script src="http://cira.ca/sites/default/files/js/js_TvFPEFdtzLrfnfpoOb0XFtiLhTlBav2mlgXM60wzuF8.js"></script>
 <script src="http://cira.ca/sites/default/files/js/js_gTWkzzLkCYEKDyITlMA3qpbOWxY8zXDsk9H1hEbGLwU.js"></script>
-<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cira_bootstrap","theme_token":"oRKdmu5IGEeZAcQsZWlrwMFRDFlpkkgYXQAZ86wojaU","js":{"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"0":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/js\/wetkit-accordion.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/tinycon.min.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/environment_indicator.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/color.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/alert.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/collapse.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/tooltip.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/vertical_tabs.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_widgets\/js\/wetkit_widgets.js":1,"profiles\/wetkit\/libraries\/jstorage\/jstorage.min.js":1,"profiles\/wetkit\/modules\/contrib\/custom_search\/js\/custom_search.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/horizontal_tabs.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_bean\/js\/wetkit_bean.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/js\/wetkit-navbar.js":1,"1":1,"sites\/all\/themes\/cira_bootstrap\/js\/min\/init.min.js":1,"sites\/all\/themes\/cira_bootstrap\/js\/min\/init2.min.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/wet-boew.min.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew2.min.js":1,"profiles\/wetkit\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"profiles\/wetkit\/modules\/contrib\/picture\/picture.min.js":1,"profiles\/wetkit\/themes\/bootstrap\/js\/bootstrap.js":1,"2":1,"3":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-featured.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-accordian.css":1,"sites\/all\/modules\/custom\/cira_layouts\/css\/cira_layouts.css":1,"profiles\/wetkit\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/wetkit\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/environment_indicator.css":1,"modules\/field\/theme\/field.css":1,"profiles\/wetkit\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-ctools.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-media.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-modal.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-panels-ipe.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_layouts\/css\/layouts.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/css\/wetkit-navbar.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_widgets\/css\/wetkit_widgets.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_wysiwyg\/css\/wetkit-wysiwyg.css":1,"profiles\/wetkit\/modules\/contrib\/views\/css\/views.css":1,"profiles\/wetkit\/css\/wetkit.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/wet-boew.min.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/theme.min.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/ie8-wet-boew.min.css":1,"profiles\/wetkit\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"profiles\/wetkit\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_75_25\/cira-75-25.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_50_50\/cira-50-50.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_66_33\/cira-66-33.css":1,"profiles\/wetkit\/modules\/contrib\/custom_search\/custom_search.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/css\/horizontal_tabs.css":1,"profiles\/wetkit\/themes\/bootstrap\/css\/overrides.css":1,"profiles\/wetkit\/themes\/wetkit_bootstrap\/css\/wetkit_bootstrap.styles.css":1,"sites\/all\/themes\/cira_bootstrap\/css\/init.css":1,"sites\/all\/themes\/cira_bootstrap\/css\/virtual-keyboard.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_bean\/css\/wetkit_bean.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_core\/css\/wetkit_core.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_menu\/css\/wetkit_menu.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_search\/css\/wetkit_search.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_wetboew\/css\/wetkit_wetboew.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_images\/css\/wetkit_images.css":1}},"admin_menu":{"suppress":1},"custom_search":{"form_target":"_self","solr":1},"currentPath":"news\/news-releases","currentPathIsAdmin":false,"bootstrap":{"anchorsFix":0,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cira_bootstrap","theme_token":"aUvNMvyzuf252dPDzITpy8GvAdT92Up8bXm_gTPEsDg","js":{"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"0":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/js\/wetkit-accordion.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/tinycon.min.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/environment_indicator.js":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/color.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/alert.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/collapse.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/tooltip.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/vertical_tabs.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_widgets\/js\/wetkit_widgets.js":1,"profiles\/wetkit\/libraries\/jstorage\/jstorage.min.js":1,"profiles\/wetkit\/modules\/contrib\/custom_search\/js\/custom_search.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/js\/horizontal_tabs.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_bean\/js\/wetkit_bean.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/js\/wetkit-navbar.js":1,"1":1,"sites\/all\/themes\/cira_bootstrap\/js\/min\/init.min.js":1,"sites\/all\/themes\/cira_bootstrap\/js\/min\/init2.min.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/wet-boew.min.js":1,"profiles\/wetkit\/libraries\/wet-boew\/js\/ie8-wet-boew2.min.js":1,"profiles\/wetkit\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"profiles\/wetkit\/modules\/contrib\/picture\/picture.min.js":1,"profiles\/wetkit\/themes\/bootstrap\/js\/bootstrap.js":1,"2":1,"3":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-featured.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/css\/wetkit-accordian.css":1,"sites\/all\/modules\/custom\/cira_layouts\/css\/cira_layouts.css":1,"profiles\/wetkit\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/wetkit\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/wetkit\/modules\/contrib\/environment_indicator\/environment_indicator.css":1,"modules\/field\/theme\/field.css":1,"profiles\/wetkit\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/wetkit-admin.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-ctools.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-media.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-modal.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_emberx\/css\/ember-panels-ipe.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_layouts\/css\/layouts.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_admin\/modules\/wetkit_navbar\/css\/wetkit-navbar.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_widgets\/css\/wetkit_widgets.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_wysiwyg\/css\/wetkit-wysiwyg.css":1,"profiles\/wetkit\/modules\/contrib\/views\/css\/views.css":1,"profiles\/wetkit\/css\/wetkit.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/wet-boew.min.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/theme.min.css":1,"profiles\/wetkit\/libraries\/wet-boew\/css\/ie8-wet-boew.min.css":1,"profiles\/wetkit\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"profiles\/wetkit\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_75_25\/cira-75-25.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_50_50\/cira-50-50.css":1,"sites\/all\/modules\/custom\/cira_layouts\/plugins\/layouts\/cira_66_33\/cira-66-33.css":1,"profiles\/wetkit\/modules\/contrib\/custom_search\/custom_search.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_theme\/modules\/wetkit_bootstrapx\/css\/horizontal_tabs.css":1,"profiles\/wetkit\/themes\/bootstrap\/css\/overrides.css":1,"profiles\/wetkit\/themes\/wetkit_bootstrap\/css\/wetkit_bootstrap.styles.css":1,"sites\/all\/themes\/cira_bootstrap\/css\/init.css":1,"sites\/all\/themes\/cira_bootstrap\/css\/virtual-keyboard.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_bean\/css\/wetkit_bean.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_core\/css\/wetkit_core.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_menu\/css\/wetkit_menu.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_search\/css\/wetkit_search.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_wetboew\/css\/wetkit_wetboew.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_images\/css\/wetkit_images.css":1}},"admin_menu":{"suppress":1},"custom_search":{"form_target":"_self","solr":1},"currentPath":"news\/news-releases","currentPathIsAdmin":false,"bootstrap":{"anchorsFix":0,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
 </head>
 <body class="html not-front not-logged-in no-sidebars page-news page-news-news-releases news-landing i18n-en cira-bootstrap wet-boew" >
   <ul id="wb-tphp">
@@ -103,7 +103,7 @@
  <input title="Enter the terms you wish to search for." class="custom-search-box form-control form-text" placeholder="" data-toggle="tooltip" type="search" id="wb-srch-q" name="custom_search_blocks_form_1" value="" size="27" maxlength="150" />
 </div>
 <input type="hidden" name="delta" value="1" />
-<input type="hidden" name="form_build_id" value="form-b5SCWMfZ4MfLy36m5MDm0IFEmwZoo1JINzE8F-fLZM8" />
+<input type="hidden" name="form_build_id" value="form-WZil3ceHmiSl8lDt62RpPcoH2RyqIrsplkTiNECSjNA" />
 <input type="hidden" name="form_id" value="custom_search_blocks_form_1" />
 <input type="hidden" name="custom_search_paths" value="search/site/[key]" />
 <button data-icon="search" value="search" id="wb-srch-sub" name="op" type="submit" class="btn btn-default form-submit">Search</button>
@@ -122,9 +122,10 @@
 <li class="last leaf menu-mlid-3003"><a href="/content/register-ca-french">Register a .CA in French</a></li>
 </ul></li>
 <li class="expanded menu-mlid-1366 dropdown"><a href="/products-services" data-target="#" class="item" data-toggle="dropdown">Products and Services</a><ul class="sm list-unstyled" role="menu"><li class="slflnk"><a href="/products-services">Products and Services</a></li><li class="first expanded menu-mlid-1454"><a href="/d-zone">D-Zone Anycast DNS</a></li>
-<li class="last leaf menu-mlid-2844"><a href="/domain_security">Domain Security</a></li>
+<li class="leaf menu-mlid-2844"><a href="/domain_security">Domain Security</a></li>
+<li class="last leaf menu-mlid-3169"><a href="http://cira.ca/registryservices">Registry Services</a></li>
 </ul></li>
-<li class="expanded active-trail menu-mlid-1367 dropdown"><a href="/about-us" class="active-trail item" data-target="#" data-toggle="dropdown">About Us</a><ul class="sm list-unstyled" role="menu"><li class="slflnk"><a href="/about-us" class="active-trail">About Us</a></li><li class="first expanded menu-mlid-2843"><a href="/membership">Membership</a></li>
+<li class="expanded active-trail menu-mlid-1457 dropdown"><a href="/about-us" class="active-trail item" data-target="#" data-toggle="dropdown">About Us</a><ul class="sm list-unstyled" role="menu"><li class="slflnk"><a href="/about-us" class="active-trail">About Us</a></li><li class="first expanded menu-mlid-2843"><a href="/membership">Membership</a></li>
 <li class="leaf active-trail menu-mlid-1459"><a href="/news" class="active-trail active">News</a></li>
 <li class="leaf menu-mlid-1460"><a href="/board">Board of Directors</a></li>
 <li class="leaf menu-mlid-3005"><a href="/content/ca-senior-leadership-team">Team .CA</a></li>
@@ -213,86 +214,86 @@
       
   
   <div class="pane-content">
-    <div class="view view-news view-id-news view-display-id-panel_pane_3 view-dom-id-5cd5eea915923a156bb1a6e457d954d2">
+    <div class="view view-news view-id-news view-display-id-panel_pane_3 view-dom-id-cf0397feae8e537905ae1f65b00217b6">
         
   
   
       <div class="view-content">
         <div class="views-row views-row-1 views-row-odd views-row-first">
       
+          <div class="date"><span class="date-display-single">June 4, 2015</span></div>    
+          <h3 class="title"><a href="/news/ca-team-calls-canadian-cities-seize-opportunity-municipal-domains">.CA team calls on Canadian cities to seize the opportunity of municipal domains</a></h3>    
+          <p>The growing success of .nyc, .london, .berlin and other global municipal domains should serve as motivation for Canadian municipalities to follow-suit . </p>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <div class="date"><span class="date-display-single">May 28, 2015</span></div>    
+          <h3 class="title"><a href="/news/support-ca-internet-technology-drives-transformation-canadas-not-profit-community">With support from .CA, Internet technology drives transformation in Canada’s not-for-profit community </a></h3>    
+          <p>Today the .CA Community Investment Program announced over $1 million in funding for 25 Canadian not-for-profit organizations working on the cutting-edge of Internet issues and services. This fund, generated from the registration of .CA domains, supports Canada’s Internet community with funding for research, infrastructure, online services or digital literacy projects.</p>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <div class="date"><span class="date-display-single">May 28, 2015</span></div>    
+          <h3 class="title"><a href="/911">Funding from the .CA Community Investment Program supports next generation 9-1-1 services</a></h3>    
+          <p>With a new grant from the .CA Community Investment Program, the Canadian Interoperability Technology Interest Group is working to ensure that Canadian communities can coordinate their transition to next-generation 9-1-1 services and deploy solutions that can work across the country to potentially take advantage of photo and video sharing and other mobile applications.</p>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <div class="date"><span class="date-display-single">May 28, 2015</span></div>    
+          <h3 class="title"><a href="/news/open-effect-receives-funding-ca-community-investment-program-hold-companies-and-governments">Open Effect receives funding from .CA Community Investment Program to hold companies and governments accountable for how they store personal data </a></h3>    
+          <p>With funding from the .CA Community Investment Program, Open Effect, a Toronto-based privacy not-for-profit group, is building an application that will support the process of creating requests for this information and help educate Canadians on how they can gain control over their personal data.</p>    </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
           <div class="date"><span class="date-display-single">May 12, 2015</span></div>    
           <h3 class="title"><a href="/news/korax-selects-ca-d-zone-anycast-made-canada-dns-infrastructure-protection">Korax selects .CA D-Zone Anycast for made-in-Canada DNS infrastructure protection </a></h3>    
           <p>Canadian web services firm Korax has selected the .CA D-Zone Anycast DNS solution to deliver DNS infrastructure services to thousands of customers in Canada.</p>    </div>
-  <div class="views-row views-row-2 views-row-even">
+  <div class="views-row views-row-6 views-row-even">
       
           <div class="date"><span class="date-display-single">May 5, 2015</span></div>    
           <h3 class="title"><a href="/news/ca-team-calls-canadians-test-their-internet-connections-new-ca-internet-performance-test">.CA team calls on Canadians to test their Internet connections with new .CA Internet Performance Test </a></h3>    
           <p>Through a simple web application, Canadians can evaluate the download and upload speeds of their Internet connections. The test results allow researchers to access critical information about Canada’s Internet.</p>    </div>
-  <div class="views-row views-row-3 views-row-odd">
+  <div class="views-row views-row-7 views-row-odd">
       
           <div class="date"><span class="date-display-single">April 29, 2015</span></div>    
           <h3 class="title"><a href="/news/steamlabs-launches-internet-things-teaching-kit-bring-digital-education-elementary-school">STEAMLabs launches Internet of Things teaching kit to bring digital education to elementary school students </a></h3>    
           <p>Project funded through the .CA Community Investment Program equips teachers with tools to teach hardware and software engineering</p>    </div>
-  <div class="views-row views-row-4 views-row-even">
+  <div class="views-row views-row-8 views-row-even">
       
           <div class="date"><span class="date-display-single">April 15, 2015</span></div>    
           <h3 class="title"><a href="/news/phone-call-security-scam-warning-internet-users">Phone call security scam warning for Internet users</a></h3>    
           <p>The Canadian Internet Registration Authority (CIRA) has received reports of a phone call security scam using the CIRA name.</p>    </div>
-  <div class="views-row views-row-5 views-row-odd">
+  <div class="views-row views-row-9 views-row-odd">
       
           <div class="date"><span class="date-display-single">April 1, 2015</span></div>    
           <h3 class="title"><a href="/news/join-cira-board-directors-nomination-committee">Join the CIRA Board of Directors nomination committee</a></h3>    
           <p>The Canadian Internet Registration Authority (CIRA) Board of Directors is seeking individuals to join its nomination committee for the 2015 board of directors election.</p>    </div>
-  <div class="views-row views-row-6 views-row-even">
+  <div class="views-row views-row-10 views-row-even">
       
           <div class="date"><span class="date-display-single">March 31, 2015</span></div>    
           <h3 class="title"><a href="/news/mediasmarts-launches-comprehensive-digital-literacy-framework-canadian-schools">MediaSmarts launches comprehensive digital literacy framework for Canadian schools </a></h3>    
           <p>Ottawa, ON – March 31, 2015 – MediaSmarts, Canada’s centre for digital and media literacy, has today launched an extensive new program to support teachers in integrating digital literacy into their classrooms. <a href="http://mediasmarts.ca/teacher-resources/use-understand-create-digital-literacy-framework-canadian-schools">Use, Understand &amp; Create: A Digital Literacy Framework for Canadian Schools (K-8)</a> is a cross-curricular program that provides teachers with an array of tools to give students the skills they need for the digital age.</p>    </div>
-  <div class="views-row views-row-7 views-row-odd">
+  <div class="views-row views-row-11 views-row-odd">
       
           <div class="date"><span class="date-display-single">March 18, 2015</span></div>    
           <h3 class="title"><a href="/news/cira-2015-board-directors-election-and-annual-general-meeting-dates">CIRA 2015 board of directors election and annual general meeting dates</a></h3>    
           <p>The Canadian Internet Registration Authority’s (CIRA) 2015 board of directors election process will begin on June 11, 2015 with a call for applications.</p>    </div>
-  <div class="views-row views-row-8 views-row-even">
+  <div class="views-row views-row-12 views-row-even">
       
           <div class="date"><span class="date-display-single">February 24, 2015</span></div>    
           <h3 class="title"><a href="/news/e-commerce-going-mobile-20-younger-canadians-have-made-purchases-mobile-devices-according-2015">E-commerce is going mobile: 20% of younger Canadians have made purchases from mobile devices according to the 2015 .CA Factbook </a></h3>    
           <p>The 2015 .CA Factbook, an annual report on the state of the Canadian Internet, points to deepening mobile engagement among Canadians, a declining interest in cable subscriptions and new opportunities for Canadian e-commerce.</p>    </div>
-  <div class="views-row views-row-9 views-row-odd">
+  <div class="views-row views-row-13 views-row-odd">
       
           <div class="date"><span class="date-display-single">February 12, 2015</span></div>    
           <h3 class="title"><a href="/news/80-canadians-see-importance-keeping-seniors-connected-through-internet-technology">80% of Canadians see the importance of keeping seniors connected through Internet technology </a></h3>    
           <p>A new poll released today by the <a href="http://cira.ca/about-cira/community-investment-program/">.CA Community Investment Program</a> and Ipsos Reid shatters the traditional view of the Internet as a tool for the young. Eighty-six per cent of Canadians, including those over 55 (90%) agree that providing better access to the Internet, along with training on how to use it, would help older Canadians stay better connected to their communities and families.</p>    </div>
-  <div class="views-row views-row-10 views-row-even">
+  <div class="views-row views-row-14 views-row-even">
       
           <div class="date"><span class="date-display-single">February 4, 2015</span></div>    
           <h3 class="title"><a href="/news/78-canadians-report-workers-would-be-more-productive-if-they-had-additional-internet-and">78% of Canadians report that workers would be more productive if they had additional Internet and technology skills, according to new poll </a></h3>    
           <p>.CA Community Investment Program marks launch of 2015 funding program with collaborative research study with Ipsos on Canadian attitudes on digital technology and skills</p>    </div>
-  <div class="views-row views-row-11 views-row-odd">
+  <div class="views-row views-row-15 views-row-odd views-row-last">
       
           <div class="date"><span class="date-display-single">January 27, 2015</span></div>    
           <h3 class="title"><a href="/news/mobile-app-helps-mentors-and-mentees-connect-online">Mobile app helps mentors and mentees connect online</a></h3>    
           <p>As job seekers in Canada turn to digital tools to manage the challenges of a career transition, a new application, Menteer from Career Skills Incubator, will ease the process of matching job seekers with an appropriate mentor. The project was funded through the .CA Community Investment Program, which helps drive solutions to social and economic issues in Canada.</p>    </div>
-  <div class="views-row views-row-12 views-row-even">
-      
-          <div class="date"><span class="date-display-single">January 22, 2015</span></div>    
-          <h3 class="title"><a href="/news/young-canadians-need-mentoring-not-more-surveillance-according-new-study-online-behaviour">Young Canadians need mentoring, not more surveillance according to new study of online behaviour</a></h3>    
-          <p>In a new report, funded in part by .CA, Media Smarts calls for a child-centred approach to media literacy to help deal with cyberbullying, sexting and other online threats.</p>    </div>
-  <div class="views-row views-row-13 views-row-odd">
-      
-          <div class="date"><span class="date-display-single">December 9, 2014</span></div>    
-          <h3 class="title"><a href="/news/vanishing-evidence-online-or-linkrot-may-put-stability-precedent-legal-system-risk-according">Vanishing evidence online or “LinkRot” may put stability of precedent in legal system at risk, according to new research from the University of Ottawa</a></h3>    
-          <p>Project funded through CIRA’s Community Investment Program aims to help judges and lawyers ensure that information found online is stable and reliable</p>    </div>
-  <div class="views-row views-row-14 views-row-even">
-      
-          <div class="date"><span class="date-display-single">December 2, 2014</span></div>    
-          <h3 class="title"><a href="/news/recent-domain-hijackings-should-remind-cios-importance-domain-locking-says-ca-executive">Recent domain hijackings should remind CIOs of the importance of domain locking says .CA executive</a></h3>    
-          <p>Advanced security measures can mitigate risk of hacking</p><p>OTTAWA – December 2, 2014 – Many website hijackings are avoidable with enhanced domain name system safety measures, says the Canadian Internet Registration Authority (CIRA), the organization that manages the .CA domain.</p>    </div>
-  <div class="views-row views-row-15 views-row-odd views-row-last">
-      
-          <div class="date"><span class="date-display-single">December 2, 2014</span></div>    
-          <h3 class="title"><a href="/news/internet-governance-forum-gets-boost-ca">Internet Governance Forum gets boost from .CA</a></h3>    
-          <p>The Canadian Internet Registration Authority (CIRA) today announced that it had completed a contribution agreement with the Internet Governance Forum Support Association (IGFSA), providing the necessary resources to address emerging issues in Internet governance.</p>    </div>
     </div>
   
       <div class="text-center"><div class="item-list"><ul class="pagination"><li class="active"><span>1</span></li>
@@ -303,6 +304,7 @@
 <li><a title="Go to page 6" href="/news/news-releases?page=5">6</a></li>
 <li><a title="Go to page 7" href="/news/news-releases?page=6">7</a></li>
 <li><a title="Go to page 8" href="/news/news-releases?page=7">8</a></li>
+<li><a title="Go to page 9" href="/news/news-releases?page=8">9</a></li>
 <li class="next"><a title="Go to next page" href="/news/news-releases?page=1">next ›</a></li>
 </ul></div></div>  
   
@@ -354,7 +356,7 @@
  <select class="form-control form-select" id="edit-fields-field-news-type" name="fields[field_news_type]"><option value="0" selected="selected">-Any-</option><option value="4">Announcement</option><option value="6">News release</option></select>
 </div>
 <input type="hidden" name="path" value="search/site/[key]?f[0]=type:news" />
-<input type="hidden" name="form_build_id" value="form-h4aVH__S-OSRjv-Pb9U6fyX2v9oFW-u5955MKRzOzMA" />
+<input type="hidden" name="form_build_id" value="form-QwBGroM8GzHVmhjb8fOWy9H0d7ngMkLw5VkAzooY3MA" />
 <input type="hidden" name="form_id" value="custom_search_api_widget_search_form" />
 <div class="form-actions form-wrapper form-group" id="edit-actions"><button id="edit-actions-submit" name="op" value="Search" type="submit" class="btn btn-default form-submit">Search</button>
 </div></div></form>  </div>
@@ -484,7 +486,7 @@
  <input title="Enter the terms you wish to search for." class="custom-search-box form-control form-text" placeholder="WHOIS search" data-toggle="tooltip" type="text" id="edit-custom-search-blocks-form-2--2" name="custom_search_blocks_form_2" value="" size="15" maxlength="128" />
 </div>
 <input type="hidden" name="delta" value="2" />
-<input type="hidden" name="form_build_id" value="form-PqPfRjLgSWeOBcdA90cdjjhfkuYboR6vryJyOQ4VjSQ" />
+<input type="hidden" name="form_build_id" value="form-Nmvb2jp-7EC6e0V1vS6uD1ukbLVn667jyLip4iydIwg" />
 <input type="hidden" name="form_id" value="custom_search_blocks_form_2" />
 <input type="hidden" name="custom_search_paths" value="http://whois.cira.ca/public?domain=[key]" />
 <div class="form-actions form-wrapper form-group" id="edit-actions--3"><button id="edit-submit--2" name="op" value="Search" type="submit" class="btn btn-default form-submit">Search</button>

@@ -46,9 +46,9 @@
 <p>
 <a href="/oarc/agreements">Joining and Participating in DNS-OARC</a></p>
 <p>
-<a href="https://indico.dns-oarc.net/event/21/" color="blue">DNS-OARC Spring 2015 Workshop</a></p>
+<a href="https://indico.dns-oarc.net/event/21/timetable/#all.detailed" color="blue">DNS-OARC Spring 2015 Workshop Presentations</a></p>
 <p>
-<a href="https://indico.dns-oarc.net//conferenceTimeTable.py?confId=20#all.detailed">DNS-OARC Fall 2014 Workshop Presentations/Videos</a></p>
+<a href="https://medium.com/@dnsoarc">Latest OARC Blog Posts</a></p>
 <p>
 <a href="https://www.linkedin.com/groups?home=&amp;gid=3193714">DNS-OARC on LinkedIn</a></p>
 <p></p><p>
@@ -118,7 +118,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-CFOH0-4hX2-9JRsJqUrGV8FIQVkwo6FPTBK6gCzZIIA" value="form-CFOH0-4hX2-9JRsJqUrGV8FIQVkwo6FPTBK6gCzZIIA"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-OYhImmnIuOjs3gkx4ELIjOOOO9LvbdAWteaH3k6LxEY" value="form-OYhImmnIuOjs3gkx4ELIjOOOO9LvbdAWteaH3k6LxEY"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -135,7 +135,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-nLuXYMA6y7d3-zjtTY-LGr8JqKrelBIjGRXIlksWdWU" value="form-nLuXYMA6y7d3-zjtTY-LGr8JqKrelBIjGRXIlksWdWU"  />
+<input type="hidden" name="form_build_id" id="form-GqLmkxSBJD7v2xJejUQanEAvMmGw3fuiLB7T2aGTz7w" value="form-GqLmkxSBJD7v2xJejUQanEAvMmGw3fuiLB7T2aGTz7w"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 

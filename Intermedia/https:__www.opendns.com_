@@ -13,12 +13,10 @@
 	<title>OpenDNS: Cloud-Delivered Security Enforcement &amp; Intelligence</title>
 
 	
-	<!--[if (gt IE 8) | (IEMobile)]><!-->
-	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/main.css?v=d1e88be08ad43962df1eff69f89914a8" />
-	<!--<![endif]-->
-
+			<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/homepage.css?v=b956bd23b437264b3726766fd92f23eb" />
+	
 	<!--[if IE 8]>
-	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/ie.css?v=03a98a13b1596685fd1d1fb372ef6101" />
+	<script src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=ae532309762b4d50977278a4a6fc50c4"></script>
 	<![endif]-->
 
 	<link rel='stylesheet' id='style-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/style.css?ver=4.2.2' type='text/css' media='all' />
@@ -28,7 +26,7 @@
 <link rel='stylesheet' id='chosen-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/chosen.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.2.2' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/search.css?v=16cd935555f0674f9d27f5b108830aa4">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/search.css?v=6c1530fa08ecb495334b9515f02a09f2">
 
 	<meta name="viewport" content="width=device-width">
 	
@@ -65,14 +63,9 @@ img.emoji {
 </style>
 <script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
 <script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=2508869c3658b369b0dbd646cbb46040'></script>
+<script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=dcf96e9a25ad9353d859c2a90d69f7ae'></script>
 <meta name="generator" content="WordPress 4.2.2" />
-<script language='JavaScript'>
-	var OB_ADV_ID=28173;
-	var scheme = (("https:" == document.location.protocol) ? "https://" : "http://");
-	var str = '<script src="'+scheme+'widgets.outbrain.com/obtp.js" type="text/javascript"><\/script>';
-		document.write(str);
-</script><script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 
 	</head>
 
@@ -177,11 +170,11 @@ img.emoji {
 			<a href="https://www.opendns.com/about/news-room/">
 				<span class="icon "></span>News Room</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page">
 			<a href="https://www.opendns.com/about/leadership/">
-				<span class="icon "></span>Leadership</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page">
-			<a href="https://www.opendns.com/about/advisors-and-investors/">
-				<span class="icon "></span>Investors</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page">
+				<span class="icon "></span>Leadership & Investors</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page">
 			<a href="https://www.opendns.com/about/innovations/">
 				<span class="icon "></span>Innovations</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom">
+			<a href="/about/events/">
+				<span class="icon "></span>Events</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="http://careers.opendns.com">
 				<span class="icon "></span>Careers</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="/about/#contact">
@@ -193,7 +186,7 @@ img.emoji {
 			<a href="https://www.opendns.com/enterprise-security/threat-intelligence/">
 				<span class="icon "></span>OpenDNS Investigate</a></li><li class="contact-sales demo-request button menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="#">
-				<span class="icon contact-sales"></span>Request a Demo</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=a319c57d58002a2f9557da3f27041284"></script>
+				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=0a96ad88e26988330a327eabb11b687b"></script>
 		</div>
 	</header>
 	<!--
@@ -214,10 +207,21 @@ img.emoji {
 	<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
 
 	
-				<div class="content">
+	<div class="mobile-hide">
+		<div class="promotional-banner homepage-banner security-labs-research-the-2015-internet-of-things-in-the-enterprise background-blue">
+			<div class="grid">
+				<img class="icon" src="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/img/icon-news-banner.png" alt="announcement icon">
+				<p>Security Labs Research: The 2015 Internet of Things in the Enterprise</p>
+									<a class="button" href="/enterprise-security/resources/research-reports/the-2015-internet-of-things-in-the-enterprise-report/">Download the Report</a>
+								<a class="close" href="#"><span>x</span></a>
+			</div>
+		</div>
+	</div>
+
+			<div class="content">
 	
-<div class="image-banner home-hero rsa">
-<div class="banner homepage-hero" style="background-image: url(https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/12/HomeImage_2.jpg);"></div><div class="grid"><h1><span>Predict and Prevent Attacks Before They Happen</span></h1></div><div class="grid"><p class="ice">OpenDNS provides a cloud-delivered network security service<br>that delivers automated protection against advanced attacks<br>for any device, anywhere.</p>
+<div class="image-banner home-hero ice">
+<div class="banner homepage-hero" style="background-image: url(https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/12/HomeImage_2.jpg);"></div><div class="grid"><h1><span>Take Your Security Further</span></h1></div><div class="grid"><p class="ice">Predict attacks before they happen<br>Expand threat protection beyond the perimeter<br>Remove your DNS blind spot</p>
 <div class="cta-block">
 <a href="/enterprise-security/threat-enforcement/" class="business">For Business</a>
 <a href="/home-internet-security/" class="home"> For Personal</a>
@@ -285,29 +289,46 @@ img.emoji {
 
 <div class="customer-list beige">
 	<div class="grid">
-	<p class="title">The most trusted brands choose OpenDNS</p>
-	<div class="logos-container">
-		<div class="nav" id="nav-left">
-			<a href="#"><i class="fa fa-angle-left"></i></a>
+		<p class="title">The most trusted brands choose OpenDNS</p>
+		<div class="logos-container">
+			<div class="nav" id="nav-left">
+				<a href="#"><i class="fa fa-angle-left"></i></a>
+			</div>
+			<div id="customer-logos">
+				<ul class="slides">
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/bp-bw-@2x.png" alt="BP" title="BP"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/nvidia-bw-@2x.png" alt="Nvidia" title="Nvidia"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/xerox-bw-@2x.png" alt="Xerox" title="Xerox"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/06/Evernote_Logo_grey1.png" alt="Evernote" title="Evernote"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/maccaroni-bw-@2x.png" alt="Romanos Macaroni Grill" title="Romanos Macaroni Grill"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/washington-university-bw-@2x1.png" alt="George Washington University" title="George Washington University"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/ul-bw-@2x.png" alt="Underwriters Laboratories" title="Underwriters Laboratories"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/specialized-bw-@2x.png" alt="Specialized" title="Specialized"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/coldwell-bw-@2x.png" alt="Coldwell Banker Prime Properties" title="Coldwell Banker Prime Properties"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/eastern-sports-bw-@2x.png" alt="Eastern Mountain Sports" title="Eastern Mountain Sports"></li>
+									</ul>
+			</div>
+			<div class="nav" id="nav-right">
+				<a href="#"><i class="fa fa-angle-right"></i></a>
+			</div>
 		</div>
-		<div id="customer-logos">
-			<ul class="slides">
-									<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/bp-bw-@2x.png" alt="BP" title="BP"></li>
-									<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/nvidia-bw-@2x.png" alt="Nvidia" title="Nvidia"></li>
-									<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/xerox-bw-@2x.png" alt="Xerox" title="Xerox"></li>
-									<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/maccaroni-bw-@2x.png" alt="Romanos Macaroni Grill" title="Romanos Macaroni Grill"></li>
-									<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/washington-university-bw-@2x1.png" alt="George Washington University" title="George Washington University"></li>
-									<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/ul-bw-@2x.png" alt="Underwriters Laboratories" title="Underwriters Laboratories"></li>
-									<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/specialized-bw-@2x.png" alt="Specialized" title="Specialized"></li>
-									<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/coldwell-bw-@2x.png" alt="Coldwell Banker Prime Properties" title="Coldwell Banker Prime Properties"></li>
-									<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/eastern-sports-bw-@2x.png" alt="Eastern Mountain Sports" title="Eastern Mountain Sports"></li>
-							</ul>
-		</div>
-		<div class="nav" id="nav-right">
-			<a href="#"><i class="fa fa-angle-right"></i></a>
-		</div>
-	</div>
-	</div>
+
+					<p class="video-section-title">See why Edward chose OpenDNS</p>
+			<div class="video-section homepage cover ">
+				<style scoped>
+					.video-section-overlay {
+						background-image: url(https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/06/corp-video-splash.jpg);
+					}
+				</style>
+				<div class="video-section-video">
+					<div class="video-section-overlay ">
+						<p>See why Edward chose OpenDNS</p>
+						<div class="video-section-play"></div>
+					</div> <!-- .video-section-overlay -->
+					<iframe id="youtube-iframe" frameborder="0" allowfullscreen data-src="//www.youtube.com/embed/e5-Fkqceu2Q?controls=2&amp;rel=0&amp;showinfo=0"></iframe>
+				</div> <!-- .video-section-video -->
+			</div> <!-- .video-section -->
+				</div>
 </div>
 
 
@@ -331,12 +352,58 @@ img.emoji {
 			<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/devices-@2x.png" alt="devices" title="Devices OpenDNS protects" width="589" height="72">
 		</div>
 		<div class="cta">
-			<a href="/enterprise-security/threat-enforcement/features/" class="orange large hide-arrow button" title="See Product Features">See Product Features</a>
-			<a href="#" class="button hide-arrow gold large contact-sales info-request" title="See Product Features">Contact Sales</a>
+			<a href="/enterprise-security/threat-enforcement/features/" class="orange button" title="See Product Features">See Product Features</a>
+			<a href="#" class="button grey contact-sales info-request" title="See Product Features">Contact Sales</a>
 		</div>
 		<p><a href="/home-internet-security/" class="readmore">Show me OpenDNS Products for Personal Use &rarr;</a></p>
 	</div>
 </div><!-- product container -->
+
+<div class="home-trending-container">
+	<div class="grid">
+					<div class="trending-items">
+							<div class="item custom-integrations">
+					<h3>Custom Integrations</h3>
+											<a href="/enterprise-security/threat-enforcement/features/custom-integrations/" class="image-link">
+							<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/05/image_1.png" alt="Custom Integrations">
+						</a>
+													<p class="tag">NEW API LAUNCH</p>
+																<p>Learn how to instantly convert your in-house threat intelligence into global threat prevention for employees on and off your network using our new API-based integration.</p>
+
+																		<div class="cta">
+								<a class="learn-more" href="/enterprise-security/threat-enforcement/features/custom-integrations/">
+									Learn More →								</a>
+							</div>
+															</div>
+							<div class="item gartner-research">
+					<h3>Gartner Cool Vendor</h3>
+											<a href="/enterprise-security/resources/white-papers/gartner-cool-vendor-cloud-security-services-2015/" class="image-link">
+							<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/05/gartner-web-promo-540x320-2.jpg" alt="Gartner Cool Vendor">
+						</a>
+													<p class="tag">CLOUD SECURITY SERVICES, 2015</p>
+																<p>OpenDNS was recently recognized in Gartner&#8217;s Cool Vendors Report. Learn what Gartner is saying about OpenDNS security solutions.</p>
+
+																		<div class="cta">
+								<a class="learn-more" href="/enterprise-security/resources/white-papers/gartner-cool-vendor-cloud-security-services-2015/">
+									Learn More →								</a>
+							</div>
+															</div>
+							<div class="item partner-enablement">
+					<h3>Partner Enablement</h3>
+											<a href="/enterprise-security/resources/webcasts/a-better-way-to-pitch-security-to-smbs-introducing-the-msp-partner-enablement-pack/" class="image-link">
+							<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/05/image_2.png" alt="Partner Enablement">
+						</a>
+													<p class="tag">WEBCAST RECORDING</p>
+																<p>See what&#8217;s in the MSP Partner Enablement Pack, a collection of co-branded content that MSPs can use to more effectively communicate the value of security to their SMB customers.</p>
+
+																		<div class="cta">
+								<a class="learn-more" href="/enterprise-security/resources/webcasts/a-better-way-to-pitch-security-to-smbs-introducing-the-msp-partner-enablement-pack/">
+									Watch Webcast →								</a>
+							</div>
+															</div>
+						</div>
+				</div><!-- image-banner -->
+</div><!-- .home-trending-container -->
 
 <div class="image-banner stats">
 <div class="banner home-stats" style="background-image: url(https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/stats-background-@2x.png);"></div><div class="grid"><h1><span>Numbers We Are Proud Of</span></h1></div><div class="grid"><div class="left-box">
@@ -368,17 +435,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">May 13</span>
+							<span class="date">Jun 8</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="https://blog.opendns.com/2015/05/13/opendns-custom-api-operationalizes-threat-intelligence/" title="OpenDNS Enforces Threat Intelligence at the Speed of Automatic">OpenDNS Enforces Threat Intelligence at the Speed of Automatic</a>
+							<a href="https://blog.opendns.com/2015/06/08/the-brief-june-1st-2015/" title="The Brief: June 1st, 2015">The Brief: June 1st, 2015</a>
 						</p>
-						<p class="author">Author: Owen Lystrup</p>
-						<div class="excerpt"><p>As illustrated recently, APIs are already a crucial factor in stitching security intelligence together from the different systems of a &hellip;<span class="overflow"> security stack. Analysts need to know where to apply enforcement, and fast. Each minute matters&hellip;</span></p>
+						<p class="author">Author: The Brief</p>
+						<div class="excerpt"><p>This week in the Brief: toys are gonna pwn you, OPM has a bad time, and a life of crime &hellip;<span class="overflow"> was too hot for the creator of Tox:  &nbsp;  &nbsp;  &nbsp;                                                                                   &hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/05/13/opendns-custom-api-operationalizes-threat-intelligence/" title="OpenDNS Enforces Threat Intelligence at the Speed of Automatic" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/06/08/the-brief-june-1st-2015/" title="The Brief: June 1st, 2015" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 								<li class="post clearfix">
@@ -390,17 +457,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">May 12</span>
+							<span class="date">Jun 4</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="https://blog.opendns.com/2015/05/12/cloud-delivered-security-think-outside-the-box/" title="Cloud-Delivered Security: Think Outside the Box">Cloud-Delivered Security: Think Outside the Box</a>
+							<a href="https://blog.opendns.com/2015/06/04/a-big-ally-against-shadow-it/" title="Cloud Services Report: A Big Ally Against Shadow IT and IoT">Cloud Services Report: A Big Ally Against Shadow IT and IoT</a>
 						</p>
-						<p class="author">Author: Kara Drapala</p>
-						<div class="excerpt"><p>“The cloud” as a phrase has been defined to death, and yet for many people it remains as mysterious as &hellip;<span class="overflow"> its natural namesake. In Gizmodo, Adam Clark Estes writes that “[the] Cloud is a buzzword that vaguely suggests the&hellip;</span></p>
+						<p class="author">Author: Owen Lystrup</p>
+						<div class="excerpt"><p>Last year was a big year for software vulnerabilities. More security flaws were reported in 2014 than ever. Of the &hellip;<span class="overflow"> more than 7,000 vulnerabilities added to the National Vulnerability Database, an estimated 83 percent of them were&hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/05/12/cloud-delivered-security-think-outside-the-box/" title="Cloud-Delivered Security: Think Outside the Box" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/06/04/a-big-ally-against-shadow-it/" title="Cloud Services Report: A Big Ally Against Shadow IT and IoT" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -416,17 +483,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Apr 27</span>
+							<span class="date">Jun 5</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="https://labs.opendns.com/2015/04/27/five-things-to-know-about-the-tesla-motors-compromise/" title="Five Things To Know About The Tesla Motors Compromise">Five Things To Know About The Tesla Motors Compromise</a>
+							<a href="https://labs.opendns.com/2015/06/05/sourceconf-boston-openlate-sftext-meetup-roundup/" title="SourceConf Boston, OpenLate, SFText Meetup Roundup">SourceConf Boston, OpenLate, SFText Meetup Roundup</a>
 						</p>
-						<p class="author">Author: Andrew Hay</p>
-						<div class="excerpt"><p>As many of you have heard, Tesla Motors&#8217; website was &#8220;hacked&#8221; on Saturday as well as its official Twitter account. The teslamotors.com &hellip;<span class="overflow"> website was redirected to a server hosted in Amsterdam. Within a few minutes, the account&hellip;</span></p>
+						<p class="author">Author: Jeremiah O'Connor</p>
+						<div class="excerpt"><p>Source Boston  Last week, Jeremiah O&#8217;Connor and Josh Pyorre, from OpenDNS Security Labs visited Boston to present at &#8216;Source Conference Boston&#8217;. The &hellip;<span class="overflow"> night before the conference, we attended an awesome dinner where we had the&hellip;</span></p>
 </div>
-						<a href="https://labs.opendns.com/2015/04/27/five-things-to-know-about-the-tesla-motors-compromise/" title="Five Things To Know About The Tesla Motors Compromise" class="read-more">Read More &rarr;</a>
+						<a href="https://labs.opendns.com/2015/06/05/sourceconf-boston-openlate-sftext-meetup-roundup/" title="SourceConf Boston, OpenLate, SFText Meetup Roundup" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -440,17 +507,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">May 12</span>
+							<span class="date">Jun 4</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="https://engineering.opendns.com/2015/05/12/elasticsearch-you-know-for-logs-part-3/" title="Elasticsearch: You Know, For Logs [Part 3]">Elasticsearch: You Know, For Logs [Part 3]</a>
+							<a href="https://engineering.opendns.com/2015/06/04/meet-the-team-platform-services/" title="Meet the Team: Platform Services">Meet the Team: Platform Services</a>
 						</p>
-						<p class="author">Author: Harlin Brandvold</p>
-						<div class="excerpt"><p>Part 3: Searching and Sorting In Part 2 of this series, Elasticsearch proved that it could be scaled up with &hellip;<span class="overflow"> relative ease using different instance roles in order to balance the workload. Additionally, Elasticsearch showed that,&hellip;</span></p>
+						<p class="author">Author: Victor Arellano</p>
+						<div class="excerpt"><p>MEET THE TEAM is a new bi-weekly feature that spotlights one of our awesome engineering teams at OpenDNS. This week &hellip;<span class="overflow"> we will be featuring the Platform Services team. Details below!  For more information about the Custom&hellip;</span></p>
 </div>
-						<a href="https://engineering.opendns.com/2015/05/12/elasticsearch-you-know-for-logs-part-3/" title="Elasticsearch: You Know, For Logs [Part 3]" class="read-more">Read More &rarr;</a>
+						<a href="https://engineering.opendns.com/2015/06/04/meet-the-team-platform-services/" title="Meet the Team: Platform Services" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -467,9 +534,9 @@ daily DNS requests
 <ul class="submenu">
 <li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.opendns.com/about/innovations/">OpenDNS Innovations</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="/enterprise-security/threat-enforcement/packages/platform/">Umbrella Platform</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="/enterprise-security/threat-enforcement/packages/insights/">Umbrella Insights</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="/enterprise-security/threat-enforcement/packages/professional/">Umbrella Professional</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.opendns.com/premium-dns/">Premium DNS</a></li></ul></li><li class="columns menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><span class="title">Who We Are</span>
 <ul class="submenu">
-<li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.opendns.com/data-center-locations/">Data Center Locations</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://system.opendns.com">System @ OpenDNS</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://blog.opendns.com">Company Blog</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://engineering.opendns.com">Engineering Blog</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://labs.opendns.com">Security Labs</a></li></ul></li><li class="columns menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><span class="title">Get In Touch</span>
+<li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.opendns.com/data-center-locations/">Data Center Locations</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://system.opendns.com">System @ OpenDNS</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://blog.opendns.com">Company Blog</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://engineering.opendns.com">Engineering Blog</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://labs.opendns.com">Security Labs</a></li></ul></li><li class="columns menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><span class="title">Learn More</span>
 <ul class="submenu">
-<li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="/about/#contact">Contact OpenDNS</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="/about/#community">Community</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="/about/events/">Events</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://careers.opendns.com">Careers</a></li></ul></li></ul></div>			</div>
+<li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="/about/#contact">Contact OpenDNS</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="/about/#community">Community</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.opendns.com/enterprise-security/customers/">Customers</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="/about/events/">Events</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://careers.opendns.com">Careers</a></li></ul></li></ul></div>			</div>
 			<div class="right-column">
 				
 				<ul class="social">
@@ -487,11 +554,11 @@ daily DNS requests
 		<div class="grid">
 			<p>&copy; OpenDNS, 2015</p>
 			<div class="mobile-nav-top">
-				<div class="family-bar"><ul id="menu-top-nav" class="menu"><li id="menu-item-16781" class="search-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-16781"><a href="https://www.opendns.com/search/">Search</a></li>
-<li id="menu-item-16783" class="logout hidden menu-item menu-item-type-custom menu-item-object-custom menu-item-16783"><a href="https://login.opendns.com/logout/?return_to=http%3A%2F%2Fwww.opendns.com%2F">Logout</a></li>
-<li id="menu-item-16785" class="login hidden menu-item menu-item-type-custom menu-item-object-custom menu-item-16785"><a href="https://login.opendns.com/?return_to=https://dashboard2.opendns.com/">Login</a></li>
-<li id="menu-item-16787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16787"><a href="http://support.opendns.com/">Support</a></li>
-<li id="menu-item-16789" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16789"><a href="http://dashboard.opendns.com/">Dashboard</a></li>
+				<div class="family-bar"><ul id="menu-top-nav" class="menu"><li id="menu-item-22041" class="search-icon menu-item menu-item-type-post_type menu-item-object-page menu-item-22041"><a href="https://www.opendns.com/search/">Search</a></li>
+<li id="menu-item-22043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22043"><a href="https://www.opendns.com/support/">Support</a></li>
+<li id="menu-item-22045" class="logout hidden menu-item menu-item-type-custom menu-item-object-custom menu-item-22045"><a href="https://login.opendns.com/logout/?return_to=http%3A%2F%2Fwww.opendns.com%2F">Logout</a></li>
+<li id="menu-item-22047" class="login hidden menu-item menu-item-type-custom menu-item-object-custom menu-item-22047"><a href="https://login.opendns.com/?return_to=https://dashboard2.opendns.com/">Login</a></li>
+<li id="menu-item-22049" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22049"><a href="http://dashboard.opendns.com/">Dashboard</a></li>
 </ul></div>			</div>
 			<ul id="menu-bottom-nav" class="terms"><li id="menu-item-1573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1573"><a href="https://www.opendns.com/privacy-policy/">Privacy Policy</a></li>
 <li id="menu-item-1574" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1574"><a href="https://www.opendns.com/terms-of-service/">Terms of Service</a></li>
@@ -644,12 +711,12 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=dd97ec9b964d6d044eab8cc58df0c641'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":507,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=c5975281f2c9da94a3a0670a4c383b53'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":538,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
 Content Delivery Network via Amazon Web Services: CloudFront: d295hzzivaok4k.cloudfront.net
 
- Served from: www.opendns.com @ 2015-05-13 18:04:34 by W3 Total Cache -->
+ Served from: www.opendns.com @ 2015-06-09 00:47:34 by W3 Total Cache -->

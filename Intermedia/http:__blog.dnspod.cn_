@@ -11,7 +11,7 @@
 			// P2 Configuration
 			var ajaxUrl                 = "http://blog.dnspod.cn/wp-admin/admin-ajax.php?p2ajax=true";
 			var updateRate              = "30000"; // 30 seconds
-			var nonce                   = "17608bc909";
+			var nonce                   = "0020e0c843";
 			var login_url               = "http://blog.dnspod.cn/wp-login.php?redirect_to=http%3A%2F%2Fblog.dnspod.cn%2F";
 			var templateDir             = "http://blog.dnspod.cn/wp-content/themes/p2012";
 			var isFirstFrontPage        = 1;
@@ -28,7 +28,7 @@
 			var inlineEditComments      = 1;
 			var wpUrl                   = "http://blog.dnspod.cn";
 			var rssUrl                  = "";
-			var pageLoadTime            = "2015-05-14 01:00:43";
+			var pageLoadTime            = "2015-06-09 07:47:33";
 			var original_title          = document.title;
 			var commentsOnPost          = new Array;
 			var postsOnPage             = new Array;
@@ -66,7 +66,7 @@
 		//]]>
 		</script>
 		<script type="text/javascript">
-var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=702ff028d2"},"remote_auth":"W10= fff528f034e1a4c4c3b8be8b99278ffa32695e65 1431565243"};
+var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=851d4c4b14"},"remote_auth":"W10= 2635e2e08bb3692d3f128d563a3babf78b8c3c85 1433836053"};
 duoshuoQuery.sso.login += '&redirect_to=' + encodeURIComponent(window.location.href);
 duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.href);
 </script>
@@ -74,7 +74,7 @@ duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var userSettings = {"url":"\/","uid":"0","time":"1431565243"};
+var userSettings = {"url":"\/","uid":"0","time":"1433836053"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/utils.min.js?ver=3.7'></script>
@@ -142,7 +142,7 @@ try{convertEntities(p2txt);}catch(e){};;
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></li>
-<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1431565243292&f=1"></iframe></li>
+<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1433836053863&f=1"></iframe></li>
 <li id="categories-2" class="widget widget_categories"><h2 class="widgettitle">分类目录</h2>
 		<ul>
 	<li class="cat-item cat-item-1"><a href="http://blog.dnspod.cn/category/uncategorized/" title="查看 DNSPod动态 下的所有文章">DNSPod动态</a> (26)
@@ -277,7 +277,7 @@ if (typeof DUOSHUO !== 'undefined')
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://1.gravatar.com/avatar/bca07f9107a0a02302b6ff339bf4cb50?s=16&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://blog.ushiromiyabatora.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://blog.ushiromiyabatora.com']);"  rel='external nofollow' class='url'>猫箱内の巴托拉</a> is discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.ganggan.com/trade?=32" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.ganggan.com']);"  rel='external nofollow' class='url'>杠杆网</a>, and <img alt='' src='http://1.gravatar.com/avatar/bca07f9107a0a02302b6ff339bf4cb50?s=16&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://blog.ushiromiyabatora.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://blog.ushiromiyabatora.com']);"  rel='external nofollow' class='url'>猫箱内の巴托拉</a> are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	
@@ -286,7 +286,7 @@ if (typeof DUOSHUO !== 'undefined')
 	
 
 <ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2015/04/%e9%80%9a%e7%9f%a5%e4%ba%94%e4%b8%80%e6%94%be%e5%81%87%e9%80%9a%e7%9f%a5/#comments" title="《[通知]五一放假通知》上的评论"><span class="ds-thread-count" data-thread-key="5031" data-replace="1">一条评论</span></a></ul>
+	<a href="http://blog.dnspod.cn/2015/04/%e9%80%9a%e7%9f%a5%e4%ba%94%e4%b8%80%e6%94%be%e5%81%87%e9%80%9a%e7%9f%a5/#comments" title="《[通知]五一放假通知》上的评论"><span class="ds-thread-count" data-thread-key="5031" data-replace="1">2 条评论</span></a></ul>
 
 			<div class="respond-wrap" style="display: none; ">
 												<div id="respond" class="comment-respond">
@@ -300,7 +300,7 @@ if (typeof DUOSHUO !== 'undefined')
 							<input type='hidden' name='comment_post_ID' value='5031' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
 						</p>
-						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="d25581e524" /></p>					</form>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="861949a445" /></p>					</form>
 							</div><!-- #respond -->
 				<script type="text/javascript">
 		jQuery(document).ready(function () {
@@ -341,7 +341,7 @@ if (typeof DUOSHUO !== 'undefined')
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://0.gravatar.com/avatar/aa21ca89ded60512964d6923d2192bc1?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://ent.inewya.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://ent.inewya.com']);"  rel='external nofollow' class='url'>新亚娱乐</a>, and <img alt='' src='http://1.gravatar.com/avatar/1b9911e991ac49bdc932e5de17d3160c?s=16&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.kmway.com" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.kmway.com']);"  rel='external nofollow' class='url'>可米网</a> are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://0.gravatar.com/avatar/2296cbf6d52f7e1a3bd25d68a0d42711?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> dnspod用户, <img alt='' src='http://0.gravatar.com/avatar/2875bb827d3bbdbd16eb84af56aa2d3d?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> o, <img alt='' src='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.ganggan.com/trade?=32" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.ganggan.com']);"  rel='external nofollow' class='url'>杠杆网</a> and 4 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	
@@ -350,7 +350,7 @@ if (typeof DUOSHUO !== 'undefined')
 	
 
 <ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2015/04/tingdiantongzhi/#comments" title="《[通知]停电通知》上的评论"><span class="ds-thread-count" data-thread-key="5024" data-replace="1">2 条评论</span></a></ul>
+	<a href="http://blog.dnspod.cn/2015/04/tingdiantongzhi/#comments" title="《[通知]停电通知》上的评论"><span class="ds-thread-count" data-thread-key="5024" data-replace="1">7 条评论</span></a></ul>
 
 </li>
 				    		<li id="prologue-5003" class="post-5003 post type-post status-publish format-standard hentry category-uncategorized tag-dnspod tag-382">
@@ -380,7 +380,7 @@ if (typeof DUOSHUO !== 'undefined')
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=16' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://t.qq.com/xiaocangdedian" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://t.qq.com']);"  rel='external nofollow' class='url'>小苍淘宝店</a>, <img alt='' src='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.ganggan.com/trade?=32" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.ganggan.com']);"  rel='external nofollow' class='url'>杠杆网</a>, <img alt='' src='http://0.gravatar.com/avatar/ad4ea0fce8f3f4fb8fbefc2ea51b3a01?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://weibo.com/gangganwb" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://weibo.com']);"  rel='external nofollow' class='url'>杠杆资本</a> and 6 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://1.gravatar.com/avatar/3565c1d5dffc3c4c71fc77c032410def?s=16&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> x, <img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=16' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://t.qq.com/xiaocangdedian" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://t.qq.com']);"  rel='external nofollow' class='url'>小苍淘宝店</a>, <img alt='' src='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.ganggan.com/trade?=32" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.ganggan.com']);"  rel='external nofollow' class='url'>杠杆网</a> and 7 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	
@@ -389,7 +389,7 @@ if (typeof DUOSHUO !== 'undefined')
 	
 
 <ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2015/03/shujukuweihu/#comments" title="《[通知]数据库维护》上的评论"><span class="ds-thread-count" data-thread-key="5003" data-replace="1">9 条评论</span></a></ul>
+	<a href="http://blog.dnspod.cn/2015/03/shujukuweihu/#comments" title="《[通知]数据库维护》上的评论"><span class="ds-thread-count" data-thread-key="5003" data-replace="1">10 条评论</span></a></ul>
 
 </li>
 				    		<li id="prologue-4992" class="post-4992 post type-post status-publish format-standard hentry category-uncategorized category-notice tag-dnspod tag-371">
@@ -548,7 +548,7 @@ f1g1ns2.dnspod.net  122.225.217.191</p>
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://0.gravatar.com/avatar/42e87135ee3ed2ea1eebdffc3f1107f0?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.xinqingyulu.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.xinqingyulu.com']);"  rel='external nofollow' class='url'>心情语录网精选</a>, <img alt='' src='http://0.gravatar.com/avatar/ed9b88f7fecc06ad3574fae094b598e3?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://tcmpan.cn/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://tcmpan.cn']);"  rel='external nofollow' class='url'>潘中医</a>, <img alt='' src='http://1.gravatar.com/avatar/17a5f489302305aa84be5e81c449c5ce?s=16&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.188881.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.188881.com']);"  rel='external nofollow' class='url'>18通讯网</a> and 7 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://1.gravatar.com/avatar/772c92b43be9754924fee9ab67430d57?s=16&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://yingkou.144n.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://yingkou.144n.com']);"  rel='external nofollow' class='url'>营口婚纱摄影</a>, <img alt='' src='http://0.gravatar.com/avatar/42e87135ee3ed2ea1eebdffc3f1107f0?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.xinqingyulu.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.xinqingyulu.com']);"  rel='external nofollow' class='url'>心情语录网精选</a>, <img alt='' src='http://0.gravatar.com/avatar/ed9b88f7fecc06ad3574fae094b598e3?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://tcmpan.cn/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://tcmpan.cn']);"  rel='external nofollow' class='url'>潘中医</a> and 8 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	
@@ -557,7 +557,7 @@ f1g1ns2.dnspod.net  122.225.217.191</p>
 	
 
 <ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2014/12/yumignhuodong/#comments" title="《[活动]“域”见，就任性！》上的评论"><span class="ds-thread-count" data-thread-key="4952" data-replace="1">11 条评论</span></a></ul>
+	<a href="http://blog.dnspod.cn/2014/12/yumignhuodong/#comments" title="《[活动]“域”见，就任性！》上的评论"><span class="ds-thread-count" data-thread-key="4952" data-replace="1">12 条评论</span></a></ul>
 
 </li>
 				    		<li id="prologue-4946" class="post-4946 post type-post status-publish format-standard hentry category-culture category-notice tag-dnspod tag-378">

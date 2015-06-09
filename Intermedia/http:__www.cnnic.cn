@@ -286,8 +286,8 @@
                    <div class="whios001" style="height:54px; margin:0; padding:0"></div>
 				   <h4>
                         <ul>
-                          <li class="fenlei" style="margin-left:20px; display: inline" id="whj1"><a class="PL_SEARCH_CLASS hover" plvalue='search_cn_4063.html'>.CN</a></li>
-                            <li class="fenlei" id="whj2"><a class='PL_SEARCH_CLASS' plvalue='search_zg_4067.html'>.中国</a></li>
+                          <li class="fenlei" style="margin-left:20px; display: inline" id="whj1"><a class="PL_SEARCH_CLASS hover" plvalue='search_cn_newwhoisweb.html'>.CN</a></li>
+                            <li class="fenlei" id="whj2"><a class='PL_SEARCH_CLASS' plvalue='search_zg_newwhoisweb.html'>.中国</a></li>
                             <li class="fenlei" id="whj3"><a class='PL_SEARCH_CLASS' plvalue='search_gs_4065.html'>.公司</a></li>
                             <li class="fenlei" id="whj4"><a class='PL_SEARCH_CLASS' plvalue='search_wl_4066.html'>.网络 </a></li>
                             
@@ -300,7 +300,7 @@
                    </h4>
                    
                      <h4 id='whi_01'  class='PL_SEARCH_CONTENT_CLASS'>
-		<iframe allowtransparency=true id='PL_WHOIES_SEARCH_IFRAME' name='PL_WHOIES_SEARCH_IFRAME' scrolling="no" src='search_cn_4063.html' frameborder='0' width='245px' height='96px' style="float:left;"></iframe>
+		<iframe allowtransparency=true id='PL_WHOIES_SEARCH_IFRAME' name='PL_WHOIES_SEARCH_IFRAME' scrolling="no" src='search_cn_newwhoisweb.html' frameborder='0' width='245px' height='96px' style="float:left;"></iframe>
 					</h4>
                 </div>
                 <!--[if !IE]>whios结束<![endif]-->
@@ -460,23 +460,23 @@ document.getElementById(imgArr[random]).style.display="block";
                         <ul>
 						   
 						   <li>						                           
-							   <a href="./gywm/xwzx/rdxw/2015/201505/t20150511_52185.htm"><img src="./gywm/xwzx/rdxw/2015/201505/W020150511627596490233.jpg" width="66" height="46"/></a>							 
+							   <a href="./gywm/xwzx/rdxw/2015/201506/t20150608_52353.htm"><img src="./gywm/xwzx/rdxw/2015/201506/W020150608346505681663.png" width="66" height="46"/></a>							 
                                 <dd class="thirdtitle" style="height:auto;font-size:12px;">
-                                    <a href="./gywm/xwzx/rdxw/2015/201505/t20150511_52185.htm">CNNIC发布2014年社会责任报告和年报</a>[05/11]</dd>
+                                    <a href="./gywm/xwzx/rdxw/2015/201506/t20150608_52353.htm">CNNIC与黑龙江网信办签订战略合作框架协议</a>[06/08]</dd>
                                       						
                              </li>
 							   
 						   <li>						                           
-							   <a href="./gywm/xwzx/rdxw/2015/201504/t20150427_52139.htm"><img src="./gywm/xwzx/rdxw/2015/201504/W020150427758840259121.jpg" width="66" height="46"/></a>							 
+							   <a href="./gywm/xwzx/rdxw/2015/201506/t20150604_52254.htm"><img src="./gywm/xwzx/rdxw/2015/201506/W020150604556497659193.jpg" width="66" height="46"/></a>							 
                                 <dd class="thirdtitle" style="height:auto;font-size:12px;">
-                                    <a href="./gywm/xwzx/rdxw/2015/201504/t20150427_52139.htm">IEEE秘书长詹姆斯•普兰德盖斯特一行到访CNNIC</a>[04/27]</dd>
+                                    <a href="./gywm/xwzx/rdxw/2015/201506/t20150604_52254.htm">CNNIC两项国际PCT专利在中国、美国获得授权</a>[06/04]</dd>
                                       						
                              </li>
 							   
 						   <li>						                           
-							   <a href="./gywm/xwzx/rdxw/2015/201503/t20150330_52031.htm"><img src="./gywm/xwzx/rdxw/2015/201503/W020150330624033796545.png" width="66" height="46"/></a>							 
+							   <a href="./gywm/xwzx/rdxw/2015/201506/t20150603_52251.htm"><img src="./gywm/xwzx/rdxw/2015/201506/W020150603606595028578.png" width="66" height="46"/></a>							 
                                 <dd class="thirdtitle" style="height:auto;font-size:12px;">
-                                    <a href="./gywm/xwzx/rdxw/2015/201503/t20150330_52031.htm">CNNIC技术专家主导制定互联网下一代WHOIS国际标准</a>[03/30]</dd>
+                                    <a href="./gywm/xwzx/rdxw/2015/201506/t20150603_52251.htm">CNNIC2012级研究生毕业学位论文答辩顺利完成</a>[06/03]</dd>
                                       						
                              </li>
 							 
@@ -486,6 +486,9 @@ document.getElementById(imgArr[random]).style.display="block";
                     <div id="content_02" class="tzgg" style="height: 200px; overflow: hidden; display: none">
                         <ul>
 						                               
+                            <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201505/t20150515_52209.htm">关于CNNIC进行系统升级维护的通知</a>[05/15] 
+							</li> 
+						                               
                             <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201504/t20150402_52050.htm">声明</a>[04/02] 
 							</li> 
 						                               
@@ -493,9 +496,6 @@ document.getElementById(imgArr[random]).style.display="block";
 							</li> 
 						                               
                             <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201408/t20140819_47847.htm">“.公司”和“.网络”抢滩期注册及竞价规则</a>[08/19] 
-							</li> 
-						                               
-                            <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201408/t20140812_47690.htm">关于“.CN”及“.中国”（简繁体）DNSSEC密钥轮转的公告</a>[08/12] 
 							</li> 
 						   
                         </ul>
@@ -630,7 +630,7 @@ scroll_70.Start(true);//开始滚动
 <a href="http://www.cilab.cn/" target="_blank">CNNIC-ISC联合实验室</a></li>
 
 <li class="MnewsList"><div class="tup1"><img src="./zydhtp/201206/W020120625572870071184.jpg" width=40 height=35/></div>
-<a href="http://www.ccarl.cn/" target="_blank">CNNIC-思科联合实验室</a></li>
+<a href="http://www.cnnic.cn/" target="_blank">CNNIC-思科联合实验室</a></li>
 
 <li class="MnewsList"><div class="tup1"><img src="./zydhtp/201206/W020140509479332670119.jpg" width=40 height=35/></div>
 <a href="http://www.sdns.cn/" target="_blank">SDNS云解析服务</a></li>
@@ -728,12 +728,7 @@ scroll_70.Start(true);//开始滚动
                                                 
                                                 
                                                 <td>
-                                                    <div class="homepage-slider-item" id="aktuals9" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2014/201406/t20140604_47151.htm"><img src="./sylhtb/201406/W020140604836580359898.jpg" width=715 height=240 target='_blank'/></a></div>
-                                                </td>
-                                                
-                                                
-                                                <td>
-                                                    <div class="homepage-slider-item" id="aktuals10" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2014/201405/t20140527_47098.htm"><img src="./sylhtb/201405/W020140527789412081301.jpg" width=715 height=240 target='_blank'/></a></div>
+                                                    <div class="homepage-slider-item" id="aktuals9" ><a href="http://cnnic.cn/gywm/xwzx/rdxw/2014/201405/t20140527_47098.htm"><img src="./sylhtb/201405/W020140527789412081301.jpg" width=715 height=240 target='_blank'/></a></div>
                                                 </td>
                                                 
                                             </tr>
@@ -762,8 +757,6 @@ scroll_70.Start(true);//开始滚动
                                         <a href="#" id="aktuals8_btn" onmouseover="scrollToElem(8); return false;"></a>
                                        
                                         <a href="#" id="aktuals9_btn" onmouseover="scrollToElem(9); return false;"></a>
-                                       
-                                        <a href="#" id="aktuals10_btn" onmouseover="scrollToElem(10); return false;"></a>
                                        
                                         
                                         <!--[if !IE]> END .navigation <![endif]-->

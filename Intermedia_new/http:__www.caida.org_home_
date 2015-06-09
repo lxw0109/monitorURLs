@@ -364,10 +364,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="/projects/ark/"><img title="We are now deploying small, inexpensive network measurement nodes, based on the Raspberry Pi, in the Ark measurement infrastructure.  Although tiny, a Raspberry Pi is as capable as a desktop system of several generations ago and offers a flexible Linux-powered programmable platform for conducting networking research.  These systems can be placed anywhere that is convenient for a hosting site, including on someone's desk, and the transition from deploying traditional rack-mounted servers to Raspberry Pi's will allow us to scale up the Ark infrastructure." alt="" height="250" width="300" src="/images/ark-raspi-monitor_300h250.png"></a>
+<a href="/publications/papers/2009/small_blocks_complex_nets/"><img title="Visualization of the PGP network and its dK-randomizations" alt="" height="250" width="300" src="/images/dk_series-pgp_randomizations_med.png"></a>
 </div>
 <div class="captiontext">
-<a href="/projects/ark/">Ark Raspberry Pi-based Network Monitor (2013)</a>
+<a href="/publications/papers/2009/small_blocks_complex_nets/">dK-randomizations of the PGP network</a>
 </div>
 <hr>
 <div class="captiontext">
@@ -486,6 +486,12 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 <div class="rccontent">
 <table summary="CAIDA Blog: According to the Best Available Data" class="feedtable">
 <tr>
+<td><a href="http://blog.caida.org/best_available_data/2015/05/28/caida-takes-over-stewardship-of-spoofer-project-infrastructure/" title="Originally started by Rob Beverly while a graduate student at MIT, the Spoofer project attempts to measure the Internet&amp;#8217;s susceptibility to spoofed source address IP packets. From Rob&amp;#8217;s original project web page (now moved to CAIDA, see below): Malicious users capitalize on the ability to &amp;#8220;spoof&amp;#8221; source IP addresses for anonymity, indirection, targeted attacks and [&amp;#8230;]">CAIDA takes over stewardship of Spoofer Project infrastructure</a></td><td>May&nbsp;28</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://blog.caida.org/best_available_data/2015/05/19/workshop-on-internet-economics-wie2014-final-report/" title="The final report for our Workshop on Internet Economics (WIE2014) is available for viewing. The abstract: On December 10-11 2014, we hosted the 4th interdisciplinary Workshop on Internet Economics (WIE) at the UC San Diego&rsquo;s Supercomputer Center. This workshop series provides a forum for researchers, Internet facilities and service providers, technologists, economists, theorists, policy makers, [&amp;#8230;]">Workshop on Internet Economics (WIE2014) Final Report</a></td><td>May&nbsp;19</td>
+</tr>
+<tr>
 <td><a href="http://blog.caida.org/best_available_data/2015/04/01/rfc-7514-really-explicit-congestion-notification-recn/" title="I feel that somewhere up there Jon Postel is smiling about Matthew&amp;#8217;s RFC 7514, published today: The deployment of Explicit Congestion Notification (ECN) [RFC3168] remains stalled. While most operating systems support ECN, it is currently disabled by default because of fears that enabling ECN will break transport protocols. This document proposes a new ICMP message [&amp;#8230;]">RFC 7514 : Really Explicit Congestion Notification (RECN)</a></td><td>Apr&nbsp;2</td>
 </tr>
 <tr class="zebra">
@@ -493,15 +499,6 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 </tr>
 <tr>
 <td><a href="http://blog.caida.org/best_available_data/2015/01/13/report-from-the-1st-ndn-community-meeting-ndncomm/" title="The report for the 1st NDN Community Meeting (NDNcomm) is available online now. This report, &amp;#8220;The First Named Data Networking Community Meeting (NDNcomm)&amp;#8220;, is a brief summary of the first NDN Community Meeting held at UCLA in Los Angeles, California on September 4-5, 2014. The meeting provided a platform for the attendees from 39 institutions [&amp;#8230;]">Report from the 1st NDN Community Meeting (NDNcomm)</a></td><td>Jan&nbsp;13</td>
-</tr>
-<tr class="zebra">
-<td style="background: center"></td><td align="left"><span class="yeartext">2014</span></td>
-</tr>
-<tr class="zebra">
-<td><a href="http://blog.caida.org/best_available_data/2014/12/23/north-korean-internet-outages-observed/" title="As reported by Dyn Research, North Korea has experienced extremely unstable Internet connectivity in the last few days. We offer a near real-time (30-minute delayed) view of the BGP-visibility of the 4 IPv4 prefixes announced by STAR-KP, Ryugyong-dong (North Korea&amp;#8217;s national telecommunications provider). This real-time view represents a sneak peek of the intended outcomes of [&amp;#8230;]">North Korean Internet outages observed</a></td><td>Dec&nbsp;24</td>
-</tr>
-<tr>
-<td><a href="http://blog.caida.org/best_available_data/2014/10/17/architecture-innovation-2020-and-2030/" title="Today I participated as a panelist in the Internet Regulation 2020 hosted by Duke Law&amp;#8217;s Center for Innovation Policy at the National Academy of Sciences. The questions for my panel were: What are the most significant realistic changes in network architecture, capacity, and connectivity by 2020? In what ways might these developments be affected, perhaps [&amp;#8230;]">architecture innovation 2020 (and 2030)</a></td><td>Oct&nbsp;17</td>
 </tr>
 </table>
 </div>

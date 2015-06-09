@@ -145,7 +145,7 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
                         <ul>
                           <li><a href="meeting/important-dates-2015.html#ietf93">Important Dates</a></li>
                           <li>IETF 93  Agenda</li>
-                          <li>Meeting Materials</li>
+                          <li><a href="https://datatracker.ietf.org/meeting/93/materials.html">Meeting Materials</a></li>
                           <li><a href="meeting/93/hotel.html">Venue Information: The Hilton Prague</a></li>
                           <li>Remote Participation</li>
                       </ul></td>

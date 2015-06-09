@@ -43,7 +43,7 @@
 <!--[if lt IE 9]>
     <link href="https://www.apnic.net/_designs/corporate-identity/css/bootstrap.min.css" rel="stylesheet">
 <![endif]-->
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.3.1" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.3.2" rel="stylesheet">
         <link href="https://www.apnic.net/__data/assets/css_file/0016/72322/legacy.css?v=0.1.9" rel="stylesheet">
 
         <style>
@@ -54,7 +54,7 @@
         </style>
 
 <!-- CSS Extras -->
-        <link href="https://www.apnic.net/__data/assets/css_file/0009/72675/home-20140815-1.css?v=0.2.1" rel="stylesheet">
+        <link href="https://www.apnic.net/__data/assets/css_file/0009/72675/home-20140815-1.css?v=0.3.1" rel="stylesheet">
 
 
 <!-- IE Support -->
@@ -68,7 +68,7 @@
         <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <script src="https://www.apnic.net/__data/assets/js_file/0004/76360/miscjs.js?v=0.4.8"></script>
+        <script src="https://www.apnic.net/__data/assets/js_file/0004/76360/miscjs.js?v=0.5.1"></script>
 
 
 						
@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 14 May 2015 11:04:30
+  Page generated: 09 June 2015 17:47:29
 -->
 
 
@@ -417,8 +417,10 @@ $('.theme-about #header-label span').text('About APNIC');
       </h2>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-25-february-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 25 February 2015</a></h3>
-<p class="ellipsis" data-ellipsis-rows="2"><p>Some users experienced problems registering and logging in to MyAPNIC.</p>
+      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-14-may-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 14 May 2015</a></h3>
+<p class="ellipsis" data-ellipsis-rows="2">
+<p>Some users experienced problems access the MyAPNIC website, FTP website and RPKI.</p>
+
 
 
 
@@ -429,17 +431,18 @@ $('.theme-about #header-label span').text('About APNIC');
 </div>        </div><!-- /.col-sm-3 -->
     </div><!-- /.row -->
     <div class="row" id="bottom-row">
-        <div class="col-sm-9 adverts" id="adverts-1">
-<a class="advert" id="advert-1" href="//www.apnic.net/services/become-a-member"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>Become a Member</span><b class="apnic-sprite apnic-sprite-icons"></b></a>
-<a class="advert" id="advert-2" href="//isif.asia/"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>Support ISIF</span><img src="https://www.apnic.net/__data/assets/image/0006/76407/isif-logo.png" alt=""/></a>
-<a class="advert" id="advert-3" href="//nro.net/"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>APNIC is a member of the </span><b class="apnic-sprite apnic-sprite-icons"><span>NRO</span></b></a>
-<a class="advert" id="advert-4" href="https://www.apnic.net/community/iana-transition"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>IANA Oversight Transition</span></a>
+        <div class="col-sm-9 features" id="features-1">
+<a class="feature" id="feature-1" href="//www.apnic.net/services/become-a-member"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>Become a Member</span><b class="apnic-sprite apnic-sprite-icons"></b></a>
+<a class="feature" id="feature-2" href="//isif.asia/"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>Support ISIF</span><img src="https://www.apnic.net/__data/assets/image/0006/76407/isif-logo.png" alt=""/></a>
+<a class="feature" id="feature-3" href="//nro.net/"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>APNIC is a member of the </span><b class="apnic-sprite apnic-sprite-icons"><span>NRO</span></b></a>
+<a class="feature" id="feature-4" href="https://www.apnic.net/community/iana-transition"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>IANA Oversight Transition</span></a>
         </div><!-- /.col-sm-9 -->
-        <div class="col-sm-3 adverts" id="adverts-2">
-<a class="advert" id="advert-5" href="//www.apnic.net/helpdesk" data-ga-label="APNIC Helpdesk Need Help?"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>APNIC Helpdesk</span><em>Need Help?</em><b class="apnic-sprite apnic-sprite-icons"></b></a>
+        <div class="col-sm-3 features" id="features-2">
+<a class="feature" id="feature-5" href="//www.apnic.net/helpdesk" data-ga-label="APNIC Helpdesk Need Help?"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>APNIC Helpdesk</span><em>Need Help?</em><b class="apnic-sprite apnic-sprite-icons"></b></a>
         </div><!-- /.col-sm-3 -->
     </div><!-- /.row -->
-</div><!-- /.container --> 
+</div><!-- /.container -->
+ 
 
 <!-- Page Content Ends -->
             		
