@@ -86,6 +86,26 @@ def getServerEmail():
     f.close()
     return email, passwd, server
 
+def getCopyBlind():
+    '''
+    Format
+    Recipient:lxw.ucas@gmail.com,lxw0109@gmail.com
+    Carbon Copy:lxw.ucas@gmail.com,lxw0109@gmail.com
+    Blind Carbon Copy:lxw.ucas@gmail.com,lxw0109@gmail.com
+    '''
+    f = open("./receive.conf")
+    flag = True
+    while 1:
+        line = f.readline().strip()
+        if "Recipient" in line:
+            flag = False
+            break
+    if flag:
+        pass
+    else:
+        f.write(
+
+
 def sendEmail(subject, content):
     """
     Send Email.

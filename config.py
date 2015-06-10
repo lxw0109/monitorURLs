@@ -60,12 +60,10 @@ def config():
         f = open("./.Data/user", "wb")
         pickle.dump(user, f)
         f.close()
-        string = "Hint:\nYou can also config the Email recipients, Carbon Copy and Blind Carbon Copy in the receive.conf file."
-        print string
+        print "\n\n--Hint--:"
+        print "You can also config the Email recipients, Carbon Copy and Blind Carbon Copy in the receive.conf file."
     else:
         print "Something wrong to do with your configuration. Please run \"python config.py\" to config it again"
-
-
 
 def getPasswd():
     passwd = getpass.getpass()
