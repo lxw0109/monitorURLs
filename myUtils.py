@@ -79,6 +79,7 @@ def sendEmail(subject, content):
         userName = "liuxiaowei@cnnic.cn"
         #password = "Python1"
         password = "8885741a"
+        #SMTPAuthenticationError
 
         #fromAddr = "monitorURL@foxmail.com"
         fromAddr = "liuxiaowei@cnnic.cn"

@@ -18,6 +18,7 @@ cp criterion_new criterion
 touch accessErrorURLs
 [ -d Intermedia ] || mkdir Intermedia
 [ -d Intermedia_new ] || mkdir Intermedia_new
+[ -d .Data ] || mkdir .Data
 
 cd ./Intermedia/
 rm ./*

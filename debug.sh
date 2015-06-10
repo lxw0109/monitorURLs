@@ -14,6 +14,7 @@ cd /home/lxw/monitorURL
 touch accessErrorURLs
 [ -d Intermedia ] || exit 0
 [ -d Intermedia_new ] || exit 0
+[ -d .Data ] || mkdir .Data
 
 #Monitor:
 python ./monitorURLs.py "debug" >> ./monitorLog

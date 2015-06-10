@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-k7DCJfxRVcIvWuGFP-UoudoUW8GliVefEAHG9qhS7EQ" value="form-k7DCJfxRVcIvWuGFP-UoudoUW8GliVefEAHG9qhS7EQ"  />
+<input type="hidden" name="form_build_id" id="form-ZZUEoowI53F1dJgO545dksRgAbbDXy2iwNmY2-njzRw" value="form-ZZUEoowI53F1dJgO545dksRgAbbDXy2iwNmY2-njzRw"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-AJBUxzi6eWAZAthiC7TTsRi8UtLUt7pT62se0a7ahfc" value="form-AJBUxzi6eWAZAthiC7TTsRi8UtLUt7pT62se0a7ahfc"  />
+<input type="hidden" name="form_build_id" id="form-TDvCrdK2-zOzz3KzK_kuILZ6rNDn7xQHJ5N06S4NG1A" value="form-TDvCrdK2-zOzz3KzK_kuILZ6rNDn7xQHJ5N06S4NG1A"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
+                <span class="field-content">June 10, 2015, 10:34 am</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://blog.apnic.net/2015/06/10/apnic-is-looking-for-a-new-trainer/">APNIC is looking for a new trainer</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-timestamp">
+                <span class="field-content">June 9, 2015, 10:56 am</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://blog.apnic.net/2015/06/09/apnic-40-policy-process-begins/">APNIC 40 policy process begins</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field-timestamp">
                 <span class="field-content">June 8, 2015, 7:36 am</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="http://blog.apnic.net/2015/06/08/event-wrap-bdnog-3/">Event Wrap: BdNOG 3</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-2 views-row-even">  
-  <div class="views-field-timestamp">
-                <span class="field-content">June 5, 2015, 2:16 pm</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/06/05/event-wrap-lacnic-23/">Event Wrap: LACNIC 23</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-timestamp">
-                <span class="field-content">June 5, 2015, 12:50 pm</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/06/05/thoughts-from-nanog-64/">Thoughts from NANOG 64</a></span>
   </div>
 </li>
       </ul>

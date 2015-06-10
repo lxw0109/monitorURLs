@@ -152,3 +152,79 @@ Monitor Finished.   Monitor Time: 2015-06-09-15:50:48.   Time Cost: 0'15"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
+EMAIL SENDING: 	2015-06-10-10:46:08
+
+EMAIL SENDING ERROR: 	2015-06-10-10:46:09
+Traceback (most recent call last):
+  File "/home/lxw/Project/monitorURL/myUtils.py", line 106, in sendEmail
+    sm.login(userName, password)
+  File "/usr/local/lib/python2.7/smtplib.py", line 614, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, 'Error: authentication failed')
+
+Monitor Finished.   Monitor Time: 2015-06-10-10:46:09.   Time Cost: 0'51"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+[Quite Normal, url recovery.] lxw_KeyError: http://www.cnvd.org.cn/	2015-06-10-10:51:33
+
+EMAIL SENDING: 	2015-06-10-10:51:40
+
+EMAIL SENDING SUCCESS: 	2015-06-10-10:51:41
+
+Monitor Finished.   Monitor Time: 2015-06-10-10:51:41.   Time Cost: 0'24"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+EMAIL SENDING: 	2015-06-10-13:35:08
+
+EMAIL SENDING SUCCESS: 	2015-06-10-13:35:09
+
+Monitor Finished.   Monitor Time: 2015-06-10-13:35:09.   Time Cost: 0'14"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+TEST EMAIL SENDING: 	2015-06-10-14:34:41
+
+TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-14:34:42
+Traceback (most recent call last):
+  File "config.py", line 110, in testSendEmail
+    sm = smtplib.SMTP(smtpServer)
+  File "/usr/local/lib/python2.7/smtplib.py", line 250, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python2.7/smtplib.py", line 310, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python2.7/smtplib.py", line 285, in _get_socket
+    return socket.create_connection((host, port), timeout)
+  File "/usr/local/lib/python2.7/socket.py", line 553, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno -2] Name or service not known
+
+------------------------------------------------------------------------------
+
+TEST EMAIL SENDING: 	2015-06-10-14:35:18
+
+TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-14:35:18
+Traceback (most recent call last):
+  File "config.py", line 110, in testSendEmail
+    sm = smtplib.SMTP(smtpServer)
+  File "/usr/local/lib/python2.7/smtplib.py", line 250, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python2.7/smtplib.py", line 310, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python2.7/smtplib.py", line 285, in _get_socket
+    return socket.create_connection((host, port), timeout)
+  File "/usr/local/lib/python2.7/socket.py", line 553, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno -2] Name or service not known
+
+------------------------------------------------------------------------------
+
+EMAIL SENDING: 	2015-06-10-14:36:52
+
+EMAIL SENDING SUCCESS: 	2015-06-10-14:36:53
+
+Monitor Finished.   Monitor Time: 2015-06-10-14:36:53.   Time Cost: 0'13"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
