@@ -94,17 +94,22 @@ def getCopyBlind():
     Blind Carbon Copy:lxw.ucas@gmail.com,lxw0109@gmail.com
     '''
     f = open("./receive.conf")
-    flag = True
     while 1:
-        line = f.readline().strip()
-        if "Recipient" in line:
-            flag = False
+        line = f.readline()
+        if not line:
             break
-    if flag:
-        pass
-    else:
-        f.write(
-
+        line = line.strip()
+        if "Recipient" in line:
+            line = line.replace("Recipient:", "")
+            line = line.strip()
+        if "Carbon Copy" in line and "Blind" not in line:
+            line = line.replace("Carbon Copy:", "")
+            line = line.strip()
+        if "Blind Carbon Copy" in line:
+            line = line.replace("Blind Carbon Copy:", "")
+            line = line.strip()
+        print line
+    f.close()
 
 def sendEmail(subject, content):
     """
@@ -119,6 +124,7 @@ def sendEmail(subject, content):
         smtpServer = server
         userName = email
         password = passwd
+        cb = getCopyBlind()
 
         fromAddr = email
         toAddrs = ["lxwin@foxmail.com"]
@@ -616,6 +622,7 @@ def test():
 if __name__ == '__main__':
     start = datetime.datetime.now()
     #initCriterion()
-    test()
+    #test()
+    getCopyBlind()
     end = datetime.datetime.now()
     #writeLog("Method initCriterion() finishes. Time cost: ", "", str(end-start) + " seconds.")

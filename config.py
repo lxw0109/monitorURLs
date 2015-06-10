@@ -42,7 +42,7 @@ def encodeStr(string):
     result = base64.b64encode(string)
     return result
 
-def config():
+def configMailServer():
     prompt = "Please Input Your Mail Server(such as smtp.gmail.com/smtp.cnnic.cn):"
     print prompt
     mailServer = raw_input()
@@ -50,7 +50,7 @@ def config():
     print prompt
     username = raw_input()
     password = getPasswd()
-    flag = testConfig(mailServer, username, password)
+    flag = testConfigMailServer(mailServer, username, password)
     if flag:
         #encode
         mailServer = encodeStr(mailServer)
@@ -60,19 +60,81 @@ def config():
         f = open("./.Data/user", "wb")
         pickle.dump(user, f)
         f.close()
+        configRecipient()
+        '''
         print "\n\n--Hint--:"
         print "You can also config the Email recipients, Carbon Copy and Blind Carbon Copy in the receive.conf file."
+        '''
     else:
         print "Something wrong to do with your configuration. Please run \"python config.py\" to config it again"
+        configRecipient()
+
+def configRecipient():
+    '''
+    Format
+    Recipient:lxw.ucas@gmail.com,lxw0109@gmail.com
+    Carbon Copy:lxw.ucas@gmail.com,lxw0109@gmail.com
+    Blind Carbon Copy:lxw.ucas@gmail.com,lxw0109@gmail.com
+    '''
+    prompt = "Please Input the Recipient Email Address(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
+    prompt += "If more than one email offered, split them with a comma symbol ',' :"
+    print prompt
+    recipient = raw_input().strip()
+    if not recipient:
+        print "Illegal recipient. System Exit!"
+    if '@' not in recipient:
+        print "Illegal Email Address. System Exit!"
+        sys.exit(1)
+
+    prompt = "Please Input the Carbon Copy Email Address(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
+    prompt += "If more than one email offered, split them with a comma symbol ',' :\n"
+    prompt += "If no Carbon Copy Email Address, just press 'Enter'."
+    print prompt
+    carbonCopy = raw_input().strip()
+    if not carbonCopy:
+        pass
+    elif '@' not in carbonCopy:
+        print "Illegal Email Address. System Exit!"
+        sys.exit(1)
+
+    prompt = "Please Input the Blind Carbon Copy Email Address(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
+    prompt += "If more than one email offered, split them with a comma symbol ',' :\n"
+    prompt += "If no Carbon Copy Email Address, just press 'Enter'."
+    print prompt
+    blindCarbonCopy = raw_input().strip()
+    if not blindCarbonCopy:
+        pass
+    elif '@' not in blindCarbonCopy:
+        print "Illegal Email Address. System Exit!"
+        sys.exit(1)
+    inReceiveFile(recipient, carbonCopy, blindCarbonCopy)
+
+def inReceiveFile(recipient, carbonCopy, blindCarbonCopy):
+    '''
+    Format
+    Recipient:lxw.ucas@gmail.com,lxw0109@gmail.com
+    Carbon Copy:lxw.ucas@gmail.com,lxw0109@gmail.com
+    Blind Carbon Copy:lxw.ucas@gmail.com,lxw0109@gmail.com
+    '''
+    f = open("./receive.conf", "w")
+    string1 = "Recipient:"
+    string1 += recipient + "\n"
+    f.write(string1)
+    string2 = "Carbon Copy:"
+    string2 += carbonCopy + "\n"
+    f.write(string2)
+    string3 = "Blind Carbon Copy:"
+    string3 += blindCarbonCopy + "\n"
+    f.write(string3)
+    f.close()
 
 def getPasswd():
     passwd = getpass.getpass()
     return passwd
 
-
-def testConfig(server, username, password):
+def testConfigMailServer(server, username, password):
     '''
-    test whether the config is OK.
+    test whether the Mail Server config is OK.
     '''
     name = username
     passwd = password
@@ -131,7 +193,7 @@ def testSendEmail(server, name, passwd):
         return True
 
 def main():
-    config()
+    configMailServer()
 
 if __name__ == '__main__':
     main()

@@ -146,3 +146,93 @@ Monitor Finished.   Monitor Time: 2015-06-10-18:00:05.   Time Cost: 0'0"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
+TEST EMAIL SENDING: 	2015-06-10-22:59:48
+
+TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-22:59:48
+Traceback (most recent call last):
+  File "config.py", line 137, in testSendEmail
+    sm = smtplib.SMTP(smtpServer)
+  File "/usr/lib/python2.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python2.7/smtplib.py", line 311, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python2.7/smtplib.py", line 286, in _get_socket
+    return socket.create_connection((host, port), timeout)
+  File "/usr/lib/python2.7/socket.py", line 553, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno -2] Name or service not known
+
+------------------------------------------------------------------------------
+
+TEST EMAIL SENDING: 	2015-06-10-22:59:56
+
+TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-22:59:56
+Traceback (most recent call last):
+  File "config.py", line 137, in testSendEmail
+    sm = smtplib.SMTP(smtpServer)
+  File "/usr/lib/python2.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python2.7/smtplib.py", line 311, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python2.7/smtplib.py", line 286, in _get_socket
+    return socket.create_connection((host, port), timeout)
+  File "/usr/lib/python2.7/socket.py", line 553, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno -2] Name or service not known
+
+------------------------------------------------------------------------------
+
+TEST EMAIL SENDING: 	2015-06-10-23:01:48
+
+TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-23:01:48
+Traceback (most recent call last):
+  File "config.py", line 138, in testSendEmail
+    sm = smtplib.SMTP(smtpServer)
+  File "/usr/lib/python2.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python2.7/smtplib.py", line 311, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python2.7/smtplib.py", line 286, in _get_socket
+    return socket.create_connection((host, port), timeout)
+  File "/usr/lib/python2.7/socket.py", line 553, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno -2] Name or service not known
+
+------------------------------------------------------------------------------
+
+TEST EMAIL SENDING: 	2015-06-10-23:02:38
+
+TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-23:02:38
+Traceback (most recent call last):
+  File "config.py", line 139, in testSendEmail
+    sm = smtplib.SMTP(smtpServer)
+  File "/usr/lib/python2.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python2.7/smtplib.py", line 311, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python2.7/smtplib.py", line 286, in _get_socket
+    return socket.create_connection((host, port), timeout)
+  File "/usr/lib/python2.7/socket.py", line 553, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno -2] Name or service not known
+
+------------------------------------------------------------------------------
+
+TEST EMAIL SENDING: 	2015-06-10-23:08:33
+
+TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-23:08:33
+Traceback (most recent call last):
+  File "config.py", line 161, in testSendEmail
+    sm = smtplib.SMTP(smtpServer)
+  File "/usr/lib/python2.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python2.7/smtplib.py", line 311, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python2.7/smtplib.py", line 286, in _get_socket
+    return socket.create_connection((host, port), timeout)
+  File "/usr/lib/python2.7/socket.py", line 553, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno -2] Name or service not known
+
+------------------------------------------------------------------------------
+
