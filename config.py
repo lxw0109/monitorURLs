@@ -12,29 +12,10 @@ import pickle
 import base64
 import myUtils
 import traceback
-import datetime
-import urllib2
 import hashlib
-import time
-from MyThread.myThread import MyThread
-import threading
 import smtplib
 from email.message import Message
-import difflib
-import os.path
-
-class MailUser(object):
-    def __init__(self, name, password):
-        self.username = name
-        self.password = password
-    def getUserName(self):
-        return self.username
-    def getPassword(self):
-        return self.password
-    def setUserName(self, name):
-        self.username = name
-    def getPassword(self, password):
-        self.password = password
+from MailUser.mailUser import MailUser
 
 def getPasswdWin():
     '''
@@ -57,25 +38,33 @@ def getPasswdWin():
     passwd = ''.join(chars)
     return passwd
 
+def encodeStr(string):
+    result = base64.b64encode(string)
+    return result
 
 def config():
-    prompt = "Please Input Your Mail Server:(such as smtp.gmail.com/smtp.cnnic.cn)"
+    prompt = "Please Input Your Mail Server(such as smtp.gmail.com/smtp.cnnic.cn):"
     print prompt
     mailServer = raw_input()
-    prompt = "Mail Username:"
+    prompt = "E-Mail(such as lxw0109@gmail.com):"
     print prompt
     username = raw_input()
     password = getPasswd()
-    if testConfig(mailServer, username, password):
+    flag = testConfig(mailServer, username, password)
+    if flag:
         #encode
-        username = base64.b64encode(username)
-        password = base64.b64encode(password)
-        user = MailUser(username, password)
+        mailServer = encodeStr(mailServer)
+        username = encodeStr(username)
+        password = encodeStr(password)
+        user = MailUser(mailServer, username, password)
         f = open("./.Data/user", "wb")
         pickle.dump(user, f)
         f.close()
+        string = "Hint:\nYou can also config the Email recipients, Carbon Copy and Blind Carbon Copy in the receive.conf file."
+        print string
     else:
         print "Something wrong to do with your configuration. Please run \"python config.py\" to config it again"
+
 
 
 def getPasswd():
@@ -87,7 +76,9 @@ def testConfig(server, username, password):
     '''
     test whether the config is OK.
     '''
-    return testSendEmail(server, username, password)
+    name = username
+    passwd = password
+    return testSendEmail(server, name, passwd)
 
 
 def testSendEmail(server, name, passwd):
@@ -141,7 +132,6 @@ def testSendEmail(server, name, passwd):
         myUtils.writeLog("TEST MAIL SENDING SUCCESS", string2, string3)
         return True
 
-
 def main():
     config()
 
@@ -149,4 +139,3 @@ if __name__ == '__main__':
     main()
 else:
     print("Being imported as a module.")
-

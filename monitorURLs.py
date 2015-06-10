@@ -132,18 +132,39 @@ def process_stale(url):
     diff website source code using history data in Intermedia/ and Intermedia_new/.
     Primarily use this method to reproduce the same dealing process TO DEBUG.
     """
-    global uwLock, uwSubject, uwContent, uwCount
+    global aeLock, uwLock, uwSubject, uwContent, uwCount
+    checkTime = time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time()))
     #lxw_NOTE:getEmailContent_stale() "thread safe"?
-    content = myUtils.getEmailContent_stale(url, oldUrlObjDic[url], newUrlObjDic[url])
-    if content:
-        uwLock.acquire()
-        if uwCount < 2:
-            uwSubject += " " + url
-        elif uwCount < 5:
-            uwSubject += "."
-        uwCount += 1
-        uwContent += content
-        uwLock.release()
+    try:
+        content = myUtils.getEmailContent_stale(url, oldUrlObjDic[url], newUrlObjDic[url])
+        if content:
+            uwLock.acquire()
+            if uwCount < 2:
+                uwSubject += " " + url
+            elif uwCount < 5:
+                uwSubject += "."
+            uwCount += 1
+            uwContent += content
+            uwLock.release()
+    except KeyError, ke:
+        content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n\n".format(url, checkTime)
+        string1 = "[Quite Normal, url recovery.] lxw_KeyError"
+        string2 = url
+        string3 = ""
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
+        if url in aeURLs:
+            aeLock.acquire()
+            aeURLs.remove(url)
+            aeLock.release()
+    except Exception, e:
+        string1 = "lxw_Exception."
+        string2 = ""
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
 
 
 def main_fresh():
@@ -247,15 +268,28 @@ def main_stale():
                 #URL Object Format: URL(length, md5)
                 newUrlObjDic[arr[0]] = URL(int(arr[1]), arr[2])
     except IOError, ioe:
-        myUtils.writeLog("lxw_IOError.", "", traceback.format_exc())
+        string1 = "lxw_IOError."
+        string2 = ""
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
 
     threadingNum = threading.Semaphore(THREADS_NUM)
     threads = []
 
     for url in newUrlObjDic.keys():
-        #Multiple Thread: Deal with "one url by one single thread".
-        mt = MyThread(process_stale, (url,), threadingNum)
-        threads.append(mt)
+        try:
+            #Multiple Thread: Deal with "one url by one single thread".
+            mt = MyThread(process_stale, (url,), threadingNum)
+            threads.append(mt)
+        except Exception, e:
+            string1 = ""
+            string2 = ""
+            string3 = "Being imported as a module."
+            string4 = "\n" + "------"*13 + "\n"
+            string3 += string4
+            myUtils.writeLog(string1, string2, string3)
 
     for thread in threads:
         thread.start()
@@ -272,6 +306,7 @@ def main_stale():
         if over:
             break
     """
+
     for thread in threads:
         thread.join()
 
@@ -298,4 +333,9 @@ if __name__ == '__main__':
 
     myUtils.writeData("Monitor Finished.   Monitor Time: {0}.   Time Cost: {1}'{2}\"\n{3}\n\n{3}\n".format(time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), (end-start).seconds//60, (end - start).seconds%60, "------"*13))
 else:
-    myUtils.writeLog("", "", "Being imported as a module.")
+    string1 = ""
+    string2 = ""
+    string3 = "Being imported as a module."
+    string4 = "\n" + "------"*13 + "\n"
+    string3 += string4
+    myUtils.writeLog(string1, string2, string3)

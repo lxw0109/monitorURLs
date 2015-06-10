@@ -118,7 +118,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-VGucj4kAuq4N68B94zF_POa7KHPxVkObXDNAcCtd1Sk" value="form-VGucj4kAuq4N68B94zF_POa7KHPxVkObXDNAcCtd1Sk"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-A7BFke23wC0PQP3KrYyRmgUQj7dm91Mu50lgHnG5JFw" value="form-A7BFke23wC0PQP3KrYyRmgUQj7dm91Mu50lgHnG5JFw"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -135,7 +135,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-y-K_Oe6qkmHWD9b5Fg3kuSx804wtXHQbh4k1KGI5e1w" value="form-y-K_Oe6qkmHWD9b5Fg3kuSx804wtXHQbh4k1KGI5e1w"  />
+<input type="hidden" name="form_build_id" id="form-UxOE45Dhg94UeRZLYQzWiNGHsSaV5OuQR4NKAUUhudU" value="form-UxOE45Dhg94UeRZLYQzWiNGHsSaV5OuQR4NKAUUhudU"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 

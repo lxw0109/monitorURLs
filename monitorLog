@@ -1,230 +1,148 @@
-Mon May 11 00:00:01 CST 2015 --- Clear Log OK
+TEST EMAIL SENDING: 	2015-06-10-15:31:53
 
-EMAIL SENDING: 	2015-05-11-09:00:07
-
-EMAIL SENDING SUCCESS: 	2015-05-11-09:00:12
-
-EMAIL SENDING: 	2015-05-11-09:00:12
-
-EMAIL SENDING SUCCESS: 	2015-05-11-09:00:15
-
-Monitor Finished.   Monitor Time: 2015-05-11-09:00:15.   Time Cost: 0'14"
-------------------------------------------------------------------------------
+TEST MAIL SENDING SUCCESS: 	2015-06-10-15:31:53
 
 ------------------------------------------------------------------------------
-EMAIL SENDING: 	2015-05-12-09:00:09
 
-EMAIL SENDING SUCCESS: 	2015-05-12-09:00:14
+TEST EMAIL SENDING: 	2015-06-10-15:38:01
 
-Monitor Finished.   Monitor Time: 2015-05-12-09:00:14.   Time Cost: 0'12"
-------------------------------------------------------------------------------
+TEST MAIL SENDING SUCCESS: 	2015-06-10-15:38:01
 
 ------------------------------------------------------------------------------
-EMAIL SENDING: 	2015-05-13-09:00:08
 
-EMAIL SENDING SUCCESS: 	2015-05-13-09:00:14
+TEST EMAIL SENDING: 	2015-06-10-15:50:42
 
-Monitor Finished.   Monitor Time: 2015-05-13-09:00:14.   Time Cost: 0'12"
-------------------------------------------------------------------------------
+TEST MAIL SENDING SUCCESS: 	2015-06-10-15:50:42
 
 ------------------------------------------------------------------------------
-EMAIL SENDING: 	2015-05-14-09:00:08
 
-EMAIL SENDING SUCCESS: 	2015-05-14-09:00:13
+EMAIL SENDING: 	2015-06-10-16:00:14
 
-Monitor Finished.   Monitor Time: 2015-05-14-09:00:13.   Time Cost: 0'12"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-lxw_Timed Out: http://www.cnvd.org.cn/	2015-05-15-09:01:02
-
-EMAIL SENDING: 	2015-05-15-09:01:02
-
-EMAIL SENDING SUCCESS: 	2015-05-15-09:01:07
-
-Monitor Finished.   Monitor Time: 2015-05-15-09:01:07.   Time Cost: 1'6"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-EMAIL SENDING: 	2015-06-06-15:10:28
-
-EMAIL SENDING SUCCESS: 	2015-06-06-15:10:29
-
-Monitor Finished.   Monitor Time: 2015-06-06-15:10:29.   Time Cost: 0'5"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-[Quite Normal, url recovery.] lxw_KeyError: http://www.chinagov.cn/	2015-06-09-15:47:33
-
-[Quite Normal, url recovery.] lxw_KeyError: http://jprs.co.jp/en/press/	2015-06-09-15:47:33
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.cnnic.cn	2015-06-09-15:47:33
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.ietf.org/	2015-06-09-15:47:33
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.domain.kr/EN/announcementList.jsp	2015-06-09-15:47:33
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.aptld.org/	2015-06-09-15:47:33
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.iana.org/	2015-06-09-15:47:33
-
-[Quite Normal, url recovery.] lxw_KeyError: http://blog.dnspod.cn/	2015-06-09-15:47:33
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.sgnic.sg/	2015-06-09-15:47:33
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.caida.org/home/	2015-06-09-15:47:33
-
-[Quite Normal, url recovery.] lxw_KeyError: https://www.monic.mo/monic/faces/index	2015-06-09-15:47:34
-
-[Quite Normal, url recovery.] lxw_KeyError: https://www.hkdnr.hk/?lang=cn	2015-06-09-15:47:34
-
-[Quite Normal, url recovery.] lxw_KeyError: https://www.dns-oarc.net/	2015-06-09-15:47:34
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.apnic.net/	2015-06-09-15:47:34
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.isc.org/downloads/bind/	2015-06-09-15:47:34
-
-[Quite Normal, url recovery.] lxw_KeyError: http://pir.org/news-events/for-press/press-releases/	2015-06-09-15:47:34
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.isc.org/downloads/software-support-policy/security-advisory/	2015-06-09-15:47:34
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.afilias.info/	2015-06-09-15:47:34
-
-[Quite Normal, url recovery.] lxw_KeyError: https://www.opendns.com/	2015-06-09-15:47:35
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.verisigninc.com/zh_CN/internet-technology-news/verisign-press-releases/archives/index.xhtml	2015-06-09-15:47:35
-
-[Quite Normal, url recovery.] lxw_KeyError: https://www.icann.org/	2015-06-09-15:47:35
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.nlnetlabs.nl/	2015-06-09-15:47:35
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.neustar.biz/about-us/news-room/press-releases/2012	2015-06-09-15:47:35
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.afnic.fr/en/	2015-06-09-15:47:36
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.afrinic.net/	2015-06-09-15:47:36
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.secure64.com/press_releases	2015-06-09-15:47:36
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.ripe.net/	2015-06-09-15:47:36
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.cert.org.cn/	2015-06-09-15:47:38
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.twnic.tw/index4.php	2015-06-09-15:47:38
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.nsfocus.com/	2015-06-09-15:47:38
-
-[Quite Normal, url recovery.] lxw_KeyError: http://cnnic.cn/gjymaqzx/aqgg/aqggaqsj/	2015-06-09-15:47:38
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.isc.org.cn/	2015-06-09-15:47:38
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.unbound.net/	2015-06-09-15:47:38
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.us-cert.gov/	2015-06-09-15:47:39
-
-[Quite Normal, url recovery.] lxw_KeyError: http://search.gmane.org/	2015-06-09-15:47:39
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.denic.de/en/homepage.html	2015-06-09-15:47:39
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.nominet.org.uk/news/press-releases	2015-06-09-15:47:40
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.apac.org.cn/	2015-06-09-15:47:40
-
-[Quite Normal, url recovery.] lxw_KeyError: http://nominum.com/press-type/release/	2015-06-09-15:47:40
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.cira.ca/news/news-releases/	2015-06-09-15:47:42
-
-[Quite Normal, url recovery.] lxw_KeyError: http://www.apcert.org/	2015-06-09-15:47:51
-
-EMAIL SENDING: 	2015-06-09-15:47:51
-
-EMAIL SENDING SUCCESS: 	2015-06-09-15:47:52
-
-EMAIL SENDING: 	2015-06-09-15:47:52
-
-EMAIL SENDING SUCCESS: 	2015-06-09-15:48:16
-
-Monitor Finished.   Monitor Time: 2015-06-09-15:48:16.   Time Cost: 0'43"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-Monitor Finished.   Monitor Time: 2015-06-09-15:50:48.   Time Cost: 0'15"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-EMAIL SENDING: 	2015-06-10-10:46:08
-
-EMAIL SENDING ERROR: 	2015-06-10-10:46:09
+EMAIL SENDING ERROR: 	2015-06-10-16:00:14
 Traceback (most recent call last):
-  File "/home/lxw/Project/monitorURL/myUtils.py", line 106, in sendEmail
-    sm.login(userName, password)
-  File "/usr/local/lib/python2.7/smtplib.py", line 614, in login
-    raise SMTPAuthenticationError(code, resp)
-SMTPAuthenticationError: (535, 'Error: authentication failed')
+  File "/home/cnnic/monitorURL/myUtils.py", line 112, in sendEmail
+    eps = getServerEmail()
+  File "/home/cnnic/monitorURL/myUtils.py", line 96, in getServerEmail
+    user = pickle.load(f)
+  File "/usr/lib/python2.7/pickle.py", line 1378, in load
+    return Unpickler(file).load()
+  File "/usr/lib/python2.7/pickle.py", line 858, in load
+    dispatch[key](self)
+  File "/usr/lib/python2.7/pickle.py", line 1090, in load_global
+    klass = self.find_class(module, name)
+  File "/usr/lib/python2.7/pickle.py", line 1126, in find_class
+    klass = getattr(mod, name)
+AttributeError: 'module' object has no attribute 'MailUser'
 
-Monitor Finished.   Monitor Time: 2015-06-10-10:46:09.   Time Cost: 0'51"
+Monitor Finished.   Monitor Time: 2015-06-10-16:00:14.   Time Cost: 0'13"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-[Quite Normal, url recovery.] lxw_KeyError: http://www.cnvd.org.cn/	2015-06-10-10:51:33
+TEST EMAIL SENDING: 	2015-06-10-16:20:38
 
-EMAIL SENDING: 	2015-06-10-10:51:40
-
-EMAIL SENDING SUCCESS: 	2015-06-10-10:51:41
-
-Monitor Finished.   Monitor Time: 2015-06-10-10:51:41.   Time Cost: 0'24"
-------------------------------------------------------------------------------
+TEST MAIL SENDING SUCCESS: 	2015-06-10-16:20:38
 
 ------------------------------------------------------------------------------
-EMAIL SENDING: 	2015-06-10-13:35:08
 
-EMAIL SENDING SUCCESS: 	2015-06-10-13:35:09
+TEST EMAIL SENDING: 	2015-06-10-16:21:09
 
-Monitor Finished.   Monitor Time: 2015-06-10-13:35:09.   Time Cost: 0'14"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-TEST EMAIL SENDING: 	2015-06-10-14:34:41
-
-TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-14:34:42
+TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-16:21:09
 Traceback (most recent call last):
-  File "config.py", line 110, in testSendEmail
+  File "config.py", line 99, in testSendEmail
     sm = smtplib.SMTP(smtpServer)
-  File "/usr/local/lib/python2.7/smtplib.py", line 250, in __init__
+  File "/usr/lib/python2.7/smtplib.py", line 249, in __init__
     (code, msg) = self.connect(host, port)
-  File "/usr/local/lib/python2.7/smtplib.py", line 310, in connect
+  File "/usr/lib/python2.7/smtplib.py", line 309, in connect
     self.sock = self._get_socket(host, port, self.timeout)
-  File "/usr/local/lib/python2.7/smtplib.py", line 285, in _get_socket
-    return socket.create_connection((host, port), timeout)
-  File "/usr/local/lib/python2.7/socket.py", line 553, in create_connection
+  File "/usr/lib/python2.7/smtplib.py", line 284, in _get_socket
+    return socket.create_connection((port, host), timeout)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 22] Invalid argument
+
+------------------------------------------------------------------------------
+
+TEST EMAIL SENDING: 	2015-06-10-16:21:22
+
+TEST MAIL SENDING SUCCESS: 	2015-06-10-16:21:22
+
+------------------------------------------------------------------------------
+
+TEST EMAIL SENDING: 	2015-06-10-16:22:20
+
+TEST MAIL SENDING SUCCESS: 	2015-06-10-16:22:21
+
+------------------------------------------------------------------------------
+
+EMAIL SENDING: 	2015-06-10-16:25:17
+
+EMAIL SENDING SUCCESS: 	2015-06-10-16:25:18
+
+Monitor Finished.   Monitor Time: 2015-06-10-16:25:18.   Time Cost: 0'16"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+TEST EMAIL SENDING: 	2015-06-10-16:59:03
+
+TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-16:59:03
+Traceback (most recent call last):
+  File "config.py", line 101, in testSendEmail
+    sm = smtplib.SMTP(smtpServer)
+  File "/usr/lib/python2.7/smtplib.py", line 249, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python2.7/smtplib.py", line 309, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python2.7/smtplib.py", line 284, in _get_socket
+    return socket.create_connection((port, host), timeout)
+  File "/usr/lib/python2.7/socket.py", line 553, in create_connection
     for res in getaddrinfo(host, port, 0, SOCK_STREAM):
 gaierror: [Errno -2] Name or service not known
 
 ------------------------------------------------------------------------------
 
-TEST EMAIL SENDING: 	2015-06-10-14:35:18
+TEST EMAIL SENDING: 	2015-06-10-16:59:16
 
-TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-14:35:18
-Traceback (most recent call last):
-  File "config.py", line 110, in testSendEmail
-    sm = smtplib.SMTP(smtpServer)
-  File "/usr/local/lib/python2.7/smtplib.py", line 250, in __init__
-    (code, msg) = self.connect(host, port)
-  File "/usr/local/lib/python2.7/smtplib.py", line 310, in connect
-    self.sock = self._get_socket(host, port, self.timeout)
-  File "/usr/local/lib/python2.7/smtplib.py", line 285, in _get_socket
-    return socket.create_connection((host, port), timeout)
-  File "/usr/local/lib/python2.7/socket.py", line 553, in create_connection
-    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
-gaierror: [Errno -2] Name or service not known
+TEST MAIL SENDING SUCCESS: 	2015-06-10-16:59:16
 
 ------------------------------------------------------------------------------
 
-EMAIL SENDING: 	2015-06-10-14:36:52
+EMAIL SENDING: 	2015-06-10-17:00:38
 
-EMAIL SENDING SUCCESS: 	2015-06-10-14:36:53
+EMAIL SENDING SUCCESS: 	2015-06-10-17:00:39
 
-Monitor Finished.   Monitor Time: 2015-06-10-14:36:53.   Time Cost: 0'13"
+EMAIL SENDING: 	2015-06-10-17:00:39
+
+EMAIL SENDING SUCCESS: 	2015-06-10-17:00:40
+
+Monitor Finished.   Monitor Time: 2015-06-10-17:00:40.   Time Cost: 0'23"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+[Quite Normal, url recovery.] lxw_KeyError: http://www.cert.org.cn/	2015-06-10-17:05:39
+
+EMAIL SENDING: 	2015-06-10-17:05:50
+
+EMAIL SENDING SUCCESS: 	2015-06-10-17:05:50
+
+Monitor Finished.   Monitor Time: 2015-06-10-17:05:50.   Time Cost: 0'13"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Monitor Finished.   Monitor Time: 2015-06-10-17:58:53.   Time Cost: 0'0"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Key Error
+Monitor Finished.   Monitor Time: 2015-06-10-17:59:50.   Time Cost: 0'0"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Key Error
+[Quite Normal, url recovery.] lxw_KeyError: http://www.cert.org.cn/	2015-06-10-18:00:05
+
+------------------------------------------------------------------------------
+
+Monitor Finished.   Monitor Time: 2015-06-10-18:00:05.   Time Cost: 0'0"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------

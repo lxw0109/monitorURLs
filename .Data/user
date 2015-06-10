@@ -1,7 +1,7 @@
 ccopy_reg
 _reconstructor
 p0
-(c__main__
+(cMailUser.mailUser
 MailUser
 p1
 c__builtin__
@@ -18,4 +18,8 @@ sS'password'
 p8
 S'ODg4NTc0MWE='
 p9
+sS'mailServer'
+p10
+S'c210cC5jbm5pYy5jbg=='
+p11
 sb.

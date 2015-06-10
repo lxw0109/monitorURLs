@@ -18,7 +18,10 @@ from email.message import Message
 import difflib
 import traceback
 import os.path
-
+import pickle
+import sys
+import base64
+from MailUser.mailUser import MailUser
 
 fileLock = threading.RLock()
 logLock = threading.RLock()
@@ -67,6 +70,21 @@ def intoFile(url, sourceCode):
     with open(filename, "w") as f:
         f.write(sourceCode + "\n")
 
+def decode(string):
+    result = base64.b64decode(string)
+    return result
+
+def getServerEmail():
+    f = open("./.Data/user")
+    user = pickle.load(f)
+    email = user.getUserName()
+    passwd = user.getPassword()
+    server = user.getMailServer()
+    email = decode(email)
+    passwd = decode(passwd)
+    server = decode(server)
+    f.close()
+    return email, passwd, server
 
 def sendEmail(subject, content):
     """
@@ -74,18 +92,16 @@ def sendEmail(subject, content):
     """
     writeLog("EMAIL SENDING", "", "")
     try:
-        smtpServer = "smtp.cnnic.cn"
-        #userName = "monitorURL@foxmail.com"#"liuxiaowei@cnnic.cn"
-        userName = "liuxiaowei@cnnic.cn"
-        #password = "Python1"
-        password = "8885741a"
-        #SMTPAuthenticationError
+        eps = getServerEmail()
+        email = eps[0]
+        passwd = eps[1]
+        server = eps[2]
+        smtpServer = server
+        userName = email
+        password = passwd
 
-        #fromAddr = "monitorURL@foxmail.com"
-        fromAddr = "liuxiaowei@cnnic.cn"
-        #toAddrs = ["chenyong@cnnic.cn", "liuxiaowei@cnnic.cn"]
+        fromAddr = email
         toAddrs = ["lxwin@foxmail.com"]
-        #ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn"]
         ccAddrs = ["lxwin@foxmail.com"]
 
         message = Message()
@@ -107,7 +123,6 @@ def sendEmail(subject, content):
         sm.login(userName, password)
 
         sm.sendmail(fromAddr, toAddrs+ccAddrs, msg)
-        #time.sleep(5)
         sm.quit()
     except Exception, e:
         writeLog("EMAIL SENDING ERROR", "", traceback.format_exc())
@@ -188,9 +203,13 @@ def getEmailContent_stale(url, oldUrlObj, newUrlObj):
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
-
     except Exception, e:
-        writeLog("lxw_Exception.", "", traceback.format_exc())
+        string1 = "lxw_Exception."
+        string2 = ""
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        writeLog(string1, string2, string3)
 
     return content
 
@@ -540,6 +559,7 @@ def test():
     """
     Test each function in this file.
     """
+    '''
     writeLog("test myUtils.py----------------------------0", "START", "")
     #writeLog()
     writeLog("writeLog() to monitorLog-------------------1", "", "")
@@ -570,10 +590,12 @@ def test():
     #diff2Str() # test alone
     #recordInFile() #test alone
     writeLog("test myUtils.py---------------------------10", "FINISHED", "")
-
+    '''
+    getServerEmail()
 
 if __name__ == '__main__':
     start = datetime.datetime.now()
-    initCriterion()
+    #initCriterion()
+    test()
     end = datetime.datetime.now()
-    writeLog("Method initCriterion() finishes. Time cost: ", "", str(end-start) + " seconds.")
+    #writeLog("Method initCriterion() finishes. Time cost: ", "", str(end-start) + " seconds.")

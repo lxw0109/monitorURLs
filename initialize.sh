@@ -13,6 +13,9 @@ do
     i=$(($i+1))
 done
 
+[ -d test ] || mkdir test
+cd test
+
 for url in ${urlArr[@]}
 do
     #lstrip

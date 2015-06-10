@@ -130,8 +130,8 @@ MM_reloadPage(true);
               <tr> 
                 <td width="120" valign="bottom"><font class="date"><!-- 到訪人數：
     000001  -->
-    <img src='http://218.241.104.79.right.dnssectest.tw/dnssec.php' width='1' height='1'>
-<img src='http://218.241.104.79.rrsigexpire.dnssectest.tw/dnssec.php' width='1' height='1'>                  </font></td>
+    <img src='http://218.241.108.65.right.dnssectest.tw/dnssec.php' width='1' height='1'>
+<img src='http://218.241.108.65.rrsigexpire.dnssectest.tw/dnssec.php' width='1' height='1'>                  </font></td>
                 <td width="91"><a href="index2.php"><img src="img/english02.gif" width="97" height="22" border="0"></a></td>
               </tr>
             </table> 

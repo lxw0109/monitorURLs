@@ -2,14 +2,14 @@
 #File: run.sh
 #Author: lxw
 #Time: 2015-02-07
-#Usage: Execute "python /home/lxw/Project/monitorURL/monitrURLs.py"
+#Usage: Execute "python /home/cnnic/Project/monitorURL/monitrURLs.py"
 #HOW TO USE THIS FILE: add one command into file /etc/crontab
 
 #kill the PROCESSes that are not wanted to be alive.
 ps aux|grep "monitorURLs.py"|awk '{print $2}'|xargs kill
 
 #run th monitor.
-cd /home/lxw/Project/monitorURL
+cd /home/cnnic/monitorURL
 
 #Preparation:
 #update/create the following File/Dir.
@@ -19,10 +19,11 @@ touch accessErrorURLs
 [ -d Intermedia ] || mkdir Intermedia
 [ -d Intermedia_new ] || mkdir Intermedia_new
 [ -d .Data ] || mkdir .Data
+touch receive.conf
 
 cd ./Intermedia/
 rm ./*
-cd ..   # /home/lxw/Project/monitorURL
+cd .. 
 mv ./Intermedia_new/* ./Intermedia/
 
 #Monitor:
