@@ -16,7 +16,7 @@
 <!--顶部条开始-->
 <div class="isc_top">
     <div class="data">
-2015年06月10日 星期三
+2015年06月11日 星期四
 </div>
      <div class="email">
      <FORM method="post" name="form1" action="http://mm.263.com/login" onsubmit="return check();" target="_blank">
@@ -394,7 +394,7 @@ function check()
 </div>
 
 <div class="bor1 gzwyh2">
-    <h2><p style="width:85px"><span>工作组</span></p></h2>
+    <h2><p style="width:85px"><span>工作小组</span></p></h2>
     <div class="pad10">
     <div class="stroll2">
         <ul>

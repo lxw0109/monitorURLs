@@ -49,7 +49,6 @@ def writeData(content):
         f.write(content)
         logLock.release()
 
-
 def writeFile(url, length, md5Str):
     """
     Write into criterion File.
@@ -59,6 +58,21 @@ def writeFile(url, length, md5Str):
         f.write("{0},{1},{2}\n".format(url, length, md5Str))
         fileLock.release()
 
+def dealUrls():
+    f = open("./urls")
+    f1 = open("./.urls", "w")
+    while 1:
+        line = f.readline()
+        if not line:
+            break
+        line = line.strip()
+        if '.' not in line:
+            continue
+        elif 'http' not in line:
+            line = "http://" + line
+        f1.write(line + "\n")
+    f.close()
+    f1.close()
 
 def intoFile(url, sourceCode):
     """
@@ -83,10 +97,13 @@ def getServerEmail():
     email = decode(email)
     passwd = decode(passwd)
     server = decode(server)
+    email = email.strip()
+    passwd = passwd.strip()
+    server = server.strip()
     f.close()
     return email, passwd, server
 
-def getCopyBlind():
+def getRCB():
     '''
     Format
     Recipient:lxw.ucas@gmail.com,lxw0109@gmail.com
@@ -94,22 +111,31 @@ def getCopyBlind():
     Blind Carbon Copy:lxw.ucas@gmail.com,lxw0109@gmail.com
     '''
     f = open("./receive.conf")
-    while 1:
-        line = f.readline()
-        if not line:
-            break
-        line = line.strip()
-        if "Recipient" in line:
-            line = line.replace("Recipient:", "")
-            line = line.strip()
-        if "Carbon Copy" in line and "Blind" not in line:
-            line = line.replace("Carbon Copy:", "")
-            line = line.strip()
-        if "Blind Carbon Copy" in line:
-            line = line.replace("Blind Carbon Copy:", "")
-            line = line.strip()
-        print line
+    receive = pickle.load(f)
+    recipient = receive.getRecipient()
+    carbonCopy = receive.getCarbonCopy()
+    blindCC = receive.getBlindCC()
     f.close()
+    return recipient, carbonCopy, blindCC
+
+def splitStr(string, sep):
+    aList = string.split(sep)
+    length = len(aList)
+    for i in xrange(length):
+        string = aList[i]
+        string = string.strip()
+        aList[i] = string
+    return aList
+
+def filterList(aList):
+    length = len(aList)
+    i = 0
+    while i < len(aList):
+        if aList[i] == "":
+            del aList[i]
+        else:
+            i += 1
+    return aList
 
 def sendEmail(subject, content):
     """
@@ -124,11 +150,21 @@ def sendEmail(subject, content):
         smtpServer = server
         userName = email
         password = passwd
-        cb = getCopyBlind()
+        rcb = getRCB()
+        recipient = rcb[0]
+        carbonCopy = rcb[1]
+        blindCC = rcb[2]
+        rList = splitStr(recipient, ",")
+        cList = splitStr(carbonCopy, ",")
+        bList = splitStr(blindCC, ",")
+        rList = filterList(rList)
+        cList = filterList(cList)
+        bList = filterList(bList)
 
         fromAddr = email
-        toAddrs = ["lxwin@foxmail.com"]
-        ccAddrs = ["lxwin@foxmail.com"]
+        toAddrs = rList #["lxwin@foxmail.com", "wangcuicui@cnnic.cn"]
+        ccAddrs = cList #["lxwin@foxmail.com"]
+        bccAddrs = bList
 
         message = Message()
         message["Subject"] = subject
@@ -137,6 +173,7 @@ def sendEmail(subject, content):
         #Copy to
         #message["CC"] is only for display, to send the email we must specify it in the method "SMTP.sendmail".
         #message["CC"] = "gengguanggang@cnnic.cn;yanzhiwei@cnnic.cn"
+        message["CC"] = ";".join(ccAddrs)
         message.set_payload(content)
         message.set_charset("utf-8")
         msg = message.as_string()
@@ -148,7 +185,7 @@ def sendEmail(subject, content):
         sm.ehlo()
         sm.login(userName, password)
 
-        sm.sendmail(fromAddr, toAddrs+ccAddrs, msg)
+        sm.sendmail(fromAddr, toAddrs+ccAddrs+bccAddrs, msg)
         sm.quit()
     except Exception, e:
         writeLog("EMAIL SENDING ERROR", "", traceback.format_exc())
@@ -556,7 +593,7 @@ def initCriterion():
     """
     threadingNum = threading.Semaphore(THREADS_NUM)
     threads = []
-    with open("./urls") as f:
+    with open("./.urls") as f:
         while 1:
             url = f.readline().strip()
             if not url:

@@ -432,9 +432,6 @@ MM_reloadPage(true);
                                 <tr> 
                                   <td valign="top" width="22">
             <tr><td></td><td>[公告]</td><td></td></tr><tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="http://opm.twnic.net.tw/24th/" target="_blank">
-歡迎報名參加第24屆TWNIC IP政策資源管理會議</a>(2015-06-08)</td></tr>
-<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://www.gsnv6.tw/ipv6_104/" target="_blank">
 2015 IPv6教育訓練開始報名</a>(2015-04-15)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
@@ -535,9 +532,6 @@ MM_reloadPage(true);
                     <tr bgcolor="#FFFFFF"> 
                       <td><img src="http://www.twnic.net.tw/img/link.gif" width="135" height="21"></td>
                     </tr>
-<tr align="center">
-<td><a href="http://opm.twnic.net.tw/24th/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/241.jpeg" border="0"></a></td>
-</tr>
 <tr align="center">
 <td><a href="http://2015.iwrite.twnic.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/238.gif" border="0"></a></td>
 </tr>

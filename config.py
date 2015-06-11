@@ -16,6 +16,8 @@ import hashlib
 import smtplib
 from email.message import Message
 from MailUser.mailUser import MailUser
+from MailUser.recipient import Recipient
+import time
 
 def getPasswdWin():
     '''
@@ -60,14 +62,34 @@ def configMailServer():
         f = open("./.Data/user", "wb")
         pickle.dump(user, f)
         f.close()
+        time.sleep(1)
+        print ""
+        prompt = "Now you can config the Email Recipients, Carbon Copy and Blind Carbon Copy!"
+        print prompt
         configRecipient()
-        '''
-        print "\n\n--Hint--:"
-        print "You can also config the Email recipients, Carbon Copy and Blind Carbon Copy in the receive.conf file."
-        '''
+        time.sleep(1)
+        print ""
+        prompt = "Congratulations! Recipient & Carbon Copy & Blind Carbon Copy Configurations Succeed!"
+        print prompt
+        time.sleep(1)
+        print ""
+        prompt = "Now you can config the urls to be monitored!"
+        print prompt
+        configUrls()
+        print ""
+        prompt = "Congratulations! All Configurations Finished!"
+        print prompt
     else:
         print "Something wrong to do with your configuration. Please run \"python config.py\" to config it again"
-        configRecipient()
+
+def configUrls():
+    print ""
+    prompt = "You can append urls to be monitored into the 'urls' file."
+    print prompt
+    print ""
+    prompt = "Press 'Enter' to continue!"
+    print prompt
+    raw_input()
 
 def configRecipient():
     '''
@@ -78,6 +100,9 @@ def configRecipient():
     '''
     prompt = "Please Input the Recipient Email Address(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
     prompt += "If more than one email offered, split them with a comma symbol ',' :"
+    time.sleep(1)
+    print ""
+    print ""
     print prompt
     recipient = raw_input().strip()
     if not recipient:
@@ -89,6 +114,8 @@ def configRecipient():
     prompt = "Please Input the Carbon Copy Email Address(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
     prompt += "If more than one email offered, split them with a comma symbol ',' :\n"
     prompt += "If no Carbon Copy Email Address, just press 'Enter'."
+    print ""
+    print ""
     print prompt
     carbonCopy = raw_input().strip()
     if not carbonCopy:
@@ -100,6 +127,8 @@ def configRecipient():
     prompt = "Please Input the Blind Carbon Copy Email Address(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
     prompt += "If more than one email offered, split them with a comma symbol ',' :\n"
     prompt += "If no Carbon Copy Email Address, just press 'Enter'."
+    print ""
+    print ""
     print prompt
     blindCarbonCopy = raw_input().strip()
     if not blindCarbonCopy:
@@ -110,22 +139,9 @@ def configRecipient():
     inReceiveFile(recipient, carbonCopy, blindCarbonCopy)
 
 def inReceiveFile(recipient, carbonCopy, blindCarbonCopy):
-    '''
-    Format
-    Recipient:lxw.ucas@gmail.com,lxw0109@gmail.com
-    Carbon Copy:lxw.ucas@gmail.com,lxw0109@gmail.com
-    Blind Carbon Copy:lxw.ucas@gmail.com,lxw0109@gmail.com
-    '''
+    recipient = Recipient(recipient, carbonCopy, blindCarbonCopy)
     f = open("./receive.conf", "w")
-    string1 = "Recipient:"
-    string1 += recipient + "\n"
-    f.write(string1)
-    string2 = "Carbon Copy:"
-    string2 += carbonCopy + "\n"
-    f.write(string2)
-    string3 = "Blind Carbon Copy:"
-    string3 += blindCarbonCopy + "\n"
-    f.write(string3)
+    pickle.dump(recipient, f)
     f.close()
 
 def getPasswd():
@@ -183,13 +199,36 @@ def testSendEmail(server, name, passwd):
         myUtils.writeLog(string1, string2, string3)
         return False
     else:
-        string1 = "Congritulations! Configurations Succeed!"
+        time.sleep(0.5)
+        sys.stdout.write(".")
+        sys.stdout.flush()
+        time.sleep(0.5)
+        sys.stdout.write(".")
+        sys.stdout.flush()
+        time.sleep(0.5)
+        sys.stdout.write(".")
+        sys.stdout.flush()
+        time.sleep(0.5)
+        sys.stdout.write(" ")
+        sys.stdout.flush()
+        time.sleep(0.5)
+        sys.stdout.write(".")
+        sys.stdout.flush()
+        time.sleep(0.5)
+        sys.stdout.write(".")
+        sys.stdout.flush()
+        time.sleep(0.5)
+        sys.stdout.write(".")
+        sys.stdout.flush()
+        print ""
+        string1 = "Congratulations! Configurations Succeed!"
         string2 = ""
         string3 = ""
         string4 = "\n" + "------"*13 + "\n"
         string3 += string4
+        string5 = "TEST MAIL SENDING SUCCESS"
         print string1
-        myUtils.writeLog("TEST MAIL SENDING SUCCESS", string2, string3)
+        myUtils.writeLog(string5, string2, string3)
         return True
 
 def main():

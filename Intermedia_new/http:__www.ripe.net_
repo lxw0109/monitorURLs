@@ -1061,6 +1061,14 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
+<a href="https://www.ripe.net/publications/news/industry-developments/eurodig-2015-ripe-ncc-report">
+<span class="Title">EuroDIG 2015: RIPE NCC Report</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date: 10 Jun 2015</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
 <span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
 <span class="item-details">
@@ -1073,14 +1081,6 @@
 <span class="Title">Report on the WSIS Forum 2015</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date: 02 Jun 2015</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/publications/news/ripe-ncc-regional-meeting-in-tbilisi">
-<span class="Title">RIPE NCC Regional Meeting in Tbilisi</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date: 26 May 2015</span>
 </span>
 </a>
 </li>
@@ -1110,15 +1110,6 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
-<a href="https://www.ripe.net/participate/meetings/calendar/enog-9">
-<span class="Title">ENOG 9 / RIPE NCC Regional Meeting</span>
-<span class="item-details">
-<span class="date nobreak byline_date">09 Jun 2015 - 10 Jun 2015</span>
-<span class="location nobreak">Kazan, Russia</span>
-</span>
-</a>
-</li>
-<li>
 <a href="https://www.ripe.net/participate/meetings/calendar/ripe-ncc-regional-meeting-yerevan">
 <span class="Title">RIPE NCC Regional Meeting Yerevan</span>
 <span class="item-details">
@@ -1145,6 +1136,15 @@
 </span>
 </a>
 </li>
+<li>
+<a href="https://www.ripe.net/participate/meetings/calendar/see-5-ripe-ncc-regional-meeting">
+<span class="Title">SEE 5/ RIPE NCC Regional Meeting</span>
+<span class="item-details">
+<span class="date nobreak byline_date">19 Apr 2016 - 20 Apr 2016</span>
+<span class="location nobreak">TBC</span>
+</span>
+</a>
+</li>
 </ul>
 </div>
 </div>
@@ -1158,6 +1158,15 @@
 <div class="block_content">
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
+<li>
+<a href="https://www.ripe.net/participate/meetings/calendar/enog-9">
+<span class="Title">ENOG 9 / RIPE NCC Regional Meeting</span>
+<span class="item-details">
+<span class="date nobreak byline_date">09 Jun 2015 - 10 Jun 2015</span>
+<span class="location nobreak">Kazan, Russia</span>
+</span>
+</a>
+</li>
 <li>
 <a href="https://www.ripe.net/participate/meetings/calendar/ripe-ncc-regional-meeting-tbilisi">
 <span class="Title">RIPE NCC Regional Meeting Tbilisi</span>
@@ -1173,15 +1182,6 @@
 <span class="item-details">
 <span class="date nobreak byline_date">11 May 2015 - 15 May 2015</span>
 <span class="location nobreak">Amsterdam, the Netherlands</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/participate/meetings/calendar/ripe-ncc-general-meeting-1">
-<span class="Title">RIPE NCC General Meeting May 2015</span>
-<span class="item-details">
-<span class="date nobreak byline_date">13 May 2015 - 15 May 2015</span>
-<span class="location nobreak">Amsterdam, Netherlands</span>
 </span>
 </a>
 </li>
@@ -1207,6 +1207,16 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
+<a href="https://labs.ripe.net/Members/marco_hogewoning/eurodig-2015-report" rel="nofollow">
+<span class="Title">EuroDIG 2015 Report by Corinne Cath</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date:
+                              <span>10 Jun 2015</span>
+</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://labs.ripe.net/Members/cengiz_alaettinoglu/will-the-sidr-model-succeed-where-the-irr-model-failed" rel="nofollow">
 <span class="Title">Will the SIDR Model Succeed where the IRR Model Failed?</span>
 <span class="item-details">
@@ -1222,16 +1232,6 @@
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
                               <span>04 Jun 2015</span>
-</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://labs.ripe.net/Members/mirjam/the-dns-root-zone-key-signing-key-is-changing" rel="nofollow">
-<span class="Title">The DNS Root Zone Key-Signing Key is Changing</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date:
-                              <span>27 May 2015</span>
 </span>
 </span>
 </a>

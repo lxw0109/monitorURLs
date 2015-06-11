@@ -200,7 +200,7 @@ def main_fresh():
     threads = []
     urlCount = 0
     # monitor each url in urls file
-    with open("./urls") as f:
+    with open("./.urls") as f:
         while 1:
             url = f.readline().strip()
             if not url:
