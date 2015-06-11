@@ -217,6 +217,7 @@ def testSendEmail(server, name, passwd):
     """
     myUtils.writeLog("TEST EMAIL SENDING", "", "")
     try:
+        #print name, passwd, server
         smtpServer = server
         userName = name
         password = passwd

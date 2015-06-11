@@ -39,7 +39,6 @@ class URL(object):
     URL: The object(length & md5) corresponding to the url.
     each line in urls file stands for one single object.
     """
-
     def __init__(self, length, md5Str):
         self.length = length
         self.md5Str = md5Str
@@ -231,8 +230,9 @@ def main_fresh(dbOrNot):
         f.write("{0},{1},{2}\n".format(url, newUrlObjDic[url].length, newUrlObjDic[url].getMD5Str()))
     f.close()
 
-    #update criterion in database
-    myUtils.updateCriterion(newUrlObjDic)
+    if dbOrNot:
+        #update criterion in database
+        myUtils.updateCriterion(newUrlObjDic)
 
     #Update accessErrorURLs file.
     f = open("./accessErrorURLs", "w")
@@ -240,7 +240,7 @@ def main_fresh(dbOrNot):
         f.write(url + "\n")
     f.close()
 
-def main_stale():
+def main_stale(dbOrNot):
     """
     Monitor URLs using stale data(history data).
     Primarily use this method to reproduce the same dealing process TO DEBUG.
@@ -323,10 +323,33 @@ def main_stale():
         allContent = "本次共监测网站{0}个, 其中有{1}个网站监测到有更新, 详细信息如下:\n\n{2}".format(urlCount, uwCount, uwContent)
         myUtils.sendEmail(uwSubject, allContent)
 
+def getDbOrNot():
+    try:
+        f = open("./dbOrFiles")
+        dbFlag = False
+        while 1:
+            line = f.readline()
+            if not line:
+                break
+            if "0" not in line:
+                if "1" not in line:
+                    dbFlag = False
+                else:
+                    dbFlag = True
+            else:
+                dbFlag = False
+        return dbFlag
+    except Exception, e:
+        string1 = "lxw_No such file."
+        string2 = "./dbOrFiles"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
 
 if __name__ == '__main__':
     start = datetime.datetime.now()
-
+    dbOrNot = getDbOrNot()
     if len(sys.argv) < 2:
         main_fresh(dbOrNot)
         #myUtils.writeData("len<2\t{0}\n".format(sys.argv))

@@ -174,70 +174,48 @@ def getDBUser():
         string4 = "\n" + "------"*13 + "\n"
         string3 += string4
         writeLog(string1, string2, string3)
-        return "", "", ""
+        return "", "", "", ""
 
 def updateCriterion(dic):
     '''
+    dic -> newUrlObjDic[url] = URL(length, md5Str)
     dic[url] = URL(length, md5Str)
     '''
     try:
         uphp = getDBUser()
         username = uphp[0]
         passwd = uphp[1]
-        host = decode(host)
-        port = decode(port)
+        host = uphp[2]
+        port = uphp[3]
+        username = decode(username)
+        password = decode(passwd)
+        Host = decode(host)
+        Port = str(decode(port))
         conn = MySQLdb.connect(host=Host, user=username, passwd=password, port=Port)
+        conn.select_db('monitorURL')
         cur = conn.cursor()
-        cur.execute("create database if not exists monitorURL")
-        conn.select_db("monitorURL")
-        sql = "drop table if exists criterion"
-        cur.execute(sql)
-        sql = "create table criterion "
-        sql += "("
-        sql += "id int not null auto_increment,"
-        sql += "url varchar(1000),"
-        sql += "length int,"
-        sql += "md5 varchar(1000),"
-        sql += "date char(1),"
-        sql += "primary key(id)"
-        sql += ")"
-        cur.execute(sql)
-        sql = "drop table if exists intermedia"
-        cur.execute(sql)
-        sql = "create table intermedia "
-        sql += "("
-        sql += "id int not null auto_increment,"
-        sql += "url varchar(1000),"
-        sql += "sourcecode mediumtext,"
-        sql += "date char(1),"
-        sql += "primary key(id)"
-        sql += ")"
-        cur.execute(sql)
-
-        sql = "drop table if exists accessError"
-        cur.execute(sql)
-        sql = "create table accessError"
-        sql += "("
-        sql += "id int not null auto_increment,"
-        sql += "url varchar(1000),"
-        sql += "date char(1),"
-        sql += "primary key(id)"
-        sql += ")"
-        cur.execute(sql)
-        sql = "drop table if exists accessError"
-        cur.execute(sql)
-        sql = "drop table if exists monitorLog"
-        cur.execute(sql)
-        sql = "create table monitorLog"
-        sql += "("
-        sql += "id int not null auto_increment,"
-        sql += "url varchar(1000),"
-        sql += "date char(1),"
-        sql += "primary key(id)"
+        values = []
+        for key in dic.keys():
+            length = dic[key].getLength()
+            md5Str = dic[key].getMD5Str()
+            values.append((key, length, md5Str))
+        cur.executemany('insert into criterion values(%s, %s, %s, "1")', values)
+        cur.close()
+        conn.close()
     except Exception, e:
-        writeLog("EMAIL SENDING ERROR", "", traceback.format_exc())
+        string1 = "lxw_Exception."
+        string2 = ""
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        writeLog(string1, string2, string3)
     else:
-        writeLog("EMAIL SENDING SUCCESS", "", "")
+        string1 = "lxw_OK."
+        string2 = "update criterion table in the database"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        writeLog(string1, string2, string3)
 
 def sendEmail(subject, content):
     """

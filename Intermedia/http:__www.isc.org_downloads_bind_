@@ -87,12 +87,12 @@ img.emoji {
 }
 </style>
 <link rel='stylesheet' id='js_composer_front-css'  href='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.css?ver=3.0.2' type='text/css' media='screen' />
-<link rel='stylesheet' id='contact-form-7-css'  href='http://www.isc.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.isc.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.2' type='text/css' media='all' />
 <link rel='stylesheet' id='events-manager-css'  href='http://www.isc.org/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.55' type='text/css' media='all' />
 <link rel='stylesheet' id='select2-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/select2.css?ver=4.2.2' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-layout-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=2.3.9' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=2.3.9' type='text/css' media='only screen and (max-width: 768px)' />
-<link rel='stylesheet' id='woocommerce-general-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=2.3.9' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=2.3.11' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=2.3.11' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=2.3.11' type='text/css' media='all' />
 <link rel='stylesheet' id='wprssmi_template_styles-css'  href='http://www.isc.org/wp-content/plugins/wp-rss-multi-importer/templates/templates.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='dlm-frontend-css'  href='http://www.isc.org/wp-content/plugins/download-monitor/assets/css/frontend.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='bootstrap-css'  href='http://www.isc.org/wp-content/themes/flexform/css/bootstrap.min.css' type='text/css' media='screen' />
@@ -1112,13 +1112,13 @@ USA</p>
 var _wpcf7 = {"loaderUrl":"http:\/\/www.isc.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://www.isc.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.1.2'></script>
+<script type='text/javascript' src='http://www.isc.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","i18n_view_cart":"View Cart","cart_url":"https:\/\/www.isc.org\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.3.9'></script>
+<script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.3.11'></script>
 <script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/select2/select2.min.js?ver=3.5.2'></script>
 <script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.60'></script>
 <script type='text/javascript'>
@@ -1126,14 +1126,14 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","i18n_view_
 var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.3.9'></script>
+<script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.3.11'></script>
 <script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","fragment_name":"wc_fragments"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.3.9'></script>
+<script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.3.11'></script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.js?ver=4.2.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
