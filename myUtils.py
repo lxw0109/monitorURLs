@@ -22,6 +22,7 @@ import pickle
 import sys
 import base64
 from MailUser.mailUser import MailUser
+import MySQLdb
 
 fileLock = threading.RLock()
 logLock = threading.RLock()
@@ -58,6 +59,18 @@ def writeFile(url, length, md5Str):
         f.write("{0},{1},{2}\n".format(url, length, md5Str))
         fileLock.release()
 
+def database():
+    try:
+        conn = MySQLdb.connect(host="localhost", user="root", passwd="lxw", db="monitorURL", port=3306, charset="utf8")
+
+    except Exception, e:
+        string1 = "lxw_Exception."
+        string2 = "Database"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        writeLog(string1, string2, string3)
+
 def dealUrls():
     f = open("./urls")
     f1 = open("./.urls", "w")
@@ -89,19 +102,28 @@ def decode(string):
     return result
 
 def getServerEmail():
-    f = open("./.Data/user")
-    user = pickle.load(f)
-    email = user.getUserName()
-    passwd = user.getPassword()
-    server = user.getMailServer()
-    email = decode(email)
-    passwd = decode(passwd)
-    server = decode(server)
-    email = email.strip()
-    passwd = passwd.strip()
-    server = server.strip()
-    f.close()
-    return email, passwd, server
+    try:
+        f = open("./.Data/user")
+        user = pickle.load(f)
+        email = user.getUserName()
+        passwd = user.getPassword()
+        server = user.getMailServer()
+        email = decode(email)
+        passwd = decode(passwd)
+        server = decode(server)
+        email = email.strip()
+        passwd = passwd.strip()
+        server = server.strip()
+        f.close()
+        return email, passwd, server
+    except Exception, e:
+        string1 = "lxw_Exception."
+        string2 = ".Data/user pickle Error"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        writeLog(string1, string2, string3)
+        return "", "", ""
 
 def getRCB():
     '''

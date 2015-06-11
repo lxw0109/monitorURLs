@@ -44,26 +44,69 @@ def encodeStr(string):
     result = base64.b64encode(string)
     return result
 
-def configMailServer():
-    prompt = "Please Input Your Mail Server(such as smtp.gmail.com/smtp.cnnic.cn):"
-    print prompt
-    mailServer = raw_input()
-    prompt = "E-Mail(such as lxw0109@gmail.com):"
-    print prompt
-    username = raw_input()
-    password = getPasswd()
-    flag = testConfigMailServer(mailServer, username, password)
+def okServer():
+    '''
+    Check whether config the Server
+    '''
+    eps = myUtils.getServerEmail()
+    email = eps[0]
+    passwd = eps[1]
+    server = eps[2]
+    flag = testConfigMailServer(server, email, passwd)
     if flag:
-        #encode
-        mailServer = encodeStr(mailServer)
-        username = encodeStr(username)
-        password = encodeStr(password)
-        user = MailUser(mailServer, username, password)
-        f = open("./.Data/user", "wb")
-        pickle.dump(user, f)
-        f.close()
-        time.sleep(1)
+        return True
+    else:
+        return False
+
+def configMailServer():
+    prompt = "Before Using this program, you should config some options as follows:"
+    print prompt
+    print "------" * 20
+    print ""
+    if not okServer():
+        prompt = "Please Input Your Mail Server(such as smtp.gmail.com/smtp.cnnic.cn):"
+        print prompt
+        mailServer = raw_input()
         print ""
+        prompt = "E-Mail(such as lxw0109@gmail.com):"
+        print prompt
+        username = raw_input()
+        password = getPasswd()
+        flag = testConfigMailServer(mailServer, username, password)
+        if flag:
+            mailServer = encodeStr(mailServer)
+            username = encodeStr(username)
+            password = encodeStr(password)
+            user = MailUser(mailServer, username, password)
+            f = open("./.Data/user", "wb")
+            pickle.dump(user, f)
+            f.close()
+            time.sleep(1)
+            print "------" * 20
+            print ""
+            prompt = "Now you can config the Email Recipients, Carbon Copy and Blind Carbon Copy!"
+            print prompt
+            configRecipient()
+            time.sleep(1)
+            print ""
+            prompt = "Congratulations! Recipient & Carbon Copy & Blind Carbon Copy Configurations Succeed!"
+            print prompt
+            time.sleep(1)
+            print "------" * 20
+            print ""
+            prompt = "Now you can config the urls to be monitored!"
+            print prompt
+            configUrls()
+            print "------" * 20
+            print ""
+            prompt = "Congratulations! All Configurations Finished!"
+            print prompt
+        else:
+            print "Something wrong to do with your configuration. Please run \"python config.py\" to config it again"
+    else:
+        print "------" * 20
+        print ""
+        time.sleep(1)
         prompt = "Now you can config the Email Recipients, Carbon Copy and Blind Carbon Copy!"
         print prompt
         configRecipient()
@@ -72,15 +115,15 @@ def configMailServer():
         prompt = "Congratulations! Recipient & Carbon Copy & Blind Carbon Copy Configurations Succeed!"
         print prompt
         time.sleep(1)
+        print "------" * 20
         print ""
         prompt = "Now you can config the urls to be monitored!"
         print prompt
         configUrls()
+        print "------" * 20
         print ""
         prompt = "Congratulations! All Configurations Finished!"
         print prompt
-    else:
-        print "Something wrong to do with your configuration. Please run \"python config.py\" to config it again"
 
 def configUrls():
     print ""
@@ -92,16 +135,9 @@ def configUrls():
     raw_input()
 
 def configRecipient():
-    '''
-    Format
-    Recipient:lxw.ucas@gmail.com,lxw0109@gmail.com
-    Carbon Copy:lxw.ucas@gmail.com,lxw0109@gmail.com
-    Blind Carbon Copy:lxw.ucas@gmail.com,lxw0109@gmail.com
-    '''
     prompt = "Please Input the Recipient Email Address(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
     prompt += "If more than one email offered, split them with a comma symbol ',' :"
     time.sleep(1)
-    print ""
     print ""
     print prompt
     recipient = raw_input().strip()
@@ -115,7 +151,6 @@ def configRecipient():
     prompt += "If more than one email offered, split them with a comma symbol ',' :\n"
     prompt += "If no Carbon Copy Email Address, just press 'Enter'."
     print ""
-    print ""
     print prompt
     carbonCopy = raw_input().strip()
     if not carbonCopy:
@@ -127,7 +162,6 @@ def configRecipient():
     prompt = "Please Input the Blind Carbon Copy Email Address(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
     prompt += "If more than one email offered, split them with a comma symbol ',' :\n"
     prompt += "If no Carbon Copy Email Address, just press 'Enter'."
-    print ""
     print ""
     print prompt
     blindCarbonCopy = raw_input().strip()
@@ -154,8 +188,29 @@ def testConfigMailServer(server, username, password):
     '''
     name = username
     passwd = password
-    return testSendEmail(server, name, passwd)
+    result = testSendEmail(server, name, passwd)
+    return result
 
+def waitingInfo():
+    interval = 0.5
+    times = 3
+    char = "."
+    for i in xrange(times):
+        time.sleep(interval)
+        sys.stdout.write(char)
+        sys.stdout.flush()
+
+    char = " "
+    time.sleep(interval)
+    sys.stdout.write(char)
+    sys.stdout.flush()
+
+    times = 3
+    char = "."
+    for i in xrange(times):
+        time.sleep(interval)
+        sys.stdout.write(char)
+        sys.stdout.flush()
 
 def testSendEmail(server, name, passwd):
     """
@@ -183,6 +238,10 @@ def testSendEmail(server, name, passwd):
 
         sm.quit()
     except smtplib.SMTPAuthenticationError, sae:
+        print "Checking Email Server Configuration "
+        waitingInfo()
+        print ""
+        print ""
         string1 = "TEST EMAIL SENDING ERROR"
         string2 = "SMTPAuthenticationError"
         string3 = traceback.format_exc()
@@ -191,6 +250,10 @@ def testSendEmail(server, name, passwd):
         myUtils.writeLog(string1, string2, string3)
         return False
     except Exception, e:
+        print "Checking Email Server Configuration "
+        waitingInfo()
+        print ""
+        print ""
         string1 = "TEST EMAIL SENDING ERROR"
         string2 = "Other Exception"
         string3 = traceback.format_exc()
@@ -199,27 +262,9 @@ def testSendEmail(server, name, passwd):
         myUtils.writeLog(string1, string2, string3)
         return False
     else:
-        time.sleep(0.5)
-        sys.stdout.write(".")
-        sys.stdout.flush()
-        time.sleep(0.5)
-        sys.stdout.write(".")
-        sys.stdout.flush()
-        time.sleep(0.5)
-        sys.stdout.write(".")
-        sys.stdout.flush()
-        time.sleep(0.5)
-        sys.stdout.write(" ")
-        sys.stdout.flush()
-        time.sleep(0.5)
-        sys.stdout.write(".")
-        sys.stdout.flush()
-        time.sleep(0.5)
-        sys.stdout.write(".")
-        sys.stdout.flush()
-        time.sleep(0.5)
-        sys.stdout.write(".")
-        sys.stdout.flush()
+        print "Checking Email Server Configuration "
+        waitingInfo()
+        print ""
         print ""
         string1 = "Congratulations! Configurations Succeed!"
         string2 = ""

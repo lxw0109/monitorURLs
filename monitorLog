@@ -1,290 +1,50 @@
-TEST EMAIL SENDING: 	2015-06-10-15:31:53
+TEST EMAIL SENDING: 	2015-06-11-13:40:08
 
-TEST MAIL SENDING SUCCESS: 	2015-06-10-15:31:53
-
-------------------------------------------------------------------------------
-
-TEST EMAIL SENDING: 	2015-06-10-15:38:01
-
-TEST MAIL SENDING SUCCESS: 	2015-06-10-15:38:01
+TEST MAIL SENDING SUCCESS: 	2015-06-11-13:40:12
 
 ------------------------------------------------------------------------------
 
-TEST EMAIL SENDING: 	2015-06-10-15:50:42
+TEST EMAIL SENDING: 	2015-06-11-14:09:09
 
-TEST MAIL SENDING SUCCESS: 	2015-06-10-15:50:42
-
-------------------------------------------------------------------------------
-
-EMAIL SENDING: 	2015-06-10-16:00:14
-
-EMAIL SENDING ERROR: 	2015-06-10-16:00:14
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 112, in sendEmail
-    eps = getServerEmail()
-  File "/home/cnnic/monitorURL/myUtils.py", line 96, in getServerEmail
-    user = pickle.load(f)
-  File "/usr/lib/python2.7/pickle.py", line 1378, in load
-    return Unpickler(file).load()
-  File "/usr/lib/python2.7/pickle.py", line 858, in load
-    dispatch[key](self)
-  File "/usr/lib/python2.7/pickle.py", line 1090, in load_global
-    klass = self.find_class(module, name)
-  File "/usr/lib/python2.7/pickle.py", line 1126, in find_class
-    klass = getattr(mod, name)
-AttributeError: 'module' object has no attribute 'MailUser'
-
-Monitor Finished.   Monitor Time: 2015-06-10-16:00:14.   Time Cost: 0'13"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-TEST EMAIL SENDING: 	2015-06-10-16:20:38
-
-TEST MAIL SENDING SUCCESS: 	2015-06-10-16:20:38
+TEST MAIL SENDING SUCCESS: 	2015-06-11-14:09:12
 
 ------------------------------------------------------------------------------
 
-TEST EMAIL SENDING: 	2015-06-10-16:21:09
+TEST EMAIL SENDING: 	2015-06-11-14:10:47
 
-TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-16:21:09
-Traceback (most recent call last):
-  File "config.py", line 99, in testSendEmail
-    sm = smtplib.SMTP(smtpServer)
-  File "/usr/lib/python2.7/smtplib.py", line 249, in __init__
-    (code, msg) = self.connect(host, port)
-  File "/usr/lib/python2.7/smtplib.py", line 309, in connect
-    self.sock = self._get_socket(host, port, self.timeout)
-  File "/usr/lib/python2.7/smtplib.py", line 284, in _get_socket
-    return socket.create_connection((port, host), timeout)
-  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
-    raise err
-error: [Errno 22] Invalid argument
+TEST MAIL SENDING SUCCESS: 	2015-06-11-14:10:50
 
 ------------------------------------------------------------------------------
 
-TEST EMAIL SENDING: 	2015-06-10-16:21:22
+TEST EMAIL SENDING: 	2015-06-11-14:12:28
 
-TEST MAIL SENDING SUCCESS: 	2015-06-10-16:21:22
-
-------------------------------------------------------------------------------
-
-TEST EMAIL SENDING: 	2015-06-10-16:22:20
-
-TEST MAIL SENDING SUCCESS: 	2015-06-10-16:22:21
+TEST MAIL SENDING SUCCESS: 	2015-06-11-14:12:32
 
 ------------------------------------------------------------------------------
 
-EMAIL SENDING: 	2015-06-10-16:25:17
+TEST EMAIL SENDING: 	2015-06-11-14:13:42
 
-EMAIL SENDING SUCCESS: 	2015-06-10-16:25:18
-
-Monitor Finished.   Monitor Time: 2015-06-10-16:25:18.   Time Cost: 0'16"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-TEST EMAIL SENDING: 	2015-06-10-16:59:03
-
-TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-16:59:03
-Traceback (most recent call last):
-  File "config.py", line 101, in testSendEmail
-    sm = smtplib.SMTP(smtpServer)
-  File "/usr/lib/python2.7/smtplib.py", line 249, in __init__
-    (code, msg) = self.connect(host, port)
-  File "/usr/lib/python2.7/smtplib.py", line 309, in connect
-    self.sock = self._get_socket(host, port, self.timeout)
-  File "/usr/lib/python2.7/smtplib.py", line 284, in _get_socket
-    return socket.create_connection((port, host), timeout)
-  File "/usr/lib/python2.7/socket.py", line 553, in create_connection
-    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
-gaierror: [Errno -2] Name or service not known
+TEST MAIL SENDING SUCCESS: 	2015-06-11-14:13:45
 
 ------------------------------------------------------------------------------
 
-TEST EMAIL SENDING: 	2015-06-10-16:59:16
+lxw_Timed Out: http://pir.org/news-events/for-press/press-releases/	2015-06-11-14:29:18
 
-TEST MAIL SENDING SUCCESS: 	2015-06-10-16:59:16
+lxw_Timed Out: https://www.dns-oarc.net/	2015-06-11-14:29:18
 
-------------------------------------------------------------------------------
+lxw_Timed Out: http://nominum.com/press-type/release/	2015-06-11-14:29:18
 
-EMAIL SENDING: 	2015-06-10-17:00:38
+lxw_Timed Out: http://www.ripe.net/	2015-06-11-14:29:18
 
-EMAIL SENDING SUCCESS: 	2015-06-10-17:00:39
+EMAIL SENDING: 	2015-06-11-14:29:18
 
-EMAIL SENDING: 	2015-06-10-17:00:39
+EMAIL SENDING SUCCESS: 	2015-06-11-14:29:20
 
-EMAIL SENDING SUCCESS: 	2015-06-10-17:00:40
+EMAIL SENDING: 	2015-06-11-14:29:20
 
-Monitor Finished.   Monitor Time: 2015-06-10-17:00:40.   Time Cost: 0'23"
-------------------------------------------------------------------------------
+EMAIL SENDING SUCCESS: 	2015-06-11-14:29:20
 
-------------------------------------------------------------------------------
-[Quite Normal, url recovery.] lxw_KeyError: http://www.cert.org.cn/	2015-06-10-17:05:39
-
-EMAIL SENDING: 	2015-06-10-17:05:50
-
-EMAIL SENDING SUCCESS: 	2015-06-10-17:05:50
-
-Monitor Finished.   Monitor Time: 2015-06-10-17:05:50.   Time Cost: 0'13"
+Monitor Finished.   Monitor Time: 2015-06-11-14:29:20.   Time Cost: 1'3"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-Monitor Finished.   Monitor Time: 2015-06-10-17:58:53.   Time Cost: 0'0"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-Key Error
-Monitor Finished.   Monitor Time: 2015-06-10-17:59:50.   Time Cost: 0'0"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-Key Error
-[Quite Normal, url recovery.] lxw_KeyError: http://www.cert.org.cn/	2015-06-10-18:00:05
-
-------------------------------------------------------------------------------
-
-Monitor Finished.   Monitor Time: 2015-06-10-18:00:05.   Time Cost: 0'0"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-TEST EMAIL SENDING: 	2015-06-10-22:59:48
-
-TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-22:59:48
-Traceback (most recent call last):
-  File "config.py", line 137, in testSendEmail
-    sm = smtplib.SMTP(smtpServer)
-  File "/usr/lib/python2.7/smtplib.py", line 251, in __init__
-    (code, msg) = self.connect(host, port)
-  File "/usr/lib/python2.7/smtplib.py", line 311, in connect
-    self.sock = self._get_socket(host, port, self.timeout)
-  File "/usr/lib/python2.7/smtplib.py", line 286, in _get_socket
-    return socket.create_connection((host, port), timeout)
-  File "/usr/lib/python2.7/socket.py", line 553, in create_connection
-    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
-gaierror: [Errno -2] Name or service not known
-
-------------------------------------------------------------------------------
-
-TEST EMAIL SENDING: 	2015-06-10-22:59:56
-
-TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-22:59:56
-Traceback (most recent call last):
-  File "config.py", line 137, in testSendEmail
-    sm = smtplib.SMTP(smtpServer)
-  File "/usr/lib/python2.7/smtplib.py", line 251, in __init__
-    (code, msg) = self.connect(host, port)
-  File "/usr/lib/python2.7/smtplib.py", line 311, in connect
-    self.sock = self._get_socket(host, port, self.timeout)
-  File "/usr/lib/python2.7/smtplib.py", line 286, in _get_socket
-    return socket.create_connection((host, port), timeout)
-  File "/usr/lib/python2.7/socket.py", line 553, in create_connection
-    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
-gaierror: [Errno -2] Name or service not known
-
-------------------------------------------------------------------------------
-
-TEST EMAIL SENDING: 	2015-06-10-23:01:48
-
-TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-23:01:48
-Traceback (most recent call last):
-  File "config.py", line 138, in testSendEmail
-    sm = smtplib.SMTP(smtpServer)
-  File "/usr/lib/python2.7/smtplib.py", line 251, in __init__
-    (code, msg) = self.connect(host, port)
-  File "/usr/lib/python2.7/smtplib.py", line 311, in connect
-    self.sock = self._get_socket(host, port, self.timeout)
-  File "/usr/lib/python2.7/smtplib.py", line 286, in _get_socket
-    return socket.create_connection((host, port), timeout)
-  File "/usr/lib/python2.7/socket.py", line 553, in create_connection
-    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
-gaierror: [Errno -2] Name or service not known
-
-------------------------------------------------------------------------------
-
-TEST EMAIL SENDING: 	2015-06-10-23:02:38
-
-TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-23:02:38
-Traceback (most recent call last):
-  File "config.py", line 139, in testSendEmail
-    sm = smtplib.SMTP(smtpServer)
-  File "/usr/lib/python2.7/smtplib.py", line 251, in __init__
-    (code, msg) = self.connect(host, port)
-  File "/usr/lib/python2.7/smtplib.py", line 311, in connect
-    self.sock = self._get_socket(host, port, self.timeout)
-  File "/usr/lib/python2.7/smtplib.py", line 286, in _get_socket
-    return socket.create_connection((host, port), timeout)
-  File "/usr/lib/python2.7/socket.py", line 553, in create_connection
-    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
-gaierror: [Errno -2] Name or service not known
-
-------------------------------------------------------------------------------
-
-TEST EMAIL SENDING: 	2015-06-10-23:08:33
-
-TEST EMAIL SENDING ERROR: Other Exception	2015-06-10-23:08:33
-Traceback (most recent call last):
-  File "config.py", line 161, in testSendEmail
-    sm = smtplib.SMTP(smtpServer)
-  File "/usr/lib/python2.7/smtplib.py", line 251, in __init__
-    (code, msg) = self.connect(host, port)
-  File "/usr/lib/python2.7/smtplib.py", line 311, in connect
-    self.sock = self._get_socket(host, port, self.timeout)
-  File "/usr/lib/python2.7/smtplib.py", line 286, in _get_socket
-    return socket.create_connection((host, port), timeout)
-  File "/usr/lib/python2.7/socket.py", line 553, in create_connection
-    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
-gaierror: [Errno -2] Name or service not known
-
-------------------------------------------------------------------------------
-
-TEST EMAIL SENDING: 	2015-06-11-08:31:00
-
-TEST MAIL SENDING SUCCESS: 	2015-06-11-08:31:00
-
-------------------------------------------------------------------------------
-
-TEST EMAIL SENDING: 	2015-06-11-08:37:14
-
-TEST MAIL SENDING SUCCESS: 	2015-06-11-08:37:14
-
-------------------------------------------------------------------------------
-
-TEST EMAIL SENDING: 	2015-06-11-08:42:27
-
-TEST MAIL SENDING SUCCESS: 	2015-06-11-08:42:30
-
-------------------------------------------------------------------------------
-
-TEST EMAIL SENDING: 	2015-06-11-08:45:33
-
-TEST MAIL SENDING SUCCESS: 	2015-06-11-08:45:36
-
-------------------------------------------------------------------------------
-
-TEST EMAIL SENDING: 	2015-06-11-08:48:23
-
-TEST MAIL SENDING SUCCESS: 	2015-06-11-08:48:26
-
-------------------------------------------------------------------------------
-
-EMAIL SENDING: 	2015-06-11-09:00:17
-
-EMAIL SENDING SUCCESS: 	2015-06-11-09:00:22
-
-Monitor Finished.   Monitor Time: 2015-06-11-09:00:22.   Time Cost: 0'21"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-EMAIL SENDING: 	2015-06-11-09:17:29
-
-EMAIL SENDING SUCCESS: 	2015-06-11-09:17:30
-
-Monitor Finished.   Monitor Time: 2015-06-11-09:17:30.   Time Cost: 0'18"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-TEST EMAIL SENDING: 	2015-06-11-09:58:51
-
-TEST MAIL SENDING SUCCESS: 	2015-06-11-09:58:55
-
-------------------------------------------------------------------------------
-
