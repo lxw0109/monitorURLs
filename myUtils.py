@@ -23,6 +23,7 @@ import sys
 import base64
 from MailUser.mailUser import MailUser
 import MySQLdb
+from DBUser.dbUser import DBUser
 
 fileLock = threading.RLock()
 logLock = threading.RLock()
@@ -82,8 +83,9 @@ def intoFile(url, sourceCode):
     url = url.replace("/", "_")
 
     filename = "./test_" + url
-    with open(filename, "w") as f:
-        f.write(sourceCode + "\n")
+    f = open(filename, "w")
+    f.write(sourceCode + "\n")
+    f.close()
 
 def decode(string):
     result = base64.b64decode(string)
@@ -146,6 +148,96 @@ def filterList(aList):
         else:
             i += 1
     return aList
+
+def getDBUser():
+    try:
+        f = open("./.db.conf")
+        user = pickle.load(f)
+        username = user.getUserName()
+        passwd = user.getPassword()
+        host = user.getHost()
+        port = user.getPort()
+        username = decode(username)
+        passwd = decode(passwd)
+        host = decode(host)
+        port = decode(port)
+        username = username.strip()
+        passwd = passwd.strip()
+        host= host.strip()
+        port = port.strip()
+        f.close()
+        return username, passwd, host, port
+    except Exception, e:
+        string1 = "lxw_Exception."
+        string2 = ".db.conf pickle Error"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        writeLog(string1, string2, string3)
+        return "", "", ""
+
+def updateCriterion(dic):
+    '''
+    dic[url] = URL(length, md5Str)
+    '''
+    try:
+        uphp = getDBUser()
+        username = uphp[0]
+        passwd = uphp[1]
+        host = decode(host)
+        port = decode(port)
+        conn = MySQLdb.connect(host=Host, user=username, passwd=password, port=Port)
+        cur = conn.cursor()
+        cur.execute("create database if not exists monitorURL")
+        conn.select_db("monitorURL")
+        sql = "drop table if exists criterion"
+        cur.execute(sql)
+        sql = "create table criterion "
+        sql += "("
+        sql += "id int not null auto_increment,"
+        sql += "url varchar(1000),"
+        sql += "length int,"
+        sql += "md5 varchar(1000),"
+        sql += "date char(1),"
+        sql += "primary key(id)"
+        sql += ")"
+        cur.execute(sql)
+        sql = "drop table if exists intermedia"
+        cur.execute(sql)
+        sql = "create table intermedia "
+        sql += "("
+        sql += "id int not null auto_increment,"
+        sql += "url varchar(1000),"
+        sql += "sourcecode mediumtext,"
+        sql += "date char(1),"
+        sql += "primary key(id)"
+        sql += ")"
+        cur.execute(sql)
+
+        sql = "drop table if exists accessError"
+        cur.execute(sql)
+        sql = "create table accessError"
+        sql += "("
+        sql += "id int not null auto_increment,"
+        sql += "url varchar(1000),"
+        sql += "date char(1),"
+        sql += "primary key(id)"
+        sql += ")"
+        cur.execute(sql)
+        sql = "drop table if exists accessError"
+        cur.execute(sql)
+        sql = "drop table if exists monitorLog"
+        cur.execute(sql)
+        sql = "create table monitorLog"
+        sql += "("
+        sql += "id int not null auto_increment,"
+        sql += "url varchar(1000),"
+        sql += "date char(1),"
+        sql += "primary key(id)"
+    except Exception, e:
+        writeLog("EMAIL SENDING ERROR", "", traceback.format_exc())
+    else:
+        writeLog("EMAIL SENDING SUCCESS", "", "")
 
 def sendEmail(subject, content):
     """
@@ -446,6 +538,60 @@ def diff2Str_stale(filename, filenameNew):
         writeLog("lxw_ERROR", "", traceback.format_exc())
         return []
 
+def diff2StrSwitch(filename, sourceCode):
+    """
+    NO_USE
+    """
+    try:
+        list1 = []
+        with open(filename) as f:
+            while 1:
+                string = f.readline()
+                if not string:
+                    break
+                #NOTE: the rstrip() in the following line is essential.
+                list1.append(string.strip())
+
+        list2 = sourceCode.splitlines()
+        length = len(list2)
+        for index in xrange(length):
+            list2[index] = list2[index].strip()
+
+        list1 = pickA(list1)
+        list2 = pickA(list2)
+
+        d = difflib.Differ()
+        res = list(d.compare(list1, list2))
+        diffList = list(difflib.ndiff(list1, list2))
+
+        length = len(diffList)
+        filterList = []
+        for index in xrange(length):
+            if diffList[index].startswith(" "):      # ignore the lines that are identical.
+                pass
+            elif diffList[index].startswith("?"):    # ignore the lines that start with "?"
+                pass
+            elif len(diffList[index].strip()) < 2:   # delete the lines that is meaningless
+                pass
+            else:
+                filterList.append(diffList[index])
+
+        specList = pickB(filterList)
+
+        finList = []
+        [finList.append(item) for item in specList if not item in finList]
+
+        finList = pickFilter(finList[:])
+
+        return finList
+
+    except IOError, e:
+        writeLog("lxw_IOERROR Occurred(File not found, url revives now.)", "", traceback.format_exc())
+        return []
+
+    except Exception, e:
+        writeLog("lxw_ERROR", "", traceback.format_exc())
+        return []
 
 def pickA(aList):
     """

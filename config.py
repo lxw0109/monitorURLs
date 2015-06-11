@@ -17,6 +17,7 @@ import smtplib
 from email.message import Message
 from MailUser.mailUser import MailUser
 from MailUser.recipient import Recipient
+from DBUser.dbUser import DBUser
 import time
 import MySQLdb
 
@@ -281,6 +282,16 @@ def testDBConnection(username, password, Host, Port):
     except Exception, e:
         return False
 
+def recordDBUser(username, password, host, port):
+    mailServer = encodeStr(username)
+    username = encodeStr(password)
+    password = encodeStr(host)
+    port = encodeStr(port)
+    dbUser = DBUser(username, password, host, port)
+    f = open("./.db.conf", "w")
+    pickle.dump(dbUser, f)
+    f.close()
+
 def configDB():
     print "------" * 20
     print ""
@@ -329,11 +340,24 @@ def configDB():
     if test:
         print "Database connection Succeed."
         print "Initializing MySQL configuration."
+        recordDBUser(username, password, Host, str(Port))
         initializeDB(username, password, Host, Port)
         waitingInfo()
         print ""
+        prompt = "Congratulations! Database Configurations Finished!"
+        #Use file to keep whether to use database or files.
+        f = open("./dbOrFiles", "w")
+        f.write("1")
+        f.close()
+        print prompt
+        print ""
     else:
-        print "Database connection Failed."
+        prompt = "Database connection Failed."
+        print prompt
+        print ""
+        f = open("./dbOrFiles", "w")
+        f.write("0")
+        f.close()
 
 def initializeDB(username, password, Host, Port):
     try:

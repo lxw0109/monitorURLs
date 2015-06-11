@@ -43,12 +43,14 @@ class URL(object):
     def __init__(self, length, md5Str):
         self.length = length
         self.md5Str = md5Str
-
     def getLength(self):
         return self.length
-
     def getMD5Str(self):
         return self.md5Str
+    def setLength(self, length):
+        self.length = length
+    def setMD5Str(self, md5Str):
+        self.md5Str = md5Str
 
 
 def monitor(url):
@@ -104,8 +106,6 @@ def monitor(url):
                 aeSubject += "."
             aeCount += 1
             aeContent += "URL: {0}\n监测时间: {1}\n监测结果:监测到网站访问故障，请查看.\n\n".format(url, checkTime)
-            #with open("./accessErrorURLs", "a") as f:
-            #    f.write(url + "\n")
             aeURLs.append(url)
             aeLock.release()
     else:
@@ -124,7 +124,6 @@ def monitor(url):
             uwContent += content
             uwLock.release()
         myUtils.recordInFile(url, sourceCode)
-
 
 def process_stale(url):
     """
@@ -167,49 +166,44 @@ def process_stale(url):
         myUtils.writeLog(string1, string2, string3)
 
 
-def main_fresh():
+def main_fresh(dbOrNot):
     """
     Monitor URLs using fresh data.
     """
     # set value for oldUrlObjDic dict.
-    with open("./criterion_new") as f:
-        while 1:
-            string = f.readline().strip()
-            if not string:
-                break
-            arr = string.split(",")
-            #URL Object Format: URL(length, md5)
-            oldUrlObjDic[arr[0]] = URL(int(arr[1]), arr[2])
+    f = open("./criterion_new")
+    while 1:
+        string = f.readline().strip()
+        if not string:
+            break
+        arr = string.split(",")
+        #URL Object Format: URL(length, md5)
+        oldUrlObjDic[arr[0]] = URL(int(arr[1]), arr[2])
+    f.close()
 
-    # initialize the 2 lits: updateURLs & aeURLs.
-    #with open("./updateURLs") as f:
-    #    while 1:
-    #        string= f.readline().strip()
-    #        if not string:
-    #            break
-    #        updateURLs.append(string)
-
-    with open("./accessErrorURLs") as f:
-        while 1:
-            string= f.readline().strip()
-            if not string:
-                break
-            aeURLs.append(string)
+    f = open("./accessErrorURLs")
+    while 1:
+        string= f.readline().strip()
+        if not string:
+            break
+        aeURLs.append(string)
+    f.close()
 
     threadingNum = threading.Semaphore(THREADS_NUM)
     threads = []
     urlCount = 0
-    # monitor each url in urls file
-    with open("./.urls") as f:
-        while 1:
-            url = f.readline().strip()
-            if not url:
-                break
-            #Multiple Thread: Deal with "one url by one single thread".
-            mt = MyThread(monitor, (url,), threadingNum)
-            #mt.start()
-            threads.append(mt)
-            urlCount += 1
+    # monitor each url in .urls file
+    f = open("./.urls")
+    while 1:
+        url = f.readline().strip()
+        if not url:
+            break
+        #Multiple Thread: Deal with "one url by one single thread".
+        mt = MyThread(monitor, (url,), threadingNum)
+        #mt.start()
+        threads.append(mt)
+        urlCount += 1
+    f.close()
     for thread in threads:
         thread.start()
 
@@ -232,15 +226,19 @@ def main_fresh():
         myUtils.sendEmail(uwSubject, allContent)
 
     #Update Criterion file.
-    with open("./criterion_new", "w") as f:
-        for url in newUrlObjDic.keys():
-            f.write("{0},{1},{2}\n".format(url, newUrlObjDic[url].length, newUrlObjDic[url].getMD5Str()))
+    f = open("./criterion_new", "w")
+    for url in newUrlObjDic.keys():
+        f.write("{0},{1},{2}\n".format(url, newUrlObjDic[url].length, newUrlObjDic[url].getMD5Str()))
+    f.close()
+
+    #update criterion in database
+    myUtils.updateCriterion(newUrlObjDic)
 
     #Update accessErrorURLs file.
-    with open("./accessErrorURLs", "w") as f:
-        for url in aeURLs:
-            f.write(url + "\n")
-
+    f = open("./accessErrorURLs", "w")
+    for url in aeURLs:
+        f.write(url + "\n")
+    f.close()
 
 def main_stale():
     """
@@ -249,26 +247,35 @@ def main_stale():
     """
     try:
         # set value for oldUrlObjDic dict.
-        with open("./criterion") as f:
-            while 1:
-                string = f.readline().strip()
-                if not string:
-                    break
-                arr = string.split(",")
-                #URL Object Format: URL(length, md5)
-                oldUrlObjDic[arr[0]] = URL(int(arr[1]), arr[2])
+        f = open("./criterion")
+        while 1:
+            string = f.readline().strip()
+            if not string:
+                break
+            arr = string.split(",")
+            #URL Object Format: URL(length, md5)
+            oldUrlObjDic[arr[0]] = URL(int(arr[1]), arr[2])
+        f.close()
 
         # set value for newUrlObjDic dict.
-        with open("./criterion_new") as f:
-            while 1:
-                string = f.readline().strip()
-                if not string:
-                    break
-                arr = string.split(",")
-                #URL Object Format: URL(length, md5)
-                newUrlObjDic[arr[0]] = URL(int(arr[1]), arr[2])
+        f = open("./criterion_new")
+        while 1:
+            string = f.readline().strip()
+            if not string:
+                break
+            arr = string.split(",")
+            #URL Object Format: URL(length, md5)
+            newUrlObjDic[arr[0]] = URL(int(arr[1]), arr[2])
+        f.close()
     except IOError, ioe:
         string1 = "lxw_IOError."
+        string2 = ""
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
+    except Exception, e:
+        string1 = "lxw_Exception."
         string2 = ""
         string3 = traceback.format_exc()
         string4 = "\n" + "------"*13 + "\n"
@@ -294,7 +301,6 @@ def main_stale():
     for thread in threads:
         thread.start()
 
-    """
     while 1:
         over = True
         for thread in threads:
@@ -305,7 +311,6 @@ def main_stale():
                     myUtils.writeLog("lxw_Timed Out", thread.getURL(), "")
         if over:
             break
-    """
 
     for thread in threads:
         thread.join()
@@ -323,10 +328,10 @@ if __name__ == '__main__':
     start = datetime.datetime.now()
 
     if len(sys.argv) < 2:
-        main_fresh()
+        main_fresh(dbOrNot)
         #myUtils.writeData("len<2\t{0}\n".format(sys.argv))
     elif sys.argv[1] == "debug":
-        main_stale()
+        main_stale(dbOrNot)
         #myUtils.writeData("len>=2\tlen:{0}\t{1}\n".format(len(sys.argv), sys.argv))
 
     end = datetime.datetime.now()

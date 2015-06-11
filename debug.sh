@@ -18,5 +18,4 @@ touch accessErrorURLs
 touch receive.conf
 
 #Monitor:
-#python ./monitorURLs.py "debug" >> ./monitorLog
 python ./monitorURLs.py "debug" >> ./monitorLog
