@@ -331,6 +331,7 @@ def configDB():
         print "Initializing MySQL configuration."
         initializeDB(username, password, Host, Port)
         waitingInfo()
+        print ""
     else:
         print "Database connection Failed."
 
@@ -340,7 +341,104 @@ def initializeDB(username, password, Host, Port):
         cur = conn.cursor()
         cur.execute("create database if not exists monitorURL")
         conn.select_db("monitorURL")
-        cur.execute("create table ")
+        sql = "drop table if exists criterion"
+        cur.execute(sql)
+        sql = "create table criterion "
+        sql += "("
+        sql += "id int not null auto_increment,"
+        sql += "url varchar(1000),"
+        sql += "length int,"
+        sql += "md5 varchar(1000),"
+        sql += "date char(1),"
+        sql += "primary key(id)"
+        sql += ")"
+        cur.execute(sql)
+        sql = "drop table if exists intermedia"
+        cur.execute(sql)
+        sql = "create table intermedia "
+        sql += "("
+        sql += "id int not null auto_increment,"
+        sql += "url varchar(1000),"
+        sql += "sourcecode mediumtext,"
+        sql += "date char(1),"
+        sql += "primary key(id)"
+        sql += ")"
+        cur.execute(sql)
+
+        sql = "drop table if exists accessError"
+        cur.execute(sql)
+        sql = "create table accessError"
+        sql += "("
+        sql += "id int not null auto_increment,"
+        sql += "url varchar(1000),"
+        sql += "date char(1),"
+        sql += "primary key(id)"
+        sql += ")"
+        cur.execute(sql)
+        sql = "drop table if exists accessError"
+        cur.execute(sql)
+        sql = "drop table if exists monitorLog"
+        cur.execute(sql)
+        sql = "create table monitorLog"
+        sql += "("
+        sql += "id int not null auto_increment,"
+        sql += "url varchar(1000),"
+        sql += "date char(1),"
+        sql += "primary key(id)"
+        sql += ")"
+        sql = "drop table if exists monitorLog"
+        cur.execute(sql)
+        sql = "drop table if exists criterion_new"
+        cur.execute(sql)
+        sql = "create table criterion_new "
+        sql += "("
+        sql += "id int not null auto_increment,"
+        sql += "url varchar(1000),"
+        sql += "length int,"
+        sql += "md5 varchar(1000),"
+        sql += "date char(1),"
+        sql += "primary key(id)"
+        sql += ")"
+        cur.execute(sql)
+        sql = "drop table if exists criterion_new"
+        cur.execute(sql)
+        sql = "drop table if exists intermedia_new"
+        cur.execute(sql)
+        sql = "create table intermedia_new"
+        sql += "("
+        sql += "id int not null auto_increment,"
+        sql += "url varchar(1000),"
+        sql += "sourcecode mediumtext,"
+        sql += "date char(1),"
+        sql += "primary key(id)"
+        sql += ")"
+        cur.execute(sql)
+        sql = "drop table if exists intermedia_new"
+        cur.execute(sql)
+        sql = "drop table if exists accessError_new"
+        cur.execute(sql)
+        sql = "create table accessError_new"
+        sql += "("
+        sql += "id int not null auto_increment,"
+        sql += "url varchar(1000),"
+        sql += "date char(1),"
+        sql += "primary key(id)"
+        sql += ")"
+        cur.execute(sql)
+        sql = "drop table if exists accessError_new"
+        cur.execute(sql)
+        sql = "drop table if exists monitorLog_new"
+        cur.execute(sql)
+        sql = "create table monitorLog_new"
+        sql += "("
+        sql += "id int not null auto_increment,"
+        sql += "url varchar(1000),"
+        sql += "date char(1),"
+        sql += "primary key(id)"
+        sql += ")"
+        sql = "drop table if exists monitorLog_new"
+        cur.execute(sql)
+        cur.execute(sql)
         cur.close()
         conn.close()
     except Exception, e:
@@ -349,7 +447,7 @@ def initializeDB(username, password, Host, Port):
         string3 = traceback.format_exc()
         string4 = "\n" + "------"*13 + "\n"
         string3 += string4
-        writeLog(string1, string2, string3)
+        myUtils.writeLog(string1, string2, string3)
 
 def main():
     prompt = "Before Using this program, you should configure some options as follows:\n"
