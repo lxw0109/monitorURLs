@@ -18,6 +18,7 @@ from email.message import Message
 from MailUser.mailUser import MailUser
 from MailUser.recipient import Recipient
 import time
+import MySQLdb
 
 def getPasswdWin():
     '''
@@ -59,10 +60,6 @@ def okServer():
         return False
 
 def configMailServer():
-    prompt = "Before Using this program, you should config some options as follows:"
-    print prompt
-    print "------" * 20
-    print ""
     if not okServer():
         prompt = "Please Input Your Mail Server(such as smtp.gmail.com/smtp.cnnic.cn):"
         print prompt
@@ -99,7 +96,7 @@ def configMailServer():
             configUrls()
             print "------" * 20
             print ""
-            prompt = "Congratulations! All Configurations Finished!"
+            prompt = "Congratulations! Email Account Configurations Finished!"
             print prompt
         else:
             print "Something wrong to do with your configuration. Please run \"python config.py\" to config it again"
@@ -122,7 +119,7 @@ def configMailServer():
         configUrls()
         print "------" * 20
         print ""
-        prompt = "Congratulations! All Configurations Finished!"
+        prompt = "Congratulations! Email Account Configurations Finished!"
         print prompt
 
 def configUrls():
@@ -143,6 +140,7 @@ def configRecipient():
     recipient = raw_input().strip()
     if not recipient:
         print "Illegal recipient. System Exit!"
+        sys.exit(1)
     if '@' not in recipient:
         print "Illegal Email Address. System Exit!"
         sys.exit(1)
@@ -276,8 +274,110 @@ def testSendEmail(server, name, passwd):
         myUtils.writeLog(string5, string2, string3)
         return True
 
+def testDBConnection(username, password, Host, Port):
+    try:
+        conn = MySQLdb.connect(host=Host, user=username, passwd=password, port=Port)
+        return True
+    except Exception, e:
+        return False
+
+def configDB():
+    print "------" * 20
+    print ""
+    prompt = "Which host your mysql database locates?"
+    prompt += "If you don't know about it or the host is localhost, just Press Enter to continue:"
+    print prompt
+    Host = raw_input()
+    Host = Host.strip()
+    if Host == "":
+        Host = "localhost"
+    else:
+        pass
+
+    print ""
+    prompt = "Which port your mysql database uses?"
+    prompt += "If you don't know about it or the port is 3306, just Press Enter to continue:"
+    print prompt
+    Port = raw_input()
+    Port = Port.strip()
+    if Port == "":
+        Port = 3306
+    else:
+        pass
+
+    print ""
+    prompt = "Please Input the Username of Mysql:"
+    print prompt
+    username = raw_input()
+    username = username.strip()
+    if username == "":
+        print "Illegal username"
+        sys.exit(1)
+    else:
+        pass
+
+    print ""
+    prompt = "Please Input the password."
+    print prompt
+    password = getPasswd()
+    password = password.strip()
+    if password == "":
+        pass
+    else:
+        pass
+    test = testDBConnection(username, password, Host, Port)
+    if test:
+        print "Database connection Succeed."
+        print "Initializing MySQL configuration."
+        initializeDB(username, password, Host, Port)
+        waitingInfo()
+    else:
+        print "Database connection Failed."
+
+def initializeDB(username, password, Host, Port):
+    try:
+        conn = MySQLdb.connect(host=Host, user=username, passwd=password, port=Port)
+        cur = conn.cursor()
+        cur.execute("create database if not exists monitorURL")
+        conn.select_db("monitorURL")
+        cur.execute("create table ")
+        cur.close()
+        conn.close()
+    except Exception, e:
+        string1 = "lxw_Exception."
+        string2 = "Database"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        writeLog(string1, string2, string3)
+
 def main():
-    configMailServer()
+    prompt = "Before Using this program, you should configure some options as follows:\n"
+    prompt += "\t1. Add an Email Account to Send Notification Email.\n"
+    prompt += "\t2. Config the MySQL database.\n"
+    prompt += "If you have NOT configured 1 and 2, enter 1 please;\n"
+    prompt += "If you have configured 1 and want to config 2, enter 2 please;\n"
+    prompt += "If you have configured both, just press enter to exit:\n"
+    print prompt
+    choice = raw_input().strip()
+    if choice == '':
+        return
+    if choice == '1':
+        print "------" * 20
+        print ""
+        configMailServer()
+
+    print "------" * 20
+    print ""
+    prompt = "We offer alternative ways to save the history data: in files or in database. "
+    print prompt
+    prompt = "Do you want to config the database? Y/N"
+    print prompt
+    choice = raw_input()
+    if choice.upper() == "Y":
+        configDB()
+    else:
+        pass
 
 if __name__ == '__main__':
     main()

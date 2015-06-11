@@ -59,18 +59,6 @@ def writeFile(url, length, md5Str):
         f.write("{0},{1},{2}\n".format(url, length, md5Str))
         fileLock.release()
 
-def database():
-    try:
-        conn = MySQLdb.connect(host="localhost", user="root", passwd="lxw", db="monitorURL", port=3306, charset="utf8")
-
-    except Exception, e:
-        string1 = "lxw_Exception."
-        string2 = "Database"
-        string3 = traceback.format_exc()
-        string4 = "\n" + "------"*13 + "\n"
-        string3 += string4
-        writeLog(string1, string2, string3)
-
 def dealUrls():
     f = open("./urls")
     f1 = open("./.urls", "w")
@@ -675,13 +663,16 @@ def test():
     #diff2Str() # test alone
     #recordInFile() #test alone
     writeLog("test myUtils.py---------------------------10", "FINISHED", "")
-    '''
     getServerEmail()
+    getRCB()
+    '''
+    #database()
+    pass
+
 
 if __name__ == '__main__':
     start = datetime.datetime.now()
     #initCriterion()
-    #test()
-    getCopyBlind()
+    test()
     end = datetime.datetime.now()
-    #writeLog("Method initCriterion() finishes. Time cost: ", "", str(end-start) + " seconds.")
+    writeLog("myUtils.py finishes. Time cost: ", str(end-start) + " seconds.", "")
