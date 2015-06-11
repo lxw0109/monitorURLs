@@ -43,85 +43,114 @@ def getPasswdWin():
     return passwd
 
 def encodeStr(string):
-    result = base64.b64encode(string)
-    return result
+    try:
+        result = base64.b64encode(string)
+        return result
+    except Exception, e:
+        string1 = "Exception"
+        string2 = ""
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
+        return ""
 
 def okServer():
     '''
     Check whether config the Server
     '''
-    eps = myUtils.getServerEmail()
-    email = eps[0]
-    passwd = eps[1]
-    server = eps[2]
-    flag = testConfigMailServer(server, email, passwd)
-    if flag:
-        return True
-    else:
+    try:
+        eps = myUtils.getServerEmail()
+        email = eps[0]
+        passwd = eps[1]
+        server = eps[2]
+        flag = testConfigMailServer(server, email, passwd)
+        if flag:
+            return True
+        else:
+            return False
+    except Exception, e:
+        string1 = "Exception"
+        string2 = ""
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
         return False
 
 def configMailServer():
-    if not okServer():
-        prompt = "Please Input Your Mail Server(such as smtp.gmail.com/smtp.cnnic.cn):"
-        print prompt
-        mailServer = raw_input()
-        print ""
-        prompt = "E-Mail(such as lxw0109@gmail.com):"
-        print prompt
-        username = raw_input()
-        password = getPasswd()
-        flag = testConfigMailServer(mailServer, username, password)
-        if flag:
-            mailServer = encodeStr(mailServer)
-            username = encodeStr(username)
-            password = encodeStr(password)
-            user = MailUser(mailServer, username, password)
-            f = open("./.Data/user", "wb")
-            pickle.dump(user, f)
-            f.close()
-            time.sleep(1)
-            print "------" * 20
+    try:
+        if not okServer():
+            prompt = "Please Input Your Mail Server(such as smtp.gmail.com/smtp.cnnic.cn):"
+            print prompt
+            mailServer = raw_input()
             print ""
+            prompt = "E-Mail(such as lxw0109@gmail.com):"
+            print prompt
+            username = raw_input()
+            password = getPasswd()
+            flag = testConfigMailServer(mailServer, username, password)
+            if flag:
+                mailServer = encodeStr(mailServer)
+                username = encodeStr(username)
+                password = encodeStr(password)
+                user = MailUser(mailServer, username, password)
+                f = open("./.Data/user", "wb")
+                pickle.dump(user, f)
+                f.close()
+                time.sleep(1)
+                print "------" * 20
+                print ""
+                prompt = "Now you can config the Email Recipients, Carbon Copy and Blind Carbon Copy!"
+                print prompt
+                configRecipient()
+                time.sleep(1)
+                print ""
+                prompt = "Congratulations! Recipient & Carbon Copy & Blind Carbon Copy Configurations Succeed!"
+                print prompt
+                time.sleep(1)
+                print "------" * 20
+                print ""
+                prompt = "Now you can config the urls to be monitored!"
+                print prompt
+                configUrls()
+                print "------" * 20
+                print ""
+                prompt = "Congratulations! Email Account Configurations Finished!"
+                print prompt
+            else:
+                string = "Something wrong to do with your configuration. Please run \"python config.py\" to config it again"
+                print string
+        else:
+            sepStr = "------" * 20
+            nullStr = ""
+            print sepStr
+            print nullStr
+            time.sleep(1)
             prompt = "Now you can config the Email Recipients, Carbon Copy and Blind Carbon Copy!"
             print prompt
             configRecipient()
             time.sleep(1)
-            print ""
+            print nullStr
             prompt = "Congratulations! Recipient & Carbon Copy & Blind Carbon Copy Configurations Succeed!"
             print prompt
             time.sleep(1)
-            print "------" * 20
-            print ""
+            print sepStr
+            print nullStr
             prompt = "Now you can config the urls to be monitored!"
             print prompt
             configUrls()
-            print "------" * 20
-            print ""
+            print sepStr
+            print nullStr
             prompt = "Congratulations! Email Account Configurations Finished!"
             print prompt
-        else:
-            print "Something wrong to do with your configuration. Please run \"python config.py\" to config it again"
-    else:
-        print "------" * 20
-        print ""
-        time.sleep(1)
-        prompt = "Now you can config the Email Recipients, Carbon Copy and Blind Carbon Copy!"
-        print prompt
-        configRecipient()
-        time.sleep(1)
-        print ""
-        prompt = "Congratulations! Recipient & Carbon Copy & Blind Carbon Copy Configurations Succeed!"
-        print prompt
-        time.sleep(1)
-        print "------" * 20
-        print ""
-        prompt = "Now you can config the urls to be monitored!"
-        print prompt
-        configUrls()
-        print "------" * 20
-        print ""
-        prompt = "Congratulations! Email Account Configurations Finished!"
-        print prompt
+    except Exception, e:
+        string1 = "Exception"
+        string2 = "Configuration Error"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
 
 def configUrls():
     print ""
@@ -133,62 +162,105 @@ def configUrls():
     raw_input()
 
 def configRecipient():
-    prompt = "Please Input the Recipient Email Address(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
-    prompt += "If more than one email offered, split them with a comma symbol ',' :"
-    time.sleep(1)
-    print ""
-    print prompt
-    recipient = raw_input().strip()
-    if not recipient:
-        print "Illegal recipient. System Exit!"
-        sys.exit(1)
-    if '@' not in recipient:
-        print "Illegal Email Address. System Exit!"
-        sys.exit(1)
+    try:
+        prompt = "Please Input the Recipient Email Address"
+        prompt += "(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
+        prompt += "If more than one email offered, split them with a comma symbol ',' :"
+        time.sleep(1)
+        print ""
+        print prompt
+        recipient = raw_input().strip()
+        if not recipient:
+            prompt = "Illegal recipient. System Exit!"
+            print prompt
+            sys.exit(1)
+        if '@' not in recipient:
+            prompt = "Illegal Email Address. System Exit!"
+            print prompt
+            sys.exit(1)
 
-    prompt = "Please Input the Carbon Copy Email Address(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
-    prompt += "If more than one email offered, split them with a comma symbol ',' :\n"
-    prompt += "If no Carbon Copy Email Address, just press 'Enter'."
-    print ""
-    print prompt
-    carbonCopy = raw_input().strip()
-    if not carbonCopy:
-        pass
-    elif '@' not in carbonCopy:
-        print "Illegal Email Address. System Exit!"
-        sys.exit(1)
+        prompt = "Please Input the Carbon Copy Email Address"
+        prompt += "(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
+        prompt += "If more than one email offered, split them with a comma symbol ',' :\n"
+        prompt += "If no Carbon Copy Email Address, just press 'Enter'."
+        print ""
+        print prompt
+        carbonCopy = raw_input()
+        carbonCopy = carbonCopy.strip()
+        if not carbonCopy:
+            pass
+        elif '@' not in carbonCopy:
+            prompt = "Illegal Email Address. System Exit!"
+            print prompt
+            sys.exit(1)
 
-    prompt = "Please Input the Blind Carbon Copy Email Address(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
-    prompt += "If more than one email offered, split them with a comma symbol ',' :\n"
-    prompt += "If no Carbon Copy Email Address, just press 'Enter'."
-    print ""
-    print prompt
-    blindCarbonCopy = raw_input().strip()
-    if not blindCarbonCopy:
-        pass
-    elif '@' not in blindCarbonCopy:
-        print "Illegal Email Address. System Exit!"
-        sys.exit(1)
-    inReceiveFile(recipient, carbonCopy, blindCarbonCopy)
+        prompt = "Please Input the Blind Carbon Copy Email Address"
+        prompt += "(such as lxw.ucas@gmail.com,lxw0109@gmail.com).\n"
+        prompt += "If more than one email offered, split them with a comma symbol ',' :\n"
+        prompt += "If no Carbon Copy Email Address, just press 'Enter'."
+        print ""
+        print prompt
+        blindCarbonCopy = raw_input()
+        blindCarbonCopy = blindCarbonCopy.strip()
+        if not blindCarbonCopy:
+            pass
+        elif '@' not in blindCarbonCopy:
+            prompt = "Illegal Email Address. System Exit!"
+            print prompt
+            sys.exit(1)
+        inReceiveFile(recipient, carbonCopy, blindCarbonCopy)
+    except Exception, e:
+        string1 = "Exception"
+        string2 = "Recipient Configuration Error"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
 
 def inReceiveFile(recipient, carbonCopy, blindCarbonCopy):
-    recipient = Recipient(recipient, carbonCopy, blindCarbonCopy)
-    f = open("./receive.conf", "w")
-    pickle.dump(recipient, f)
-    f.close()
+    try:
+        recipient = Recipient(recipient, carbonCopy, blindCarbonCopy)
+        f = open("./receive.conf", "w")
+        pickle.dump(recipient, f)
+        f.close()
+    except Exception, e:
+        string1 = "Exception"
+        string2 = "Pickle Error"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
 
 def getPasswd():
-    passwd = getpass.getpass()
-    return passwd
+    try:
+        passwd = getpass.getpass()
+        return passwd
+    except Exception, e:
+        string1 = "Exception"
+        string2 = "Get Password Error"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
+        return ""
 
 def testConfigMailServer(server, username, password):
     '''
     test whether the Mail Server config is OK.
     '''
-    name = username
-    passwd = password
-    result = testSendEmail(server, name, passwd)
-    return result
+    try:
+        name = username
+        passwd = password
+        result = testSendEmail(server, name, passwd)
+        return result
+    except Exception, e:
+        string1 = "Exception"
+        string2 = "Test Configure Mail Server Error"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
+        return ""
 
 def waitingInfo():
     interval = 0.5
@@ -281,84 +353,106 @@ def testDBConnection(username, password, Host, Port):
         conn = MySQLdb.connect(host=Host, user=username, passwd=password, port=Port)
         return True
     except Exception, e:
+        string1 = "Database Connection Error"
+        string2 = ""
+        string3 = ""
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
         return False
 
 def recordDBUser(username, password, host, port):
-    mailServer = encodeStr(username)
-    username = encodeStr(password)
-    password = encodeStr(host)
-    port = encodeStr(port)
-    dbUser = DBUser(username, password, host, port)
-    f = open("./.db.conf", "w")
-    pickle.dump(dbUser, f)
-    f.close()
+    try:
+        mailServer = encodeStr(username)
+        username = encodeStr(password)
+        password = encodeStr(host)
+        port = encodeStr(port)
+        dbUser = DBUser(username, password, host, port)
+        f = open("./.db.conf", "w")
+        pickle.dump(dbUser, f)
+        f.close()
+    except Exception, e:
+        string1 = "Exception"
+        string2 = "Pickle Error"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
 
 def configDB():
-    print "------" * 20
-    print ""
-    prompt = "Which host your mysql database locates?"
-    prompt += "If you don't know about it or the host is localhost, just Press Enter to continue:"
-    print prompt
-    Host = raw_input()
-    Host = Host.strip()
-    if Host == "":
-        Host = "localhost"
-    else:
-        pass
-
-    print ""
-    prompt = "Which port your mysql database uses?"
-    prompt += "If you don't know about it or the port is 3306, just Press Enter to continue:"
-    print prompt
-    Port = raw_input()
-    Port = Port.strip()
-    if Port == "":
-        Port = 3306
-    else:
-        pass
-
-    print ""
-    prompt = "Please Input the Username of Mysql:"
-    print prompt
-    username = raw_input()
-    username = username.strip()
-    if username == "":
-        print "Illegal username"
-        sys.exit(1)
-    else:
-        pass
-
-    print ""
-    prompt = "Please Input the password."
-    print prompt
-    password = getPasswd()
-    password = password.strip()
-    if password == "":
-        pass
-    else:
-        pass
-    test = testDBConnection(username, password, Host, Port)
-    if test:
-        print "Database connection Succeed."
-        print "Initializing MySQL configuration."
-        recordDBUser(username, password, Host, str(Port))
-        initializeDB(username, password, Host, Port)
-        waitingInfo()
+    try:
+        print "------" * 20
         print ""
-        prompt = "Congratulations! Database Configurations Finished!"
-        #Use file to keep whether to use database or files.
-        f = open("./dbOrFiles", "w")
-        f.write("1")
-        f.close()
+        prompt = "Which host your mysql database locates?"
+        prompt += "If you don't know about it or the host is localhost, just Press Enter to continue:"
         print prompt
+        Host = raw_input()
+        Host = Host.strip()
+        if Host == "":
+            Host = "localhost"
+        else:
+            pass
+
         print ""
-    else:
-        prompt = "Database connection Failed."
+        prompt = "Which port your mysql database uses?"
+        prompt += "If you don't know about it or the port is 3306, just Press Enter to continue:"
         print prompt
+        Port = raw_input()
+        Port = Port.strip()
+        if Port == "":
+            Port = 3306
+        else:
+            pass
+
         print ""
-        f = open("./dbOrFiles", "w")
-        f.write("0")
-        f.close()
+        prompt = "Please Input the Username of Mysql:"
+        print prompt
+        username = raw_input()
+        username = username.strip()
+        if username == "":
+            print "Illegal username"
+            sys.exit(1)
+        else:
+            pass
+
+        print ""
+        prompt = "Please Input the password."
+        print prompt
+        password = getPasswd()
+        password = password.strip()
+        if password == "":
+            pass
+        else:
+            pass
+        test = testDBConnection(username, password, Host, Port)
+        if test:
+            print "Database connection Succeed."
+            print "Initializing MySQL configuration."
+            recordDBUser(username, password, Host, str(Port))
+            initializeDB(username, password, Host, Port)
+            waitingInfo()
+            print ""
+            prompt = "Congratulations! Database Configurations Finished!"
+            #Use file to keep whether to use database or files.
+            f = open("./dbOrFiles", "w")
+            f.write("1")
+            f.close()
+            print prompt
+            print ""
+        else:
+            prompt = "Database connection Failed."
+            print prompt
+            print ""
+            f = open("./dbOrFiles", "w")
+            f.write("0")
+            f.close()
+    except Exception, e:
+        string1 = "Exception"
+        string2 = "Database Configuration Error"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
 
 def initializeDB(username, password, Host, Port):
     try:
@@ -475,34 +569,44 @@ def initializeDB(username, password, Host, Port):
         myUtils.writeLog(string1, string2, string3)
 
 def main():
-    prompt = "Before Using this program, you should configure some options as follows:\n"
-    prompt += "\t1. Add an Email Account to Send Notification Email.\n"
-    prompt += "\t2. Config the MySQL database.\n"
-    prompt += "If you have NOT configured 1 and 2, enter 1 please;\n"
-    prompt += "If you have configured 1 and want to config 2, enter 2 please;\n"
-    prompt += "If you have configured both, just press enter to exit:\n"
-    print prompt
-    choice = raw_input().strip()
-    if choice == '':
-        return
-    if choice == '1':
+    try:
+        prompt = "Before Using this program, you should configure some options as follows:\n"
+        prompt += "\t1. Add an Email Account to Send Notification Email.\n"
+        prompt += "\t2. Config the MySQL database.\n"
+        prompt += "If you have NOT configured 1 and 2, enter 1 please;\n"
+        prompt += "If you have configured 1 and want to config 2, enter 2 please;\n"
+        prompt += "If you have configured both, just press enter to exit:\n"
+        print prompt
+        choice = raw_input().strip()
+        if choice == '':
+            return
+        if choice == '1':
+            print "------" * 20
+            print ""
+            configMailServer()
+
         print "------" * 20
         print ""
-        configMailServer()
+        prompt = "We offer alternative ways to save the history data: in files or in database. "
+        print prompt
+        prompt = "Do you want to config the database? Y/N"
+        print prompt
+        choice = raw_input()
+        if choice.upper() == "Y":
+            configDB()
+        else:
+            pass
+    except Exception, e:
+        string1 = "Exception"
+        string2 = "in config.py main()"
+        string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        myUtils.writeLog(string1, string2, string3)
 
-    print "------" * 20
-    print ""
-    prompt = "We offer alternative ways to save the history data: in files or in database. "
-    print prompt
-    prompt = "Do you want to config the database? Y/N"
-    print prompt
-    choice = raw_input()
-    if choice.upper() == "Y":
-        configDB()
-    else:
-        pass
 
 if __name__ == '__main__':
     main()
 else:
-    print("Being imported as a module.")
+    string = "Being imported as a module."
+    print string

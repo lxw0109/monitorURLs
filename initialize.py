@@ -23,7 +23,7 @@ def main():
             else:
                 dbFlag = False
     except Exception, e:
-        string1 = "lxw_No such file."
+        string1 = "No such file."
         string2 = "./dbOrFiles"
         string3 = traceback.format_exc()
         string4 = "\n" + "------"*13 + "\n"
