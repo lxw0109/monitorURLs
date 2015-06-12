@@ -120,7 +120,7 @@ padding-left:0px;
     <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-l" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
   </div>
   <input type="submit" name="op" id="theme-search-submit" value="Search"  class="form-submit" />
-  <input type="hidden" name="form_token" id="edit-search-theme-form-form-token" value="aeb5eeeebc7b6231cffa2c244f3389fe" />
+  <input type="hidden" name="form_token" id="edit-search-theme-form-form-token" value="a08f922d06a7e5b1b4be5f6e6d906e7d" />
   <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form" />
 </div>
 
@@ -184,7 +184,7 @@ padding-left:0px;
 </div>
 <div class="wrapsubmit"><input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" /></div>
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-41da4475ec3ce950de3d2264f7b77eb3" value="form-41da4475ec3ce950de3d2264f7b77eb3"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-b424e0619885dc8cb50457547cf46024" value="form-b424e0619885dc8cb50457547cf46024"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>

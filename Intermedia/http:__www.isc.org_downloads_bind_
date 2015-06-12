@@ -1043,15 +1043,6 @@ nav .menu > li {border-top-color: #e4e4e4;}
 				<div class="container">
 					<div id="footer-widgets" class="row clearfix">
 												<div class="span3">
-													<section id="search-3" class="widget widget_search clearfix"><div class="widget-heading clearfix"><h5>Search</h5></div>
-<form method="get" class="search-form" action="https://www.isc.org/">
-	<input type="text" placeholder="Search" name="s" />
-</form>
-</section>												</div>
-						<div class="span3">
-													<section id="text-4" class="widget widget_text clearfix"><div class="widget-heading clearfix"><h5>Secured by Sucuri.net</h5></div>			<div class="textwidget"><a href="https://monitor18.sucuri.net/verify.php?r=5403054e095be526ddebd9582a76c7a2a7258a37a3"><img src="https://sucuri.net/images/logo-footer.jpg" /></a></div>
-		</section>												</div>
-						<div class="span3">
 													<section id="text-3" class="widget widget_text clearfix"><div class="widget-heading clearfix"><h5>Contact</h5></div>			<div class="textwidget"><p>Internet Systems Consortium, Inc.<br />
 950 Charter Street<br />
 Redwood City, CA 94063<br />
@@ -1060,6 +1051,12 @@ USA</p>
 <strong>Phone:</strong> +1 650 423 1300<br />
 <strong>Fax:</strong> +1 650 423 1355</p>
 </div>
+		</section>												</div>
+						<div class="span3">
+													<section id="text-4" class="widget widget_text clearfix"><div class="widget-heading clearfix"><h5>Secured by Sucuri.net</h5></div>			<div class="textwidget"><a href="https://monitor18.sucuri.net/verify.php?r=5403054e095be526ddebd9582a76c7a2a7258a37a3"><img src="https://sucuri.net/images/logo-footer.jpg" /></a></div>
+		</section>												</div>
+						<div class="span3">
+													<section id="text-7" class="widget widget_text clearfix">			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/ISCdotORG" data-widget-id="579054283334660096">Tweets by @ISCdotORG</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
 		</section>												</div>
 						<div class="span3">
 													<section id="text-2" class="widget widget_text clearfix"><div class="widget-heading clearfix"><h5>Follow ISC</h5></div>			<div class="textwidget"><ul class="social-icons standard colour">
@@ -1137,7 +1134,7 @@ var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","fragmen
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.js?ver=4.2.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"1e1394f120","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
+var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"fe44c743cd","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/plugins/love-it-pro/includes/js/love-it.js'></script>

@@ -16,7 +16,7 @@ class DBUser(object):
     def getHost(self):
         return self.host
     def getPort(self):
-        return self.port
+        return str(self.port)
     def setUserName(self, name):
         self.username = name
     def setPassword(self, password):
@@ -24,7 +24,7 @@ class DBUser(object):
     def setHost(self, host):
         self.host = host
     def setPort(self, port):
-        self.port = port
+        self.port = str(port)
 
 def main():
     pass

@@ -20,6 +20,7 @@ from MailUser.recipient import Recipient
 from DBUser.dbUser import DBUser
 import time
 import MySQLdb
+import warnings
 
 def getPasswdWin():
     '''
@@ -350,6 +351,7 @@ def testSendEmail(server, name, passwd):
 
 def testDBConnection(username, password, Host, Port):
     try:
+        Port = int(Port)
         conn = MySQLdb.connect(host=Host, user=username, passwd=password, port=Port)
         return True
     except Exception, e:
@@ -363,9 +365,9 @@ def testDBConnection(username, password, Host, Port):
 
 def recordDBUser(username, password, host, port):
     try:
-        mailServer = encodeStr(username)
-        username = encodeStr(password)
-        password = encodeStr(host)
+        username = encodeStr(username)
+        password = encodeStr(password)
+        host = encodeStr(host)
         port = encodeStr(port)
         dbUser = DBUser(username, password, host, port)
         f = open("./.db.conf", "w")
@@ -402,7 +404,7 @@ def configDB():
         if Port == "":
             Port = 3306
         else:
-            pass
+            Port = int(Port)
 
         print ""
         prompt = "Please Input the Username of Mysql:"
@@ -456,6 +458,10 @@ def configDB():
 
 def initializeDB(username, password, Host, Port):
     try:
+        with warnings.catch_warnings():
+            pass
+        warnings.simplefilter("ignore")
+        Port = int(Port)
         conn = MySQLdb.connect(host=Host, user=username, passwd=password, port=Port)
         cur = conn.cursor()
         cur.execute("create database if not exists monitorURL")

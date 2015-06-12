@@ -16,7 +16,7 @@
 <!--顶部条开始-->
 <div class="isc_top">
     <div class="data">
-2015年06月11日 星期四
+2015年06月12日 星期五
 </div>
      <div class="email">
      <FORM method="post" name="form1" action="http://mm.263.com/login" onsubmit="return check();" target="_blank">
@@ -286,31 +286,31 @@ function check()
 	<div id="ifocus_pic">
 		<div id="ifocus_piclist" style="left:0; top:0;">
 			<ul>
-				<li><a   href="/zxzx/ywsd/listinfo-32226.html"  target="_blank"><img src="/upimages/article20150605100739.jpg" alt="卢卫秘书长为泰州市委中心组作“互联网+”专题报告" /></a></li>
+				<li><a   href="/zxzx/ywsd/listinfo-32268.html"  target="_blank"><img src="/upimages/article20150611162600.jpg" alt="高新民副理事长:信息开放不等于数据开放 数据开放促进社会化增值" /></a></li>
+				<li><a  href="/zxzx/ywsd/listinfo-32226.html"  target="_blank"><img src="/upimages/article20150605100739.jpg" alt="卢卫秘书长为泰州市委中心组作“互联网+”专题报告" /></a></li>
 				<li><a  href="/zxzx/ywsd/listinfo-32206.html"  target="_blank"><img src="/upimages/article20150601170531.jpg" alt="中国互联网协会助力“护苗2015·网上行动”" /></a></li>
 				<li><a  href="/zxzx/ywsd/listinfo-32183.html"  target="_blank"><img src="/upimages/article20150528083524.png" alt="贵阳国际大数据产业博览会开幕<br />  李克强发贺信  马凯提出五点大数据发展建议" /></a></li>
-				<li><a  href="/zxzx/ywsd/listinfo-32169.html"  target="_blank"><img src="/upimages/article20150526112705.jpg" alt="2015（第十四届）中国互联网大会征集“互联网+”优秀案例启事" /></a></li>
-                <li><a  href="/zxzx/ywsd/listinfo-32154.html"  target="_blank"><img src="/upimages/article20150522141746.jpg" alt="中国互联网协会网络文化与新媒体工作委员会成立" /></a></li>
+                <li><a  href="/zxzx/ywsd/listinfo-32169.html"  target="_blank"><img src="/upimages/article20150526112705.jpg" alt="2015（第十四届）中国互联网大会征集“互联网+”优秀案例启事" /></a></li>
 			</ul>
 		</div>
 		<div id="ifocus_opdiv"></div>
 		<div id="ifocus_tx">
 			<ul>
-				<li class="current">卢卫秘书长为泰州市委中心组作“互联网+”专题报告</li>
+				<li class="current">高新民副理事长:信息开放不等于数据开放 数据开放促进社会化增值</li>
+				<li class="normal">卢卫秘书长为泰州市委中心组作“互联网+”专题报告</li>
 				<li class="normal">中国互联网协会助力“护苗2015·网上行动”</li>
 				<li class="normal">贵阳国际大数据产业博览会开幕<br />  李克强发贺信  马凯提出五点大数据发展建议</li>
-				<li class="normal">2015（第十四届）中国互联网大会征集“互联网+”优秀案例启事</li>
-                <li class="normal">中国互联网协会网络文化与新媒体工作委员会成立</li>
+                <li class="normal">2015（第十四届）中国互联网大会征集“互联网+”优秀案例启事</li>
 			</ul>
 		</div>
 	</div>
 	<div id="ifocus_btn">
 		<ul>
-			<li class="current"><img src="/upimages/article20150605100739.jpg" alt="卢卫秘书长为泰州市委中心组作“互联网+”专题报告" /></li>
-			<li class="normal"><img src="/upimages/article20150601170531.jpg" alt="卢卫秘书长为泰州市委中心组作“互联网+”专题报告" /></li>
-			<li class="normal"><img src="/upimages/article20150528083524.png" alt="卢卫秘书长为泰州市委中心组作“互联网+”专题报告" /></li>
-			<li class="normal"><img src="/upimages/article20150526112705.jpg" alt="卢卫秘书长为泰州市委中心组作“互联网+”专题报告" /></li>
-            <li class="normal"><img src="/upimages/article20150522141746.jpg" alt="卢卫秘书长为泰州市委中心组作“互联网+”专题报告" /></li>
+			<li class="current"><img src="/upimages/article20150611162600.jpg" alt="高新民副理事长:信息开放不等于数据开放 数据开放促进社会化增值" /></li>
+			<li class="normal"><img src="/upimages/article20150605100739.jpg" alt="高新民副理事长:信息开放不等于数据开放 数据开放促进社会化增值" /></li>
+			<li class="normal"><img src="/upimages/article20150601170531.jpg" alt="高新民副理事长:信息开放不等于数据开放 数据开放促进社会化增值" /></li>
+			<li class="normal"><img src="/upimages/article20150528083524.png" alt="高新民副理事长:信息开放不等于数据开放 数据开放促进社会化增值" /></li>
+            <li class="normal"><img src="/upimages/article20150526112705.jpg" alt="高新民副理事长:信息开放不等于数据开放 数据开放促进社会化增值" /></li>
 		</ul>
 	</div>
 </div>
@@ -321,9 +321,9 @@ function check()
 	<div style="height: 118px; overflow:hidden;">
     	<h1 style="overflow: hidden; margin-top:7px; width:476px;"><p style="float: left;">【要闻视点】</p>
         <div class="cmore" style=" float:right;"><a href="/zxzx/ywsd/"><img src="images/12495217.gif"></a></div>
-        </h1>
-        <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-32226.html"   title="卢卫秘书长为泰州市委中心组作“互联网+”专题报告" class="red">卢卫秘书长为泰州市委中心组作“互联网+”专题报告</a></h1>
-	<div class="mg10">日前，泰州市委中心组举行学习报告会，邀请中国互联网协会卢卫秘书长作“互联网+”专题报告。 在两个多小时的报告中，卢卫秘书长从“互联网+”的概述、技术背景、发展机遇、发展趋势等方面进行了讲解，详细阐述了“互联网+”背景下各... <a  href="/zxzx/ywsd/listinfo-32226.html"   title="详细" class="blue">[详细]</a></div>
+        <span style="margin-left: 10px; float:right;"><img src="images/02270433.gif"></span></h1>
+        <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-32268.html"   title="高新民副理事长:信息开放不等于数据开放 数据开放促进社会化增值" class="red">高新民副理事长:信息开放不等于数据开放 数据开放促进社会化增值</a></h1>
+	<div class="mg10">由信息社会50人论坛和国脉信息化发展研究中心联合主办的"2015中国互联网+信息社会高端论坛"于6月4日在舟山举行，中国互联网协会副理事长高新民出席会议并做主题演讲。... <a  href="/zxzx/ywsd/listinfo-32268.html"   title="详细" class="blue">[详细]</a></div>
 </div>
 <h2><span>协会动态</span><a href="/zxzx/xhdt/" title="更多" class="blue"><img src="images/12495217.gif" /></a></h2>
 <ul class="newslist">
@@ -476,7 +476,7 @@ function check()
 <ul class="newslist">
     <li><a   href="/hydt/listinfo-32265.html" title="医院信息化系统互通互联将获政策支持" >医院信息化系统互通互联将获政策支持</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
     <li><a   href="/hydt/listinfo-32263.html" title="明年底全国道路客运联网售票系统将建成" >明年底全国道路客运联网售票系统将建成</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-32258.html" title="河南省公安厅公布网络违法典型案例" >河南省公安厅公布网络违法典型案例</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-32258.html" title="河南省公安厅公布网络违法典型案例" >河南省公安厅公布网络违法典型案例</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a   href="/hydt/listinfo-32246.html" title="全国80家网站和企业签署网络公益倡议书" >全国80家网站和企业签署网络公益倡议书</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
              
 </ul>
@@ -485,7 +485,7 @@ function check()
 <div id="dt_02" class="hidden">
 <span class="mp"><a href="/zxzx/hlwzl/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-       <li><a    href="/zxzx/hlwzl/listinfo-32258.html"  title="河南省公安厅公布网络违法典型案例" >河南省公安厅公布网络违法典型案例</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+       <li><a    href="/zxzx/hlwzl/listinfo-32258.html"  title="河南省公安厅公布网络违法典型案例" >河南省公安厅公布网络违法典型案例</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a    href="/zxzx/hlwzl/listinfo-32245.html"  title="首批网络动漫产品黑名单发布 涉及作品38部" >首批网络动漫产品黑名单发布 涉及作品38部</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a    href="/zxzx/hlwzl/listinfo-32243.html"  title="“网络敲诈与有偿删帖”专项整治取得重要进展" >“网络敲诈与有偿删帖”专项整治取得重要进展</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a    href="/zxzx/hlwzl/listinfo-32236.html"  title="北京集中整治"微领域"涉黄信息" >北京集中整治"微领域"涉黄信息</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             

@@ -187,10 +187,13 @@ def updateCriterion(dic):
         passwd = uphp[1]
         host = uphp[2]
         port = uphp[3]
-        username = decode(username)
-        password = decode(passwd)
-        Host = decode(host)
-        Port = str(decode(port))
+        password = passwd
+        Host = host
+        Port = int(port)
+        print "type(username): {0}, username:{1}".format(type(username), username)
+        print "type(passwd): {0}, passwd:{1}".format(type(passwd), passwd)
+        print "type(Host): {0}, Host:{1}".format(type(Host), Host)
+        print "type(Port): {0}, Port:{1}".format(type(Port), Port)
         conn = MySQLdb.connect(host=Host, user=username, passwd=password, port=Port)
         conn.select_db('monitorURL')
         cur = conn.cursor()
@@ -198,8 +201,9 @@ def updateCriterion(dic):
         for key in dic.keys():
             length = dic[key].getLength()
             md5Str = dic[key].getMD5Str()
-            values.append((key, length, md5Str))
-        cur.executemany('insert into criterion values(%s, %s, %s, "1")', values)
+            values.append((key, length, md5Str, "1"))
+        #cur.executemany("insert into criterion values({0}, {1}, {2}, \"1\")".format(values[0], values[1], values[2]))
+        cur.executemany("insert into criterion values(%s, %s, %s, %s)", values)
         cur.close()
         conn.close()
     except Exception, e:
