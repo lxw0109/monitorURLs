@@ -24,6 +24,12 @@ import base64
 from MailUser.mailUser import MailUser
 import MySQLdb
 from DBUser.dbUser import DBUser
+import random
+import os
+import sys
+import fileinput
+import socket
+from time import sleep
 
 fileLock = threading.RLock()
 logLock = threading.RLock()
@@ -60,6 +66,215 @@ def writeFile(url, length, md5Str):
         f.write("{0},{1},{2}\n".format(url, length, md5Str))
         fileLock.release()
 
+def qs(arr):
+	if not arr:
+		return []
+	low = []
+	high = []
+	for x in arr[1:]:
+		if x <= arr[0]:
+			low.append(x)
+		else:
+			high.append(x)
+	low = qs(low)
+	high = qs(high)
+	return low + arr[:1] + high	# low + arr[0] + high   is NOT OK! --> ERROR PROMPT: 'can only concatenate list(not int) to list'
+
+def qsBetter(arr):
+	if not arr:
+		return []
+	return qs([x for x in arr[1:] if x <= arr[0]]) + arr[:1] + qs([x for x in arr[1:] if x > arr[0]])
+
+def kthBig(arr, k):
+    assert arr
+    arr1 = [x for x in arr[1:] if x > arr[0]]
+    length = len(arr1)
+    if length == k:
+        res = arr[0]    # The EXIT of RECURSION.
+    elif len(arr1) > k:
+        res = kthBig(arr1, k)
+    else:
+        res = kthBig([x for x in arr[1:] if x <= arr[0]], k - length - 1)
+    return res
+
+def selectBig(arr, times):
+    num = 0
+    bound = len(arr)
+    index = 0
+    while num < times:
+        target = -sys.maxint - 1    #arr[0]
+        index = 0
+        while index < bound:
+            if arr[index] > target:
+                target = arr[index]
+                targetIndex = index
+            index += 1
+        if targetIndex != bound - 1:    # swap.
+            arr[bound - 1], arr[targetIndex] = arr[targetIndex], arr[bound - 1]
+        bound -= 1
+        num += 1
+    return target
+
+def bigKItems(arr, k):
+    assert arr
+    arr1 = [x for x in arr[1:] if x > arr[0]]
+    arr2 = [x for x in arr[1:] if x <= arr[0]]
+    length = len(arr1)
+    if length == k:
+        arr[:] = arr1 + arr[0:1] + arr2
+        return    # The EXIT of RECURSION.
+    elif len(arr1) > k:
+        bigKItems(arr1, k)
+        #bigKItems(arr[0:len(arr1)], k)  # NO
+    else:
+        bigKItems(arr2, k - length - 1)
+        #bigKItems(arr[len(arr1)+1:], k - length - 1)    # NO
+    arr[:] = arr1 + arr[0:1] + arr2
+
+def getIPMT(hostname):
+    try:
+        localIP = socket.gethostbyname(hostname)
+        sleep(5)
+        return "Hostname: {0}\t IP: {1}\n".format(hostname, localIP)
+    except Exception, e:
+        print hostname
+
+def getIPs():
+    threadingNum = threading.Semaphore(50)
+    threads = []
+    with open("hosts") as f:
+        while 1:
+            hostname = f.readline().strip()
+            if not hostname:
+                break
+            mt = MyThread(getIPMT, (hostname,), threadingNum)
+            threads.append(mt)
+
+    for thread in threads:
+        thread.start()
+
+    with open("./result", "a") as f:
+        for thread in threads:
+            thread.join()
+            f.write(thread.getResult())
+
+def quickSort(arr, start, end):
+	if start >= end:
+		return
+	i = start
+	j = end
+	target = arr[i]
+	while i < j:
+		while arr[i] <= target and i < end:
+			i += 1
+		while arr[j] > target and j > start:
+			j -= 1
+		if i < j:
+			arr[i], arr[j] = arr[j], arr[i]
+	arr[start] = arr[j]
+	arr[j] = target
+	quickSort(arr, start, j - 1)
+	quickSort(arr, j + 1, end)
+
+def show(arr):
+	for x in arr:
+		print str(x) + ' ',
+	print ''
+
+def processIP():
+    if len(sys.argv) != 2:
+        print 'Usage: "python fileName dataFile"'
+        sys.exit(0)
+    elif not os.path.isfile(sys.argv[1]):
+        print "You've input an illegal fileName."
+        print 'Usage: "python fileName dataFile"'
+        sys.exit(0)
+
+    try:
+        ipAmount = {}
+        #for lineContent in fileinput.input(sys.argv[1], "r"):
+        for lineContent in fileinput.input(sys.argv[1]):
+            process(lineContent, ipAmount)
+
+        num = raw_input("Order by which column?(1 or 2) ")
+        if num == "1":
+            for item in sorted(ipAmount.keys()):
+                print "{0:<10}{1:<20}{2:<20}".format(item, ipAmount[item], ipAmount[item]/256)
+        elif num == "2":
+            templist = sorted(ipAmount.iteritems(), key = lambda x:x[1], reverse=True)   #list
+            for item in templist:
+                print "{0:<10}{1:<20}{2:<20}".format(item[0], ipAmount[item[0]], ipAmount[item[0]]/256)
+
+    except Exception, e:
+        print "NOTE: Exception --> " + str(e)
+        traceback.print_exc()
+
+
+def process(line, Amount):
+    lineList = line.split("|")
+    if len(lineList) < 2:
+        return
+
+    if lineList[2] == "ipv4":
+        if len(lineList[1]) == 2:
+            if not Amount.get(lineList[1]):
+                Amount[lineList[1]] = int(lineList[4])
+            else:
+                Amount[lineList[1]] += int(lineList[4])
+
+def randomInt():
+    target = random.randint(1, 100)
+    while 1:
+        number = input("Please input an integer:")
+        if number == target:
+            print "You got it"
+            break
+        elif number > target:
+            print "Smaller"
+        else:
+            print "Bigger"
+    print "Over"
+    for i in range(0, 5):
+        print i,
+    for i in range(1, 10, 2):
+        print i,
+
+def printMax(a, b):
+    if a > b:
+        print "{0} > {1}".format(a, b)
+    elif a < b:
+        print "{0} < {1}".format(a, b)
+    else:
+        print "{0} = {1}".format(a, b)
+
+class Person(object):
+    def __init__(self, name):
+        self.name = name
+    def sayHello(self):
+        print "Hello {0}".format(self.name)
+    def func(self):
+        pass
+
+def retFunc(x, y):
+    if x > y:
+        return x
+    else:
+        return y
+
+
+def exception():
+    try:
+        text = raw_input("Enter something:")
+    except EOFError:  # Ctrl + D
+        print("Why did you do an EOF on me?")
+    except KeyboardInterrupt:  # Ctrl + C
+        print("You cancelled the operation.")
+    else:
+        print("You entered {0}".format(text))
+
+def reverse(text):
+    return text[::-1]
+
 def dealUrls():
     f = open("./urls")
     f1 = open("./.urls", "w")
@@ -90,6 +305,26 @@ def intoFile(url, sourceCode):
 def decode(string):
     result = base64.b64decode(string)
     return result
+
+def calculateLines(directory):
+    count = 0
+    for dirPath, dirNames, fileNames in os.walk(directory):
+        for fileName in fileNames:
+            try:
+                with open(dirPath+os.sep+fileName) as f:
+                    while 1:
+                        string = f.readline()
+                        if not string:
+                            break
+                        count += 1
+            except Exception, e:
+                print("---------Exception-----:\n\t" + e)
+
+
+    if directory == ".":
+        print("The number of lines in all files in current direcotry is {0}!".format(count))
+    else:
+        print("The number of lines in all files in direcotry \"{0}\" is {1}!".format(directory, count))
 
 def getServerEmail():
     try:
@@ -202,21 +437,67 @@ def updateCriterion(dic):
             length = dic[key].getLength()
             md5Str = dic[key].getMD5Str()
             values.append((key, length, md5Str, "1"))
-        #cur.executemany("insert into criterion values({0}, {1}, {2}, \"1\")".format(values[0], values[1], values[2]))
-        cur.executemany("insert into criterion values(%s, %s, %s, %s)", values)
+        length = len(values)
+        if False:
+            for i in xrange(length):
+                print i, length, values[i][2], values[i][0]
+                sql = "insert into `criterion` values(url='%s',length=%s,md5='%s',date='%s')"
+                cur.execute(sql, values[i])
         cur.close()
         conn.close()
     except Exception, e:
-        string1 = "lxw_Exception."
-        string2 = ""
+        string1 = "DB_Exception."
+        string2 = "criterion"
         string3 = traceback.format_exc()
         string4 = "\n" + "------"*13 + "\n"
         string3 += string4
         writeLog(string1, string2, string3)
     else:
-        string1 = "lxw_OK."
+        string1 = "OK."
         string2 = "update criterion table in the database"
+        string3 = ""
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        writeLog(string1, string2, string3)
+
+def updateIntermedia(url, sourcecode):
+    try:
+        uphp = getDBUser()
+        username = uphp[0]
+        passwd = uphp[1]
+        host = uphp[2]
+        port = uphp[3]
+        password = passwd
+        Host = host
+        Port = int(port)
+        print "type(username): {0}, username:{1}".format(type(username), username)
+        print "type(passwd): {0}, passwd:{1}".format(type(passwd), passwd)
+        print "type(Host): {0}, Host:{1}".format(type(Host), Host)
+        print "type(Port): {0}, Port:{1}".format(type(Port), Port)
+        conn = MySQLdb.connect(host=Host, user=username, passwd=password, port=Port)
+        conn.select_db('monitorURL')
+        cur = conn.cursor()
+        values = []
+        values.append((url, sourcecode, "1"))
+        length = len(values)
+        if False:
+            for i in xrange(length):
+                print i, length, values[i][1], values[i][0]
+                sql = "insert into `intermedia` values(url='%s', sourcecode='%s', date='%s')"
+                cur.execute(sql, values[i])
+        cur.close()
+        conn.close()
+    except Exception, e:
+        string1 = "DB_Exception."
+        string2 = "Intermedia"
         string3 = traceback.format_exc()
+        string4 = "\n" + "------"*13 + "\n"
+        string3 += string4
+        writeLog(string1, string2, string3)
+    else:
+        string1 = "OK."
+        string2 = "update intermedia table in the database"
+        string3 = ""
         string4 = "\n" + "------"*13 + "\n"
         string3 += string4
         writeLog(string1, string2, string3)

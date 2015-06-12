@@ -164,7 +164,7 @@ wfscr.type = 'text/javascript';
 wfscr.async = true;
 wfscr.src = url + '&r=' + Math.random();
 (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-})('//pir.org/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=CA36F36A397F6783626C1087CE422562');
+})('//pir.org/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=FA4E906E4596D4639DD81A3F161325EC');
 </script>		
 
 <!-- Etrigue Tracking Code -->

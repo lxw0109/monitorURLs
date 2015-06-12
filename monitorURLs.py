@@ -230,6 +230,7 @@ def main_fresh(dbOrNot):
         f.write("{0},{1},{2}\n".format(url, newUrlObjDic[url].length, newUrlObjDic[url].getMD5Str()))
     f.close()
 
+    dbOrNot = False
     if dbOrNot:
         #update criterion in database
         myUtils.updateCriterion(newUrlObjDic)
@@ -346,6 +347,7 @@ def getDbOrNot():
         string4 = "\n" + "------"*13 + "\n"
         string3 += string4
         myUtils.writeLog(string1, string2, string3)
+        return False
 
 if __name__ == '__main__':
     start = datetime.datetime.now()

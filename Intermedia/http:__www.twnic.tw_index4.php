@@ -389,8 +389,6 @@ MM_reloadPage(true);
                                       <tr> 
                                         <td width="1">&nbsp;</td>
                                         <td width="16" valign="top"><img src="img/main_dn_02.gif" width="20" height="13"></td>
-                                        <td colspan="2" width="407">〈說明：TWNIC現已不再直接受理新申請網域名稱服務，欲申請者請 
-                                          &nbsp;&nbsp;&nbsp;直接向本中心所授權之<a href="http://www.twnic.net.tw/newdn/name/name.htm" target="_top">受理註冊機構</a>辦理。〉</td>
                                       </tr>
                                     </table>
                                   </td>

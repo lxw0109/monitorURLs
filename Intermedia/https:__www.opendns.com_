@@ -14,10 +14,10 @@
 	<title>OpenDNS: Cloud-Delivered Security Enforcement &amp; Intelligence</title>
 
 	
-			<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/homepage.css?v=95b49320fe38b91f99947acd92443205" />
+			<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/homepage.css?v=feaaa1c944e0f03de9c32d3bd334296d" />
 	
 	<!--[if IE 8]>
-	<script src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=4b6bdeafe9fdedb7cdf9db0f958241ce"></script>
+	<script src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=5c5427a1e3c7df73f2bcd2c6e75d6ab4"></script>
 	<![endif]-->
 
 	<link rel='stylesheet' id='style-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/style.css?ver=4.2.2' type='text/css' media='all' />
@@ -27,7 +27,7 @@
 <link rel='stylesheet' id='chosen-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/chosen.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.2.2' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/search.css?v=c77aa99afae7b9548c3f8254a4f661d0">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/search.css?v=bc0eabb9b4bdbccf878e78ba42292b25">
 
 	<meta name="viewport" content="width=device-width">
 	
@@ -64,7 +64,7 @@ img.emoji {
 </style>
 <script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
 <script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=796dc2a9241e24fbe177cc060fc3d4c6'></script>
+<script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=08141b3e62883b11aaf25b630969ce8c'></script>
 <meta name="generator" content="WordPress 4.2.2" />
 <script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 
@@ -187,7 +187,7 @@ img.emoji {
 			<a href="https://www.opendns.com/enterprise-security/threat-intelligence/">
 				<span class="icon "></span>OpenDNS Investigate</a></li><li class="contact-sales demo-request button Investigate menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="#">
-				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=ee708cbd8e28c4464ee8ef29c22be1ca"></script>
+				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=4796cf785b6598f56de8d3ea82cecc60"></script>
 		</div>
 	</header>
 	<!--
@@ -314,9 +314,9 @@ img.emoji {
 			</div>
 		</div>
 
-					<p class="video-section-title">See why Edward chose OpenDNS</p>
+								<p class="video-section-title">See why Edward chose OpenDNS</p>
 			<div class="video-section homepage cover ">
-				<style scoped>
+								<style scoped>
 					.video-section-overlay {
 						background-image: url(https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/06/corp-video-splash.jpg);
 					}
@@ -328,8 +328,8 @@ img.emoji {
 					</div> <!-- .video-section-overlay -->
 					<iframe id="youtube-iframe" frameborder="0" allowfullscreen data-src="//www.youtube.com/embed/e5-Fkqceu2Q?controls=2&amp;rel=0&amp;showinfo=0"></iframe>
 				</div> <!-- .video-section-video -->
-			</div> <!-- .video-section -->
-				</div>
+							</div> <!-- .video-section -->
+							</div>
 </div>
 
 
@@ -713,12 +713,12 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=82718b46c4e578ba4e0800ae53917f02'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":637,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=e8c99290a6a9d6cfb511e81d41a094a8'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":563,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
 Content Delivery Network via Amazon Web Services: CloudFront: d295hzzivaok4k.cloudfront.net
 
- Served from: www.opendns.com @ 2015-06-11 16:47:05 by W3 Total Cache -->
+ Served from: www.opendns.com @ 2015-06-11 19:09:00 by W3 Total Cache -->
