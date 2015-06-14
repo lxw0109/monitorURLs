@@ -14,10 +14,10 @@
 	<title>OpenDNS: Cloud-Delivered Security Enforcement &amp; Intelligence</title>
 
 	
-			<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/homepage.css?v=feaaa1c944e0f03de9c32d3bd334296d" />
+			<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/homepage.css?v=490358bbb32f0e36ff6ac8430c4acd7f" />
 	
 	<!--[if IE 8]>
-	<script src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=5c5427a1e3c7df73f2bcd2c6e75d6ab4"></script>
+	<script src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=15e1f0b2a508d439b43c601d26ea53c3"></script>
 	<![endif]-->
 
 	<link rel='stylesheet' id='style-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/style.css?ver=4.2.2' type='text/css' media='all' />
@@ -27,7 +27,7 @@
 <link rel='stylesheet' id='chosen-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/chosen.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.2.2' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/search.css?v=bc0eabb9b4bdbccf878e78ba42292b25">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/search.css?v=d3de25d1cc6f0d695a159fc5b95728d2">
 
 	<meta name="viewport" content="width=device-width">
 	
@@ -64,7 +64,7 @@ img.emoji {
 </style>
 <script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
 <script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=08141b3e62883b11aaf25b630969ce8c'></script>
+<script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=e5b4fdb05652b701b25108b69ca455ca'></script>
 <meta name="generator" content="WordPress 4.2.2" />
 <script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 
@@ -187,7 +187,7 @@ img.emoji {
 			<a href="https://www.opendns.com/enterprise-security/threat-intelligence/">
 				<span class="icon "></span>OpenDNS Investigate</a></li><li class="contact-sales demo-request button Investigate menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="#">
-				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=4796cf785b6598f56de8d3ea82cecc60"></script>
+				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=15252189201e9b1d6b64e438bc790afa"></script>
 		</div>
 	</header>
 	<!--
@@ -437,17 +437,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Jun 11</span>
+							<span class="date">Jun 12</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="https://blog.opendns.com/2015/06/11/riot15-twitter-weighs-in-on-iot-in-the-enterprise/" title="#RIoT15: Twitter Weighs in on IoT in the Enterprise">#RIoT15: Twitter Weighs in on IoT in the Enterprise</a>
+							<a href="https://blog.opendns.com/2015/06/12/the-breakdown-riot2015-analysis-visualized/" title="The Breakdown: #RIoT2015 Analysis Visualized">The Breakdown: #RIoT2015 Analysis Visualized</a>
 						</p>
 						<p class="author">Author: Owen Lystrup</p>
-						<div class="excerpt"><p>[View the story &#8220;#RIoT15: Twitter Weighs in on IoT in the Enterprise&#8221; on Storify]       &hellip;<span class="overflow">                                                                                                                                               &hellip;</span></p>
+						<div class="excerpt"><p>When dealing in the billions of DNS requests, the numbers and amounts of data grow quickly. Here&#8217;s a visual of &hellip;<span class="overflow"> what analyzing terabytes of data for the 2015 Internet of Things in the Enterprise Report looks like.  To read the full&hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/06/11/riot15-twitter-weighs-in-on-iot-in-the-enterprise/" title="#RIoT15: Twitter Weighs in on IoT in the Enterprise" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/06/12/the-breakdown-riot2015-analysis-visualized/" title="The Breakdown: #RIoT2015 Analysis Visualized" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 								<li class="post clearfix">
@@ -459,17 +459,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Jun 9</span>
+							<span class="date">Jun 11</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="https://blog.opendns.com/2015/06/09/iot-security-research-outlines-3-major-risks-for-businesses/" title="IoT Security Research Outlines 3 Major Risks for Businesses">IoT Security Research Outlines 3 Major Risks for Businesses</a>
+							<a href="https://blog.opendns.com/2015/06/11/riot15-twitter-weighs-in-on-iot-in-the-enterprise/" title="#RIoT15: Twitter Weighs in on IoT in the Enterprise">#RIoT15: Twitter Weighs in on IoT in the Enterprise</a>
 						</p>
 						<p class="author">Author: Owen Lystrup</p>
-						<div class="excerpt"><p>The Internet of things (IoT) is not on its way to the enterprise, it has already arrived. And the personal &hellip;<span class="overflow"> cloud storage devices, fitness trackers, smart watches, and myriad other devices with newfound connectivity present new&hellip;</span></p>
+						<div class="excerpt"><p>[View the story &#8220;#RIoT15: Twitter Weighs in on IoT in the Enterprise&#8221; on Storify]       &hellip;<span class="overflow">                                                                                                                                               &hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/06/09/iot-security-research-outlines-3-major-risks-for-businesses/" title="IoT Security Research Outlines 3 Major Risks for Businesses" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/06/11/riot15-twitter-weighs-in-on-iot-in-the-enterprise/" title="#RIoT15: Twitter Weighs in on IoT in the Enterprise" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -485,17 +485,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Jun 10</span>
+							<span class="date">Jun 12</span>
 						</div>
 					</div>
 					<div class="right">
 						<p class="title">
-							<a href="https://labs.opendns.com/2015/06/10/spikes-and-query-patterns/" title="Spikes and Query Patterns">Spikes and Query Patterns</a>
+							<a href="https://labs.opendns.com/2015/06/12/massive-router-leak-causes-internet-slowdown/" title="Massive router leak causes internet slowdown">Massive router leak causes internet slowdown</a>
 						</p>
-						<p class="author">Author: Thomas Mathew</p>
-						<div class="excerpt"><p>A spike in DNS queries can sometimes be an indicator that a certain domain is either hosting malicious content (such &hellip;<span class="overflow"> as an exploit kit) or serving as a command-and-control (C2) server. However, relying solely on spiking traffic is&hellip;</span></p>
+						<p class="author">Author: Andree Toonk</p>
+						<div class="excerpt"><p>This is a crosspost from our recent acquisition of BGPmon posted here.   Earlier today a massive route leak &hellip;<span class="overflow"> initiated by Telekom Malaysia (AS4788) caused significant network problems for the global routing system. Primarily&hellip;</span></p>
 </div>
-						<a href="https://labs.opendns.com/2015/06/10/spikes-and-query-patterns/" title="Spikes and Query Patterns" class="read-more">Read More &rarr;</a>
+						<a href="https://labs.opendns.com/2015/06/12/massive-router-leak-causes-internet-slowdown/" title="Massive router leak causes internet slowdown" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -713,12 +713,12 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=e8c99290a6a9d6cfb511e81d41a094a8'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":563,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=f8cbab647d37acc749cc7529ffa5f60f'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":550,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
 Content Delivery Network via Amazon Web Services: CloudFront: d295hzzivaok4k.cloudfront.net
 
- Served from: www.opendns.com @ 2015-06-11 19:09:00 by W3 Total Cache -->
+ Served from: www.opendns.com @ 2015-06-13 18:00:12 by W3 Total Cache -->

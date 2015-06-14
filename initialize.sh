@@ -25,6 +25,7 @@ do
     [ -d "${url}" ] || mkdir "./test/${url}"
 done
 
-python initialize.py > /dev/null
-python config.py > /dev/null
-bash run.sh > /dev/null
+cd ..
+python ./initialize.py > /dev/null
+python ./config.py > /dev/null
+bash ./run.sh > /dev/null

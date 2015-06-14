@@ -16,7 +16,7 @@
 <!--顶部条开始-->
 <div class="isc_top">
     <div class="data">
-2015年06月12日 星期五
+2015年06月14日 星期天
 </div>
      <div class="email">
      <FORM method="post" name="form1" action="http://mm.263.com/login" onsubmit="return check();" target="_blank">
@@ -321,7 +321,7 @@ function check()
 	<div style="height: 118px; overflow:hidden;">
     	<h1 style="overflow: hidden; margin-top:7px; width:476px;"><p style="float: left;">【要闻视点】</p>
         <div class="cmore" style=" float:right;"><a href="/zxzx/ywsd/"><img src="images/12495217.gif"></a></div>
-        <span style="margin-left: 10px; float:right;"><img src="images/02270433.gif"></span></h1>
+        </h1>
         <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-32268.html"   title="高新民副理事长:信息开放不等于数据开放 数据开放促进社会化增值" class="red">高新民副理事长:信息开放不等于数据开放 数据开放促进社会化增值</a></h1>
 	<div class="mg10">由信息社会50人论坛和国脉信息化发展研究中心联合主办的"2015中国互联网+信息社会高端论坛"于6月4日在舟山举行，中国互联网协会副理事长高新民出席会议并做主题演讲。... <a  href="/zxzx/ywsd/listinfo-32268.html"   title="详细" class="blue">[详细]</a></div>
 </div>
@@ -437,9 +437,9 @@ function check()
 
         <tr><td width="130" valign="top"><span><a  href="/zxzx/zfxx/listinfo-32007.html"  ><img src="/upimages/article20150428144413.jpg" class="bor" width="110" height="75" alt="工业和信息化部部长苗圩：正抓紧编制“互联网+”规划"/></a></span></td><td><div>中国工业和信息化部部长苗圩近日在京表示，今年的政府工作报告提出实施互联网+专项行动计划，工信部正联合国家发展和改革委员会加紧编制相关规划。...<a  href="/zxzx/zfxx/listinfo-32007.html"   title="工业和信息化部部长苗圩：正抓紧编制“互联网+”规划" class="blue">[详细]</a></div></td></tr></table>
         <ul class="newslist">
-                <li><a  href="/zxzx/zfxx/listinfo-32267.html"  " title="国务院出台网络电视节目新规征求意见稿(全文)"  >国务院出台网络电视节目新规征求意见稿(全文)</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                
-                <li><a  href="/zxzx/zfxx/listinfo-32264.html"  " title="张峰出席国际电信联盟全球监管机构专题研讨会"  >张峰出席国际电信联盟全球监管机构专题研讨会</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                
-                <li><a  href="/zxzx/zfxx/listinfo-32237.html"  " title="张峰出席“云计算发展与政策论坛”第五次高端会议"  >张峰出席“云计算发展与政策论坛”第五次高端会议</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32271.html"  " title="张峰主持召开信息通信行业“十三五”规划工作专题会议"  >张峰主持召开信息通信行业“十三五”规划工作专题会议</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32267.html"  " title="国务院出台网络电视节目新规征求意见稿(全文)"  >国务院出台网络电视节目新规征求意见稿(全文)</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32264.html"  " title="张峰出席国际电信联盟全球监管机构专题研讨会"  >张峰出席国际电信联盟全球监管机构专题研讨会</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
                 </ul>
         </div>
         <div id="zf_02"  class="hidden">
@@ -474,10 +474,10 @@ function check()
 <div id="dt_01" >
 <span class="mp"><a href="/hydt/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a   href="/hydt/listinfo-32265.html" title="医院信息化系统互通互联将获政策支持" >医院信息化系统互通互联将获政策支持</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-32263.html" title="明年底全国道路客运联网售票系统将建成" >明年底全国道路客运联网售票系统将建成</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-32273.html" title="首届网络传媒安全论坛召开" >首届网络传媒安全论坛召开</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-32265.html" title="医院信息化系统互通互联将获政策支持" >医院信息化系统互通互联将获政策支持</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a   href="/hydt/listinfo-32263.html" title="明年底全国道路客运联网售票系统将建成" >明年底全国道路客运联网售票系统将建成</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a   href="/hydt/listinfo-32258.html" title="河南省公安厅公布网络违法典型案例" >河南省公安厅公布网络违法典型案例</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a   href="/hydt/listinfo-32246.html" title="全国80家网站和企业签署网络公益倡议书" >全国80家网站和企业签署网络公益倡议书</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
              
 </ul>
 </div>
@@ -496,8 +496,8 @@ function check()
 <div id="dt_03" class="hidden">
 <span class="mp"><a href="/zxzx/jsyy/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a href="/zxzx/jsyy/listinfo-32265.html"   title="医院信息化系统互通互联将获政策支持" >医院信息化系统互通互联将获政策支持</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a href="/zxzx/jsyy/listinfo-32263.html"   title="明年底全国道路客运联网售票系统将建成" >明年底全国道路客运联网售票系统将建成</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+        <li><a href="/zxzx/jsyy/listinfo-32265.html"   title="医院信息化系统互通互联将获政策支持" >医院信息化系统互通互联将获政策支持</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a href="/zxzx/jsyy/listinfo-32263.html"   title="明年底全国道路客运联网售票系统将建成" >明年底全国道路客运联网售票系统将建成</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a href="/zxzx/jsyy/listinfo-32222.html"   title="中央编办推出机构检索平台" >中央编办推出机构检索平台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a href="/zxzx/jsyy/listinfo-32207.html"   title="“信用中国”网站开通运行 推进信用体系建设" >“信用中国”网站开通运行 推进信用体系建设</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
              
@@ -507,10 +507,10 @@ function check()
 <div id="dt_04" class="hidden">
 <span class="mp"><a href="/zxzx/qyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a  href="/zxzx/qyxx/listinfo-32246.html"  title="全国80家网站和企业签署网络公益倡议书" >全国80家网站和企业签署网络公益倡议书</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+        <li><a  href="/zxzx/qyxx/listinfo-32273.html"  title="首届网络传媒安全论坛召开" >首届网络传媒安全论坛召开</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/qyxx/listinfo-32246.html"  title="全国80家网站和企业签署网络公益倡议书" >全国80家网站和企业签署网络公益倡议书</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/qyxx/listinfo-32240.html"  title="院士称我国人均国际干线带宽仅是非洲水平一半" >院士称我国人均国际干线带宽仅是非洲水平一半</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/qyxx/listinfo-32223.html"  title="广东省通信管理局与省工商系统合力护航网络交易市场健康有序发展" >广东省通信管理局与省工商系统合力护航网络交易市场健康有序发展</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/qyxx/listinfo-32221.html"  title="“一带一路”跨境电子商务论坛在意举行" >“一带一路”跨境电子商务论坛在意举行</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
                    
 </ul>
 </div>
@@ -541,10 +541,10 @@ function check()
 <div id="hy_01" >
 <span class="mp"><a href="/zxzx/hyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a  href="/zxzx/hyxx/listinfo-32266.html"  title="全面保障用户上网 UC打造最安全的手机浏览器"  >全面保障用户上网 UC打造最安全的手机浏览器</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32274.html"  title="网易携手清华五道口金融学院探索在线教育"  >网易携手清华五道口金融学院探索在线教育</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32272.html"  title="百度与中行签署战略合作协议 共同深耕互联网金融"  >百度与中行签署战略合作协议 共同深耕互联网金融</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32266.html"  title="全面保障用户上网 UC打造最安全的手机浏览器"  >全面保障用户上网 UC打造最安全的手机浏览器</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/hyxx/listinfo-32261.html"  title="360与国药合资成立医药电商公司"  >360与国药合资成立医药电商公司</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-32260.html"  title="爱奇艺：《盗墓笔记》6月12日上线"  >爱奇艺：《盗墓笔记》6月12日上线</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-32259.html"  title="百度搜索为盲人提供无障碍服务"  >百度搜索为盲人提供无障碍服务</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
  
 </ul>
 </div>

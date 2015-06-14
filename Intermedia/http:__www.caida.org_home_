@@ -364,10 +364,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="/projects/ark/"><img title="We are now deploying small, inexpensive network measurement nodes, based on the Raspberry Pi, in the Ark measurement infrastructure.  Although tiny, a Raspberry Pi is as capable as a desktop system of several generations ago and offers a flexible Linux-powered programmable platform for conducting networking research.  These systems can be placed anywhere that is convenient for a hosting site, including on someone's desk, and the transition from deploying traditional rack-mounted servers to Raspberry Pi's will allow us to scale up the Ark infrastructure." alt="" height="250" width="300" src="/images/ark-raspi-monitor_300h250.png"></a>
+<a href="http://as-rank.caida.org/"><img title="We present the BETA version of AS Rank, CAIDA's ranking of Autonomous Systems (AS) (which approximately map to Internet Service Providers). This ranking is derived from topological data collected by CAIDA's Archipelago Measurement Infrastructure and Border Gateway Protocol (BGP) routing data collected by the Route Views Project and RIPE NCC. ASes are ranked by their customer cone size, which is the number of their direct and indirect customers. Note: We do not have data to rank ASes (ISPs) by traffic, revenue, users, or any other non-topological metric. " alt="" height="250" width="300" src="/images/asrank-relationshipgraph_300h250.png"></a>
 </div>
 <div class="captiontext">
-<a href="/projects/ark/">Ark Raspberry Pi-based Network Monitor (2013)</a>
+<a href="http://as-rank.caida.org/">AS Rank: Ranking of Autonomous Systems</a>
 </div>
 <hr>
 <div class="captiontext">
@@ -512,40 +512,40 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 <div class="rccontent">
 <table summary="CAIDA What's New feed: New Papers" class="feedtable">
 <tr>
+<td><a href="http://www.caida.org/publications/papers/2015/how_dangerous_internet_scanning/" title="E. Raftopoulos, E. Glatz, X. Dimitropoulos, and A. Dainotti, &quot;How Dangerous Is Internet Scanning? A Measurement Study of the Aftermath of an Internet-Wide Scan&quot;, in Traffic Monitoring and Analysis Workshop (TMA), Apr 2015, vol. 9053, pp. 158--172.">How Dangerous Is Internet Scanning?</a></td><td>Jun&nbsp;12</td>
+</tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/inventory_aspirations_internets_future/" title="
 This is a draft copy of a working white paper.
 	
 D. Clark and k. claffy, &quot;An Inventory of Aspirations for the Internet's future&quot;, Tech. rep., Center for Applied Internet Data Analysis (CAIDA), Apr 2015.">An Inventory of Aspirations for the Internet's future</a></td><td>May&nbsp;12</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/measuring_characterizing_ipv6_router/" title="R. Beverly, M. Luckie, L. Mosley, and k. claffy, &quot;Measuring and Characterizing IPv6 Router Availability&quot;, in Passive and Active Network Measurement Workshop (PAM), Mar 2015, pp. 123--135.">Measuring and Characterizing IPv6 Router Availability</a></td><td>Mar&nbsp;24</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/ipv6_as_relationships/" title="V. Giotsas, M. Luckie, B. Huffaker, and k. claffy, &quot;IPv6 AS Relationships, Clique, and Congruence&quot;, in Passive and Active Network Measurement Workshop (PAM), Mar 2015, pp. 111--122.">IPv6 AS Relationships, Clique, and Congruence</a></td><td>Mar&nbsp;24</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/how_to_throw_the_race/" title="E. Kenneally, &quot;How to Throw the Race to the Bottom: Revisiting Signals for Ethical and Legal Research Using Online Data&quot;, ACM SIGCAS Computers and Society, Feb 2015.">How to Throw the Race to the Bottom: Revisiting Signals for Ethical and Legal Research Using Online Data</a></td><td>Jan&nbsp;30</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/first_ndncomm/" title="k. claffy, J. Polterock, A. Afanasyev, J. Burke, and L. Zhang, &quot;The First Named Data Networking Community Meeting (NDNcomm)&quot;, Tech. rep., Named Data Networking (NDN), Jan 2015. In submission to ACM SIGCOMM Computer Communication Review (CCR).">The First Named Data Networking Community Meeting (NDNcomm)</a></td><td>Jan&nbsp;13</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2014/world_on_ndn/" title="K. Shilton, J. Burke, k. claffy, C. Duan, and L. Zhang, &quot;A World on NDN: Affordances &amp; Implications of the Named Data Networking Future Internet Architecture&quot;, Tech. Rep. 18, Named Data Networking (NDN), Apr 2014.">A World on NDN: Affordances &amp; Implications of the Named Data Networking Future Internet Architecture</a></td><td>Jan&nbsp;8</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td style="background: center"></td><td align="left"><span class="yeartext">2014</span></td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2014/survey_end_to_end_mobile/" title="U. Goel, M. Wittie, K. Claffy, and A. Le, &quot;Survey of End-to-End Mobile Network Measurement Testbeds&quot;, Tech. rep., arXiv cs.NI/1411.5003, Nov 2014.">Survey of End-to-End Mobile Network Measurement Testbeds</a></td><td>Nov&nbsp;26</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2014/lost_in_space/" title="k. claffy, D. Clark, and M. Wittie, &quot;The 6th Workshop on Active Internet Measurements (AIMS6) Report&quot;, ACM SIGCOMM Computer Communication Review (CCR), vol. 44, no. 5, pp. 39--44, Oct 2014.">Lost in Space: Improving Inference of IPv4 Address Space Utilization</a></td><td>Oct&nbsp;27</td>
 </tr>
-<tr>
-<td><a href="http://www.caida.org/publications/papers/2014/aims6_report/" title="A. Dainotti, K. Benson, A. King, k. claffy, E. Glatz, X. Dimitropoulos, P. Richter, A. Finamore, and A. Snoeren, &quot;Lost in Space: Improving Inference of IPv4 Address Space Utilization&quot;, Tech. rep., Cooperative Association for Internet Data Analysis (CAIDA), Oct 2014.">The 6th Workshop on Active Internet Measurements (AIMS6) Report</a></td><td>Oct&nbsp;27</td>
-</tr>
 <tr class="zebra">
-<td><a href="http://www.caida.org/publications/papers/2014/uncovering_network_tarpits_degreaser/" title="L. Alt, R. Beverly, and A. Dainotti, &quot;Uncovering Network Tarpits with Degreaser&quot;, in Annual Computer Security Applications Conference (ACSAC), Dec 2014.">Uncovering Network Tarpits with Degreaser</a></td><td>Oct&nbsp;13</td>
+<td><a href="http://www.caida.org/publications/papers/2014/aims6_report/" title="A. Dainotti, K. Benson, A. King, k. claffy, E. Glatz, X. Dimitropoulos, P. Richter, A. Finamore, and A. Snoeren, &quot;Lost in Space: Improving Inference of IPv4 Address Space Utilization&quot;, Tech. rep., Cooperative Association for Internet Data Analysis (CAIDA), Oct 2014.">The 6th Workshop on Active Internet Measurements (AIMS6) Report</a></td><td>Oct&nbsp;27</td>
 </tr>
 </table>
 </div>

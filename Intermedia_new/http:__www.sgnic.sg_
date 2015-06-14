@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-mmUCrm9Yxk4DGw5u22DlL1ZauFtpbiQX2CdTDV3rfQA" value="form-mmUCrm9Yxk4DGw5u22DlL1ZauFtpbiQX2CdTDV3rfQA"  />
+<input type="hidden" name="form_build_id" id="form-OuvujhSHdMGjxfIObOOfN24dWYVXvD8xsWzpJfe7FSw" value="form-OuvujhSHdMGjxfIObOOfN24dWYVXvD8xsWzpJfe7FSw"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-VwkGeDgxlufQypUZiEpBG1vtRcApSrTXMIT8EzK1qZY" value="form-VwkGeDgxlufQypUZiEpBG1vtRcApSrTXMIT8EzK1qZY"  />
+<input type="hidden" name="form_build_id" id="form-lLqKhwTC5bKaZQuPhhEwn1qNEo8I2HCPEPtvLkphfYc" value="form-lLqKhwTC5bKaZQuPhhEwn1qNEo8I2HCPEPtvLkphfYc"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,6 +171,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
+                <span class="field-content">June 12, 2015, 1:30 pm</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://blog.apnic.net/2015/06/12/apple-and-ipv6/">Apple and IPv6</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-timestamp">
                 <span class="field-content">June 11, 2015, 10:12 am</span>
   </div>
   
@@ -178,22 +187,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="http://blog.apnic.net/2015/06/11/fine-tuning-filtering/">Fine tuning filtering</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
                 <span class="field-content">June 10, 2015, 2:09 pm</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="http://blog.apnic.net/2015/06/10/nominations-now-open-for-number-resource-organization-number-council/">Nominations now open for Number Resource Organization Number Council</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-timestamp">
-                <span class="field-content">June 10, 2015, 10:34 am</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/06/10/apnic-is-looking-for-a-new-trainer/">APNIC is looking for a new trainer</a></span>
   </div>
 </li>
       </ul>
