@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 15 June 2015 00:16:58
+  Page generated: 22 July 2015 11:00:23
 -->
 
 
@@ -233,7 +233,7 @@
 
 <div><a href="https://www.apnic.net/community/ecosystem/rir">NRO</a></div>
 
-<div><a href="https://www.apnic.net/community/participate/join-discussions">Mailing Lists</a></div>
+<div><a href="https://www.apnic.net/community/participate/mailinglists">Mailing Lists</a></div>
 
 
 </div></div><div id="nav-blog"><a href="//blog.apnic.net/">Blog</a>
@@ -379,7 +379,7 @@ $('.theme-about #header-label span').text('About APNIC');
 
     <li><a href="https://www.apnic.net/community/policy/current">Resource Policies</a></li>
     <li><a href="https://www.apnic.net/community/participate/elections">APNIC Elections</a></li>
-    <li><a href="https://www.apnic.net/community/participate/join-discussions">Mailing Lists</a></li>
+    <li><a href="https://www.apnic.net/community/participate/mailinglists">Mailing Lists</a></li>
     <li><a href="https://www.apnic.net/events/host-an-event">Host a Conference</a></li>
 </ul>
         </div><!-- /.col-sm-3 -->
@@ -447,7 +447,7 @@ $('.theme-about #header-label span').text('About APNIC');
         <div class="col-sm-9 features" id="features-1">
 <a class="feature" id="feature-1" href="//www.apnic.net/services/become-a-member"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>Become a Member</span><b class="apnic-sprite apnic-sprite-icons"></b></a>
 <a class="feature" id="feature-2" href="//isif.asia/"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>Support ISIF</span><img src="https://www.apnic.net/__data/assets/image/0006/76407/isif-logo.png" alt=""/></a>
-<a class="feature" id="feature-3" href="//nro.net/"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>APNIC is a member of the </span><b class="apnic-sprite apnic-sprite-icons"><span>NRO</span></b></a>
+<a class="feature" id="feature-3" href="//www.nro.net/"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>APNIC is a member of the </span><b class="apnic-sprite apnic-sprite-icons"><span>NRO</span></b></a>
 <a class="feature" id="feature-4" href="https://www.apnic.net/community/iana-transition"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>IANA Oversight Transition</span></a>
         </div><!-- /.col-sm-9 -->
         <div class="col-sm-3 features" id="features-2">

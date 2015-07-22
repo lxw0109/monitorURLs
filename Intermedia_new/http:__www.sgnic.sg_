@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-OuvujhSHdMGjxfIObOOfN24dWYVXvD8xsWzpJfe7FSw" value="form-OuvujhSHdMGjxfIObOOfN24dWYVXvD8xsWzpJfe7FSw"  />
+<input type="hidden" name="form_build_id" id="form-tBQIh_gCB0sVzZbVIMJSNiGhgQZHp-oLSKbcYoVRAZU" value="form-tBQIh_gCB0sVzZbVIMJSNiGhgQZHp-oLSKbcYoVRAZU"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-lLqKhwTC5bKaZQuPhhEwn1qNEo8I2HCPEPtvLkphfYc" value="form-lLqKhwTC5bKaZQuPhhEwn1qNEo8I2HCPEPtvLkphfYc"  />
+<input type="hidden" name="form_build_id" id="form-FuLL5VuJWOw2iTaq0Q7FSJvlxdsi61cNcfJcgYvDp6o" value="form-FuLL5VuJWOw2iTaq0Q7FSJvlxdsi61cNcfJcgYvDp6o"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -91,7 +91,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <h2 class="title">Primary links</h2>
     <div class="content"><ul class="menu"><li class="leaf first active-trail"><a href="/" id="primary_home" class="active">Home</a></li>
 <li class="collapsed"><a href="/page/company-info" id="primary_about">About Us</a></li>
-<li class="collapsed"><a href="/accredited-registrars" id="primary_domain_registration">Domain Registration</a></li>
+<li class="collapsed"><a href="/page/accredited-registrars" id="primary_domain_registration">Domain Registration</a></li>
 <li class="collapsed"><a href="/page/domain-name-disputes" id="primary_domain_dispute">Domain Dispute</a></li>
 <li class="collapsed"><a href="/page/policies-and-agreements" id="primary_policies">Policies &amp; Agreements</a></li>
 <li class="collapsed"><a href="/newsEvent" id="primary_news" title="News and Events">News &amp; Events</a></li>
@@ -120,6 +120,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-created">
+                <span class="field-content">June 26, 2015, 1:53 pm</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/special-names-limited-period-grab-it-now-16">Special names for a limited period! Grab it now!</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-created">
                 <span class="field-content">June 3, 2015, 9:00 am</span>
   </div>
   
@@ -127,22 +136,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="/news/sgnic-q-15004-invitation-quote-web-application-penetration-testing-wapt-service-and-optional-po">SGNIC-Q-15004: Invitation to Quote for a Web Application Penetration Testing (WAPT) service and an optional post review service</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-created">
                 <span class="field-content">May 11, 2015, 12:44 pm</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="/news/results-april-2015-premium-domain-name-pdn-exercise">Results of April 2015 Premium Domain Name (&quot;PDN&quot;) Exercise</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-created">
-                <span class="field-content">April 16, 2015, 9:00 am</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/sgnic-q-15002-invitation-quote-laptops">SGNIC-Q-15002: Invitation to Quote for Laptops</a></span>
   </div>
 </li>
       </ul>
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">June 12, 2015, 1:30 pm</span>
+                <span class="field-content">July 21, 2015, 1:04 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/06/12/apple-and-ipv6/">Apple and IPv6</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/07/21/its-alive-blinkenlights-in-cryptech-ietf93/">It’s alive! Blinkenlights in CrypTech, IETF93</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">June 11, 2015, 10:12 am</span>
+                <span class="field-content">July 21, 2015, 8:30 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/06/11/fine-tuning-filtering/">Fine tuning filtering</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/07/21/routing-workshop-malaysia-register-now/">Routing workshop, Malaysia – register now</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">June 10, 2015, 2:09 pm</span>
+                <span class="field-content">July 20, 2015, 10:40 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/06/10/nominations-now-open-for-number-resource-organization-number-council/">Nominations now open for Number Resource Organization Number Council</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/07/20/the-mobile-internet-home-of-ipv6/">The Mobile Internet: Home of IPv6</a></span>
   </div>
 </li>
       </ul>

@@ -270,10 +270,10 @@ function encode(str,u)
                    
                                     
                     <div class="f_out">
-                        <a href="http://www.apac.org.cn/PhishingGame/"><img src="./sytplh/201501/W020150108376124789362.jpg" /></a>
+                        <a href="http://www.apac.cn/secgames/"><img src="./sytplh/201501/W020150108376124789362.jpg" /></a>
                         <font class="img_text">
-                        	<h2>网络钓鱼欺诈识别科普小游戏...</h2>
-                            <font>    为了更加有力地推动互联网健康发展，打击网络不良应用，增强广大网民在反钓鱼网站方面的安全意识，了解基本的反钓鱼常识，更好地打击网络钓鱼网站，保障企业和网民的权益，中国反钓鱼网站联盟联合CNNIC基础技术实验室推出了国内首款线上网络钓鱼欺诈识别科普小游戏。</font>
+                        	<h2>网络安全科普小游戏上线通告</h2>
+                            <font>“开心学安全”是中国反钓鱼网站联盟与CNNIC基础技术实验室结合自身在钓鱼网站检测、中文品牌保护和域名安全等相关领域的科研工作，在第二届国家网络安全周推出的一款网络安全科普小游戏，通过互动问答游戏的方式让用户轻松掌握网络安全、品牌保护、域名安全、钓鱼网站识别等知识。</font>
                         </font>
                     </div>
                                        
@@ -286,10 +286,10 @@ function encode(str,u)
                     </div>
                                        
                     <div class="f_out">
-                        <a href="http://apac.cn/gzdt/201506/P020150611575100624853.pdf"><img src="./sytplh/201408/W020140826426373868776.jpg" /></a>
+                        <a href="http://apac.cn/gzdt/201507/P020150710650395176314.pdf"><img src="./sytplh/201408/W020140826426373868776.jpg" /></a>
                         <font class="img_text">
                         	<h2>中国反钓鱼网站联盟月报</h2>
-                            <font>    中国反钓鱼网站联盟官网发布《2015年5月钓鱼网站处理简报》。本报告发布联盟在5月中处理钓鱼网站的情况。2015年5月中国反钓鱼网站联盟共处理钓鱼网站2483个，累计认定并处理钓鱼网站233223个。</font>
+                            <font>    中国反钓鱼网站联盟官网发布《2015年6月钓鱼网站处理简报》。本报告发布联盟在6月中处理钓鱼网站的情况。2015年6月中国反钓鱼网站联盟共处理钓鱼网站4654个，累计认定并处理钓鱼网站237877个。</font>
                         </font>
                     </div>
                    
@@ -313,17 +313,17 @@ function encode(str,u)
                 </div>
                 <ul>
                 	
+                    <li><a href="http://digi.163.com/15/0712/06/AUA7GCVC00163HE0.html">防不胜防！十种最易上钩的网络钓鱼题材</a><font class="news_time">[2015-07-21]</font></li>
+                    
+                    <li><a href="http://jingji.cntv.cn/2015/06/16/VIDE1434420187180481.shtml?from=androidqq">揭秘身边的骗术 犯罪嫌疑人用“钓鱼网站”骗取密码</a><font class="news_time">[2015-06-19]</font></li>
+                    
+                    <li><a href="http://www.fawan.com/sdzz/zzdt/2015/06/16/112649293203.html">小心个人信息泄露 警惕钓鱼欺诈网站</a><font class="news_time">[2015-06-19]</font></li>
+                    
+                    <li><a href="http://gzdaily.dayoo.com/html/2015-06/18/content_2950779.htm">当心“钓鱼网站”骗苹果手机ID</a><font class="news_time">[2015-06-19]</font></li>
+                    
                     <li><a href="http://xm.ifeng.com/news/xiamen/xiamen_2015_05/05/3861080_0.shtml">伪基站冒充银行发短信 市民登录钓鱼网站后钱被取光</a><font class="news_time">[2015-05-13]</font></li>
                     
                     <li><a href="http://js.xhby.net/system/2015/05/11/024665289.shtml">客服发链接给你退款？其实是钓鱼网站在骗钱</a><font class="news_time">[2015-05-13]</font></li>
-                    
-                    <li><a href="http://www.hb.xinhuanet.com/2015-05/12/c_1115250466.htm">11岁男童替父网购误入钓鱼网站 被骗走9.4万元</a><font class="news_time">[2015-05-13]</font></li>
-                    
-                    <li><a href="http://news.163.com/15/0419/15/ANIT0DBM00014AEE.html">违章诈骗短信玩起新花样 骗子发钓鱼网站链接骗钱</a><font class="news_time">[2015-04-24]</font></li>
-                    
-                    <li><a href="http://tech.sina.com.cn/i/2015-04-03/doc-iawzuney2328247.shtml?k=1">日发信息24万条 最大钓鱼网站栽了</a><font class="news_time">[2015-04-22]</font></li>
-                    
-                    <li><a href="http://news.163.com/15/0325/01/ALH12GMV00014AED.html">中国去年超5万个钓鱼网站被处理</a><font class="news_time">[2015-03-26]</font></li>
                     
                 </ul>
             </div><!--热点新闻结束-->
@@ -333,6 +333,8 @@ function encode(str,u)
                 </div>
                 <ul>
                 	
+                    <li><a href="./gzdt/lmdt/201506/t20150629_52475.html">网络安全科普小游戏上线通告</a><font class="news_time">[2015-06-29]</font></li>
+                    
                     <li><a href="./gzdt/lmdt/201501/t20150108_50956.html">网络钓鱼欺诈识别科普小游戏上线通告</a><font class="news_time">[2015-01-08]</font></li>
                     
                     <li><a href="./gzdt/lmdt/201409/t20140928_49156.html">关于APWG（全球反网络钓鱼组织）峰会的通知</a><font class="news_time">[2014-03-11]</font></li>
@@ -342,8 +344,6 @@ function encode(str,u)
                     <li><a href="./gzdt/lmdt/201408/t20140826_48113.html">关于2012年中国反钓鱼网站联盟年会延期通知</a><font class="news_time">[2012-10-25]</font></li>
                     
                     <li><a href="./gzdt/lmdt/201408/t20140826_48114.html">2012中国反钓鱼网站联盟年会在线报名</a><font class="news_time">[2012-09-27]</font></li>
-                    
-                    <li><a href="./gzdt/lmdt/201408/t20140826_48112.html">CNNIC向APAC成员赠送服务器证书</a><font class="news_time">[2012-09-14]</font></li>
                     
                 </ul>
             </div><!--联盟动态结束-->
@@ -464,7 +464,7 @@ function encode(str,u)
 </div>
 <div class="boc_bottom">
     <div class="bottom_icp">2010 Copyright. 中国反钓鱼网站联盟 版权所有<br />
-ICP备案编号：京ICP备09112257号-51</div>
+ICP备案编号：京ICP备15032509号-1</div>
 </div>
 </body>
 </html>

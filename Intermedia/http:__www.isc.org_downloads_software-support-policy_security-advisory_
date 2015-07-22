@@ -88,7 +88,7 @@ img.emoji {
 }
 </style>
 <link rel='stylesheet' id='js_composer_front-css'  href='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.css?ver=3.0.2' type='text/css' media='screen' />
-<link rel='stylesheet' id='contact-form-7-css'  href='http://www.isc.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.isc.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.2.1' type='text/css' media='all' />
 <link rel='stylesheet' id='events-manager-css'  href='http://www.isc.org/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.55' type='text/css' media='all' />
 <link rel='stylesheet' id='select2-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/select2.css?ver=4.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='woocommerce-layout-css'  href='//www.isc.org/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=2.3.11' type='text/css' media='all' />
@@ -360,10 +360,12 @@ ul.member-contact li a:hover {color: #333;}
 .alt-two.full-width-text:after {border-top-color:#FFFFFF;}
 .alt-two h3.wpb_heading {border-bottom-color:#222222;}
 .alt-bg.alt-three {background-color: #FFFFFF;}
-.alt-bg.alt-three, .alt-bg.alt-three h1, .alt-bg.alt-three h2, .alt-bg.alt-three h3, .alt-bg.alt-three h3, .alt-bg.alt-three h4, .alt-bg.alt-three h5, .alt-bg.alt-three h6, .alt-three .carousel-wrap > a {color: #222222;}
+.alt-bg.alt-three {background-image: url(https://www.isc.org/wp-content/uploads/2013/05/dnsco-bkd2.jpg); background-repeat: no-repeat; background-position: center center; background-size:cover;}
+.alt-bg.alt-three, .alt-bg.alt-three h1, .alt-bg.alt-three h2, .alt-bg.alt-three h3, .alt-bg.alt-three h3, .alt-bg.alt-three h4, .alt-bg.alt-three h5, .alt-bg.alt-three h6, .alt-three .carousel-wrap > a {color: #1e73be;}
 .alt-three.full-width-text:after {border-top-color:#FFFFFF;}
-.alt-three h3.wpb_heading {border-bottom-color:#222222;}
+.alt-three h3.wpb_heading {border-bottom-color:#1e73be;}
 .alt-bg.alt-four {background-color: #FFFFFF;}
+.alt-bg.alt-four {background-image: url(https://www.isc.org/wp-content/uploads/2013/02/L10300851.jpg); background-repeat: repeat; background-position: center top; background-size:auto;}
 .alt-bg.alt-four, .alt-bg.alt-four h1, .alt-bg.alt-four h2, .alt-bg.alt-four h3, .alt-bg.alt-four h3, .alt-bg.alt-four h4, .alt-bg.alt-four h5, .alt-bg.alt-four h6, .alt-four .carousel-wrap > a {color: #222222;}
 .alt-four.full-width-text:after {border-top-color:#FFFFFF;}
 .alt-four h3.wpb_heading {border-bottom-color:#222222;}
@@ -376,16 +378,18 @@ ul.member-contact li a:hover {color: #333;}
 .alt-six.full-width-text:after {border-top-color:#FFFFFF;}
 .alt-six h3.wpb_heading {border-bottom-color:#222222;}
 .alt-bg.alt-seven {background-color: #FFFFFF;}
+.alt-bg.alt-seven {background-image: url(https://www.isc.org/wp-content/uploads/2015/07/photo-1429041966141-44d228a42775.jpeg); background-repeat: repeat; background-position: center top; background-size:auto;}
 .alt-bg.alt-seven, .alt-bg.alt-seven h1, .alt-bg.alt-seven h2, .alt-bg.alt-seven h3, .alt-bg.alt-seven h3, .alt-bg.alt-seven h4, .alt-bg.alt-seven h5, .alt-bg.alt-seven h6, .alt-seven .carousel-wrap > a {color: #222222;}
 .alt-seven.full-width-text:after {border-top-color:#FFFFFF;}
 .alt-seven h3.wpb_heading {border-bottom-color:#222222;}
 .alt-bg.alt-eight {background-color: #FFFFFF;}
+.alt-bg.alt-eight {background-image: url(https://www.isc.org/wp-content/uploads/2015/07/fall-in-to-the-gap.jpg); background-repeat: no-repeat; background-position: center center; background-size:cover;}
 .alt-bg.alt-eight, .alt-bg.alt-eight h1, .alt-bg.alt-eight h2, .alt-bg.alt-eight h3, .alt-bg.alt-eight h3, .alt-bg.alt-eight h4, .alt-bg.alt-eight h5, .alt-bg.alt-eight h6, .alt-eight .carousel-wrap > a {color: #222222;}
 .alt-eight.full-width-text:after {border-top-color:#FFFFFF;}
 .alt-eight h3.wpb_heading {border-bottom-color:#222222;}
-.alt-bg.alt-nine {background-color: #FFFFFF;}
+.alt-bg.alt-nine {background-color: #1e73be;}
 .alt-bg.alt-nine, .alt-bg.alt-nine h1, .alt-bg.alt-nine h2, .alt-bg.alt-nine h3, .alt-bg.alt-nine h3, .alt-bg.alt-nine h4, .alt-bg.alt-nine h5, .alt-bg.alt-nine h6, .alt-nine .carousel-wrap > a {color: #222222;}
-.alt-nine.full-width-text:after {border-top-color:#FFFFFF;}
+.alt-nine.full-width-text:after {border-top-color:#1e73be;}
 .alt-nine h3.wpb_heading {border-bottom-color:#222222;}
 .alt-bg.alt-ten {background-color: #FFFFFF;}
 .alt-bg.alt-ten {background-image: url(https://www.isc.org/wp-content/uploads/2015/03/eda0fb7c.jpeg); background-repeat: repeat; background-position: center top; background-size:auto;}
@@ -534,6 +538,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 			<li id="menu-item-162539" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162539"><a href="http://ftp.isc.org/isc/bind9/cur/9.9/doc/arm/Bv9ARM.html">BIND 9.9 ARM</a></li>
 			<li id="menu-item-162540" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162540"><a href="http://ftp.isc.org/isc/bind9/cur/9.8/doc/arm/Bv9ARM.html">BIND 9.8 ARM</a></li>
 			<li id="menu-item-162541" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162541"><a href="http://ftp.isc.org/isc/bind9/cur/9.6/doc/arm/Bv9ARM.html">BIND 9.6 ESV ARM</a></li>
+			<li id="menu-item-229932" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-229932"><a href="http://users.isc.org/~jreed/dnssec-guide/dnssec-guide.html">DNSSEC Guide</a></li>
 		</ul>
 </li>
 		<li id="menu-item-111195" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111195"><a href="https://www.mail-archive.com/bind-users@lists.isc.org/">BIND Users searchable archive</a></li>
@@ -647,11 +652,12 @@ nav .menu > li {border-top-color: #e4e4e4;}
 </li>
 <li id="menu-item-8188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8188 default"><a href="https://www.isc.org/mission/">About Us</a>
 <ul class="sub-menu">
-	<li id="menu-item-12301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12301 "><a href="https://www.isc.org/2013-isc-annual-report-2/">2013 ISC Annual Report</a></li>
+	<li id="menu-item-251427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251427 "><a href="https://www.isc.org/2014-annual-report/">2014 Annual Report</a></li>
 	<li id="menu-item-9462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9462 "><a href="https://www.isc.org/mission/team/">ISC Team</a></li>
 	<li id="menu-item-9463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9463 "><a href="https://www.isc.org/mission/bod/">Board of Directors</a></li>
 	<li id="menu-item-10818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10818 "><a href="https://www.isc.org/mission/press-release/">Press Release</a></li>
 	<li id="menu-item-9208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9208 "><a href="https://www.isc.org/mission/value/">ISC&#8217;s Value</a></li>
+	<li id="menu-item-229934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229934 "><a href="https://www.isc.org/timeline/">ISC Timeline</a></li>
 	<li id="menu-item-9708" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9708 "><a href="https://www.isc.org/mission/aup/">ISC Acceptable Use Policy</a></li>
 	<li id="menu-item-9798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9798 "><a href="https://www.isc.org/mission/jobs/">Jobs</a></li>
 	<li id="menu-item-8629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8629 default"><a href="https://www.isc.org/mission/contact/">Contact</a></li>
@@ -670,7 +676,6 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	</ul>
 </li>
 	<li id="menu-item-179405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179405 "><a href="https://www.isc.org/unbound-subscription/">Unbound &#038; NSD Support Subscription</a></li>
-	<li id="menu-item-70373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70373 "><a href="https://www.isc.org/training/">Training</a></li>
 </ul>
 </li>
 </ul></div>			
@@ -724,6 +729,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162539"><a href="http://ftp.isc.org/isc/bind9/cur/9.9/doc/arm/Bv9ARM.html">BIND 9.9 ARM</a></li>
 			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162540"><a href="http://ftp.isc.org/isc/bind9/cur/9.8/doc/arm/Bv9ARM.html">BIND 9.8 ARM</a></li>
 			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162541"><a href="http://ftp.isc.org/isc/bind9/cur/9.6/doc/arm/Bv9ARM.html">BIND 9.6 ESV ARM</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-229932"><a href="http://users.isc.org/~jreed/dnssec-guide/dnssec-guide.html">DNSSEC Guide</a></li>
 		</ul>
 </li>
 		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111195"><a href="https://www.mail-archive.com/bind-users@lists.isc.org/">BIND Users searchable archive</a></li>
@@ -837,11 +843,12 @@ nav .menu > li {border-top-color: #e4e4e4;}
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8188 default"><a href="https://www.isc.org/mission/">About Us</a>
 <ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12301 "><a href="https://www.isc.org/2013-isc-annual-report-2/">2013 ISC Annual Report</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251427 "><a href="https://www.isc.org/2014-annual-report/">2014 Annual Report</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9462 "><a href="https://www.isc.org/mission/team/">ISC Team</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9463 "><a href="https://www.isc.org/mission/bod/">Board of Directors</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10818 "><a href="https://www.isc.org/mission/press-release/">Press Release</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9208 "><a href="https://www.isc.org/mission/value/">ISC&#8217;s Value</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229934 "><a href="https://www.isc.org/timeline/">ISC Timeline</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9708 "><a href="https://www.isc.org/mission/aup/">ISC Acceptable Use Policy</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9798 "><a href="https://www.isc.org/mission/jobs/">Jobs</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8629 default"><a href="https://www.isc.org/mission/contact/">Contact</a></li>
@@ -860,7 +867,6 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179405 "><a href="https://www.isc.org/unbound-subscription/">Unbound &#038; NSD Support Subscription</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70373 "><a href="https://www.isc.org/training/">Training</a></li>
 </ul>
 </li>
 </ul></div>			
@@ -934,7 +940,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<div class="wpb_wrapper clearfix">
 			<div class="heading-wrap"><i class="icon-cog"></i><h3 class="wpb_heading">BIND</h3></div>
 			
-<div class="rssmi_wrap"><span style="color: #000000; font-weight: bold;margin: 0 0 0.8125em;">Earlier</span><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01235"  style="color:">CVE-2015-1349:  A Problem with Trust Anchor Management Can Cause named to Crash</a></span></div><div class="body">When configured to perform DNSSEC validation, named can crash when encountering a rare set of conditions in the managed trust anchors. <a href="https://kb.isc.org/article/AA-01235" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Wed, Feb 18, 2015</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01217"  style="color:">CVE-2014-8680:  Defects in GeoIP features can cause BIND to crash</a></span></div><div class="body">Two defects have been identified in the GeoIP feature added in BIND 9.10 which, when triggered, cause BIND to exit with an assertion failure. <a href="https://kb.isc.org/article/AA-01217" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, Dec 08, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01216"  style="color:">CVE-2014-8500:  A Defect in Delegation Handling Can Be Exploited to Crash BIND</a></span></div><div class="body">Failure to place limits on delegation chaining can allow an attacker to crash BIND or cause memory exhaustion. <a href="https://kb.isc.org/article/AA-01216" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Tue, Nov 18, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01166"  style="color:">CVE-2014-3859: BIND named can crash due to a defect in EDNS printing processing</a></span></div><div class="body">A specially crafted query sent to a BIND nameserver can cause it to crash with a REQUIRE assertion error. <a href="https://kb.isc.org/article/AA-01166" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Wed, May 28, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01161"  style="color:">CVE-2014-3214: A Defect in Prefetch Can Cause Recursive Servers to Crash</a></span></div><div class="body">A defect in the prefetch feature can cause named to crash when handling some queries. <a href="https://kb.isc.org/article/AA-01161" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, May 05, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div></div>
+<div class="rssmi_wrap"><span style="color: #000000; font-weight: bold;margin: 0 0 0.8125em;">Earlier</span><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01267"  style="color:">CVE-2015-4620: Specially Constructed Zone Data Can Cause a Resolver to Crash when Validating</a></span></div><div class="body">An attacker who can cause a validating resolver to query a zone containing specifically constructed contents can cause that resolver to fail an assertion and terminate due to a defect in validation code. <a href="https://kb.isc.org/article/AA-01267" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Tue, Jun 16, 2015</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01235"  style="color:">CVE-2015-1349:  A Problem with Trust Anchor Management Can Cause named to Crash</a></span></div><div class="body">When configured to perform DNSSEC validation, named can crash when encountering a rare set of conditions in the managed trust anchors. <a href="https://kb.isc.org/article/AA-01235" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Wed, Feb 18, 2015</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01217"  style="color:">CVE-2014-8680:  Defects in GeoIP features can cause BIND to crash</a></span></div><div class="body">Two defects have been identified in the GeoIP feature added in BIND 9.10 which, when triggered, cause BIND to exit with an assertion failure. <a href="https://kb.isc.org/article/AA-01217" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Mon, Dec 08, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01216"  style="color:">CVE-2014-8500:  A Defect in Delegation Handling Can Be Exploited to Crash BIND</a></span></div><div class="body">Failure to place limits on delegation chaining can allow an attacker to crash BIND or cause memory exhaustion. <a href="https://kb.isc.org/article/AA-01216" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Tue, Nov 18, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01166"  style="color:">CVE-2014-3859: BIND named can crash due to a defect in EDNS printing processing</a></span></div><div class="body">A specially crafted query sent to a BIND nameserver can cause it to crash with a REQUIRE assertion error. <a href="https://kb.isc.org/article/AA-01166" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Wed, May 28, 2014</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div></div>
 <p style="text-align: center;"><a title="BIND 9 Security Advisories" href="https://kb.isc.org/category/74/0/10/Software-Products/BIND9/Security-Advisories/" target="_blank">[Complete List]</a></p>
 
 		</div> 
@@ -1049,7 +1055,7 @@ USA</p>
 var _wpcf7 = {"loaderUrl":"http:\/\/www.isc.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://www.isc.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.2'></script>
+<script type='text/javascript' src='http://www.isc.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.2.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","i18n_view_cart":"View Cart","cart_url":"https:\/\/www.isc.org\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
@@ -1074,7 +1080,7 @@ var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","fragmen
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.js?ver=4.2.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"6754261f0b","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
+var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"d095988759","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/plugins/love-it-pro/includes/js/love-it.js'></script>

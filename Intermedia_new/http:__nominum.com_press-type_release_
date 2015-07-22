@@ -1,404 +1,545 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec"  prefix="og: http://ogp.me/ns#"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec"  prefix="og: http://ogp.me/ns#"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec"  prefix="og: http://ogp.me/ns#"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec"  prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1" />
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<title>Release Archives - Nominum</title>
+        <!-- No Google Translate toolbar -->
 
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="pingback" href="http://nominum.com/xmlrpc.php" />
-<link rel="shortcut icon" href="http://nominum.com/wp-content/themes/nominum/favicon.ico" type="image/x-icon">
-<link rel="icon" href="http://nominum.com/wp-content/themes/nominum/favicon.ico" type="image/x-icon">
+        <meta name="google" content="notranslate">
 
+        <!-- Viewport and mobile -->
 
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, minimal-ui">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="MobileOptimized" content="320">
+        <meta http-equiv="cleartype" content="on">
+
+        <!-- Icons -->
+
+        <link rel="apple-touch-icon" sizes="57x57" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/manifest.json">
+        <link rel="shortcut icon" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#00b3e3">
+        <meta name="msapplication-TileImage" content="http://nominum.com/wp-content/themes/nominum/assets/images/icons/mstile-144x144.png">
+        <meta name="msapplication-config" content="http://nominum.com/wp-content/themes/nominum/assets/images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+        
 <!-- This site is optimized with the Yoast WordPress SEO plugin v2.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
-<link rel="canonical" href="http://nominum.com/press-type/release/" />
-<link rel="next" href="http://nominum.com/press-type/release/page/2/" />
+<title>Nominum - News &amp; Events</title>
+<meta name="robots" content="noodp,noydir"/>
+<meta name="description" content="Reimagine Telecom Digital Marketing"/>
+<link rel="canonical" href="http://nominum.com/news-events/" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:type" content="object" />
-<meta property="og:title" content="Release Archives - Nominum" />
-<meta property="og:url" content="http://nominum.com/press-type/release/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Nominum - News &amp; Events" />
+<meta property="og:description" content="Reimagine Telecom Digital Marketing" />
+<meta property="og:url" content="http://nominum.com/news-events/" />
 <meta property="og:site_name" content="Nominum" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="Reimagine Telecom Digital Marketing"/>
+<meta name="twitter:title" content="Nominum - News &amp; Events"/>
+<meta name="twitter:domain" content="Nominum"/>
 <!-- / Yoast WordPress SEO plugin. -->
 
-<link rel="alternate" type="application/rss+xml" title="Nominum &raquo; Feed" href="http://nominum.com/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Nominum &raquo; Comments Feed" href="http://nominum.com/comments/feed/" />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/nominum.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.2"}};
-			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-<link rel='stylesheet' id='layerslider-css'  href='http://nominum.com/wp-content/plugins/LayerSlider/static/css/layerslider.css?ver=5.1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='ls-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900|Open+Sans:300|Indie+Flower:regular|Oswald:300,regular,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
-<link rel='stylesheet' id='main-style-css'  href='http://nominum.com/wp-content/themes/nominum/css/main.css?ver=4.2.2' type='text/css' media='all' />
-<!-- This site uses the Google Analytics by Yoast plugin v5.4.2 - Universal disabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
-<script type="text/javascript">
 
-	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', 'UA-17699125-1']);
-	_gaq.push(['_gat._forceSSL']);
-	_gaq.push(['_trackPageview']);
-
-	(function () {
-		var ga = document.createElement('script');
-		ga.type = 'text/javascript';
-		ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore(ga, s);
-	})();
-
-</script>
-<!-- / Google Analytics by Yoast -->
-<script type='text/javascript' src='http://nominum.com/wp-includes/js/underscore.min.js?ver=1.6.0'></script>
-<script type='text/javascript' src='http://nominum.com/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
-<script type='text/javascript' src='http://nominum.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var DavesWordPressLiveSearchConfig = {"resultsDirection":"down","showThumbs":"false","showExcerpt":"false","showMoreResultsLink":"true","minCharsToSearch":"1","xOffset":"0","yOffset":"0","blogURL":"http:\/\/nominum.com","ajaxURL":"http:\/\/nominum.com\/wp-admin\/admin-ajax.php","viewMoreText":"View more results","outdatedJQuery":"Dave's WordPress Live Search requires jQuery 1.2.6 or higher. WordPress ships with current jQuery versions. But if you are seeing this message, it's likely that another plugin is including an earlier version.","resultTemplate":"<ul id=\"dwls_search_results\" class=\"search_results dwls_search_results\">\n<input type=\"hidden\" name=\"query\" value=\"<%- resultsSearchTerm %>\" \/>\n<% _.each(searchResults, function(searchResult, index, list) { %>\n        <%\n        \/\/ Thumbnails\n        if(DavesWordPressLiveSearchConfig.showThumbs == \"true\" && searchResult.attachment_thumbnail) {\n                liClass = \"post_with_thumb\";\n        }\n        else {\n                liClass = \"\";\n        }\n        %>\n        <li class=\"daves-wordpress-live-search_result <%- liClass %> '\">\n        <% if(DavesWordPressLiveSearchConfig.showThumbs == \"true\" && searchResult.attachment_thumbnail) { %>\n                <img src=\"<%= searchResult.attachment_thumbnail %>\" class=\"post_thumb\" \/>\n        <% } %>\n\n        <a href=\"<%= searchResult.permalink %>\" class=\"daves-wordpress-live-search_title\"><%= searchResult.post_title %><\/a>\n\n        <% if(searchResult.post_price !== undefined) { %>\n                <p class=\"price\"><%- searchResult.post_price %><\/p>\n        <% } %>\n\n        <% if(DavesWordPressLiveSearchConfig.showExcerpt == \"true\" && searchResult.post_excerpt) { %>\n                <p class=\"excerpt clearfix\"><%= searchResult.post_excerpt %><\/p>\n        <% } %>\n\n        <% if(e.displayPostMeta) { %>\n                <p class=\"meta clearfix daves-wordpress-live-search_author\" id=\"daves-wordpress-live-search_author\">Posted by <%- searchResult.post_author_nicename %><\/p><p id=\"daves-wordpress-live-search_date\" class=\"meta clearfix daves-wordpress-live-search_date\"><%- searchResult.post_date %><\/p>\n        <% } %>\n        <div class=\"clearfix\"><\/div><\/li>\n<% }); %>\n\n<% if(searchResults[0].show_more !== undefined && searchResults[0].show_more && DavesWordPressLiveSearchConfig.showMoreResultsLink == \"true\") { %>\n        <div class=\"clearfix search_footer\"><a href=\"<%= DavesWordPressLiveSearchConfig.blogURL %>\/?s=<%-  resultsSearchTerm %>\"><%- DavesWordPressLiveSearchConfig.viewMoreText %><\/a><\/div>\n<% } %>\n\n<\/ul>"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='http://nominum.com/wp-content/plugins/daves-wordpress-live-search/js/daves-wordpress-live-search.min.js?ver=4.2.2'></script>
-<script type='text/javascript' src='http://nominum.com/wp-content/plugins/daves-wordpress-live-search/js/excanvas.compiled.js?ver=4.2.2'></script>
-<script type='text/javascript' src='http://nominum.com/wp-content/plugins/daves-wordpress-live-search/js/spinners.min.js?ver=4.2.2'></script>
-<script type='text/javascript' src='http://nominum.com/wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js?ver=5.1.1'></script>
-<script type='text/javascript' src='http://nominum.com/wp-content/plugins/LayerSlider/static/js/greensock.js?ver=1.11.2'></script>
-<script type='text/javascript' src='http://nominum.com/wp-content/plugins/LayerSlider/static/js/layerslider.transitions.js?ver=5.1.1'></script>
-<script type='text/javascript' src='http://nominum.com/wp-content/themes/nominum/js/vendor/modernizr-2.6.2.min.js?ver=1'></script>
-<link rel='stylesheet' id='addthis_output-css'  href='http://nominum.com/wp-content/plugins/addthis/css/output.css?ver=4.2.2' type='text/css' media='all' />
-<link rel='stylesheet' id='daves-wordpress-live-search-css'  href='http://nominum.com/wp-content/themes/nominum/daves-wordpress-live-search.css?ver=4.2.2' type='text/css' media='all' />
-<script type="text/javascript" src="http://fast.fonts.net/jsapi/05dd0f9d-8491-4715-9fbe-09fdf4730b16.js"></script>
-<script src="//app-sj04.marketo.com/js/forms2/js/forms2.js"></script>
-</head>
-
-<body class="archive tax-press-type term-release term-7 group-blog">
-	<!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
-    
-<div class="wrapper">
-		<header>
-		<div class="content">
-			<h1 class="logo">
-				<a href="http://nominum.com/" title="Nominum" rel="home">Nominum</a>
-			</h1>
-			<nav id="secondary-navigation" class="navigation-secondary" role="navigation">
-				<div class="search_button"></div>
-				<div class="menu_button">Menu</div>
-				<!-- <div class="new_button">New</div> -->
-				<div class="contact_drop_btn"><span class="request_txt">Contact Us</span><span class="request_mobile">Contact</span></div>
-				
-				<div class="menu-secondary-menu-container"><ul id="menu-secondary-menu" class="menu"><li id="menu-item-3442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3442"><a href="http://nominum.com/learn/">Resources</a></li>
-<li id="menu-item-1458" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1458"><a href="http://nominum.com/our-company/">Company</a></li>
-<li id="menu-item-3400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3400"><a href="http://nominum.com/careers/">Careers</a></li>
-<li id="menu-item-524" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-524"><a href="http://nominum.com/news/">News</a></li>
-<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://nominum.com/our-blog/">Blog</a></li>
-</ul></div>			</nav>
-		</div><!-- end header content -->
-		
-		<nav id="primary-navigation" class="navigation-main" role="navigation">
-			<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-3387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent-item menu-item-3387"><a href="http://nominum.com/caching-dns/">Network Performance</a>
-<ul class="sub-menu">
-	<li id="menu-item-2564" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2564"><a href="http://nominum.com/caching-dns/">Vantio Caching DNS</a></li>
-	<li id="menu-item-2563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2563"><a href="http://nominum.com/authoritative-dns/">Vantio Authoritative DNS</a></li>
-</ul>
-</li>
-<li id="menu-item-2571" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2571"><a href="http://nominum.com/ddos-amplification-attacks/">Network Protection</a></li>
-<li id="menu-item-2731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2731"><a href="http://nominum.com/engage/">Subscriber Protection</a></li>
-<li id="menu-item-3389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3389"><a href="http://nominum.com/reach/">In-Browser Notifications</a></li>
-<li id="menu-item-3388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3388"><a href="http://nominum.com/insight/">Subscriber Analytics</a></li>
-</ul></div>		</nav>
-		
-		<section class="mobile_navigation">
-			<div class="content">
-				<div class="menu-mobile-navigation-container"><ul id="menu-mobile-navigation" class="menu"><li id="menu-item-421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent-item menu-item-421"><a href="http://nominum.com/caching-dns/">Network Performance</a>
-<ul class="sub-menu">
-	<li id="menu-item-2739" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2739"><a href="http://nominum.com/authoritative-dns/">Authoritative DNS</a></li>
-</ul>
-</li>
-<li id="menu-item-2743" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2743"><a href="http://nominum.com/ddos-amplification-attacks/">Network Protection</a></li>
-<li id="menu-item-2741" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2741"><a href="http://nominum.com/engage/">Subscriber Protection</a></li>
-<li id="menu-item-2079" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2079"><a href="http://nominum.com/reach/">In-Browser Notifications</a></li>
-<li id="menu-item-3395" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3395"><a href="http://nominum.com/insight/">Subscriber Analytics</a></li>
-<li id="menu-item-1482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1482"><a href="http://nominum.com/our-company/">Company</a></li>
-<li id="menu-item-534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-534"><a href="http://nominum.com/careers/">Careers</a></li>
-<li id="menu-item-2744" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2744"><a href="http://nominum.com/learn/">Learn</a></li>
-<li id="menu-item-429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-429"><a href="http://nominum.com/support/">Support</a></li>
-<li id="menu-item-427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-427"><a href="http://nominum.com/news/">News</a></li>
-<li id="menu-item-426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-426"><a href="http://nominum.com/our-blog/">Blog</a></li>
-<li id="menu-item-428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-428"><a href="http://nominum.com/contact/">Contact</a></li>
-</ul></div>			</div>
-		</section>
-		
-		<section class="contact_dropdown">
-			<div class="content">
-				<div class="form">
-					
-                <div class='gf_browser_gecko gform_wrapper' id='gform_wrapper_2' ><a id='gf_2' name='gf_2' class='gform_anchor' ></a><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_2' id='gform_2'  action='/press-type/release/#gf_2'>
-                        <div class='gform_heading'>
-                            <h3 class='gform_title'>Contact Us</h3>
-                        </div>
-                        <div class='gform_body'><ul id='gform_fields_2' class='gform_fields top_label form_sublabel_below description_below'><li id='field_2_1' class='gfield gf_left_half hide_label gfield_contains_required field_sublabel_below field_description_below' ><label class='gfield_label' for='input_2_1' >First Name<span class='gfield_required'>*</span></label><div class='ginput_container'><input name='input_1' id='input_2_1' type='text' value='' class='medium'  tabindex='1'   /></div></li><li id='field_2_7' class='gfield gf_right_half hide_label gfield_contains_required field_sublabel_below field_description_below' ><label class='gfield_label' for='input_2_7' >Last Name<span class='gfield_required'>*</span></label><div class='ginput_container'><input name='input_7' id='input_2_7' type='text' value='' class='medium'  tabindex='2'   /></div></li><li id='field_2_2' class='gfield hide_label gfield_contains_required field_sublabel_below field_description_below' ><label class='gfield_label' for='input_2_2' >Email Address<span class='gfield_required'>*</span></label><div class='ginput_container'><input name='input_2' id='input_2_2' type='text' value='' class='medium'  tabindex='3'   /></div></li><li id='field_2_11' class='gfield hide_label gfield_contains_required field_sublabel_below field_description_below' ><label class='gfield_label' for='input_2_11' >Job TItle<span class='gfield_required'>*</span></label><div class='ginput_container'><input name='input_11' id='input_2_11' type='text' value='' class='medium'  tabindex='4'   /></div></li><li id='field_2_3' class='gfield gf_left_half hide_label gfield_contains_required field_sublabel_below field_description_below' ><label class='gfield_label' for='input_2_3' >Company Name<span class='gfield_required'>*</span></label><div class='ginput_container'><input name='input_3' id='input_2_3' type='text' value='' class='medium'  tabindex='5'   /></div></li><li id='field_2_8' class='gfield gf_right_half hide_label field_sublabel_below field_description_below' ><label class='gfield_label' for='input_2_8' >Phone</label><div class='ginput_container'><input name='input_8' id='input_2_8' type='text' value='' class='medium'  tabindex='6'   /></div></li><li id='field_2_15' class='gfield gfield_contains_required field_sublabel_below field_description_below' ><label class='gfield_label' for='input_2_15' >Country<span class='gfield_required'>*</span></label><div class='ginput_container'><select name='input_15' id='input_2_15'  class='medium gfield_select' tabindex='7' ><option value='Afghanistan' >Afghanistan</option><option value='Albania' >Albania</option><option value='Algeria' >Algeria</option><option value='American Samoa' >American Samoa</option><option value='Andorra' >Andorra</option><option value='Angola' >Angola</option><option value='Antigua and Barbuda' >Antigua and Barbuda</option><option value='Argentina' >Argentina</option><option value='Armenia' >Armenia</option><option value='Australia' >Australia</option><option value='Austria' >Austria</option><option value='Azerbaijan' >Azerbaijan</option><option value='Bahamas' >Bahamas</option><option value='Bahrain' >Bahrain</option><option value='Bangladesh' >Bangladesh</option><option value='Barbados' >Barbados</option><option value='Belarus' >Belarus</option><option value='Belgium' >Belgium</option><option value='Belize' >Belize</option><option value='Benin' >Benin</option><option value='Bermuda' >Bermuda</option><option value='Bhutan' >Bhutan</option><option value='Bolivia' >Bolivia</option><option value='Bosnia and Herzegovina' >Bosnia and Herzegovina</option><option value='Botswana' >Botswana</option><option value='Brazil' >Brazil</option><option value='Brunei' >Brunei</option><option value='Bulgaria' >Bulgaria</option><option value='Burkina Faso' >Burkina Faso</option><option value='Burundi' >Burundi</option><option value='Cambodia' >Cambodia</option><option value='Cameroon' >Cameroon</option><option value='Canada' >Canada</option><option value='Cape Verde' >Cape Verde</option><option value='Cayman Islands' >Cayman Islands</option><option value='Central African Republic' >Central African Republic</option><option value='Chad' >Chad</option><option value='Chile' >Chile</option><option value='China' >China</option><option value='Colombia' >Colombia</option><option value='Comoros' >Comoros</option><option value='Congo, Democratic Republic of the' >Congo, Democratic Republic of the</option><option value='Congo, Republic of the' >Congo, Republic of the</option><option value='Costa Rica' >Costa Rica</option><option value='C&ocirc;te d&#039;Ivoire' >C&ocirc;te d&#039;Ivoire</option><option value='Croatia' >Croatia</option><option value='Cuba' >Cuba</option><option value='Cyprus' >Cyprus</option><option value='Czech Republic' >Czech Republic</option><option value='Denmark' >Denmark</option><option value='Djibouti' >Djibouti</option><option value='Dominica' >Dominica</option><option value='Dominican Republic' >Dominican Republic</option><option value='East Timor' >East Timor</option><option value='Ecuador' >Ecuador</option><option value='Egypt' >Egypt</option><option value='El Salvador' >El Salvador</option><option value='Equatorial Guinea' >Equatorial Guinea</option><option value='Eritrea' >Eritrea</option><option value='Estonia' >Estonia</option><option value='Ethiopia' >Ethiopia</option><option value='Fiji' >Fiji</option><option value='Finland' >Finland</option><option value='France' >France</option><option value='French Polynesia' >French Polynesia</option><option value='Gabon' >Gabon</option><option value='Gambia' >Gambia</option><option value='Georgia' >Georgia</option><option value='Germany' >Germany</option><option value='Ghana' >Ghana</option><option value='Greece' >Greece</option><option value='Greenland' >Greenland</option><option value='Grenada' >Grenada</option><option value='Guam' >Guam</option><option value='Guatemala' >Guatemala</option><option value='Guinea' >Guinea</option><option value='Guinea-Bissau' >Guinea-Bissau</option><option value='Guyana' >Guyana</option><option value='Haiti' >Haiti</option><option value='Honduras' >Honduras</option><option value='Hong Kong' >Hong Kong</option><option value='Hungary' >Hungary</option><option value='Iceland' >Iceland</option><option value='India' >India</option><option value='Indonesia' >Indonesia</option><option value='Iran' >Iran</option><option value='Iraq' >Iraq</option><option value='Ireland' >Ireland</option><option value='Israel' >Israel</option><option value='Italy' >Italy</option><option value='Jamaica' >Jamaica</option><option value='Japan' >Japan</option><option value='Jordan' >Jordan</option><option value='Kazakhstan' >Kazakhstan</option><option value='Kenya' >Kenya</option><option value='Kiribati' >Kiribati</option><option value='North Korea' >North Korea</option><option value='South Korea' >South Korea</option><option value='Kosovo' >Kosovo</option><option value='Kuwait' >Kuwait</option><option value='Kyrgyzstan' >Kyrgyzstan</option><option value='Laos' >Laos</option><option value='Latvia' >Latvia</option><option value='Lebanon' >Lebanon</option><option value='Lesotho' >Lesotho</option><option value='Liberia' >Liberia</option><option value='Libya' >Libya</option><option value='Liechtenstein' >Liechtenstein</option><option value='Lithuania' >Lithuania</option><option value='Luxembourg' >Luxembourg</option><option value='Macedonia' >Macedonia</option><option value='Madagascar' >Madagascar</option><option value='Malawi' >Malawi</option><option value='Malaysia' >Malaysia</option><option value='Maldives' >Maldives</option><option value='Mali' >Mali</option><option value='Malta' >Malta</option><option value='Marshall Islands' >Marshall Islands</option><option value='Mauritania' >Mauritania</option><option value='Mauritius' >Mauritius</option><option value='Mexico' >Mexico</option><option value='Micronesia' >Micronesia</option><option value='Moldova' >Moldova</option><option value='Monaco' >Monaco</option><option value='Mongolia' >Mongolia</option><option value='Montenegro' >Montenegro</option><option value='Morocco' >Morocco</option><option value='Mozambique' >Mozambique</option><option value='Myanmar' >Myanmar</option><option value='Namibia' >Namibia</option><option value='Nauru' >Nauru</option><option value='Nepal' >Nepal</option><option value='Netherlands' >Netherlands</option><option value='New Zealand' >New Zealand</option><option value='Nicaragua' >Nicaragua</option><option value='Niger' >Niger</option><option value='Nigeria' >Nigeria</option><option value='Northern Mariana Islands' >Northern Mariana Islands</option><option value='Norway' >Norway</option><option value='Oman' >Oman</option><option value='Pakistan' >Pakistan</option><option value='Palau' >Palau</option><option value='Palestine, State of' >Palestine, State of</option><option value='Panama' >Panama</option><option value='Papua New Guinea' >Papua New Guinea</option><option value='Paraguay' >Paraguay</option><option value='Peru' >Peru</option><option value='Philippines' >Philippines</option><option value='Poland' >Poland</option><option value='Portugal' >Portugal</option><option value='Puerto Rico' >Puerto Rico</option><option value='Qatar' >Qatar</option><option value='Romania' >Romania</option><option value='Russia' >Russia</option><option value='Rwanda' >Rwanda</option><option value='Saint Kitts and Nevis' >Saint Kitts and Nevis</option><option value='Saint Lucia' >Saint Lucia</option><option value='Saint Vincent and the Grenadines' >Saint Vincent and the Grenadines</option><option value='Samoa' >Samoa</option><option value='San Marino' >San Marino</option><option value='Sao Tome and Principe' >Sao Tome and Principe</option><option value='Saudi Arabia' >Saudi Arabia</option><option value='Senegal' >Senegal</option><option value='Serbia and Montenegro' >Serbia and Montenegro</option><option value='Seychelles' >Seychelles</option><option value='Sierra Leone' >Sierra Leone</option><option value='Singapore' >Singapore</option><option value='Slovakia' >Slovakia</option><option value='Slovenia' >Slovenia</option><option value='Solomon Islands' >Solomon Islands</option><option value='Somalia' >Somalia</option><option value='South Africa' >South Africa</option><option value='Spain' >Spain</option><option value='Sri Lanka' >Sri Lanka</option><option value='Sudan' >Sudan</option><option value='Sudan, South' >Sudan, South</option><option value='Suriname' >Suriname</option><option value='Swaziland' >Swaziland</option><option value='Sweden' >Sweden</option><option value='Switzerland' >Switzerland</option><option value='Syria' >Syria</option><option value='Taiwan' >Taiwan</option><option value='Tajikistan' >Tajikistan</option><option value='Tanzania' >Tanzania</option><option value='Thailand' >Thailand</option><option value='Togo' >Togo</option><option value='Tonga' >Tonga</option><option value='Trinidad and Tobago' >Trinidad and Tobago</option><option value='Tunisia' >Tunisia</option><option value='Turkey' >Turkey</option><option value='Turkmenistan' >Turkmenistan</option><option value='Tuvalu' >Tuvalu</option><option value='Uganda' >Uganda</option><option value='Ukraine' >Ukraine</option><option value='United Arab Emirates' >United Arab Emirates</option><option value='United Kingdom' >United Kingdom</option><option value='United States' >United States</option><option value='Uruguay' >Uruguay</option><option value='Uzbekistan' >Uzbekistan</option><option value='Vanuatu' >Vanuatu</option><option value='Vatican City' >Vatican City</option><option value='Venezuela' >Venezuela</option><option value='Vietnam' >Vietnam</option><option value='Virgin Islands, British' >Virgin Islands, British</option><option value='Virgin Islands, U.S.' >Virgin Islands, U.S.</option><option value='Yemen' >Yemen</option><option value='Zambia' >Zambia</option><option value='Zimbabwe' >Zimbabwe</option></select></div></li><li id='field_2_13' class='gfield field_sublabel_below field_description_below' ><label class='gfield_label' for='input_2_13' >Captcha</label><div class='gfield_captcha_container'><img class='gfield_captcha' src='http://nominum.com/wp-content/uploads/gravity_forms/0-a0066a9b7c38259d373d17670db02ebc/1412129647.png' alt='' width='150' height='42' /><div class='gfield_captcha_input_container simple_captcha_medium'><input type='text' name='input_13' id='input_2_13' tabindex='8'/><input type='hidden' name='input_captcha_prefix_13' value='1412129647' /></div></div><div class='gfield_description'>Type in the words/numbers you see above.</div></li>
-                            </ul></div>
-        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_2' class='gform_button button' value='Submit' tabindex='9' onclick='if(window["gf_submitting_2"]){return false;}  window["gf_submitting_2"]=true;  ' /> <input type='hidden' name='gform_ajax' value='form_id=2&amp;title=1&amp;description=&amp;tabindex=1' />
-            <input type='hidden' class='gform_hidden' name='is_submit_2' value='1' />
-            <input type='hidden' class='gform_hidden' name='gform_submit' value='2' />
+        <!-- inject:css --><link rel="stylesheet" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/css/main.min.css"><!-- endinject -->
+        <!--[if lt IE 9]><script src="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/js/ie-head.min.js""></script><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/css/ie.min.css"><![endif]-->
+	</head>
+    <body class="page">
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <defs>
+        <!-- <symbol id="" viewBox="">
             
-            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
-            <input type='hidden' class='gform_hidden' name='state_2' value='WyJbXSIsIjAxMjg3OTk5MjkzNWM5Mjg1ZGNiZmIyYzU5ZjNmZjgzIl0=' />
-            <input type='hidden' class='gform_hidden' name='gform_target_page_number_2' id='gform_target_page_number_2' value='0' />
-            <input type='hidden' class='gform_hidden' name='gform_source_page_number_2' id='gform_source_page_number_2' value='1' />
-            <input type='hidden' name='gform_field_values' value='' />
+        </symbol> -->
+        <symbol id="logo" viewBox="0 0 252 72.2">
             
-        </div>
-                        </form>
-                        </div>
-                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_2' id='gform_ajax_frame_2'></iframe>
-                <script type='text/javascript'>jQuery(document).ready(function($){gformInitSpinner( 2, 'http://nominum.com/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery('#gform_ajax_frame_2').load( function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_2');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_2').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;if(is_form){jQuery('#gform_wrapper_2').html(form_content.html());setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_2').offset().top); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_2').val();gformInitSpinner( 2, 'http://nominum.com/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery(document).trigger('gform_page_loaded', [2, current_page]);window['gf_submitting_2'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('#gforms_confirmation_message_2').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_2').replaceWith('<' + 'div id=\'gforms_confirmation_message_2\' class=\'gform_confirmation_message_2 gforms_confirmation_message\'' + '>' + confirmation_content + '<' + '/div' + '>');jQuery(document).scrollTop(jQuery('#gforms_confirmation_message_2').offset().top);jQuery(document).trigger('gform_confirmation_loaded', [2]);window['gf_submitting_2'] = false;}, 50);}else{jQuery('#gform_2').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [2, current_page]);} );} );</script><script type='text/javascript'> if(typeof gf_global == 'undefined') var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"http:\/\/nominum.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"http:\/\/nominum.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 2) {} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [2, 1]) } ); </script>				</div>
-				<!--
-<div class="location_info">
-					<h3>Contact Us</h3>
-<p><span style="color: #ffffff;"><a href="mailto:sales@nominum.com" target="_blank"><span style="color: #ffffff;">sales@nominum.com</span></a></span></p>
-				</div>
--->
-			</div>
-		</section>
-		
-<!--
-		<section class="featured_content">
-		
-										
-									<div class="slide">
-						<div class="content">
-							<div class="new_featured">
-							<div class="new_featured_image">
-								<a href="http://nominum.com/?post_type=news&#038;p=2119"><img width="470" height="270" src="http://nominum.com/wp-content/uploads/blue_new_1-470x270.png" class="attachment-new-featured wp-post-image" alt="blue_new_1" /></a>
-							</div>
-							<div class="new_featured_content">
-								<h2><a href="http://nominum.com/?post_type=news&#038;p=2119">Nominum launches applications to power in-browser marketing and communication channel for CSPs</a></h2>
-								<p>Interactive channel based on DNS and Internet Activity significantly improves marketing ROI and customer care spend</p>
-								<div class="white-button"><a href="http://nominum.com/?post_type=news&#038;p=2119">Learn More</a></div>
-							</div>
-							</div>
-						</div>
+            <path fill="#FFFFFF" d="M52.2,47.7c-5.1,0-9.2,4.1-9.2,9.2s4.1,9.2,9.2,9.2c5.1,0,9.2-4.1,9.2-9.2S57.3,47.7,52.2,47.7 M52.2,72.2
+                c-8.5,0-15.4-6.9-15.4-15.4c0-8.5,6.9-15.4,15.4-15.4c8.5,0,15.4,6.9,15.4,15.4C67.6,65.4,60.7,72.2,52.2,72.2 M30.7,71h-6.1V56.9
+                c0-5.1-4.1-9.2-9.2-9.2c-5.1,0-9.2,4.1-9.2,9.2V71H0V56.9c0-8.5,6.9-15.4,15.4-15.4c8.5,0,15.4,6.9,15.4,15.4V71z M166,71h-6.1V56.9
+                c0-5.1-4.1-9.2-9.2-9.2c-5.1,0-9.2,4.1-9.2,9.2V71h-6.1V56.9c0-8.5,6.9-15.4,15.4-15.4c8.5,0,15.4,6.9,15.4,15.4V71z M187.5,72.2
+                c-8.5,0-15.4-6.9-15.4-15.4V42.8h6.1v14.1c0,5.1,4.1,9.2,9.2,9.2c5.1,0,9.2-4.1,9.2-9.2V42.8h6.1v14.1
+                C202.8,65.3,195.9,72.2,187.5,72.2 M104.5,41.5c6.8,0,12.3,5.5,12.3,12.3V71h-6.1V53.8c0-3.4-2.8-6.1-6.1-6.1
+                c-3.4,0-6.1,2.8-6.1,6.1V71h-6.1V53.8c0-3.4-2.8-6.1-6.1-6.1c-3.4,0-6.1,2.8-6.1,6.1V71h-6.1V53.8c0-6.8,5.5-12.3,12.3-12.3
+                c3.7,0,7,1.6,9.2,4.2C97.5,43.1,100.8,41.5,104.5,41.5 M239.7,41.5c6.8,0,12.3,5.5,12.3,12.3V71h-6.1V53.8c0-3.4-2.8-6.1-6.1-6.1
+                c-3.4,0-6.1,2.8-6.1,6.1V71h-6.1V53.8c0-3.4-2.8-6.1-6.1-6.1c-3.4,0-6.1,2.8-6.1,6.1V71H209V53.8c0-6.8,5.5-12.3,12.3-12.3
+                c3.7,0,7,1.6,9.2,4.2C232.7,43.1,236,41.5,239.7,41.5 M129.1,71h-6.1V42.8h6.1V71z"/>
+            <path fill="#04B2E2" d="M129.1,14.7h-6.1V0h6.1V14.7z M178.2,0h-6.1v14.7h6.1V0z M202.8,0h-6.1v14.7h6.1V0z M6.1,14.7H0v14.7h6.1
+                V14.7z M30.7,14.7h-6.1v14.7h6.1V14.7z M79.9,14.7h-6.1v14.7h6.1V14.7z M98.4,14.7h-6.1v14.7h6.1V14.7z M116.8,14.7h-6.1v14.7h6.1
+                V14.7z M166,14.7h-6.1v14.7h6.1V14.7z M141.4,14.7h-6.1v14.7h6.1V14.7z M215.1,14.7H209v14.7h6.1V14.7z M233.6,14.7h-6.1v14.7h6.1
+                V14.7z M252,14.7h-6.1v14.7h6.1V14.7z"/>
+        </symbol>
+        <symbol id="search" viewBox="0 0 13 14">
+            <path d="M12.7,12L10,9.2L10.2,9c0.6-1,1-2.1,1-3.2C11.2,2.6,8.7,0,5.6,0C2.5,0,0,2.6,0,5.7c0,3.1,2.5,5.7,5.6,5.7
+                c0.8,0,1.6-0.2,2.4-0.5l0.3-0.1l2.8,2.9c0.2,0.2,0.5,0.3,0.8,0.3c0.3,0,0.6-0.1,0.8-0.4c0.2-0.2,0.3-0.5,0.3-0.8
+                C13,12.5,12.9,12.2,12.7,12z M5.6,9.8c-2.2,0-4-1.8-4-4.1c0-2.2,1.8-4.1,4-4.1s4,1.8,4,4.1C9.6,8,7.8,9.8,5.6,9.8z"/>
+        </symbol>
+        <symbol id="bold-arrow-left" viewBox="0 0 5.5 9.5">
+            <path d="M2.2,4.8l3.1-3.1c0.4-0.4,0.4-1,0-1.4c-0.4-0.4-1-0.4-1.4,0L0.3,3.8
+                C0,4.1,0,4.4,0,4.8C0,5.1,0,5.5,0.3,5.7l3.5,3.5c0.4,0.4,1,0.4,1.4,0c0.4-0.4,0.4-1,0-1.4L2.2,4.8z"/>
+        </symbol>
+        <symbol id="bold-arrow-right" viewBox="0 0 5.5 9.5">
+            <path d="M3.4,4.8L0.3,7.8c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0l3.5-3.5
+                c0.3-0.3,0.3-0.6,0.2-0.9c0.1-0.3,0-0.7-0.2-0.9L1.7,0.3c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4L3.4,4.8z"/>
+        </symbol>
+        <symbol id="thin-arrow-left" viewBox="0 0 24.5 45.5">
+            <path d="M2.5,22.8L24.2,1.9c0.5-0.4,0.5-1.2,0-1.6c-0.5-0.4-1.2-0.4-1.7,0L0.3,21.7
+                C0,22-0.1,22.4,0,22.8c-0.1,0.4,0,0.8,0.3,1.1l22.2,21.3c0.5,0.4,1.2,0.4,1.7,0c0.5-0.4,0.5-1.2,0-1.6L2.5,22.8z"/>
+        </symbol>
+        <symbol id="full-arrow-left" viewBox="0 0 27 21.5">
+            <path d="M25.5,9.3H5.1l6.7-6.7c0.6-0.6,0.6-1.5,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L0.4,9.7
+                c-0.6,0.6-0.6,1.5,0,2.1l9.3,9.3c0.6,0.6,1.5,0.6,2.1,0c0.6-0.6,0.6-1.5,0-2.1l-6.7-6.7h20.4c0.8,0,1.5-0.7,1.5-1.5v0
+                C27,9.9,26.3,9.3,25.5,9.3z"/>
+        </symbol>
+        <symbol id="full-arrow-right" viewBox="0 0 27 21.5">
+            <path d="M1.5,9.3h20.4l-6.7-6.7c-0.6-0.6-0.6-1.5,0-2.1c0.6-0.6,1.5-0.6,2.1,0l9.3,9.3
+                c0.6,0.6,0.6,1.5,0,2.1l-9.3,9.3c-0.6,0.6-1.5,0.6-2.1,0c-0.6-0.6-0.6-1.5,0-2.1l6.7-6.7H1.5c-0.8,0-1.5-0.7-1.5-1.5v0
+                C0,9.9,0.7,9.3,1.5,9.3z"/>
+        </symbol>
+        <symbol id="cross" viewBox="0 0 19.3 19.3">
+            <path d="M11.8,9.6l7.1-7.1c0.6-0.6,0.6-1.5,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L9.6,7.5L2.6,0.4
+                C2-0.1,1-0.1,0.4,0.4C-0.1,1-0.1,2,0.4,2.6l7.1,7.1l-7.1,7.1c-0.6,0.6-0.6,1.5,0,2.1c0.6,0.6,1.5,0.6,2.1,0l7.1-7.1l7.1,7.1
+                c0.6,0.6,1.5,0.6,2.1,0c0.6-0.6,0.6-1.5,0-2.1L11.8,9.6z"/>
+        </symbol>
+        <symbol id="contact-bubble" viewBox="0 0 25 20">
+            <path d="M12.5,0C5.6,0,0,3.9,0,8.7c0,2.6,1.6,4.9,4.2,6.5c-0.5,1.1-1.6,2.4-3.9,4.2C0,19.8-0.5,20.2,1,19.9
+                c2.5-0.5,5.1-1.8,7.1-3c1.4,0.4,2.8,0.5,4.4,0.5c6.9,0,12.5-3.9,12.5-8.7C25,3.9,19.4,0,12.5,0z M12.6,14.7c-5.1,0-9.3-2.7-9.3-5.9
+                c0-3.3,4.2-5.9,9.3-5.9s9.3,2.7,9.3,5.9C21.9,12,17.7,14.7,12.6,14.7z"/>
+        </symbol>
+        <symbol id="facebook-icon" viewBox="0 0 9.1 18">
+            
+            <path d="M2,10v8h3.8v-8h2.6l0.6-3.3H5.9c0,0,0-1.6,0-2.5c0-0.3,0.2-0.8,0.7-0.8
+                c0.8,0,1.9,0,1.9,0V0c0,0-1.7,0-3.5,0C3.8,0,2,1.5,2,3.1c0,1.7,0,3.4,0,3.4H0v3.4L2,10z"/>
+        </symbol>
+        <symbol id="twitter-icon" viewBox="0 0 18 15">
+            
+            <path d="M18,1.8c-0.7,0.3-1.4,0.5-2.1,0.6c0.8-0.5,1.3-1.2,1.6-2.1C16.8,0.7,16,1,15.2,1.2C14.5,0.5,13.5,0,12.5,0
+                c-2,0-3.7,1.7-3.7,3.8c0,0.3,0,0.6,0.1,0.9C5.8,4.5,3.1,3,1.3,0.7C0.9,1.3,0.7,1.9,0.7,2.6c0,1.3,0.7,2.5,1.6,3.1
+                c-0.6,0-1.2-0.2-1.7-0.5c0,0,0,0,0,0c0,1.8,1.3,3.4,3,3.7C3.4,9.1,3,9.1,2.7,9.1c-0.2,0-0.5,0-0.7-0.1c0.5,1.5,1.8,2.6,3.4,2.6
+                c-1.3,1-2.8,1.6-4.6,1.6c-0.3,0-0.6,0-0.9-0.1C1.6,14.3,3.6,15,5.7,15c6.8,0,10.5-5.8,10.5-10.7c0-0.2,0-0.3,0-0.5
+                C16.9,3.2,17.5,2.5,18,1.8z"/>
+        </symbol>
+        <symbol id="linkedin-icon" viewBox="0 0 18 18">
+            
+            <path d="M4.1,1.9C4.1,3,3.3,3.9,2,3.9C0.8,3.9,0,3,0,1.9C0,0.8,0.8,0,2.1,0C3.3,0,4.1,0.8,4.1,1.9z M0.1,18V5.4h3.8V18H0.1z
+                 M6.3,9.4c0-1.6-0.1-2.9-0.1-4h3.3l0.2,1.8h0.1c0.5-0.8,1.8-2,3.8-2c2.5,0,4.4,1.7,4.4,5.4V18h-3.9V11c0-1.6-0.6-2.7-1.9-2.7
+                c-1.1,0-1.7,0.7-2,1.5c-0.1,0.3-0.1,0.6-0.1,1V18H6.3V9.4z"/>
+        </symbol>
+        <symbol id="gplus-icon" viewBox="0 0 18 18">
+            
+            <path d="M9.5,14.5c0-0.2,0-0.3-0.1-0.4c0-0.1-0.1-0.3-0.1-0.4c0-0.1-0.1-0.2-0.2-0.4C9,13.1,9,13,8.9,12.9c-0.1-0.1-0.2-0.2-0.3-0.3
+                c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.2-0.2-0.3-0.3c-0.2-0.1-0.3-0.2-0.3-0.2c-0.1,0-0.2-0.1-0.4-0.3C7.1,11.4,7,11.4,7,11.3
+                c-0.1,0-0.3,0-0.5,0c-0.4,0-0.8,0-1.1,0.1c-0.4,0.1-0.8,0.1-1.2,0.3C3.7,11.8,3.3,12,3,12.2c-0.3,0.2-0.5,0.5-0.7,0.8
+                C2.1,13.3,2,13.7,2,14.1c0,0.5,0.1,0.9,0.4,1.3c0.3,0.4,0.6,0.7,1,0.9c0.4,0.2,0.8,0.4,1.3,0.5C5.1,16.9,5.6,17,6.1,17
+                c0.4,0,0.8,0,1.2-0.1c0.4-0.1,0.8-0.2,1.1-0.4C8.7,16.3,9,16,9.2,15.6C9.4,15.3,9.5,14.9,9.5,14.5z M8.2,5.1c0-0.4-0.1-0.9-0.2-1.4
+                c-0.1-0.5-0.3-1-0.5-1.4C7.3,1.9,7,1.5,6.6,1.2C6.2,0.9,5.8,0.8,5.3,0.8C4.6,0.8,4.1,1,3.7,1.5C3.4,2,3.2,2.6,3.2,3.3
+                c0,0.3,0,0.7,0.1,1.1c0.1,0.4,0.2,0.8,0.4,1.1c0.2,0.4,0.4,0.7,0.6,1c0.2,0.3,0.5,0.5,0.8,0.7c0.3,0.2,0.7,0.3,1.1,0.3
+                c0.7,0,1.2-0.2,1.5-0.7C8,6.4,8.2,5.9,8.2,5.1z M6.8,0h4.7L10,0.9H8.6c0.5,0.3,0.9,0.8,1.2,1.4C10,2.8,10.2,3.4,10.2,4
+                c0,0.5-0.1,1-0.2,1.4c-0.2,0.4-0.4,0.8-0.6,1C9.1,6.7,8.8,6.9,8.6,7.2C8.4,7.4,8.2,7.6,8,7.8C7.8,8.1,7.8,8.3,7.8,8.6
+                c0,0.2,0.1,0.4,0.2,0.5c0.1,0.2,0.3,0.4,0.5,0.5C8.6,9.8,8.8,10,9,10.1c0.2,0.2,0.5,0.4,0.7,0.6c0.2,0.2,0.4,0.5,0.6,0.7
+                c0.2,0.3,0.4,0.6,0.5,0.9c0.1,0.4,0.2,0.7,0.2,1.2c0,1.1-0.5,2.2-1.5,3C8.4,17.5,6.9,18,4.9,18c-0.4,0-0.9,0-1.3-0.1
+                c-0.4-0.1-0.9-0.2-1.3-0.4c-0.4-0.2-0.8-0.4-1.2-0.6c-0.3-0.2-0.6-0.6-0.8-1C0.1,15.5,0,15.1,0,14.6c0-0.4,0.1-0.9,0.4-1.5
+                c0.2-0.5,0.6-0.9,1-1.2c0.5-0.3,1-0.6,1.6-0.8c0.6-0.2,1.1-0.3,1.7-0.4c0.5-0.1,1.1-0.1,1.6-0.1c-0.5-0.6-0.7-1.1-0.7-1.6
+                c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0.1-0.2c0-0.1,0-0.1,0.1-0.2c0-0.1,0.1-0.2,0.1-0.2c-0.3,0-0.5,0.1-0.8,0.1c-1.1,0-2-0.4-2.8-1.1
+                C1.6,6.4,1.2,5.5,1.2,4.5c0-1,0.3-1.9,1-2.7c0.7-0.8,1.5-1.3,2.5-1.5C5.4,0.1,6.1,0,6.8,0z M18,2.8v1.4h-2.8v2.8h-1.4V4.1h-2.8V2.8
+                h2.8V0h1.4v2.8H18z"/>
+        </symbol>
+        <symbol id="mail-icon" viewBox="0 0 24 16">
+            
+            <path d="M24,0.9c0-0.1,0-0.1,0-0.2c0-0.1,0-0.1-0.1-0.2c0,0,0-0.1,0-0.1c0,0-0.1,0-0.1-0.1c0-0.1-0.1-0.1-0.1-0.1
+                c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.1-0.1-0.2-0.1c-0.1,0-0.1,0-0.2,0c0,0-0.1,0-0.1,0H1c0,0-0.1,0-0.1,0c-0.1,0-0.1,0-0.2,0
+                c-0.1,0-0.1,0-0.2,0.1c-0.1,0-0.1,0.1-0.2,0.1c-0.1,0-0.1,0.1-0.1,0.1c0,0-0.1,0-0.1,0.1c0,0,0,0.1,0,0.1c0,0.1-0.1,0.1-0.1,0.2
+                c0,0.1,0,0.1,0,0.2C0,0.9,0,1,0,1v14c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1L24,0.9C24,1,24,0.9,24,0.9z M12,6.8L4.4,2h15.1L12,6.8z
+                 M2,14V2.8l9.5,6c0,0,0,0,0,0c0.1,0,0.1,0.1,0.2,0.1c0,0,0.1,0,0.1,0c0.1,0,0.2,0,0.2,0c0,0,0,0,0,0c0,0,0,0,0,0s0,0,0,0
+                c0,0,0,0,0,0c0.1,0,0.2,0,0.2,0c0,0,0.1,0,0.1,0c0.1,0,0.1,0,0.2-0.1c0,0,0,0,0,0l9.5-6V14H2z"/>
+        </symbol>
+        <symbol id="youtube-icon" viewBox="0 0 15 17.9">
+            
+            <path d="M5.9,0h-1L4.2,2.6L3.5,0H2.4c0.2,0.6,0.4,1.3,0.7,1.9C3.4,2.8,3.6,3.5,3.7,4v2.7h1V4L5.9,0 M7.3,1.7
+                c-0.5,0-0.8,0.2-1.1,0.5C6,2.4,5.9,2.8,5.9,3.4v1.7C5.9,5.6,6,6,6.2,6.3c0.2,0.3,0.6,0.5,1.1,0.5c0.5,0,0.8-0.2,1.1-0.5
+                C8.5,6,8.6,5.6,8.6,5.1V3.4c0-0.5-0.1-0.9-0.3-1.2C8.1,1.8,7.7,1.7,7.3,1.7 M12,1.7h-0.9v3.8C10.9,5.8,10.7,6,10.5,6
+                c-0.1,0-0.2-0.1-0.2-0.2c0,0,0-0.2,0-0.4V1.7H9.4v4c0,0.4,0,0.6,0.1,0.8c0.1,0.3,0.3,0.4,0.6,0.4c0.3,0,0.7-0.2,1-0.6v0.6H12V1.7
+                 M7.3,6C7,6,6.8,5.7,6.8,5.3V3.2c0-0.5,0.1-0.7,0.4-0.7c0.3,0,0.4,0.2,0.4,0.7v2.1C7.7,5.7,7.6,6,7.3,6 M5.9,0L5.9,0"/>
+            <path d="M14.7,9.2c-0.2-0.8-0.8-1.4-1.6-1.5c-1.9-0.2-3.8-0.2-5.6-0.2
+                c-1.9,0-3.8,0-5.6,0.2C1.1,7.8,0.4,8.4,0.3,9.2C0,10.3,0,11.5,0,12.7c0,1.2,0,2.4,0.3,3.5c0.2,0.8,0.8,1.4,1.6,1.5
+                c1.9,0.2,3.7,0.2,5.6,0.2c1.9,0,3.8,0,5.6-0.2c0.8-0.1,1.4-0.7,1.6-1.5c0.3-1.1,0.3-2.4,0.3-3.5C15,11.5,15,10.3,14.7,9.2z
+                 M4.3,10.2H3.2v5.7h-1v-5.7H1.1V9.3h3.2V10.2z M7,15.9H6.1v-0.5c-0.4,0.4-0.7,0.6-1,0.6c-0.3,0-0.5-0.1-0.6-0.4
+                c0-0.2-0.1-0.4-0.1-0.7V11h0.9v3.6c0,0.2,0,0.3,0,0.3c0,0.2,0.1,0.2,0.2,0.2c0.2,0,0.4-0.1,0.6-0.4V11H7V15.9z M10.4,14.4
+                c0,0.5,0,0.8-0.1,1C10.2,15.8,10,16,9.6,16c-0.3,0-0.6-0.2-0.9-0.5v0.5H7.8V9.3h0.9v2.2c0.3-0.4,0.6-0.5,0.9-0.5
+                c0.4,0,0.6,0.2,0.7,0.6c0.1,0.2,0.1,0.5,0.1,1V14.4z M13.9,13.6h-1.8v0.9c0,0.5,0.2,0.7,0.5,0.7c0.2,0,0.4-0.1,0.4-0.4
+                c0-0.1,0-0.2,0-0.6h0.9v0.1c0,0.3,0,0.5,0,0.6c0,0.2-0.1,0.4-0.2,0.5C13.4,15.8,13,16,12.5,16c-0.5,0-0.8-0.2-1.1-0.5
+                c-0.2-0.3-0.3-0.6-0.3-1.2v-1.7c0-0.5,0.1-0.9,0.3-1.2c0.3-0.3,0.6-0.5,1.1-0.5c0.5,0,0.8,0.2,1.1,0.5c0.2,0.2,0.3,0.6,0.3,1.2
+                V13.6z M9.5,12.4v2.1c0,0.5-0.1,0.7-0.4,0.7c-0.1,0-0.3-0.1-0.4-0.2v-3c0.2-0.1,0.3-0.2,0.4-0.2C9.4,11.7,9.5,12,9.5,12.4z
+                 M13,12.4v0.5h-0.9v-0.5c0-0.4,0.2-0.7,0.5-0.7C12.8,11.7,13,12,13,12.4z"/>
+        </symbol>
+        <symbol id="speech-bubble-icon" viewBox="0 0 32 27.5">
+            <path d="M7.5,27.5C7.5,27.5,7.5,27.5,7.5,27.5c-0.9,0-1.5-0.4-1.8-0.7c-0.8-0.8-0.7-2-0.7-2.1l0-2l-0.3,0C2.1,22.7,0,20.6,0,18v-7.4
+                C0,8,2.1,5.8,4.7,5.8h16.7c2.6,0,4.7,2.1,4.7,4.7V18c0,2.6-2.1,4.8-4.7,4.8h-8L10.3,26C9.8,26.5,8.9,27.5,7.5,27.5z M4.7,7.8
+                c-1.5,0-2.8,1.3-2.8,2.8V18c0,1.5,1.3,2.8,2.8,2.8l1.2,0c0.5,0,0.9,0.4,0.9,1v3c0,0.2,0,0.6,0.2,0.7c0,0,0.1,0.1,0.4,0.1v1l0-1
+                c0.6,0,1.1-0.6,1.4-0.9l0.2-0.2l3.3-3.4c0.2-0.2,0.4-0.3,0.7-0.3h8.4c1.5,0,2.8-1.3,2.8-2.8v-7.4c0-1.5-1.3-2.8-2.8-2.8H4.7z
+                 M32,10.6V5.5C32,1.9,30.1,0,26.5,0H13.4c-2.3,0-4.2,1.9-4.2,4.2c0,0.5,0.4,1,1,1c0.5,0,1-0.4,1-1c0-1.3,1-2.3,2.3-2.3h13.1
+                c2.5,0,3.6,1.1,3.6,3.6v5.1c0,1.3-1,2.3-2.3,2.3c-0.5,0-1,0.4-1,1c0,0.5,0.4,1,1,1C30.1,14.8,32,12.9,32,10.6z M19.1,12.7
+                c0-0.5-0.4-1-1-1H6.7c-0.5,0-1,0.4-1,1c0,0.5,0.4,1,1,1h11.4C18.6,13.6,19.1,13.2,19.1,12.7z M14,16.8c0-0.5-0.4-1-1-1H6.7
+                c-0.5,0-1,0.4-1,1c0,0.5,0.4,1,1,1h6.4C13.6,17.8,14,17.4,14,16.8z"/>
+        </symbol>
+        <symbol id="play-icon" viewBox="0 0 21.3 32">
+            <polygon points="0,32 21.3,16 0,0 "/>
+        </symbol>
+        <symbol id="play-circle-icon" viewBox="0 0 70 70">
+            <path d="M35,0C15.7,0,0,15.7,0,35s15.7,35,35,35s35-15.7,35-35S54.3,0,35,0z M48.5,36l-20,13.3c-0.4,0.2-0.9,0.3-1.3,0.1
+            	c-0.4-0.2-0.7-0.6-0.7-1.1V21.7c0-0.5,0.3-0.9,0.7-1.1c0.2-0.1,0.4-0.1,0.6-0.1c0.2,0,0.5,0.1,0.7,0.2l20,13.3
+            	c0.3,0.2,0.6,0.6,0.6,1C49.1,35.4,48.9,35.8,48.5,36z"/>
+        </symbol>
+        <symbol id="plus-circle-icon" viewBox="0 0 70 70">
+            <path d="M35,0C15.7,0,0,15.7,0,35s15.7,35,35,35s35-15.7,35-35S54.3,0,35,0z M49.6,37c0,0.8-0.6,1.4-1.4,1.4h-9.8v9.8
+            	c0,0.8-0.6,1.4-1.4,1.4H33c-0.8,0-1.4-0.6-1.4-1.4v-9.8h-9.8c-0.8,0-1.4-0.6-1.4-1.4V33c0-0.8,0.6-1.4,1.4-1.4h9.8v-9.8
+            	c0-0.8,0.6-1.4,1.4-1.4H37c0.8,0,1.4,0.6,1.4,1.4v9.8h9.8c0.8,0,1.4,0.6,1.4,1.4V37z"/>
+        </symbol>
+        <symbol id="pdf-icon" viewBox="0 0 26.1 32">
+            <path d="M26.1,10.7L26.1,10.7l-2.4-2.4l0,0l-5.9-5.9h0L15.4,0h-13C1.1,0,0,1.1,0,2.4v27.3C0,30.9,1.1,32,2.4,32h21.3
+                c1.3,0,2.4-1.1,2.4-2.4V10.7C26.1,10.7,26.1,10.7,26.1,10.7L26.1,10.7z M23.7,29.6H2.4V2.4h13v7.1c0,0.7,0.5,1.2,1.2,1.2h7.1V29.6z
+                 M9.2,24.6v1.9H7.9V21h2.2c0.6,0,1.2,0.2,1.5,0.5c0.4,0.3,0.6,0.8,0.6,1.3c0,0.5-0.2,1-0.6,1.3s-0.9,0.5-1.5,0.5H9.2z M9.2,23.6h0.9
+                c0.3,0,0.5-0.1,0.6-0.2c0.1-0.2,0.2-0.3,0.2-0.6c0-0.2-0.1-0.4-0.2-0.6c-0.1-0.2-0.4-0.2-0.6-0.2H9.2V23.6z M12.9,26.5V21h2
+                c0.6,0,1.2,0.2,1.6,0.6c0.4,0.4,0.7,1,0.7,1.6v1c0,0.7-0.2,1.2-0.7,1.6c-0.4,0.4-1,0.6-1.6,0.6H12.9z M14.2,22v3.5h0.6
+                c0.3,0,0.6-0.1,0.8-0.3s0.3-0.5,0.3-0.9v-1c0-0.4-0.1-0.7-0.3-0.9c-0.2-0.2-0.5-0.3-0.8-0.3H14.2z M21.4,24.3h-2.2v2.2H18V21h3.9v1
+                h-2.6v1.3h2.2V24.3z"/>
+        </symbol>
+        <symbol id="window-icon" viewBox="0 0 86.7 81.3">
+            <path d="M83.9,0H2.8C1.1,0,0,1.1,0,2.8v59.6c0,1.8,1.8,2.8,3.5,2.8H54l-0.2-4H4.7V16.7h76.7v44.5h-3.1c-0.3,0.9-0.9,1.6-1.7,2
+                L73,65.2l0,0.1h10.9c1.8,0,2.8-1.1,2.8-2.8V2.8C86.7,1.1,85.7,0,83.9,0z M17.6,1.8c1.1,0,2,0.9,2,2c0,1.1-0.9,2.1-2,2.1
+                c-1.1,0-2-0.9-2-2.1C15.6,2.7,16.5,1.8,17.6,1.8z M12,1.8c1.1,0,2,0.9,2,2c0,1.1-0.9,2.1-2,2.1C10.9,5.9,10,5,10,3.9
+                C10,2.7,10.9,1.8,12,1.8z M4.4,3.9c0-1.1,0.9-2,2-2c1.1,0,2.1,0.9,2.1,2c0,1.1-0.9,2.1-2.1,2.1C5.3,5.9,4.4,5,4.4,3.9z M81.4,13.4
+                H4.7V8.5h76.7V13.4z M73.4,71.5L73.4,71.5l3.5,6.4c0.3,0.5,0.1,1.2-0.4,1.4l-3.3,1.7c-0.2,0.1-0.3,0.1-0.5,0.1
+                c-0.4,0-0.7-0.2-0.9-0.6l-4.9-9.2l-2.5-4.6l-5.9,3.2c-0.2,0.1-0.3,0.1-0.5,0.1c-0.2,0-0.4,0-0.5-0.1c-0.3-0.2-0.5-0.5-0.5-0.9
+                l-0.9-21.4c0-0.4,0.2-0.8,0.5-1c0.2-0.1,0.3-0.2,0.5-0.2c0.2,0,0.4,0.1,0.6,0.2l17.9,12.3c0.3,0.2,0.5,0.6,0.5,0.9
+                c0,0.4-0.2,0.7-0.6,0.9l-5.9,3.2L73.4,71.5z M53.4,38.5l-17.5,10c-1.3,0.8-2.4,0.1-2.4-1.4V27.2c0-1.5,1.1-2.2,2.4-1.4l17.5,10
+                C54.8,36.5,54.8,37.7,53.4,38.5z"/>
+        <symbol id="post-icon" viewBox="0 0 50 38.2">
+            <path d="M27.9,17.5H50v3.3H27.9V17.5z M0.1,29.5H50v-3.3H0.1V29.5z M0.1,38.2H50v-3.3H0.1V38.2z M27.9,12.2H50V8.9H27.9V12.2z
+                 M27.9,3.5H50V0.2H27.9V3.5z M20.1,2.4H2.4v15.9h17.8V2.4 M22.5,0v20.7H0V0H22.5L22.5,0z"/>
+        </symbol>
+        <symbol id="speaker-icon" viewBox="0 0 73.2 50.7">
+            <path id="Your_Icon_1_" d="M51.3,0.2c-1-0.4-2.1-0.2-2.9,0.6c0,0,0,0,0,0c0,0,0,0-0.1,0.1c-0.1,0.1-0.2,0.2-0.4,0.3
+                c-0.3,0.3-0.8,0.7-1.5,1.3c-1.3,1.1-3.2,2.5-5.6,4c-4.3,2.6-10.2,5.2-16.9,5.7v0H9.4c-5.2,0-9.4,4.2-9.4,9.4v0C0,26.8,4.2,31,9.4,31
+                h1l13.8,19.3c0.2,0.2,0.4,0.4,0.7,0.4c0,0,0.1,0,0.1,0c0.2,0,0.5-0.1,0.7-0.2l6-4.7c0.4-0.3,0.5-1,0.2-1.4L22.3,31H24v0
+                c6.7,0.5,12.6,3,16.9,5.7c2.4,1.4,4.3,2.9,5.6,4c0.6,0.5,1.1,1,1.5,1.3c0.2,0.2,0.3,0.3,0.4,0.3c0,0,0.1,0.1,0.1,0.1c0,0,0,0,0,0
+                c0.7,0.8,1.9,1,2.9,0.6c1-0.4,1.6-1.4,1.6-2.4V2.6C52.9,1.6,52.3,0.6,51.3,0.2z M8,25.3c-2.1,0-3.9-1.7-3.9-3.9
+                c0-2.1,1.7-3.9,3.9-3.9c2.1,0,3.9,1.7,3.9,3.9C11.9,23.5,10.1,25.3,8,25.3z M47.7,34.8c-1.2-0.9-2.5-1.8-4-2.7
+                c-3.2-1.9-7.2-3.9-11.8-5.1V16.1c4.6-1.3,8.6-3.2,11.8-5.1c1.5-0.9,2.9-1.9,4-2.7V34.8z M56.5,13.1c-0.6-0.6-0.6-1.6,0-2.2l10-10
+                c0.6-0.6,1.6-0.6,2.2,0c0.6,0.6,0.6,1.6,0,2.2l-10,10c-0.3,0.3-0.7,0.5-1.1,0.5C57.2,13.5,56.8,13.4,56.5,13.1z M73.2,21.6
+                c0,0.8-0.7,1.5-1.5,1.5H57.8c-0.9,0-1.5-0.7-1.5-1.5c0-0.9,0.7-1.5,1.5-1.5h13.8C72.5,20.1,73.2,20.8,73.2,21.6z M69.1,40.6
+                c0.6,0.6,0.6,1.6,0,2.2c-0.3,0.3-0.7,0.4-1.1,0.4s-0.8-0.1-1.1-0.4L56.7,32.6c-0.6-0.6-0.6-1.6,0-2.2c0.6-0.6,1.6-0.6,2.2,0
+                L69.1,40.6z"/>
+        </symbol>
+        <symbol id="calendar-icon" viewBox="0 0 50 50">
+            <path id="calendar_2_" d="M45.8,4.7h-6.8V1.6c0-0.9-0.7-1.6-1.6-1.6c-0.9,0-1.6,0.7-1.6,1.6v3.1h-9.4V1.6C26.6,0.7,25.9,0,25,0
+                c-0.9,0-1.6,0.7-1.6,1.6v3.1h-9.4V1.6c0-0.9-0.7-1.6-1.6-1.6c-0.9,0-1.6,0.7-1.6,1.6v3.1H4.2C1.9,4.7,0,6.6,0,8.9v37
+                C0,48.1,1.9,50,4.2,50h41.7c2.3,0,4.2-1.9,4.2-4.2v-37C50,6.6,48.1,4.7,45.8,4.7z M46.9,45.8c0,0.6-0.5,1-1,1H4.2c-0.6,0-1-0.5-1-1
+                v-37c0-0.6,0.5-1,1-1h6.8v3.1c0,0.9,0.7,1.6,1.6,1.6c0.9,0,1.6-0.7,1.6-1.6V7.8h9.4v3.1c0,0.9,0.7,1.6,1.6,1.6
+                c0.9,0,1.6-0.7,1.6-1.6V7.8h9.4v3.1c0,0.9,0.7,1.6,1.6,1.6c0.9,0,1.6-0.7,1.6-1.6V7.8h6.8c0.6,0,1,0.5,1,1V45.8z M10.9,18.7h6.3v4.7
+                h-6.3V18.7z M10.9,26.6h6.3v4.7h-6.3V26.6z M10.9,34.4h6.3v4.7h-6.3V34.4z M21.9,34.4h6.3v4.7h-6.3V34.4z M21.9,26.6h6.3v4.7h-6.3
+                V26.6z M21.9,18.7h6.3v4.7h-6.3V18.7z M32.8,34.4h6.3v4.7h-6.3V34.4z M32.8,26.6h6.3v4.7h-6.3V26.6z M32.8,18.7h6.3v4.7h-6.3V18.7z"
+                />
+        </symbol>
+        <symbol id="devices-group" viewBox="0 0 266 174">
+            <path d="M24,124H4c-2.2,0-4,1.8-4,4v42c0,2.2,1.8,4,4,4h20c2.2,0,4-1.8,4-4v-42
+            	C28,125.8,26.2,124,24,124z M11,126h6c0.6,0,1,0.4,1,1c0,0.6-0.4,1-1,1h-6c-0.6,0-1-0.4-1-1C10,126.4,10.4,126,11,126z M14,172
+            	c-1.1,0-2-0.9-2-2s0.9-2,2-2s2,0.9,2,2S15.1,172,14,172z M24,166H4v-36h20V166z M260,166c0,0,0-68,0-68c0-2.2-1.8-4-4-4h-36V4
+            	c0-2.2-1.8-4-4-4H48c-2.2,0-4,1.8-4,4v108h10v2H44v8c0,2.2,1.8,4,4,4h6v42c0,2.2,1.8,6,4,6h52c2.2,0,4-3.8,4-6v-24
+            	c4.1,0,12.1,0,18,0c5.1,0,11.6,0,16,0c0,12.2,0,22,0,22h-8v4c0,0,1.4,2,3.9,2c15.3,0,104.1,0,118.1,0c2,0,4-2,4-2v-4H260z M50,106V6
+            	h164v88h-62c-2.2,0-4,1.8-4,4c0,0,0,3.1,0,8h-34v-8c0-2.2-1.8-4-4-4H58c-2.2,0-4,1.8-4,4v8H50z M114,114v-2h34c0,0.7,0,1.3,0,2H114z
+            	 M134,120c0,1.1-0.9,2-2,2s-2-0.9-2-2s0.9-2,2-2S134,118.9,134,120z M86,99c0,0.6-0.4,1-1,1h-2c-0.6,0-1-0.4-1-1s0.4-1,1-1h2
+            	C85.6,98,86,98.4,86,99z M84,172c-1.1,0-2-0.9-2-2s0.9-2,2-2c1.1,0,2,0.9,2,2S85.1,172,84,172z M108,166H60h0v-40v-12v-2v-6v-4h0h48
+            	v4v6v2v12V166z M144.1,128h-24.3c-0.4,4.1-1.7,13.2-5.9,15.5V126h4h2h24h2h2c0,5.2,0,10.6,0,15.6C145.4,138.1,144.5,131.3,144.1,128
+            	z M207.9,168c-2.3,0-5.9,0-8.1,0c-1.1,0-1.8-2-1.8-2h12C210,166,209.1,168,207.9,168z M256,162H152v-18v0v-18v-12v-2v-6v-8h62h6h36
+            	V162z"/>
+            </svg>
+        </symbol>
+    </defs>
+</svg>
+        <nav class="page__nav">
+            <a href="http://nominum.com" class="logo page__nav__logo">
+                <svg role="img" title="Nominum"><use xlink:href="#logo"></use></svg>
+            </a>
+            <button class="nav__menu-toggle">
+                <span>Menu</span>
+                <svg role="img" title="Close menu"><use xlink:href="#full-arrow-left"></use></svg>
+            </button>
+            <a href="http://nominum.com/contact" class="contact-link page__nav__contact-link">
+                <svg role="img" title="Contact"><use xlink:href="#contact-bubble"></use></svg>
+            </a>
+            <form role="search" method="get" action="http://nominum.com" class="search-form nav__search-form">
+                <button type="button" class="search-form__toggle">
+                    <svg role="img" title="Search"><use xlink:href="#search"></use></svg>
+                </button>
+                <input type="text" name="s" placeholder="Search...">
+            </form>
+            <ul id="menu-primary-navigation" class="menu-items nav__menu-items">
+                                                <li class="is-group">
+                    <button class="category-item nav__category-item">
+                        <span class="number">02</span>
+                        <span class="title">By Product</span>
+                    </button>
+                    <ul class="sub-menu-items nav__sub-menu-items">
+                                                <li class="sub-menu-section nav__sub-menu-section">
+                            <span class="title">DNS</span>
+                                                                                    <a href="http://nominum.com/product/vantio-authserve">Vantio AuthServe <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                        <a href="http://nominum.com/product/caching-dns">Vantio CacheServe <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                    </li>
+                                                <li class="sub-menu-section nav__sub-menu-section">
+                            <span class="title">Security</span>
+                                                                                    <a href="http://nominum.com/product/vantio-threatavert">Vantio ThreatAvert <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                        <a href="http://nominum.com/product/n2-engage">N2 Engage <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                    </li>
+                                                <li class="sub-menu-section nav__sub-menu-section">
+                            <span class="title">Marketing</span>
+                                                                                    <a href="http://nominum.com/product/n2-reach">N2 Reach <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                        <a href="http://nominum.com/product/n2-insight">N2 Insight <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                        <a href="http://nominum.com/product/n2-engage">N2 Engage <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                    </li>
+                                                <li class="sub-menu-section nav__sub-menu-section">
+                            <span class="title">Support</span>
+                                                                                    <a href="http://nominum.com/product/n2-reach">N2 Reach <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                    </li>
+                                            </ul>
+                </li>
+                                                <li class="is-group">
+                    <button class="category-item nav__category-item">
+                        <span class="number">01</span>
+                        <span class="title">By Role</span>
+                    </button>
+                    <ul class="sub-menu-items nav__sub-menu-items">
+                                                <li class="sub-menu-section nav__sub-menu-section">
+                            <span class="title">Network Operations</span>
+                                                                                    <a href="http://nominum.com/product/vantio-authserve">Authoritative DNS <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                        <a href="http://nominum.com/product/caching-dns">Caching DNS <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                    </li>
+                                                <li class="sub-menu-section nav__sub-menu-section">
+                            <span class="title">Security &amp; Compliance</span>
+                                                                                    <a href="http://nominum.com/product/vantio-threatavert">Network Security <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                        <a href="http://nominum.com/product/n2-engage">Subscriber Safety <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                    </li>
+                                                <li class="sub-menu-section nav__sub-menu-section">
+                            <span class="title">Customer Care</span>
+                                                                                    <a href="http://nominum.com/product/n2-reach">Browser Messaging <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                        <a href="http://nominum.com/product/n2-insight">Activity Analytics <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                        <a href="http://nominum.com/product/n2-engage">Subscriber Safety <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                    </li>
+                                                <li class="sub-menu-section nav__sub-menu-section">
+                            <span class="title">Marketing</span>
+                                                                                    <a href="http://nominum.com/product/n2-reach">Browser Messaging <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                        <a href="http://nominum.com/product/n2-insight">Activity Analytics <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                        <a href="http://nominum.com/product/n2-engage">Subscriber Safety <svg role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bold-arrow-right"></use></svg></a>
+                                                    </li>
+                                            </ul>
+                </li>
+                                <ul id="menu-primary-navigation" class="menu-items nav__menu-items"><li><a class="page-item nav__page-item" href="/n2-solutions">N2 Solutions</a><li><a class="page-item nav__page-item" href="/news-event">News & Events</a><li><a class="page-item nav__page-item" href="/resources">Resources</a><li><a class="page-item nav__page-item" href="/blog">Blog</a><li><a class="page-item nav__page-item" href="/company">Company</a><li><a class="page-item nav__page-item" href="/careers">Careers</a><li><a class="page-item nav__page-item" href="/contact">Contact Us</a></ul>            </ul>
+            <ul class="social-accounts nav__social-accounts">
+                <li><a href="http://www.linkedin.com/company/nominum" target="_blank"><svg role="img" title="LinkedIn"><use xlink:href="#linkedin-icon"></use></svg></a></li>
+                <li><a href="http://www.twitter.com/nominum" target="_blank"><svg role="img" title="Twitter"><use xlink:href="#twitter-icon"></use></svg></a></li>
+                <li><a href="http://www.youtube.com/nominuminc" target="_blank"><svg role="img" title="Youtube"><use xlink:href="#youtube-icon"></use></svg></a></li>
+                <li><a href="http://www.facebook.com/nominum" target="_blank"><svg role="img" title="Facebook"><use xlink:href="#facebook-icon"></use></svg></a></li>
+            </ul>
+        </nav>
+<main class="page__content"><header id="top" class="page__header call-out-block has-photo " style="background-color: #000000;">
+	<a href="http://nominum.com" class="logo header__logo">
+		<svg role="img" title="Nominum"><use xlink:href="#logo"></use></svg>
+	</a>
+	<a href="http://nominum.com/contact" class="contact-link header__contact-link">
+		<span>Contact us</span>
+		<svg role="presentation"><use xlink:href="#contact-bubble"></use></svg>
+	</a>
+		<div class="block-wrapper">
+				<h1>News & Events</h1>
+						<p class="tagline"><p>Insights and commentary from our industry experts</p>
+</p>
 					</div>
-									<div class="slide">
-						<div class="content">
-							<div class="new_featured">
-							<div class="new_featured_image">
-								<a href="/?post_type=news&#038;p=1538"><img width="470" height="270" src="http://nominum.com/wp-content/uploads/blue_new_2-470x270.png" class="attachment-new-featured wp-post-image" alt="blue_new_2" /></a>
-							</div>
-							<div class="new_featured_content">
-								<h2><a href="/?post_type=news&#038;p=1538">Nominum shortlisted for 2014 Telecoms.com Industry awards</a></h2>
-								<p> Nominum has been shortlisted for the 2014 Telecoms.com Industry Awards in the ‘Pushing the limits fixed’ category, recognizing Nominum as a vendor that has made a significant, ground-breaking technological achievement. </p>
-								<div class="white-button"><a href="/?post_type=news&#038;p=1538">Learn More</a></div>
-							</div>
-							</div>
-						</div>
-					</div>
-									</section>
--->
-		
-		<section class="search_content">
-			<div class="content">
-					<form method="get" id="searchform" class="searchform" action="http://nominum.com/" role="search">
-		<!-- <label for="s" class="screen-reader-text">Search</label> -->
-		<input type="search" class="field" name="s" value="" id="s" placeholder="Search" />
-		<!-- <input type="submit" class="submit" id="searchsubmit" value="Search" /> -->
-	</form>
-			</div>
-		</section>
-		
-	</header>
-	<div class="fixed_header_spacer"></div>
-	<div class="content_overlay"></div>
-	
-	<ul class="social_overlay">
-		<li><a class="social_fb" href="http://www.facebook.com/nominum" target="_blank"></a></li>
-		<li><a class="social_twitter" href="http://www.twitter.com/nominum" target="_blank"></a></li>
-		<li><a class="social_linkedin" href="http://www.linkedin.com/company/nominum" target="_blank"></a></li>
-		<li><a class="social_plus" href="http://www.google.com/+nominum" target="_blank"></a></li>
-		<li><a class="social_youtube" href="http://www.youtube.com/nominuminc" target="_blank"></a></li>
+	<div class="photo-wrapper call-out-block__photo-wrapper lazy-load" data-bg-src="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/news-events-header.jpg"></div>
+		</header>
+<section class="news-events-content filter-blocks is-gray">
+	<div class="block-wrapper">
+		<ul class="news-event-content__page-nav page-nav">
+			<li><span>Display:</span></li>
+			<li>
+								<span>Press Release</span>
+							</li>
+			<li>
+								<a href="http://nominum.com/news-events/?show=press_coverage">Press Coverage</a>
+							</li>
+			<li>
+								<a href="http://nominum.com/news-events/?show=press_event">Event</a>
+							</li>
+			<li>
+								<a href="http://nominum.com/news-events/?show=all">All</a>
+							</li>
+		</ul>
 	</div>
+		<div class="block-wrapper filterable-block-wrapper news-events-content__filterable-block-wrapper">
+				<a href="http://nominum.com/news-events/nominum-helps-myrepublic-drive-better-subscriber-experience/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>Nominum helps MyRepublic drive better subscriber experience</h2>
+			<p><p>Singapore’s innovative and ultra-fast fiber Internet provider needed a DNS platform robust and responsive enough to handle growing subscriber demands and traffic.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/sharp-rise-in-dns-based-ddos-last-year-signals-larger-more-frequent-attacks-in-2015/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>DNS-based DDoS rise signals more attacks in 2015</h2>
+			<p><p>Malware in home gateways topples provider networks &amp; websites; rapid growth of ‘smart’ devices adds to risk.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/nominum-launches-vantio-threatavert-to-protect-networks-from-threats-within/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>Nominum Launches Vantio ThreatAvert to Protect Networks from Threats Within</h2>
+			<p></p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/24-million-home-routers-expose-isps-to-massive-dns-based-ddos-attacks/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>24 million home routers expose ISPs to massive DNS-based DDoS attacks</h2>
+			<p><p>Gaps in existing DDoS defenses require highly targeted DNS defenses to eliminate malicious traffic.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/ovum-recognizes-nominums-innovative-n2-applications-suite-in-on-the-radar-report/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>Ovum recognizes Nominum’s innovative N2 applications suite</h2>
+			<p><p>Analyst report highlights the potential of Nominum’s N2 suite to increase customer retention, engagement and loyalty for CSPs.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/nominum-secures-rostelecoms-free-wi-fi-network-in-sochi/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>Nominum secures Rostelecom’s Free Wi-Fi network in Sochi</h2>
+			<p><p>Rostelecom deploys Vantio ThreatAvert to secure network from ‘inside threats’ and an influx of new users with unsecured devices.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/nominum-launches-applications-to-power-in-browser-marketing-and-communication-channel-for-csps/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>Nominum launches applications to power browser communications for CSPs</h2>
+			<p><p>Interactive channel based on DNS and Internet Activity significantly improves marketing ROI and customer care spend.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/nominum-shortlisted-for-2014-telecoms-com-industry-awards/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>Nominum shortlisted for 2014 Telecoms.com Industry awards</h2>
+			<p><p>Judges acknowledge integral role of Nominum in providing CSPs with new applications that increase customer retention, loyalty and monetization.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/nominum-strengthens-management-team-with-new-cmo/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>Nominum Strengthens Management Team With New CMO</h2>
+			<p><p>Software and analytics leader Sanjay Kapoor charged to drive next phase of growth for Nominum as a provider of DNS-based marketing and intelligence for CSPs.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/nominum-launches-industry-first-tools-to-preserve-broadband-access-during-dns-based-ddos-attacks/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>Nominum launches industry-first tools to preserve broadband access during DNS-based DDoS attacks</h2>
+			<p><p>Vantio TM CacheServe 5.4 introduces precision policies to rate limit DNS traffic in the event of a denial of service attack.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/nominum-and-f-secure-a-partnership-to-win-the-battle-for-clean-networks/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>Nominum and F-Secure: A partnership to win the battle for clean networks</h2>
+			<p><p>Redwood City, USA and Helsinki, Finland, November 12th, 2013 Nominum™, the provider of integrated subscriber, network and security solutions for Service Providers, and F-Secure, the leading provider of consumer security solutions, have today announced a strategic partnership to deliver a comprehensive solution to protect subscribers from botnet threats.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/nominum-expands-into-india-with-appointment-of-umesh-jamwal/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>Nominum Expands into India with Appointment of Umesh Jamwal</h2>
+			<p><p>Telecom Industry Veteran to Offer Nominum’s Service Delivery Platform and App Suite to Communication Service Providers in India, Sri Lanka and Bangladesh.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/nominum-and-nextgen-distribution-in-worlds-first-agreement-to-drive-opportunity-for-enterprise-channel-in-australia-and-new-zealand/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>Nominum &amp; Nextgen Drive Opportunity for Enterprise Channel in Australia &amp; New Zealand</h2>
+			<p><p>Redwood City, CA, and Sydney, Australia May 6, 2013 – Nominum™, the world’s leading provider of integrated subscriber, network, and security solutions for network operators, today announced it has signed its first distributor worldwide, Australia’s Nextgen Distribution.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/new-research-from-nominum-reveals-worst-global-cyber-threats-of-2012/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>New Research from Nominum Reveals Worst Global Cyber Threats of 2012</h2>
+			<p><p>DNS Data Contains Threat Insights for Fixed Networks and Mobile Devices. </p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<a href="http://nominum.com/news-events/nominum-releases-new-security-intelligence-application/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+						<h2>Nominum Releases New Security Intelligence Application</h2>
+			<p><p>Redwood City, CA, December 12, 2012 – Nominum™, the world’s leading provider of integrated subscriber, network, and security solutions for network operators, today announced the availability of the Security Intelligence application, a component of Nominum’s Network Security Solution that provides threat detection, threat mitigation and threat visibility. </p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
+				<span class="iso-gutter-sizer"></span>
+	</div>
+	<div class="block-wrapper news-events-content__group-pagination">
+		<span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://nominum.com/news-events/page/2/?show=press_release'>2</a>
+<a class="next page-numbers" href="http://nominum.com/news-events/page/2/?show=press_release">Next Page</a>	</div>
+	</section>
+<footer class="page__footer">
+	<div class="footer__meta">
+		<div class="footer__share-wrapper share-wrapper">
+			<span>Share:</span>
+            <a href="mailto:?&amp;subject=Check out this page: Page title&amp;body=Hi,%0A%0AI%20found%20this%20interesting%20page%20on%20www.nominum.com,%20you%20should%20check%20it%20out:%0A%0Ahttp://nominum.com/integrated-platform" data-share-base="mailto:?&amp;subject=Check out this page: Page title&amp;body=Hi,%0A%0AI%20found%20this%20interesting%20page%20on%20www.nominum.com,%20you%20should%20check%20it%20out:%0A%0A" class="share-button share-wrapper__share-button share-button--mail"><svg role="img" title="Share by Mail"><use xlink:href="#mail-icon"></use></svg></a>
+            <a target="_blank" href="https://twitter.com/home?status=http://nominum.com/integrated-platform" data-share-base="https://twitter.com/home?status=" class="share-button share-wrapper__share-button share-button--twitter"><svg role="img" title="Share on Twitter"><use xlink:href="#twitter-icon"></use></svg></a>
+            <a target="_blank" href=" http://www.linkedin.com/shareArticle?mini=true&url=http://nominum.com/integrated-platform" data-share-base=" http://www.linkedin.com/shareArticle?mini=true&url=" class="share-button share-wrapper__share-button share-button--linkedin"><svg role="img" title="Share on LinkedIn"><use xlink:href="#linkedin-icon"></use></svg></a>
+            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://nominum.com/integrated-platform" data-share-base="https://www.facebook.com/sharer/sharer.php?u=" class="share-button share-wrapper__share-button share-button--facebook"><svg role="img" title="Share on Facebook"><use xlink:href="#facebook-icon"></use></svg></a>
+        </div>
+		<a class="footer__to-top" href="#top">To top</a>
+	</div>
+	<div class="footer__wrapper">
+		<ul id="menu-footer-menu" class="menu"><li><a href="http://nominum.com/privacy/">Privacy</a></li>
+<li><a href="http://nominum.com/support/">Support</a></li>
+<li><a href="http://nominum.com/contact/">Contact Us</a></li>
+</ul>		<span class="copy">Copyright 2015 &copy; Nominum, Inc.</span>
+	</div>
+</footer>
+</main>    <div class="modal">
+        <button class="close-btn modal__close-button"><svg role="img" title="Close modal"><use xlink:href="#cross"></use></svg></button>
+    </div>
 
-		
-		<section class="news press_release">
-			<div class="content">
-				<h2>Press Releases</h2>
-							
-					<article>
-						
-						<h3>
-															<a href="http://nominum.com/news-post/nominum-helps-fast-growing-innovative-internet-provider-myrepublic-drive-better-subscriber-experience/">Nominum helps fast-growing, innovative Internet provider MyRepublic drive better subscriber experience</a>
-													</h3>
-						<p>&nbsp; Singapore’s innovative and ultra-fast fiber Internet provider needed a DNS platform robust and responsive enough to handle growing subscriber demands and traffic &nbsp; Redwood City, Calif., and Singapore, March 26, 2015 – MyRepublic has the ambitious goal of providing “frustration-free Internet access and broadband-based services for everyone.” To accomplish this, MyRepublic has selected Nominum’s™ [&#8230;]
-<div addthis:url='http://nominum.com/news-post/nominum-helps-fast-growing-innovative-internet-provider-myrepublic-drive-better-subscriber-experience/' addthis:title='Nominum helps fast-growing, innovative Internet provider MyRepublic drive better subscriber experience ' class="addthis">
-<a class="addthis_counter addthis_pill_style"></a>
-</div>
-						
-						<div class="addthis_toolbox addthis_default_style "
-						        addthis:url="http://nominum.com/news-post/nominum-helps-fast-growing-innovative-internet-provider-myrepublic-drive-better-subscriber-experience/"> 
-							<a class="addthis_counter addthis_pill_style"></a>
-						</div>
-					</article>
-							
-							
-					<article>
-						
-						<h3>
-															<a href="http://nominum.com/news-post/dns-ddos-attacks-2015/">Sharp rise in DNS-based DDoS last year signals larger, more frequent attacks in 2015</a>
-													</h3>
-						<p>&nbsp; Malware in home gateways topples provider networks &amp; websites; rapid growth of ‘smart’ devices adds to risk &nbsp; Redwood City, Calif., February 5, 2015 &#8211; Nominum™, the leader in DNS and integrated applications for service providers that drive subscriber value, estimated a 100-fold growth of DNS-based DDoS attacks in 2014, with a clear trend [&#8230;]
-<div addthis:url='http://nominum.com/news-post/dns-ddos-attacks-2015/' addthis:title='Sharp rise in DNS-based DDoS last year signals larger, more frequent attacks in 2015 ' class="addthis">
-<a class="addthis_counter addthis_pill_style"></a>
-</div>
-						
-						<div class="addthis_toolbox addthis_default_style "
-						        addthis:url="http://nominum.com/news-post/dns-ddos-attacks-2015/"> 
-							<a class="addthis_counter addthis_pill_style"></a>
-						</div>
-					</article>
-							
-							
-					<article>
-						
-						<h3>
-															<a href="http://nominum.com/news-post/24m-home-routers-expose-ddos/">24 million home routers expose ISPs to massive DNS-based DDoS attacks</a>
-													</h3>
-						<p>Gaps in existing DDoS defenses require highly targeted DNS defenses to eliminate malicious traffic.</p>
-						
-						<div class="addthis_toolbox addthis_default_style "
-						        addthis:url="http://nominum.com/news-post/24m-home-routers-expose-ddos/"> 
-							<a class="addthis_counter addthis_pill_style"></a>
-						</div>
-					</article>
-							
-							
-					<article>
-						
-						<h3>
-															<a href="http://nominum.com/news-post/ovum-recognizes-nominums-innovative-n2-applications-suite-radar-report-2/">Ovum recognizes Nominum’s innovative N2 applications suite in On the Radar report</a>
-													</h3>
-						<p>Analyst report highlights the potential of Nominum’s N2 suite to increase customer retention, engagement and loyalty for CSPs.</p>
-						
-						<div class="addthis_toolbox addthis_default_style "
-						        addthis:url="http://nominum.com/news-post/ovum-recognizes-nominums-innovative-n2-applications-suite-radar-report-2/"> 
-							<a class="addthis_counter addthis_pill_style"></a>
-						</div>
-					</article>
-							
-							
-					<article>
-						
-						<h3>
-															<a href="http://nominum.com/news-post/nominum-secures-rostelecoms-wifi-network-sochi/">Nominum secures Rostelecom’s Free Wi-Fi network in Sochi</a>
-													</h3>
-						<p>Rostelecom deploys Vantio ThreatAvert to secure network from ‘inside threats’ and an influx of new users with unsecured devices</p>
-						
-						<div class="addthis_toolbox addthis_default_style "
-						        addthis:url="http://nominum.com/news-post/nominum-secures-rostelecoms-wifi-network-sochi/"> 
-							<a class="addthis_counter addthis_pill_style"></a>
-						</div>
-					</article>
-							
-								
-				<section class="pagination">
-					<div class="content">
-						<div class="navigation"><ul>
-<li class="prev_btn_disabled">Prev</li>
-<li class="active"><a href="http://nominum.com/press-type/release/">1<span></span></a></li>
-<li><a href="http://nominum.com/press-type/release/page/2/">2<span></span></a></li>
-<li><a href="http://nominum.com/press-type/release/page/3/">3<span></span></a></li>
-<li>…</li>
-<li><a href="http://nominum.com/press-type/release/page/6/">6<span></span></a></li>
-<li class="next_btn"><a href="http://nominum.com/press-type/release/page/2/" >Next</a></li>
-</ul></div>
-					</div>
-				</section>
-		
-						
-			</div>
-		</section>		
+    <!-- SCRIPTS -->
 
+    <!-- inject:js --><script src="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/js/core-libs.min.js"></script><!-- endinject -->
+	<!--[if lt IE 9]><script src="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/js/ie-body.min.js""></script></script><![endif]-->
 
-	<footer>
-		<div class="content_wide">
-			<article>
-				<section class="footer_logo">
-					<a href="/"><img src="http://nominum.com/wp-content/themes/nominum/images/footer-logo-tag.png" /></a>
-				</section><!-- end footer_logo -->
-				<section class="primary_footer_menu">
-					<nav id="footer_menu">
-						<div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-1328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1328"><a href="http://nominum.com/our-company/">Company</a></li>
-<li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30"><a href="/careers">Careers</a></li>
-<li id="menu-item-1301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1301"><a href="http://nominum.com/partners/">Partners</a></li>
-<li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31"><a href="/support">Support</a></li>
-<li id="menu-item-1185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1185"><a href="http://nominum.com/industry-affiliations/">Affiliations</a></li>
-<li id="menu-item-1329" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1329"><a href="http://nominum.com/events/">Events</a></li>
-<li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"><a href="/contact">Contact</a></li>
-</ul></div>					</nav>
-						<div class="menu-secondary-footer-menu-container"><ul id="menu-secondary-footer-menu" class="menu"><li id="menu-item-3191" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3191"><a href="http://nominum.com/privacy/">Privacy</a></li>
-</ul></div>				</section><!-- end section 2 -->
-				<section class="social_links">
-					<div class="legal">Copyright 2015 &copy; Nominum, Inc.</div>
-				</section><!-- end section 3 -->
-			</article>
-		</div>
-	</footer>
-</div>
+	<!-- TRACKERS -->
+	<script>
+		// Google Analytics
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-17699125-1', 'auto');
+		ga('send', 'pageview');
 
-<link rel='stylesheet' id='gforms_reset_css-css'  href='http://nominum.com/wp-content/plugins/gravityforms/css/formreset.min.css?ver=1.9.10.2' type='text/css' media='all' />
-<link rel='stylesheet' id='gforms_formsmain_css-css'  href='http://nominum.com/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=1.9.10.2' type='text/css' media='all' />
-<link rel='stylesheet' id='gforms_ready_class_css-css'  href='http://nominum.com/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=1.9.10.2' type='text/css' media='all' />
-<link rel='stylesheet' id='gforms_browsers_css-css'  href='http://nominum.com/wp-content/plugins/gravityforms/css/browsers.min.css?ver=1.9.10.2' type='text/css' media='all' />
-<script type='text/javascript' src='http://nominum.com/wp-content/themes/nominum/js/built.min.js?ver=4.2.2'></script>
-<script type='text/javascript' src='http://nominum.com/wp-content/plugins/gravityforms/js/jquery.json-1.3.js?ver=1.9.10.2'></script>
-<script type='text/javascript' src='http://nominum.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=1.9.10.2'></script>
-<script type='text/javascript' src='https://ssl-munchkin.marketo.net/js/munchkin.js?ver=44633'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var marketo_vars = {"munchkin_id":"739-FPX-285"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='http://nominum.com/wp-content/plugins/marketo/includes/marketo.js?ver=4.2.2'></script>
-<!--wp_footer--><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
-
-<script type=”text/javascript”> (function() { var didInit = false; function initMunchkin() { if(didInit === false) { didInit = true; Munchkin.init('739-FPX-285'); } } var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//munchkin.marketo.net/munchkin.js'; s.onreadystatechange = function() { if (this.readyState 'complete' || this.readyState 'loaded') { initMunchkin(); } }; s.onload = initMunchkin; document.getElementsByTagName('head')[0].appendChild(s); })(); </script>
-
-
-<script type="text/javascript"> 
-adroll_adv_id = "FV7QDDC2RVBT3PAHXN6AH2"; 
-adroll_pix_id = "EC37V3Q7DZGKVKRE2FDTI6"; 
-(function () { 
-var oldonload = window.onload; 
-window.onload = function(){ 
-   __adroll_loaded=true; 
-   var scr = document.createElement("script"); 
-   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com"); 
-   scr.setAttribute('async', 'true'); 
-   scr.type = "text/javascript"; 
-   scr.src = host + "/j/roundtrip.js"; 
-   ((document.getElementsByTagName('head') || [null])[0] || 
-    document.getElementsByTagName('script')[0].parentNode).appendChild(scr); 
-   if(oldonload){oldonload()}}; 
-}()); 
-</script>
-</body>
+		// Marketo Munchkin
+		(function(){var didInit = false;function initMunchkin(){if(didInit === false){didInit = true;Munchkin.init('739-FPX-285');}}var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = '//munchkin.marketo.net/munchkin.js';s.onreadystatechange = function(){if(this.readyState === 'complete' || this.readyState === 'loaded'){initMunchkin();}};s.onload = initMunchkin;document.getElementsByTagName('head')[0].appendChild(s);})();
+	</script>
+    </body>
 </html>
+

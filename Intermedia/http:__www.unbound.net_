@@ -125,6 +125,13 @@ and support in Japanese.</p>
 <div class="NewsItems">
 <h2>News</h2>
 <div class="item">
+<div class="title"><h3>Release 1.5.4</h3></div>
+<div class="pubDate">Thu Jul 9 11:22:14 CET 2015</div>
+<div class="description">Version 1.5.4 of unbound has been released.</div>
+<div class="link"><A href="http://www.unbound.net/download.html">
+	more</A></div>
+</div>
+<div class="item">
 <div class="title"><h3>Release 1.5.3</h3></div>
 <div class="pubDate">Tue Mar 10 11:09:14 CET 2015</div>
 <div class="description">Version 1.5.3 of unbound has been released.</div>
@@ -153,13 +160,6 @@ and support in Japanese.</p>
 	chases of endless series of delegations CVE-2014-8602
       </div>
 <div class="link"><A href="http://www.unbound.net/downloads/CVE-2014-8602.txt">
-	more</A></div>
-</div>
-<div class="item">
-<div class="title"><h3>Release 1.5.0</h3></div>
-<div class="pubDate">Tue Nov 18 09:37:14 CET 2014</div>
-<div class="description">Version 1.5.0 of unbound has been released.</div>
-<div class="link"><A href="http://www.unbound.net/download.html">
 	more</A></div>
 </div>
 <div class="link"><p><A href="newsarchive.html">news archive</A></p></div>

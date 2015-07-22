@@ -67,7 +67,6 @@
         <div class="arrow"></div>
         <div class="popover-content">
             <div class="areaLeft"><p><strong><a href="/en/products-and-services/services/whois/">Whois</a></strong></p>
-<p><strong><a href="/en/products-and-services/services/zonecheck/">Zone Check</a></strong></p>
 <p><strong><a href="/en/products-and-services/services/idn-convertor/">IDN convertor</a></strong></p>
 <p><strong><a href="/en/dispute-resolution/tools-and-procedures/syreli-dispute-resolution-system-14.html">Syreli</a><br /></strong></p></div>
             <div class="areaRight"><p><strong>Reference documents</strong></p>
@@ -120,8 +119,8 @@
                   							                    									 <li><a href="/en/your-domain-name/manage-your-domain-name/deleting-your-domain-name-3.html">Deleting your domain name</a></li>
                   							                    									 <li><a href="/en/your-domain-name/manage-your-domain-name/keep-your-contact-information-up-to-date-2.html">Keep your contact information up to date</a></li>
                   							                    									 <li><a href="/en/your-domain-name/manage-your-domain-name/orphan-domain-name-7.html">Orphan domain name</a></li>
-                  							                    									 <li><a href="/en/your-domain-name/manage-your-domain-name/selling-or-transferring-your-domain-name-4.html">Selling or transferring your domain name</a></li>
                   							                    									 <li><a href="/en/your-domain-name/manage-your-domain-name/remember-to-renew-your-domain-name-5.html">Remember to renew your domain name</a></li>
+                  							                    									 <li><a href="/en/your-domain-name/manage-your-domain-name/selling-or-transferring-your-domain-name-5.html">Selling or transferring your domain name</a></li>
                   							  
                   								                  							</ul>
                                                       </td>
@@ -166,10 +165,9 @@
                                               							<ul class="submenu">
                                                     									 <li><a href="/en/products-and-services/services/whois-data-access-qualified-service-squaw-9.html">Whois Data Access Qualified Service (SQUAW)</a></li>
                   							                    									 <li><a href="/en/products-and-services/services/fr-lock-by-afnic-2.html">.fr Lock by Afnic</a></li>
-                  							                    									 <li><a href="/en/products-and-services/services/dnssec-14.html">DNSSEC</a></li>
+                  							                    									 <li><a href="/en/products-and-services/services/dnssec-17.html">DNSSEC</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/products-and-services/services/whois/">Whois</a></li>
-                  								                    								    <li><a href="/en/products-and-services/services/zonecheck/">ZoneCheck</a></li>
                   								                    								    <li><a href="/en/products-and-services/services/idn-convertor/">IDN convertor</a></li>
                   								                    								    <li><a href="/en/products-and-services/services/daily-list-of-registered-domain-names/">Daily list of registered domain names</a></li>
                   								                    								                  							</ul>
@@ -377,7 +375,7 @@
                           						                                                                              <td>
               							<a href="/en/resources/statistics/">Statistics</a>
                                               							<ul class="submenu">
-                                                    									 <li><a href="/en/resources/statistics/quality-of-service-performance-51.html">Quality of service performance</a></li>
+                                                    									 <li><a href="/en/resources/statistics/quality-of-service-performance-52.html">Quality of service performance</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/resources/statistics/detailed-data-on-domain-names/">Detailed data on domain names</a></li>
                   								                    								                  							</ul>
@@ -391,7 +389,7 @@
                                                       <a href="/en/resources/subscriptions-and-social-networks-6.html">Subscriptions and social networks</a>
                                                   </li>
                                                                                                 <li>
-                                                      <a href="/en/resources/afnic-newsletter-35.html">Afnic Newsletter</a>
+                                                      <a href="/en/resources/afnic-newsletter-36.html">Afnic Newsletter</a>
                                                   </li>
                                                                                         </ul>
                                                                 </td>
@@ -529,7 +527,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="0bf681d022909e9078519c2197e0ec83" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="4f910c84b632749001184de35632b7cb" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -669,29 +667,29 @@
   
   <ul>
           <li>
+            <span class="date"><em>7/10/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9219/show/is-there-an-alternative-to-the-dns-1.html">Is there an alternative to the DNS?</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9219/show/is-there-an-alternative-to-the-dns-1.html">Afnic publishes an issue paper on alternative naming systems to the DNS.</a></span>
+    </li>
+       <li>
+            <span class="date"><em>6/23/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9170/show/afnic-rewarded-for-its-quality-management-approach-initiated-since-2008.html">Afnic rewarded for its quality management approach initiated since 2008</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9170/show/afnic-rewarded-for-its-quality-management-approach-initiated-since-2008.html">Afnic was awarded its EFQM® Recognized for Excellence (R4E) certification at 4 star-level by Mr Paris, EFQM Delegate General France.</a></span>
+    </li>
+       <li>
+            <span class="date"><em>6/22/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9168/show/99-of-registrars-are-satisfied-with-afnic-services.html">99% of Registrars are satisfied with Afnic Services</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9168/show/99-of-registrars-are-satisfied-with-afnic-services.html">Afnic has disclosed the results of its annual survey on the quality of its services.</a></span>
+    </li>
+       <li>
+            <span class="date"><em>6/18/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9161/show/how-to-assess-the-registrar-network-performance-1.html">How to assess the registrar network performance?</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9161/show/how-to-assess-the-registrar-network-performance-1.html">The June 2015 edition of the Afnic Industry Report on Domain Names proposes indicators to measure registrar performance since the introduction of new ...</a></span>
+    </li>
+       <li>
             <span class="date"><em>6/12/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9125/show/afnic-2014-annual-report-openness-competitiveness-accountability-1.html">Afnic 2014 Annual Report:  Openness, Competitiveness, Accountability</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9125/show/afnic-2014-annual-report-openness-competitiveness-accountability-1.html">Afnic’s annual general meeting was held on June 12, 2015. On the same occasion, the association published its 2014 Activity report. Read all about i...</a></span>
-    </li>
-       <li>
-            <span class="date"><em>6/1/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9093/show/the-fr-tld-at-the-lyon-rhone-alpes-trade-fair-for-entrepreneurs-on-2-and-3-june-2015.html">The .fr TLD at the Lyon Rhône-Alpes Trade Fair for Entrepreneurs on 2 and 3 Jun...</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/9093/show/the-fr-tld-at-the-lyon-rhone-alpes-trade-fair-for-entrepreneurs-on-2-and-3-june-2015.html">At the 2015 Lyon Rhône-Alpes Trade Fair for Entrepreneurs, Afnic and two .fr registrars will be advising business people about choosing their domain ...</a></span>
-    </li>
-       <li>
-            <span class="date"><em>5/26/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9084/show/june-2-2015-an-inclusive-internet-workshop-during-the-internet-governance-forum.html">June 2, 2015: An Inclusive Internet Workshop during the Internet Governance Foru...</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/9084/show/june-2-2015-an-inclusive-internet-workshop-during-the-internet-governance-forum.html">Afnic and the Internet Society France are to co-host a workshop on June 2, 2015 on inclusive Internet issues during the second Forum on Internet Gover...</a></span>
-    </li>
-       <li>
-            <span class="date"><em>5/21/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9063/show/the-domain-name-market-2017-year-of-consolidation.html">The domain name market: 2017, year of consolidation?</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/9063/show/the-domain-name-market-2017-year-of-consolidation.html">The May 2015 edition of the Afnic Industry Report on Domain Names sets out a projection of the domain name market development for the next five years....</a></span>
-    </li>
-       <li>
-            <span class="date"><em>5/19/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9066/show/afnic-scientific-council-open-day-set-for-thursday-9-july-2015-1.html">Afnic Scientific Council Open Day set for Thursday 9 July 2015!</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/9066/show/afnic-scientific-council-open-day-set-for-thursday-9-july-2015-1.html">Afnic publishes the program for its 5th Scientific Council Open Day.</a></span>
     </li>
      </ul>
     <div class="mainContent" style="padding:0">
@@ -782,8 +780,8 @@
                   		                   			<span><a href="/en/your-domain-name/manage-your-domain-name/deleting-your-domain-name-3.html" >Deleting your domain name</a></span>
                   		                   			<span><a href="/en/your-domain-name/manage-your-domain-name/keep-your-contact-information-up-to-date-2.html" >Keep your contact information up to date</a></span>
                   		                   			<span><a href="/en/your-domain-name/manage-your-domain-name/orphan-domain-name-7.html" >Orphan domain name</a></span>
-                  		                   			<span><a href="/en/your-domain-name/manage-your-domain-name/selling-or-transferring-your-domain-name-4.html" >Selling or transferring your domain name</a></span>
                   		                   			<span><a href="/en/your-domain-name/manage-your-domain-name/remember-to-renew-your-domain-name-5.html" >Remember to renew your domain name</a></span>
+                  		                   			<span><a href="/en/your-domain-name/manage-your-domain-name/selling-or-transferring-your-domain-name-5.html" >Selling or transferring your domain name</a></span>
                   							</li>
           						</ul>
 			        </td>
@@ -804,7 +802,7 @@
                   		<a href="/en/products-and-services/services/">Services</a>
                   		                   			<span><a href="/en/products-and-services/services/whois-data-access-qualified-service-squaw-9.html" >Whois Data Access Qualified Service (SQUAW)</a></span>
                   		                   			<span><a href="/en/products-and-services/services/fr-lock-by-afnic-2.html" >.fr Lock by Afnic</a></span>
-                  		                   			<span><a href="/en/products-and-services/services/dnssec-14.html" >DNSSEC</a></span>
+                  		                   			<span><a href="/en/products-and-services/services/dnssec-17.html" >DNSSEC</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/products-and-services/afnic-consulting/">Afnic Consulting</a>
@@ -906,7 +904,7 @@
                   							</li>
           		                	<li>
                   		<a href="/en/resources/statistics/">Statistics</a>
-                  		                   			<span><a href="/en/resources/statistics/quality-of-service-performance-51.html" >Quality of service performance</a></span>
+                  		                   			<span><a href="/en/resources/statistics/quality-of-service-performance-52.html" >Quality of service performance</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/resources/publications/">Publications</a>

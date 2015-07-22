@@ -90,7 +90,7 @@
   <label class="element-invisible" for="edit-search-block-form--2">Search</label>
  <input title="Enter the terms you wish to search for." placeholder="Search" type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="30" maxlength="128" />
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" /></div><input type="hidden" name="form_build_id" value="form-fgL3M8P-yP6f_2mTB2a-X26F3ZG0XFjXiSUXRyGG0Wo" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" /></div><input type="hidden" name="form_build_id" value="form-6jVtMZdGuoGZEebwBUBQZCo-TgvYMqS_RQBbhum97Uc" />
 <input type="hidden" name="form_id" value="search_block_form" />
 
 </form>
@@ -117,7 +117,8 @@
 <li class="expanded leaf-lvl-3 leaf-lvl-3-expanded has-children"><a href="/who-we-are/what-we-do/nominet-research-and-development"><span class="outer"><span class="inner">Nominet Research and Development</span></span></a><ul class="nominet-menu main-menu-lvl-4"><li class="leaf-lvl-4"><a href="/who-we-are/what-we-do/nominet-rd/research-topics"><span class="outer"><span class="inner">Research topics</span></span></a></li>
 <li class="leaf-lvl-4"><a href="/who-we-are/what-we-do/nominet-research-and-development/bumblebee"><span class="outer"><span class="inner">BumbleBee</span></span></a></li>
 <li class="leaf-lvl-4"><a href="/who-we-are/what-we-do/nominet-rd/tv-white-spaces"><span class="outer"><span class="inner">TV White Spaces</span></span></a></li>
-<li class="leaf-lvl-4"><a href="/who-we-are/what-we-do/nominet-rd/work-us-contact-us"><span class="outer"><span class="inner">Work with us / contact us</span></span></a></li>
+<li class="leaf-lvl-4"><a href="/who-we-are/what-we-do/nominet-research-and-development/be-part-smart-oxford-challenge"><span class="outer"><span class="inner">Be part of the Smart Oxford Challenge</span></span></a></li>
+<li class="leaf-lvl-4"><a href="/who-we-are/what-we-do/nominet-research-and-development/work-us-contact-us"><span class="outer"><span class="inner">Work with us / contact us</span></span></a></li>
 </ul></li>
 <li class="leaf-lvl-3"><a href="/whoweare/whatwedo/partnerships"><span class="outer"><span class="inner">Partnerships</span></span></a></li>
 <li class="expanded leaf-lvl-3 leaf-lvl-3-expanded has-children"><a href="/whoweare/whatwedo/awards"><span class="outer"><span class="inner">Awards</span></span></a><ul class="nominet-menu main-menu-lvl-4"><li class="leaf-lvl-4"><a href="/whoweare/whatwedo/awards/awards-received"><span class="outer"><span class="inner">Awards received</span></span></a></li>
@@ -132,9 +133,9 @@
 <li class="leaf-lvl-4"><a href="/whoweare/structure/board-members/simon-mccalla"><span class="outer"><span class="inner">Simon McCalla</span></span></a></li>
 <li class="leaf-lvl-4"><a href="/who-we-are/nominets-structure/board-members/dickie-armour"><span class="outer"><span class="inner">Dickie Armour</span></span></a></li>
 <li class="leaf-lvl-4"><a href="/who-we-are/nominets-structure/board-members/denesh-bhabuta"><span class="outer"><span class="inner">Denesh Bhabuta</span></span></a></li>
-<li class="leaf-lvl-4"><a href="/who-we-are/nominets-structure/board-members/oliver-hope"><span class="outer"><span class="inner">Oliver Hope</span></span></a></li>
-<li class="leaf-lvl-4"><a href="/who-we-are/nominets-structure/board-members/piers-white-mbe"><span class="outer"><span class="inner">Piers White MBE</span></span></a></li>
+<li class="leaf-lvl-4"><a href="/who-we-are/nominets-structure/board-members/andrew-pinder-cbe"><span class="outer"><span class="inner">Andrew Pinder CBE</span></span></a></li>
 <li class="leaf-lvl-4"><a href="/who-we-are/nominets-structure/board-members/david-thornton"><span class="outer"><span class="inner">David Thornton</span></span></a></li>
+<li class="leaf-lvl-4"><a href="/who-we-are/nominets-structure/board-members/piers-white-mbe"><span class="outer"><span class="inner">Piers White MBE</span></span></a></li>
 </ul></li>
 <li class="expanded leaf-lvl-3 leaf-lvl-3-expanded has-children"><a href="/whoweare/structure/board-documents"><span class="outer"><span class="inner">Board documents</span></span></a><ul class="nominet-menu main-menu-lvl-4"><li class="leaf-lvl-4"><a href="/whoweare/structure/board-documents/board-reports"><span class="outer"><span class="inner">Board reports</span></span></a></li>
 <li class="leaf-lvl-4"><a href="/whoweare/structure/board-documents/remuneration-committee-terms-reference"><span class="outer"><span class="inner">Remuneration Committee Terms of Reference</span></span></a></li>
@@ -186,9 +187,7 @@
 <li class="leaf-lvl-4"><a href="/uk-domain-names/registering-uk-domain/choosing-registrar/list-registrars"><span class="outer"><span class="inner">List of registrars</span></span></a></li>
 <li class="leaf-lvl-4"><a href="/uk-domain-names/registering-uk-domain/choosing-registrar/fees"><span class="outer"><span class="inner">Fees</span></span></a></li>
 </ul></li>
-<li class="expanded leaf-lvl-3 leaf-lvl-3-expanded has-children"><a href="/uk-domain-names/registering-uk-domain/legal-details"><span class="outer"><span class="inner">Legal Details</span></span></a><ul class="nominet-menu main-menu-lvl-4"><li class="leaf-lvl-4"><a href="/uk-domain-names/registering-uk-domain/legal-details/three-way-contract"><span class="outer"><span class="inner">Three-way contract</span></span></a></li>
-<li class="leaf-lvl-4"><a href="/uk-domain-names/registering-uk-domain/legal-details/terms-and-conditions-domain-name-registration"><span class="outer"><span class="inner">Terms and Conditions</span></span></a></li>
-</ul></li>
+<li class="leaf-lvl-3"><a href="/uk-domain-names/registering-uk-domain/legal-details/terms-and-conditions-domain-name-registration"><span class="outer"><span class="inner">Terms and Conditions</span></span></a></li>
 </ul></li>
 <li class="expanded leaf-lvl-2 leaf-lvl-2-expanded has-children"><a href="/uk-domain-names/manage-your-domain"><span class="outer"><span class="inner">Manage your domain</span></span></a><ul class="nominet-menu main-menu-lvl-3"><li class="leaf-lvl-3"><a href="/uk-domain-names/manage-your-domain/change-registrar"><span class="outer"><span class="inner">Change registrar</span></span></a></li>
 <li class="leaf-lvl-3"><a href="/uk-domain-names/manage-your-domain/change-details"><span class="outer"><span class="inner">Change details</span></span></a></li>
@@ -320,7 +319,7 @@
               <div id="maincontent">
                                 
     <!--views-view-->
-<div class="view-press-releases view-id-press_releases view-display-id-page view-dom-id-c6249d24cc030034c9463564025340e5">
+<div class="view-press-releases view-id-press_releases view-display-id-page view-dom-id-1662344474b6ea615832a652e64d0d8c">
         
   
   
@@ -464,7 +463,7 @@
   
       
   
-  <ul><li><a href="/sitemap">Sitemap</a></li><li><a href="/glossary">Glossary</a></li><li><a href="/uk-domain-names/about-domain-names/domain-lookup-whois">WHOIS Domain Search</a></li><li><a href="/feeds">Feeds</a></li><li><a href="https://secure.nominet.org.uk">Log in to Online Services</a></li><li><a href="/service-status">Service Status</a></li></ul>
+  <ul><li><a href="/sitemap">Sitemap</a></li><li><a href="/glossary">Glossary</a></li><li><a href="/uk-domain-names/about-domain-names/domain-lookup-whois">WHOIS Domain Search</a></li><li><a href="/feeds">Feeds</a></li><li><a href="https://secure.nominet.org.uk">Log in to Online Services</a></li><li><a href="http://registrars.nominet.org.uk/service-status">Service Status</a></li></ul>
   
 </div>
 <!--block-->
@@ -519,7 +518,7 @@
 <script src="http://www.nominet.org.uk/sites/default/files/js/js_IkgOrrVZK1UTp2HktvFi5vo1g7b25Muyr5GoySikuic.js"></script>
 <script src="http://www.nominet.org.uk/sites/default/files/js/js_rqKh3oFgrYBo4vyzOAUU0Z7HujJDAZ5NLSGOimSClI8.js"></script>
 <script src="http://www.nominet.org.uk/sites/default/files/js/js_IOmhg6-JowYGFTCqk_yiJU9GfC7T-KQYveeThoikMLA.js"></script>
-<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nominet","theme_token":"F7N93zrsE-k44xSP-8Pl01vAs3K4yjaMbnRvKjFxoFA","js":{"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.7.1\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/pullquote\/pullquote.js":1,"sites\/all\/themes\/nominet\/js\/jquery.flexslider-min.js":1,"sites\/all\/themes\/nominet\/js\/expandable_faq.js":1,"sites\/all\/themes\/nominet\/js\/whois-form.js":1,"sites\/all\/themes\/nominet\/js\/cookie.js":1,"sites\/all\/themes\/nominet\/js\/cookienotice.js":1,"sites\/all\/themes\/nominet\/js\/imgSizer.js":1,"sites\/all\/themes\/nominet\/js\/modernizr.min.js":1,"sites\/all\/themes\/nominet\/js\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/nominet\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/pullquote\/pullquote.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/normalize.css":1,"sites\/all\/themes\/nominet\/css\/style.css":1,"sites\/all\/themes\/nominet\/css\/print.css":1}}});</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nominet","theme_token":"bqnT1rZOl8gQKm9qIdgoGq0VTTWjUbT8cyFtVFs5lEg","js":{"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.7.1\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/pullquote\/pullquote.js":1,"sites\/all\/themes\/nominet\/js\/jquery.flexslider-min.js":1,"sites\/all\/themes\/nominet\/js\/expandable_faq.js":1,"sites\/all\/themes\/nominet\/js\/whois-form.js":1,"sites\/all\/themes\/nominet\/js\/cookie.js":1,"sites\/all\/themes\/nominet\/js\/cookienotice.js":1,"sites\/all\/themes\/nominet\/js\/imgSizer.js":1,"sites\/all\/themes\/nominet\/js\/modernizr.min.js":1,"sites\/all\/themes\/nominet\/js\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/nominet\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/pullquote\/pullquote.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/normalize.css":1,"sites\/all\/themes\/nominet\/css\/style.css":1,"sites\/all\/themes\/nominet\/css\/print.css":1}}});</script>
 
   
 <script type="text/javascript">

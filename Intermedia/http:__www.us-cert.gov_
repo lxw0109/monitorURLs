@@ -17,19 +17,19 @@
   <link type="text/css" rel="stylesheet" href="https://www.us-cert.gov/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
 <link type="text/css" rel="stylesheet" href="https://www.us-cert.gov/sites/default/files/css/css_kks40rXZIekzxPkBl2koq1z-IPAHpcOLm_fvKnh0FAA.css" media="all" />
 <link type="text/css" rel="stylesheet" href="https://www.us-cert.gov/sites/default/files/css/css_J1H_tw0GsvmNv_Q1X8kU1WiDl2n9HFQoRdSZhTQAHrU.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://www.us-cert.gov/sites/default/files/css/css_WXAlJekeuY_v7cTrU4V7AWLKpHlL3XSD7Ll3bhEJQSw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.us-cert.gov/sites/default/files/css/css_v7vWELwuhNf5_vvHlxo7VfPUBHg8WvM9ra1q9_3pqKg.css" media="all" />
 <link type="text/css" rel="stylesheet" href="https://www.us-cert.gov/sites/default/files/css/css_KCNZ7YudgplVMn0e5YXrEptF8K7nkEFZt5Yrs5EjYM0.css" media="all" />
   <script type="text/javascript" src="https://www.us-cert.gov/sites/default/files/js/js_TBaJiBP30OtNBLhvrbzACuPchHETC5DuBoV1nl-kgDM.js"></script>
 <script type="text/javascript" src="https://www.us-cert.gov/sites/default/files/js/js_agAWRfLuWVHOkjKsIENTYJn8TL6OIuv3IPO2NMBNZrM.js"></script>
 <script type="text/javascript" src="https://www.us-cert.gov/sites/default/files/js/js_t8qa7mYrHOy4nftRp7LJtXkgkxePCjx72dyL1YVCKNg.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.us-cert.gov/sites/default/files/googleanalytics/analytics.js?nprrsl","ga");ga("create", "UA-34879253-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.us-cert.gov/sites/default/files/googleanalytics/analytics.js?nrbbtd","ga");ga("create", "UA-34879253-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
 //--><!]]>
 </script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"uscert_gov_theme","theme_token":"QT8lEln3DOiLtWrzWaw1KkzWRkuM8bUAIutEvj71LME","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.datepicker.min.js":1,"profiles\/dhs_wcm\/modules\/contrib\/environment_indicator\/tinycon.min.js":1,"profiles\/dhs_wcm\/modules\/contrib\/environment_indicator\/environment_indicator.js":1,"profiles\/dhs_wcm\/modules\/contrib\/environment_indicator\/color.js":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/js\/uscert_webforms.js":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.js":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/js\/global.js":1,"profiles\/dhs_wcm\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"profiles\/dhs_wcm\/modules\/contrib\/environment_indicator\/environment_indicator.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/css\/uscert_webforms.css":1,"modules\/user\/user.css":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/dhs_wcm\/modules\/contrib\/views\/css\/views.css":1,"profiles\/dhs_wcm\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"public:\/\/ctools\/css\/332c34e410da79d301686687e5be1460.css":1,"public:\/\/ctools\/css\/20ea45f22426c83d60486d9f3dee21cc.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"sites\/default\/files\/css\/follow.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/css\/global.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"(\\.gov|\\.mil|\\.org.*|twitter\\.com\\\/share\\?url\\=.*|www\\.facebook\\.com\\\/sharer\\.php\\?u\\=.*|www\\.addthis\\.com\\\/bookmark\\.php\\?url\\=.*|javascript\\:window\\.print\\(\\)\\;)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"You are now leaving an official website of the United State Government (USG), the Department of Homeland Security (DHS) and the United States Computer Emergency Readiness Team (US-CERT). Links to non-USG, non-DHS and non-US-CERT sites are provided for the visitor\u0027s convenience and do not represent an endorsement by USG, DHS or US-CERT of any commercial or private issues, products or services. Note that the privacy policy of the linked site may differ from that of USG, DHS and US-CERT.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackCrossDomains":["us-cert.gov"]},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"uscert_gov_theme","theme_token":"TQpG9Qw-e9jKVDqOlRsZ8PPXIA8FTjLKo2aqBYMqZKY","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.datepicker.min.js":1,"profiles\/dhs_wcm\/modules\/contrib\/environment_indicator\/tinycon.min.js":1,"profiles\/dhs_wcm\/modules\/contrib\/environment_indicator\/environment_indicator.js":1,"profiles\/dhs_wcm\/modules\/contrib\/environment_indicator\/color.js":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/js\/uscert_webforms.js":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.js":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/js\/global.js":1,"profiles\/dhs_wcm\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"profiles\/dhs_wcm\/modules\/contrib\/environment_indicator\/environment_indicator.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/css\/uscert_webforms.css":1,"modules\/user\/user.css":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/dhs_wcm\/modules\/contrib\/views\/css\/views.css":1,"profiles\/dhs_wcm\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"public:\/\/ctools\/css\/332c34e410da79d301686687e5be1460.css":1,"public:\/\/ctools\/css\/20ea45f22426c83d60486d9f3dee21cc.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"sites\/default\/files\/css\/follow.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/css\/global.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"(\\.gov|\\.mil|\\.org.*|twitter\\.com\\\/share\\?url\\=.*|www\\.facebook\\.com\\\/sharer\\.php\\?u\\=.*|www\\.addthis\\.com\\\/bookmark\\.php\\?url\\=.*|javascript\\:window\\.print\\(\\)\\;)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"You are now leaving an official website of the United State Government (USG), the Department of Homeland Security (DHS) and the United States Computer Emergency Readiness Team (US-CERT). Links to non-USG, non-DHS and non-US-CERT sites are provided for the visitor\u0027s convenience and do not represent an endorsement by USG, DHS or US-CERT of any commercial or private issues, products or services. Note that the privacy policy of the linked site may differ from that of USG, DHS and US-CERT.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackCrossDomains":["us-cert.gov"]},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});
 //--><!]]>
 </script>
 <script language="javascript" id="_fed_an_ua_tag" type="text/javascript" src="https://analytics.usa.gov/dap/dap.min.js?agency=DHS&subagency=US-CERT&yt=true&sdor=true&dclink=false&aip=true&enhlink=false&autotracker=true&forcessl=false&optout=false&maincd=true&parallelcd=false"></script>
@@ -77,10 +77,9 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div id="search-container"><form accept-charset="UTF-8" action="http://search.us-cert.gov/search" id="search_form" method="get"><input name="utf8" type="hidden" value="✓" /><input id="affiliate" name="affiliate" type="hidden" value="us-cert" /><label for="query">Search query</label><input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text" /><input id="search-submit" name="commit" type="submit" value="Search" /> </form></div>
+      <div id="search-container"><form accept-charset="UTF-8" action="https://search.us-cert.gov/search" id="search_form" method="get"><input name="utf8" type="hidden" value="✓" /><input id="affiliate" name="affiliate" type="hidden" value="us-cert" /><label for="query">Search query</label><input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text" /><input id="search-submit" name="commit" type="submit" value="Search" /> </form></div>
 <style type="text/css">
 <!--/*--><![CDATA[/* ><!--*/
-
 .general-table {
         margin-bottom: 2px;
         margin-top: 2px;
@@ -123,6 +122,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 }
 
 }
+
 /*--><!]]>*/
 </style>    </div>
   </div>
@@ -156,7 +156,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view--current-activity view-id-_current_activity view-display-id-block_1 current-activity-homepage-block view-dom-id-b6c735393edc20de3948793dd75bd385">
+      <div class="view view--current-activity view-id-_current_activity view-display-id-block_1 current-activity-homepage-block view-dom-id-68ceae1ac0ac345c31447c589039974d">
             <div class="view-header">
       <div id="current-activity-header">
 <h2>
@@ -173,11 +173,11 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   
       <div class="view-content">
         <div class="views-row views-row-1 views-row-odd views-row-first">
-    <h3 class="entry-title"><span><a href="/ncas/current-activity/2015/06/12/OpenSSL-Patches-Multiple-Vulnerabilities">OpenSSL Patches Multiple Vulnerabilities</a></span></h3><div class="entry-date"><span>Published </span><span>Friday, June 12, 2015</span></div><div class="entry-description"><div><p>OpenSSL has released updates addressing multiple vulnerabilities, one of which allows a remote attacker to downgrade vulnerable TLS connections to 512-bit export-grade cryptography—an attack known as Logjam (<a href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-4000">CVE-2015-4000</a>). Exploitation of some of these vulnerabilities could allow the attacker to read and modify data passed over the connection.</p><p>Updates available include:</p></div></div><div class="views-field views-field-view-node read-more"><span class="field-content"><a href="/ncas/current-activity/2015/06/12/OpenSSL-Patches-Multiple-Vulnerabilities">Read Full Entry &raquo;</a></span></div>  </div>
+    <h3 class="entry-title"><span><a href="/ncas/current-activity/2015/07/20/Microsoft-Releases-Security-Update">Microsoft Releases Security Update</a></span></h3><div class="entry-date"><span>Published </span><span>Monday, July 20, 2015</span></div><div class="entry-description"><div><p>Microsoft has released a security update to address a critical vulnerability in Windows. Exploitation of this vulnerability may allow a remote attacker to take control of an affected system.</p><p>US-CERT encourages users and administrators to review Microsoft Security Bulletin <a href="http://technet.microsoft.com/en-us/library/security/MS15-078">MS15-078</a> and apply the necessary update.</p></div></div><div class="views-field views-field-view-node read-more"><span class="field-content"><a href="/ncas/current-activity/2015/07/20/Microsoft-Releases-Security-Update">Read Full Entry &raquo;</a></span></div>  </div>
   <div class="views-row views-row-2 views-row-even">
-    <h3 class="entry-title"><span><a href="/ncas/current-activity/2015/06/11/IC3-Issues-Alert-Gift-Card-Scams">IC3 Issues Alert on Gift Card Scams</a></span></h3><div class="entry-date"><span>Published </span><span>Thursday, June 11, 2015</span></div><div class="entry-description"><div><p>The Internet Crime Complaint Center (IC3) has released an alert warning consumers of fraud around the resale of gift cards. The secondary gift card market has grown in recent years, and criminal activity has been identified on sites facilitating such exchanges. When purchasing gift cards, look for reputable merchants who will ensure resold cards contain correct balances.</p></div></div><div class="views-field views-field-view-node read-more"><span class="field-content"><a href="/ncas/current-activity/2015/06/11/IC3-Issues-Alert-Gift-Card-Scams">Read Full Entry &raquo;</a></span></div>  </div>
+    <h3 class="entry-title"><span><a href="/ncas/current-activity/2015/07/14/Oracle-Releases-July-2015-Security-Advisory">Oracle Releases July 2015 Security Advisory</a></span></h3><div class="entry-date"><span>Published </span><span>Tuesday, July 14, 2015</span></div><div class="entry-description"><div><p>Oracle has released security fixes to address 193 vulnerabilities as part of its quarterly Critical Patch Update. Exploitation of some of these vulnerabilities may allow a remote attacker to take control of an affected system.</p><p>Users and administrators are encouraged to review the Oracle July 2015 <a href="http://www.oracle.com/technetwork/topics/security/cpujul2015-2367936.html#AppendixDB">Critical Patch Update</a> and apply the necessary updates.</p></div></div><div class="views-field views-field-view-node read-more"><span class="field-content"><a href="/ncas/current-activity/2015/07/14/Oracle-Releases-July-2015-Security-Advisory">Read Full Entry &raquo;</a></span></div>  </div>
   <div class="views-row views-row-3 views-row-odd views-row-last">
-    <h3 class="entry-title"><span><a href="/ncas/current-activity/2015/06/11/Cisco-IOS-XR-Denial-Service-Vulnerability">Cisco IOS XR Denial-of-Service Vulnerability</a></span></h3><div class="entry-date"><span>Published </span><span>Thursday, June 11, 2015</span></div><div class="entry-description"><div><p>Cisco has identified a vulnerability that could allow an unauthenticated remote attacker to cause a denial-of-service condition. The vulnerability is due to improper processing of malformed IPv6 packets carrying extension headers. A Cisco Carrier Routing System 3 (CRS-3) running a version of Cisco IOS XR software prior to 4.2.1 is affected by this vulnerability.</p><p>Users and administrators are encouraged to review the <a href="http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20150611-iosxr">Cisco Security Advisory</a> and apply the necessary updates.</p></div></div><div class="views-field views-field-view-node read-more"><span class="field-content"><a href="/ncas/current-activity/2015/06/11/Cisco-IOS-XR-Denial-Service-Vulnerability">Read Full Entry &raquo;</a></span></div>  </div>
+    <h3 class="entry-title"><span><a href="/ncas/current-activity/2015/07/14/Microsoft-Releases-July-2015-Security-Bulletin">Microsoft Releases July 2015 Security Bulletin</a></span></h3><div class="entry-date"><span>Published </span><span>Tuesday, July 14, 2015</span></div><div class="entry-description"><div><p>Microsoft has released 14 updates to address vulnerabilities in Microsoft Windows. Exploitation of some of these vulnerabilities could allow remote code execution or elevation of privileges.</p><p>US-CERT encourages users and administrators to review Microsoft Security Bulletins <a href="https://technet.microsoft.com/en-us/library/security/ms15-jul.aspx">MS15-058 and MS15-065 through MS15-077</a> and apply the necessary updates.</p></div></div><div class="views-field views-field-view-node read-more"><span class="field-content"><a href="/ncas/current-activity/2015/07/14/Microsoft-Releases-July-2015-Security-Bulletin">Read Full Entry &raquo;</a></span></div>  </div>
     </div>
   
   
@@ -228,7 +228,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view-announcements view-id-announcements view-display-id-block_1 announcements-homepage-block sidebar-widget sidebar-widget-green view-dom-id-3d539f44393094b5bd0b41f38d2f73bf">
+      <div class="view view-announcements view-id-announcements view-display-id-block_1 announcements-homepage-block sidebar-widget sidebar-widget-green view-dom-id-d6322eb305ec6f8fe60826b5f51ad776">
             <div class="view-header">
       <h3><a href="/announcements/">Announcements</a></h3>    </div>
   
@@ -261,7 +261,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view-recent-vulnerabilities-notes view-id-recent_vulnerabilities_notes view-display-id-block sidebar-widget sidebar-widget-orange recent-vulnerabilities-homepage view-dom-id-d76ce84b8a0582a57dd275c441842157">
+      <div class="view view-recent-vulnerabilities-notes view-id-recent_vulnerabilities_notes view-display-id-block sidebar-widget sidebar-widget-orange recent-vulnerabilities-homepage view-dom-id-e3bdf9369679d8130748d91609a21db7">
             <div class="view-header">
       <div id="recent-vulnerabilities"><h3><a href="http://www.kb.cert.org/vuls/">Recent Vulnerabilities</a></h3></div>    </div>
   
@@ -269,26 +269,26 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   
       <div class="view-content">
       <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
-  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/555984">VU#555984: Avigilon Control Center is vulnerable to path traversal</a></span>  </div>  
-  <span class="published">        <span>Wednesday, June 10, 2015 at 12:26 PM</span>  </span></li>
+  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/912036">VU#912036: N-Able RSMWinService contains hard coded security constants allowing decryption of domain administrator password</a></span>  </div>  
+  <span class="published">        <span>Monday, July 20, 2015 at 3:58 PM</span>  </span></li>
           <li class="views-row views-row-2 views-row-even">  
-  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/810572">VU#810572: CUPS print service allows privilege escalation</a></span>  </div>  
-  <span class="published">        <span>Tuesday, June 9, 2015 at 1:47 PM</span>  </span></li>
+  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/813631">VU#813631: Total Commander File Info plugin vulnerable to denial of service via an out-of-bounds read</a></span>  </div>  
+  <span class="published">        <span>Monday, July 20, 2015 at 10:59 AM</span>  </span></li>
           <li class="views-row views-row-3 views-row-odd">  
-  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/595884">VU#595884: Aptexx Resident Anywhere exposes sensitive account information</a></span>  </div>  
-  <span class="published">        <span>Monday, June 8, 2015 at 12:47 PM</span>  </span></li>
+  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/919604">VU#919604: Kaseya Virtual System Administrator contains multiple vulnerabilities</a></span>  </div>  
+  <span class="published">        <span>Monday, July 13, 2015 at 1:54 PM</span>  </span></li>
           <li class="views-row views-row-4 views-row-even">  
-  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/301788">VU#301788: Toshiba CHEC contains a hard-coded cryptographic key</a></span>  </div>  
-  <span class="published">        <span>Monday, June 8, 2015 at 9:48 AM</span>  </span></li>
+  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/918568">VU#918568: Adobe Flash ActionScript 3 BitmapData use-after-free vulnerability</a></span>  </div>  
+  <span class="published">        <span>Sunday, July 12, 2015 at 6:54 PM</span>  </span></li>
           <li class="views-row views-row-5 views-row-odd">  
-  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/924506">VU#924506: Toshiba 4690 OS contains an information disclosure vulnerability</a></span>  </div>  
-  <span class="published">        <span>Monday, June 8, 2015 at 9:48 AM</span>  </span></li>
+  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/338736">VU#338736: Adobe Flash ActionScript 3 opaqueBackground use-after-free vulnerability</a></span>  </div>  
+  <span class="published">        <span>Saturday, July 11, 2015 at 2:54 AM</span>  </span></li>
           <li class="views-row views-row-6 views-row-even">  
-  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/264092">VU#264092: McAfee ePolicy Orchestrator fails to properly validate SSL/TLS certificates</a></span>  </div>  
-  <span class="published">        <span>Thursday, June 4, 2015 at 1:47 PM</span>  </span></li>
+  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/103336">VU#103336: Windows Adobe Type Manager privilege escalation vulnerability</a></span>  </div>  
+  <span class="published">        <span>Wednesday, July 8, 2015 at 12:54 PM</span>  </span></li>
           <li class="views-row views-row-7 views-row-odd views-row-last">  
-  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/498348">VU#498348: Blue Coat SSL Visibility Appliance contains multiple vulnerabilities</a></span>  </div>  
-  <span class="published">        <span>Friday, May 29, 2015 at 3:47 PM</span>  </span></li>
+  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/253708">VU#253708: Grandsteam GXV3611_HD camera is vulnerable to SQL injection</a></span>  </div>  
+  <span class="published">        <span>Tuesday, July 7, 2015 at 2:26 PM</span>  </span></li>
       </ul></div>    </div>
   
   
@@ -338,7 +338,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       
   
   <div class="pane-content">
-    <div class="view view-us-cert-alerts view-id-us_cert_alerts view-display-id-block_2 view-dom-id-41809dd39ce50bc3cd81c93cc5762109">
+    <div class="view view-us-cert-alerts view-id-us_cert_alerts view-display-id-block_2 view-dom-id-5774af4d0d469ddc700df3f0539c2cdf">
             <div class="view-header">
       <div><img alt="Technical Alerts" src="/sites/default/files/images/tech-alert-icon.png" /></div>
 <h3>Alerts</h3>
@@ -348,14 +348,14 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   
       <div class="view-content">
       <div class="item-list">    <ul class="alerts-summary">          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="date">        <span>Jul 14</span>  </span>  
+  <span class="title">        <span><a href="/ncas/alerts/TA15-195A">Adobe Flash and Microsoft Windows Vulnerabilities</a></span>  </span></li>
+          <li class="views-row views-row-2 views-row-even">  
   <span class="date">        <span>Apr 30</span>  </span>  
   <span class="title">        <span><a href="/ncas/alerts/TA15-120A">Securing End-to-End Communications</a></span>  </span></li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <span class="date">        <span>Apr 29</span>  </span>  
   <span class="title">        <span><a href="/ncas/alerts/TA15-119A">Top 30 Targeted High Risk Vulnerabilities</a></span>  </span></li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <span class="date">        <span>Apr 15</span>  </span>  
-  <span class="title">        <span><a href="/ncas/alerts/TA15-105A">Simda Botnet</a></span>  </span></li>
       </ul></div>    </div>
   
   
@@ -380,7 +380,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       
   
   <div class="pane-content">
-    <div class="view view-bulletins view-id-bulletins view-display-id-block_1 view-dom-id-6cf41664e4d338183f751882ea03b8c5">
+    <div class="view view-bulletins view-id-bulletins view-display-id-block_1 view-dom-id-98d979cfca2abd96a69eaf3324ed35c9">
             <div class="view-header">
       <div><img alt="Bulletins" src="/sites/default/files/images/bulletin-icon.png" /></div>
 <h3>Bulletins</h3>
@@ -390,14 +390,14 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   
       <div class="view-content">
       <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
-  <span class="date">        Jun 08  </span>  
-  <span class="title">        <a href="/ncas/bulletins/SB15-159">Vulnerability Summary for the Week of June 1, 2015</a>  </span></li>
+  <span class="date">        Jul 20  </span>  
+  <span class="title">        <a href="/ncas/bulletins/SB15-201">Vulnerability Summary for the Week of July 13, 2015</a>  </span></li>
           <li class="views-row views-row-2 views-row-even">  
-  <span class="date">        Jun 01  </span>  
-  <span class="title">        <a href="/ncas/bulletins/SB15-152">Vulnerability Summary for the Week of May 25, 2015</a>  </span></li>
+  <span class="date">        Jul 13  </span>  
+  <span class="title">        <a href="/ncas/bulletins/SB15-194">Vulnerability Summary for the Week of July 6, 2015</a>  </span></li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <span class="date">        May 25  </span>  
-  <span class="title">        <a href="/ncas/bulletins/SB15-145">Vulnerability Summary for the Week of May 18, 2015</a>  </span></li>
+  <span class="date">        Jul 06  </span>  
+  <span class="title">        <a href="/ncas/bulletins/SB15-187">Vulnerability Summary for the Week of June 29, 2015</a>  </span></li>
       </ul></div>    </div>
   
   
@@ -421,7 +421,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       
   
   <div class="pane-content">
-    <div class="view view-us-cert-tips-page view-id-us_cert_tips_page view-display-id-block_1 view-dom-id-6439cf63872e04ac4130f7ceea202344">
+    <div class="view view-us-cert-tips-page view-id-us_cert_tips_page view-display-id-block_1 view-dom-id-0f93cc4e5d1fe28265ffedc507360c0f">
             <div class="view-header">
       <div><img alt="Tips" src="/sites/default/files/images/tip-icon.png" /></div>
 <h3>Tips</h3>
@@ -462,7 +462,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       
   
   <div class="pane-content">
-    <div class="view view-us-cert-security-publications-page view-id-us_cert_security_publications_page view-display-id-block_1 view-dom-id-959b6fe565c30f53df22f6e2f6c9d8dd">
+    <div class="view view-us-cert-security-publications-page view-id-us_cert_security_publications_page view-display-id-block_1 view-dom-id-323e8ce1eb08f648bde766489cead6fc">
             <div class="view-header">
       <img alt="Security Publications" src="/sites/default/files/images/techdoc-icon.png" /><h3>Technical Documents</h3>
 <p>In-depth articles that provide advice and summarize a variety of internet security topics.</p>    </div>

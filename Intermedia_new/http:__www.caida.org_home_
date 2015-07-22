@@ -318,6 +318,9 @@ padding: 0px 8px 2px 12px;
 <li>
 <a title="The IPv6 Evolution project" href="/projects/ipv6_evolution/">IPv6&nbsp;Evolution</a>
 </li>
+<li>
+<a title="The Spoofer project" href="http://spoofer.caida.org/">Spoofer</a>
+</li>
 </ul>
 </li>
 <li>
@@ -342,9 +345,6 @@ padding: 0px 8px 2px 12px;
 <a title="Named Data Networking project description and proposal" href="/funding/ndn-np/">Named Data Networking</a>
 </li>
 <li>
-<a title="DatCat: Metadata Management Software Tools to Support Cybersecurity Research and Development of Sustainable Cyberinfrastructure, project summary and proposal" href="/funding/sdci-datcat/">DatCat</a>
-</li>
-<li>
 <a title="Supporting Research and Development of Security Technologies through Network and Security Data Collection, project summary and description" href="/funding/predict/">PREDICT</a>
 </li>
 <li>
@@ -364,10 +364,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="/research/topology/hiddenmetricspaces/"><img title="We explore common properties of complex networks in order to find a general mechanism that would support a structural model of the network explaining the connection between network structure and function. Our proposed mechanism relies on the presence of a metric space hidden behind an observable network, referred to as the Hidden Metric Space (HMS). " alt="" height="250" width="300" src="/images/hiddenmetricspace_med.png"></a>
+<a href="/research/id-consumption/census-map/"><img title="A visualization of IPv4 address space. Using the results of a census taken by the LANDER project that probed every IPv4 address with an ICMP echo request (ping) packet, and mapping 1-dimensional IPv4 address space into a 2-dimensional image, the resultant census map can give some indication of how the Internet's IPv4 address space is being used." alt="" height="250" width="300" src="/research/id-consumption/census-map/images/20061108_med.png"></a>
 </div>
 <div class="captiontext">
-<a href="/research/topology/hiddenmetricspaces/">Hidden Metric Spaces</a>
+<a href="/research/id-consumption/census-map/">IPv4 Census Map (2007)</a>
 </div>
 <hr>
 <div class="captiontext">
@@ -411,9 +411,12 @@ padding: 0px 8px 2px 12px;
 <div class="rccontent">
 <table summary="CAIDA What's New main feed" class="feedtable">
 <tr>
-<td><a href="http://www.caida.org/publications/presentations/2015/bgpstream_ripe/" title="This slideset was presented at RIPE Meeting in May 2015.">"BGPStream - An Open Source Framework for Live/Historical BGP Data Analysis" slideset</a></td><td>May&nbsp;13</td>
+<td><a href="http://www.caida.org/publications/presentations/2015/creds_tool_clsi/" title="This slideset was presented at: Citizen Lab Summer Institute (June 2015)">Answering the Ethical Questions: Cyber Risk Ethics Decision Support (CREDS) Tool</a></td><td>Jul&nbsp;8</td>
 </tr>
 <tr class="zebra">
+<td><a href="http://www.caida.org/publications/presentations/2015/bgpstream_ripe/" title="This slideset was presented at RIPE Meeting in May 2015.">"BGPStream - An Open Source Framework for Live/Historical BGP Data Analysis" slideset</a></td><td>May&nbsp;13</td>
+</tr>
+<tr>
 <td><a href="http://www.caida.org/data/passive/passive_2015_dataset.xml" title="
  This dataset contains anonymized passive traffic traces from CAIDA's equinix-chicago monitor on high-speed Internet backbone links. This data is useful for research on the characteristics of Internet traffic, including application breakdown, security events, geographic and topological distribution, and flow volume and duration.
 
@@ -421,54 +424,51 @@ Starting with the 2014 dataset the yearly passive trace datasets will only conta
 
 Traffic traces in this dataset are anonymized using CryptoPan prefix-preserving anonymization. All traces in this dataset are anonymized with the same key. In addition, the payload has been removed from all packets.">CAIDA "Anonymized Internet Traces 2015 Dataset" dataset available</a></td><td>Apr&nbsp;7</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/workshops/aims/1503/" title="On March 31, 2015, CAIDA hosted the 7th workshop on Active Internet Measurements, a three-day workshop supporting science and policy.
 
 AIMS 2015 was by invitation only.
     ">AIMS 2015 Workshop on Active Internet Measurements</a></td><td><span style="white-space:nowrap;">Mar 31-Apr 2</span></td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/ipv6_as_relationships_pam/" title="This slideset was presented at the Passive and Active Network Measurement Workshop (PAM) in March 2015.">"IPv6 AS Relationships, Clique, and Congruence" slideset</a></td><td>Mar&nbsp;26</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/measuring_characterizing_ipv6_router_pam/" title="This slideset was presented at the  Passive and Active Network Measurement Workshop (PAM) in March 2015.">"Measuring and Characterizing IPv6 Router Availability" slideset</a></td><td>Mar&nbsp;25</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/mapping_technological_frontier_siliconflatirons/" title="This slideset was presented at the Silicon Flatirons Center meeting in February 2015.">"Mapping the Technological Frontier and Sources of Innovation" slideset</a></td><td>Feb&nbsp;11</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/workshops/ndn/1502/" title="The NDN-NP Project hosted the 5th NDN Retreat on February 5th-6th 2015 at the Weaver Conference Center, Malamud Room, Institute of the Americas, on the campus of the University of California at San Diego in La Jolla, CA.  The retreat was a closed invitation-only event for NDN participants.">5th NDN Retreat</a></td><td><span style="white-space:nowrap;">Feb 5-6</span></td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/predict_pi_jan/" title="This slideset was presented at: PREDICT PI (Jan 2015)">"DHS PREDICT Project: CAIDA Update" slideset</a></td><td>Jan&nbsp;27</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td style="background: center"></td><td align="left"><span class="yeartext">2014</span></td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2014/internet_topology_performance_analytics_dhs/" title="This slideset was presented at the DHS S&amp;T R&amp;D Showcase and Technical Workshop in December 2014.">"Internet topology and performance analytics for mapping critical network infrastructure" slideset</a></td><td>Dec&nbsp;19</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2014/mapping_interdomain_congestion_wie/" title="This slideset was presented at the 5th Workshop for Internet Economics (WIE 2014) in December 2014.">"Mapping Interdomain Congestion" slideset</a></td><td>Dec&nbsp;16</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/workshops/wie/1412/" title=" On December 10-11, 2014, CAIDA and the Massachusetts Institute of Technology (MIT) hosted the (invitation-only) 5th interdisciplinary Workshop on Internet Economics (WIE) at the University of California San Diego in La Jolla, CA.
 
 The goal of this workshop series is to provide a forum for researchers, commercial Internet facilities and service providers, technologists, economists, theorists, policy makers, and other stakeholders to empirically inform emerging regulatory and policy debates. 
 
 This workshop was by invitation only. Slidesets will be posted as they are made available.">5th Workshop on Internet Economics (WIE 2014)</a></td><td><span style="white-space:nowrap;">Dec 10-11</span></td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2014/inferring_complex_as_relationships_imc/" title="This slideset was presented at the ACM Internet Measurement Conference (IMC) in November 2014.">"Inferring Complex AS Relationships" slideset</a></td><td>Nov&nbsp;26</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2014/challenges_inferring_internet_interdomain_congestion_imc/" title="This slideset was presented at the ACM Internet Measurement Conference (IMC) in November 2014.">"Challenges in Inferring Internet Interdomain Congestion" slideset</a></td><td>Nov&nbsp;26</td>
 </tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/presentations/2014/internet_architecture_innovation_duke/" title="This slideset was presented at the Duke Law's Center for Innovation Policy: Internet Regulation in 2020 conference in October 2014.">"Internet Architecture Innovation: 2020 and 2030" slideset</a></td><td>Oct&nbsp;17</td>
-</tr>
 <tr>
-<td><a href="http://www.caida.org/publications/presentations/2014/dataset_comparison_ipv4_ipv6_oarc/" title="This slideset was prepared for the OARC 2014 Fall Workshop in October 2014.">"Dataset Comparison: IPv4 vs IPv6 traffic" slideset</a></td><td>Oct&nbsp;15</td>
+<td><a href="http://www.caida.org/publications/presentations/2014/internet_architecture_innovation_duke/" title="This slideset was presented at the Duke Law's Center for Innovation Policy: Internet Regulation in 2020 conference in October 2014.">"Internet Architecture Innovation: 2020 and 2030" slideset</a></td><td>Oct&nbsp;17</td>
 </tr>
 </table>
 </div>
@@ -486,19 +486,19 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 <div class="rccontent">
 <table summary="CAIDA Blog: According to the Best Available Data" class="feedtable">
 <tr>
+<td><a href="http://blog.caida.org/best_available_data/2015/07/20/panel-on-cyberwarfar-and-cyberattacks-at-9th-circuit-judicial-conference/" title="I had the honor of contributing to a panel on &amp;#8220;Cyberwarfare and cyberattacks: protecting ourselves within existing limitations&amp;#8221; at this year&amp;#8217;s 9th Circuit Judicial Conference. The panel moderator was Hon. Thomas M. Hardiman, and the other panelists were Professor Peter Cowhey, of UCSD&amp;#8217;s School of Global Policy and Strategy, and Professor and Lt. Col. Shane [&amp;#8230;]">Panel on Cyberwarfar and Cyberattacks at 9th Circuit Judicial Conference</a></td><td>Jul&nbsp;21</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://blog.caida.org/best_available_data/2015/07/01/comments-on-cybersecurity-research-and-development-strategic-plan/" title="An excerpt from a comment that David Clark and I wrote in response to Request for Information (RFI)-Federal Cybersecurity R&amp;#038;D Strategic Plan, posted by the National Science Foundation on 4/27/2015. The RFI asks &amp;#8220;What innovative, transformational technologies have the potential to enhance the security, reliability, resiliency, and trustworthiness of the digital infrastructure, and to protect [&amp;#8230;]">Comments on Cybersecurity Research and Development Strategic Plan</a></td><td>Jul&nbsp;2</td>
+</tr>
+<tr>
+<td><a href="http://blog.caida.org/best_available_data/2015/06/30/named-data-networking-next-phase-ndn-np-annual-report/" title="The Named Data Networking project recently published the NDN-NP annual report covering activities from May 2014 through April 2015. V. Jacobson, J. Burke, L. Zhang, B. Zhang, K. Claffy, C. Papadopoulos, T. Abdelzaher, L. Wang, J. Halderman, and P. Crowley, &amp;#8220;Named Data Networking Next Phase (NDN-NP) Project May 2014 &amp;#8211; April 2015 Annual Report&amp;#8221;, Tech. [&amp;#8230;]">Named Data Networking Next Phase (NDN-NP) Annual Report</a></td><td>Jul&nbsp;1</td>
+</tr>
+<tr class="zebra">
 <td><a href="http://blog.caida.org/best_available_data/2015/05/28/caida-takes-over-stewardship-of-spoofer-project-infrastructure/" title="Originally started by Rob Beverly while a graduate student at MIT, the Spoofer project attempts to measure the Internet&amp;#8217;s susceptibility to spoofed source address IP packets. From Rob&amp;#8217;s original project web page (now moved to CAIDA, see below): Malicious users capitalize on the ability to &amp;#8220;spoof&amp;#8221; source IP addresses for anonymity, indirection, targeted attacks and [&amp;#8230;]">CAIDA takes over stewardship of Spoofer Project infrastructure</a></td><td>May&nbsp;28</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://blog.caida.org/best_available_data/2015/05/19/workshop-on-internet-economics-wie2014-final-report/" title="The final report for our Workshop on Internet Economics (WIE2014) is available for viewing. The abstract: On December 10-11 2014, we hosted the 4th interdisciplinary Workshop on Internet Economics (WIE) at the UC San Diego&rsquo;s Supercomputer Center. This workshop series provides a forum for researchers, Internet facilities and service providers, technologists, economists, theorists, policy makers, [&amp;#8230;]">Workshop on Internet Economics (WIE2014) Final Report</a></td><td>May&nbsp;19</td>
-</tr>
-<tr>
-<td><a href="http://blog.caida.org/best_available_data/2015/04/01/rfc-7514-really-explicit-congestion-notification-recn/" title="I feel that somewhere up there Jon Postel is smiling about Matthew&amp;#8217;s RFC 7514, published today: The deployment of Explicit Congestion Notification (ECN) [RFC3168] remains stalled. While most operating systems support ECN, it is currently disabled by default because of fears that enabling ECN will break transport protocols. This document proposes a new ICMP message [&amp;#8230;]">RFC 7514 : Really Explicit Congestion Notification (RECN)</a></td><td>Apr&nbsp;2</td>
-</tr>
-<tr class="zebra">
-<td><a href="http://blog.caida.org/best_available_data/2015/02/13/mapping-the-technological-frontier-and-sources-of-innovation/" title="Last weekend I had the honor of participating in a conference on &amp;#8220;The Digital Broadband Migration: First Principles for a Twenty First Century Innovation Policy&amp;#8221; hosted by the Silicon Flatirons Center at the University of Colorado. David Clark and I kicked off a panel on the topic of &amp;#8220;Mapping the Technological Frontier and the Sources [&amp;#8230;]">Mapping the Technological Frontier and Sources of Innovation</a></td><td>Feb&nbsp;14</td>
-</tr>
-<tr>
-<td><a href="http://blog.caida.org/best_available_data/2015/01/13/report-from-the-1st-ndn-community-meeting-ndncomm/" title="The report for the 1st NDN Community Meeting (NDNcomm) is available online now. This report, &amp;#8220;The First Named Data Networking Community Meeting (NDNcomm)&amp;#8220;, is a brief summary of the first NDN Community Meeting held at UCLA in Los Angeles, California on September 4-5, 2014. The meeting provided a platform for the attendees from 39 institutions [&amp;#8230;]">Report from the 1st NDN Community Meeting (NDNcomm)</a></td><td>Jan&nbsp;13</td>
 </tr>
 </table>
 </div>
@@ -511,6 +511,19 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 <b class="rc0"></b><b class="rc1"></b><b class="rc2"></b><b class="rc3"></b>
 <div class="rccontent">
 <table summary="CAIDA What's New feed: New Papers" class="feedtable">
+<tr>
+<td><a href="http://www.caida.org/publications/papers/2015/hyperbolic_graph_generator/" title="R. Aldecoa, C. Orsini, and D. Krioukov, &quot;Hyperbolic graph generator&quot;, Computer Physics Communications, Jun 2015.">Hyperbolic graph generator</a></td><td>Jul&nbsp;8</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://www.caida.org/publications/papers/2015/network_mapping_replaying_hyperbolic/" title="F. Papadopoulos, C. Psomas, and D. Krioukov, &quot;Network Mapping by Replaying Hyperbolic Growth&quot;, IEEE/ACM Transactions on Networking, vol. 23, no. 1, pp. 198--211, Feb 2015.">Network Mapping by Replaying Hyperbolic Growth</a></td><td>Jul&nbsp;8</td>
+</tr>
+<tr>
+<td><a href="http://www.caida.org/publications/papers/2015/comments_cybersecurity_research_development/" title="Comment in response to Request for Information (RFI)-Federal Cybersecurity R&amp;D Strategic Plan, posted by the National Science Foundation on 4/27/2015.
+D. Clark and k. claffy, &quot;Comments on Cybersecurity Research and Development Strategic Plan&quot;, Federal Communications Commission (FCC) Commission Documents, Jun 2015.">Comments on Cybersecurity Research and Development Strategic Plan</a></td><td>Jun&nbsp;30</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://www.caida.org/publications/papers/2015/named_data_networking_2014-2015/" title="V. Jacobson, J. Burke, L. Zhang, B. Zhang, K. Claffy, C. Papadopoulos, T. Abdelzaher, L. Wang, J. Halderman, and P. Crowley, &quot;Named Data Networking Next Phase (NDN-NP) Project May 2014 - April 2015 Annual Report&quot;, Tech. rep., Named Data Networking (NDN), Jun 2015.">Named Data Networking Next Phase (NDN-NP) Project Annual Report</a></td><td>Jun&nbsp;29</td>
+</tr>
 <tr>
 <td><a href="http://www.caida.org/publications/papers/2015/how_dangerous_internet_scanning/" title="E. Raftopoulos, E. Glatz, X. Dimitropoulos, and A. Dainotti, &quot;How Dangerous Is Internet Scanning? A Measurement Study of the Aftermath of an Internet-Wide Scan&quot;, in Traffic Monitoring and Analysis Workshop (TMA), Apr 2015, vol. 9053, pp. 158--172.">How Dangerous Is Internet Scanning?</a></td><td>Jun&nbsp;12</td>
 </tr>
@@ -531,21 +544,6 @@ D. Clark and k. claffy, &quot;An Inventory of Aspirations for the Internet's fut
 </tr>
 <tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/first_ndncomm/" title="k. claffy, J. Polterock, A. Afanasyev, J. Burke, and L. Zhang, &quot;The First Named Data Networking Community Meeting (NDNcomm)&quot;, Tech. rep., Named Data Networking (NDN), Jan 2015. In submission to ACM SIGCOMM Computer Communication Review (CCR).">The First Named Data Networking Community Meeting (NDNcomm)</a></td><td>Jan&nbsp;13</td>
-</tr>
-<tr>
-<td><a href="http://www.caida.org/publications/papers/2014/world_on_ndn/" title="K. Shilton, J. Burke, k. claffy, C. Duan, and L. Zhang, &quot;A World on NDN: Affordances &amp; Implications of the Named Data Networking Future Internet Architecture&quot;, Tech. Rep. 18, Named Data Networking (NDN), Apr 2014.">A World on NDN: Affordances &amp; Implications of the Named Data Networking Future Internet Architecture</a></td><td>Jan&nbsp;8</td>
-</tr>
-<tr class="zebra">
-<td style="background: center"></td><td align="left"><span class="yeartext">2014</span></td>
-</tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/papers/2014/survey_end_to_end_mobile/" title="U. Goel, M. Wittie, K. Claffy, and A. Le, &quot;Survey of End-to-End Mobile Network Measurement Testbeds&quot;, Tech. rep., arXiv cs.NI/1411.5003, Nov 2014.">Survey of End-to-End Mobile Network Measurement Testbeds</a></td><td>Nov&nbsp;26</td>
-</tr>
-<tr>
-<td><a href="http://www.caida.org/publications/papers/2014/lost_in_space/" title="k. claffy, D. Clark, and M. Wittie, &quot;The 6th Workshop on Active Internet Measurements (AIMS6) Report&quot;, ACM SIGCOMM Computer Communication Review (CCR), vol. 44, no. 5, pp. 39--44, Oct 2014.">Lost in Space: Improving Inference of IPv4 Address Space Utilization</a></td><td>Oct&nbsp;27</td>
-</tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/papers/2014/aims6_report/" title="A. Dainotti, K. Benson, A. King, k. claffy, E. Glatz, X. Dimitropoulos, P. Richter, A. Finamore, and A. Snoeren, &quot;Lost in Space: Improving Inference of IPv4 Address Space Utilization&quot;, Tech. rep., Cooperative Association for Internet Data Analysis (CAIDA), Oct 2014.">The 6th Workshop on Active Internet Measurements (AIMS6) Report</a></td><td>Oct&nbsp;27</td>
 </tr>
 </table>
 </div>

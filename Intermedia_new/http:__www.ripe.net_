@@ -265,7 +265,7 @@
                                         <a href="https://www.ripe.net/manage-ips-and-asns/as-numbers/request-an-as-number">Request an AS Number</a>
                                     </li>
                                     <li>
-                                        <a href="https://www.ripe.net/manage-ips-and-asns/as-numbers/reassigning-as-numbers">Reassigning AS Numbers</a>
+                                        <a href="https://www.ripe.net/manage-ips-and-asns/as-numbers/reassigning-as-numbers">Reassigning Referenced AS Numbers</a>
                                     </li>
                                 </ul>
                             </div>
@@ -312,9 +312,6 @@
                                         <a href="https://www.ripe.net/manage-ips-and-asns/resource-management/certification">Resource Certification (RPKI)</a>
                                     </li>
                                     <li>
-                                        <a href="https://www.ripe.net/manage-ips-and-asns/resource-management/legacy-resources">Legacy Internet Resources</a>
-                                    </li>
-                                    <li>
                                         <a href="https://www.ripe.net/manage-ips-and-asns/resource-management/policy-implementation-status">Policy Implementation Status</a>
                                     </li>
                                     <li>
@@ -330,6 +327,20 @@
                                     </li>
                                     <li>
                                         <a href="https://www.ripe.net/manage-ips-and-asns/resource-transfers-and-mergers/listing">IPv4 Transfer Listing Service</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2">
+                                <a class="h6" href="https://www.ripe.net/manage-ips-and-asns/legacy-resources">Legacy Internet Resources</a>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.ripe.net/manage-ips-and-asns/legacy-resources/legacy-internet-resources-faqs">FAQ: Legacy Internet Resources</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.ripe.net/manage-ips-and-asns/legacy-resources/legacy-space-in-the-ripe-registry">Legacy space in the RIPE Registry </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.ripe.net/manage-ips-and-asns/legacy-resources/legacy-internet-resources-documentation">Documentation</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1061,26 +1072,26 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
-<a href="https://www.ripe.net/publications/news/industry-developments/eurodig-2015-ripe-ncc-report">
-<span class="Title">EuroDIG 2015: RIPE NCC Report</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date: 10 Jun 2015</span>
-</span>
-</a>
-</li>
-<li>
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
 <span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 09 Jun 2015</span>
+<span class="date nobreak byline_date">Publication date: 21 Jul 2015</span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://www.ripe.net/publications/news/industry-developments/report-on-the-wsis-forum-2015">
-<span class="Title">Report on the WSIS Forum 2015</span>
+<a href="https://www.ripe.net/publications/news/announcements/pre-november-2011-md5-passwords-for-maintainer-objects-removed-on-13-july-2015">
+<span class="Title">Pre-November 2011 MD5 Passwords for Maintainer Objects Removed on 13 July 2015</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 02 Jun 2015</span>
+<span class="date nobreak byline_date">Publication date: 13 Jul 2015</span>
+</span>
+</a>
+</li>
+<li>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/100th-and-101st-ripe-ncc-executive-board-meetings">
+<span class="Title">100th and 101st RIPE NCC Executive Board Meetings</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date: 09 Jul 2015</span>
 </span>
 </a>
 </li>
@@ -1122,7 +1133,7 @@
 <a href="https://www.ripe.net/participate/meetings/calendar/enog-10">
 <span class="Title">ENOG 10 / RIPE NCC Regional Meeting</span>
 <span class="item-details">
-<span class="date nobreak byline_date">12 Oct 2015 - 14 Oct 2015</span>
+<span class="date nobreak byline_date">13 Oct 2015 - 14 Oct 2015</span>
 <span class="location nobreak">Odessa, Ukraine</span>
 </span>
 </a>
@@ -1207,31 +1218,31 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
-<a href="https://labs.ripe.net/Members/marco_hogewoning/eurodig-2015-report" rel="nofollow">
-<span class="Title">EuroDIG 2015 Report by Corinne Cath</span>
+<a href="https://labs.ripe.net/Members/ggm/delta-v-gets-take-off-speed" rel="nofollow">
+<span class="Title">Delta-V Gets Take-off Speed</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>10 Jun 2015</span>
+                              <span>16 Jul 2015</span>
 </span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://labs.ripe.net/Members/cengiz_alaettinoglu/will-the-sidr-model-succeed-where-the-irr-model-failed" rel="nofollow">
-<span class="Title">Will the SIDR Model Succeed where the IRR Model Failed?</span>
+<a href="https://labs.ripe.net/Members/hugo_salgado/visualisation-of-a-new-node-in-lactld-anycast-service" rel="nofollow">
+<span class="Title">Visualisation of a New Node in LACTLD Anycast Service</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>09 Jun 2015</span>
+                              <span>10 Jul 2015</span>
 </span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://labs.ripe.net/Members/tarko_tikan/ipv6-deployment-in-estonia" rel="nofollow">
-<span class="Title">IPv6 Deployment in Estonia</span>
+<a href="https://labs.ripe.net/Members/gih/more-leaky-routes" rel="nofollow">
+<span class="Title">More Leaky Routes</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>04 Jun 2015</span>
+                              <span>03 Jul 2015</span>
 </span>
 </span>
 </a>
@@ -1255,16 +1266,6 @@
 </div>
 <div class="block_content">
 <div class="portlet collections margin-bottom grey-border">
-<ul class="collection_item">
-<li>
-<a href="https://www.ripe.net/support/service-announcements/billing-and-payments-maintenance">
-<span class="Title">Billing and Payments Maintenance</span>
-<span class="item-details">
-<span class="date nobreak byline_date">14 Jun 2015 10:00</span>
-</span>
-</a>
-</li>
-</ul>
 </div>
 </div>
 <div class="footer_link">
@@ -1300,8 +1301,8 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
-<a href="https://www.nro.net/news/aso-ac-selects-ron-da-silva-to-serve-on-seat-9-of-icann-board-of-directors" rel="nofollow">
-<span class="Title">ASO AC Selects Ron da Silva to Serve on Seat 9 of ICANN Board of Directors.</span>
+<a href="https://www.nro.net/news/ron-da-silva-resigns-from-nro-nc-aso-ac" rel="nofollow">
+<span class="Title">Ron da Silva Resigns from NRO NC /ASO AC</span>
 </a>
 </li>
 </ul>
@@ -1428,6 +1429,12 @@ $('#homepage .collections .collection li a').click(function(event){
    }
    _paq.push(['trackEvent', 'Click', homepage_block_title , homepage_block_text]);
 });
+
+$('body.subsection-training-learn-online-webinars a.blue-button').click(function(event){
+   var button_text = $(event.target).text();
+   _paq.push(['trackEvent', 'Click', 'WWW Training Buttons' , button_text]);
+});
+
 </script>
 <!-- End Piwik Code --> 
 

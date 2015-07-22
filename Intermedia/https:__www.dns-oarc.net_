@@ -9,16 +9,16 @@
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.dns-oarc.net/blogapi/rsd" />
 <link rel="alternate" type="application/rss+xml" title="DNS-OARC RSS" href="https://www.dns-oarc.net/node/feed" />
 <link rel="shortcut icon" href="/files/oarc-favicon.ico" type="image/x-icon" />
-   <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?m" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?m" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?m" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?m" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?m" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?m" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?m" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?m" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?m" />
-<link type="text/css" rel="stylesheet" media="all" href="/files/color/B7-194adb6f/style.css?m" />
+   <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?6" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?6" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?6" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?6" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?6" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?6" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?6" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?6" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?6" />
+<link type="text/css" rel="stylesheet" media="all" href="/files/color/B7-194adb6f/style.css?6" />
    </head>
 <body  >
 <div id="all">
@@ -46,7 +46,9 @@
 <p>
 <a href="/oarc/agreements">Joining and Participating in DNS-OARC</a></p>
 <p>
-<a href="https://indico.dns-oarc.net/event/21/timetable/#all.detailed" color="blue">DNS-OARC Spring 2015 Workshop Presentations</a></p>
+<a href="https://indico.dns-oarc.net/event/24" color="blue">DNS-OARC Montreal Fall 2015 Workshop</a></p>
+<p>
+<a href="https://indico.dns-oarc.net/event/21/timetable/#all.detailed">DNS-OARC Spring 2015 Workshop Presentations</a></p>
 <p>
 <a href="https://medium.com/@dnsoarc">Latest OARC Blog Posts</a></p>
 <p>
@@ -71,7 +73,8 @@
   <h2>Content Navigation</h2>
 
   <div class="content">
-    <ul class="menu"><li class="expanded first"><a href="/oarc/services" title="Services">Services</a><ul class="menu"><li class="leaf first"><a href="/oarc/services/odvr" title="Open DNSSEC Validating Resovler">ODVR</a></li>
+    <ul class="menu"><li class="expanded first"><a href="/oarc/services" title="Services">Services</a><ul class="menu"><li class="leaf first"><a href="https://lists.dns-oarc.net/mailman/listinfo" title="">OARC Mailing Lists</a></li>
+<li class="leaf"><a href="/oarc/services/odvr" title="Open DNSSEC Validating Resovler">ODVR</a></li>
 <li class="leaf"><a href="/oarc/services/porttest" title="Source port randomness test">Porttest</a></li>
 <li class="leaf"><a href="/oarc/projects/resolversharing">Resolver Sharing Project </a></li>
 <li class="leaf"><a href="/oarc/services/tldmon" title="TLDmon">TLDmon</a></li>
@@ -118,7 +121,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-y01q3jyaOQJGodUb6pnJ6u7cHAGyPeXErnZcvSfyVSI" value="form-y01q3jyaOQJGodUb6pnJ6u7cHAGyPeXErnZcvSfyVSI"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-eWxskdv1RXHp80SrOx86zTBARa59eiQWe2T6XxzCYbE" value="form-eWxskdv1RXHp80SrOx86zTBARa59eiQWe2T6XxzCYbE"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -135,7 +138,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-O8uvcVFfKGXlZqgJy7YleU1sN0hVd4R2kGKOIRSSdac" value="form-O8uvcVFfKGXlZqgJy7YleU1sN0hVd4R2kGKOIRSSdac"  />
+<input type="hidden" name="form_build_id" id="form-wWeCIMNH0ehj0KaNWTFGF5anTXXTtIzqm0JXWkGwpyE" value="form-wWeCIMNH0ehj0KaNWTFGF5anTXXTtIzqm0JXWkGwpyE"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -170,6 +173,27 @@
     Submitted by wessels on Thu, 2008-07-03 22:40          </div>
 </div>
 <div class="node  ">
+        <h2><a href=" /oarc/data/zfr/root " title=" Root Zone Archive "> Root Zone Archive </a></h2>
+     <div class="content">
+          <p>With the assistance of its members and friends (especially <a class="blue" href="http://www.afnic.fr/">AFNIC</a>,  <a class="blue" href="http://www.ripe.net">RIPE</a>,  Paul Vixie, Peter Koch and Paul Hoffman) DNS-OARC has assembled a historical archive of the DNS root zone dating back to June 1999.  This Root Zone Archive is a part of our larger project, the <a class="blue" href="/oarc/data/zfr">Zone File Repository</a>.</p>
+<h2>Root Zone Trends</h2>
+<p>The following graph shows trends in the contents of the root zone:</p>
+<p><center></center></p>
+<!--
+<a href="/files/zfr/root-zone-trends.png"><img src="/files/zfr/root-zone-trends.png" style="max-width:1062px;" width="100%"></a>
+(click for full size)
+--><!--
+<a href="/files/zfr/root-zone-trends.png"><img src="/files/zfr/root-zone-trends.png" style="max-width:1062px;" width="100%"></a>
+(click for full size)
+-->  </div>
+    <div class="info">
+    Submitted by admin on Tue, 2015-07-07 12:16          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
+</ul> ]</span>
+              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/oarc/data/zfr/root" title="Read the rest of Root Zone Archive.">Read more</a></li>
+</ul> </span>
+      </div>
+</div>
+<div class="node  ">
         <h2><a href=" /node/348 " title=" RSSAC 002 "> RSSAC 002 </a></h2>
      <div class="content">
           <p>ICANN's <a href="https://www.icann.org/resources/pages/rssac-4c-2012-02-25-en"> Root Server System Advisory Committee</a> has recently defined two standards, including <a href="https://www.icann.org/en/system/files/files/rssac-002-measurements-root-20nov14-en.pdf"> RSSAC 002 </a>, designed to obtain a baseline of the metrics for the Root Zone, specifically so that root operators can detect and mitigate any abnormalities in the performance of the DNS Root Server System as it continues to grow and develop.</p>
@@ -187,27 +211,6 @@
   </div>
     <div class="info">
     Submitted by Anonymous on Wed, 2015-03-25 23:45              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/ditl/2011" title="Read the rest of DITL Data Collection.">Read more</a></li>
-</ul> </span>
-      </div>
-</div>
-<div class="node  ">
-        <h2><a href=" /oarc/data/zfr/root " title=" Root Zone Archive "> Root Zone Archive </a></h2>
-     <div class="content">
-          <p>With the assistance of its members and friends (especially <a class="blue" href="http://www.afnic.fr/">AFNIC</a>,  <a class="blue" href="http://www.ripe.net">RIPE</a>,  Paul Vixie, Peter Koch and Paul Hoffman) DNS-OARC has assembled a historical archive of the DNS root zone dating back to July 1999.  This Root Zone Archive is a part of our larger project, the <a class="blue" href="/oarc/data/zfr">Zone File Repository</a>.</p>
-<h2>Root Zone Trends</h2>
-<p>The following graph shows trends in the contents of the root zone:</p>
-<p><center></center></p>
-<!--
-<a href="/files/zfr/root-zone-trends.png"><img src="/files/zfr/root-zone-trends.png" style="max-width:1062px;" width="100%"></a>
-(click for full size)
---><!--
-<a href="/files/zfr/root-zone-trends.png"><img src="/files/zfr/root-zone-trends.png" style="max-width:1062px;" width="100%"></a>
-(click for full size)
--->  </div>
-    <div class="info">
-    Submitted by admin on Mon, 2015-03-16 15:03          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
-</ul> ]</span>
-              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/oarc/data/zfr/root" title="Read the rest of Root Zone Archive.">Read more</a></li>
 </ul> </span>
       </div>
 </div>
@@ -385,9 +388,11 @@ Current open positions:</p>
 <a href="http://www.edgecast.com/">Verizon EdgeCast</a><br/>
 <p><center>Blue</center><a href="https://www.maawg.org/">M3AAWG</a><br/>
 <a href="http://www.nlnetlabs.nl/">NLnet Labs</a><br/>
-<p><center>Supporter</center><a href="http://www.ottix.net/">OTTIX</a><br/>
+<p><center>Supporter</center><a href="http://www.arc.nasa.gov/">NASA Ames</a><br/>
+<a href="http://www.ottix.net/">OTTIX</a><br/>
 <a href="http://www.tudelft.nl/">TUDelft Univ.</a><br/>
 <a href="http://www.ics.uci.edu/">UC Irvine</a><br/>
+<a href="https://www.utwente.nl">UTwente</a><br/>
 <a href="http://www.wide.ad.jp/">WIDE</a><br/>
 <p><center>Beneficial</center><a href="http://afrinic.net">AFRINIC</a><br/>
 <a href="http://www.caida.org/">CAIDA</a><br/>
@@ -397,7 +402,6 @@ Current open positions:</p>
 <a href="http://www.fsi.io">Farsight</a><br/>
 <a href="http://www.lacnic.net">LACNIC</a><br/>
 <a href="http://measurement-factory.com/">Measurement Factory</a><br/>
-<a href="http://www.arc.nasa.gov/">NASA Ames</a><br/>
 <a href="http://www.netnod.se/">Netnod</a><br/>
 <a href="https://nic.ar/">NIC.AR</a><br/>
 <a href="http://www.ntt.com/">NTT</a><br/>

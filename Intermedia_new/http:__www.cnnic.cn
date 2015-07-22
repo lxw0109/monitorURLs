@@ -212,7 +212,7 @@
 			      <li><a href="./cxwf/gs/" >.公司</a></li>
 			      <li><a href="./cxwf/wl/" >.网络</a></li>
 			      <li><a href="./cxwf/dnsjsyfw/" >DNS技术与服务</a></li>
-			      <li><a href="http://wx.cnnic.cn/" >网·信</a></li>                                
+			                                
                             </ul>
                             <!--[if lte IE 6]></td></tr></table></a><![endif]-->
                         </li> 
@@ -460,23 +460,23 @@ document.getElementById(imgArr[random]).style.display="block";
                         <ul>
 						   
 						   <li>						                           
-							   <a href="./gywm/xwzx/rdxw/2015/201506/t20150609_52380.htm"><img src="./gywm/xwzx/rdxw/2015/201506/W020150609648961196894.jpg" width="66" height="46"/></a>							 
+							   <a href="./gywm/xwzx/rdxw/2015/201507/t20150721_52613.htm"><img src="./gywm/xwzx/rdxw/2015/201507/W020150721425691375067.jpg" width="66" height="46"/></a>							 
                                 <dd class="thirdtitle" style="height:auto;font-size:12px;">
-                                    <a href="./gywm/xwzx/rdxw/2015/201506/t20150609_52380.htm">第二届国家网络安全宣传周闭幕  CNNIC获优秀专业机构展示案例</a>[06/09]</dd>
+                                    <a href="./gywm/xwzx/rdxw/2015/201507/t20150721_52613.htm">2015年CDNC年度会议在台北举行  “中文域名品牌保护服务”获关注</a>[07/21]</dd>
                                       						
                              </li>
 							   
 						   <li>						                           
-							   <a href="./gywm/xwzx/rdxw/2015/201506/t20150608_52353.htm"><img src="./gywm/xwzx/rdxw/2015/201506/W020150608346505681663.png" width="66" height="46"/></a>							 
+							   <a href="./gywm/xwzx/rdxw/2015/201507/t20150721_52612.htm"><img src="./gywm/xwzx/rdxw/2015/201507/W020150721420609128143.png" width="66" height="46"/></a>							 
                                 <dd class="thirdtitle" style="height:auto;font-size:12px;">
-                                    <a href="./gywm/xwzx/rdxw/2015/201506/t20150608_52353.htm">CNNIC与黑龙江网信办签订战略合作框架协议</a>[06/08]</dd>
+                                    <a href="./gywm/xwzx/rdxw/2015/201507/t20150721_52612.htm">CNNIC参加中文域名协调联合会2015年度会议</a>[07/21]</dd>
                                       						
                              </li>
 							   
 						   <li>						                           
-							   <a href="./gywm/xwzx/rdxw/2015/201506/t20150604_52254.htm"><img src="./gywm/xwzx/rdxw/2015/201506/W020150604556497659193.jpg" width="66" height="46"/></a>							 
+							   <a href="./gywm/xwzx/rdxw/2015/201507/t20150721_52610.htm"><img src="./gywm/xwzx/rdxw/2015/201507/W020150721408001386741.png" width="66" height="46"/></a>							 
                                 <dd class="thirdtitle" style="height:auto;font-size:12px;">
-                                    <a href="./gywm/xwzx/rdxw/2015/201506/t20150604_52254.htm">CNNIC两项国际PCT专利在中国、美国获得授权</a>[06/04]</dd>
+                                    <a href="./gywm/xwzx/rdxw/2015/201507/t20150721_52610.htm">CNNIC代表团参加第53届ICANN会议</a>[07/21]</dd>
                                       						
                              </li>
 							 
@@ -486,16 +486,16 @@ document.getElementById(imgArr[random]).style.display="block";
                     <div id="content_02" class="tzgg" style="height: 200px; overflow: hidden; display: none">
                         <ul>
 						                               
+                            <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201506/t20150619_52443.htm">CNNIC端午节放假通知</a>[06/19] 
+							</li> 
+						                               
+                            <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201506/t20150617_52424.htm">关于“.CN”及“.中国”（简繁体）DNSSEC密钥轮转的公告</a>[06/17] 
+							</li> 
+						                               
                             <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201505/t20150515_52209.htm">关于CNNIC进行系统升级维护的通知</a>[05/15] 
 							</li> 
 						                               
                             <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201504/t20150402_52050.htm">声明</a>[04/02] 
-							</li> 
-						                               
-                            <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201503/t20150325_52018.htm">关于媒体称“CNNIC发布用于中间人攻击证书”情况的声明</a>[03/25] 
-							</li> 
-						                               
-                            <li class="newxbt2"><a href="./gywm/xwzx/xwzxtzgg/201408/t20140819_47847.htm">“.公司”和“.网络”抢滩期注册及竞价规则</a>[08/19] 
 							</li> 
 						   
                         </ul>
@@ -1092,7 +1092,7 @@ scroll_70.Start(true);//开始滚动
                 | <a href="./gywm/cpyc/" target="_blank">诚聘英才</a>| <a href="./zddt/" target="_blank">
                     站点地图</a> | <a href="./gywm/gylxwm/" target="_blank">联系我们</a>
                 <br />
-                ICP备案编号：<a href="http://www.miitbeian.gov.cn/">京ICP备09112257号</a> 版权所有 中国互联网络信息中心</div>
+                ICP备案编号：<a href="http://www.miitbeian.gov.cn/">京ICP备15032509号-2</a> 版权所有 中国互联网络信息中心</div>
             <div class="right" style="line-height:26px; float:right">
                </a>
                 <a href="./zddt/201207/t20120724_32623.htm">

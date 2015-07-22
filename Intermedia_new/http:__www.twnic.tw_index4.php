@@ -429,7 +429,10 @@ MM_reloadPage(true);
                               <table border="0" cellpadding="0" cellspacing="0">
                                 <tr> 
                                   <td valign="top" width="22">
-            <tr><td></td><td>[公告]</td><td></td></tr><tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+            <tr><td></td><td>[公告]</td><td></td></tr><tr><td><img src="http://www.twnic.net.tw/img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="/NEWS/2231.pdf" target="_blank">
+「網域名稱申請同意書」及「網域名稱檢舉程序受理流程」修訂公告</a>(2015-06-22)</td></tr>
+<tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://www.gsnv6.tw/ipv6_104/" target="_blank">
 2015 IPv6教育訓練開始報名</a>(2015-04-15)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
@@ -531,13 +534,16 @@ MM_reloadPage(true);
                       <td><img src="http://www.twnic.net.tw/img/link.gif" width="135" height="21"></td>
                     </tr>
 <tr align="center">
+<td><a href="http://onestop.twnic.net.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/242.gif" border="0"></a></td>
+</tr>
+<tr align="center">
 <td><a href="http://2015.iwrite.twnic.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/238.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="http://www.myhome.net.tw/timeline  " target="_blank"><img src="http://www.twnic.net.tw/brarchive/235.gif" border="0"></a></td>
 </tr>
 <tr align="center">
-<td><a href="https://www.facebook.com/twnicNEWS/app_262457097152634" target="_blank"><img src="http://www.twnic.net.tw/brarchive/239.gif" border="0"></a></td>
+<td><a href="http://showking.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/243.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="http://www.twnic.net.tw/cp" target="_blank"><img src="http://www.twnic.net.tw/brarchive/234.gif" border="0"></a></td>

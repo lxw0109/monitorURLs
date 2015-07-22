@@ -153,7 +153,7 @@
 		<li><a href="/marketing-solutions">PlatformOne</a></li>
 		<li><a href="/services/onboarding">Data Onboarding</a></li>
 		<li><a href="/services/customer-intelligence">Customer Intelligence</a></li>
-		<li><a href="/services/targeting">Targeting</a></li>
+		<li><a href="/services/targeting">Activation</a></li>
 		<li><a href="/services/media-intelligence">Media Intelligence</a></li>
 	</ul>
 	</div>
@@ -230,7 +230,7 @@
 		<li><a href="/thetechnology">NPAC</a></li>
 		<li><a href="/about-us/neutrality">Neutrality</a></li>
 		<li><a href="/about-us/contact-us">Contact Us</a></li>
-		<li class="viewall"><a href="/customer-conference" target="_blank">Security Summit <img alt="" border="0" src="/base/img/ext-link.png" /></a></li>
+		<li class="viewall"><a href="/customer-conference" target="_blank">Marketing Summit <img alt="" border="0" src="/base/img/ext-link.png" /></a></li>
 	</ul>
 	</li>
 	<li class="tab clients"><a href="/clients">Client Success</a></li>
@@ -258,14 +258,8 @@
 <script type="text/javascript">
     dataLayer = [{
           "documentId": "14"
-        }];
-        dataLayer.push({
-        "Organization": "china network information center",
-        "Organization_type": "",
-        "NAICS": "",
-        "ISIC" : ""
-      });
-    </script>
+        }];    
+</script>
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-DG2P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>(function(w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -410,7 +404,7 @@ Email: <a href="mailto:PR@neustar.biz">PR@neustar.biz</a></p>
 	<li><a href="/marketing-solutions">Marketing Platform​</a></li>
 	<li><a href="/services/onboarding">Data Onboarding</a></li>
 	<li><a href="/services/customer-intelligence">Customer Intelligence</a></li>
-	<li><a href="/services/targeting">Targeting</a></li>
+	<li><a href="/services/targeting">Activation</a></li>
 	<li><a href="/services/media-intelligence">Media Intelligence</a></li>
 </ul>
 
@@ -454,7 +448,7 @@ Email: <a href="mailto:PR@neustar.biz">PR@neustar.biz</a></p>
 	<li><a href="/services/activation/audiences">AdAdvisor</a></li>
 	<li><a href="/services/customer-intelligence/segmentation">Customer Segmentation</a></li>
 	<li><a href="/services/ddos-protection/ddos-mitigation-technology">DDoS Mitigation</a></li>
-	<li><a href="/customer-conference" target="_blank">Security Summit</a></li>
+	<li><a href="/customer-conference" target="_blank">Marketing Summit</a></li>
 	<li><a href="/services/ip-intelligence">IP Intelligence</a></li>
 	<li><a href="/services/media-intelligence/closed-loop-marketing">Closed Loop Marketing</a></li>
 	<li><a href="/services/npac">NPAC</a></li>
@@ -561,7 +555,7 @@ $(document).keyup(function(e) {
 				return false;
 			});
 		});
-	</script><script>MktoForms2.whenReady(function (form){Neustar.visitorDataFormPopulator.populate();});</script>
+	</script>
 
 <div id="confirmform" style="visibility:hidden;">
 <h3>Thank You</h3>

@@ -11,11 +11,9 @@
 
 <link rel="stylesheet" href="/plugins/system/rokbox/themes/light/css-b518d664167dd795248190ff44b8159f.php" type="text/css" />
 
-<link rel="stylesheet" href="http://www.afrinic.net/modules/mod_djimageslider/assets/css-540f0f12386920efafb86270b540a97f.php" type="text/css" />
-
 <link rel="stylesheet" href="/css-2b390f7931f954bcd8e58980512ecffd.php" type="text/css" />
 
-<script type="text/javascript" src="/cache/js-04d6f939e932e5311ac4dfd258773564.php"></script>
+<script type="text/javascript" src="/cache/js-c59e57bf2ab9b8d305bb7d74e01971ae.php"></script>
 
 
 <meta name="google-site-verification" content="qIRMqWTy6jIBLwidIv8mG7gBYOPhtT4gi6J4vjI9Gfs" />
@@ -32,115 +30,6 @@
   <style type="text/css">
     <!--
 
-		/* Styles for DJ Image Slider with module id 326 */
-		#djslider-loader326 {
-			margin: 0 auto;
-			position: relative;
-			height: 269px; 
-			width: 500px;
-		}
-		#djslider326 {
-			margin: 0 auto;
-			position: relative;
-			height: 269px; 
-			width: 500px;
-			display: none;
-		}
-		#slider-container326 {
-			position: absolute;
-			overflow:hidden;
-			left: 0; 
-			top: 0;
-			height: 269px; 
-			width: 500px;			
-		}
-		#djslider326 ul#slider326 {
-			margin: 0 !important;
-			padding: 0 !important;
-			border: 0 !important;
-		}
-		#djslider326 ul#slider326 li {
-			list-style: none outside !important;
-			float: left;
-			margin: 0 !important;
-			border: 0 !important;
-			padding: 0 10px 0px 0 !important;
-			position: relative;
-			height: 269px;
-			width: 500px;
-			background: none;
-			overflow: hidden;
-		}
-		#slider326 li img {
-			width: 500px;
-			height: auto;
-			border: 0 !important;
-		}
-		#slider326 li a img, #slider326 li a:hover img {
-			border: 0 !important;
-		}
-		
-		/* Slide description area */
-		#slider326 .slide-desc {
-			position: absolute;
-			bottom: 0px;
-			left: 0px;
-			width: 500px;
-		}
-		#slider326 .slide-desc-in {
-			position: relative;
-		}
-		#slider326 .slide-desc-bg {
-			position:absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
-		#slider326 .slide-desc-text {
-			position: relative;
-		}
-		#slider326 .slide-desc-text h3 {
-			display: block !important;
-		}
-		
-		/* Navigation buttons */
-		#navigation326 {
-			position: relative;
-			top: 30px; 
-			margin: 0 5px;
-			text-align: center !important;
-		}
-		#prev326 {
-			cursor: pointer;
-			display: block;
-			position: absolute;
-			left: 0;
-			
-		}
-		#next326 {
-			cursor: pointer;
-			display: block;
-			position: absolute;
-			right: 0;
-			
-		}
-		#play326, 
-		#pause326 {
-			cursor: pointer;
-			display: block;
-			position: absolute;
-			left: 47%;
-			
-		}
-		#cust-navigation326 {
-			position: absolute;
-			top: 10px;
-			right: 10px;
-			z-index: 15;
-			display: none;
-		}
-		
 	div.wrapper { margin: 0 auto; width: 1000px;padding:0;}
 	#inset-block-left { width:0px;padding:0;}
 	#inset-block-right { width:0px;padding:0;}
@@ -163,7 +52,7 @@
     -->
   </style>
   <script type="text/javascript">
-window.addEvent('domready',function(){var Slider326 = new DJImageSlider({id: '326', slider_type: 0, slide_size: 510, visible_slides: 1, show_buttons: 1, show_arrows: 1, preload: 800},{auto: 1, transition: Fx.Transitions.Cubic.easeInOut, duration: 800, delay: 3800})});var rokboxPath = '/plugins/system/rokbox/';
+var rokboxPath = '/plugins/system/rokbox/';
 		        window.addEvent('domready', function() {
 					new Fusion('ul.menutop', {
 						pill: 1,
@@ -332,7 +221,7 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
       <!--Begin Banner Position-->
             <div class="banner-module">
         		<div class="moduletable">
-					<p><a href="http://afrinic.net/en/community/iana-oversight-transition" target="_blank"><img style="float: right;" alt="" src="http://afrinic.net/images/images/slides/attention_banner.svg" height="77" /></a><a href="http://www.internetsummitafrica.org" target="_blank"><img style="float: right;" alt="ais banner_1" src="/images/ais_banner_1.jpg" height="77" width="213" /></a></p>		</div>
+					<p><a href="http://afrinic.net/en/community/iana-oversight-transition" target="_blank"><img style="float: right;" alt="" src="http://afrinic.net/images/images/slides/attention_banner.svg" height="77" /></a></p>		</div>
 	
       </div>
             <!--End Banner Position-->
@@ -558,16 +447,6 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 		
 </li>	
 							
-					<li class="item173" >
-			<a class="orphan item bullet" href="/en/services/virtual-lab"  >
-			<span>
-		    			Virtual lab			   
-			</span>
-		</a>
-		
-		
-</li>	
-							
 					<li class="item76" >
 			<a class="orphan item bullet" href="/en/services/ipv6-programme"  >
 			<span>
@@ -656,26 +535,6 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 			<a class="orphan item bullet" href="/en/community/elections"  >
 			<span>
 		    			Elections			   
-			</span>
-		</a>
-		
-		
-</li>	
-							
-					<li class="item569" >
-			<a class="orphan item bullet" href="/en/community/bod-candidate-2015"  >
-			<span>
-		    			BoD Candidate			   
-			</span>
-		</a>
-		
-		
-</li>	
-							
-					<li class="item593" >
-			<a class="orphan item bullet" href="/en/community/pdwg-co-chair-election-2015"  >
-			<span>
-		    			PDWG-CC Candidates			   
 			</span>
 		</a>
 		
@@ -1192,43 +1051,7 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 	<table id="wrapper" align="center">
 <tbody>
 <tr>
-<td rowspan="2" align="left" valign="top">
-	<div id="djslider-loader326" class="djslider-loader">
-    <div id="djslider326" class="djslider">
-        <div id="slider-container326" class="slider-container">
-        	<ul id="slider326">
-          		          			<li>
-            										<a  href="http://afrinic.net/en/library/news/1415-afrinic-annual-audit-report-and-financial-statements-on-2014" target="_blank">
-													<img src="/images/stories/financeslide-01.png" alt="AFRINIC Annual Audit Report and Financial Statements on 2014" />
-													</a>
-												
-												
-						
-					</li>
-                          			<li>
-            										<a  href="https://apps.afrinic.net/nmrp/" target="_blank">
-													<img src="/images/stories/nmrp_banner.jpg" alt="NMRP Banner" />
-													</a>
-												
-												
-						
-					</li>
-                        	</ul>
-        </div>
-        <div id="navigation326" class="navigation-container">
-        	<img id="prev326" class="prev-button" src="http://www.afrinic.net//modules/mod_djimageslider/assets/prev.png" alt="Previous" />
-			<img id="next326" class="next-button" src="http://www.afrinic.net//modules/mod_djimageslider/assets/next.png" alt="Next" />
-			<img id="play326" class="play-button" src="http://www.afrinic.net//modules/mod_djimageslider/assets/play.png" alt="Play" />
-			<img id="pause326" class="pause-button" src="http://www.afrinic.net//modules/mod_djimageslider/assets/pause.png" alt="Pause" />
-        </div>
-		<div id="cust-navigation326" class="navigation-container-custom">
-							<span class="load-button load-button-active"></span>
-							<span class="load-button"></span>
-			        </div>
-    </div>
-	</div>
-	
-	<div style="clear: both"></div></td>
+<td rowspan="2" align="left" valign="top"><p><a href="http://afrinic.net/en/library/news/1415-afrinic-annual-audit-report-and-financial-statements-on-2014" target="_blank"><img alt="" src="/images/stories/financeslide-01.png" height="290" width="500" /></a></p></td>
 <td align="center" valign="middle"><a href="http://www.fireafrica.org" target="_blank"><img src="/images/stories/front_slide/box_fire.jpg" alt="box fire" width="178" height="88" /></a></td>
 </tr>
 <tr>
@@ -1291,17 +1114,14 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <div id="qaccordion1" class="qaccordion">
      	 <h3 class="acc-header">Latest News</h3>
   	 <div class="acc-content">
-      <p>5 June 2015</p>
-<p><a href="/en/library/news/1419-pdwg-new-co-chairs-selected">PDWG - New Co-Chairs selected</a></p>
-<p>5 June 2015</p>
-<p><a href="/en/library/news/1417-afrinic-board-elections-2015">AFRINIC Elects New Board Members</a></p>
-<p>3 June 2015</p>
-<p><a href="/en/library/news/1415-afrinic-annual-audit-report-and-financial-statements-on-2014">AFRINIC Annual Audit Report 2014</a></p>
+      <p>03 July 2015</p>
+<p><a href="/en/library/news/1425-dr-nii-quaynor-awarded-the-icann-multistakeholder-ethos-award-2015"></a></p>
+<p><a href="/en/library/news/1427-the-american-registry-for-internet-numbers-arin-has-announced-that-its-ipv4-inventory-is-now-exhausted">The American Registry for Internet Numbers (ARIN) Has Announced That its IPv4 Inventory is Now Exhausted</a></p>
 <hr />
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt557cd21b67bf4rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt55ad99ac43221rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1315,8 +1135,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt557cd21b67bf4"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt557cd21b67bf4rssscroller_module", options);
+					instanceId : "pgt55ad99ac43221"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt55ad99ac43221rssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);
@@ -1399,7 +1219,7 @@ google.setOnLoadCallback(loadFeedControl);
             <div class="block full">
         	<div class="">
 		<div class="moduletable">
-						<div><a href="/en/initiatives/dns-support" target="_blank"><img onmouseover="this.src='/images/ico/down_dns_support.png';" onmouseout="this.src='/images/ico/up_dns_support.png';" src="/images/ico/up_dns_support.png" alt="up dns_support" longdesc="Click here to learn more about our academical financial support" width="187" height="59" /></a><a href="/en/initiatives/resource-certification"><img onmouseover="this.src='/images/ico/down_RPKI_project.png';" onmouseout="this.src='/images/ico/up_RPKI_project.png';" src="/images/ico/up_RPKI_project.png" alt="up RPKI_project" width="187" height="59" /></a><a href="/en/initiatives/root-server-copy"><img onmouseover="this.src='/images/ico/down_root_server.png';" onmouseout="this.src='/images/ico/up_root_server.png';" src="/images/ico/up_root_server.png" alt="up root_server" width="187" height="59" /></a><a href="/en/initiatives/tinga-tinga" target="_blank"><img onmouseover="this.src='/images/ico/down_tinga_tinga.png';" onmouseout="this.src='/images/ico/up_tinga_tinga.png';" src="/images/ico/up_tinga_tinga.png" alt="up tinga_tinga" width="192" height="61" /><img onmouseover="this.src='/images/ico/down_nro.png';" onmouseout="this.src='/images/ico/up_nro.png';" src="/images/ico/up_nro.png" alt="up nro" width="192" height="61" /></a></div>		</div>
+						<div><a href="/en/initiatives/dns-support" target="_blank"><img onmouseover="this.src='/images/ico/down_dns_support.png';" onmouseout="this.src='/images/ico/up_dns_support.png';" alt="up dns_support" src="/images/ico/up_dns_support.png" height="59" width="187" /></a><a href="/en/initiatives/resource-certification" target="_blank"><img onmouseover="this.src='/images/ico/down_RPKI_project.png';" onmouseout="this.src='/images/ico/up_RPKI_project.png';" alt="up RPKI_project" src="/images/ico/up_RPKI_project.png" height="59" width="187" /></a><a href="/en/initiatives/root-server-copy" target="_blank"><img onmouseover="this.src='/images/ico/down_root_server.png';" onmouseout="this.src='/images/ico/up_root_server.png';" alt="up root_server" src="/images/ico/up_root_server.png" height="59" width="187" /></a><a href="/en/initiatives/tinga-tinga" target="_blank"><img onmouseover="this.src='/images/ico/down_tinga_tinga.png';" onmouseout="this.src='/images/ico/up_tinga_tinga.png';" alt="up tinga_tinga" src="/images/ico/up_tinga_tinga.png" height="61" width="192" /><img onmouseover="this.src='/images/ico/down_nro.png';" onmouseout="this.src='/images/ico/up_nro.png';" alt="up nro" src="/images/ico/up_nro.png" height="61" width="192" /></a></div>		</div>
 	</div>
 	
       </div>
@@ -1451,7 +1271,7 @@ google.setOnLoadCallback(loadFeedControl);
 </tr>
 <tr>
 <td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="/en/about-us/origins">Origins</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/about-us/our-structure">Structure</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/about-us/our-structure/bod">BoD</a></span><br /> <span style="font-size: 7pt;">–›<a href="/en/about-us/our-members">&nbsp;CoE</a></span><br /> <span style="font-size: 7pt;">–›<a href="/en/about-us/our-structure/our-team">&nbsp;Our Team</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/about-us/bylaws">Bylaws</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/agmm/1075">AGMM</a><br /> </span><span style="font-size: 7pt;"><a href="/en/about-us/our-members">Our Members</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/partners-support">Partners &amp; Support&nbsp;</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/career">Careers</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/branding">Branding</a></span><br /> <span style="font-size: 7pt;"><a href="/en/about-us/contact-us">Contact us<br /> </a><a href="/en/about-us/office-hours">Office hours<br /> </a></span></td>
-<td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="/en/services/rs/121">Registration services</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/membership-eligibility">Membership eligibility</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/membership-types">Membership types</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/membership-fees">Membership fees</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/online-payment">Online Payment</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/rsa">RSA</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/services/whois-query?view=whois">Whois</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/statistics">Statistics</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/training">Training</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/virtual-lab">Virtual lab</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/ipv6-programme">IPv6 programme</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/ip-tools">IP utilities</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/peering">Peering</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/bpki/916">BPKI</a></span><span style="font-size: 7pt;"><br /> <a href="/en/services/afrinic-irr">AFRINIC IRR</a><br /> </span></td>
+<td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="/en/services/rs/121">Registration services</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/membership-eligibility">Membership eligibility</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/membership-types">Membership types</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/membership-fees">Membership fees</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/online-payment">Online Payment</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/services/rs/rsa">RSA</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/services/whois-query?view=whois">Whois</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/statistics">Statistics</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/training">Training</a></span><br /> <span style="font-size: 7pt;"><a href="/en/component/content/159">Virtual lab</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/ipv6-programme">IPv6 programme</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/ip-tools">IP utilities</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/peering">Peering</a></span><br /> <span style="font-size: 7pt;"><a href="/en/services/bpki/916">BPKI</a></span><span style="font-size: 7pt;"><br /> <a href="/en/services/afrinic-irr">AFRINIC IRR</a><br /> </span></td>
 <td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="/en/community/afrinic-events">AFRINIC events</a></span><br /> <span style="font-size: 7pt;">–› <a href="http://www.afrinic.net/en/community/afrinic-events/events-calendar">Events calendar</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/sponsorship">Sponsorship</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/fellowship">Fellowship</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/presentation-guide">Presentation guides</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/events-archive">Events archive</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/afrinic-events/official-visits">Official Visits</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/community/policy-development">Policy Developement.</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/policy-development/policy-support-guides">Policy support guides</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/policy-development/policy-proposals/89">Policy proposals</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/policy-development/pdwg">PDWG</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/community/elections">Elections.</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/bod-election">BOD election</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/pdwg-election">PDWG election</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/nro-aso-election">NRO-NC/ ASO-AC election</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/afrinic-nomcom">AFRINIC NomCom</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/elections/voting">Voting</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/community/email-a-mailing-lists">BoD Candidates 2015</a></span><br /><br /> <span style="font-size: 7pt;"><a href="/en/community/email-a-mailing-lists">PDWG Co-Chair Candidates 2015</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/community/email-a-mailing-lists">Email &amp; Mailing Lists</a></span><br /> <span style="font-size: 7pt;"><br /> <a href="/en/component/content/category/237">IANA Oversight</a> </span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/community/ipv4-exhaustion">IPv4 Exhaustion</a></span><br /> <span style="font-size: 7pt;"><br /> <a href="/en/community/ig/intro/1031">Internet Governance</a><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/889">Technical Community</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/888">NRO and ASO</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/1039">IANA Globalisation</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/1035">IGF</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/893">AF*</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/1041">WCIT</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/component/content/1033">IG Stakeholders</a></span></span></td>
 <td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="/en/library/news">News &amp; Publications</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/news/press">Press release</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/news/our-factsheets">Factsheets</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/library/policies">Policies</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/policies/current">Current</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/community/policy-development/policy-proposals/89">Proposals</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/policies/archive">Archive</a></span><br /> <br /> <span style="font-size: 7pt;">Documents</span><br /> <span style="font-size: 7pt;">–›<a href="/en/library/membership-documents/224"> Members support</a></span><br /> <span style="font-size: 7pt;">–› <a href="/en/library/corporate-documents">Corporate</a></span><br /> <span style="font-size: 7pt;">–›<a href="http://learn.afrinic.net/index.php/resources"> Training materials</a></span><br /> <br /> <span style="font-size: 7pt;"><a href="/en/library/cfc">Call for Comments</a></span></td>
 <td style="vertical-align: top;"><span style="font-size: 7pt;"><a href="/en/initiatives/resource-certification">Resource Certification</a></span><br /> <span style="font-size: 7pt;"><a href="/en/initiatives/dnssec">DNSSec</a></span><br /> <span style="font-size: 7pt;"><a href="/en/initiatives/root-server-copy" target="_self">Root Server Copy</a></span><br /> <span style="font-size: 7pt;"><a href="/en/initiatives/dns-support">DNS Support</a></span><span style="font-size: 7pt;"><br /> </span><span style="font-size: 7pt;"><a href="/en/initiatives/tinga-tinga">Ting'a Ting'a</a></span><span style="font-size: 7pt;"><br /> </span></td>
@@ -1483,7 +1303,7 @@ google.setOnLoadCallback(loadFeedControl);
 			<!-- Piwik -->
 			<a href="http://piwik.org" title="Web analytics api" onclick="window.open(this.href);return(false);">
 			<script type="text/javascript">
-			var pkBaseURL = (("https:" == document.location.protocol) ? "https://webstats02.jnb.afrinic.net" : "http://webstats02.jnb.afrinic.net");
+			var pkBaseURL = (("https:" == document.location.protocol) ? "https://webstats02.jnb.afrinic.net/" : "http://webstats02.jnb.afrinic.net/");
 			document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
 			</script><script type="text/javascript">
 			piwik_action_name = '';
@@ -1491,7 +1311,7 @@ google.setOnLoadCallback(loadFeedControl);
 			piwik_url = pkBaseURL + "piwik.php";
 			piwik_log(piwik_action_name, piwik_idsite, piwik_url);
 			</script>
-			<object><noscript><p>Web analytics api <img src="http://webstats02.jnb.afrinic.netpiwik.php" style="border:0" alt=""/></p></noscript></object></a>
+			<object><noscript><p>Web analytics api <img src="http://webstats02.jnb.afrinic.net/piwik.php" style="border:0" alt=""/></p></noscript></object></a>
 			<!-- End Piwik Tag -->
 			</body>
 </html>

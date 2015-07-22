@@ -228,7 +228,7 @@
 			      <li><a href="../../../cxwf/gs/" >.公司</a></li>
 			      <li><a href="../../../cxwf/wl/" >.网络</a></li>
 			      <li><a href="../../../cxwf/dnsjsyfw/" >DNS技术与服务</a></li>
-			      <li><a href="http://wx.cnnic.cn/" >网·信</a></li>                                
+			                                
                             </ul>
                             <!--[if lte IE 6]></td></tr></table></a><![endif]-->
                         </li> 
@@ -376,7 +376,7 @@
                             <a href="../../aqzxtjbg/">统计报告</a></div>
                         <div class="parent" onclick="showMenu(4)">
                             <a href="#">国家域名安全联盟</a></div>
-                           <div id="child4" class="child" style="display: inline;">
+                           <div id="child5" class="child" style="display: inline;">
                             <div class="item">
                                 <a href="../../gjymaqlm/gjymaqlmjj/">联盟简介</a></div>
                             <div class="item">
@@ -385,6 +385,8 @@
                                 <a href="../../gjymaqlm/gjymaqlmcy/">联盟成员</a></div>
                             <div class="item">
                                 <a href="../../gjymaqlm/gjymaqsqjr/">申请加入</a></div>
+                            <div class="item">
+                                <a href="../../gjymaqlm/lmfw/">联盟服务</a></div>
                         </div>
                         <div class="parent" onclick="showMenu(5)">
                             <a href="../../aqzxwxbz/">文献标准</a></div>
@@ -519,7 +521,7 @@
                 | <a href="../../../gywm/cpyc/" target="_blank">诚聘英才</a>| <a href="../../../zddt/" target="_blank">
                     站点地图</a> | <a href="../../../gywm/gylxwm/" target="_blank">联系我们</a>
                 <br />
-                ICP备案编号：<a href="http://www.miitbeian.gov.cn/">京ICP备09112257号</a> 版权所有 中国互联网络信息中心</div>
+                ICP备案编号：<a href="http://www.miitbeian.gov.cn/">京ICP备15032509号-2</a> 版权所有 中国互联网络信息中心</div>
             <div class="right" style="line-height:26px; float:right">
                </a>
                 <a href="../../../zddt/201207/t20120724_32623.htm">
