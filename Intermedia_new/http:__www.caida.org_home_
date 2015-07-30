@@ -143,7 +143,7 @@ padding: 0px 8px 2px 12px;
 <a title="A summary of CAIDA's research goals and plans" href="/home/about/progplan/progplan2014/">Program&nbsp;Plan</a>
 </li>
 <li>
-<a title="A report on CAIDA research initiatives, project progress and results, etc." href="/home/about/annualreports/2013/">Annual&nbsp;Report</a>
+<a title="A report on CAIDA research initiatives, project progress and results, etc." href="/home/about/annualreports/2014/">Annual&nbsp;Report</a>
 </li>
 <li>
 <a title="Becoming a CAIDA member" href="/home/about/joining/">Joining CAIDA</a>
@@ -364,10 +364,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="/research/id-consumption/census-map/"><img title="A visualization of IPv4 address space. Using the results of a census taken by the LANDER project that probed every IPv4 address with an ICMP echo request (ping) packet, and mapping 1-dimensional IPv4 address space into a 2-dimensional image, the resultant census map can give some indication of how the Internet's IPv4 address space is being used." alt="" height="250" width="300" src="/research/id-consumption/census-map/images/20061108_med.png"></a>
+<a href="http://imdc.datcat.org/"><img title="DatCat: The Internet Measurement Data Catalog" alt="" height="250" width="300" src="/images/logo_datcat_med.png"></a>
 </div>
 <div class="captiontext">
-<a href="/research/id-consumption/census-map/">IPv4 Census Map (2007)</a>
+<a href="http://imdc.datcat.org/">DatCat</a>
 </div>
 <hr>
 <div class="captiontext">
@@ -486,19 +486,19 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 <div class="rccontent">
 <table summary="CAIDA Blog: According to the Best Available Data" class="feedtable">
 <tr>
-<td><a href="http://blog.caida.org/best_available_data/2015/07/20/panel-on-cyberwarfar-and-cyberattacks-at-9th-circuit-judicial-conference/" title="I had the honor of contributing to a panel on &amp;#8220;Cyberwarfare and cyberattacks: protecting ourselves within existing limitations&amp;#8221; at this year&amp;#8217;s 9th Circuit Judicial Conference. The panel moderator was Hon. Thomas M. Hardiman, and the other panelists were Professor Peter Cowhey, of UCSD&amp;#8217;s School of Global Policy and Strategy, and Professor and Lt. Col. Shane [&amp;#8230;]">Panel on Cyberwarfar and Cyberattacks at 9th Circuit Judicial Conference</a></td><td>Jul&nbsp;21</td>
+<td><a href="http://blog.caida.org/best_available_data/2015/07/22/caidas-annual-report-for-2014/" title="[Executive Summary from our annual report for 2014:] This annual report covers CAIDA&amp;#8217;s activities in 2014, summarizing highlights from our research, infrastructure, data-sharing and outreach activities. Our research projects span Internet topology, routing, traffic, security and stability, future Internet architecture, economics and policy. Our infrastructure activities support measurement-based Internet studies, both at CAIDA and around [&amp;#8230;]">CAIDA&rsquo;s Annual Report for 2014</a></td><td>Jul&nbsp;23</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://blog.caida.org/best_available_data/2015/07/20/panel-on-cyberwarfar-and-cyberattacks-at-9th-circuit-judicial-conference/" title="I had the honor of contributing to a panel on &amp;#8220;Cyberwarfare and cyberattacks: protecting ourselves within existing limitations&amp;#8221; at this year&amp;#8217;s 9th Circuit Judicial Conference. The panel moderator was Hon. Thomas M. Hardiman, and the other panelists were Professor Peter Cowhey, of UCSD&amp;#8217;s School of Global Policy and Strategy, and Professor and Lt. Col. Shane [&amp;#8230;]">Panel on Cyberwarfare and Cyberattacks at 9th Circuit Judicial Conference</a></td><td>Jul&nbsp;21</td>
+</tr>
+<tr>
+<td><a href="http://blog.caida.org/best_available_data/2015/07/02/whats-in-a-ranking-comparing-dyns-bakers-dozen-and-caidas-as-rank/" title="The Internet infrastructure is composed of thousands of independent networks (Autonomous Systems, or ASes) that engage in typically voluntary bilateral interconnection (&amp;#8220;peering&amp;#8221;) agreements to provide reachability to each other. Underlying these peering relationships, are business relationships between networks, although whether and how much money ASes exchange when they interconnect is not generally published. Some of [&amp;#8230;]">What&rsquo;s in a Ranking? comparing Dyn&rsquo;s Baker&rsquo;s Dozen and CAIDA&rsquo;s AS Rank</a></td><td>Jul&nbsp;3</td>
 </tr>
 <tr class="zebra">
 <td><a href="http://blog.caida.org/best_available_data/2015/07/01/comments-on-cybersecurity-research-and-development-strategic-plan/" title="An excerpt from a comment that David Clark and I wrote in response to Request for Information (RFI)-Federal Cybersecurity R&amp;#038;D Strategic Plan, posted by the National Science Foundation on 4/27/2015. The RFI asks &amp;#8220;What innovative, transformational technologies have the potential to enhance the security, reliability, resiliency, and trustworthiness of the digital infrastructure, and to protect [&amp;#8230;]">Comments on Cybersecurity Research and Development Strategic Plan</a></td><td>Jul&nbsp;2</td>
 </tr>
 <tr>
 <td><a href="http://blog.caida.org/best_available_data/2015/06/30/named-data-networking-next-phase-ndn-np-annual-report/" title="The Named Data Networking project recently published the NDN-NP annual report covering activities from May 2014 through April 2015. V. Jacobson, J. Burke, L. Zhang, B. Zhang, K. Claffy, C. Papadopoulos, T. Abdelzaher, L. Wang, J. Halderman, and P. Crowley, &amp;#8220;Named Data Networking Next Phase (NDN-NP) Project May 2014 &amp;#8211; April 2015 Annual Report&amp;#8221;, Tech. [&amp;#8230;]">Named Data Networking Next Phase (NDN-NP) Annual Report</a></td><td>Jul&nbsp;1</td>
-</tr>
-<tr class="zebra">
-<td><a href="http://blog.caida.org/best_available_data/2015/05/28/caida-takes-over-stewardship-of-spoofer-project-infrastructure/" title="Originally started by Rob Beverly while a graduate student at MIT, the Spoofer project attempts to measure the Internet&amp;#8217;s susceptibility to spoofed source address IP packets. From Rob&amp;#8217;s original project web page (now moved to CAIDA, see below): Malicious users capitalize on the ability to &amp;#8220;spoof&amp;#8221; source IP addresses for anonymity, indirection, targeted attacks and [&amp;#8230;]">CAIDA takes over stewardship of Spoofer Project infrastructure</a></td><td>May&nbsp;28</td>
-</tr>
-<tr>
-<td><a href="http://blog.caida.org/best_available_data/2015/05/19/workshop-on-internet-economics-wie2014-final-report/" title="The final report for our Workshop on Internet Economics (WIE2014) is available for viewing. The abstract: On December 10-11 2014, we hosted the 4th interdisciplinary Workshop on Internet Economics (WIE) at the UC San Diego&rsquo;s Supercomputer Center. This workshop series provides a forum for researchers, Internet facilities and service providers, technologists, economists, theorists, policy makers, [&amp;#8230;]">Workshop on Internet Economics (WIE2014) Final Report</a></td><td>May&nbsp;19</td>
 </tr>
 </table>
 </div>
@@ -512,38 +512,38 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 <div class="rccontent">
 <table summary="CAIDA What's New feed: New Papers" class="feedtable">
 <tr>
-<td><a href="http://www.caida.org/publications/papers/2015/hyperbolic_graph_generator/" title="R. Aldecoa, C. Orsini, and D. Krioukov, &quot;Hyperbolic graph generator&quot;, Computer Physics Communications, Jun 2015.">Hyperbolic graph generator</a></td><td>Jul&nbsp;8</td>
+<td><a href="http://www.caida.org/publications/papers/2015/leveraging_ipv4ipv6_identity_duality/" title="I. Livadariu, S. Ferlin, O. Alay, T. Dreibholz, A. Dhamdhere, and A. Elmokashfi, &quot;Leveraging the IPv4/IPv6 Identity Duality by using Multi-Path Transport&quot;, Apr 2015.">Leveraging the IPv4/IPv6 Identity Duality by using Multi-Path Transport</a></td><td>Jul&nbsp;21</td>
 </tr>
 <tr class="zebra">
-<td><a href="http://www.caida.org/publications/papers/2015/network_mapping_replaying_hyperbolic/" title="F. Papadopoulos, C. Psomas, and D. Krioukov, &quot;Network Mapping by Replaying Hyperbolic Growth&quot;, IEEE/ACM Transactions on Networking, vol. 23, no. 1, pp. 198--211, Feb 2015.">Network Mapping by Replaying Hyperbolic Growth</a></td><td>Jul&nbsp;8</td>
+<td><a href="http://www.caida.org/publications/papers/2015/hyperbolic_graph_generator/" title="R. Aldecoa, C. Orsini, and D. Krioukov, &quot;Hyperbolic graph generator&quot;, Computer Physics Communications, Jun 2015.">Hyperbolic graph generator</a></td><td>Jul&nbsp;8</td>
 </tr>
 <tr>
+<td><a href="http://www.caida.org/publications/papers/2015/network_mapping_replaying_hyperbolic/" title="F. Papadopoulos, C. Psomas, and D. Krioukov, &quot;Network Mapping by Replaying Hyperbolic Growth&quot;, IEEE/ACM Transactions on Networking, vol. 23, no. 1, pp. 198--211, Feb 2015.">Network Mapping by Replaying Hyperbolic Growth</a></td><td>Jul&nbsp;8</td>
+</tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/comments_cybersecurity_research_development/" title="Comment in response to Request for Information (RFI)-Federal Cybersecurity R&amp;D Strategic Plan, posted by the National Science Foundation on 4/27/2015.
 D. Clark and k. claffy, &quot;Comments on Cybersecurity Research and Development Strategic Plan&quot;, Federal Communications Commission (FCC) Commission Documents, Jun 2015.">Comments on Cybersecurity Research and Development Strategic Plan</a></td><td>Jun&nbsp;30</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/named_data_networking_2014-2015/" title="V. Jacobson, J. Burke, L. Zhang, B. Zhang, K. Claffy, C. Papadopoulos, T. Abdelzaher, L. Wang, J. Halderman, and P. Crowley, &quot;Named Data Networking Next Phase (NDN-NP) Project May 2014 - April 2015 Annual Report&quot;, Tech. rep., Named Data Networking (NDN), Jun 2015.">Named Data Networking Next Phase (NDN-NP) Project Annual Report</a></td><td>Jun&nbsp;29</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/how_dangerous_internet_scanning/" title="E. Raftopoulos, E. Glatz, X. Dimitropoulos, and A. Dainotti, &quot;How Dangerous Is Internet Scanning? A Measurement Study of the Aftermath of an Internet-Wide Scan&quot;, in Traffic Monitoring and Analysis Workshop (TMA), Apr 2015, vol. 9053, pp. 158--172.">How Dangerous Is Internet Scanning?</a></td><td>Jun&nbsp;12</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/inventory_aspirations_internets_future/" title="
 This is a draft copy of a working white paper.
 	
 D. Clark and k. claffy, &quot;An Inventory of Aspirations for the Internet's future&quot;, Tech. rep., Center for Applied Internet Data Analysis (CAIDA), Apr 2015.">An Inventory of Aspirations for the Internet's future</a></td><td>May&nbsp;12</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/measuring_characterizing_ipv6_router/" title="R. Beverly, M. Luckie, L. Mosley, and k. claffy, &quot;Measuring and Characterizing IPv6 Router Availability&quot;, in Passive and Active Network Measurement Workshop (PAM), Mar 2015, pp. 123--135.">Measuring and Characterizing IPv6 Router Availability</a></td><td>Mar&nbsp;24</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/ipv6_as_relationships/" title="V. Giotsas, M. Luckie, B. Huffaker, and k. claffy, &quot;IPv6 AS Relationships, Clique, and Congruence&quot;, in Passive and Active Network Measurement Workshop (PAM), Mar 2015, pp. 111--122.">IPv6 AS Relationships, Clique, and Congruence</a></td><td>Mar&nbsp;24</td>
 </tr>
-<tr>
-<td><a href="http://www.caida.org/publications/papers/2015/how_to_throw_the_race/" title="E. Kenneally, &quot;How to Throw the Race to the Bottom: Revisiting Signals for Ethical and Legal Research Using Online Data&quot;, ACM SIGCAS Computers and Society, Feb 2015.">How to Throw the Race to the Bottom: Revisiting Signals for Ethical and Legal Research Using Online Data</a></td><td>Jan&nbsp;30</td>
-</tr>
 <tr class="zebra">
-<td><a href="http://www.caida.org/publications/papers/2015/first_ndncomm/" title="k. claffy, J. Polterock, A. Afanasyev, J. Burke, and L. Zhang, &quot;The First Named Data Networking Community Meeting (NDNcomm)&quot;, Tech. rep., Named Data Networking (NDN), Jan 2015. In submission to ACM SIGCOMM Computer Communication Review (CCR).">The First Named Data Networking Community Meeting (NDNcomm)</a></td><td>Jan&nbsp;13</td>
+<td><a href="http://www.caida.org/publications/papers/2015/how_to_throw_the_race/" title="E. Kenneally, &quot;How to Throw the Race to the Bottom: Revisiting Signals for Ethical and Legal Research Using Online Data&quot;, ACM SIGCAS Computers and Society, Feb 2015.">How to Throw the Race to the Bottom: Revisiting Signals for Ethical and Legal Research Using Online Data</a></td><td>Jan&nbsp;30</td>
 </tr>
 </table>
 </div>

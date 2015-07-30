@@ -298,6 +298,10 @@ function key_clear()
 						<a href="http://www.nsfocus.com/news/"><img src="./images/latestnews_title.jpg" border="0"/></a><br/>
 						<table>
 							<tr>
+								<td width="75" valign="top">24 Jul.2015|</td>
+								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2015/news_0724/200.html"  class="index_bottom_list">NSFOCUS Threat Response Team Immediately Blocks Potential Vulnerabilities Caused by Hacking Team Breach</a></td>
+							</tr>
+							<tr>
 								<td width="75" valign="top">21 Apr.2015|</td>
 								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2015/news_0421/197.html"  class="index_bottom_list">NSFOCUS DDoS Threat Report Reveals IoT-Connected Devices  Contributing to the Rise in SSDP-based Reflection Attacks </a></td>
 							</tr>
@@ -309,11 +313,7 @@ function key_clear()
 								<td width="75" valign="top">14 Oct.2014|</td>
 								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/news_1014/192.html"  class="index_bottom_list">NSFOCUS Unveils Robust Anti-DDoS Solution for  Hosting Service Providers, Date Centers and MSSPs</a></td>
 							</tr>
-							<tr>
-								<td width="75" valign="top">23 Sep.2014|</td>
-								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/news_0923/191.html"  class="index_bottom_list">2014 Mid-Year DDoS Threat Report Documents High-Volume,  High-Rate Attacks on the Rise</a></td>
-							</tr>
-						</table>	
+						</table>
 					</td>
 					<td width="33%" style="line-height:20px" valign="top" align="left">
 						<a href="http://www.nsfocus.com/Events/"><img src="./images/events_title.jpg" border="0"/></a><br/>

@@ -85,10 +85,12 @@
 
             <div style="border: 1px solid #e6e6e6; padding: 10px; background-color: #f9f9f9;">
               <h2>重要通告:</h2>
-              <p>
-                <a href="/html/notice/notice_website_maintenance_25Feb2015_chi.html">網站維護公告</a>
-              </p>
-              <p>本中心將於2015年2月25日00:00至02:00進行設備升級維護，期間域名管理服務將會暫停，造成不便敬請見諒。</p>
+                <p>
+                 <a href="/html/notice/notice_ipv6_27Jul2015_chi.html">IPv6 上線公告</a>
+                </p>
+                <p>本中心將預定於2015年7月28日 00:00 起將開放使用IPv6，屆時本網站及系統將支援 IPv6的域名伺服器或域名主機。
+                </p>
+
               <p>
                 <a href="/html/notice/notice_newly_published_regulation_chi.html">新公佈的《澳門特別行政區之互聯網域名註冊規則》</a>
               </p>
@@ -104,6 +106,7 @@
             </h2>
 
             <ul>
+	      <li>2015-02-25 <a href="/html/notice/notice_website_maintenance_25Feb2015_chi.html">網站維護公告</a></li>
 	      <li>2014-06-16 <a href="/html/notice/notice_website_maintenance_16Jun2014_chi.html">網站維護公告</a></li>
               <li>2014-02-26 <a href="/html/notice/notice_website_maintenance_26Feb2014_chi.html">網站維護公告</a></li>
               <li>2014-01-20 <a href="/html/notice/notice_website_maintenance_20Jan2014_chi.html">網站維護公告</a></li>
@@ -159,10 +162,10 @@
             <th>有爭議的域名</th>
           </tr>
           <tr>
-            <td>CWM.COM.MO</td>
+            <td>ORGANICNATURE.MO</td>
           </tr>
           <tr>
-            <td>11/08/2015</td>
+            <td>26/08/2015</td>
           </tr>
           <tr>
             <td><a href="/monic/faces/viewDisputativeDomains">更多...</a></td>

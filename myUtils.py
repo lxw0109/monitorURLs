@@ -26,10 +26,13 @@ import MySQLdb
 from DBUser.dbUser import DBUser
 import random
 import os
-import sys
 import fileinput
 import socket
 from time import sleep
+from pyquery import PyQuery
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 fileLock = threading.RLock()
 logLock = threading.RLock()
@@ -672,6 +675,20 @@ def diff2Str(filename, sourceCode):
         for index in xrange(length):
             list2[index] = list2[index].strip()
 
+        pq1 = PyQuery("".join(list1))
+        pq2 = PyQuery("".join(list2))
+
+        list1 = []
+        list2 = []
+        for data in pq1.find("a"):
+            list1.append(PyQuery(data).text())
+        for data in pq1.find("titile"):
+            list1.append(PyQuery(data).text())
+        for data in pq2.find("a"):
+            list2.append(PyQuery(data).text())
+        for data in pq2.find("titile"):
+            list2.append(PyQuery(data).text())
+
         #pick out the specific(title) elements ahead of diff.
         #list1 = pickA(list1)
         #list2 = pickA(list2)
@@ -706,7 +723,7 @@ def diff2Str(filename, sourceCode):
 
         #filterList: only +/- exists.
         #pick out the specific(title) elements behind of diff.
-        specList = pickB(filterList)
+        #specList = pickB(filterList)
 
         #uniq should be always behind pick(pickA & pickB).
         #uniq:
@@ -715,7 +732,8 @@ def diff2Str(filename, sourceCode):
         #For example, the same piece of news is represented by both a link and a img and a text string.
         #So, In this case we don't need to notify all of these differences, we just need to pick any one of them.
         finList = []
-        [finList.append(item) for item in specList if not item in finList]
+        #[finList.append(item) for item in specList if not item in finList]
+        [finList.append(item) for item in filterList if not item in finList]
 
         #solve the "specific labels unchange problem"
         finList = pickFilter(finList[:])
@@ -755,6 +773,20 @@ def diff2Str_stale(filename, filenameNew):
                     break
                 list2.append(string.strip())
 
+        pq1 = PyQuery("".join(list1))
+        pq2 = PyQuery("".join(list2))
+
+        list1 = []
+        list2 = []
+        for data in pq1.find("a"):
+            list1.append(PyQuery(data).text())
+        for data in pq1.find("titile"):
+            list1.append(PyQuery(data).text())
+        for data in pq2.find("a"):
+            list2.append(PyQuery(data).text())
+        for data in pq2.find("titile"):
+            list2.append(PyQuery(data).text())
+
         #Work Flow: diff -> filter -> pick -> uniq -> sort
         diffList = list(difflib.ndiff(list1, list2))
 
@@ -774,7 +806,7 @@ def diff2Str_stale(filename, filenameNew):
 
         #filterList: only +/- exists.
         #pick out the specific(title) elements behind of diff.
-        specList = pickB(filterList)
+        #specList = pickB(filterList)
 
         #uniq should be always behind pick(pickA & pickB).
         #uniq:
@@ -783,10 +815,20 @@ def diff2Str_stale(filename, filenameNew):
         #For example, the same piece of news is represented by both a link and a img and a text string.
         #So, In this case we don't need to notify all of these differences, we just need to pick any one of them.
         finList = []
-        [finList.append(item) for item in specList if not item in finList]
+        [finList.append(item) for item in filterList if not item in finList]
 
         #solve the "specific labels unchange problem"
         finList = pickFilter(finList[:])
+
+        '''
+        if "kb.isc.org" in filename:
+            print filename
+            print list1
+            print "--------" * 20
+            print list2
+            print "--------" * 20
+            print finList
+        '''
 
         #Sort the result:
         #The content added shows at front, content removed follows behind.
@@ -895,6 +937,7 @@ def pickB(aList):
                 writeLog("lxw_NOTE: this should not happen.", item, "all should begin with +/-")
                 continue
 
+            #"title" field
             index1 = item.find("title=\"")
             index3 = item.find("title='")
             if index1 >= 0:  #contain
@@ -909,6 +952,13 @@ def pickB(aList):
                     string = item[index3+7:index3+7+index4].strip()
                     if string != "":
                         resList.append(item[0] + string)
+            '''
+            #NO
+            #"a href" field
+            index1 = item.find("a href=\"")
+            index3 = item.find("a href='")
+            '''
+
     except Exception, e:
         writeLog("lxw_pickB ERROR", "", traceback.format_exc())
 

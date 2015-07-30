@@ -43,7 +43,7 @@
 <!--[if lt IE 9]>
     <link href="https://www.apnic.net/_designs/corporate-identity/css/bootstrap.min.css" rel="stylesheet">
 <![endif]-->
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.4.1" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.4.2" rel="stylesheet">
         <link href="https://www.apnic.net/__data/assets/css_file/0016/72322/legacy.css?v=0.1.9" rel="stylesheet">
 
         <style>
@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 21 July 2015 11:00:22
+  Page generated: 30 July 2015 13:24:42
 -->
 
 

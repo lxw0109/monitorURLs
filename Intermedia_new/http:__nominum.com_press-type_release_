@@ -38,7 +38,7 @@
         <meta name="theme-color" content="#ffffff">
 
         
-<!-- This site is optimized with the Yoast WordPress SEO plugin v2.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<!-- This site is optimized with the Yoast SEO plugin v2.3.2 - https://yoast.com/wordpress/plugins/seo/ -->
 <title>Nominum - News &amp; Events</title>
 <meta name="robots" content="noodp,noydir"/>
 <meta name="description" content="Reimagine Telecom Digital Marketing"/>
@@ -53,12 +53,17 @@
 <meta name="twitter:description" content="Reimagine Telecom Digital Marketing"/>
 <meta name="twitter:title" content="Nominum - News &amp; Events"/>
 <meta name="twitter:domain" content="Nominum"/>
-<!-- / Yoast WordPress SEO plugin. -->
+<!-- / Yoast SEO plugin. -->
 
 
         <!-- inject:css --><link rel="stylesheet" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/css/main.min.css"><!-- endinject -->
         <!--[if lt IE 9]><script src="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/js/ie-head.min.js""></script><![endif]-->
         <!--[if lte IE 9]><link rel="stylesheet" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/css/ie.min.css"><![endif]-->
+        <style>
+            .platform-tool .is-shaded .slice-overlay {
+                filter: url(#dropshadow);
+            }
+        </style>
 	</head>
     <body class="page">
         <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">

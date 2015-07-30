@@ -509,62 +509,6 @@ Email: <a href="mailto:PR@neustar.biz">PR@neustar.biz</a></p>
 </div>
 </section>
 </footer>
-<script type="text/javascript">
-$(document).ready(function() {
-	// for modal view of screens
-	$('.salestrigger').click(function() {
-		$('#rfiModal').fadeIn(250);
-		$('.modalbg').fadeIn(250);
-		return false;
-	});
-	$('.close').click(function() {
-		$('.modal').fadeOut(500);
-		$('.modalbg').fadeOut(500);
-	});
-	$('.modalbg').click(function() {
-		$(this).fadeOut(500);
-		$('.modal').fadeOut(500);
-	});
-});
-$(document).keyup(function(e) { 
-    if (e.keyCode == 27) { 
-		$("#rfiModal").fadeOut(500);
-		$('.modalbg').fadeOut(500);
-    } 
-});
-</script>
-
-<div class="modalbg" style="display: none;">&nbsp;</div>
-
-<div class="modal rnd" id="rfiModal" style="display:none;">
-<div class="close rnd">x</div>
-
-<h2>Contact Sales</h2>
-<script src="//app-sjh.marketo.com/js/forms2/js/forms2.min.js"></script>
-
-<form id="mktoForm_1803">&nbsp;</form>
-<script>
-		MktoForms2.loadForm("//app-sjh.marketo.com", "401-EDD-684", 1803, function(form) {
-			//Add an onSuccess handler
-  			form.onSuccess(function(values, followUpUrl) {
-				form.getFormElem().hide();
-				document.getElementById('confirmform').style.visibility = 'visible';
-				document.getElementById('rfiModal').style.height = '230px';
-				window['optimizely'] = window['optimizely'] || [];
-				window.optimizely.push(['trackEvent', 'rfiFormSubmit']);
-				return false;
-			});
-		});
-	</script>
-
-<div id="confirmform" style="visibility:hidden;">
-<h3>Thank You</h3>
-
-<p>Your request was submitted. A Neustar representative will contact you.</p>
-
-<p class="align-center"><span class="btn close">Close Window</span></p>
-</div>
-</div>
 <aside class="mobileNav" id="mobileNav">
 <div id="mNavContainer">
 <ul>

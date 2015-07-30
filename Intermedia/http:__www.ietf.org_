@@ -123,7 +123,7 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
             <table width="100%" border="0" cellspacing="2" cellpadding="2">
               <tr>
                 <td bgcolor="#ccccff" valign="top" width="50%"><strong>News</strong></td>
-                <td colspan="2" valign="top" bgcolor="#ccccff"><strong>Next Meeting: <a href="meeting/93/index.html">IETF 93, Prague, Czech Republic</a></strong></td>
+                <td colspan="2" valign="top" bgcolor="#ccccff"><strong>Next Meeting: <a href="meeting/94/index.html">IETF 94, Yokohama, Japan</a></strong></td>
               </tr>
               <tr>
                 <td height="241" valign="top"><a href="http://open-stand.org/"><img src="../images/openstand-md.png" width="66" height="108" border="0" align="left" hspace="20" alt="Open Stand" longdesc="http://open-stand.org/" />
@@ -138,26 +138,28 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
                     <li><a href="/blog/">Chair's Blog</a></li>
                     <li><a href="http://tools.ietf.org/dailydose/">IETF Daily Dose</a></li>
                 </ul></td>
-                <td valign="top"><p><a href="meeting/93/index.html">IETF 93, Prague, Czech Republic</a> (UTC +2)</p>
+                <td valign="top"><p><a href="meeting/94/index.html">IETF 94, Yokohama, Japan</a> (UTC +9)<br />
+                  November 1-6, 2015
+                </p>
                   <table width="100%" height="117" border="0">
                     <tr valign="top">
                       <td width="80%" valign="top"><br />
                         <ul>
-                          <li><a href="meeting/important-dates-2015.html#ietf93">Important Dates</a></li>
-                          <li><a href="https://datatracker.ietf.org/meeting/93/agenda.html">IETF 93  Agenda</a></li>
-                          <li><a href="https://datatracker.ietf.org/meeting/93/materials.html">Meeting Materials</a></li>
-                          <li><a href="meeting/93/hotel.html">Venue Information: The Hilton Prague</a></li>
-                          <li><a href="meeting/93/remote-participation.html">Remote Participation</a></li>
+                          <li><a href="meeting/important-dates-2015.html#ietf94">Important Dates</a></li>
+                          <li>IETF 94  Agenda</li>
+                          <li>Meeting Materials</li>
+                          <li>Venue Information</li>
+                          <li>Remote Participation</li>
                       </ul></td>
                       <td width="20%" valign="top" nowrap="nowrap"><p><br />
-                          <img src="meeting/93/images/prague.jpg"/ alt="IETF 93" width="175" height="114" /><br />
+                          <br />
                       </p></td>
                     </tr>
                 </table></td>
               </tr>
               <tr>
                 <td bgcolor="#ccccff"><strong>Email Archives </strong></td>
-                <td bgcolor="#ccccff"><strong>Recent Meeting: IETF 92, Dallas, TX, USA</strong></td>
+                <td bgcolor="#ccccff"><strong>Recent Meeting: IETF 93, Prague, Czech Republic</strong></td>
               </tr>
               <tr>
                 <td rowspan="3" valign="top" bgcolor="#ffffff"><p style="margin-top: 0; margin-bottom: 0;">A new mail archive tool realizing the requirements developed in RFC 6778 is now in use:</p>
@@ -167,8 +169,8 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
                   <p> If you choose to log in, use your datatracker credentials.</p>
                 <p>(<a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/IqX-LAuvAmncjkYmoIB61T4e3C0%3D/">Read full announcement in the archives here</a>.)</p></td>
                 <td height="61" valign="top" bgcolor="#ffffff"><ul>
-                  <li><a href="meeting/92/index.html">IETF 92 Information</a></li>
-                  <li><a href="/proceedings/92/index.html">IETF 92 Proceedings</a></li>
+                  <li><a href="meeting/93/index.html">IETF 93 Information</a></li>
+                  <li><a href="https://datatracker.ietf.org/meeting/93/materials.html">IETF 93 Proceedings</a></li>
                 </ul></td>
               </tr>
               <tr>

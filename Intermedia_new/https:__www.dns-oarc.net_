@@ -121,7 +121,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-H2q111YDXcasixzbtE_8eRBZlBkpPR9jTXrs-AjUKZk" value="form-H2q111YDXcasixzbtE_8eRBZlBkpPR9jTXrs-AjUKZk"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-BRJrkmDFrxnnrMoPgrx84vDMPbFUHFWK-MRNAFTboz4" value="form-BRJrkmDFrxnnrMoPgrx84vDMPbFUHFWK-MRNAFTboz4"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -138,7 +138,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-RuXmZNQ4JvfOOEha_QqYhLYUXXfoQPnkOnEQI6oJ7eo" value="form-RuXmZNQ4JvfOOEha_QqYhLYUXXfoQPnkOnEQI6oJ7eo"  />
+<input type="hidden" name="form_build_id" id="form-OJRBgXyPKq67vnK9vaKZzaqle7z-pQzAJEp6W7SntaI" value="form-OJRBgXyPKq67vnK9vaKZzaqle7z-pQzAJEp6W7SntaI"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -380,6 +380,7 @@ Current open positions:</p>
 <a href="http://www.nominum.com">Nominum</a><br/>
 <a href="http://www.norid.no/">Norid</a><br/>
 <a href="http://nzrs.net.nz/">NZRS</a><br/>
+<a href="http://www.pir.org/">Public Interest Registry</a><br/>
 <a href="http://www.registry.si">Registry.si</a><br/>
 <a href="http://www.restena.lu">RESTENA</a><br/>
 <a href="http://www.bskyb.com">Sky</a><br/>
@@ -392,6 +393,7 @@ Current open positions:</p>
 <a href="http://www.ottix.net/">OTTIX</a><br/>
 <a href="http://www.tudelft.nl/">TUDelft Univ.</a><br/>
 <a href="http://www.ics.uci.edu/">UC Irvine</a><br/>
+<a href="http://www.ufam.edu.br/">UFAM</a><br/>
 <a href="https://www.utwente.nl">UTwente</a><br/>
 <a href="http://www.wide.ad.jp/">WIDE</a><br/>
 <p><center>Beneficial</center><a href="http://afrinic.net">AFRINIC</a><br/>
@@ -406,7 +408,6 @@ Current open positions:</p>
 <a href="https://nic.ar/">NIC.AR</a><br/>
 <a href="http://www.ntt.com/">NTT</a><br/>
 <a href="http://www.powerdns.com/">PowerDNS</a><br/>
-<a href="http://www.pir.org/">Public Interest Registry</a><br/>
 <a href="">RTFM</a><br/>
 <a href="http://www.secure64.com/">Secure64</a><br/>
 <a href="http://www.team-cymru.org/">Team Cymru</a><br/>
