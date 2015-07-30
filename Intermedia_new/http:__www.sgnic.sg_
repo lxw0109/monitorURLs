@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-0PITQ-4hAseE0T6hWmNDLuXgApumJeSC_Wo0AMngvBM" value="form-0PITQ-4hAseE0T6hWmNDLuXgApumJeSC_Wo0AMngvBM"  />
+<input type="hidden" name="form_build_id" id="form-7Rhdkh-1GV8f3jVNljbGsO3SVcZUJ9MUWit8rko7tQY" value="form-7Rhdkh-1GV8f3jVNljbGsO3SVcZUJ9MUWit8rko7tQY"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-cZObcm7xvmMietjX7s-LKBneJyMUqZk5q1qG9VF4SGk" value="form-cZObcm7xvmMietjX7s-LKBneJyMUqZk5q1qG9VF4SGk"  />
+<input type="hidden" name="form_build_id" id="form-vqucHXz4CBrKOOpYvL_9Llw7r9_b5hET64eNq6sv8Z4" value="form-vqucHXz4CBrKOOpYvL_9Llw7r9_b5hET64eNq6sv8Z4"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,6 +171,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
+                <span class="field-content">July 30, 2015, 11:10 am</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://blog.apnic.net/2015/07/30/event-wrap-pacnog-17/">Event Wrap: PacNOG 17</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-timestamp">
                 <span class="field-content">July 29, 2015, 2:22 pm</span>
   </div>
   
@@ -178,22 +187,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="http://blog.apnic.net/2015/07/29/save-the-date-apnic-42/">Save the date: APNIC 42</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
                 <span class="field-content">July 29, 2015, 12:00 pm</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="http://blog.apnic.net/2015/07/29/my-visit-to-taichung-taiwan/">My visit to Taichung, Taiwan</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-timestamp">
-                <span class="field-content">July 29, 2015, 6:53 am</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/07/29/event-wrap-taiwan-internet-infrastructure-seminar/">Event Wrap: Taiwan Internet Infrastructure Seminar</a></span>
   </div>
 </li>
       </ul>
