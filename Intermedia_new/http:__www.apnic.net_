@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 30 July 2015 18:08:57
+  Page generated: 04 August 2015 11:10:27
 -->
 
 
@@ -429,9 +429,14 @@ $('.theme-about #header-label span').text('About APNIC');
       </h2>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-15-june-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 15 June 2015</a></h3>
+      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-3-august-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 3 August 2015</a></h3>
 <p class="ellipsis" data-ellipsis-rows="2">
-<p>APNIC network infrastructure upgrades.</p>
+<p>Whois updates were delayed due to database replication fault. All 456 pending updates have been correctly pushed through.</p>
+
+
+
+
+
 
 
 

@@ -430,8 +430,8 @@ MM_reloadPage(true);
                                 <tr> 
                                   <td valign="top" width="22">
             <tr><td></td><td>[公告]</td><td></td></tr><tr><td><img src="http://www.twnic.net.tw/img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="/NEWS/2231.pdf" target="_blank">
-「網域名稱申請同意書」及「網域名稱檢舉程序受理流程」修訂公告</a>(2015-06-22)</td></tr>
+<td height="17"><font size="2"><a href="/NEWS/2245.pdf" target="_blank">
+2015年度公益計畫徵選公告</a>(2015-07-31)</td></tr>
 <tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://www.twnic.net.tw/apira2015" target="_blank">
 第12屆APIRA會議九月於台北召開</a>(2015-07-23)</td></tr>
@@ -547,9 +547,6 @@ MM_reloadPage(true);
 </tr>
 <tr align="center">
 <td><a href="http://www.myhome.net.tw/timeline  " target="_blank"><img src="http://www.twnic.net.tw/brarchive/235.gif" border="0"></a></td>
-</tr>
-<tr align="center">
-<td><a href="http://showking.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/243.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="http://www.twnic.net.tw/cp" target="_blank"><img src="http://www.twnic.net.tw/brarchive/234.gif" border="0"></a></td>

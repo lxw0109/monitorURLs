@@ -352,7 +352,7 @@
                                                     </li>
                                             </ul>
                 </li>
-                                <ul id="menu-primary-navigation" class="menu-items nav__menu-items"><li><a class="page-item nav__page-item" href="/n2-solutions">N2 Solutions</a><li><a class="page-item nav__page-item" href="/news-event">News & Events</a><li><a class="page-item nav__page-item" href="/resources">Resources</a><li><a class="page-item nav__page-item" href="/blog">Blog</a><li><a class="page-item nav__page-item" href="/company">Company</a><li><a class="page-item nav__page-item" href="/careers">Careers</a><li><a class="page-item nav__page-item" href="/contact">Contact Us</a></ul>            </ul>
+                                <ul id="menu-primary-navigation" class="menu-items nav__menu-items"><li><a class="page-item nav__page-item" href="/n2-solutions">Use Cases</a><li><a class="page-item nav__page-item" href="/news-event">News &amp; Events</a><li><a class="page-item nav__page-item" href="/resources">Resources</a><li><a class="page-item nav__page-item" href="/blog">Blog</a><li><a class="page-item nav__page-item" href="/company">Company</a><li><a class="page-item nav__page-item" href="/careers">Careers</a><li><a class="page-item nav__page-item" href="/contact">Contact Us</a></ul>            </ul>
             <ul class="social-accounts nav__social-accounts">
                 <li><a href="http://www.linkedin.com/company/nominum" target="_blank"><svg role="img" title="LinkedIn"><use xlink:href="#linkedin-icon"></use></svg></a></li>
                 <li><a href="http://www.twitter.com/nominum" target="_blank"><svg role="img" title="Twitter"><use xlink:href="#twitter-icon"></use></svg></a></li>

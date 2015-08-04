@@ -14,46 +14,46 @@
 <link rel="canonical" href="http://www.afilias.info" />
 <meta name="revisit-after" content="1 day" />
 <meta name="robots" content="noodp, noydir" />
-        <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/ctools/css/ctools.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/nice_menus/nice_menus.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/nice_menus/nice_menus_default.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/logintoboggan/logintoboggan.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/calendar/calendar.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/views/css/views.css?D" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/afilias_base/afilias_base.css?D" />
-<link type="text/css" rel="stylesheet" media="screen" href="/sites/all/themes/afilias_base/css/blueprint/screen.css?D" />
-<link type="text/css" rel="stylesheet" media="screen" href="/sites/afilias.info/themes/afilias.info.2014/css/afilias.2014.css?D" />
-<link type="text/css" rel="stylesheet" media="screen" href="/sites/afilias.info/themes/afilias.info.2014/css/responsivetables.css?D" />
-<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/afilias_base/css/blueprint/print.css?D" />
-        <script type="text/javascript" src="/misc/jquery.js?D"></script>
-<script type="text/javascript" src="/misc/drupal.js?D"></script>
-<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/superfish.js?D"></script>
-<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/jquery.bgiframe.min.js?D"></script>
-<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js?D"></script>
-<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/nice_menus.js?D"></script>
-<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?D"></script>
-<script type="text/javascript" src="/sites/all/modules/views_slideshow/js/jquery.cycle.all.min.js?D"></script>
-<script type="text/javascript" src="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.js?D"></script>
-<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/inewsticker.js?D"></script>
-<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/modernizr.min.custom.js?D"></script>
-<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/default.js?D"></script>
-<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/responsivetables.js?D"></script>
+        <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/ctools/css/ctools.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/nice_menus/nice_menus.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/nice_menus/nice_menus_default.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ckeditor/ckeditor.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/logintoboggan/logintoboggan.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/calendar/calendar.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/afilias.info/modules/views/css/views.css?n" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/afilias_base/afilias_base.css?n" />
+<link type="text/css" rel="stylesheet" media="screen" href="/sites/all/themes/afilias_base/css/blueprint/screen.css?n" />
+<link type="text/css" rel="stylesheet" media="screen" href="/sites/afilias.info/themes/afilias.info.2014/css/afilias.2014.css?n" />
+<link type="text/css" rel="stylesheet" media="screen" href="/sites/afilias.info/themes/afilias.info.2014/css/responsivetables.css?n" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/afilias_base/css/blueprint/print.css?n" />
+        <script type="text/javascript" src="/misc/jquery.js?n"></script>
+<script type="text/javascript" src="/misc/drupal.js?n"></script>
+<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/superfish.js?n"></script>
+<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/jquery.bgiframe.min.js?n"></script>
+<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js?n"></script>
+<script type="text/javascript" src="/sites/afilias.info/modules/nice_menus/nice_menus.js?n"></script>
+<script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?n"></script>
+<script type="text/javascript" src="/sites/all/modules/views_slideshow/js/jquery.cycle.all.min.js?n"></script>
+<script type="text/javascript" src="/sites/all/modules/views_slideshow/contrib/views_slideshow_singleframe/views_slideshow.js?n"></script>
+<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/inewsticker.js?n"></script>
+<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/modernizr.min.custom.js?n"></script>
+<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/default.js?n"></script>
+<script type="text/javascript" src="/sites/afilias.info/themes/afilias.info.2014/js/responsivetables.js?n"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay": 800, "speed": 1 }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "viewsSlideshowSingleFrame": { "#views_slideshow_singleframe_main_slideshow-default": { "num_divs": 4, "id_prefix": "#views_slideshow_singleframe_main_", "div_prefix": "#views_slideshow_singleframe_div_", "vss_id": "slideshow-default", "timeout": "4000", "sort": 1, "effect": "fade", "speed": "700", "start_paused": 0, "delay": "0", "fixed_height": "1", "random": "0", "pause": "1", "pause_on_click": "0", "pause_when_hidden": 0, "pause_when_hidden_type": "full", "amount_allowed_visible": "", "remember_slide": 0, "remember_slide_days": "1", "controls": "0", "items_per_slide": "1", "pager": "2", "pager_type": "Numbered", "pager_hover": "2", "pager_click_to_page": 0, "image_count": "0", "nowrap": "0", "sync": "1", "advanced": "", "ie": { "cleartype": "true", "cleartypenobg": "false" } } } });
@@ -89,7 +89,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-6djl5LzuMNK8_fiSN7K5XDwxcy5-YGM9SZgxj87IhfM" value="form-6djl5LzuMNK8_fiSN7K5XDwxcy5-YGM9SZgxj87IhfM"  />
+<input type="hidden" name="form_build_id" id="form-3YRp_lW3IEcBLGPGso1xTHzffkgvtoUmvv1HsrKWozc" value="form-3YRp_lW3IEcBLGPGso1xTHzffkgvtoUmvv1HsrKWozc"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 
@@ -362,7 +362,13 @@ width: 16.2em!important;
   <div id="block-block-16" class="block block-block">
 
   <div class="content">
-    <div class="calloutsbox clearfix">
+    <style type="text/css">
+@media screen and (min-width: 70em) {
+    .col-group-owned2 > div:nth-child(13) {margin-left:10%;}
+    .col-group-supported > div:nth-child(26) {margin-left:20%;}
+}
+</style>
+<div class="calloutsbox clearfix">
 <h2>Afilias is best known for technology that supports a wide range of top level domains on the internet.
 <span>Specifically, Afilias runs the master directories and DNS for over 25 top level domains today, including:</span></h2>
 <h3>&#8226; Afilias owned Domains &#8226;</h3>
@@ -412,7 +418,7 @@ width: 16.2em!important;
 				</a>
 			</div>
             <div>
-				<a href="/new-tlds/mobileregistrars" class="gray-logo-hover" title="Dot Chinese Mobile" target="_blank">
+				<a href="#" class="gray-logo-hover" title="Dot Chinese Mobile" target="_blank">
 					<img alt="dot Chinese Mobile Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/YIDONG-Mobi-CH1.png" title="Afilias - dot Chinese Mobile Logo" /><img alt="dot Chinese Mobile Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/YIDONG-Mobi-CH2.png" title="Afilias - dot Chinese Mobile Logo" />
 				</a>
 			</div>
@@ -426,7 +432,7 @@ width: 16.2em!important;
 					<img alt="dot Organic Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/Organic1.png" title="Afilias - dot Organic Logo" /><img alt="dot Organic Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/Organic2.png" title="Afilias - dot Organic Logo" />
 				</a>
 			</div>
-                        <div>
+<div>
 				<a href="http://get.lgbt/" class="gray-logo-hover" title="Dot LGBT" target="_blank">
 					<img alt="dot LGBT Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotLGBT.png" title="Afilias - dot LGBT Logo" /><img alt="dot LGBT Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotLGBT1.png" title="Afilias - dot LGBT Logo" />
 				</a>
@@ -436,19 +442,24 @@ width: 16.2em!important;
 					<img alt="dot Vote Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotVOTE.png" title="Afilias - dot Vote Logo" /><img alt="dot Vote Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotVOTE1.png" title="Afilias - dot Vote Logo" />
 				</a>
 			</div>
-			<div>
+<div>
 				<a href="http://get.voto/" class="gray-logo-hover" title="Dot Voto" target="_blank">
 					<img alt="dot Voto Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotVOTO.png" title="Afilias - dot Voto Logo" /><img alt="dot Voto Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotVOTO1.png" title="Afilias - dot Voto Logo" />
 				</a>
 			</div>
-			<div>
+<div>
 				<a href="http://going.green/" class="gray-logo-hover" title="Dot Green" target="_blank">
 					<img alt="dot Green Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotGreen.png" title="Afilias - dot Green Logo" /><img alt="dot Green Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotGreen1.png" title="Afilias - dot Green Logo" />
 				</a>
 			</div>
 <div>
 				<a href="http://get.poker/" class="gray-logo-hover" title="Dot Poker" target="_blank">
-					<img alt="dot Poker Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotPOKER.png" title="Afilias - dot Poker Logo" /><img alt="dot Poker Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotPOKER1.png" title="Afilias - dot Poker Logo" />
+					<img alt="dot  Poker Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotPOKER.png" title="Afilias - dot Poker Logo" /><img alt="dot Poker Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotPOKER1.png" title="Afilias - dot Poker Logo" />
+				</a>
+			</div>
+			<div>
+				<a href="http://get.lotto/" class="gray-logo-hover" title="Dot Lotto" target="_blank">
+					<img alt="dot  Lotto Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/LOTTO.png" title="Afilias - dot Lotto Logo" /><img alt="dot Lotto Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/LOTTO1.png" title="Afilias - dot Lotto Logo" />
 				</a>
 			</div>
 			
@@ -462,8 +473,18 @@ width: 16.2em!important;
 <div class="pattern-front">
   	<div class="col-group-supported">
 			<div>
-				<a href="http://pir.org/" class="gray-logo-hover" title="Dot Org" target="_blank">
+				<a href="http://pir.org/" class="gray-logo-hover" title="Dot ORG" target="_blank">
 					<img alt="dot ORG Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotORG.jpg" title="PIR dot ORG Logo" /><img alt="dot Org Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotORG1.jpg" title="PIR dot ORG Logo" />
+				</a>
+			</div>
+			<div>
+				<a href="http://pir.org/" class="gray-logo-hover" title="Dot ONG" target="_blank">
+					<img alt="dot ORG Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotONG.jpg" title="PIR dot ONG Logo" /><img alt="dot ONG Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotONG1.jpg" title="PIR dot ONG Logo" />
+				</a>
+			</div>
+			<div>
+				<a href="http://pir.org/" class="gray-logo-hover" title="Dot NGO" target="_blank">
+					<img alt="dot NGO Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotNGO.jpg" title="PIR dot NGO Logo" /><img alt="dot NGO Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotNGO1.jpg" title="PIR dot NGO Logo" />
 				</a>
 			</div>
 			<div>
@@ -484,6 +505,11 @@ width: 16.2em!important;
 			<div>
 				<a href="https://www.nic.ltda/" class="gray-logo-hover" title="LTDA" target="_blank">
 					<img alt="dot LTDA Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotLTDA.jpg" title="dot LTDA Logo" /><img alt="dot LTDA Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotLTDA1.jpg" title="dot LTDA Logo" />
+				</a>
+			</div>
+			<div>
+				<a href="http://www.nic.srl/" class="gray-logo-hover" title="SRL" target="_blank">
+					<img alt="dot SRL Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotSRL.jpg" title="dot SRL Logo" /><img alt="dot SRL Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotSRL1.jpg" title="dot SRL Logo" />
 				</a>
 			</div>
             <div>
@@ -561,7 +587,11 @@ width: 16.2em!important;
 					<img alt="dot Global Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotGlobal.jpg" title="dot Global Logo" /><img alt="dot Global Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotGlobal1.jpg" title="dot Global Logo" />
 				</a>
 			</div>
-            
+            <div>
+				<a href="http://www.nic.irish/" class="gray-logo-hover" title="Dot Irish" target="_blank">
+					<img alt="dot Irish Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotIRISH.jpg" title="dot Irish Logo" /><img alt="dot Irish Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotIRISH1.jpg" title="dot Irish Logo" />
+				</a>
+			</div>
 			<div>
 				<a href="http://icmregistry.com/" class="gray-logo-hover" title="Dot XXX" target="_blank">
 					<img alt="dot XXX Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotXXX.jpg" title="dot XXX Logo" /><img alt="dot XXX Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotXXX1.jpg" title="dot XXX Logo" />
@@ -582,11 +612,7 @@ width: 16.2em!important;
 					<img alt="dot Sex Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotSEX.jpg" title="dot Sex Logo" /><img alt="dot Sex Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotSEX1.jpg" title="dot Sex Logo" />
 				</a>
 			</div>
-<div>
-				<a href="http://www.nic.irish/" class="gray-logo-hover" title="Dot Irish" target="_blank">
-					<img alt="dot Irish Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotIRISH.jpg" title="dot Irish Logo" /><img alt="dot Irish Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotIRISH1.jpg" title="dot Irish Logo" />
-				</a>
-			</div>
+
 	</div>
 	
 </div>

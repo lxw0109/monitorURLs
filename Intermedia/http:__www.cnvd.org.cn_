@@ -664,62 +664,62 @@ h1 {
 						
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-04742" title="NVIDIA GPU for FreeBSD驱动程序漏洞"> 
+									<a href="/flaw/show/CNVD-2015-04916" title="WordPress image-export插件'download.php'任意文件下载漏洞"> 
 										<img src="images/t_1.jpg" />
 										<font color="#333333;"> 
 											
-												NVIDIA GPU for FreeB...
+												WordPress image-expo...
 											
 										</font>
-										<span class="t_gz_sz_span">[164]</span>
+										<span class="t_gz_sz_span">[166]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-04793" title="TOTOLINK Router Models后门漏洞"> 
+									<a href="/flaw/show/CNVD-2015-04988" title="Cisco WebEx Meetings Server跨站请求伪造漏洞（CNVD-2015-04988）"> 
 										<img src="images/t_2.jpg" />
 										<font color="#333333;"> 
 											
-												TOTOLINK Router Mode...
+												Cisco WebEx Meetings...
 											
 										</font>
-										<span class="t_gz_sz_span">[142]</span>
+										<span class="t_gz_sz_span">[152]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-04790" title="WordPress插件Count Per Day SQL注入漏洞"> 
+									<a href="/flaw/show/CNVD-2015-04906" title="Google Chrome skia内存破坏漏洞"> 
 										<img src="images/t_3.jpg" />
 										<font color="#333333;"> 
 											
-												WordPress插件Count P...
+												Google Chrome skia内...
 											
 										</font>
-										<span class="t_gz_sz_span">[140]</span>
+										<span class="t_gz_sz_span">[149]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-04765" title="Oracle Berkeley DB本地任意代码执行漏洞（CNVD-2015-04765）"> 
+									<a href="/flaw/show/CNVD-2015-04901" title="Google Chrome IndexedDB内存错误引用漏洞"> 
 										<img src="images/t_4.jpg" />
 										<font color="#333333;"> 
 											
-												Oracle Berkeley DB本...
+												Google Chrome Indexe...
 											
 										</font>
-										<span class="t_gz_sz_span">[139]</span>
+										<span class="t_gz_sz_span">[148]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-04784" title="Oracle Berkeley DB本地任意代码执行漏洞（CNVD-2015-04784）"> 
+									<a href="/flaw/show/CNVD-2015-04893" title="WordPress Plotly插件HTML注入漏洞"> 
 										<img src="images/t_5.jpg" />
 										<font color="#333333;"> 
 											
-												Oracle Berkeley DB本...
+												WordPress Plotly插件...
 											
 										</font>
-										<span class="t_gz_sz_span">[129]</span>
+										<span class="t_gz_sz_span">[139]</span>
 									</a>
 								</li>
 							
@@ -753,80 +753,80 @@ h1 {
 						
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-04988" title="Cisco WebEx Meetings Server跨站请求伪造漏洞（CNVD-2015-04988）">
+								<a href="/flaw/show/CNVD-2015-05042" title="Cisco UCS Central Software目录遍历漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											Cisco WebEx Meetings Server跨站请求伪造漏洞（CNVD-2015-04988...
+											Cisco UCS Central Software目录遍历漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-07-28</span>
-									<span class="t2_sp_right">57</span>
+									<span class="t2_sp_sz">2015-07-31</span>
+									<span class="t2_sp_right">71</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-04987" title="OpenSSH登录处理安全绕过漏洞">
+								<a href="/flaw/show/CNVD-2015-05041" title="Cisco AnyConnect Secure Mobility Client拒绝服务漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											OpenSSH登录处理安全绕过漏洞
+											Cisco AnyConnect Secure Mobility Client拒绝服务漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-07-28</span>
+									<span class="t2_sp_sz">2015-07-31</span>
+									<span class="t2_sp_right">53</span>
+								</a>
+							</li>
+						
+							<li>
+								<a href="/flaw/show/CNVD-2015-05040" title="ISC BIND 9 TKEY查询拒绝服务漏洞">
+									<img src="images/tab_jt.jpg"/>
+									<span>
+										
+											ISC BIND 9 TKEY查询拒绝服务漏洞
+										
+									</span>
+									<span class="t2_sp_sz">2015-07-31</span>
+									<span class="t2_sp_right">65</span>
+								</a>
+							</li>
+						
+							<li>
+								<a href="/flaw/show/CNVD-2015-05039" title="dhcpcd拒绝服务漏洞">
+									<img src="images/tab_jt.jpg"/>
+									<span>
+										
+											dhcpcd拒绝服务漏洞
+										
+									</span>
+									<span class="t2_sp_sz">2015-07-31</span>
 									<span class="t2_sp_right">60</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-04986" title="Cisco IOS和IOS XE Software拒绝服务漏洞（CNVD-2015-04986）">
+								<a href="/flaw/show/CNVD-2015-05044" title="Linux kernel 'x86/entry/entry_64.S'本地安全绕过漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											Cisco IOS和IOS XE Software拒绝服务漏洞（CNVD-2015-04986）
+											Linux kernel 'x86/entry/entry_64.S'本地安全绕过漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-07-28</span>
-									<span class="t2_sp_right">52</span>
+									<span class="t2_sp_sz">2015-07-31</span>
+									<span class="t2_sp_right">43</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-04985" title="Cisco Unified MeetingPlace Web Conferencing信任管理漏洞">
+								<a href="/flaw/show/CNVD-2015-05043" title="libuser本地拒绝服务漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											Cisco Unified MeetingPlace Web Conferencing信任管理漏洞
+											libuser本地拒绝服务漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-07-28</span>
-									<span class="t2_sp_right">51</span>
-								</a>
-							</li>
-						
-							<li>
-								<a href="/flaw/show/CNVD-2015-04916" title="WordPress image-export插件'download.php'任意文件下载漏洞">
-									<img src="images/tab_jt.jpg"/>
-									<span>
-										
-											WordPress image-export插件'download.php'任意文件下载漏洞
-										
-									</span>
-									<span class="t2_sp_sz">2015-07-28</span>
-									<span class="t2_sp_right">78</span>
-								</a>
-							</li>
-						
-							<li>
-								<a href="/flaw/show/CNVD-2015-04984" title="Microsoft Internet Explorer 'CTableLayout::AddRow()'越界内存破坏漏洞">
-									<img src="images/tab_jt.jpg"/>
-									<span>
-										
-											Microsoft Internet Explorer 'CTableLayout::AddRow()'越界内存...
-										
-									</span>
-									<span class="t2_sp_sz">2015-07-28</span>
-									<span class="t2_sp_right">58</span>
+									<span class="t2_sp_sz">2015-07-31</span>
+									<span class="t2_sp_right">37</span>
 								</a>
 							</li>
 						
@@ -837,86 +837,86 @@ h1 {
 					
 					
 						<li>
-							<a href="/patchInfo/show/61696" title="Eaton Cooper Power Systems ProView中间人攻击漏洞的补丁">
+							<a href="/patchInfo/show/61808" title="Cisco UCS Central Software目录遍历漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Eaton Cooper Power Systems ProView中间人攻击漏洞的补丁
+										Cisco UCS Central Software目录遍历漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-07-29</span>
+								<span class="t2_sp_sz">2015-07-30</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/61682" title="Cisco Unified MeetingPlace Web Conferencing信任管理漏洞的补丁">
+							<a href="/patchInfo/show/61807" title="Cisco AnyConnect Secure Mobility Client拒绝服务漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Cisco Unified MeetingPlace Web Conferencing信任管理漏洞的补丁
+										Cisco AnyConnect Secure Mobility Client拒绝服务漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-07-28</span>
+								<span class="t2_sp_sz">2015-07-30</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/61680" title="Cisco IOS和IOS XE Software拒绝服务漏洞（CNVD-2015-04986）的补丁">
+							<a href="/patchInfo/show/61805" title="ISC BIND拒绝服务漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Cisco IOS和IOS XE Software拒绝服务漏洞（CNVD-2015-04986）的补丁
+										ISC BIND拒绝服务漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-07-28</span>
+								<span class="t2_sp_sz">2015-07-30</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/61677" title="OpenSSH登录处理安全绕过漏洞的补丁">
+							<a href="/patchInfo/show/61800" title="dhcpcd拒绝服务漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										OpenSSH登录处理安全绕过漏洞的补丁
+										dhcpcd拒绝服务漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-07-28</span>
+								<span class="t2_sp_sz">2015-07-30</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/61676" title="Cisco WebEx Meetings Server跨站请求伪造漏洞（CNVD-2015-04988）的补丁">
+							<a href="/patchInfo/show/61789" title="Linux kernel 'x86/entry/entry_64.S'本地安全绕过漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Cisco WebEx Meetings Server跨站请求伪造漏洞（CNVD-2015-04988）的补丁
+										Linux kernel 'x86/entry/entry_64.S'本地安全绕过漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-07-28</span>
+								<span class="t2_sp_sz">2015-07-30</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/61675" title="Rugged Operating System (ROS) SSL 3.0协议降级SSL解密漏洞的补丁">
+							<a href="/patchInfo/show/61788" title="libuser本地拒绝服务漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Rugged Operating System (ROS) SSL 3.0协议降级SSL解密漏洞的补丁
+										libuser本地拒绝服务漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-07-28</span>
+								<span class="t2_sp_sz">2015-07-30</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/61673" title="Siemens SIMATIC WinCC Sm@rtClient for Android密码信息泄露漏洞的补丁">
+							<a href="/patchInfo/show/61787" title="libuser本地提权漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Siemens SIMATIC WinCC Sm@rtClient for Android密码信息泄露漏洞的补丁
+										libuser本地提权漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-07-28</span>
+								<span class="t2_sp_sz">2015-07-30</span>
 							</a>
 						</li>
 					
@@ -956,6 +956,19 @@ h1 {
 					
 					
 						<li>
+							<a href="/webinfo/show/3673" title="关于ISC BIND 9 TKEY查询拒绝服务漏洞的情况公告">
+								<img src="images/tab_jt.jpg"/>
+								<span>
+									
+										关于ISC BIND 9 TKEY查询拒绝服务漏洞的情况公告
+									
+								</span>
+								<span class="t3_sp_sz">2015-07-31</span>
+								<span class="t3_sp_right">84</span>
+							</a>
+						</li>
+					
+						<li>
 							<a href="/webinfo/show/3665" title="Oracle发布2015年7月的安全公告">
 								<img src="images/tab_jt.jpg"/>
 								<span>
@@ -964,7 +977,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-07-21</span>
-								<span class="t3_sp_right">163</span>
+								<span class="t3_sp_right">208</span>
 							</a>
 						</li>
 					
@@ -977,7 +990,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-07-16</span>
-								<span class="t3_sp_right">220</span>
+								<span class="t3_sp_right">259</span>
 							</a>
 						</li>
 					
@@ -990,7 +1003,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-06-10</span>
-								<span class="t3_sp_right">788</span>
+								<span class="t3_sp_right">810</span>
 							</a>
 						</li>
 					
@@ -1003,7 +1016,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-05-15</span>
-								<span class="t3_sp_right">834</span>
+								<span class="t3_sp_right">851</span>
 							</a>
 						</li>
 					
@@ -1016,20 +1029,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-05-13</span>
-								<span class="t3_sp_right">870</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3614" title="关于Microsoft IIS服务器受到存在HTTP.sys远程代码执行漏洞威胁的情况公告">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									
-										关于Microsoft IIS服务器受到存在HTTP.sys远程代码执行漏洞威胁的情况...
-									
-								</span>
-								<span class="t3_sp_sz">2015-04-16</span>
-								<span class="t3_sp_right">14463</span>
+								<span class="t3_sp_right">899</span>
 							</a>
 						</li>
 					
@@ -1138,7 +1138,7 @@ h1 {
 	<div class="s_w">
 		<div class="t_align_right"><img src="images/zldjb.jpg"/></div>
 		<div class="clf" style="text-align:center;">
-			<span style="color:#999999;">2015-07-20--2015-07-26</span>
+			<span style="color:#999999;">2015-07-27--2015-08-02</span>
 			<div id="weekSerietyLevelPie"></div>
 			<!-- 周漏洞威胁级别趋势图 -->
 		</div>

@@ -82,8 +82,7 @@
 <li class="leaf"><a href="/oarc/services/dlvtest" title="A zone for testing DLVs">dlvtest</a></li>
 <li class="leaf last"><a href="/oarc/services/dontprobe" title="Database of networks and addresses that should not be actively probed">Dont Probe</a></li>
 </ul></li>
-<li class="expanded"><a href="https://indico.dns-oarc.net/index.py">Upcoming Workshops</a><ul class="menu"><li class="leaf first"><a href="https://indico.dns-oarc.net/event/21/" title="">2015 Amsterdam</a></li>
-<li class="leaf"><a href="https://indico.dns-oarc.net/event/24/" title="">2015 Montreal</a></li>
+<li class="expanded"><a href="https://indico.dns-oarc.net/index.py">Upcoming Workshops</a><ul class="menu"><li class="collapsed first"><a href="https://indico.dns-oarc.net/event/24/" title="">2015 Montreal</a></li>
 <li class="leaf last"><a href="https://indico.dns-oarc.net/event/22/" title="">2016 Buenos Aires</a></li>
 </ul></li>
 <li class="collapsed"><a href="https://indico.dns-oarc.net/" title="Information about OARC&#039;s parts workshops">Past Workshops</a></li>
@@ -121,7 +120,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-LjomQsAr9ROFmAOEFfNWGTtRSx_jgKmMfTVrSHX1v2E" value="form-LjomQsAr9ROFmAOEFfNWGTtRSx_jgKmMfTVrSHX1v2E"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-3zRhrm12t0zwTGDVmsiQWPhlHR9dQkLpCUKgj9VIFZM" value="form-3zRhrm12t0zwTGDVmsiQWPhlHR9dQkLpCUKgj9VIFZM"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -138,7 +137,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-Q5UkE7TTQpDMWgNzeLhhVsNq22V-GDZmqmClECUZqVI" value="form-Q5UkE7TTQpDMWgNzeLhhVsNq22V-GDZmqmClECUZqVI"  />
+<input type="hidden" name="form_build_id" id="form-NPoQvNzPYNCYxy0ngJqvIpSCWDYzIgNx8xWznYBaiXg" value="form-NPoQvNzPYNCYxy0ngJqvIpSCWDYzIgNx8xWznYBaiXg"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,6 +170,21 @@
   </div>
     <div class="info">
     Submitted by wessels on Thu, 2008-07-03 22:40          </div>
+</div>
+<div class="node  ">
+        <h2><a href=" /oarc/agm-2015 " title=" 2015 OARC Elections and AGM "> 2015 OARC Elections and AGM </a></h2>
+     <div class="content">
+          <p>
+The DNS-OARC 2015 <a href="https://indico.dns-oarc.net/event/24/page/3">Annual General Meeting</a> will take place on the 3rd of October during a members-only session at the start of OARC's <a href="https://indico.dns-oarc.net/event/24/">Fall 2015 Workshop</a>, in Montreal, Quebec, Canada.</p>
+<p>
+We are looking for nominations for candidates willing to serve a two-year term on the Board and contribute to the continued growth of OARC.   The Board meets monthly, by teleconference, to review DNS-OARC operations.  We expect our directors to actively contribute to the various ongoing, email based, discussions and provide oversight &amp; feedback as needed.</p>
+<p></p>  </div>
+    <div class="info">
+    Submitted by keith on Thu, 2015-07-30 18:35          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
+</ul> ]</span>
+              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/oarc/agm-2015" title="Read the rest of 2015 OARC Elections and AGM.">Read more</a></li>
+</ul> </span>
+      </div>
 </div>
 <div class="node  ">
         <h2><a href=" /oarc/data/zfr/root " title=" Root Zone Archive "> Root Zone Archive </a></h2>
@@ -300,21 +314,6 @@ Current open positions:</p>
 </ul> </span>
       </div>
 </div>
-<div class="node  ">
-        <h2><a href=" /wiki/dns-looking-glass-information " title=" DNS Looking Glass Information "> DNS Looking Glass Information </a></h2>
-     <div class="content">
-          <p>There are a number of DNS Looking Glass sites around the Internet that will allow anyone to send a DNS query from that location.  Looking Glasses are of particular use in the case of troubleshooting a problem with a DNS zone that is served from an anycasted service.  In the event of a problem with the service, the view of a zone can be very different from distant places on the Internet.</p>
-<p>Here is a list of some of the known looking glass sites around the Internet:</p>
-<ul>
-<li><a href="http://dns-lg.wullink.nl/dns-lg/">http://dns-lg.wullink.nl/dns-lg/</a>
-</li><li><a href="http://dns.comcast.net/dig-tool.php">http://dns.comcast.net/dig-tool.php</a>
-</li><li><a href="http://live.icmynet.com/icmynet-dns/">http://live.icmynet.com/icmynet-dns/</a><br />
-</li></ul>  </div>
-    <div class="info">
-    Submitted by Anonymous on Mon, 2014-05-12 12:45              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/wiki/dns-looking-glass-information" title="Read the rest of DNS Looking Glass Information.">Read more</a></li>
-</ul> </span>
-      </div>
-</div>
 <div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
 <li class="pager-item"><a href="/node?page=1" title="Go to page 2" class="active">2</a></li>
 <li class="pager-item"><a href="/node?page=2" title="Go to page 3" class="active">3</a></li>
@@ -383,7 +382,7 @@ Current open positions:</p>
 <a href="http://www.pir.org/">Public Interest Registry</a><br/>
 <a href="http://www.registry.si">Registry.si</a><br/>
 <a href="http://www.restena.lu">RESTENA</a><br/>
-<a href="http://www.bskyb.com">Sky</a><br/>
+<a href="http://www.sky.com">Sky</a><br/>
 <a href="https://www.switch.ch/">SWITCH</a><br/>
 <a href="http://tcinet.ru">tcinet.ru</a><br/>
 <a href="http://www.edgecast.com/">Verizon EdgeCast</a><br/>

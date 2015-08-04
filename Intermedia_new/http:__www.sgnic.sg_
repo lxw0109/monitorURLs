@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-7Rhdkh-1GV8f3jVNljbGsO3SVcZUJ9MUWit8rko7tQY" value="form-7Rhdkh-1GV8f3jVNljbGsO3SVcZUJ9MUWit8rko7tQY"  />
+<input type="hidden" name="form_build_id" id="form--etpObh5vy7rUv8o_rWIbIebV7pDgMuHa2pjnj4jBs4" value="form--etpObh5vy7rUv8o_rWIbIebV7pDgMuHa2pjnj4jBs4"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-vqucHXz4CBrKOOpYvL_9Llw7r9_b5hET64eNq6sv8Z4" value="form-vqucHXz4CBrKOOpYvL_9Llw7r9_b5hET64eNq6sv8Z4"  />
+<input type="hidden" name="form_build_id" id="form-sqmBkt1NQZ4ucQb7QdETlJRr2fbrUDqE-2Tq_voNRN4" value="form-sqmBkt1NQZ4ucQb7QdETlJRr2fbrUDqE-2Tq_voNRN4"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -120,6 +120,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-created">
+                <span class="field-content">July 24, 2015, 4:40 pm</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/i-love-sg-national-day-2015-promotion">&quot;I Love .SG&quot; National Day 2015 Promotion!</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-created">
                 <span class="field-content">July 24, 2015, 4:25 pm</span>
   </div>
   
@@ -127,22 +136,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="/news/sgnic-and-registrars-celebrate-jubilee-weekend-free-sg-names">SGNIC and registrars celebrate Jubilee Weekend with free .SG names</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-created">
                 <span class="field-content">June 26, 2015, 1:53 pm</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="/news/special-names-limited-period-grab-it-now-16">Special names for a limited period! Grab it now!</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-created">
-                <span class="field-content">June 3, 2015, 9:00 am</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/sgnic-q-15004-invitation-quote-web-application-penetration-testing-wapt-service-and-optional-po">SGNIC-Q-15004: Invitation to Quote for a Web Application Penetration Testing (WAPT) service and an optional post review service</a></span>
   </div>
 </li>
       </ul>
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
+                <span class="field-content">August 3, 2015, 8:36 am</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://blog.apnic.net/2015/08/03/infographic-number-community-proposal-for-the-iana-stewardship-transition/">Infographic:  Number Community proposal for the IANA stewardship transition</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-timestamp">
+                <span class="field-content">July 31, 2015, 12:05 pm</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://blog.apnic.net/2015/07/31/podcast-enhancing-icann-accountability/">Podcast: Enhancing ICANN Accountability</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field-timestamp">
                 <span class="field-content">July 30, 2015, 11:10 am</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="http://blog.apnic.net/2015/07/30/event-wrap-pacnog-17/">Event Wrap: PacNOG 17</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-2 views-row-even">  
-  <div class="views-field-timestamp">
-                <span class="field-content">July 29, 2015, 2:22 pm</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/07/29/save-the-date-apnic-42/">Save the date: APNIC 42</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-timestamp">
-                <span class="field-content">July 29, 2015, 12:00 pm</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/07/29/my-visit-to-taichung-taiwan/">My visit to Taichung, Taiwan</a></span>
   </div>
 </li>
       </ul>

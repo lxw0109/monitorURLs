@@ -24,10 +24,10 @@
 		<title>OpenDNS: Cloud-Delivered DNS Security for Enterprise</title>
 
 	
-			<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/homepage.css?v=6594e871db89ecf02b7cfbaf4f1e93eb" />
+			<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/homepage.css?v=bad910a117b2222bfb88ac203bc65b13" />
 	
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=50f5508ba9fc83bd78f39170a2b18062"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=510d675eecb40aa6d1e1ad16e7ec08f5"></script>
 	<![endif]-->
 
 	<link rel='stylesheet' id='style-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/style.css?ver=4.2.3' type='text/css' media='all' />
@@ -37,7 +37,7 @@
 <link rel='stylesheet' id='chosen-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/chosen.css?ver=4.2.3' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.2.3' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/search.css?v=d11c7373dd118865e354df8ac6757537">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/search.css?v=a966eba05aa005ae51cb144c68883d94">
 
 	<meta name="viewport" content="width=device-width">
 	
@@ -74,7 +74,7 @@ img.emoji {
 </style>
 <script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
 <script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=af6d34823e9b66814e372a2b881f597f'></script>
+<script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=5923410b0cd760a3d5d30ff00c0dbd4e'></script>
 <meta name="generator" content="WordPress 4.2.3" />
 <script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 </head>
@@ -208,11 +208,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<a href="https://www.opendns.com/enterprise-security/threat-intelligence/">
 				<span class="icon "></span>OpenDNS Investigate</a></li><li class="contact-sales demo-request button Investigate menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="#">
-				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=dde16f78f6d52ca3960dfafd2beb7f86"></script>
+				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=32f936c3189bfed016b1c65f77e7e586"></script>
 		</div>
 	</header>
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=cad5291a12ad4026910f12f965cb93c0"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=ec2ff8140178443c1f2e02d14374ea39"></script>
 	<![endif]-->
 	<!--
 	Start of DoubleClick Floodlight Tag: Please do not remove
@@ -502,17 +502,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Jul 29</span>
+							<span class="date">Jul 30</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://blog.opendns.com/2015/07/29/whois-paul-moreno-security-engineering-lead-at-pinterest/" title="WHOIS: Paul Moreno, Security Engineering Lead at Pinterest">WHOIS: Paul Moreno, Security Engineering Lead at Pinterest</a>
+							<a href="https://blog.opendns.com/2015/07/30/bgp-stream-the-emergency-alert-system-for-the-internet/" title="BGP Stream: The Emergency Alert System for the Internet">BGP Stream: The Emergency Alert System for the Internet</a>
 						</h4>
-						<p class="author">Author: WHOIS</p>
-						<div class="excerpt"><p>In this month&#8217;s WHOIS, we&#8217;re talking to Paul Moreno, Pinterest&#8217;s Security Engineering Lead:        &hellip;<span class="overflow">                                                                                                                                    &hellip;</span></p>
+						<p class="author">Author: Owen Lystrup</p>
+						<div class="excerpt"><p> Editor’s note: For a brush up on BGP, how it works, and its Internet security implications, see our two-part series. &hellip;<span class="overflow">   Because of its antiquated design, BGP (border gateway protocol) changes can be the cause of daily Internet&hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/07/29/whois-paul-moreno-security-engineering-lead-at-pinterest/" title="WHOIS: Paul Moreno, Security Engineering Lead at Pinterest" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/07/30/bgp-stream-the-emergency-alert-system-for-the-internet/" title="BGP Stream: The Emergency Alert System for the Internet" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 								<li class="post clearfix">
@@ -524,17 +524,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Jul 27</span>
+							<span class="date">Jul 29</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://blog.opendns.com/2015/07/27/the-brief-july-20th-26th/" title="The Brief: July 20th-26th">The Brief: July 20th-26th</a>
+							<a href="https://blog.opendns.com/2015/07/29/whois-paul-moreno-security-engineering-lead-at-pinterest/" title="WHOIS: Paul Moreno, Security Engineering Lead at Pinterest">WHOIS: Paul Moreno, Security Engineering Lead at Pinterest</a>
 						</h4>
-						<p class="author">Author: The Brief</p>
-						<div class="excerpt"><p>This week in the Brief: Hackers target your car, BGP is the new black, and RSA wanted your 2016 conference &hellip;<span class="overflow"> presentation submission, like, yesterday:  &nbsp;                                                                          &hellip;</span></p>
+						<p class="author">Author: WHOIS</p>
+						<div class="excerpt"><p>In this month&#8217;s WHOIS, we&#8217;re talking to Paul Moreno, Pinterest&#8217;s Security Engineering Lead:        &hellip;<span class="overflow">                                                                                                                                    &hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/07/27/the-brief-july-20th-26th/" title="The Brief: July 20th-26th" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/07/29/whois-paul-moreno-security-engineering-lead-at-pinterest/" title="WHOIS: Paul Moreno, Security Engineering Lead at Pinterest" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -771,12 +771,12 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=3998ea78047cd3ea7cc9e52bda34963a'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":581,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=541ea33af29db3e750be4f3fee4cfff8'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":563,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
 Content Delivery Network via Amazon Web Services: CloudFront: d295hzzivaok4k.cloudfront.net
 
- Served from: www.opendns.com @ 2015-07-29 21:02:15 by W3 Total Cache -->
+ Served from: www.opendns.com @ 2015-08-02 18:10:33 by W3 Total Cache -->
