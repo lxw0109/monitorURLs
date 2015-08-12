@@ -39,7 +39,7 @@
 <link rel="alternate" type="application/rss+xml" title="Your Public Interest Registry &raquo; Feed" href="http://pir.org/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Your Public Interest Registry &raquo; Comments Feed" href="http://pir.org/comments/feed/" />
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/pir.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.3"}};
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/pir.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.4"}};
 			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -56,19 +56,19 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='Base-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/base.css?ver=4.2.3' type='text/css' media='all' />
-<link rel='stylesheet' id='skeleton-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/skeleton.css?ver=4.2.3' type='text/css' media='all' />
-<link rel='stylesheet' id='iLightbox-css'  href='http://pir.org/wp-content/themes/nitro/assets/lightbox/ilightbox.css?ver=4.2.3' type='text/css' media='all' />
-<link rel='stylesheet' id='comments-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/comments.css?ver=4.2.3' type='text/css' media='all' />
-<link rel='stylesheet' id='custom-buttons-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/buttons.css?ver=4.2.3' type='text/css' media='all' />
-<link rel='stylesheet' id='superfish-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/superfish.css?ver=4.2.3' type='text/css' media='all' />
-<link rel='stylesheet' id='prettyphoto-css'  href='http://pir.org/wp-content/themes/nitro/assets/javascripts/prettyPhoto/css/prettyPhoto.css?ver=4.2.3' type='text/css' media='all' />
-<link rel='stylesheet' id='Styles-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/styles.css?ver=4.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='Base-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/base.css?ver=4.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='skeleton-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/skeleton.css?ver=4.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='iLightbox-css'  href='http://pir.org/wp-content/themes/nitro/assets/lightbox/ilightbox.css?ver=4.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='comments-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/comments.css?ver=4.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-buttons-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/buttons.css?ver=4.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='superfish-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/superfish.css?ver=4.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyphoto-css'  href='http://pir.org/wp-content/themes/nitro/assets/javascripts/prettyPhoto/css/prettyPhoto.css?ver=4.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='Styles-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/styles.css?ver=4.2.4' type='text/css' media='all' />
 <link rel='stylesheet' id='events-manager-css'  href='http://pir.org/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.55' type='text/css' media='all' />
 <link rel='stylesheet' id='et_monarch-open-sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' type='text/css' media='all' />
 <link rel='stylesheet' id='et_monarch-css-css'  href='http://pir.org/wp-content/plugins/monarch/css/style.css?ver=1.2' type='text/css' media='all' />
-<link rel='stylesheet' id='parent-style-css'  href='http://pir.org/wp-content/themes/nitro/style.css?ver=4.2.3' type='text/css' media='all' />
-<link rel='stylesheet' id='child-style-css'  href='http://pir.org/wp-content/themes/pir/style.css?ver=4.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='http://pir.org/wp-content/themes/nitro/style.css?ver=4.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='http://pir.org/wp-content/themes/pir/style.css?ver=4.2.4' type='text/css' media='all' />
 <link rel='stylesheet' id='shiftnav-css'  href='http://pir.org/wp-content/plugins/shiftnav-pro/pro/assets/css/shiftnav.css?ver=1.2.1-beta-4' type='text/css' media='all' />
 <link rel='stylesheet' id='shiftnav-font-awesome-css'  href='http://pir.org/wp-content/plugins/shiftnav-pro/assets/css/fontawesome/css/font-awesome.min.css?ver=1.2.1-beta-4' type='text/css' media='all' />
 <link rel='stylesheet' id='shiftnav-custom-css'  href='http://pir.org/wp-content/plugins/shiftnav-pro/custom/custom.css?ver=1.2.1-beta-4' type='text/css' media='all' />
@@ -168,7 +168,7 @@ wfscr.type = 'text/javascript';
 wfscr.async = true;
 wfscr.src = url + '&r=' + Math.random();
 (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-})('//pir.org/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=9FE96BFAAAA147B47A2362D15B641BD8');
+})('//pir.org/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=94A74CCB7B9D4499A9094A686FA46E6E');
 </script>		
 
 <!-- Etrigue Tracking Code -->
@@ -717,7 +717,7 @@ wfscr.src = url + '&r=' + Math.random();
 	<!-- Default Portfolio View - Grabs the variable set in the template-xxx.php files -->
 
 
-<!-- End Default Portfolio View --><link rel='stylesheet' id='theme-style-css'  href='http://pir.org/wp-content/themes/nitro/style.css?ver=4.2.3' type='text/css' media='all' />
+<!-- End Default Portfolio View --><link rel='stylesheet' id='theme-style-css'  href='http://pir.org/wp-content/themes/nitro/style.css?ver=4.2.4' type='text/css' media='all' />
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/jquery.touchwipe.min.js'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/jquery.isotope.js'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/jquery.prettyPhoto.js'></script>
@@ -732,7 +732,7 @@ wfscr.src = url + '&r=' + Math.random();
 <script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/idle-timer.min.js?ver=1.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var monarchSettings = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/pir.org\/news-events\/for-press\/press-releases\/","stats_nonce":"3beb795792","share_counts":"c2613d4b4a","follow_counts":"7d2de1e76c","total_counts":"ba4ef66d31","media_single":"45d6913054","media_total":"5aee05a699","generate_all_window_nonce":"f6f66cea06","no_img_message":"No images available for sharing on this page"};
+var monarchSettings = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/pir.org\/news-events\/for-press\/press-releases\/","stats_nonce":"a57c93d614","share_counts":"96abf35727","follow_counts":"c2cf931f67","total_counts":"72c3e43baa","media_single":"cd64cb915c","media_total":"c3e464b96a","generate_all_window_nonce":"b2d38d91f1","no_img_message":"No images available for sharing on this page"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/custom.js?ver=1.2'></script>

@@ -1,32 +1,142 @@
-Sun Aug  2 00:00:01 CST 2015 --- Clear Log OK
+Sun Aug  9 00:00:01 CST 2015 --- Clear Log OK
 
-[Quite Normal, url recovery.] lxw_KeyError: http://www.cnvd.org.cn/	2015-08-02-09:10:02
+EMAIL SENDING: 	2015-08-09-09:10:13
 
-EMAIL SENDING: 	2015-08-02-09:10:14
+EMAIL SENDING SUCCESS: 	2015-08-09-09:10:16
 
-EMAIL SENDING SUCCESS: 	2015-08-02-09:10:17
+EMAIL SENDING: 	2015-08-09-09:10:16
 
-EMAIL SENDING: 	2015-08-02-09:10:17
+EMAIL SENDING SUCCESS: 	2015-08-09-09:10:24
 
-EMAIL SENDING SUCCESS: 	2015-08-02-09:10:28
-
-Monitor Finished.   Monitor Time: 2015-08-02-09:10:28.   Time Cost: 0'26"
+Monitor Finished.   Monitor Time: 2015-08-09-09:10:24.   Time Cost: 0'22"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-EMAIL SENDING: 	2015-08-03-09:10:11
+EMAIL SENDING: 	2015-08-10-09:10:42
 
-EMAIL SENDING SUCCESS: 	2015-08-03-09:10:14
+EMAIL SENDING ERROR: 	2015-08-10-09:11:22
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 549, in sendEmail
+    sm = smtplib.SMTP(smtpServer)
+  File "/usr/lib/python2.7/smtplib.py", line 256, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python2.7/smtplib.py", line 316, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python2.7/smtplib.py", line 291, in _get_socket
+    return socket.create_connection((host, port), timeout)
+  File "/usr/lib/python2.7/socket.py", line 553, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno -2] Name or service not known
 
-Monitor Finished.   Monitor Time: 2015-08-03-09:10:14.   Time Cost: 0'12"
+Monitor Finished.   Monitor Time: 2015-08-10-09:11:22.   Time Cost: 1'20"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-EMAIL SENDING: 	2015-08-04-09:10:10
+[Quite Normal, url recovery.] lxw_KeyError: http://cnnic.cn/gjymaqzx/aqgg/aqggaqsj/	2015-08-11-09:10:01
 
-EMAIL SENDING SUCCESS: 	2015-08-04-09:10:17
+[Quite Normal, url recovery.] lxw_KeyError: http://www.apac.org.cn/	2015-08-11-09:10:01
 
-Monitor Finished.   Monitor Time: 2015-08-04-09:10:17.   Time Cost: 0'16"
+[Quite Normal, url recovery.] lxw_KeyError: http://www.chinagov.cn/	2015-08-11-09:10:01
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.cert.org.cn/	2015-08-11-09:10:01
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.nsfocus.com/	2015-08-11-09:10:01
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.cnvd.org.cn/	2015-08-11-09:10:01
+
+[Quite Normal, url recovery.] lxw_KeyError: https://www.monic.mo/monic/faces/index	2015-08-11-09:10:01
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.aptld.org/	2015-08-11-09:10:01
+
+[Quite Normal, url recovery.] lxw_KeyError: http://blog.dnspod.cn/	2015-08-11-09:10:02
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.domain.kr/EN/announcementList.jsp	2015-08-11-09:10:02
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.iana.org/	2015-08-11-09:10:02
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.apcert.org/	2015-08-11-09:10:02
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.unbound.net/	2015-08-11-09:10:02
+
+[Quite Normal, url recovery.] lxw_KeyError: https://www.hkdnr.hk/?lang=cn	2015-08-11-09:10:02
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.ietf.org/	2015-08-11-09:10:02
+
+[Quite Normal, url recovery.] lxw_KeyError: https://www.icann.org/	2015-08-11-09:10:02
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.sgnic.sg/	2015-08-11-09:10:03
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.nlnetlabs.nl/	2015-08-11-09:10:03
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.caida.org/home/	2015-08-11-09:10:03
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.nominet.org.uk/news/press-releases	2015-08-11-09:10:03
+
+[Quite Normal, url recovery.] lxw_KeyError: https://www.opendns.com/	2015-08-11-09:10:03
+
+[Quite Normal, url recovery.] lxw_KeyError: https://www.dns-oarc.net/	2015-08-11-09:10:03
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.us-cert.gov/	2015-08-11-09:10:03
+
+[Quite Normal, url recovery.] lxw_KeyError: http://search.gmane.org/	2015-08-11-09:10:03
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.twnic.tw/index4.php	2015-08-11-09:10:03
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.neustar.biz/about-us/news-room/press-releases/2012	2015-08-11-09:10:03
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.apnic.net/	2015-08-11-09:10:04
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.cira.ca/news/news-releases/	2015-08-11-09:10:04
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.afrinic.net/	2015-08-11-09:10:04
+
+[Quite Normal, url recovery.] lxw_KeyError: http://pir.org/news-events/for-press/press-releases/	2015-08-11-09:10:04
+
+[Quite Normal, url recovery.] lxw_KeyError: http://jprs.co.jp/en/press/	2015-08-11-09:10:04
+
+[Quite Normal, url recovery.] lxw_KeyError: http://nominum.com/press-type/release/	2015-08-11-09:10:04
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.verisigninc.com/zh_CN/internet-technology-news/verisign-press-releases/archives/index.xhtml	2015-08-11-09:10:04
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.secure64.com/press_releases	2015-08-11-09:10:04
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.ripe.net/	2015-08-11-09:10:05
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.afilias.info/	2015-08-11-09:10:05
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.denic.de/en/homepage.html	2015-08-11-09:10:05
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.isc.org.cn/	2015-08-11-09:10:07
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.afnic.fr/en/	2015-08-11-09:10:10
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.isc.org/downloads/software-support-policy/security-advisory/	2015-08-11-09:10:10
+
+[Quite Normal, url recovery.] lxw_KeyError: http://www.isc.org/downloads/bind/	2015-08-11-09:10:10
+
+[Quite Normal, url recovery.] lxw_KeyError: https://kb.isc.org/	2015-08-11-09:10:19
+
+EMAIL SENDING: 	2015-08-11-09:10:19
+
+EMAIL SENDING SUCCESS: 	2015-08-11-09:10:37
+
+Monitor Finished.   Monitor Time: 2015-08-11-09:10:37.   Time Cost: 0'35"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+EMAIL SENDING: 	2015-08-11-09:23:47
+
+EMAIL SENDING SUCCESS: 	2015-08-11-09:23:49
+
+Monitor Finished.   Monitor Time: 2015-08-11-09:23:49.   Time Cost: 0'11"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+EMAIL SENDING: 	2015-08-12-09:10:11
+
+EMAIL SENDING SUCCESS: 	2015-08-12-09:10:29
+
+Monitor Finished.   Monitor Time: 2015-08-12-09:10:29.   Time Cost: 0'28"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------

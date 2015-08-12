@@ -1051,7 +1051,7 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 	<table id="wrapper" align="center">
 <tbody>
 <tr>
-<td rowspan="2" align="left" valign="top"><p><a href="http://afrinic.net/en/library/news/1415-afrinic-annual-audit-report-and-financial-statements-on-2014" target="_blank"><img alt="" src="/images/stories/financeslide-01.png" height="290" width="500" /></a></p></td>
+<td rowspan="2" align="left" valign="top"><p><a href="/nmrp.afrinic.net" target="_blank"><img alt="" src="/images/stories/nmrp_banner.jpg" height="290" width="500" /></a></p></td>
 <td align="center" valign="middle"><a href="http://www.fireafrica.org" target="_blank"><img src="/images/stories/front_slide/box_fire.jpg" alt="box fire" width="178" height="88" /></a></td>
 </tr>
 <tr>
@@ -1114,15 +1114,15 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <div id="qaccordion1" class="qaccordion">
      	 <h3 class="acc-header">Latest News</h3>
   	 <div class="acc-content">
-      <p>24 July 2015</p>
-<p><a href="/en/library/news/1433-board-chair-and-vice-chair" target="_blank">Board Chair and Vice Chair</a></p>
-<p>03 July 2015</p>
-<p><a href="/en/library/news/1427-the-american-registry-for-internet-numbers-arin-has-announced-that-its-ipv4-inventory-is-now-exhausted">The American Registry for Internet Numbers (ARIN) Has Announced That its IPv4 Inventory is Now Exhausted</a></p>
+      <p>5 August 2015</p>
+<p><a href="/en/library/news/1441-nro-ncaso-ac-appointment">NRO NC/ASO AC Appointment</a></p>
+<p>5 August 2015</p>
+<p><a href="/en/library/news/1443-new-afrinic-community-discuss-mailing-list">New AFRINIC Community-discuss mailing list</a></p>
 <hr />
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt55c01109b856drssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt55ca9d0d6ca54rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1136,8 +1136,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt55c01109b856d"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt55c01109b856drssscroller_module", options);
+					instanceId : "pgt55ca9d0d6ca54"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt55ca9d0d6ca54rssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);

@@ -1078,7 +1078,7 @@
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
 <span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 28 Jul 2015</span>
+<span class="date nobreak byline_date">Publication date: 04 Aug 2015</span>
 </span>
 </a>
 </li>
@@ -1221,6 +1221,16 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
+<a href="https://labs.ripe.net/Members/roberto_di_lallo/is-it-really-worth-peering-at-ixps" rel="nofollow">
+<span class="Title">Is It Really Worth Peering at IXPs? A Comparative Study</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date:
+                              <span>03 Aug 2015</span>
+</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://labs.ripe.net/Members/jh_kuipers/analyzing-the-k-root-anycast-infrastructure" rel="nofollow">
 <span class="Title">Analysing the K-root Anycast Infrastructure</span>
 <span class="item-details">
@@ -1236,16 +1246,6 @@
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
                               <span>24 Jul 2015</span>
-</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://labs.ripe.net/Members/ggm/delta-v-gets-take-off-speed" rel="nofollow">
-<span class="Title">Delta-V Gets Take-off Speed</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date:
-                              <span>16 Jul 2015</span>
 </span>
 </span>
 </a>
@@ -1269,6 +1269,16 @@
 </div>
 <div class="block_content">
 <div class="portlet collections margin-bottom grey-border">
+<ul class="collection_item">
+<li>
+<a href="https://www.ripe.net/support/service-announcements/network-maintenance-12-14-august-2015">
+<span class="Title">Network Maintenance: 12-14 August 2015</span>
+<span class="item-details">
+<span class="date nobreak byline_date">12 Aug 2015 16:00</span>
+</span>
+</a>
+</li>
+</ul>
 </div>
 </div>
 <div class="footer_link">
@@ -1304,8 +1314,8 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
-<a href="https://www.nro.net/news/call-for-comments-on-icgs-draft-iana-stewardship-transition-proposal" rel="nofollow">
-<span class="Title">Call for Comments on ICG’s Draft IANA Stewardship Transition Proposal</span>
+<a href="https://www.nro.net/news/call-for-comments-for-the-second-draft-sla-for-the-iana-numbering-services" rel="nofollow">
+<span class="Title">Call for Comments for the Second Draft SLA for the IANA Numbering Services</span>
 </a>
 </li>
 </ul>

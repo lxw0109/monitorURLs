@@ -11,7 +11,7 @@
 			// P2 Configuration
 			var ajaxUrl                 = "http://blog.dnspod.cn/wp-admin/admin-ajax.php?p2ajax=true";
 			var updateRate              = "30000"; // 30 seconds
-			var nonce                   = "afba92852e";
+			var nonce                   = "4333f195bc";
 			var login_url               = "http://blog.dnspod.cn/wp-login.php?redirect_to=http%3A%2F%2Fblog.dnspod.cn%2F";
 			var templateDir             = "http://blog.dnspod.cn/wp-content/themes/p2012";
 			var isFirstFrontPage        = 1;
@@ -28,7 +28,7 @@
 			var inlineEditComments      = 1;
 			var wpUrl                   = "http://blog.dnspod.cn";
 			var rssUrl                  = "";
-			var pageLoadTime            = "2015-08-04 01:10:32";
+			var pageLoadTime            = "2015-08-12 01:10:36";
 			var original_title          = document.title;
 			var commentsOnPost          = new Array;
 			var postsOnPage             = new Array;
@@ -66,7 +66,7 @@
 		//]]>
 		</script>
 				<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/blog.dnspod.cn\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.3"}};
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/blog.dnspod.cn\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.4"}};
 			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -84,7 +84,7 @@ img.emoji {
 }
 </style>
 <script type="text/javascript">
-var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=eacc4138fa"},"remote_auth":"W10= 9efa6636fd212c3e1034625d887a89020a025962 1438650632"};
+var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=6e81df0688"},"remote_auth":"W10= 949007ef788bf6a1d67c6cc7853a834409986b17 1439341836"};
 duoshuoQuery.sso.login += '&redirect_to=' + encodeURIComponent(window.location.href);
 duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.href);
 </script>
@@ -92,12 +92,12 @@ duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var userSettings = {"url":"\/","uid":"0","time":"1438650632","secure":""};
+var userSettings = {"url":"\/","uid":"0","time":"1439341836","secure":""};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/utils.min.js?ver=4.2.3'></script>
+<script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/utils.min.js?ver=4.2.4'></script>
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/jquery/jquery.color.min.js?ver=2.1.1'></script>
-<script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/comment-reply.min.js?ver=4.2.3'></script>
+<script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/comment-reply.min.js?ver=4.2.4'></script>
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-content/themes/p2012/js/jquery.scrollTo-min.js?ver=1.4'></script>
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-content/themes/p2012/js/wp-locale.js?ver=20110415'></script>
 <script type='text/javascript'>
@@ -111,7 +111,7 @@ try{convertEntities(p2txt);}catch(e){};;
 <script type='text/javascript' src='http://static.duoshuo.com/embed.js'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.dnspod.cn/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.dnspod.cn/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 4.2.3" />
+<meta name="generator" content="WordPress 4.2.4" />
 	<style type="text/css">
 						#header h1 a, #header small {
 			color: #3478E3;
@@ -160,7 +160,7 @@ try{convertEntities(p2txt);}catch(e){};;
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></li>
-<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1438650632890&f=1"></iframe></li>
+<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1439341836586&f=1"></iframe></li>
 <li id="categories-2" class="widget widget_categories"><h2 class="widgettitle">分类目录</h2>
 		<ul>
 	<li class="cat-item cat-item-1"><a href="http://blog.dnspod.cn/category/uncategorized/" >DNSPod动态</a> (28)
@@ -321,7 +321,7 @@ if (typeof DUOSHUO !== 'undefined')
 												<div class="form"><textarea id="comment" class="expand50-100" name="comment" cols="45" rows="3"></textarea></div> <label class="post-error" for="comment" id="commenttext_error"></label>						<span class="progress"><img src="http://blog.dnspod.cn/wp-content/themes/p2012/i/indicator.gif" alt="Loading..." title="Loading..." /></span>
 						<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="回复" /> <input type='hidden' name='comment_post_ID' value='5058' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="da85762e7f" /></p>					</form>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="9d0349b352" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="32"/></p>					</form>
 							</div><!-- #respond -->
 				<script type="text/javascript">
 		jQuery(document).ready(function () {
@@ -500,7 +500,7 @@ if (typeof DUOSHUO !== 'undefined')
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://0.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://www.kaixin001.com/home/?uid=146975586" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.kaixin001.com']);"  rel='external nofollow' class='url'>开星</a> is discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://2.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://www.kaixin001.com/home/?uid=146975586" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.kaixin001.com']);"  rel='external nofollow' class='url'>开星</a> is discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	
@@ -667,7 +667,7 @@ if (typeof DUOSHUO !== 'undefined')
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://0.gravatar.com/avatar/3565c1d5dffc3c4c71fc77c032410def?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3565c1d5dffc3c4c71fc77c032410def?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> x, <img alt='' src='http://0.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://t.qq.com/xiaocangdedian" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://t.qq.com']);"  rel='external nofollow' class='url'>小苍淘宝店</a>, <img alt='' src='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.ganggan.com/trade?=32" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.ganggan.com']);"  rel='external nofollow' class='url'>杠杆网</a> and 7 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://0.gravatar.com/avatar/3565c1d5dffc3c4c71fc77c032410def?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3565c1d5dffc3c4c71fc77c032410def?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> x, <img alt='' src='http://1.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://t.qq.com/xiaocangdedian" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://t.qq.com']);"  rel='external nofollow' class='url'>小苍淘宝店</a>, <img alt='' src='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.ganggan.com/trade?=32" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.ganggan.com']);"  rel='external nofollow' class='url'>杠杆网</a> and 7 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	
@@ -876,7 +876,7 @@ f1g1ns2.dnspod.net  122.225.217.191</p>
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://1.gravatar.com/avatar/4b3a2d7677d1cf5bf07cc8ac642af8a3?s=16&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/4b3a2d7677d1cf5bf07cc8ac642af8a3?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> 黄焖鸡米饭, <img alt='' src='http://1.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://t.qq.com/q258456951753" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://t.qq.com']);"  rel='external nofollow' class='url'>ererwerer</a>, <img alt='' src='http://2.gravatar.com/avatar/b341fbee241c869c72c3c5f327b17f50?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/b341fbee241c869c72c3c5f327b17f50?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://weibo.com/niuzhanw" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://weibo.com']);"  rel='external nofollow' class='url'>牛站网</a> and 9 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://1.gravatar.com/avatar/4b3a2d7677d1cf5bf07cc8ac642af8a3?s=16&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/4b3a2d7677d1cf5bf07cc8ac642af8a3?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> 黄焖鸡米饭, <img alt='' src='http://2.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://t.qq.com/q258456951753" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://t.qq.com']);"  rel='external nofollow' class='url'>ererwerer</a>, <img alt='' src='http://2.gravatar.com/avatar/b341fbee241c869c72c3c5f327b17f50?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/b341fbee241c869c72c3c5f327b17f50?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://weibo.com/niuzhanw" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://weibo.com']);"  rel='external nofollow' class='url'>牛站网</a> and 9 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	
@@ -956,7 +956,8 @@ f1g1ns2.dnspod.net  122.225.217.191</p>
 			});
 		});
 	/* ]]> */
-	</script>
+	</script><script type='text/javascript' src='http://blog.dnspod.cn/wp-content/plugins/akismet/_inc/form.js?ver=3.1.1'></script>
+
 </body>
 </html>
 <!-- WP Super Cache is installed but broken. The path to wp-cache-phase1.php in wp-content/advanced-cache.php must be fixed! -->

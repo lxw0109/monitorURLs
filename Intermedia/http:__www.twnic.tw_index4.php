@@ -549,6 +549,9 @@ MM_reloadPage(true);
 <td><a href="http://www.myhome.net.tw/timeline  " target="_blank"><img src="http://www.twnic.net.tw/brarchive/235.gif" border="0"></a></td>
 </tr>
 <tr align="center">
+<td><a href="http://www.twnic.net.tw/2015talks/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/246.gif" border="0"></a></td>
+</tr>
+<tr align="center">
 <td><a href="http://www.twnic.net.tw/cp" target="_blank"><img src="http://www.twnic.net.tw/brarchive/234.gif" border="0"></a></td>
 </tr>
 <tr align="center">

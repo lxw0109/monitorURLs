@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 04 August 2015 11:10:27
+  Page generated: 12 August 2015 11:10:31
 -->
 
 
@@ -308,15 +308,15 @@ $('.theme-about #header-label span').text('About APNIC');
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <a href="//conference.apnic.net/40/elections" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="APNIC 40 - NRO NC Election"><img src="https://www.apnic.net/home/carousel/apnic-40-nro-nc-elections.png" alt="APNIC 40 - NRO NC Election"></a>
-    </div>    <div class="item">
       <a href="//training.apnic.net/events" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="eLearning - Free, one-hour classes held every Wednesday. Register now!"><img src="https://www.apnic.net/home/carousel/eLearning-website-banner-191x873-01.png" alt="eLearning - Free, one-hour classes held every Wednesday. Register now!"></a>
-    </div>
-    <div class="item">
+    </div>    <div class="item">
       <a href="//conference.apnic.net/40" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="APNIC 40 - Save the Date!"><img src="https://www.apnic.net/home/carousel/apnic-40-save-the-date.jpg" alt="APNIC 40 - Save the Date!"></a>
     </div>
     <div class="item">
       <a href="//www.apnic.net/ROA" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="Create your ROA now in MyAPNIC"><img src="https://www.apnic.net/home/carousel/ROA.png" alt="Create your ROA now in MyAPNIC"></a>
+    </div>
+    <div class="item">
+      <a href="//www.apnic.net/IANAxfer" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="IANA Transition"><img src="https://www.apnic.net/__data/assets/image/0008/76526/iana-transfer-homepage-banner.png" alt="IANA Transition"></a>
     </div>
 
   </div>
@@ -429,9 +429,10 @@ $('.theme-about #header-label span').text('About APNIC');
       </h2>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-3-august-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 3 August 2015</a></h3>
+      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-10-august-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 10 August 2015</a></h3>
 <p class="ellipsis" data-ellipsis-rows="2">
-<p>Whois updates were delayed due to database replication fault. All 456 pending updates have been correctly pushed through.</p>
+<p>There will be a 30 minutes delay in reverse DNS update&nbsp;due server maintenance of DNSSEC signer.</p>
+
 
 
 
