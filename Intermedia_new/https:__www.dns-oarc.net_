@@ -120,7 +120,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-GIPPcrgdfu2qnaatXCq9CRiVkTgLg7T79gw3Z8gpheg" value="form-GIPPcrgdfu2qnaatXCq9CRiVkTgLg7T79gw3Z8gpheg"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-YlrEwbQMO2Gcb7mScXdXS8c5n5Rz143wDVQo9PxrBnA" value="form-YlrEwbQMO2Gcb7mScXdXS8c5n5Rz143wDVQo9PxrBnA"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -137,7 +137,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-N8jmsnrEA4ZIX07U2LjXUGUrJfQHTVFsxvBf2Vf1o74" value="form-N8jmsnrEA4ZIX07U2LjXUGUrJfQHTVFsxvBf2Vf1o74"  />
+<input type="hidden" name="form_build_id" id="form-gTjOU378DXli_HPgrnHra8cGKZnEZ9QnCa1vEYw5bm4" value="form-gTjOU378DXli_HPgrnHra8cGKZnEZ9QnCa1vEYw5bm4"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -380,17 +380,21 @@ Current open positions:</p>
 <a href="http://www.nominum.com">Nominum</a><br/>
 <a href="http://www.norid.no/">Norid</a><br/>
 <a href="http://nzrs.net.nz/">NZRS</a><br/>
+<a href="http://www.powerdns.com/">PowerDNS</a><br/>
 <a href="http://www.pir.org/">Public Interest Registry</a><br/>
 <a href="http://www.registry.si">Registry.si</a><br/>
 <a href="http://www.restena.lu">RESTENA</a><br/>
+<a href="http://www.secure64.com/">Secure64</a><br/>
 <a href="http://www.sky.com">Sky</a><br/>
 <a href="https://www.switch.ch/">SWITCH</a><br/>
 <a href="http://tcinet.ru">tcinet.ru</a><br/>
+<a href="http://telus.com">Telus</a><br/>
 <a href="http://www.edgecast.com/">Verizon EdgeCast</a><br/>
 <p><center>Blue</center><a href="https://www.maawg.org/">M3AAWG</a><br/>
 <a href="http://www.nlnetlabs.nl/">NLnet Labs</a><br/>
 <a href="http://sinodun.com/">Sinodun</a><br/>
-<p><center>Supporter</center><a href="http://www.internet.ee">Eesti Internet</a><br/>
+<p><center>Supporter</center><a href="http://www.caida.org/">CAIDA</a><br/>
+<a href="http://www.internet.ee">Eesti Internet</a><br/>
 <a href="http://www.arc.nasa.gov/">NASA Ames</a><br/>
 <a href="http://www.ottix.net/">OTTIX</a><br/>
 <a href="http://www.team-cymru.org/">Team Cymru</a><br/>
@@ -400,7 +404,6 @@ Current open positions:</p>
 <a href="https://www.utwente.nl">UTwente</a><br/>
 <a href="http://www.wide.ad.jp/">WIDE</a><br/>
 <p><center>Beneficial</center><a href="http://afrinic.net">AFRINIC</a><br/>
-<a href="http://www.caida.org/">CAIDA</a><br/>
 <a href="http://www.cogentco.com/">Cogent</a><br/>
 <a href="http://www.hostmaster.ua">dotua</a><br/>
 <a href="http://www.lacnic.net">LACNIC</a><br/>
@@ -408,9 +411,7 @@ Current open positions:</p>
 <a href="http://www.netnod.se/">Netnod</a><br/>
 <a href="https://nic.ar/">NIC.AR</a><br/>
 <a href="http://www.ntt.com/">NTT</a><br/>
-<a href="http://www.powerdns.com/">PowerDNS</a><br/>
 <a href="">RTFM</a><br/>
-<a href="http://www.secure64.com/">Secure64</a><br/>
 <a href="http://www.umd.edu/">University of Maryland</a><br/>
 <a href="http://www.isi.edu">USC/ISI</a><br/>
   </div>

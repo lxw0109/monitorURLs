@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-zZ0Ob5JsyCAhQ5uM8CeyaQrrorQ3-uD5gZP6w2bOsIc" value="form-zZ0Ob5JsyCAhQ5uM8CeyaQrrorQ3-uD5gZP6w2bOsIc"  />
+<input type="hidden" name="form_build_id" id="form-aec7lZLUWOeh5lCsaRDRP2CEsklg3KxK2mJYlaUbaw0" value="form-aec7lZLUWOeh5lCsaRDRP2CEsklg3KxK2mJYlaUbaw0"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-VyymYITFqFF-M51hf7IkAGqbVVEI4lFGrErK1FgXdMg" value="form-VyymYITFqFF-M51hf7IkAGqbVVEI4lFGrErK1FgXdMg"  />
+<input type="hidden" name="form_build_id" id="form-L43kd9Jm8WN9DYZppnYaZA8koC53CR6kgRsGGgpjLxw" value="form-L43kd9Jm8WN9DYZppnYaZA8koC53CR6kgRsGGgpjLxw"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -120,6 +120,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-created">
+                <span class="field-content">August 17, 2015, 10:53 am</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/results-july-2015-premium-domain-name-pdn-exercise">Results of July 2015 Premium Domain Name (&quot;PDN&quot;) Exercise</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-created">
                 <span class="field-content">July 24, 2015, 4:40 pm</span>
   </div>
   
@@ -127,22 +136,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="/news/i-love-sg-national-day-2015-promotion">&quot;I Love .SG&quot; National Day 2015 Promotion!</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-created">
                 <span class="field-content">July 24, 2015, 4:25 pm</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="/news/sgnic-and-registrars-celebrate-jubilee-weekend-free-sg-names">SGNIC and registrars celebrate Jubilee Weekend with free .SG names</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-created">
-                <span class="field-content">June 26, 2015, 1:53 pm</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/special-names-limited-period-grab-it-now-16">Special names for a limited period! Grab it now!</a></span>
   </div>
 </li>
       </ul>
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">August 11, 2015, 9:43 am</span>
+                <span class="field-content">August 21, 2015, 11:15 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/08/11/isif-asia-grant-recipients-stimulating-development/">ISIF Asia grant recipients stimulating development</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/08/21/india-thirsty-for-ipv6/">India thirsty for IPv6</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">August 10, 2015, 12:15 pm</span>
+                <span class="field-content">August 21, 2015, 8:54 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/08/10/happy-first-birthday-blog/">Happy First Birthday, Blog!</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/08/21/internet-traffic-jam-in-asia-as-submarine-cable-breaks/">Internet traffic jam in Asia as submarine cable breaks</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">August 10, 2015, 10:30 am</span>
+                <span class="field-content">August 19, 2015, 12:22 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/08/10/new-anchor-to-measure-the-edge-of-the-internet/">New Anchor to measure the edge of the Internet</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/08/19/online-voting-for-nro-nc-election-opens-today/">Online voting for NRO NC election opens today</a></span>
   </div>
 </li>
       </ul>

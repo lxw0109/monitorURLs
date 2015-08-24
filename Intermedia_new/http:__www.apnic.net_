@@ -43,7 +43,7 @@
 <!--[if lt IE 9]>
     <link href="https://www.apnic.net/_designs/corporate-identity/css/bootstrap.min.css" rel="stylesheet">
 <![endif]-->
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.4.2" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.5.1" rel="stylesheet">
         <link href="https://www.apnic.net/__data/assets/css_file/0016/72322/legacy.css?v=0.1.9" rel="stylesheet">
 
         <style>
@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 12 August 2015 11:10:31
+  Page generated: 24 August 2015 11:10:38
 -->
 
 
@@ -93,6 +93,8 @@
                 var $body = $('body');
                 var theme = "default";
                 if(path.match(/^\/services/)){theme = "services"}
+                else if(path.match(/^\/get-ip/)){theme = "getip"}
+                else if(path.match(/^\/manage-ip/)){theme = "manageip"}
                 else if(path.match(/^\/community/)){theme = "community"}
                 else if(path.match(/^\/policy/)){theme = "community"}
                 else if(path.match(/^\/docs/)){theme = "community"}
@@ -147,7 +149,7 @@
         // Random colour by default, but some sections are themed a particular colour
         var colour = _.sample(["blue" , "darkgreen" , "lightgreen" , "orange" , "purple"]);
         var path = window.location.pathname;
-        if(path.match(/^\/services/)){colour = "orange"}
+        if(path.match(/^\/(services|get)/)){colour = "orange"}
         else if(path.match(/^\/community/)){colour = "darkgreen"}
         else if(path.match(/^\/events/)){colour = "purple"}
         else if(path.match(/^\/about/)){colour = "blue"}
@@ -274,6 +276,8 @@
 </div>
 <script>
 $('.theme-services #header-label span').text('Services');
+$('.theme-getip #header-label span').text('Get IP');
+$('.theme-manageip #header-label span').text('Manage IP');
 $('.theme-community #header-label span').text('Community');
 $('.theme-events #header-label span').text('Events');
 $('.theme-publications #header-label span').text('Publications');
@@ -308,15 +312,15 @@ $('.theme-about #header-label span').text('About APNIC');
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <a href="//training.apnic.net/events" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="eLearning - Free, one-hour classes held every Wednesday. Register now!"><img src="https://www.apnic.net/home/carousel/eLearning-website-banner-191x873-01.png" alt="eLearning - Free, one-hour classes held every Wednesday. Register now!"></a>
+      <a href="https://conference.apnic.net/40/elections" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="APNIC 40 - NRO Election online voting now open"><img src="https://www.apnic.net/home/carousel/apnic-40-nro-nc-elections-voting.png" alt="APNIC 40 - NRO Election online voting now open"></a>
     </div>    <div class="item">
+      <a href="//training.apnic.net/events" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="eLearning - Free, one-hour classes held every Wednesday. Register now!"><img src="https://www.apnic.net/home/carousel/eLearning-website-banner-191x873-01.png" alt="eLearning - Free, one-hour classes held every Wednesday. Register now!"></a>
+    </div>
+    <div class="item">
       <a href="//conference.apnic.net/40" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="APNIC 40 - Save the Date!"><img src="https://www.apnic.net/home/carousel/apnic-40-save-the-date.jpg" alt="APNIC 40 - Save the Date!"></a>
     </div>
     <div class="item">
       <a href="//www.apnic.net/ROA" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="Create your ROA now in MyAPNIC"><img src="https://www.apnic.net/home/carousel/ROA.png" alt="Create your ROA now in MyAPNIC"></a>
-    </div>
-    <div class="item">
-      <a href="//www.apnic.net/IANAxfer" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="IANA Transition"><img src="https://www.apnic.net/__data/assets/image/0008/76526/iana-transfer-homepage-banner.png" alt="IANA Transition"></a>
     </div>
 
   </div>
@@ -429,9 +433,9 @@ $('.theme-about #header-label span').text('About APNIC');
       </h2>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-10-august-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 10 August 2015</a></h3>
+      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-18-august-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 18 August 2015</a></h3>
 <p class="ellipsis" data-ellipsis-rows="2">
-<p>There will be a 30 minutes delay in reverse DNS update&nbsp;due server maintenance of DNSSEC signer.</p>
+<p>APNIC experienced a brief unscheduled upstream outage affecting network services traversing the Telstra network. As a result APNIC services were partially unavailable for anyone who reaches APNIC through Telstra.</p>
 
 
 

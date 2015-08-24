@@ -298,7 +298,7 @@
               							<a href="/en/dispute-resolution/tools-and-procedures/">Tools and procedures</a>
                                               							<ul class="submenu">
                                                     									 <li><a href="/en/dispute-resolution/tools-and-procedures/personal-data-disclosure-request-form-10.html">Personal data disclosure request form</a></li>
-                  							                    									 <li><a href="/en/dispute-resolution/tools-and-procedures/verification-request-11.html">Verification request</a></li>
+                  							                    									 <li><a href="/en/dispute-resolution/tools-and-procedures/verification-request-15.html">Verification request</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/dispute-resolution/tools-and-procedures/parl-alternative-dispute-resolution-procedures/">Parl : alternative dispute resolution procedures</a></li>
                   								                    								    <li><a href="/en/dispute-resolution/tools-and-procedures/reach-a-domain-name-administative-contact/">Reach a domain name administative contact</a></li>
@@ -389,7 +389,7 @@
                                                       <a href="/en/resources/subscriptions-and-social-networks-6.html">Subscriptions and social networks</a>
                                                   </li>
                                                                                                 <li>
-                                                      <a href="/en/resources/afnic-newsletter-36.html">Afnic Newsletter</a>
+                                                      <a href="/en/resources/afnic-newsletter-37.html">Afnic Newsletter</a>
                                                   </li>
                                                                                         </ul>
                                                                 </td>
@@ -521,7 +521,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="7f5c571b1ea40920001194fe68b7bceb" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="ba0d18bba14439647be4a69eebe3a798" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -867,7 +867,7 @@
           		                	<li>
                   		<a href="/en/dispute-resolution/tools-and-procedures/">Tools and procedures</a>
                   		                   			<span><a href="/en/dispute-resolution/tools-and-procedures/personal-data-disclosure-request-form-10.html" >Personal data disclosure request form</a></span>
-                  		                   			<span><a href="/en/dispute-resolution/tools-and-procedures/verification-request-11.html" >Verification request</a></span>
+                  		                   			<span><a href="/en/dispute-resolution/tools-and-procedures/verification-request-15.html" >Verification request</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/dispute-resolution/legal-judgments-for-fr/">Legal judgments for .fr</a>

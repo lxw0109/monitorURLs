@@ -145,9 +145,10 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
                     <tr valign="top">
                       <td width="80%" valign="top"><br />
                         <ul>
+                          <li><a href="http://ietf.org/meeting/register.html">Register</a></li>
                           <li><a href="meeting/important-dates-2015.html#ietf94">Important Dates</a></li>
                           <li>IETF 94  Agenda</li>
-                          <li>Meeting Materials</li>
+                          <li><a href="https://datatracker.ietf.org/meeting/94/materials.html">Meeting Materials</a></li>
                           <li>Venue Information</li>
                           <li>Remote Participation</li>
                       </ul></td>

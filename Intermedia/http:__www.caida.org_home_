@@ -364,10 +364,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="/publications/papers/2009/small_blocks_complex_nets/"><img title="Visualization of the PGP network and its dK-randomizations" alt="" height="250" width="300" src="/images/dk_series-pgp_randomizations_med.png"></a>
+<a href="http://as-rank.caida.org/"><img title="We present the BETA version of AS Rank, CAIDA's ranking of Autonomous Systems (AS) (which approximately map to Internet Service Providers). This ranking is derived from topological data collected by CAIDA's Archipelago Measurement Infrastructure and Border Gateway Protocol (BGP) routing data collected by the Route Views Project and RIPE NCC. ASes are ranked by their customer cone size, which is the number of their direct and indirect customers. Note: We do not have data to rank ASes (ISPs) by traffic, revenue, users, or any other non-topological metric. " alt="" height="250" width="300" src="/images/asrank-relationshipgraph_300h250.png"></a>
 </div>
 <div class="captiontext">
-<a href="/publications/papers/2009/small_blocks_complex_nets/">dK-randomizations of the PGP network</a>
+<a href="http://as-rank.caida.org/">AS Rank: Ranking of Autonomous Systems</a>
 </div>
 <hr>
 <div class="captiontext">
@@ -425,12 +425,15 @@ padding: 0px 8px 2px 12px;
 <div class="rccontent">
 <table summary="CAIDA What's New main feed" class="feedtable">
 <tr>
-<td><a href="http://www.caida.org/publications/presentations/2015/creds_tool_clsi/" title="This slideset was presented at: Citizen Lab Summer Institute (June 2015)">Answering the Ethical Questions: Cyber Risk Ethics Decision Support (CREDS) Tool</a></td><td>Jul&nbsp;8</td>
+<td><a href="http://www.caida.org/publications/presentations/2015/software_systems_surveying_spoofing_dhs/" title="This slideset was presented at: DHS S&amp;T DDoS Defense Meeting (August 2015)">"Software Systems for Surveying Spoofing Susceptibility" slideset</a></td><td>Aug&nbsp;11</td>
 </tr>
 <tr class="zebra">
-<td><a href="http://www.caida.org/publications/presentations/2015/bgpstream_ripe/" title="This slideset was presented at RIPE Meeting in May 2015.">"BGPStream - An Open Source Framework for Live/Historical BGP Data Analysis" slideset</a></td><td>May&nbsp;13</td>
+<td><a href="http://www.caida.org/publications/presentations/2015/creds_tool_clsi/" title="This slideset was presented at: Citizen Lab Summer Institute (June 2015)">Answering the Ethical Questions: Cyber Risk Ethics Decision Support (CREDS) Tool</a></td><td>Jul&nbsp;8</td>
 </tr>
 <tr>
+<td><a href="http://www.caida.org/publications/presentations/2015/bgpstream_ripe/" title="This slideset was presented at RIPE Meeting in May 2015.">"BGPStream - An Open Source Framework for Live/Historical BGP Data Analysis" slideset</a></td><td>May&nbsp;13</td>
+</tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/data/passive/passive_2015_dataset.xml" title="
  This dataset contains anonymized passive traffic traces from CAIDA's equinix-chicago monitor on high-speed Internet backbone links. This data is useful for research on the characteristics of Internet traffic, including application breakdown, security events, geographic and topological distribution, and flow volume and duration.
 
@@ -438,51 +441,48 @@ Starting with the 2014 dataset the yearly passive trace datasets will only conta
 
 Traffic traces in this dataset are anonymized using CryptoPan prefix-preserving anonymization. All traces in this dataset are anonymized with the same key. In addition, the payload has been removed from all packets.">CAIDA "Anonymized Internet Traces 2015 Dataset" dataset available</a></td><td>Apr&nbsp;7</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/workshops/aims/1503/" title="On March 31, 2015, CAIDA hosted the 7th workshop on Active Internet Measurements, a three-day workshop supporting science and policy.
 
 AIMS 2015 was by invitation only.
     ">AIMS 2015 Workshop on Active Internet Measurements</a></td><td><span style="white-space:nowrap;">Mar 31-Apr 2</span></td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/ipv6_as_relationships_pam/" title="This slideset was presented at the Passive and Active Network Measurement Workshop (PAM) in March 2015.">"IPv6 AS Relationships, Clique, and Congruence" slideset</a></td><td>Mar&nbsp;26</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/measuring_characterizing_ipv6_router_pam/" title="This slideset was presented at the  Passive and Active Network Measurement Workshop (PAM) in March 2015.">"Measuring and Characterizing IPv6 Router Availability" slideset</a></td><td>Mar&nbsp;25</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/mapping_technological_frontier_siliconflatirons/" title="This slideset was presented at the Silicon Flatirons Center meeting in February 2015.">"Mapping the Technological Frontier and Sources of Innovation" slideset</a></td><td>Feb&nbsp;11</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/workshops/ndn/1502/" title="The NDN-NP Project hosted the 5th NDN Retreat on February 5th-6th 2015 at the Weaver Conference Center, Malamud Room, Institute of the Americas, on the campus of the University of California at San Diego in La Jolla, CA.  The retreat was a closed invitation-only event for NDN participants.">5th NDN Retreat</a></td><td><span style="white-space:nowrap;">Feb 5-6</span></td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/predict_pi_jan/" title="This slideset was presented at: PREDICT PI (Jan 2015)">"DHS PREDICT Project: CAIDA Update" slideset</a></td><td>Jan&nbsp;27</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td style="background: center"></td><td align="left"><span class="yeartext">2014</span></td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2014/internet_topology_performance_analytics_dhs/" title="This slideset was presented at the DHS S&amp;T R&amp;D Showcase and Technical Workshop in December 2014.">"Internet topology and performance analytics for mapping critical network infrastructure" slideset</a></td><td>Dec&nbsp;19</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2014/mapping_interdomain_congestion_wie/" title="This slideset was presented at the 5th Workshop for Internet Economics (WIE 2014) in December 2014.">"Mapping Interdomain Congestion" slideset</a></td><td>Dec&nbsp;16</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/workshops/wie/1412/" title=" On December 10-11, 2014, CAIDA and the Massachusetts Institute of Technology (MIT) hosted the (invitation-only) 5th interdisciplinary Workshop on Internet Economics (WIE) at the University of California San Diego in La Jolla, CA.
 
 The goal of this workshop series is to provide a forum for researchers, commercial Internet facilities and service providers, technologists, economists, theorists, policy makers, and other stakeholders to empirically inform emerging regulatory and policy debates. 
 
 This workshop was by invitation only. Slidesets will be posted as they are made available.">5th Workshop on Internet Economics (WIE 2014)</a></td><td><span style="white-space:nowrap;">Dec 10-11</span></td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2014/inferring_complex_as_relationships_imc/" title="This slideset was presented at the ACM Internet Measurement Conference (IMC) in November 2014.">"Inferring Complex AS Relationships" slideset</a></td><td>Nov&nbsp;26</td>
 </tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/presentations/2014/challenges_inferring_internet_interdomain_congestion_imc/" title="This slideset was presented at the ACM Internet Measurement Conference (IMC) in November 2014.">"Challenges in Inferring Internet Interdomain Congestion" slideset</a></td><td>Nov&nbsp;26</td>
-</tr>
 <tr>
-<td><a href="http://www.caida.org/publications/presentations/2014/internet_architecture_innovation_duke/" title="This slideset was presented at the Duke Law's Center for Innovation Policy: Internet Regulation in 2020 conference in October 2014.">"Internet Architecture Innovation: 2020 and 2030" slideset</a></td><td>Oct&nbsp;17</td>
+<td><a href="http://www.caida.org/publications/presentations/2014/challenges_inferring_internet_interdomain_congestion_imc/" title="This slideset was presented at the ACM Internet Measurement Conference (IMC) in November 2014.">"Challenges in Inferring Internet Interdomain Congestion" slideset</a></td><td>Nov&nbsp;26</td>
 </tr>
 </table>
 </div>

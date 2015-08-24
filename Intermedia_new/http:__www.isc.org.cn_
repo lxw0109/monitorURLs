@@ -16,7 +16,7 @@
 <!--顶部条开始-->
 <div class="isc_top">
     <div class="data">
-2015年08月12日 星期三
+2015年08月24日 星期一
 </div>
      <div class="email">
      <FORM method="post" name="form1" action="http://mm.263.com/login" onsubmit="return check();" target="_blank">
@@ -287,31 +287,31 @@ function check()
 	<div id="ifocus_pic">
 		<div id="ifocus_piclist" style="left:0; top:0;">
 			<ul>
-				<li><a   href="/zxzx/ywsd/listinfo-32448.html"  target="_blank"><img src="/upimages/article20150805154347.jpg" alt="工信部多措推进信息无障碍建设" /></a></li>
-				<li><a  href="/zxzx/ywsd/listinfo-32389.html"  target="_blank"><img src="/upimages/article20150725155813.jpg" alt="2015（第十四届）中国互联网大会7月23日在北京圆满落幕" /></a></li>
-				<li><a  href="/zxzx/ywsd/listinfo-32385.html"  target="_blank"><img src="/upimages/article20150721230255.jpg" alt="2015（第十四届）中国互联网大会7月21日在北京开幕" /></a></li>
-				<li><a  href="/zxzx/ywsd/listinfo-32378.html"  target="_blank"><img src="/upimages/article20150715173735.jpg" alt="中国互联网协会、工业和信息化部信息中心联合发布2015年“中国互联网企业100强”排行榜" /></a></li>
-                <li><a  href="/zxzx/ywsd/listinfo-32356.html"  target="_blank"><img src="/upimages/article20150703112333.jpg" alt="2015（第十四届）中国互联网大会电子商务专场暨首届跨境电子商务博览会在宁波成功召开" /></a></li>
+				<li><a   href="/zxzx/ywsd/listinfo-32492.html"  target="_blank"><img src="/upimages/article20150820105839.jpg" alt="大数据顶层设计出台 为经济发展培育新引擎" /></a></li>
+				<li><a  href="/zxzx/ywsd/listinfo-32475.html"  target="_blank"><img src="/upimages/article20150817102409.jpg" alt="科技日报专访邬贺铨院士：京津冀协同创新见真章" /></a></li>
+				<li><a  href="/zxzx/ywsd/listinfo-32466.html"  target="_blank"><img src="/upimages/article20150812093638" alt="国办：积极发展"互联网+旅游" 发行实名制国民旅游卡" /></a></li>
+				<li><a  href="/zxzx/ywsd/listinfo-32448.html"  target="_blank"><img src="/upimages/article20150805154347.jpg" alt="工信部多措推进信息无障碍建设" /></a></li>
+                <li><a  href="/zxzx/ywsd/listinfo-32389.html"  target="_blank"><img src="/upimages/article20150725155813.jpg" alt="2015（第十四届）中国互联网大会7月23日在北京圆满落幕" /></a></li>
 			</ul>
 		</div>
 		<div id="ifocus_opdiv"></div>
 		<div id="ifocus_tx">
 			<ul>
-				<li class="current">工信部多措推进信息无障碍建设</li>
-				<li class="normal">2015（第十四届）中国互联网大会7月23日在北京圆满落幕</li>
-				<li class="normal">2015（第十四届）中国互联网大会7月21日在北京开幕</li>
-				<li class="normal">中国互联网协会、工业和信息化部信息中心联合发布2015年“中国互联网企业100强”排行榜</li>
-                <li class="normal">2015（第十四届）中国互联网大会电子商务专场暨首届跨境电子商务博览会在宁波成功召开</li>
+				<li class="current">大数据顶层设计出台 为经济发展培育新引擎</li>
+				<li class="normal">科技日报专访邬贺铨院士：京津冀协同创新见真章</li>
+				<li class="normal">国办：积极发展"互联网+旅游" 发行实名制国民旅游卡</li>
+				<li class="normal">工信部多措推进信息无障碍建设</li>
+                <li class="normal">2015（第十四届）中国互联网大会7月23日在北京圆满落幕</li>
 			</ul>
 		</div>
 	</div>
 	<div id="ifocus_btn">
 		<ul>
-			<li class="current"><img src="/upimages/article20150805154347.jpg" alt="工信部多措推进信息无障碍建设" /></li>
-			<li class="normal"><img src="/upimages/article20150725155813.jpg" alt="工信部多措推进信息无障碍建设" /></li>
-			<li class="normal"><img src="/upimages/article20150721230255.jpg" alt="工信部多措推进信息无障碍建设" /></li>
-			<li class="normal"><img src="/upimages/article20150715173735.jpg" alt="工信部多措推进信息无障碍建设" /></li>
-            <li class="normal"><img src="/upimages/article20150703112333.jpg" alt="工信部多措推进信息无障碍建设" /></li>
+			<li class="current"><img src="/upimages/article20150820105839.jpg" alt="大数据顶层设计出台 为经济发展培育新引擎" /></li>
+			<li class="normal"><img src="/upimages/article20150817102409.jpg" alt="大数据顶层设计出台 为经济发展培育新引擎" /></li>
+			<li class="normal"><img src="/upimages/article20150812093638" alt="大数据顶层设计出台 为经济发展培育新引擎" /></li>
+			<li class="normal"><img src="/upimages/article20150805154347.jpg" alt="大数据顶层设计出台 为经济发展培育新引擎" /></li>
+            <li class="normal"><img src="/upimages/article20150725155813.jpg" alt="大数据顶层设计出台 为经济发展培育新引擎" /></li>
 		</ul>
 	</div>
 </div>
@@ -323,8 +323,8 @@ function check()
     	<h1 style="overflow: hidden; margin-top:7px; width:476px;"><p style="float: left;">【要闻视点】</p>
         <div class="cmore" style=" float:right;"><a href="/zxzx/ywsd/"><img src="images/12495217.gif"></a></div>
         </h1>
-        <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-32448.html"   title="工信部多措推进信息无障碍建设" class="red">工信部多措推进信息无障碍建设</a></h1>
-	<div class="mg10">8月3日，国新办就《无障碍环境建设条例》实施3周年的有关情况举办新闻发布会，工业和信息化部总工程师张峰出席发布会并强调，要不断完善信息无障碍标准体系，共同推进具有国际先进水平的信息无障碍标准的制定和应用。... <a  href="/zxzx/ywsd/listinfo-32448.html"   title="详细" class="blue">[详细]</a></div>
+        <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-32492.html"   title="大数据顶层设计出台 为经济发展培育新引擎" class="red">大数据顶层设计出台 为经济发展培育新引擎</a></h1>
+	<div class="mg10">8月19日召开的国务院常务会议通过《关于促进大数据发展的行动纲要》。这意味着我国大数据发展迎来顶层设计，将有助于培育经济发展新引擎。... <a  href="/zxzx/ywsd/listinfo-32492.html"   title="详细" class="blue">[详细]</a></div>
 </div>
 <h2><span>协会动态</span><a href="/zxzx/xhdt/" title="更多" class="blue"><img src="images/12495217.gif" /></a></h2>
 <ul class="newslist">
@@ -434,14 +434,14 @@ function check()
     <div class="pad10">
         <div id="zf_01" >
        <span class="mp"><a href="/zxzx/zfxx" class="more"><img src="images/12495217.gif" /></a></span>
-        <h3><a  href="/zxzx/zfxx/listinfo-32007.html"   title="工业和信息化部部长苗圩：正抓紧编制“互联网+”规划">工业和信息化部部长苗圩：正抓紧编制“互联网+”规划</a></h3>
+        <h3><a  href="/zxzx/zfxx/listinfo-32476.html"   title="工信部苗圩：推动提速降费 落实互联网+">工信部苗圩：推动提速降费 落实互联网+</a></h3>
         <table>
 
-        <tr><td width="130" valign="top"><span><a  href="/zxzx/zfxx/listinfo-32007.html"  ><img src="/upimages/article20150428144413.jpg" class="bor" width="110" height="75" alt="工业和信息化部部长苗圩：正抓紧编制“互联网+”规划"/></a></span></td><td><div>中国工业和信息化部部长苗圩近日在京表示，今年的政府工作报告提出实施互联网+专项行动计划，工信部正联合国家发展和改革委员会加紧编制相关规划。...<a  href="/zxzx/zfxx/listinfo-32007.html"   title="工业和信息化部部长苗圩：正抓紧编制“互联网+”规划" class="blue">[详细]</a></div></td></tr></table>
+        <tr><td width="130" valign="top"><span><a  href="/zxzx/zfxx/listinfo-32476.html"  ><img src="/upimages/article20150817134321.jpg" class="bor" width="110" height="75" alt="工信部苗圩：推动提速降费 落实互联网+"/></a></span></td><td><div>工业和信息化部部长苗圩在2015中国互联网大会致辞时表示，今年是我国互联网跨界融合变革，加速演进升级的关键一年。...<a  href="/zxzx/zfxx/listinfo-32476.html"   title="工信部苗圩：推动提速降费 落实互联网+" class="blue">[详细]</a></div></td></tr></table>
         <ul class="newslist">
-                <li><a  href="/zxzx/zfxx/listinfo-32463.html"  " title="李克强：创新经济须先创新“引擎”"  >李克强：创新经济须先创新“引擎”</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                
-                <li><a  href="/zxzx/zfxx/listinfo-32451.html"  " title="张峰参加《无障碍环境建设条例》实施三周年国务院新闻发布会"  >张峰参加《无障碍环境建设条例》实施三周年国务院新闻发布会</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
-                <li><a  href="/zxzx/zfxx/listinfo-32419.html"  " title="张峰出席智能交通、车载通信与自动驾驶研讨会并致辞"  >张峰出席智能交通、车载通信与自动驾驶研讨会并致辞</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32498.html"  " title="互联网成为创新驱动发展的先导力量"  >互联网成为创新驱动发展的先导力量</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32496.html"  " title="张峰出席2015媒体融合发展论坛并致辞"  >张峰出席2015媒体融合发展论坛并致辞</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32463.html"  " title="李克强：创新经济须先创新“引擎”"  >李克强：创新经济须先创新“引擎”</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
                 </ul>
         </div>
         <div id="zf_02"  class="hidden">
@@ -476,10 +476,10 @@ function check()
 <div id="dt_01" >
 <span class="mp"><a href="/hydt/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a   href="/hydt/listinfo-32464.html" title="文化部公布网络音乐产品“黑名单”　提供者将依法查处" >文化部公布网络音乐产品“黑名单”　提供者将依法查处</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-32462.html" title="全球视野：把脉互联网经济新动态" >全球视野：把脉互联网经济新动态</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-32461.html" title="重点网站和网企设“网安警务室”" >重点网站和网企设“网安警务室”</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-32455.html" title="全国“扫黄打非”办公室部署严打网络不雅视频" >全国“扫黄打非”办公室部署严打网络不雅视频</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a   href="/hydt/listinfo-32494.html" title="2015两岸大学生创客营启动 为两岸搭建交流新平台" >2015两岸大学生创客营启动 为两岸搭建交流新平台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a   href="/hydt/listinfo-32493.html" title="青少年微博用户超五千万 已进入全天候活跃状态" >青少年微博用户超五千万 已进入全天候活跃状态</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a   href="/hydt/listinfo-32491.html" title="62.8%受访者对网络社交的依赖程度较强" >62.8%受访者对网络社交的依赖程度较强</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a   href="/hydt/listinfo-32489.html" title="北京将建主播黑名单 12家网络表演企业宣言自律" >北京将建主播黑名单 12家网络表演企业宣言自律</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
              
 </ul>
 </div>
@@ -487,10 +487,10 @@ function check()
 <div id="dt_02" class="hidden">
 <span class="mp"><a href="/zxzx/hlwzl/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-       <li><a    href="/zxzx/hlwzl/listinfo-32464.html"  title="文化部公布网络音乐产品“黑名单”　提供者将依法查处" >文化部公布网络音乐产品“黑名单”　提供者将依法查处</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a    href="/zxzx/hlwzl/listinfo-32461.html"  title="重点网站和网企设“网安警务室”" >重点网站和网企设“网安警务室”</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a    href="/zxzx/hlwzl/listinfo-32455.html"  title="全国“扫黄打非”办公室部署严打网络不雅视频" >全国“扫黄打非”办公室部署严打网络不雅视频</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a    href="/zxzx/hlwzl/listinfo-32450.html"  title="一批传播淫秽色情信息的网站、网盘等企业被处罚" >一批传播淫秽色情信息的网站、网盘等企业被处罚</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+       <li><a    href="/zxzx/hlwzl/listinfo-32489.html"  title="北京将建主播黑名单 12家网络表演企业宣言自律" >北京将建主播黑名单 12家网络表演企业宣言自律</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a    href="/zxzx/hlwzl/listinfo-32484.html"  title="侦办网络犯罪7400余起清理违法信息19万余条" >侦办网络犯罪7400余起清理违法信息19万余条</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a    href="/zxzx/hlwzl/listinfo-32482.html"  title="北京市上半年关闭84家涉嫌网络敲诈网站" >北京市上半年关闭84家涉嫌网络敲诈网站</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a    href="/zxzx/hlwzl/listinfo-32474.html"  title="陕西通信管理局配合省公安厅开展网络安全执法检查工作" >陕西通信管理局配合省公安厅开展网络安全执法检查工作</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
                   
 </ul>
 </div>
@@ -509,10 +509,10 @@ function check()
 <div id="dt_04" class="hidden">
 <span class="mp"><a href="/zxzx/qyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a  href="/zxzx/qyxx/listinfo-32462.html"  title="全球视野：把脉互联网经济新动态" >全球视野：把脉互联网经济新动态</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+        <li><a  href="/zxzx/qyxx/listinfo-32481.html"  title="“互联网+智能硬件”论坛在京召开成立众创空间联合实验室" >“互联网+智能硬件”论坛在京召开成立众创空间联合实验室</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/qyxx/listinfo-32462.html"  title="全球视野：把脉互联网经济新动态" >全球视野：把脉互联网经济新动态</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/qyxx/listinfo-32449.html"  title="第二届物联网感智创新大晒将于8月下旬举行" >第二届物联网感智创新大晒将于8月下旬举行</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/qyxx/listinfo-32431.html"  title="首个互联网发展基金会成立" >首个互联网发展基金会成立</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/qyxx/listinfo-32428.html"  title="2015中国智慧城市大型网络巡展正式开启" >2015中国智慧城市大型网络巡展正式开启</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
                    
 </ul>
 </div>
@@ -520,10 +520,10 @@ function check()
 <div id="dt_05" class="hidden">
 <span class="mp"><a href="/zxzx/gzwm/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a  href="/zxzx/gzwm/listinfo-32429.html"  title="" >报告：近八成用户使用第三方手机浏览器</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+        <li><a  href="/zxzx/gzwm/listinfo-32493.html"  title="" >青少年微博用户超五千万 已进入全天候活跃状态</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/gzwm/listinfo-32491.html"  title="" >62.8%受访者对网络社交的依赖程度较强</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/gzwm/listinfo-32429.html"  title="" >报告：近八成用户使用第三方手机浏览器</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/gzwm/listinfo-32425.html"  title="" >可穿戴智能设备用户男性超8成 用户主要为白领</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/gzwm/listinfo-32421.html"  title="" >中国跨境支付网民比例最高</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/gzwm/listinfo-32393.html"  title="" >我国网民规模达6.68亿 网上炒股用户半年增近五成</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
        
 </ul>
 </div>  
@@ -543,10 +543,10 @@ function check()
 <div id="hy_01" >
 <span class="mp"><a href="/zxzx/hyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a  href="/zxzx/hyxx/listinfo-32465.html"  title="阿里283亿元投资苏宁云商"  >阿里283亿元投资苏宁云商</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-32459.html"  title="阿里巴巴与Zara等20家国际品牌签订独家协议"  >阿里巴巴与Zara等20家国际品牌签订独家协议</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-32456.html"  title="360：2015年二季度手机木马是2014年1.68倍"  >360：2015年二季度手机木马是2014年1.68倍</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-32454.html"  title="阿里旅行推出“放心飞”服务 退票损失赔付到80%"  >阿里旅行推出“放心飞”服务 退票损失赔付到80%</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32497.html"  title="阿里联手兵工集团探路北斗系统商用"  >阿里联手兵工集团探路北斗系统商用</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32495.html"  title="UC浏览器推出个性化版本"  >UC浏览器推出个性化版本</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32488.html"  title="专访凤凰网徐进：“场景再现，传递价值”的原生营销"  >专访凤凰网徐进：“场景再现，传递价值”的原生营销</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32485.html"  title="百度牵手百家教育机构 打造最大职业教育O2O平台"  >百度牵手百家教育机构 打造最大职业教育O2O平台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
  
 </ul>
 </div>
@@ -554,6 +554,10 @@ function check()
 <div id="hy_02" class="hidden">
 <span class="mp"><a href="/zxzx/gzwyh/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
+
+    <li>
+      
+    <a  href="/zxzx/gzwyh/listinfo-32487.html" title="2015全国创业创新推进工程在京正式启动" >2015全国创业创新推进工程在京正式启动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>            
 
     <li>
       
@@ -566,10 +570,6 @@ function check()
     <li>
       
     <a  href="/zxzx/gzwyh/listinfo-32099.html" title="中国互联网协会互联网工业应用委员会 拟任领导成员候选人名单" >中国互联网协会互联网工业应用委员会 拟任领导成员候选人名单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>            
-
-    <li>
-      
-    <a  href="/zxzx/gzwyh/listinfo-32098.html" title="中国互联网协会互联网工业应用委员会 工作规则（草案）" >中国互联网协会互联网工业应用委员会 工作规则（草案）</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>            
            
 </ul>
 </div>
@@ -668,10 +668,7 @@ function check()
 <!--区域右结束-->
 <div class="clear"></div>
 <div class="mg10"><p>
-	<a href="http://www.bigdata-expo.org/cn/index.asp" target="_blank"><img src="/editor/attached/image/20150521/20150521112711_36981.png" alt="" /></a><a href="http://www.worldec.cn/" target="_blank"><img src="/editor/attached/image/20150521/20150521112719_44424.png" alt="" /></a> 
-</p>
-<p>
-	<img src="/editor/attached/image/20150521/20150521112801_74688.jpg" alt="" /><a href="http://wza.people.com.cn/wza2013/index.php" target="_blank"><img src="/editor/attached/image/20150521/20150521112810_37163.jpg" alt="" /></a><img src="/editor/attached/image/20150521/20150521112846_55248.jpg" alt="" /> 
+	<img src="/editor/attached/image/20150521/20150521112801_74688.jpg" alt="" style="line-height:1.5;" /><a href="http://wza.people.com.cn/wza2013/index.php" target="_blank" style="line-height:1.5;"><img src="/editor/attached/image/20150521/20150521112810_37163.jpg" alt="" /></a><img src="/editor/attached/image/20150521/20150521112846_55248.jpg" alt="" style="line-height:1.5;" />
 </p></div>
 <div class="m_box">
 

@@ -21,13 +21,13 @@
 	<meta name="robots" content="NOODP">
 	<meta name="msvalidate.01" content="265D4027F5251B2B74D2941C829FD224" />
 	<meta name="google-site-verification" content="mO84D8YT8LDBXCxQtS-pY7DI2Sxg52oSNZd-6MPv5Sw" />
-		<title>OpenDNS: Cloud-Delivered DNS Security for Enterprise</title>
+		<title>Cloud Delivered Enterprise Security by OpenDNS</title>
 
 	
-			<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/homepage.css?v=2af8c6152e9f680b79a9f294f095ab81" />
+			<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/homepage.css?v=0d93a1406718970df3ef32a4f5d69336" />
 	
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=3a76b28e0b4d07aada98e8e7ad65d58a"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=01680918fbbcce12cdd9a88fc8834395"></script>
 	<![endif]-->
 
 	<link rel='stylesheet' id='style-css'  href='https://www.opendns.com/wp-content/themes/opendns/style.css?ver=4.2.4' type='text/css' media='all' />
@@ -37,7 +37,7 @@
 <link rel='stylesheet' id='chosen-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/chosen.css?ver=4.2.4' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.2.4' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=488bdb1d1c10cc09219e7ad3a7983b7c">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=2296894f88330f120f7f1dff8234b59b">
 
 	<meta name="viewport" content="width=device-width">
 	
@@ -47,7 +47,7 @@
 <link rel="canonical" href="https://www.opendns.com/" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="OpenDNS: Cloud-Delivered DNS Security for Enterprise" />
+<meta property="og:title" content="Cloud Delivered Enterprise Security by OpenDNS" />
 <meta property="og:description" content="Predict and prevent attacks before they happen using our cloud-delivered enterprise security service. Protect any device, anywhere with OpenDNS." />
 <meta property="og:url" content="https://www.opendns.com/" />
 <meta property="og:site_name" content="OpenDNS" />
@@ -74,7 +74,7 @@ img.emoji {
 </style>
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=400dd6f8b4095cbc74dd3840361eb73e'></script>
+<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=43729e1b838d18188b06fe95c3083df0'></script>
 <meta name="generator" content="WordPress 4.2.4" />
 <script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 </head>
@@ -208,11 +208,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<a href="https://www.opendns.com/enterprise-security/threat-intelligence/">
 				<span class="icon "></span>OpenDNS Investigate</a></li><li class="contact-sales demo-request button Investigate menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="#">
-				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=99a229799ff0f918f6bc8873dbbd6bed"></script>
+				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=c80bb7b2fa0ced5ee34ca7e8031814e7"></script>
 		</div>
 	</header>
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=d087d4f29fc073a83c0621cf206f7e23"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=264a675d8d2c9073d81f285854266d53"></script>
 	<![endif]-->
 	<!--
 	Start of DoubleClick Floodlight Tag: Please do not remove
@@ -493,17 +493,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Aug 10</span>
+							<span class="date">Aug 19</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://blog.opendns.com/2015/08/10/the-brief-august-3rd-9th-blackhat-and-defcon-edition/" title="The Brief: August 3rd-9th: Blackhat and Defcon Edition">The Brief: August 3rd-9th: Blackhat and Defcon Edition</a>
+							<a href="https://blog.opendns.com/2015/08/19/bgp-iot-and-older-attack-vectors-rule-in-las-vegas/" title="BGP, IoT, and Older Attack Vectors Rule in Las Vegas">BGP, IoT, and Older Attack Vectors Rule in Las Vegas</a>
 						</h4>
-						<p class="author">Author: The Brief</p>
-						<div class="excerpt"><p>This week in the Brief: own 1.4 million cars with four lines of Python, BGP is for everyone, and the &hellip;<span class="overflow"> trip advisor listing did NOT include the fact that this hotel is full of hackers:                                                &hellip;</span></p>
+						<p class="author">Author: Kara Drapala</p>
+						<div class="excerpt"><p>Every summer, tens of thousands of security professionals, executives, and grey hats alike gather in Las Vegas for Security Summer &hellip;<span class="overflow"> Camp, the trifecta of conferences that set the tone of discussion for the second half of the year:&hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/08/10/the-brief-august-3rd-9th-blackhat-and-defcon-edition/" title="The Brief: August 3rd-9th: Blackhat and Defcon Edition" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/08/19/bgp-iot-and-older-attack-vectors-rule-in-las-vegas/" title="BGP, IoT, and Older Attack Vectors Rule in Las Vegas" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 								<li class="post clearfix">
@@ -515,17 +515,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Aug 7</span>
+							<span class="date">Aug 17</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://blog.opendns.com/2015/08/07/powershell-proves-to-be-an-easy-route-around-ad-security/" title="PowerShell Proves to Be an Easy Route Around AD Security">PowerShell Proves to Be an Easy Route Around AD Security</a>
+							<a href="https://blog.opendns.com/2015/08/17/the-brief-august-10th-16th-2015/" title="The Brief: August 10th-16th, 2015">The Brief: August 10th-16th, 2015</a>
 						</h4>
-						<p class="author">Author: Owen Lystrup</p>
-						<div class="excerpt"><p>It’s estimated as many as 95 percent of companies use Active Directory (AD) for user management and authentication. It’s also &hellip;<span class="overflow"> been proved a number of times that there are flaws in AD that allow attackers to do things like&hellip;</span></p>
+						<p class="author">Author: The Brief</p>
+						<div class="excerpt"><p>This week in the Brief: Oracle writes a blog, even White House personnel love viral videos, and Facebook privacy rules &hellip;<span class="overflow"> endanger &#8216;Everybody&#8217; by default:                                                                               &hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/08/07/powershell-proves-to-be-an-easy-route-around-ad-security/" title="PowerShell Proves to Be an Easy Route Around AD Security" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/08/17/the-brief-august-10th-16th-2015/" title="The Brief: August 10th-16th, 2015" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -541,17 +541,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Aug 11</span>
+							<span class="date">Aug 20</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://labs.opendns.com/2015/08/11/ssl-certificates-and-hbase/" title="SSL Certificates and HBase">SSL Certificates and HBase</a>
+							<a href="https://labs.opendns.com/2015/08/20/tracking-the-footprints-of-ransomware/" title="Tracking the Footprints of Ransomware">Tracking the Footprints of Ransomware</a>
 						</h4>
-						<p class="author">Author: Thomas Mathew</p>
-						<div class="excerpt"><p>Mining DNS data can provide a security researcher valuable information in the hunt for malicious domains. For example, mining authoritative &hellip;<span class="overflow"> DNS logs helps establish historical records regarding changes in domain to IP mappings&hellip;</span></p>
+						<p class="author">Author: Kevin Bottomley</p>
+						<div class="excerpt"> (image courtesy of wuppenif.files.wordpress.com)  Ransomware is a form of malware that, once a machine is compromised, starts to &hellip;<span class="overflow"> seek out certain file&hellip;</span></p>
 </div>
-						<a href="https://labs.opendns.com/2015/08/11/ssl-certificates-and-hbase/" title="SSL Certificates and HBase" class="read-more">Read More &rarr;</a>
+						<a href="https://labs.opendns.com/2015/08/20/tracking-the-footprints-of-ransomware/" title="Tracking the Footprints of Ransomware" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -762,10 +762,10 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=e5c65b607fc7cda2a41290afb08bf4f8'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":427,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=6ca4673e86dd2c085ab0f04fe90dff51'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":439,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
- Served from: www.opendns.com @ 2015-08-11 18:10:37 by W3 Total Cache -->
+ Served from: www.opendns.com @ 2015-08-23 18:10:45 by W3 Total Cache -->
