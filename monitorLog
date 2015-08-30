@@ -1,30 +1,24 @@
-Sun Aug 23 00:00:01 CST 2015 --- Clear Log OK
+Sun Aug 30 00:00:01 CST 2015 --- Clear Log OK
 
-lxw_Timed Out: http://www.domain.kr/EN/announcementList.jsp	2015-08-23-09:11:02
+EMAIL SENDING: 	2015-08-30-09:10:14
 
-EMAIL SENDING: 	2015-08-23-09:11:02
+EMAIL SENDING SUCCESS: 	2015-08-30-09:10:16
 
-EMAIL SENDING SUCCESS: 	2015-08-23-09:11:05
+EMAIL SENDING: 	2015-08-30-09:10:16
 
-EMAIL SENDING: 	2015-08-23-09:11:05
+EMAIL SENDING SUCCESS: 	2015-08-30-09:10:19
 
-EMAIL SENDING SUCCESS: 	2015-08-23-09:11:07
-
-Monitor Finished.   Monitor Time: 2015-08-23-09:11:07.   Time Cost: 1'5"
+Monitor Finished.   Monitor Time: 2015-08-30-09:10:19.   Time Cost: 0'18"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_Timed Out: http://www.domain.kr/EN/announcementList.jsp	2015-08-24-09:11:03
+[Quite Normal, url recovery.] lxw_KeyError: http://www.wooyun.org/	2015-08-30-10:17:46
 
-EMAIL SENDING: 	2015-08-24-09:11:03
+EMAIL SENDING: 	2015-08-30-10:17:55
 
-EMAIL SENDING SUCCESS: 	2015-08-24-09:11:03
+EMAIL SENDING SUCCESS: 	2015-08-30-10:17:57
 
-EMAIL SENDING: 	2015-08-24-09:11:03
-
-EMAIL SENDING SUCCESS: 	2015-08-24-09:11:05
-
-Monitor Finished.   Monitor Time: 2015-08-24-09:11:05.   Time Cost: 1'3"
+Monitor Finished.   Monitor Time: 2015-08-30-10:17:57.   Time Cost: 0'12"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------

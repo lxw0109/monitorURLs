@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-aec7lZLUWOeh5lCsaRDRP2CEsklg3KxK2mJYlaUbaw0" value="form-aec7lZLUWOeh5lCsaRDRP2CEsklg3KxK2mJYlaUbaw0"  />
+<input type="hidden" name="form_build_id" id="form-dManO20vzLp4DwDz9lz6TnjjYJMayJakElSdDdLJCF8" value="form-dManO20vzLp4DwDz9lz6TnjjYJMayJakElSdDdLJCF8"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-L43kd9Jm8WN9DYZppnYaZA8koC53CR6kgRsGGgpjLxw" value="form-L43kd9Jm8WN9DYZppnYaZA8koC53CR6kgRsGGgpjLxw"  />
+<input type="hidden" name="form_build_id" id="form-nO-lx4sOdayu545vUZKeXoIQcj0ZtcwHNxtwNon9_40" value="form-nO-lx4sOdayu545vUZKeXoIQcj0ZtcwHNxtwNon9_40"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">August 21, 2015, 11:15 am</span>
+                <span class="field-content">August 28, 2015, 12:14 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/08/21/india-thirsty-for-ipv6/">India thirsty for IPv6</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/08/28/idseries-we-need-to-cultivate-human-capacity-onno/">IDSeries: We need to cultivate human capacity, Onno</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">August 21, 2015, 8:54 am</span>
+                <span class="field-content">August 28, 2015, 8:35 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/08/21/internet-traffic-jam-in-asia-as-submarine-cable-breaks/">Internet traffic jam in Asia as submarine cable breaks</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/08/28/idseries-university-network-continues-to-impress/">IDSeries: University network continues to impress</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">August 19, 2015, 12:22 pm</span>
+                <span class="field-content">August 27, 2015, 12:19 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/08/19/online-voting-for-nro-nc-election-opens-today/">Online voting for NRO NC election opens today</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/08/27/event-wrap-sgnog-4/">Event Wrap: SGNOG 4</a></span>
   </div>
 </li>
       </ul>

@@ -168,7 +168,7 @@ wfscr.type = 'text/javascript';
 wfscr.async = true;
 wfscr.src = url + '&r=' + Math.random();
 (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-})('//pir.org/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=28AC2EBB2B7682322F679FE16B6469AB');
+})('//pir.org/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=4270D3FC2B55A124783F1E6371117DC9');
 </script>		
 
 <!-- Etrigue Tracking Code -->
@@ -361,9 +361,9 @@ wfscr.src = url + '&r=' + Math.random();
 				 	<!-- Grab the image path and set our variables -->
 											 <!--this is what's used when there isn't a featured image -->
 						<div class="hybrid-excerpt">
-							<h4><a href="http://pir.org/public-interest-registry-seeks-candidates-to-serve-on-its-org-advisory-council/">Public Interest Registry Seeks Candidates to Serve on its .ORG Advisory Council</a></h4>				
+							<h4><a href="http://pir.org/public-interest-registry-seeks-candidates-to-serve-on-its-org-advisory-council/">PIR Seeks Candidates to Serve on its .ORG Advisory Council</a></h4>				
 							<p><strong><em> Nonprofit and Internet Leaders Welcome to Participate in Call for Nominations Now through June</em></strong></p>
-<p><strong>RESTON, Va. – May 4, 2015 </strong>– Public Interest Registry, the nonprofit operator of the...							<a href="http://pir.org/public-interest-registry-seeks-candidates-to-serve-on-its-org-advisory-council/" class="readmore"> Read More &raquo;</a>
+<p><strong>RESTON, Va. – May 4, 2015 </strong>– Public Interest Registry (PIR), the nonprofit operator of...							<a href="http://pir.org/public-interest-registry-seeks-candidates-to-serve-on-its-org-advisory-council/" class="readmore"> Read More &raquo;</a>
 						</div> 
 										
 										
@@ -732,7 +732,7 @@ wfscr.src = url + '&r=' + Math.random();
 <script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/idle-timer.min.js?ver=1.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var monarchSettings = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/pir.org\/news-events\/for-press\/press-releases\/","stats_nonce":"04050d0980","share_counts":"b182404286","follow_counts":"810840ac66","total_counts":"9f7703cb44","media_single":"72127d0dfe","media_total":"a1cea14375","generate_all_window_nonce":"6a25f4d52e","no_img_message":"No images available for sharing on this page"};
+var monarchSettings = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/pir.org\/news-events\/for-press\/press-releases\/","stats_nonce":"df08ed78e3","share_counts":"40cc9cb97b","follow_counts":"e50c814777","total_counts":"a633adede1","media_single":"b941ad4fb6","media_total":"f1bdec9a79","generate_all_window_nonce":"e4975c5e8e","no_img_message":"No images available for sharing on this page"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/custom.js?ver=1.2'></script>

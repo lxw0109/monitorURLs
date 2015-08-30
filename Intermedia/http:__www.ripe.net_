@@ -1081,7 +1081,7 @@
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
 <span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 18 Aug 2015</span>
+<span class="date nobreak byline_date">Publication date: 25 Aug 2015</span>
 </span>
 </a>
 </li>
@@ -1154,11 +1154,11 @@
 </a>
 </li>
 <li>
-<a href="https://www.ripe.net/participate/meetings/calendar/see-5-ripe-ncc-regional-meeting">
-<span class="Title">SEE 5/RIPE NCC Regional Meeting</span>
+<a href="https://www.ripe.net/participate/meetings/calendar/menog-16">
+<span class="Title">MENOG 16</span>
 <span class="item-details">
-<span class="date nobreak byline_date">19 Apr 2016 - 20 Apr 2016</span>
-<span class="location nobreak">Tirana, Albania</span>
+<span class="date nobreak byline_date">30 Nov 2015 - 01 Dec 2015</span>
+<span class="location nobreak">Tehran, Iran</span>
 </span>
 </a>
 </li>
@@ -1224,6 +1224,16 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
+<a href="https://labs.ripe.net/Members/emileaben/the-internet-in-north-korea-hanging-by-a-single-thread" rel="nofollow">
+<span class="Title">The Internet in North Korea - Hanging by a Single Thread?</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date:
+                              <span>26 Aug 2015</span>
+</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://labs.ripe.net/Members/roberto_di_lallo/is-it-really-worth-peering-at-ixps" rel="nofollow">
 <span class="Title">Is It Really Worth Peering at IXPs? A Comparative Study</span>
 <span class="item-details">
@@ -1239,16 +1249,6 @@
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
                               <span>27 Jul 2015</span>
-</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://labs.ripe.net/Members/becha/extending-ripe-atlas-reach" rel="nofollow">
-<span class="Title">Extending RIPE Atlas' Reach</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date:
-                              <span>24 Jul 2015</span>
 </span>
 </span>
 </a>
