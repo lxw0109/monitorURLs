@@ -298,6 +298,10 @@ function key_clear()
 						<a href="http://www.nsfocus.com/news/"><img src="./images/latestnews_title.jpg" border="0"/></a><br/>
 						<table>
 							<tr>
+								<td width="75" valign="top">01 Sep.2015|</td>
+								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2015/news_0901/201.html"  class="index_bottom_list">NSFOCUS Welcomes New COO to Expand U.S. and International Presence</a></td>
+							</tr>
+							<tr>
 								<td width="75" valign="top">24 Jul.2015|</td>
 								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2015/news_0724/200.html"  class="index_bottom_list">NSFOCUS Threat Response Team Immediately Blocks Potential Vulnerabilities Caused by Hacking Team Breach</a></td>
 							</tr>
@@ -308,10 +312,6 @@ function key_clear()
 							<tr>
 								<td width="75" valign="top">12 Nov.2014|</td>
 								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/news_1112/195.html"  class="index_bottom_list">First Dynamic DDoS Mitigation Service Launched by ISP</a></td>
-							</tr>
-							<tr>
-								<td width="75" valign="top">14 Oct.2014|</td>
-								<td width="224"  valign="top"><a href="http://www.nsfocus.com/2014/news_1014/192.html"  class="index_bottom_list">NSFOCUS Unveils Robust Anti-DDoS Solution for  Hosting Service Providers, Date Centers and MSSPs</a></td>
 							</tr>
 						</table>
 					</td>

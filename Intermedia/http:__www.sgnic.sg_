@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-hsCnvfVyduMQJBa6WJl_tQgt5-cvpJbgLYDS72GV-Dg" value="form-hsCnvfVyduMQJBa6WJl_tQgt5-cvpJbgLYDS72GV-Dg"  />
+<input type="hidden" name="form_build_id" id="form-3wUAKRPtqVYzuOFkPpRznUOE0OdcMhDJo8_it3aQd5A" value="form-3wUAKRPtqVYzuOFkPpRznUOE0OdcMhDJo8_it3aQd5A"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-JvSBWiTohm4oJW35VgUmKlRL0gMdhVrjMVgRqlf3kEk" value="form-JvSBWiTohm4oJW35VgUmKlRL0gMdhVrjMVgRqlf3kEk"  />
+<input type="hidden" name="form_build_id" id="form-dqApWGP_a40p5WiDOEn-a3hQZSkqKhg6n4LfBW79L_M" value="form-dqApWGP_a40p5WiDOEn-a3hQZSkqKhg6n4LfBW79L_M"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">August 28, 2015, 12:14 pm</span>
+                <span class="field-content">September 3, 2015, 11:30 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/08/28/idseries-we-need-to-cultivate-human-capacity-onno/">IDSeries: We need to cultivate human capacity, Onno</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/03/what-goes-on-at-a-black-hat-conference/">What goes on at a Black Hat conference?</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">August 28, 2015, 8:35 am</span>
+                <span class="field-content">September 3, 2015, 9:06 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/08/28/idseries-university-network-continues-to-impress/">IDSeries: University network continues to impress</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/03/preparing-input-to-the-iana-stewardship-transition-proposal-internet-governance-conference-japan/">Preparing input to the IANA stewardship transition proposal: Internet Governance Conference Japan</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">August 27, 2015, 12:19 pm</span>
+                <span class="field-content">September 2, 2015, 11:09 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/08/27/event-wrap-sgnog-4/">Event Wrap: SGNOG 4</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/03/register-now-for-network-security-workshop-nepal/">Register now for network security workshop, Nepal</a></span>
   </div>
 </li>
       </ul>

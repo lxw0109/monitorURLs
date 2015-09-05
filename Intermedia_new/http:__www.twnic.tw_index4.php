@@ -433,6 +433,9 @@ MM_reloadPage(true);
 <td height="17"><font size="2"><a href="/NEWS/2245.pdf" target="_blank">
 2015年度公益計畫徵選公告</a>(2015-07-31)</td></tr>
 <tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://www.twnic.net.tw/2015adv/" target="_blank">
+《2015啟動視覺飆創意TWNIC形象廣宣設計競賽》活動開跑~</a>(2015-09-04)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://netking.tw" target="_blank">
 《2015第14屆新人王網站設計大賽-台灣限定》活動開跑~</a>(2015-08-19)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
@@ -540,6 +543,9 @@ MM_reloadPage(true);
                       <td><img src="http://www.twnic.net.tw/img/link.gif" width="135" height="21"></td>
                     </tr>
 <tr align="center">
+<td><a href="http://lovetw.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/250.gif" border="0"></a></td>
+</tr>
+<tr align="center">
 <td><a href="http://www.twnic.net.tw/apira2015/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/245.jpeg" border="0"></a></td>
 </tr>
 <tr align="center">
@@ -552,13 +558,13 @@ MM_reloadPage(true);
 <td><a href="http://www.myhome.net.tw/timeline  " target="_blank"><img src="http://www.twnic.net.tw/brarchive/235.gif" border="0"></a></td>
 </tr>
 <tr align="center">
+<td><a href="http://www.twnic.net.tw/2015adv/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/252.gif" border="0"></a></td>
+</tr>
+<tr align="center">
 <td><a href="http://app.twnic.net.tw/2015" target="_blank"><img src="http://www.twnic.net.tw/brarchive/249.jpeg" border="0"></a></td>
 </tr>
 <tr align="center">
-<td><a href="http://netking.tw" target="_blank"><img src="http://www.twnic.net.tw/brarchive/248.gif" border="0"></a></td>
-</tr>
-<tr align="center">
-<td><a href="http://www.twnic.net.tw/2015dispute/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/247.jpeg" border="0"></a></td>
+<td><a href="http://2015.netking.tw" target="_blank"><img src="http://www.twnic.net.tw/brarchive/248.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="http://www.twnic.net.tw/2015talks/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/246.gif" border="0"></a></td>

@@ -120,7 +120,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-oIxGSph3IoPb_I_u_DXJwkUyEUbFYuL_wfe1wqqSAt0" value="form-oIxGSph3IoPb_I_u_DXJwkUyEUbFYuL_wfe1wqqSAt0"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-8mSygpT1-QALd9mHCJQGi9B5-ynKcbRv3uh_o4oxmUs" value="form-8mSygpT1-QALd9mHCJQGi9B5-ynKcbRv3uh_o4oxmUs"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -137,7 +137,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-UPsd36I3YDl7c3pJKG029uSI7DnuwBEgfkbGbosLmRQ" value="form-UPsd36I3YDl7c3pJKG029uSI7DnuwBEgfkbGbosLmRQ"  />
+<input type="hidden" name="form_build_id" id="form-s_bnVuSEu3TnisARcjmfuxcMlUTdBGI7pNiKL_t5t68" value="form-s_bnVuSEu3TnisARcjmfuxcMlUTdBGI7pNiKL_t5t68"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -182,17 +182,21 @@
       </div>
 </div>
 <div class="node  ">
-        <h2><a href=" /oarc/agm-2015 " title=" 2015 OARC Elections and AGM "> 2015 OARC Elections and AGM </a></h2>
+        <h2><a href=" /oarc/agm-2015/elections " title=" 2015 OARC Elections "> 2015 OARC Elections </a></h2>
      <div class="content">
-          <p>
-The DNS-OARC 2015 <a href="https://indico.dns-oarc.net/event/24/page/3">Annual General Meeting</a> will take place on the 3rd of October during a members-only session at the start of OARC's <a href="https://indico.dns-oarc.net/event/24/">Fall 2015 Workshop</a>, in Montreal, Quebec, Canada.</p>
-<p>
-We are looking for nominations for candidates willing to serve a two-year term on the Board and contribute to the continued growth of OARC.   The Board meets monthly, by teleconference, to review DNS-OARC operations.  We expect our directors to actively contribute to the various ongoing, email based, discussions and provide oversight &amp; feedback as needed.</p>
+          <p>During the 2015 OARC <a href="https://indico.dns-oarc.net/event/24/page/3">Annual General Meeting</a> we will be electing three seats on the OARC Board of Directors. The seats becoming available are doing so on the following basis:</p>
+<ul>
+<li>Existing Board member Duane Wessels (for Verisign) has served for two-years and his seat is up for election by rotation.
+</li><li>The Board seat held for Dyn by Dave Knight since April 2015 has reached the end of its two-year term, and is up for election by rotation.<br />
+Dave will be standing for re-election.
+</li><li>The Board seat held for Afilias by Jim Galvin since October 2014 has reached the end of its two-year term, and is up for election by rotation.<br />
+Jim will be standing for re-election.
+</li></ul>
 <p></p>  </div>
     <div class="info">
-    Submitted by keith on Thu, 2015-07-30 18:35          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
+    Submitted by keith on Thu, 2015-07-30 18:17          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
 </ul> ]</span>
-              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/oarc/agm-2015" title="Read the rest of 2015 OARC Elections and AGM.">Read more</a></li>
+              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/oarc/agm-2015/elections" title="Read the rest of 2015 OARC Elections.">Read more</a></li>
 </ul> </span>
       </div>
 </div>
@@ -390,13 +394,15 @@ Current open positions:</p>
 <a href="http://tcinet.ru">tcinet.ru</a><br/>
 <a href="http://telus.com">Telus</a><br/>
 <a href="http://www.edgecast.com/">Verizon EdgeCast</a><br/>
-<p><center>Blue</center><a href="https://www.maawg.org/">M3AAWG</a><br/>
+<p><center>Blue</center><a href="http://www.hostmaster.ua">dotua</a><br/>
+<a href="https://www.maawg.org/">M3AAWG</a><br/>
 <a href="http://www.nlnetlabs.nl/">NLnet Labs</a><br/>
 <a href="http://sinodun.com/">Sinodun</a><br/>
 <p><center>Supporter</center><a href="http://www.caida.org/">CAIDA</a><br/>
 <a href="http://www.internet.ee">Eesti Internet</a><br/>
 <a href="http://cs.princeton.edu">Feamster</a><br/>
 <a href="http://www.arc.nasa.gov/">NASA Ames</a><br/>
+<a href="https://nic.ar/">NIC.AR</a><br/>
 <a href="http://www.ottix.net/">OTTIX</a><br/>
 <a href="http://www.team-cymru.org/">Team Cymru</a><br/>
 <a href="http://www.tudelft.nl/">TUDelft Univ.</a><br/>
@@ -406,11 +412,9 @@ Current open positions:</p>
 <a href="http://www.wide.ad.jp/">WIDE</a><br/>
 <p><center>Beneficial</center><a href="http://afrinic.net">AFRINIC</a><br/>
 <a href="http://www.cogentco.com/">Cogent</a><br/>
-<a href="http://www.hostmaster.ua">dotua</a><br/>
 <a href="http://www.lacnic.net">LACNIC</a><br/>
 <a href="http://measurement-factory.com/">Measurement Factory</a><br/>
 <a href="http://www.netnod.se/">Netnod</a><br/>
-<a href="https://nic.ar/">NIC.AR</a><br/>
 <a href="http://www.ntt.com/">NTT</a><br/>
 <a href="">RTFM</a><br/>
 <a href="http://www.umd.edu/">University of Maryland</a><br/>

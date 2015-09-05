@@ -24,10 +24,10 @@
 		<title>Cloud Delivered Enterprise Security by OpenDNS</title>
 
 	
-			<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/homepage.css?v=ce18a760baa738e163ad006a1e9e900b" />
+			<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/homepage.css?v=633518cdf0ddad12e1d8edc862ae6532" />
 	
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=2a105e7d61627a083471c844103e02ba"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=51b52c5b6052748f55320ab9c2d547ca"></script>
 	<![endif]-->
 
 	<link rel='stylesheet' id='style-css'  href='https://www.opendns.com/wp-content/themes/opendns/style.css?ver=4.3' type='text/css' media='all' />
@@ -37,7 +37,7 @@
 <link rel='stylesheet' id='chosen-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/chosen.css?ver=4.3' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.3' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=47f1244a0e8c5915dbe83d5bb58067a2">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=fde6af4d78a248998b7ac1b55023d3f5">
 
 	<meta name="viewport" content="width=device-width">
 	
@@ -74,7 +74,7 @@ img.emoji {
 </style>
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=a0bbefcba1962d205e68e60e769167d2'></script>
+<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=03ebe2782fb3916dc734a39252638604'></script>
 <meta name="generator" content="WordPress 4.3" />
 <script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 </head>
@@ -86,7 +86,7 @@ img.emoji {
 		"prefix": "min-",
 		"breakpoints": [0, 472, 712, 952]
 	}]
-}' class="home page page-id-1463 page-template page-template-page-home-test page-template-page-home-test-php index homepage-main promotion ie ">
+}' class="home page page-id-1463 page-template page-template-page-home-test page-template-page-home-test-php index homepage-main ie ">
 <![endif]-->
 <!--[if IE 9]>
 <body id="ie9" data-responsejs='{
@@ -95,7 +95,7 @@ img.emoji {
 		"prefix": "min-",
 		"breakpoints": [0, 472, 712, 952]
 	}]
-}' class="home page page-id-1463 page-template page-template-page-home-test page-template-page-home-test-php index homepage-main promotion ie ">
+}' class="home page page-id-1463 page-template page-template-page-home-test page-template-page-home-test-php index homepage-main ie ">
 <![endif]-->
 <!--[if !(IE 6) | !(IE 7) | !(IE 8) | !(IE 9) ]><!-->
 <body data-responsejs='{
@@ -104,7 +104,7 @@ img.emoji {
 		"prefix": "min-",
 		"breakpoints": [0, 472, 712, 952]
 	}]
-}' class="home page page-id-1463 page-template page-template-page-home-test page-template-page-home-test-php index homepage-main promotion">
+}' class="home page page-id-1463 page-template page-template-page-home-test page-template-page-home-test-php index homepage-main">
 <!--<![endif]-->
 
 <!-- Google Tag Manager -->
@@ -187,15 +187,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<a href="https://www.opendns.com/home-internet-security/" class="parent-link">
 				<span class="icon "></span>Personal</a>
 <ul class="subnav">
-<li class=" menu-item menu-item-type-post_type menu-item-object-page">
-			<a href="https://www.opendns.com/home-internet-security/">
-				<span class="icon "></span>Overview</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page">
-			<a href="https://www.opendns.com/home-internet-security/parental-controls/opendns-home/">
-				<span class="icon "></span>Parental Controls</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page">
-			<a href="https://www.opendns.com/home-internet-security/opendns-ip-addresses/">
-				<span class="icon "></span>Enhanced DNS</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page">
-			<a href="https://www.opendns.com/home-internet-security/phishing-protection/">
-				<span class="icon "></span>Phishing Protection</a></li></ul></li><li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+<li class="in-page menu-item menu-item-type-custom menu-item-object-custom">
+			<a href="#parental-controls">
+				<span class="icon in-page"></span>Parental Controls</a></li><li class="in-page menu-item menu-item-type-custom menu-item-object-custom">
+			<a href="#testimonials">
+				<span class="icon in-page"></span>Testimonials</a></li><li class="in-page menu-item menu-item-type-custom menu-item-object-custom">
+			<a href="#benefit-matrix">
+				<span class="icon in-page"></span>Benefit Matrix</a></li><li class="in-page menu-item menu-item-type-custom menu-item-object-custom">
+			<a href="#enhanced-dns">
+				<span class="icon in-page"></span>Premium DNS</a></li></ul></li><li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
 			<a href="https://www.opendns.com/about/" class="parent-link">
 				<span class="icon "></span>About Us</a>
 <ul class="subnav">
@@ -223,11 +223,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<a href="https://www.opendns.com/enterprise-security/threat-intelligence/">
 				<span class="icon "></span>OpenDNS Investigate</a></li><li class="contact-sales demo-request button Investigate menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="#">
-				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=ed60cf16f3950da87490b66b1b23b8ea"></script>
+				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=5e7ea55153e223c9045dde61779f1261"></script>
 		</div>
 	</header>
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=7a89f09de7799368637ac33b2ab06519"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=651913a9ca82b4e83cc12233680ed78a"></script>
 	<![endif]-->
 	<!--
 	Start of DoubleClick Floodlight Tag: Please do not remove
@@ -246,24 +246,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</noscript>
 	<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
 
-			<div class="promo-banner ">
-			<div class="grid">
-				<div class="promo-banner-wrapper promo-banner-wrapper--centered">
-					<a href="/enterprise-security/resources/webcasts/opendns-is-now-part-of-cisco-taking-security-everywhere/">
-						<div class="promo-banner-icon "></div>
-						<div class="promo-banner-message">
-							<p>Live Webcast 9/3: OpenDNS is now part of Cisco — Taking Security Everywhere</p>
-							<p class="promo-banner-cta">Join Our Webcast <i class="fa fa-caret-right"></i></p>
-						</div> <!-- .promo-banner-message -->
-					</a>
-				</div> <!-- .promo-banner-wrapper -->
-			</div> <!-- .grid -->
-		</div> <!-- .promo-banner -->
-
+	
 			<div class="content">
 	
-<div class="image-banner home-hero ice">
-<div class="banner homepage-hero" style="background-image: url(https://www.opendns.com/wp-content/uploads/2014/07/rsa-homepage.jpg);"></div><div class="grid"><h1 class="image-banner-heading"><span>Take Your Security Further</span></h1></div><div class="grid"><p class="ice">Predict attacks before they happen<br>Expand threat protection beyond the perimeter<br>Remove your DNS blind spot</p>
+<div class="image-banner home-hero no-scrim">
+<div class="banner homepage-hero" style="background-image: url(https://www.opendns.com/wp-content/uploads/2014/07/train-with-no-scrim.jpg);"></div><div class="grid"><h1 class="image-banner-heading"><span>Take Your Security Further</span></h1></div><div class="grid"><p class="ice">Predict attacks before they happen<br>Expand threat protection beyond the perimeter<br>Remove your DNS blind spot</p>
 <div class="cta-block">
 <a href="/enterprise-security/threat-enforcement/" class="business">For Business</a>
 <a href="/home-internet-security/" class="home"> For Personal</a>
@@ -521,17 +508,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Aug 27</span>
+							<span class="date">Sep 2</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://blog.opendns.com/2015/08/27/cisco-and-opendns-cloud-security/" title="Cisco and OpenDNS: A New Day in Cloud Security">Cisco and OpenDNS: A New Day in Cloud Security</a>
+							<a href="https://blog.opendns.com/2015/09/02/easy-cheap-and-costly-ransomware-is-growing-exponentially/" title="Easy, Cheap, and Costly: Ransomware is Growing Exponentially">Easy, Cheap, and Costly: Ransomware is Growing Exponentially</a>
 						</h4>
-						<p class="author">Author: David Ulevitch, Founder/CEO</p>
-						<div class="excerpt"><p>OpenDNS has gone through many changes in its ten-year history as a leading cloud-delivered network security company. In 2006, the &hellip;<span class="overflow"> company was launched as a consumer DNS provider. In 2012, the company transitioned to cybersecurity&hellip;</span></p>
+						<p class="author">Author: Owen Lystrup</p>
+						<div class="excerpt"><p>Anti-virus companies, Internet security firms, and threat intelligence providers — as well as the security researcher population in general — &hellip;<span class="overflow"> are all warning of an eruption of ransomware, one fueled by motivated attackers,&hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/08/27/cisco-and-opendns-cloud-security/" title="Cisco and OpenDNS: A New Day in Cloud Security" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/09/02/easy-cheap-and-costly-ransomware-is-growing-exponentially/" title="Easy, Cheap, and Costly: Ransomware is Growing Exponentially" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 								<li class="post clearfix">
@@ -543,17 +530,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Aug 24</span>
+							<span class="date">Sep 1</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://blog.opendns.com/2015/08/24/the-brief-august-17th-23rd-2015/" title="The Brief: August 17th-23rd, 2015">The Brief: August 17th-23rd, 2015</a>
+							<a href="https://blog.opendns.com/2015/09/01/whois-jennifer-minella-vp-of-engineering-and-consulting-ciso-at-carolina-advanced-digital/" title="WHOIS: Jennifer Minella, VP of Engineering and Consulting CISO at Carolina Advanced Digital">WHOIS: Jennifer Minella, VP of Engineering and Consulting CISO at Carolina Advanced Digital</a>
 						</h4>
-						<p class="author">Author: The Brief</p>
-						<div class="excerpt"><p>This week, in the Brief: AV is dead (according to John McAfee), the cyber arms race has begun (according to &hellip;<span class="overflow"> Bruce Schneier), and the latest Apple 0day hubbub is &#8220;kinda getting out of proportion,&#8221; (according to Luca Todesco):      &hellip;</span></p>
+						<p class="author">Author: WHOIS</p>
+						<div class="excerpt"><p>For this month&#8217;s WHOIS, we sat down with Jennifer Minella, VP of Engineering and Consulting CISO at Carolina Advanced Digital, &hellip;<span class="overflow"> to talk about security mindfulness, certs, and the Emoticons Technology Club:                          &hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/08/24/the-brief-august-17th-23rd-2015/" title="The Brief: August 17th-23rd, 2015" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/09/01/whois-jennifer-minella-vp-of-engineering-and-consulting-ciso-at-carolina-advanced-digital/" title="WHOIS: Jennifer Minella, VP of Engineering and Consulting CISO at Carolina Advanced Digital" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -569,17 +556,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Aug 25</span>
+							<span class="date">Sep 1</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://labs.opendns.com/2015/08/25/bgpstream-dnsstream-what-happens-before-the-cyber-kill-chain-presentations/" title="BGPStream, DNSStream & What Happens Before the Cyber Kill Chain Presentations">BGPStream, DNSStream & What Happens Before the Cyber Kill Chain Presentations</a>
+							<a href="https://labs.opendns.com/2015/09/01/the-good-the-bad-and-the-parked/" title="The Good, the Bad, and the Parked">The Good, the Bad, and the Parked</a>
 						</h4>
-						<p class="author">Author: Dan Hubbard, CTO</p>
-						<div class="excerpt"><p>Over the last couple weeks we have been lucky enough to be involved in some amazing projects and present with great &hellip;<span class="overflow"> co-presenters.  The first presentation was at Blackhat where Andree Toonk and I unveiled BGPStream and&hellip;</span></p>
+						<p class="author">Author: Anthony Kasza</p>
+						<div class="excerpt"><p>A parked domain is a domain name that has been registered and is serving temporary content, is being held for &hellip;<span class="overflow"> future use, or is being used for monetization purposes. Some parked domains serve custom 404 pages, redirects, or&hellip;</span></p>
 </div>
-						<a href="https://labs.opendns.com/2015/08/25/bgpstream-dnsstream-what-happens-before-the-cyber-kill-chain-presentations/" title="BGPStream, DNSStream & What Happens Before the Cyber Kill Chain Presentations" class="read-more">Read More &rarr;</a>
+						<a href="https://labs.opendns.com/2015/09/01/the-good-the-bad-and-the-parked/" title="The Good, the Bad, and the Parked" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -593,17 +580,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Aug 4</span>
+							<span class="date">Aug 31</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://engineering.opendns.com/2015/08/04/api-testing-postman/" title="API Testing with Postman">API Testing with Postman</a>
+							<a href="https://engineering.opendns.com/2015/08/31/generating-iptables-rules-with-trafficcop/" title="Generating Iptables Rules With TrafficCop">Generating Iptables Rules With TrafficCop</a>
 						</h4>
-						<p class="author">Author: Philip Thomas</p>
-						<div class="excerpt"><p>The Postman app has become the de-facto tool for interacting with HTTP-based APIs during development. It provides a better version &hellip;<span class="overflow"> of cURL for developers, and OpenDNS engineers have used it for the development of tools ranging&hellip;</span></p>
+						<p class="author">Author: Chris Dorros</p>
+						<div class="excerpt"><p>Today the OpenDNS engineering team is releasing Traffic Cop, a simple, open source tool to uncover to where your host &hellip;<span class="overflow"> is communicating, and help you write iptables rules. In a nutshell, it does three things:  	Configures and&hellip;</span></p>
 </div>
-						<a href="https://engineering.opendns.com/2015/08/04/api-testing-postman/" title="API Testing with Postman" class="read-more">Read More &rarr;</a>
+						<a href="https://engineering.opendns.com/2015/08/31/generating-iptables-rules-with-trafficcop/" title="Generating Iptables Rules With TrafficCop" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -618,7 +605,7 @@ daily DNS requests
 			<div class="main-column">
 				<div class="nav-footer"><ul class="main"><li class="columns menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><h3 class="title">What We Make</h3>
 <ul class="submenu">
-<li class=" menu-item menu-item-type-post_type menu-item-object-enterprise-product"><a href="https://www.opendns.com/enterprise-security/threat-enforcement/">Threat Enforcement</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-enterprise-product"><a href="https://www.opendns.com/enterprise-security/threat-intelligence/">Threat Intelligence</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.opendns.com/about/innovations/">OpenDNS Innovations</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.opendns.com/premium-dns/">Premium DNS</a></li></ul></li><li class="columns menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><h3 class="title">Who We Are</h3>
+<li class=" menu-item menu-item-type-post_type menu-item-object-enterprise-product"><a href="https://www.opendns.com/enterprise-security/threat-enforcement/">Threat Enforcement</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-enterprise-product"><a href="https://www.opendns.com/enterprise-security/threat-intelligence/">Threat Intelligence</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.opendns.com/about/innovations/">OpenDNS Innovations</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.opendns.com/home-internet-security/">Premium DNS</a></li></ul></li><li class="columns menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><h3 class="title">Who We Are</h3>
 <ul class="submenu">
 <li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.opendns.com/data-center-locations/">Data Center Locations</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://system.opendns.com">System @ OpenDNS</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://blog.opendns.com">Company Blog</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://engineering.opendns.com">Engineering Blog</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://labs.opendns.com">Security Labs</a></li></ul></li><li class="columns menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><h3 class="title">Learn More</h3>
 <ul class="submenu">
@@ -790,10 +777,10 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=8ae17328852497391f6c315cd8990eed'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":436,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=eed5627532c8b2bb3d1fed88c441124f'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":487,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
- Served from: www.opendns.com @ 2015-08-29 18:10:45 by W3 Total Cache -->
+ Served from: www.opendns.com @ 2015-09-03 18:10:48 by W3 Total Cache -->

@@ -375,7 +375,7 @@
                           						                                                                              <td>
               							<a href="/en/resources/statistics/">Statistics</a>
                                               							<ul class="submenu">
-                                                    									 <li><a href="/en/resources/statistics/quality-of-service-performance-52.html">Quality of service performance</a></li>
+                                                    									 <li><a href="/en/resources/statistics/quality-of-service-performance-53.html">Quality of service performance</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/resources/statistics/detailed-data-on-domain-names/">Detailed data on domain names</a></li>
                   								                    								                  							</ul>
@@ -521,7 +521,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="eff45c1eb2ac5df6d5fe833cd796ec2e" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="e973086bddbcb535448f4a3c5cd21f2c" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -592,9 +592,6 @@
 		                    			<li>- <a href="/en/your-domain-name/how-to-choose-and-create-your-domain-name/" title="Before buying, how do I choose my domain name?">Before buying, how do I choose my domain name?</a></li>
                     			
 			                    
-		                                            <li>- <a href="/en/your-domain-name/how-to-choose-and-create-your-domain-name/trouver-mon-bureau-d-enregistrement-7.html" title="Where to buy my domain name ?">Where to buy my domain name ?</a></li>
-                    			
-			                    
 		                    			<li>- <a href="/en/your-domain-name/manage-your-domain-name/" title="Manage your domain name">Manage your domain name</a></li>
                     			
 			                    
@@ -661,6 +658,11 @@
   
   <ul>
           <li>
+            <span class="date"><em>9/1/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9320/show/afnic-selected-for-two-centr-awards-2015.html">Afnic selected for two CENTR Awards 2015</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9320/show/afnic-selected-for-two-centr-awards-2015.html">For the second edition of the CENTR Awards, Afnic has been selected for two categories: « R&amp;D » and « Contributor of the year ».</a></span>
+    </li>
+       <li>
             <span class="date"><em>7/27/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9246/show/domain-names-industry-report-french-more-and-more-holders-of-fr.html">Domain names Industry Report: French more and more holders of .fr</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9246/show/domain-names-industry-report-french-more-and-more-holders-of-fr.html">The July 2015 edition of the Afnic Industry Report on Domain Names studies the geographical distribution of the .fr holders.</a></span>
@@ -679,11 +681,6 @@
             <span class="date"><em>6/22/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9168/show/99-of-registrars-are-satisfied-with-afnic-services.html">99% of Registrars are satisfied with Afnic Services</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9168/show/99-of-registrars-are-satisfied-with-afnic-services.html">Afnic has disclosed the results of its annual survey on the quality of its services.</a></span>
-    </li>
-       <li>
-            <span class="date"><em>6/18/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9161/show/how-to-assess-the-registrar-network-performance-1.html">How to assess the registrar network performance?</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/9161/show/how-to-assess-the-registrar-network-performance-1.html">The June 2015 edition of the Afnic Industry Report on Domain Names proposes indicators to measure registrar performance since the introduction of new ...</a></span>
     </li>
      </ul>
     <div class="mainContent" style="padding:0">

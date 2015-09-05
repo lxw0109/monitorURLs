@@ -540,6 +540,9 @@ MM_reloadPage(true);
                       <td><img src="http://www.twnic.net.tw/img/link.gif" width="135" height="21"></td>
                     </tr>
 <tr align="center">
+<td><a href="http://lovetw.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/250.gif" border="0"></a></td>
+</tr>
+<tr align="center">
 <td><a href="http://www.twnic.net.tw/apira2015/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/245.jpeg" border="0"></a></td>
 </tr>
 <tr align="center">
@@ -552,13 +555,13 @@ MM_reloadPage(true);
 <td><a href="http://www.myhome.net.tw/timeline  " target="_blank"><img src="http://www.twnic.net.tw/brarchive/235.gif" border="0"></a></td>
 </tr>
 <tr align="center">
+<td><a href="http://www.twnic.net.tw/2015adv/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/252.gif" border="0"></a></td>
+</tr>
+<tr align="center">
 <td><a href="http://app.twnic.net.tw/2015" target="_blank"><img src="http://www.twnic.net.tw/brarchive/249.jpeg" border="0"></a></td>
 </tr>
 <tr align="center">
-<td><a href="http://netking.tw" target="_blank"><img src="http://www.twnic.net.tw/brarchive/248.gif" border="0"></a></td>
-</tr>
-<tr align="center">
-<td><a href="http://www.twnic.net.tw/2015dispute/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/247.jpeg" border="0"></a></td>
+<td><a href="http://2015.netking.tw" target="_blank"><img src="http://www.twnic.net.tw/brarchive/248.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="http://www.twnic.net.tw/2015talks/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/246.gif" border="0"></a></td>

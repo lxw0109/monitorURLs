@@ -327,6 +327,9 @@ padding: 0px 8px 2px 12px;
 <a title="CAIDA Funding" href="/funding/">FUNDING</a>
 <ul>
 <li>
+<a title="Software Systems for Surveying Spoofing Susceptibility project summary and proposal" href="/funding/spoofer/">Spoofer</a>
+</li>
+<li>
 <a title="Cartographic Capabilities for Critical Cyberinfrastructure, project summary and proposal" href="/funding/c4/">Internet&nbsp;Mapping</a>
 </li>
 <li>
@@ -364,10 +367,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="http://as-rank.caida.org/"><img title="We present the BETA version of AS Rank, CAIDA's ranking of Autonomous Systems (AS) (which approximately map to Internet Service Providers). This ranking is derived from topological data collected by CAIDA's Archipelago Measurement Infrastructure and Border Gateway Protocol (BGP) routing data collected by the Route Views Project and RIPE NCC. ASes are ranked by their customer cone size, which is the number of their direct and indirect customers. Note: We do not have data to rank ASes (ISPs) by traffic, revenue, users, or any other non-topological metric. " alt="" height="250" width="300" src="/images/asrank-relationshipgraph_300h250.png"></a>
+<a href="/research/topology/as_core_network/2014/"><img title="This visualization represents macroscopic snapshots of IPv4 and IPv6 Internet topology samples captured in January 2014. For the IPv4 map, CAIDA collected data from 74 monitors located in 33 countries on 6 continents. For the IPv6 map, CAIDA collected data from 33 Ark monitors located in 21 countries on 6 continents." alt="" height="250" width="300" src="/research/topology/as_core_network/pics/2014/ascore-2014-jan-ipv4v6-standalone-300x250.png"></a>
 </div>
 <div class="captiontext">
-<a href="http://as-rank.caida.org/">AS Rank: Ranking of Autonomous Systems</a>
+<a href="/research/topology/as_core_network/2014/">AS Core IPv4 + IPv6 (2014)</a>
 </div>
 <hr>
 <div class="captiontext">
@@ -500,19 +503,19 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 <div class="rccontent">
 <table summary="CAIDA Blog: According to the Best Available Data" class="feedtable">
 <tr>
+<td><a href="http://blog.caida.org/best_available_data/2015/08/31/dhs-st-ddos-defense-pi-meeting/" title="Earlier this month, Marina and I went to our first Principal Investigators meeting for a new DHS program on distributed denial of service defense (DDoS Defense), lead by DHS S&amp;#038;T Cybersecurity Division Program Manager Dan Massey. Dan is one of Doug Maughan&amp;#8217;s team, and he seems to have picked up Doug&amp;#8217;s impressive talent for running [&amp;#8230;]">DHS S&amp;T DDoS Defense PI Meeting</a></td><td>Aug&nbsp;31</td>
+</tr>
+<tr class="zebra">
 <td><a href="http://blog.caida.org/best_available_data/2015/07/22/caidas-annual-report-for-2014/" title="[Executive Summary from our annual report for 2014:] This annual report covers CAIDA&amp;#8217;s activities in 2014, summarizing highlights from our research, infrastructure, data-sharing and outreach activities. Our research projects span Internet topology, routing, traffic, security and stability, future Internet architecture, economics and policy. Our infrastructure activities support measurement-based Internet studies, both at CAIDA and around [&amp;#8230;]">CAIDA&rsquo;s Annual Report for 2014</a></td><td>Jul&nbsp;23</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://blog.caida.org/best_available_data/2015/07/20/panel-on-cyberwarfar-and-cyberattacks-at-9th-circuit-judicial-conference/" title="I had the honor of contributing to a panel on &amp;#8220;Cyberwarfare and cyberattacks: protecting ourselves within existing limitations&amp;#8221; at this year&amp;#8217;s 9th Circuit Judicial Conference. The panel moderator was Hon. Thomas M. Hardiman, and the other panelists were Professor Peter Cowhey, of UCSD&amp;#8217;s School of Global Policy and Strategy, and Professor and Lt. Col. Shane [&amp;#8230;]">Panel on Cyberwarfare and Cyberattacks at 9th Circuit Judicial Conference</a></td><td>Jul&nbsp;21</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://blog.caida.org/best_available_data/2015/07/02/whats-in-a-ranking-comparing-dyns-bakers-dozen-and-caidas-as-rank/" title="The Internet infrastructure is composed of thousands of independent networks (Autonomous Systems, or ASes) that engage in typically voluntary bilateral interconnection (&amp;#8220;peering&amp;#8221;) agreements to provide reachability to each other. Underlying these peering relationships, are business relationships between networks, although whether and how much money ASes exchange when they interconnect is not generally published. Some of [&amp;#8230;]">What&rsquo;s in a Ranking? comparing Dyn&rsquo;s Baker&rsquo;s Dozen and CAIDA&rsquo;s AS Rank</a></td><td>Jul&nbsp;3</td>
 </tr>
-<tr class="zebra">
-<td><a href="http://blog.caida.org/best_available_data/2015/07/01/comments-on-cybersecurity-research-and-development-strategic-plan/" title="An excerpt from a comment that David Clark and I wrote in response to Request for Information (RFI)-Federal Cybersecurity R&amp;#038;D Strategic Plan, posted by the National Science Foundation on 4/27/2015. The RFI asks &amp;#8220;What innovative, transformational technologies have the potential to enhance the security, reliability, resiliency, and trustworthiness of the digital infrastructure, and to protect [&amp;#8230;]">Comments on Cybersecurity Research and Development Strategic Plan</a></td><td>Jul&nbsp;2</td>
-</tr>
 <tr>
-<td><a href="http://blog.caida.org/best_available_data/2015/06/30/named-data-networking-next-phase-ndn-np-annual-report/" title="The Named Data Networking project recently published the NDN-NP annual report covering activities from May 2014 through April 2015. V. Jacobson, J. Burke, L. Zhang, B. Zhang, K. Claffy, C. Papadopoulos, T. Abdelzaher, L. Wang, J. Halderman, and P. Crowley, &amp;#8220;Named Data Networking Next Phase (NDN-NP) Project May 2014 &amp;#8211; April 2015 Annual Report&amp;#8221;, Tech. [&amp;#8230;]">Named Data Networking Next Phase (NDN-NP) Annual Report</a></td><td>Jul&nbsp;1</td>
+<td><a href="http://blog.caida.org/best_available_data/2015/07/01/comments-on-cybersecurity-research-and-development-strategic-plan/" title="An excerpt from a comment that David Clark and I wrote in response to Request for Information (RFI)-Federal Cybersecurity R&amp;#038;D Strategic Plan, posted by the National Science Foundation on 4/27/2015. The RFI asks &amp;#8220;What innovative, transformational technologies have the potential to enhance the security, reliability, resiliency, and trustworthiness of the digital infrastructure, and to protect [&amp;#8230;]">Comments on Cybersecurity Research and Development Strategic Plan</a></td><td>Jul&nbsp;2</td>
 </tr>
 </table>
 </div>

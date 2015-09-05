@@ -553,7 +553,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<li id="menu-item-11636" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11636"><a href="https://www.isc.org/community/report-bug/">Report a Bug</a></li>
 	</ul>
 </li>
-	<li id="menu-item-23431" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23431"><a href="http://kea.isc.org">Kea DHCP Server</a></li>
+	<li id="menu-item-305445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305445 "><a href="https://www.isc.org/kea/">Kea DHCP server</a></li>
 	<li id="menu-item-8315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8315 default"><a href="https://www.isc.org/downloads/other/">Other Software</a>
 	<ul class="sub-menu">
 		<li id="menu-item-8346" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8346 default"><a href="https://www.isc.org/downloads/lwds-lite/">DS-Lite</a></li>
@@ -744,7 +744,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11636"><a href="https://www.isc.org/community/report-bug/">Report a Bug</a></li>
 	</ul>
 </li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23431"><a href="http://kea.isc.org">Kea DHCP Server</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305445 "><a href="https://www.isc.org/kea/">Kea DHCP server</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8315 default"><a href="https://www.isc.org/downloads/other/">Other Software</a>
 	<ul class="sub-menu">
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8346 default"><a href="https://www.isc.org/downloads/lwds-lite/">DS-Lite</a></li>
@@ -968,51 +968,11 @@ nav .menu > li {border-top-color: #e4e4e4;}
 		<div class="wpb_wrapper clearfix">
 			<div class="heading-wrap"><h3 class="wpb_heading wpb_text_heading">Why Use BIND?</h3></div>
 			
-<p>BIND is transparent open source.  If your organization needs some functionality that is not in BIND, you can modify it, and contribute the new feature back to the the community by <a href="https://www.isc.org/git/guidelines/" target="_blank">sending us your source</a>.</p>
-<p>BIND has evolved to be a very flexible, full-featured DNS system. There are three typical applications for DNS services and BIND has the features needed for each of them.</p>
-<p>As the first, oldest and most commonly deployed solution, there are more network engineers who are already familiar with BIND than any other system.</p>
-
-		</div> 
-	</div> </div>
- <div class="row">
-	<div class="wpb_content_element span4 wpb_text_column">
-		<div class="wpb_wrapper clearfix">
-			
-<h3>Internet Service Provider &#8211; Public Recursive and Authoritative service</h3>
-<p>The ISP normally provides DNS resolver services for networks it connects to the Internet, including both homes and businesses. Businesses using the ISP for transport may want to use their internal resolvers as the first option in a list, including the ISPs resolvers if the enterprise&#8217;s internal systems are busy.Many ISPs also offer authoritative DNS hosting services for their enterprise customers.</p>
-<p>We recommend ISP&#8217;s <strong>close their resolvers</strong>. This means, they should limit access to clients who are on their network, to prevent others from using their resolvers to launch DDOS attacks on others.</p>
-<p>Key BIND features of interest to ISPs include:</p>
-<p><strong>Response Policy Zones</strong> &#8211; Use <a href="https://kb.isc.org/article/AA-00525/110/Building-DNS-Firewalls-with-Response-Policy-Zones-RPZ.html" target="_blank">RPZ</a> to selectively block access to infected sites hosting malware, or block access to domains you may have a legal requirement to exclude.</p>
-<p><a href="https://kb.isc.org/category/192/0/10/Software-Products/BIND9/Features/NXDOMAIN-redirection/" target="_blank"><strong>NXDOMAIN redirection</strong></a> &#8211; When a customer searches for a domain that isn’t there (NXDOMAIN response), you can substitute a response that redirects the user to another web page. ISPs use this to serve up search pages, or advertising. You can serve a different zone file depending on what domain the person was looking for, using wildcards. So, for example, you can send all users searching for non-existent domains in *.fr to a search site in French. This is supported in BIND using <a href="http://ftp.isc.org/isc/bind9/9.10.2b1/doc/arm/Bv9ARM.ch04.html#dlz-info" target="_blank">Dynamically Loadable Zones (DLZ)</a>.</p>
-<p><strong>DDOS mitigation</strong> &#8211; Anyone can be subject to a DDOS attack, but in practice, this is typically a bigger problem for service providers than for enterprises. It is possible to deny either resolver or authoritative DNS services. BIND has features to mitigate both kinds of attacks. <a href="https://kb.isc.org/category/189/0/10/Software-Products/BIND9/Features/Response-Rate-Limiting-RRL/" target="_blank">Response Rate Limiting</a> (RRL) has proven to be very helpful in mitigating amplification attacks against authoritative servers. Some experimental new features in BIND also help mitigate resolver exhaustion due to DDOS. These new <a href="https://kb.isc.org/article/AA-01178/198/Recursive-Client-Rate-limiting-in-BIND-9.9-Subscription-Version.html" target="_blank">rate limits for recursive servers</a> are currently available only in our premium service provider release.</p>
-<p><strong>Cache management</strong> &#8211; ISPs provide better response time by optimizing the availability of information in their cache. BIND 9.10 includes a new feature, <a href="https://kb.isc.org/article/AA-01122/109/Early-refresh-of-cache-records-cache-prefetch-in-BIND-9.10.html" target="_blank">DNS Pre-fetch</a>, that refreshes popular entries in the cache. BIND also provides operators with flexible options for removing entries from the cache. It is possible to flush a single record, or an entire tree. This is useful to quickly eliminate wrong information that can get into the cache (cache poisoning).</p>
-<p><strong>DNSSEC negative trust anchors</strong> &#8211; ISPs providing DNSSEC validation service for their users need the flexibility to disable validation selectively for domains that are temporarily &#8216;broken&#8217;. The negative trust anchor provides that flexibility. This is a new feature, available to ISPs in the premium &#8216;subscription&#8217; version of BIND.</p>
-
-		</div> 
-	</div>  
-	<div class="wpb_content_element span4 wpb_text_column">
-		<div class="wpb_wrapper clearfix">
-			
-<h3>Enterprise &#8211; Private Recursive, Private and Public Authoritative service</h3>
-<p>Enterprises typically provide recursive resolvers for their internal clients, as well as authoritative services, to publish their own enterprise.com domains.</p>
-<p>Key features of interest to Enterprise users include:</p>
-<p><strong>Operational familiarity</strong> &#8211; BIND is single software system that supports both authoritative and recursive functions. While it is recommended to run authoritative and recursive functions on separate servers, you can use the same software for both functions. In an enterprise that might not need a lot of DNS servers, it can simplify operations to only have to use one system. BIND is the only DNS software that can be either authoritative or a full recursive resolver.</p>
-<p><strong>Views</strong> &#8211; Often the enterprise would like to have some authoritative domains that are for internal users only. For example, Widgets.com might have one web site for customers and the general public, but a different site just for employees. The employee web site could include confidential internal information, such as hr policies. This can be done in either of two ways. BIND <a href="http://ftp.isc.org/isc/bind9/9.10.2b1/doc/arm/Bv9ARM.ch06.html#id2592553" target="_blank">views</a> can be used to provide different responses to internal vs. external clients. With the release of BIND 9.10, multiple views can now share zones, so those zones that are valid both internally and externally do not need to be duplicated.</p>
-<p><a href="http://ftp.isc.org/isc/bind9/9.10.2b1/doc/arm/Bv9ARM.ch04.html#id2569985" target="_blank"><strong>Split-DNS</strong></a> &#8211; Alternatively, an enterprise could have different authoritative servers for internal and external clients, and simply publish some zones on the internal servers only.  Both the internal and external zones can be managed from a single &#8216;master&#8217; BIND system.</p>
-<p><strong>DNSSEC</strong> &#8211; BIND supports both <a href="https://kb.isc.org/article/AA-01182/205/DNSSEC-Validation-the-Easy-Way.html" target="_blank">DNSSEC validation</a> in resolver mode, and <a href="https://kb.isc.org/article/AA-00820/205/DNSSEC-in-6-minutes.html" target="_blank">DNSSEC signing</a>, or publication of signed zones, in authoritative mode. Enterprises can easily enable DNSSEC validation in their resolver for their internal users to protect those users from &#8216;spoofed&#8217; domains.  With BIND, the enterprise can sign their zones published externally, but may elect to leave internal-only zones unsigned.</p>
-
-		</div> 
-	</div>  
-	<div class="wpb_content_element span4 wpb_text_column">
-		<div class="wpb_wrapper clearfix">
-			
-<h3>Top-level Domain &#8211; Public Authoritative DNS</h3>
-<p>Top-level domain publishers include the publishers of generic TLDs, such as .com, .org and .edu, and country-code domains such as .ca (Canada) and .uk (United Kingdom), also known as &#8216;ccTLDs&#8217;. Domain publishers are only concerned with BIND authoritative service features.</p>
-<p>Provisioning and DNSSEC operations are two key technical challenges for a TLD operator. Top-level domain publishers have the challenge of maintaining a large number of zones, with frequent additions and changes.</p>
-<p><strong>Scalable Provisioning</strong> &#8211; BIND supports a hierarchical system for large-scale provisioning, using the roles of master and slave with standardized DNS update mechanisms that propagate changes from a single master to many slaves. The operator updates a BIND master server with new information. The master server sends out a <a href="https://tools.ietf.org/html/rfc1996" target="_blank">NOTIFY</a> message to the slaves, which will then request a zone transfer as needed. BIND supports standard <a href="https://tools.ietf.org/html/rfc1995" target="_blank">IXFR</a> (incremental) and AXFR (full) zone transfers with <a href="http://ftp.isc.org/isc/bind9/9.10.2b1/doc/arm/Bv9ARM.ch04.html#tsig" target="_blank">T.sig</a> security. Over the years we have added many <a href="https://kb.isc.org/article/AA-00726/30/Tuning-your-BIND-configuration-effectively-for-zone-transfers-particularly-with-many-frequently-updated-zones.html" target="_blank">tuning options</a> for making this system perform well at large scale. (Catalog of these options at <a href="http://www.zytrax.com/books/dns/ch7/xfer.html" target="_blank">zytrax.com</a>)</p>
-<p><strong>In-line DNSSEC Signing</strong> &#8211; TLD operators are also are under significant mandates to DNSSEC-sign their zones. <a href="https://kb.isc.org/article/AA-00711/205/In-line-Signing-With-NSEC3-in-BIND-9.9-A-Walk-through.html" target="_blank"><strong>In-line signing</strong></a> for DNSSEC is an extremely helpful BIND feature for this purpose. With in-line signing it is possible to maintain a very large number of zone files(e.g. over 1 million).</p>
-<p><strong>Quantum Signing</strong> &#8211; A generic top level domain is more likely to have a very large zone file than a large number of zone files. For this application, the <strong>BIND quantum signing</strong> feature is helpful. The DNSSEC cryptographic operations can take several minutes to sign a very large zone.  Quantum signing allows you to &#8216;serve while signing,&#8217; so re-provisioning doesn&#8217;t cause service interruption. Some GTLD operators using BIND have zone files that are hundreds of thousands of lines long.</p>
-<p><strong>Hardware Security Module (HSM)</strong> integration &#8211; HSMs are sometimes required for ultimate protection of encryption key materials. With the release of BIND 9.10.0, BIND supports native <a href="http://ftp.isc.org/isc/bind9/9.10.2b1/doc/arm/Bv9ARM.ch04.html#pkcs11" target="_blank">PKCS-11</a> for outsourcing cryptography to an HSM. With prior versions, use of an HSM is supported via a &#8216;softHSM&#8217; intermediary.</p>
+<ul>
+<li>BIND is transparent open source.  If your organization needs some functionality that is not in BIND, you can modify it, and contribute the new feature back to the the community by <a href="https://www.isc.org/git/guidelines/" target="_blank">sending us your source</a>.</li>
+<li>BIND has evolved to be a very flexible, full-featured DNS system. Whatever your application is, BIND most likely has the features required.</li>
+<li>As the first, oldest and most commonly deployed solution, there are more network engineers who are already familiar with BIND than any other system.</li>
+</ul>
 
 		</div> 
 	</div> </div>
@@ -1031,7 +991,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 
 
 <!--// WordPress Hook //-->
-<p>Last modified: June 29, 2015 at 12:50 pm</p>
+<p>Last modified: September 1, 2015 at 4:19 pm</p>
 
 					
 					<!--// CLOSE #page-wrap //-->			
@@ -1140,7 +1100,7 @@ var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.js?ver=4.3'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"27dca84b05","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
+var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"d6431f434c","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/plugins/love-it-pro/includes/js/love-it.js'></script>
