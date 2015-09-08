@@ -89,7 +89,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-4CGJPZrcKwmsnNFWCES1CvmQcmJVlTV-ljn0O1RVnTI" value="form-4CGJPZrcKwmsnNFWCES1CvmQcmJVlTV-ljn0O1RVnTI"  />
+<input type="hidden" name="form_build_id" id="form-QNi_t2tFgq9jAH8tIYrhwA3b87s26CcnP-xfGoGp4Fk" value="form-QNi_t2tFgq9jAH8tIYrhwA3b87s26CcnP-xfGoGp4Fk"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 
@@ -823,20 +823,7 @@ div#content {display:none; visibility:hidden;}
       <div class="view-content">
       <div class="item-list">
     <ul>
-          <li class="views-row views-row-1 views-row-odd views-row-first">  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/events/2015/09/04/domainfest-asia">DOMAINfest Asia</a></span>
-  </div>
-  
-  <div class="views-field-field-location-city-value">
-                <span class="field-content">Macau, China</span>
-  </div>
-  
-  <div class="views-field-field-date-value">
-                <span class="field-content"><span class="date-display-single">Sep 04, 2015</span></span>
-  </div>
-</li>
-          <li class="views-row views-row-2 views-row-even views-row-last">  
+          <li class="views-row views-row-1 views-row-odd views-row-first views-row-last">  
   <div class="views-field-title">
                 <span class="field-content"><a href="/news/events/2015/10/18/icann-54-dublin">ICANN 54 - Dublin</a></span>
   </div>

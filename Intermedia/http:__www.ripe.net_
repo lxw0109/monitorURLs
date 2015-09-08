@@ -1224,6 +1224,16 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
+<a href="https://labs.ripe.net/Members/massimo_candela/visualising-dns-issues-with-dnsmon" rel="nofollow">
+<span class="Title">Visualising DNS Issues with DNSMON</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date:
+                              <span>04 Sep 2015</span>
+</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://labs.ripe.net/Members/emileaben/the-internet-in-north-korea-hanging-by-a-single-thread" rel="nofollow">
 <span class="Title">The Internet in North Korea - Hanging by a Single Thread?</span>
 <span class="item-details">
@@ -1239,16 +1249,6 @@
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
                               <span>03 Aug 2015</span>
-</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://labs.ripe.net/Members/jh_kuipers/analyzing-the-k-root-anycast-infrastructure" rel="nofollow">
-<span class="Title">Analysing the K-root Anycast Infrastructure</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date:
-                              <span>27 Jul 2015</span>
 </span>
 </span>
 </a>

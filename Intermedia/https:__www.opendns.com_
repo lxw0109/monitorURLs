@@ -24,10 +24,10 @@
 		<title>Cloud Delivered Enterprise Security by OpenDNS</title>
 
 	
-			<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/homepage.css?v=633518cdf0ddad12e1d8edc862ae6532" />
+			<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/homepage.css?v=caac7e7cbb47b49a63d47db682e9907e" />
 	
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=51b52c5b6052748f55320ab9c2d547ca"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=4f67da2b71afa6467b670281e0fa79b5"></script>
 	<![endif]-->
 
 	<link rel='stylesheet' id='style-css'  href='https://www.opendns.com/wp-content/themes/opendns/style.css?ver=4.3' type='text/css' media='all' />
@@ -37,7 +37,7 @@
 <link rel='stylesheet' id='chosen-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/chosen.css?ver=4.3' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.3' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=fde6af4d78a248998b7ac1b55023d3f5">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=dc358dc0be2383a62637aab045032b2e">
 
 	<meta name="viewport" content="width=device-width">
 	
@@ -74,7 +74,7 @@ img.emoji {
 </style>
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=03ebe2782fb3916dc734a39252638604'></script>
+<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=af7b5d0d4d270564abc63c83cd165645'></script>
 <meta name="generator" content="WordPress 4.3" />
 <script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 </head>
@@ -223,11 +223,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<a href="https://www.opendns.com/enterprise-security/threat-intelligence/">
 				<span class="icon "></span>OpenDNS Investigate</a></li><li class="contact-sales demo-request button Investigate menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="#">
-				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=5e7ea55153e223c9045dde61779f1261"></script>
+				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=bbf2c9a8f82910ce0e08e223b159d2be"></script>
 		</div>
 	</header>
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=651913a9ca82b4e83cc12233680ed78a"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=cafb0949a030128d7f712c19868de2e5"></script>
 	<![endif]-->
 	<!--
 	Start of DoubleClick Floodlight Tag: Please do not remove
@@ -447,17 +447,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									Learn More →								</a>
 							</div>
 															</div>
-							<div class="item risks-of-iot-in-the-enterprise-2">
-					<h3 class="trending-item-title">Risks of IoT in the Enterprise</h3>
-																		<a href="/enterprise-security/resources/research-reports/2015-internet-of-things-in-the-enterprise-report/" class="image-link">
-								<img src="https://www.opendns.com/wp-content/uploads/2015/07/iot-web-promo-540x320-3.jpg" alt="Risks of IoT in the Enterprise">
+							<div class="item now-part-of-the-cisco-family">
+					<h3 class="trending-item-title">Now Part of the Cisco Family!</h3>
+																		<a href="/enterprise-security/resources/webcasts/opendns-is-now-part-of-cisco-taking-security-everywhere/" class="image-link">
+								<img src="https://www.opendns.com/wp-content/uploads/2015/08/Web-Ad-540x320.jpg" alt="Now Part of the Cisco Family!">
 							</a>
-																			<p class="tag">SECURITY LABS RESEARCH</p>
-																<p>We analyzed 70 billion daily DNS queries from our Global Network to explore the prevalence of IoT devices in enterprise networks. Read our report to understand the potential security risks and vulnerabilities introduced by IoT.</p>
+																			<p class="tag">ON-DEMAND WEBCAST</p>
+																<p>Watch our webcast with David Ulevitch, founder of OpenDNS, and Scott Harrell, Vice President of Product Management at Cisco, to hear more about the acquisition and about our first product integration.</p>
 
 																		<div class="cta">
-								<a class="learn-more" href="/enterprise-security/resources/research-reports/2015-internet-of-things-in-the-enterprise-report/">
-									Read the Report →								</a>
+								<a class="learn-more" href="/enterprise-security/resources/webcasts/opendns-is-now-part-of-cisco-taking-security-everywhere/">
+									Register Now →								</a>
 							</div>
 															</div>
 							<div class="item what-customers-are-saying">
@@ -777,10 +777,10 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=eed5627532c8b2bb3d1fed88c441124f'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":487,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=6b1b4ae20e3c613d7da3730ac77e1a82'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":499,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
- Served from: www.opendns.com @ 2015-09-03 18:10:48 by W3 Total Cache -->
+ Served from: www.opendns.com @ 2015-09-06 18:10:50 by W3 Total Cache -->

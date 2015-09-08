@@ -185,7 +185,7 @@ $(function(){
 
 	<div class="content">
 
-		<h3><a href="/bugs/new_submit/">最新提交</a> <span class="itemcount">(72)</span><a class="catrss" href="/feeds/submit"></a></h3>
+		<h3><a href="/bugs/new_submit/">最新提交</a> <span class="itemcount">(69)</span><a class="catrss" href="/feeds/submit"></a></h3>
 
 		<table class="listTable">
 			<thead>
@@ -199,52 +199,52 @@ $(function(){
 			<tbody>
 
 								<tr>
-					<th>2015-09-04</th>
-					<td><a href="/bugs/wooyun-2015-0138753">邮政储蓄银行某分行后台奇葩逻辑+sql注入</a>
+					<th>2015-09-06</th>
+					<td><a href="/bugs/wooyun-2015-0139191">某商银行部分员工密码未重置导致信息泄露</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138753#comment">0/0</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139191#comment">0/0</a></th>
+					<th><a title="小懒虫" href="/whitehats/小懒虫">小懒虫</a></th>
+				</tr>
+								<tr>
+					<th>2015-09-06</th>
+					<td><a href="/bugs/wooyun-2015-0139360">金蛋理财之滴士分期数据库测漏（银行卡/身份证/电话/车牌等信息）</a>
+															</td>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139360#comment">0/1</a></th>
+					<th><a title="DNS" href="/whitehats/DNS">DNS</a></th>
+				</tr>
+								<tr>
+					<th>2015-09-06</th>
+					<td><a href="/bugs/wooyun-2015-0139369">轻松获取北京方正宽带账户密码和用户实名信息等（有数据）</a>
+															</td>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139369#comment">0/2</a></th>
+					<th><a title="doouxiaoyu" href="/whitehats/doouxiaoyu">doouxi...</a></th>
+				</tr>
+								<tr>
+					<th>2015-09-06</th>
+					<td><a href="/bugs/wooyun-2015-0139364">神器而已证券系列之国信证券某系统配置不当导致getshell(可影响内网)</a>
+															</td>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139364#comment">3/16</a></th>
+					<th><a title="举起手来" href="/whitehats/举起手来">举起手...</a></th>
+				</tr>
+								<tr>
+					<th>2015-09-06</th>
+					<td><a href="/bugs/wooyun-2015-0139208">Metinfo主站和论坛存在高危漏洞可导致源码与补丁存在替换风险（自家产品安全问题所致）</a>
+															</td>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139208#comment">1/5</a></th>
 					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
 				</tr>
 								<tr>
-					<th>2015-09-03</th>
-					<td><a href="/bugs/wooyun-2015-0138844">风行在线某系统存在SQL注入</a>
+					<th>2015-09-06</th>
+					<td><a href="/bugs/wooyun-2015-0138680">用友NC某处SQL注入无需登录DBA权限(众多案例)</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138844#comment">1/2</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0138680#comment">0/3</a></th>
 					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
-				</tr>
-								<tr>
-					<th>2015-09-03</th>
-					<td><a href="/bugs/wooyun-2015-0138811">九州通GPS监控平台某漏洞致总公司及所有分公司信息可泄露(账号/终端信息/车辆实时定位/远程终端控制)</a>
-															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138811#comment">0/2</a></th>
-					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
-				</tr>
-								<tr>
-					<th>2015-09-03</th>
-					<td><a href="/bugs/wooyun-2015-0138814">青岛某银行因APP设计不当导致办公系统和内网邮箱沦陷</a>
-															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138814#comment">0/6</a></th>
-					<th><a title="高小厨" href="/whitehats/高小厨">高小厨</a></th>
-				</tr>
-								<tr>
-					<th>2015-09-03</th>
-					<td><a href="/bugs/wooyun-2015-0138684">域名商安全之东方网景员工账户体系控制不严（泄漏通讯录同事邮箱短信和通话记录\可推送短信\发传真）</a>
-															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138684#comment">7/20</a></th>
-					<th><a title="HackBraid" href="/whitehats/HackBraid">HackBr...</a></th>
-				</tr>
-								<tr>
-					<th>2015-09-03</th>
-					<td><a href="/bugs/wooyun-2015-0138745">某国际机场重要系统用户弱口令可泄漏企业隐私（涉及公司300邮箱帐号、域名权限）</a>
-															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138745#comment">3/2</a></th>
-					<th><a title="Format_smile" href="/whitehats/Format_smile">Format...</a></th>
 				</tr>
 				
 			</tbody>
 		</table>
 
-		<h3><a href="/bugs/new_confirm/">最新确认</a> <span class="itemcount">(1429)</span><a class="catrss" href="/feeds/confirm"></a></h3>
+		<h3><a href="/bugs/new_confirm/">最新确认</a> <span class="itemcount">(1398)</span><a class="catrss" href="/feeds/confirm"></a></h3>
 
 		<table class="listTable">
 			<thead>
@@ -258,52 +258,52 @@ $(function(){
 			<tbody>
 
 								<tr>
-					<th>2015-09-03</th>
-					<td><a href="/bugs/wooyun-2015-0138752">58速递某设计缺陷导致用户任意登陆(注册及未注册用户/任意用户订单/账号信息泄漏)</a>
+					<th>2015-09-02</th>
+					<td><a href="/bugs/wooyun-2015-0138616">江南农村商业银行UPS机房监控系统弱口令(可能对UPS操作关机放电)</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138752#comment">2/8</a></th>
-					<th><a title="BMa" href="/whitehats/BMa">BMa</a></th>
-				</tr>
-								<tr>
-					<th>2015-09-03</th>
-					<td><a href="/bugs/wooyun-2015-0138880">阳光保险集团某分站存在命令执行漏洞</a>
-															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138880#comment">4/3</a></th>
-					<th><a title="金枪银矛小霸王" href="/whitehats/金枪银矛小霸王">金枪银...</a></th>
-				</tr>
-								<tr>
-					<th>2015-09-03</th>
-					<td><a href="/bugs/wooyun-2015-0138850">视频网站安全之优酷土豆账户体系控制不严（交易金额信息\商家入驻佣金\内网指引信息\控制中心登陆）</a>
-															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138850#comment">4/15</a></th>
-					<th><a title="HackBraid" href="/whitehats/HackBraid">HackBr...</a></th>
-				</tr>
-								<tr>
-					<th>2015-09-01</th>
-					<td><a href="/bugs/wooyun-2015-0138431">中粮集团COFOC管理系统财务部帐号一枚（往来资金明细）</a>
-															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138431#comment">0/2</a></th>
-					<th><a title="牛 小 帅" href="/whitehats/牛 小 帅">牛 小 ...</a></th>
-				</tr>
-								<tr>
-					<th>2015-09-01</th>
-					<td><a href="/bugs/wooyun-2015-0138275">广东某车辆远程控制系统（远程定位车辆/还能发送远程命令/车主信息/设备id/设备sim卡）</a>
-															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138275#comment">0/2</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0138616#comment">1/4</a></th>
 					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
 				</tr>
 								<tr>
-					<th>2015-09-03</th>
-					<td><a href="/bugs/wooyun-2015-0138740">深圳燃气集团某网站设计缺陷导致可重置任何账户密码</a>
+					<th>2015-09-02</th>
+					<td><a href="/bugs/wooyun-2015-0138617">广东移动12580弱口令登陆可获取微信平台appid AppSecret可获取60W openid</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138740#comment">3/5</a></th>
-					<th><a title="金枪银矛小霸王" href="/whitehats/金枪银矛小霸王">金枪银...</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0138617#comment">0/4</a></th>
+					<th><a title="-路人甲-" href="/whitehats/-路人甲-">-路人...</a></th>
+				</tr>
+								<tr>
+					<th>2015-09-02</th>
+					<td><a href="/bugs/wooyun-2015-0138610">联通某积分商城无限刷积分(可兑话费\手机\流量包等)</a>
+															</td>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0138610#comment">3/5</a></th>
+					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
+				</tr>
+								<tr>
+					<th>2015-09-06</th>
+					<td><a href="/bugs/wooyun-2015-0139377">神州数码某系统getshell可内网渗透</a>
+															</td>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139377#comment">1/9</a></th>
+					<th><a title="有归于无" href="/whitehats/有归于无">有归于...</a></th>
+				</tr>
+								<tr>
+					<th>2015-09-02</th>
+					<td><a href="/bugs/wooyun-2015-0137378">BookingeCMS HotelCMS酒店预订管理系统SQL注入5枚</a>
+															</td>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0137378#comment">0/0</a></th>
+					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
+				</tr>
+								<tr>
+					<th>2015-09-02</th>
+					<td><a href="/bugs/wooyun-2015-0138560">东方网景任意密码重置（已重置华为/京东）</a>
+															</td>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0138560#comment">4/12</a></th>
+					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
 				</tr>
 				
 			</tbody>
 		</table>
 
-		<h3><a href="/bugs/new_public/">最新公开</a> <span class="itemcount">(31122)</span><a class="catrss" href="/feeds/public"></a></h3>
+		<h3><a href="/bugs/new_public/">最新公开</a> <span class="itemcount">(31246)</span><a class="catrss" href="/feeds/public"></a></h3>
 
 		<table class="listTable">
 			<thead>
@@ -317,52 +317,52 @@ $(function(){
 			<tbody>
 
 								<tr>
-					<th>2015-07-17</th>
-					<td><a href="/bugs/wooyun-2015-0127233">腾邦集团某重要系统弱口令（内部信息泄露）</a>
+					<th>2015-07-19</th>
+					<td><a href="/bugs/wooyun-2015-0127670">长城人寿某处SQL盲注+用户保险信息泄漏</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0127233#comment">0/1</a></th>
-					<th><a title="昊昊" href="/whitehats/昊昊">昊昊</a></th>
-				</tr>
-								<tr>
-					<th>2015-08-29</th>
-					<td><a href="/bugs/wooyun-2015-0137869">海信集团某漏洞可操控数千家门店/服务商（05年至今所有报表/收发货数据/库存/交易/会员）</a>
-															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0137869#comment">0/2</a></th>
-					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
-				</tr>
-								<tr>
-					<th>2015-07-20</th>
-					<td><a href="/bugs/wooyun-2015-0127914">好贷网某后台业务ActiveMQ弱口令</a>
-															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0127914#comment">4/2</a></th>
-					<th><a title="糖剩七颗" href="/whitehats/糖剩七颗">糖剩七...</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0127670#comment">0/4</a></th>
+					<th><a title="0x 80" href="/whitehats/0x 80">0x 80</a></th>
 				</tr>
 								<tr>
 					<th>2015-07-19</th>
-					<td><a href="/bugs/wooyun-2015-0127438">Avazu艾维邑动主站SQL注射全站数据库DBA权限</a>
+					<td><a href="/bugs/wooyun-2015-0127363">中国联通沃云0元购买云主机</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0127438#comment">0/6</a></th>
-					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0127363#comment">7/16</a></th>
+					<th><a title="星辰" href="/whitehats/星辰">星辰</a></th>
 				</tr>
 								<tr>
-					<th>2015-07-20</th>
-					<td><a href="/bugs/wooyun-2015-0127907">滴滴打车某漏洞信息泄漏续集</a>
+					<th>2015-07-19</th>
+					<td><a href="/bugs/wooyun-2015-0127671">四川某地工商系统出现Struts2漏洞+弱口令可导致内网各种弱口令机器（已有前人在挖流量矿石）</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0127907#comment">0/11</a></th>
-					<th><a title="刺刺" href="/whitehats/刺刺">刺刺</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0127671#comment">1/5</a></th>
+					<th><a title="DC3" href="/whitehats/DC3">DC3</a></th>
 				</tr>
 								<tr>
-					<th>2015-05-31</th>
-					<td><a href="/bugs/wooyun-2015-0117080">dedecms v5.7缓存文件导致任意代码执行（有条件）</a>
+					<th>2015-07-23</th>
+					<td><a href="/bugs/wooyun-2015-0128693">p2p之金投资xss得到cookie并打到数据</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0117080#comment">44/119</a></th>
-					<th><a title="别在说" href="/whitehats/别在说">别在说</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0128693#comment">0/2</a></th>
+					<th><a title="清清侠" href="/whitehats/清清侠">清清侠</a></th>
+				</tr>
+								<tr>
+					<th>2015-06-08</th>
+					<td><a href="/bugs/wooyun-2015-0119056">Typecho博客系统某处存储xss可以打到后台shell</a>
+															</td>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0119056#comment">2/13</a></th>
+					<th><a title="Vimaggie" href="/whitehats/Vimaggie">Vimagg...</a></th>
+				</tr>
+								<tr>
+					<th>2015-09-01</th>
+					<td><a href="/bugs/wooyun-2015-0138407">酷派某站存在SQL盲注漏洞可获取数据库信息</a>
+															</td>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0138407#comment">3/3</a></th>
+					<th><a title="大饭刚" href="/whitehats/大饭刚">大饭刚</a></th>
 				</tr>
 				
 			</tbody>
 		</table>
 
-		<h3><a href="/bugs/new_alarm/">漏洞预警</a> <span class="itemcount">(7682)</span><a class="catrss" href="/feeds/alarm"></a></h3>
+		<h3><a href="/bugs/new_alarm/">漏洞预警</a> <span class="itemcount">(7703)</span><a class="catrss" href="/feeds/alarm"></a></h3>
 
 		<table class="listTable">
 			<thead>
@@ -375,6 +375,13 @@ $(function(){
 			</thead>
 			<tbody>
 
+								<tr>
+					<th>2015-09-01</th>
+					<td><a href="/bugs/wooyun-2015-0138397">滴滴打车客户端存在重大可被安全隐患可进行远程控制或钓鱼</a>
+															</td>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0138397#comment">20/38</a></th>
+					<th><a title="Moonight" href="/whitehats/Moonight">Moonig...</a></th>
+				</tr>
 								<tr>
 					<th>2015-08-31</th>
 					<td><a href="/bugs/wooyun-2015-0138178">某山寨平安信用卡网站存在命令执行漏洞导致服务器沦陷</a>
@@ -386,43 +393,35 @@ $(function(){
 					<th>2015-08-31</th>
 					<td><a href="/bugs/wooyun-2015-0138173">携程客户端升级存在安全隐患可被替换为木马</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138173#comment">11/27</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0138173#comment">11/30</a></th>
 					<th><a title="Moonight" href="/whitehats/Moonight">Moonig...</a></th>
+				</tr>
+								<tr>
+					<th>2015-08-31</th>
+					<td><a href="/bugs/wooyun-2015-0138016">115浏览器跨协议漏洞(可造成泄漏本地文件信息)</a>
+															</td>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0138016#comment">2/4</a></th>
+					<th><a title="梧桐雨" href="/whitehats/梧桐雨">梧桐雨</a></th>
 				</tr>
 								<tr>
 					<th>2015-08-31</th>
 					<td><a href="/bugs/wooyun-2015-0137991">Discuz利用UC_KEY进行前台getshell2</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0137991#comment">26/129</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0137991#comment">27/142</a></th>
 					<th><a title="Jannock" href="/whitehats/Jannock">Jannoc...</a></th>
 				</tr>
 								<tr>
 					<th>2015-08-31</th>
 					<td><a href="/bugs/wooyun-2015-0137902">espcms最新版两处高危SQL注入漏洞附分析(遗漏未修复)</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0137902#comment">0/6</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0137902#comment">0/7</a></th>
 					<th><a title="Xser" href="/whitehats/Xser">Xser</a></th>
-				</tr>
-								<tr>
-					<th>2015-08-28</th>
-					<td><a href="/bugs/wooyun-2015-0137693">旧版本QQ中的一处打开聊天界面就能触发的远程命令执行</a>
-											<img src="/images/credit.png" alt="" class="credit">
-															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0137693#comment">45/139</a></th>
-					<th><a title="gainover" href="/whitehats/gainover">gainov...</a></th>
-				</tr>
-								<tr>
-					<th>2015-08-31</th>
-					<td><a href="/bugs/wooyun-2015-0137513">金蝶协作办公系统存在五个高危SQL注射</a>
-															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0137513#comment">0/2</a></th>
-					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
 				</tr>
 				
 			</tbody>
 		</table>
 
-		<h3><a href="/bugs/new_unclaimed/">等待认领</a> <span class="itemcount">(192)</span><a class="catrss" href="/feeds/unclaim"></a></h3>
+		<h3><a href="/bugs/new_unclaimed/">等待认领</a> <span class="itemcount">(199)</span><a class="catrss" href="/feeds/unclaim"></a></h3>
 
 		<table class="listTable">
 			<thead>
@@ -436,45 +435,46 @@ $(function(){
 			<tbody>
 
 								<tr>
-					<th>2015-09-03</th>
-					<td><a href="/bugs/wooyun-2015-0138882">上海安吉星视频会议系统未授权访问</a>
+					<th>2015-09-06</th>
+					<td><a href="/bugs/wooyun-2015-0139427">99分期信息泄露（11W分期用户+电话+身份证+银行卡+学信网账号+投资人/各种内部数据库11个）</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138882#comment">0/1</a></th>
-					<th><a title="Ysql404" href="/whitehats/Ysql404">Ysql40...</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139427#comment">1/2</a></th>
+					<th><a title="DNS" href="/whitehats/DNS">DNS</a></th>
 				</tr>
 								<tr>
-					<th>2015-09-03</th>
-					<td><a href="/bugs/wooyun-2015-0138875">P2P金融安全之太阳金服越权查看他人信息(信息泄露)</a>
+					<th>2015-09-06</th>
+					<td><a href="/bugs/wooyun-2015-0139347">智能设备安全之kisslink看我如何从一台路由器权限到所有路由器权限再到所有路由器内网</a>
+										<img src="/images/credit.png" alt="" class="credit">
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138875#comment">0/1</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139347#comment">6/26</a></th>
 					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
 				</tr>
 								<tr>
-					<th>2015-09-03</th>
-					<td><a href="/bugs/wooyun-2015-0138868">安平贷p2p网贷平台注入漏洞可登录后台影响资金安全</a>
+					<th>2015-09-06</th>
+					<td><a href="/bugs/wooyun-2015-0139319">国泰安内部账户泄露可内网（7000内部通讯录/内部资料/应聘简历/任意即时通讯比如跟总裁聊天/视频会议等）</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138868#comment">0/1</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139319#comment">0/5</a></th>
 					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
 				</tr>
 								<tr>
-					<th>2015-09-03</th>
-					<td><a href="/bugs/wooyun-2015-0138771">秘密谈APP某洞导致数十万用户敏感信息泄露</a>
+					<th>2015-09-06</th>
+					<td><a href="/bugs/wooyun-2015-0139238">数米基金网某主要功能存在存储型XSS漏洞(可劫持其他用户Cookie已证明)</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138771#comment">0/3</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139238#comment">0/2</a></th>
 					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
 				</tr>
 								<tr>
-					<th>2015-09-02</th>
-					<td><a href="/bugs/wooyun-2015-0138690">票之家主站sql注入漏洞可泄漏数百万身份证/订单/手机号/姓名等</a>
+					<th>2015-09-06</th>
+					<td><a href="/bugs/wooyun-2015-0139173">红丽缘情人网某漏洞导致38w用户敏感信息可泄露</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138690#comment">0/3</a></th>
-					<th><a title="撸撸侠" href="/whitehats/撸撸侠">撸撸侠</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139173#comment">0/6</a></th>
+					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
 				</tr>
 								<tr>
-					<th>2015-09-02</th>
-					<td><a href="/bugs/wooyun-2015-0138640">我是如何给任意肯德基用户点餐的</a>
+					<th>2015-09-05</th>
+					<td><a href="/bugs/wooyun-2015-0139143">好付通充值平台设计存在缺陷泄露客户信息</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138640#comment">3/8</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139143#comment">0/2</a></th>
 					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
 				</tr>
 				

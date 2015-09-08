@@ -80,6 +80,8 @@ def monitor(url):
                 #    f.write(url + "\n")
                 aeURLs.append(url)
                 aeLock.release()
+            #add: 2015.9.8
+            urgentMyUtils.cpFile(url)
         else:
             length, md5Str = urgentMyUtils.getLengthMd5(sourceCode)
             nuodLock.acquire()

@@ -367,10 +367,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="/research/topology/as_core_network/2014/"><img title="This visualization represents macroscopic snapshots of IPv4 and IPv6 Internet topology samples captured in January 2014. For the IPv4 map, CAIDA collected data from 74 monitors located in 33 countries on 6 continents. For the IPv6 map, CAIDA collected data from 33 Ark monitors located in 21 countries on 6 continents." alt="" height="250" width="300" src="/research/topology/as_core_network/pics/2014/ascore-2014-jan-ipv4v6-standalone-300x250.png"></a>
+<a href="/publications/papers/2009/small_blocks_complex_nets/"><img title="Visualization of the PGP network and its dK-randomizations" alt="" height="250" width="300" src="/images/dk_series-pgp_randomizations_med.png"></a>
 </div>
 <div class="captiontext">
-<a href="/research/topology/as_core_network/2014/">AS Core IPv4 + IPv6 (2014)</a>
+<a href="/publications/papers/2009/small_blocks_complex_nets/">dK-randomizations of the PGP network</a>
 </div>
 <hr>
 <div class="captiontext">
