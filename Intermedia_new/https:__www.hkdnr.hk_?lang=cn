@@ -156,7 +156,7 @@ function MM_swapImage() { //v3.0
 			</div>
 			</td>
 			<td align="left" valign="top">
-			<a href="/whois/whois.jsp?lang=cn" ><img src="images/newlayout/frontpage4/cn/home_sc_09.jpg" alt="" height="24" id="Image5" onMouseOver="MM_swapImage('Image5','','images/newlayout/frontpage4/cn/home_sc_mo_09.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+			<a href="/content.jsp?id=151&lang=cn" ><img src="images/newlayout/frontpage4/cn/home_sc_09.jpg" alt="" height="24" id="Image5" onMouseOver="MM_swapImage('Image5','','images/newlayout/frontpage4/cn/home_sc_mo_09.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
 <td align="left" valign="top" class="dropdownMenu">
 
 			<a href="javascript:;" ><img src="images/newlayout/frontpage4/cn/home_sc_10.jpg" alt="" height="24" id="Image6" onMouseOver="MM_swapImage('Image6','','images/newlayout/frontpage4/cn/home_sc_mo_10.jpg',1)" onMouseOut="MM_swapImgRestore()"></a>

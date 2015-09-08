@@ -594,7 +594,17 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
 
     except KeyError, ke:
         content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n\n".format(url, checkTime)
-        writeLog("[Quite Normal, url recovery.] lxw_KeyError", url, "")
+        #update & add: 2015.9.8
+        writeLog("Information: URL recovery. lxw_KeyError", url, "")
+        conList = diff2Str(filename, sourceCode)
+        if conList != []:
+            content += "检测到网站首页信息更新，具体差异如下:\n"
+            for item in conList:
+                content += item + "\n"
+            content += "\n"
+        else:
+            content += "网站首页无信息更新.\n\n"
+
         if url in aeURLs:
             aeLock.acquire()
             aeURLs.remove(url)
@@ -1042,6 +1052,25 @@ def recordInFile(url, sourceCode):
     filename = "./Intermedia_new/" + url
     with open(filename, "w") as f:
         f.write(sourceCode + "\n")
+
+#add: 2015.9.8
+def cpFile(url):
+    """
+    copy the url file from the ./Intermedia into ./Intermedia_new
+    This function is called when Access Error Occurred(no files in the ./Intermedia_new), the old version of the url sourcecode MUST be saved.
+    """
+    #writeLog("call cpFile()", "", "\n")
+    url = url.replace("/", "_")
+
+    filename1 = "./Intermedia/" + url
+    filename2 = "./Intermedia_new/" + url
+    with open(filename1, "r") as f1:
+        with open(filename2, "w") as f2:
+            while 1:
+                line = f1.readline()
+                if not line:
+                    break
+                f2.write(line)
 
 
 def getLengthMd5(sourceCode):

@@ -80,6 +80,8 @@ def monitor(url):
                 #    f.write(url + "\n")
                 aeURLs.append(url)
                 aeLock.release()
+            #add: 2015.9.8
+            myUtils.cpFile(url)
         else:
             length, md5Str = myUtils.getLengthMd5(sourceCode)
             nuodLock.acquire()
@@ -107,6 +109,8 @@ def monitor(url):
             aeContent += "URL: {0}\n监测时间: {1}\n监测结果:监测到网站访问故障，请查看.\n\n".format(url, checkTime)
             aeURLs.append(url)
             aeLock.release()
+        #add: 2015.9.8
+        myUtils.cpFile(url)
     else:
         length, md5Str = myUtils.getLengthMd5(sourceCode)
         nuodLock.acquire()
