@@ -202,7 +202,7 @@ $(function(){
 					<th>2015-09-08</th>
 					<td><a href="/bugs/wooyun-2015-0139721">优米网某站SQL注入一枚</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0139721#comment">0/0</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139721#comment">0/1</a></th>
 					<th><a title="小川" href="/whitehats/小川">小川</a></th>
 				</tr>
 								<tr>
@@ -268,7 +268,7 @@ $(function(){
 					<th>2015-09-08</th>
 					<td><a href="/bugs/wooyun-2015-0139667">58同城某站上传过滤不严导致getshell</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0139667#comment">0/11</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0139667#comment">0/12</a></th>
 					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
 				</tr>
 								<tr>
@@ -341,7 +341,7 @@ $(function(){
 					<th>2015-07-25</th>
 					<td><a href="/bugs/wooyun-2015-0129094">金融安全之微金数汇金融服务商服务器未授权访问致银行支付订单、转账等信息泄露</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0129094#comment">0/2</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0129094#comment">0/3</a></th>
 					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
 				</tr>
 								<tr>
@@ -379,7 +379,7 @@ $(function(){
 					<th>2015-09-03</th>
 					<td><a href="/bugs/wooyun-2015-0138719">酷开电视控制系统设计不当可在卖电视的地方推送X片</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0138719#comment">7/16</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0138719#comment">7/17</a></th>
 					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
 				</tr>
 								<tr>
