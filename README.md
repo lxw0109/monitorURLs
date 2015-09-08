@@ -157,8 +157,8 @@ REASON: the difference between the lines contains **title=""**, but the differen
 I CANNOT figure it out right now.
 Solutions:</br>
 If one url costs too much time and does not stop before the time we can wait(1 minute). We will ignore this url and kill the running thread/process.
-2. When access error occured, not diff runs.
-add diff when access error occured.
+2. When access error occured, diff did not run. This may miss some updates.
+Add diff when access error recovers.
 
 
 ###Todos:

@@ -9,7 +9,7 @@
 ps aux|grep "monitorUrgentURLs.py"|awk '{print $2}'|xargs kill
 
 #run th monitor.
-cd /home/cnnic/monitorURL
+cd /home/lxw/Templates/monitorURL
 
 #Preparation:
 #update/create the following File/Dir.
