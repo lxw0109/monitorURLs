@@ -7,7 +7,7 @@
 	<head>
 				
 		<!--// SITE TITLE //-->
-		<title>Security Advisory | Internet Systems Consortium</title>
+		<title>BIND | Internet Systems Consortium</title>
 		
 		
 		<!--// SITE META //-->
@@ -68,7 +68,6 @@
     </script>
 <link rel="alternate" type="application/rss+xml" title="Internet Systems Consortium &raquo; Feed" href="https://www.isc.org/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Internet Systems Consortium &raquo; Comments Feed" href="https://www.isc.org/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Internet Systems Consortium &raquo; Security Advisory Comments Feed" href="https://www.isc.org/downloads/software-support-policy/security-advisory/feed/" />
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.isc.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
 			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -121,8 +120,8 @@ var EM = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","locationa
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.6'></script>
-<link rel='canonical' href='https://www.isc.org/downloads/software-support-policy/security-advisory/' />
-<link rel='shortlink' href='https://www.isc.org/?p=8681' />
+<link rel='canonical' href='https://www.isc.org/downloads/bind/' />
+<link rel='shortlink' href='https://www.isc.org/?p=8201' />
 <style type="text/css">
 /*========== Web Font Styles ==========*/
 body, h6, #sidebar .widget-heading h3, #header-search input, .header-items h3.phone-number, .related-wrap h4, #comments-list > h3, .item-heading h1, .sf-button, button, input[type="submit"], input[type="reset"], input[type="button"], .wpb_accordion_section h3, #header-login input, #mobile-navigation > div, .search-form input {font-family: "Helvetica", Arial, Helvetica, Tahoma, sans-serif;}
@@ -461,7 +460,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	</head>
 	
 	<!--// OPEN BODY //-->
-	<body class="page page-id-8681 page-child parent-pageid-8373 page-template-default page-shadow responsive-fluid ">
+	<body class="page page-id-8201 page-parent page-child parent-pageid-8163 page-template-default page-shadow responsive-fluid ">
 		
 				
 		<!--// NO JS ALERT //-->
@@ -528,9 +527,9 @@ nav .menu > li {border-top-color: #e4e4e4;}
 								<a href="#" class="visible-phone show-menu">Select a page<i class="icon-angle-down"></i></a>
 								<nav id="main-navigation">
 									
-									<div class="menu-nav-menu-container"><ul id="menu-nav-menu" class="menu"><li id="menu-item-8192" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-8192 default"><a href="https://www.isc.org/downloads/">Software</a>
+									<div class="menu-nav-menu-container"><ul id="menu-nav-menu" class="menu"><li id="menu-item-8192" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-8192 default"><a href="https://www.isc.org/downloads/">Software</a>
 <ul class="sub-menu">
-	<li id="menu-item-8255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8255 default"><a href="https://www.isc.org/downloads/bind/">BIND</a>
+	<li id="menu-item-8255" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8201 current_page_item menu-item-has-children menu-item-8255 default"><a href="https://www.isc.org/downloads/bind/">BIND</a>
 	<ul class="sub-menu">
 		<li id="menu-item-10881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10881 "><a href="https://www.isc.org/downloads/bind/doc/">Documentation</a>
 		<ul class="sub-menu">
@@ -567,20 +566,20 @@ nav .menu > li {border-top-color: #e4e4e4;}
 </li>
 	<li id="menu-item-10591" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10591 default"><a href="https://www.isc.org/downloads/projects/">Affiliated Projects</a></li>
 	<li id="menu-item-8684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8684 "><a href="https://www.isc.org/downloads/software-support-policy/openpgp-key/">OpenPGP Key</a></li>
-	<li id="menu-item-8381" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-has-children menu-item-8381 "><a href="https://www.isc.org/downloads/software-support-policy/">Software Support Policy</a>
+	<li id="menu-item-8381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8381 "><a href="https://www.isc.org/downloads/software-support-policy/">Software Support Policy</a>
 	<ul class="sub-menu">
 		<li id="menu-item-8420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8420 "><a href="https://www.isc.org/downloads/software-support-policy/version-numbering/">Version Numbering</a></li>
 		<li id="menu-item-8417" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8417 "><a href="https://www.isc.org/downloads/software-support-policy/isc-license/">ISC License</a></li>
 	</ul>
 </li>
-	<li id="menu-item-8683" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8681 current_page_item menu-item-has-children menu-item-8683 "><a href="https://www.isc.org/downloads/software-support-policy/security-advisory/">Security Advisory</a>
+	<li id="menu-item-8683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8683 "><a href="https://www.isc.org/downloads/software-support-policy/security-advisory/">Security Advisory</a>
 	<ul class="sub-menu">
 		<li id="menu-item-9337" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9337"><a target="_blank" href="https://kb.isc.org/article/AA-00913/0/BIND-9-Security-Vulnerability-Matrix.html">BIND 9 Vulnerability Matrix</a></li>
 	</ul>
 </li>
 </ul>
 </li>
-<li id="menu-item-12368" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-12368 "><a href="https://www.isc.org/support/">Support</a>
+<li id="menu-item-12368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12368 "><a href="https://www.isc.org/support/">Support</a>
 <ul class="sub-menu">
 	<li id="menu-item-70217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70217 "><a href="https://www.isc.org/bind-subscription-2/">BIND Support Subscription</a></li>
 	<li id="menu-item-12374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12374 "><a href="https://www.isc.org/downloads/bind/doc/">BIND Documentation</a>
@@ -603,7 +602,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 </li>
 	<li id="menu-item-8687" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8687"><a target="_blank" href="https://kb.isc.org/">Knowledge Base</a></li>
 	<li id="menu-item-12375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12375 "><a href="https://www.isc.org/community/report-bug/">Report a Bug</a></li>
-	<li id="menu-item-12377" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8681 current_page_item menu-item-has-children menu-item-12377 "><a href="https://www.isc.org/downloads/software-support-policy/security-advisory/">Security Advisory</a>
+	<li id="menu-item-12377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12377 "><a href="https://www.isc.org/downloads/software-support-policy/security-advisory/">Security Advisory</a>
 	<ul class="sub-menu">
 		<li id="menu-item-12381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12381"><a href="https://kb.isc.org/article/AA-00913/0/BIND-9-Security-Vulnerability-Matrix.html">BIND9 Vulnerability Matrix</a></li>
 	</ul>
@@ -719,9 +718,9 @@ nav .menu > li {border-top-color: #e4e4e4;}
 								<!--// OPEN #main-navigation //-->
 								<nav id="mini-navigation">
 			
-									<div class="menu-nav-menu-container"><ul id="menu-nav-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-8192 default"><a href="https://www.isc.org/downloads/">Software</a>
+									<div class="menu-nav-menu-container"><ul id="menu-nav-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-8192 default"><a href="https://www.isc.org/downloads/">Software</a>
 <ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8255 default"><a href="https://www.isc.org/downloads/bind/">BIND</a>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8201 current_page_item menu-item-has-children menu-item-8255 default"><a href="https://www.isc.org/downloads/bind/">BIND</a>
 	<ul class="sub-menu">
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10881 "><a href="https://www.isc.org/downloads/bind/doc/">Documentation</a>
 		<ul class="sub-menu">
@@ -758,20 +757,20 @@ nav .menu > li {border-top-color: #e4e4e4;}
 </li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10591 default"><a href="https://www.isc.org/downloads/projects/">Affiliated Projects</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8684 "><a href="https://www.isc.org/downloads/software-support-policy/openpgp-key/">OpenPGP Key</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-has-children menu-item-8381 "><a href="https://www.isc.org/downloads/software-support-policy/">Software Support Policy</a>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8381 "><a href="https://www.isc.org/downloads/software-support-policy/">Software Support Policy</a>
 	<ul class="sub-menu">
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8420 "><a href="https://www.isc.org/downloads/software-support-policy/version-numbering/">Version Numbering</a></li>
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8417 "><a href="https://www.isc.org/downloads/software-support-policy/isc-license/">ISC License</a></li>
 	</ul>
 </li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8681 current_page_item menu-item-has-children menu-item-8683 "><a href="https://www.isc.org/downloads/software-support-policy/security-advisory/">Security Advisory</a>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8683 "><a href="https://www.isc.org/downloads/software-support-policy/security-advisory/">Security Advisory</a>
 	<ul class="sub-menu">
 		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9337"><a target="_blank" href="https://kb.isc.org/article/AA-00913/0/BIND-9-Security-Vulnerability-Matrix.html">BIND 9 Vulnerability Matrix</a></li>
 	</ul>
 </li>
 </ul>
 </li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-12368 "><a href="https://www.isc.org/support/">Support</a>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12368 "><a href="https://www.isc.org/support/">Support</a>
 <ul class="sub-menu">
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70217 "><a href="https://www.isc.org/bind-subscription-2/">BIND Support Subscription</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12374 "><a href="https://www.isc.org/downloads/bind/doc/">BIND Documentation</a>
@@ -794,7 +793,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 </li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8687"><a target="_blank" href="https://kb.isc.org/">Knowledge Base</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12375 "><a href="https://www.isc.org/community/report-bug/">Report a Bug</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8681 current_page_item menu-item-has-children menu-item-12377 "><a href="https://www.isc.org/downloads/software-support-policy/security-advisory/">Security Advisory</a>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12377 "><a href="https://www.isc.org/downloads/software-support-policy/security-advisory/">Security Advisory</a>
 	<ul class="sub-menu">
 		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12381"><a href="https://kb.isc.org/article/AA-00913/0/BIND-9-Security-Vulnerability-Matrix.html">BIND9 Vulnerability Matrix</a></li>
 	</ul>
@@ -900,15 +899,16 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	
 	<div class="row">
 		<div class="page-heading span12 clearfix alt-bg none">
-						<h1>Security Advisory</h1>
-								</div>
+						<h1>BIND</h1>
+									<h3>The most widely used Name Server Software</h3>
+					</div>
 	</div>
 
-<div class="breadcrumbs-wrap row"><div id="breadcrumbs" class="span12 alt-bg"><a title="Go to Internet Systems Consortium." href="https://www.isc.org" class="home">Internet Systems Consortium</a> &gt; <a title="Go to Downloads." href="https://www.isc.org/downloads/" class="post post-page">Downloads</a> &gt; <a title="Go to Software Support Policy." href="https://www.isc.org/downloads/software-support-policy/" class="post post-page">Software Support Policy</a> &gt; Security Advisory</div></div>
+
 <div class="inner-page-wrap has-no-sidebar clearfix">
 
 	<!-- OPEN page -->
-		<div class="clearfix post-8681 page type-page status-publish hentry" id="8681">
+		<div class="clearfix post-8201 page type-page status-publish hentry" id="8201">
 		
 				
 		<div class="page-content clearfix">
@@ -916,41 +916,63 @@ nav .menu > li {border-top-color: #e4e4e4;}
 	<div class="wpb_content_element span12 wpb_text_column">
 		<div class="wpb_wrapper clearfix">
 			
-<p>If you suspect you have found a security defect in <acronym title="BIND is a DNS server product produced by ISC.  BIND 9 is currently the stable production version, while BIND 10 is nearing production quality.  BIND is an acronym for Berkeley Internet Name Domain, although many incorrectly call it Berkeley Internet Name Daemon.">BIND</acronym> or DHCP, or if you wish to inquire about a security issue that you have learned about which has not yet been publicly announced, ISC encourages you to get in touch with our Security Officer by selecting the appropriate pull-down on the <a href="https://www.isc.org/community/report-bug/">Bug Report Form</a>.</p>
-<p>Alternatively, you can email us at <a href="mailto:security-officer@isc.org">security-officer@isc.org</a>.  However, plain-text e-mail is not a secure choice for communications concerning undisclosed security issues so we ask that you <b>please encrypt your communications</b> to us using the <a title="OpenPGP Key" href="/downloads/software-support-policy/openpgp-key/">ISC Security Officer public key</a>.</p>
-<p>Learn more about <strong>Security Vulnerability Disclosure Policy</strong> at <a title="Vulnerability Disclosure Policy" href="https://kb.isc.org/article/AA-00861/0" target="_blank">https://kb.isc.org/article/AA-00861/0</a></p>
-<hr />
-<h3>Reporting a Bug</h3>
-<ul>
-<li>You may report BIND or DHCP bugs, or request features by using the <a href="https://www.isc.org/community/report-bug/">Bug Report Form</a>.</li>
-</ul>
-<p>You may also use email, if you prefer:</p>
-<ul>
-<li>To report a bug in BIND, other than a security issue, please contact us via <a href="mailto:bind9-bugs@isc.org">bind9-bugs@isc.org</a></li>
-<li>To report a bug in ISC DHCP, other than a security issue, please contact us via  <a href="mailto:dhcp-bugs@isc.org">dhcp-bugs@isc.org</a></li>
-</ul>
-<p>For listing of security vulnerabilities about BIND 9, visit ISC&#8217;s Knowledge Base&#8217;s <a title="BIND 9 Vulnerabilities Matrix" href="https://kb.isc.org/article/AA-00913/0/BIND-9-Security-Vulnerability-Matrix.html" target="_blank">BIND 9 Vulnerabilities Matrix</a>.</p>
-<p>As of Oct, 2010 ISC is now using the <a href="http://nvd.nist.gov/cvss.cfm?calculator&amp;adv&amp;version=2" target="_blank">CVSS</a>, a program of first.org and NIST, to determine the severity of potential security issues.</p>
-<p>To subscribe to our Security Vulnerability RSS feed, please subscribe to <a href="https://www.isc.org/?feed=security-feed" target="_blank">https://www.isc.org/?feed=security-feed</a> <a href="https://www.isc.org/?feed=security-feed" target="_blank"><img class="alignnone  wp-image-12557" style="margin-bottom: 3px;" src="https://www.isc.org/wp-content/uploads/2013/05/rss.png" alt="ISC Security Vulnerability RSS Feed" width="15" height="15" /></a></p>
+<p>BIND is open source software that implements the Domain Name System (DNS) protocols for the Internet. It is a reference implementation of those protocols, but it is also production-grade software, suitable for use in high-volume and high-reliability applications.  The name BIND stands for &#8220;Berkeley Internet Name Domain&#8221;, because the software originated in the early 1980s at the University of California at Berkeley.</p>
+<p>BIND is by far the most widely used DNS software on the Internet, providing a robust and stable platform on top of which organizations can build distributed computing systems with the knowledge that those systems are fully compliant with published DNS standards.</p>
 
 		</div> 
 	</div> </div>
  <div class="row">
-	<div class="wpb_content_element span6 wpb_text_column">
+	<div class="wpb_content_element span4 wpb_text_column">
 		<div class="wpb_wrapper clearfix">
-			<div class="heading-wrap"><i class="icon-cog"></i><h3 class="wpb_heading">BIND</h3></div>
+			<div class="heading-wrap"><i class="icon-info-sign"></i><h3 class="wpb_heading">Links and Information</h3></div>
 			
-<div class="rssmi_wrap"><span style="color: #000000; font-weight: bold;margin: 0 0 0.8125em;">Earlier</span><div class="rss-output" style="float:"><div class="title"><span style="font-size:16px; font-weight:400;"><a class="colorbox" href="https://kb.isc.org/article/AA-01291"  style="color:">CVE-2015-5986: An incorrect boundary check can trigger a REQUIRE assertion failure in openpgpkey_61.c</a></span></div><div class="body">  CVE:  <a href="https://kb.isc.org/article/AA-01291" class="colorbox"  id="rssmi_more">[...]</a></div><span class="date" style="font-style:italic;">Wed, Aug 19, 2015</span><br /><span class="source" style="font-style:italic;">Source: BIND Security Advisory</span></div></div>
-<p style="text-align: center;"><a title="BIND 9 Security Advisories" href="https://kb.isc.org/category/74/0/10/Software-Products/BIND9/Security-Advisories/" target="_blank">[Complete List]</a></p>
+<a class="sf-button medium accent slightlyroundedarrow " href="https://www.isc.org/downloads/" target="_self"><span>Download BIND</span><span class="arrow"></span></a>
+<a class="sf-button medium accent slightlyroundedarrow " href="https://kb.isc.org/article/AA-01031" target="_blank"><span>BIND Documentation</span><span class="arrow"></span></a>
+<a class="sf-button medium orange slightlyroundedarrow " href="https://www.isc.org/?p=61892" target="_blank"><span>BIND Support Subscription</span><span class="arrow"></span></a>
+<a class="sf-button medium orange slightlyroundedarrow " href="https://www.isc.org/mission/contact/" target="_blank"><span>BIND Support Inquiry</span><span class="arrow"></span></a>
+<ul>
+<li><a href="https://deepthought.isc.org/category/109/0/10/Software-Products/BIND9/Features/" target="_blank">BIND Features</a></li>
+<li><a href="https://www.mail-archive.com/bind-users@lists.isc.org/">BIND Users List Archive</a></li>
+<li><a href="http://bikeshed.isc.org/~jreed/dnssec-guide/dnssec-guide.html" target="_blank">BIND DNSSEC Guide</a></li>
+<li><a title="Software Support Policy" href="/downloads/software-support-policy/">Software Support Policy</a></li>
+<li><a title="Version Numbering" href="/downloads/software-support-policy/version-numbering/">Explanation of Version Numbering</a></li>
+<li><a href="https://www.isc.org/downloads/software-support-policy/isc-license/" target="_blank">The ISC Software License</a></li>
+<li><a href="https://www.isc.org/community/report-bug/">Bug Report Form</a></li>
+<li><a title="ISC Security Vulnerability Disclosure Policy" href="https://kb.isc.org/article/AA-00861/164/ISC-Software-Defect-and-Security-Vulnerability-Disclosure-Policy.html" target="_blank">Security Vulnerabilty Disclosure Policy</a></li>
+<li><a title="Security Advisory" href="/downloads/software-support-policy/security-advisory">Security Advisory</a></li>
+<li><a title="bind.keys" href="/downloads/bind/bind-keys/">Current Root/DLV Trust Anchors (bind.keys)</a></li>
+<li><a href="https://www.isc.org/history-of-bind/" target="_blank">A History of BIND</a></li>
+</ul>
+<p><a href="https://scan.coverity.com/projects/15"> <img src="https://scan.coverity.com/projects/15/badge.svg" alt="Coverity Scan Build Status" /><br />
+</a></p>
 
 		</div> 
 	</div>  
-	<div class="wpb_content_element span6 wpb_text_column">
+	<div class="wpb_content_element span8 wpb_text_column">
 		<div class="wpb_wrapper clearfix">
-			<div class="heading-wrap"><i class="icon-cog"></i><h3 class="wpb_heading">ISC DHCP</h3></div>
+			<div class="heading-wrap"><h3 class="wpb_heading wpb_text_heading">BIND and DNS</h3></div>
 			
+<p>The DNS protocols are part of the core Internet standards. They specify the process by which one computer can find another computer on the basis of its name. The BIND software distribution contains all of the software necessary for asking and answering name service questions.</p>
+<p>The BIND software distribution has three parts:</p>
+<h4>1. Domain Name Resolver</h4>
+<p>A <strong>resolver</strong> is a program that resolves questions about names by sending those questions to appropriate servers and responding appropriately to the servers’ replies. In the most common application, a web browser uses a local stub resolver library on the same computer to look up names in the DNS. That stub resolver is part of the operating system. (Many operating system distributions use the BIND resolver library.) The stub resolver usually will forward queries to a caching resolver, a server or group of servers on the network dedicated to DNS services. Those resolvers will send queries to one or multiple authoritative servers in order to find the IP address for that DNS name.</p>
+<h4>2. Domain Name Authority server</h4>
+<p>An <strong>authoritative</strong> DNS server answers requests from resolvers, using information about the domain names it is authoritative for.  You can provide DNS services on the Internet by installing this software on a server and giving it information about your domain names.</p>
+<h4>3. Tools</h4>
+<p>We include a number of diagnostic and operational tools. Some of them, such as the popular DIG tool, are not specific to BIND and can be used with any DNS server.</p>
 
-<p style="text-align: center;"><a title="BIND 9 Security Advisories" href="https://kb.isc.org/category/74/0/10/Software-Products/DHCP/Security-Advisories/" target="_blank">[Complete List]</a></p>
+		</div> 
+	</div> </div>
+ <div class="row">
+	<div class="wpb_content_element span12 wpb_text_column">
+		<div class="wpb_wrapper clearfix">
+			<div class="heading-wrap"><h3 class="wpb_heading wpb_text_heading">Why Use BIND?</h3></div>
+			
+<ul>
+<li>BIND is transparent open source.  If your organization needs some functionality that is not in BIND, you can modify it, and contribute the new feature back to the the community by <a href="https://www.isc.org/git/guidelines/" target="_blank">sending us your source</a>.</li>
+<li>BIND has evolved to be a very flexible, full-featured DNS system. Whatever your application is, BIND most likely has the features required.</li>
+<li>As the first, oldest and most commonly deployed solution, there are more network engineers who are already familiar with BIND than any other system.</li>
+</ul>
 
 		</div> 
 	</div> </div>
@@ -969,7 +991,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 
 
 <!--// WordPress Hook //-->
-<p>Last modified: December 16, 2014 at 4:35 pm</p>
+<p>Last modified: September 1, 2015 at 4:19 pm</p>
 
 					
 					<!--// CLOSE #page-wrap //-->			
@@ -1047,9 +1069,7 @@ USA</p>
 
 </script>					
 		<!--// WORDPRESS FOOTER HOOK //-->
-		<script type='text/javascript'>jQuery(document).ready(function(){ jQuery('a.colorbox').colorbox({iframe:true, width:'80%', height:'80%'});jQuery('a.rssmi_youtube').colorbox({iframe:true, innerWidth:425, innerHeight:344})});</script><link rel='stylesheet' id='frontend-css'  href='http://www.isc.org/wp-content/plugins/wp-rss-multi-importer/css/frontend.css?ver=4.3' type='text/css' media='all' />
-<link rel='stylesheet' id='wprssmi_colorbox-css'  href='http://www.isc.org/wp-content/plugins/wp-rss-multi-importer/css/colorbox.css?ver=4.3' type='text/css' media='all' />
-<script type='text/javascript' src='http://www.isc.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+		<script type='text/javascript' src='http://www.isc.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var _wpcf7 = {"loaderUrl":"http:\/\/www.isc.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
@@ -1058,7 +1078,7 @@ var _wpcf7 = {"loaderUrl":"http:\/\/www.isc.org\/wp-content\/plugins\/contact-fo
 <script type='text/javascript' src='http://www.isc.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.2.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/downloads\/software-support-policy\/security-advisory\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"https:\/\/www.isc.org\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/downloads\/bind\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"https:\/\/www.isc.org\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.4.6'></script>
@@ -1066,14 +1086,14 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 <script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/downloads\/software-support-policy\/security-advisory\/?wc-ajax=%%endpoint%%"};
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/downloads\/bind\/?wc-ajax=%%endpoint%%"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.4.6'></script>
 <script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/downloads\/software-support-policy\/security-advisory\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/downloads\/bind\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='//www.isc.org/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.4.6'></script>
@@ -1094,9 +1114,6 @@ var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php",
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/js/view.min.js?auto'></script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/js/functions.js'></script>
 <script type='text/javascript' src='http://www.isc.org/wp-includes/js/comment-reply.min.js?ver=4.3'></script>
-<script type='text/javascript' src='http://www.isc.org/wp-content/plugins/wp-rss-multi-importer/scripts/show-excerpt.js?ver=4.3'></script>
-<script type='text/javascript' src='http://www.isc.org/wp-content/plugins/wp-rss-multi-importer/scripts/jquery.colorbox-min.js?ver=4.3'></script>
-<script type='text/javascript' src='http://www.isc.org/wp-content/plugins/wp-rss-multi-importer/scripts/detect-mobile.js?ver=4.3'></script>
 
 	
 	<!--// CLOSE BODY //-->

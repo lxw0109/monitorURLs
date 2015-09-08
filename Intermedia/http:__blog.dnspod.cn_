@@ -11,7 +11,7 @@
 			// P2 Configuration
 			var ajaxUrl                 = "http://blog.dnspod.cn/wp-admin/admin-ajax.php?p2ajax=true";
 			var updateRate              = "30000"; // 30 seconds
-			var nonce                   = "bbae6d7d6f";
+			var nonce                   = "f78e667341";
 			var login_url               = "http://blog.dnspod.cn/wp-login.php?redirect_to=http%3A%2F%2Fblog.dnspod.cn%2F";
 			var templateDir             = "http://blog.dnspod.cn/wp-content/themes/p2012";
 			var isFirstFrontPage        = 1;
@@ -28,7 +28,7 @@
 			var inlineEditComments      = 1;
 			var wpUrl                   = "http://blog.dnspod.cn";
 			var rssUrl                  = "";
-			var pageLoadTime            = "2015-09-07 01:10:49";
+			var pageLoadTime            = "2015-09-08 01:10:49";
 			var original_title          = document.title;
 			var commentsOnPost          = new Array;
 			var postsOnPage             = new Array;
@@ -84,7 +84,7 @@ img.emoji {
 }
 </style>
 <script type="text/javascript">
-var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=bb2cae2333"},"remote_auth":"W10= 47377c16f0a9d45001fa5c26acb4028b1245db10 1441588249"};
+var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=015b33d1e4"},"remote_auth":"W10= bca4e44927e2528a43ebc01d4081351a12044abb 1441674649"};
 duoshuoQuery.sso.login += '&redirect_to=' + encodeURIComponent(window.location.href);
 duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.href);
 </script>
@@ -92,7 +92,7 @@ duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var userSettings = {"url":"\/","uid":"0","time":"1441588248","secure":""};
+var userSettings = {"url":"\/","uid":"0","time":"1441674649","secure":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/utils.min.js?ver=4.2.4'></script>
@@ -160,7 +160,7 @@ try{convertEntities(p2txt);}catch(e){};;
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></li>
-<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1441588249019&f=1"></iframe></li>
+<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1441674649449&f=1"></iframe></li>
 <li id="categories-2" class="widget widget_categories"><h2 class="widgettitle">分类目录</h2>
 		<ul>
 	<li class="cat-item cat-item-1"><a href="http://blog.dnspod.cn/category/uncategorized/" >DNSPod动态</a> (31)
@@ -288,23 +288,23 @@ if (typeof DUOSHUO !== 'undefined')
 <h4><span style="color: #0000ff;"><b>DNS劫持影响用户体验</b></span></h4>
 <p>DNS劫持是一种通过改变指定域名在运营商侧 DNS配置的正确解析指向，将该域名的解析结果重定向到劫持IP的劫持行为。DNS劫持类型可大致分为运营商缓存，广告，恶意劫持等类别。</p>
 <p>其中运营商缓存是运营商侧为了降低跨网流量及用户访问速度进行的一种良性劫持；广告劫持是运营商或恶意团体将用户正常页面指向到广告页面或在正常页面中插入第三方广告的劫持行为；恶意劫持是指通过改变域名指向IP，将用户访问流量引到挂马，盗号等对用户有害页面的劫持。</p>
-<p><a href="https://www.dnspod.cn/?from=blog"  target="_blank"><img class=" size-full wp-image-5101 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/A-hacker-img1.jpg" alt="A-hacker-img1" width="571" height="320" /></a></p>
+<p><a href="https://www.dnspod.cn/Products/Public.DNS?from=blog"  target="_blank"><img class=" size-full wp-image-5101 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/A-hacker-img1.jpg" alt="A-hacker-img1" width="571" height="320" /></a></p>
 <p>DNS劫持攻击并不是一种新型的网络攻击手段，但却一直是全球互联网安全领域的棘手课题，这种被称为“高级黑”的攻击曾制造了“百度域名被劫持“事件以及2014年1月21日全国网络故障。</p>
 <h4><span style="color: #0000ff;"><b>Public DNS+的优势</b></span></h4>
 <p><b>一、安全零劫持</b></p>
 <p>DNSPOD不会对Public DNS+的解析结果进行劫持，让用户远离各种DNS劫持的烦恼。</p>
 <p>但在特殊情况下，为了保护我们的用户免受安全威胁，对于确定恶意域名(如病毒、木马、钓鱼网站等)的解析，我们可能会进行解析阻断，但不会对解析结果进行修改。</p>
 <p>当然，对于“不存在”的网站，Public DNS+目前也无能为力。</p>
-<p><a href="https://www.dnspod.cn/?from=blog"  target="_blank"><img class=" size-full wp-image-5102 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/4aff7849jw1evnf1448vjg20c806k42y.gif" alt="4aff7849jw1evnf1448vjg20c806k42y" width="440" height="236" /></a></p>
+<p><a href="https://www.dnspod.cn/Products/Public.DNS?from=blog"  target="_blank"><img class=" size-full wp-image-5102 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/4aff7849jw1evnf1448vjg20c806k42y.gif" alt="4aff7849jw1evnf1448vjg20c806k42y" width="440" height="236" /></a></p>
 <p><b>二、准确不丢包</b></p>
 <p>Public DNS+是目前国内唯一支持谷歌ECS(edns-client-subnet)协议的公共DNS，自动探测域名的授权DNS是否支持ECS协议。</p>
 <p>我们在香港，美国和加拿大等地都部署了后端递归节点，并将尚未部署递归节点的省份运营商线路调度到邻近省份的同运营商节点进行解析，使国内用户不必再忍受Google Public DNS的延迟和丢包，一样可以享受到最精准的解析。</p>
 <p>DNSPOD使用的IP地址库综合了多家商业及免费IP库数据(腾讯GSLB、腾讯QQ、IPIP.NET、IP2Location、MaxMind等)，并根据DNSPOD的大量用户反馈进行修正，每月更新2-3次，保证精确识别用户的请求IP，返回最准确的结果。</p>
-<p><a href="https://www.dnspod.cn/?from=blog"  target="_blank"><img class="alignnone wp-image-5103 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/publicdns1-500x282.png" alt="publicdns1" width="500" height="282" /></a></p>
+<p><a href="https://www.dnspod.cn/Products/Public.DNS?from=blog"  target="_blank"><img class="alignnone wp-image-5103 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/publicdns1-500x282.png" alt="publicdns1" width="500" height="282" /></a></p>
 <p><b>三、快速无等待</b></p>
 <p>Public DNS+在深圳、上海、天津、香港和北美部署了接入集群节点，通过BGP Anycast技术，在国内与全国Top 16运营商（电信、联通、移动、教育网、长宽、天威、铁通、电信通、歌华有线、东方有线、杭州华数、方正宽带、广东盈通、中信网络、CNISP、陕西广电）进行了对等互联，并可以无缝扩展。</p>
 <p>无论用户处于何地都可以就近快速访问DNSPOD的公共DNS，最快得到解析结果，提升网络访问体验。</p>
-<p><a href="https://www.dnspod.cn/?from=blog"  target="_blank"><img class="alignnone wp-image-5104 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/publicdns2-465x334.png" alt="publicdns2" width="465" height="334" /></a></p>
+<p><a href="https://www.dnspod.cn/Products/Public.DNS?from=blog"  target="_blank"><img class="alignnone wp-image-5104 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/publicdns2-465x334.png" alt="publicdns2" width="465" height="334" /></a></p>
 <p><b>四、稳定多容灾</b></p>
 <p>Public DNS+使用同一个服务IP 119.29.29.29，国内三地进行进群部署容灾，当某地网络出现故障时可以实现秒级自动故障切换到其他可用地区进行解析。</p>
 <p>各地接入集群都由四层负载均衡技术的多台服务器组成，可以实时剔除故障服务器，并在服务器恢复后自动加入集群提供解析服务，排除单点服务器故障可能造成的解析服务中断。</p>
@@ -313,11 +313,18 @@ if (typeof DUOSHUO !== 'undefined')
 	</div>
 
 	
+			<div class="discussion" style="display: none">
+			<p>
+				<img alt='' src='http://0.gravatar.com/avatar/cb65053e2f00724202d1cbfaf0144a94?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/cb65053e2f00724202d1cbfaf0144a94?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> 1, <img alt='' src='http://1.gravatar.com/avatar/1a2892bd439e65d2dca34727aa3729ba?s=16&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/1a2892bd439e65d2dca34727aa3729ba?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://yueqiumao.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://yueqiumao.com']);"  rel='external nofollow' class='url'>月球猫科技</a>, and <img alt='' src='http://1.gravatar.com/avatar/aac99e226ebc484a875047de2628656d?s=16&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/aac99e226ebc484a875047de2628656d?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> chijiao@gmail.com are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+			</p>
+		</div>
 	
 	<div class="bottom-of-entry">&nbsp;</div>
 
 	
 
+<ul class="commentlist inlinecomments">
+	<a href="http://blog.dnspod.cn/2015/09/%e5%85%ac%e5%85%b1dns%e6%9c%8d%e5%8a%a1public-dns%e4%bb%8a%e6%97%a5%e4%b8%8a%e7%ba%bf/#comments"><span class="ds-thread-count" data-thread-key="5100" data-replace="1">3 Comments<span class="screen-reader-text"> on 公共DNS服务Public DNS+今日上线</span></span></a></ul>
 
 			<div class="respond-wrap" style="display: none; ">
 										<div id="respond" class="comment-respond">
@@ -329,7 +336,7 @@ if (typeof DUOSHUO !== 'undefined')
 												<div class="form"><textarea id="comment" class="expand50-100" name="comment" cols="45" rows="3"></textarea></div> <label class="post-error" for="comment" id="commenttext_error"></label>						<span class="progress"><img src="http://blog.dnspod.cn/wp-content/themes/p2012/i/indicator.gif" alt="Loading..." title="Loading..." /></span>
 						<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="回复" /> <input type='hidden' name='comment_post_ID' value='5100' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="dcc48ec5bc" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="73"/></p>					</form>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="8c79e68407" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="241"/></p>					</form>
 							</div><!-- #respond -->
 				<script type="text/javascript">
 		jQuery(document).ready(function () {
@@ -367,21 +374,21 @@ if (typeof DUOSHUO !== 'undefined')
 <div id="js_content" class="rich_media_content">
 <p>国务院发话了！</p>
 <p>我们有假了！！</p>
-<p><a href="https://www.dnspod.cn/?from=blog"  target="_blank"><img class=" size-full wp-image-5089 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/image002.gif" alt="image002" width="150" height="150" /></a><br />
+<p><a href="https://www.dnspod.cn/Products/Public.DNS?from=blog"  target="_blank"><img class=" size-full wp-image-5089 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/image002.gif" alt="image002" width="150" height="150" /></a><br />
 今年是中国人民抗日战争胜利70周年</p>
 <p>也是世界反法西斯战争胜利70周年</p>
 <p>为了庆祝这个伟大而神圣的日子</p>
 <p>9月3日全国放假1天</p>
-<p><a href="https://www.dnspod.cn/?from=blog"  target="_blank"><img class=" size-full wp-image-5091 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/20144122214279852.gif" alt="20144122214279852" width="400" height="263" /></a><br />
+<p><a href="https://www.dnspod.cn/Products/Public.DNS?from=blog"  target="_blank"><img class=" size-full wp-image-5091 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/20144122214279852.gif" alt="20144122214279852" width="400" height="263" /></a><br />
 同时，人社部发消息称</p>
 <p>9月3日放假期间用人单位安排劳动者工作</p>
 <p>应支付劳动者相应工资报酬并安排补休</p>
 <p>不能安排补休的则应该支付双倍工资</p>
-<p><a href="https://www.dnspod.cn/?from=blog"  target="_blank"><img class=" size-full wp-image-5092 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/t01306cb8a5283bb2cb.jpg" alt="t01306cb8a5283bb2cb" width="300" height="327" /></a><br />
+<p><a href="https://www.dnspod.cn/Products/Public.DNS?from=blog"  target="_blank"><img class=" size-full wp-image-5092 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/t01306cb8a5283bb2cb.jpg" alt="t01306cb8a5283bb2cb" width="300" height="327" /></a><br />
 DNSPOD放假安排如下：</p>
 <p><strong><span style="color: #3366ff;">2015年9月3日至5日调休放假，共3天。</span></strong></p>
 <p><strong><span style="color: #3366ff;">其中9月3日（星期四）放假，9月4日（星期五）调休，9月6日（星期日）上班。</span></strong></p>
-<p>为了保证DNSPOD各项服务正常运行，放假期间会有销售与技术人员值班，有问题请直接登陆官网【提交工单】或致电：400-111-1234，有值班人员为您耐心解答疑问。<a href="https://www.dnspod.cn/?from=blog"  target="_blank"><img class=" wp-image-5084 size-dnspod alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/9月3日放假安排-500x278.jpg" alt="9月3日放假安排" width="500" height="278" /></a></p>
+<p>为了保证DNSPOD各项服务正常运行，放假期间会有销售与技术人员值班，有问题请直接登陆官网【提交工单】或致电：400-111-1234，有值班人员为您耐心解答疑问。<a href="https://www.dnspod.cn/Products/Public.DNS?from=blog"  target="_blank"><img class=" wp-image-5084 size-dnspod alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/9月3日放假安排-500x278.jpg" alt="9月3日放假安排" width="500" height="278" /></a></p>
 <p>注：放假期间，由于值班人员有限，可能会出现不能及时接听您的电话或回复您的消息的情况。但请您放心，值班人员会在最短的时间内回复您的问题，由此给您造成的不便，敬请谅解。</p>
 <p>再次感谢您对DNSPOD的信赖和支持！</p>
 <p>&nbsp;</p>
@@ -687,7 +694,7 @@ DNSPOD放假安排如下：</p>
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://2.gravatar.com/avatar/bcab64bf11a0e5e376bc969c0f06dc55?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/bcab64bf11a0e5e376bc969c0f06dc55?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://yaoguu.com/baike/53.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://yaoguu.com']);"  rel='external nofollow' class='url'>腰果科技</a>, and <img alt='' src='http://0.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://www.kaixin001.com/home/?uid=146975586" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.kaixin001.com']);"  rel='external nofollow' class='url'>开星</a> are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://2.gravatar.com/avatar/bcab64bf11a0e5e376bc969c0f06dc55?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/bcab64bf11a0e5e376bc969c0f06dc55?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://yaoguu.com/baike/53.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://yaoguu.com']);"  rel='external nofollow' class='url'>腰果科技</a>, and <img alt='' src='http://2.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://www.kaixin001.com/home/?uid=146975586" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.kaixin001.com']);"  rel='external nofollow' class='url'>开星</a> are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	
@@ -854,7 +861,7 @@ DNSPOD放假安排如下：</p>
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://0.gravatar.com/avatar/3565c1d5dffc3c4c71fc77c032410def?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3565c1d5dffc3c4c71fc77c032410def?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> x, <img alt='' src='http://1.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://t.qq.com/xiaocangdedian" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://t.qq.com']);"  rel='external nofollow' class='url'>小苍淘宝店</a>, <img alt='' src='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.ganggan.com/trade?=32" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.ganggan.com']);"  rel='external nofollow' class='url'>杠杆网</a> and 7 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://0.gravatar.com/avatar/3565c1d5dffc3c4c71fc77c032410def?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3565c1d5dffc3c4c71fc77c032410def?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> x, <img alt='' src='http://0.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://t.qq.com/xiaocangdedian" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://t.qq.com']);"  rel='external nofollow' class='url'>小苍淘宝店</a>, <img alt='' src='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.ganggan.com/trade?=32" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.ganggan.com']);"  rel='external nofollow' class='url'>杠杆网</a> and 7 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	

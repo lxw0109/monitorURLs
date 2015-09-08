@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-FLN99LZfsvlv8itcylWAdTwJkGctasXUr-qYOi3Y9Vg" value="form-FLN99LZfsvlv8itcylWAdTwJkGctasXUr-qYOi3Y9Vg"  />
+<input type="hidden" name="form_build_id" id="form-0M__JJH4G2H796kWC9BfwdUFRxmb837xy8kWlivlWuM" value="form-0M__JJH4G2H796kWC9BfwdUFRxmb837xy8kWlivlWuM"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-mZfsxTFhORK-IjjZm0g-bvpRWMTbkeKGbbPkNyBPCIY" value="form-mZfsxTFhORK-IjjZm0g-bvpRWMTbkeKGbbPkNyBPCIY"  />
+<input type="hidden" name="form_build_id" id="form-xIBK-DyY8an9ocN1WQBPxdbzEXAEcVRN8dUPW1yaAeQ" value="form-xIBK-DyY8an9ocN1WQBPxdbzEXAEcVRN8dUPW1yaAeQ"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,6 +171,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
+                <span class="field-content">September 7, 2015, 6:16 pm</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/07/welcome-to-apnic-40/">Welcome to APNIC 40!</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-timestamp">
                 <span class="field-content">September 4, 2015, 4:15 pm</span>
   </div>
   
@@ -178,22 +187,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="http://blog.apnic.net/2015/09/04/the-iana-stewardship-transition-what-you-need-to-know/">The IANA Stewardship Transition – what you need to know</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
                 <span class="field-content">September 4, 2015, 10:04 am</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="http://blog.apnic.net/2015/09/04/cybergreen-tackles-malware/">CyberGreen tackles malware</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-timestamp">
-                <span class="field-content">September 3, 2015, 11:30 am</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/03/what-goes-on-at-a-black-hat-conference/">What goes on at a Black Hat conference?</a></span>
   </div>
 </li>
       </ul>

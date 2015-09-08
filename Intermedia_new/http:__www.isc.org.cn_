@@ -322,7 +322,7 @@ function check()
 	<div style="height: 118px; overflow:hidden;">
     	<h1 style="overflow: hidden; margin-top:7px; width:476px;"><p style="float: left;">【要闻视点】</p>
         <div class="cmore" style=" float:right;"><a href="/zxzx/ywsd/"><img src="images/12495217.gif"></a></div>
-        <span style="margin-left: 10px; float:right;"><img src="images/02270433.gif"></span></h1>
+        </h1>
         <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-32542.html"   title="国务院印发《促进大数据发展行动纲要》" class="red">国务院印发《促进大数据发展行动纲要》</a></h1>
 	<div class="mg10">经李克强总理签批，国务院日前印发《促进大数据发展行动纲要》，系统部署大数据发展工作。... <a  href="/zxzx/ywsd/listinfo-32542.html"   title="详细" class="blue">[详细]</a></div>
 </div>
@@ -439,9 +439,9 @@ function check()
 
         <tr><td width="130" valign="top"><span><a  href="/zxzx/zfxx/listinfo-32476.html"  ><img src="/upimages/article20150817134321.jpg" class="bor" width="110" height="75" alt="工信部苗圩：推动提速降费 落实互联网+"/></a></span></td><td><div>工业和信息化部部长苗圩在2015中国互联网大会致辞时表示，今年是我国互联网跨界融合变革，加速演进升级的关键一年。...<a  href="/zxzx/zfxx/listinfo-32476.html"   title="工信部苗圩：推动提速降费 落实互联网+" class="blue">[详细]</a></div></td></tr></table>
         <ul class="newslist">
-                <li><a  href="/zxzx/zfxx/listinfo-32540.html"  " title="国务院办公厅关于印发三网融合推广方案的通知"  >国务院办公厅关于印发三网融合推广方案的通知</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32550.html"  " title="苗圩：创新是建设制造强国的核心力量"  >苗圩：创新是建设制造强国的核心力量</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32540.html"  " title="国务院办公厅关于印发三网融合推广方案的通知"  >国务院办公厅关于印发三网融合推广方案的通知</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
                 <li><a  href="/zxzx/zfxx/listinfo-32536.html"  " title="工商总局广告司长：明年将对互联网广告全面监测"  >工商总局广告司长：明年将对互联网广告全面监测</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
-                <li><a  href="/zxzx/zfxx/listinfo-32534.html"  " title="商务部等19部门出台关于加快发展农村电子商务的意见"  >商务部等19部门出台关于加快发展农村电子商务的意见</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
                 </ul>
         </div>
         <div id="zf_02"  class="hidden">
@@ -476,10 +476,10 @@ function check()
 <div id="dt_01" >
 <span class="mp"><a href="/hydt/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
+    <li><a   href="/hydt/listinfo-32551.html" title="支付宝新浪微博可查北京交通 智能停车自动扣费" >支付宝新浪微博可查北京交通 智能停车自动扣费</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-32549.html" title="近六成大学生每天用手机超5小时" >近六成大学生每天用手机超5小时</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
     <li><a   href="/hydt/listinfo-32546.html" title="浙江省依法打击网络谣言 共查处网络谣言案件281起、涉案网民313人" >浙江省依法打击网络谣言 共查处网络谣言案件281起、涉案网民</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-32539.html" title="我国2018年底前建成政府数据统一开放平台" >我国2018年底前建成政府数据统一开放平台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-32533.html" title="中韩网购海运通关系统启动" >中韩网购海运通关系统启动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a   href="/hydt/listinfo-32532.html" title="首届全国高校网络宣传思想教育优秀作品评选活动启动" >首届全国高校网络宣传思想教育优秀作品评选活动启动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a   href="/hydt/listinfo-32539.html" title="我国2018年底前建成政府数据统一开放平台" >我国2018年底前建成政府数据统一开放平台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
              
 </ul>
 </div>
@@ -498,10 +498,10 @@ function check()
 <div id="dt_03" class="hidden">
 <span class="mp"><a href="/zxzx/jsyy/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a href="/zxzx/jsyy/listinfo-32539.html"   title="我国2018年底前建成政府数据统一开放平台" >我国2018年底前建成政府数据统一开放平台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+        <li><a href="/zxzx/jsyy/listinfo-32551.html"   title="支付宝新浪微博可查北京交通 智能停车自动扣费" >支付宝新浪微博可查北京交通 智能停车自动扣费</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a href="/zxzx/jsyy/listinfo-32539.html"   title="我国2018年底前建成政府数据统一开放平台" >我国2018年底前建成政府数据统一开放平台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a href="/zxzx/jsyy/listinfo-32533.html"   title="中韩网购海运通关系统启动" >中韩网购海运通关系统启动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a href="/zxzx/jsyy/listinfo-32518.html"   title="北京警方推出微信版反诈骗平台" >北京警方推出微信版反诈骗平台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a href="/zxzx/jsyy/listinfo-32453.html"   title="北京8月推交通事故快速处理App" >北京8月推交通事故快速处理App</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
              
 </ul>
 </div>
@@ -520,10 +520,10 @@ function check()
 <div id="dt_05" class="hidden">
 <span class="mp"><a href="/zxzx/gzwm/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a  href="/zxzx/gzwm/listinfo-32529.html"  title="" >上半年人均网购378元 同比增长59.5%</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+        <li><a  href="/zxzx/gzwm/listinfo-32549.html"  title="" >近六成大学生每天用手机超5小时</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/gzwm/listinfo-32529.html"  title="" >上半年人均网购378元 同比增长59.5%</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/gzwm/listinfo-32523.html"  title="" >广州网民上网时长十年间增近10倍</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/gzwm/listinfo-32507.html"  title="" >网络安全调查： 超半数受访者乱用WIFI</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/gzwm/listinfo-32500.html"  title="" >44.3%受访者经常通过网络平台接受碎片化知识</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
        
 </ul>
 </div>  
@@ -543,10 +543,10 @@ function check()
 <div id="hy_01" >
 <span class="mp"><a href="/zxzx/hyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
+    <li><a  href="/zxzx/hyxx/listinfo-32552.html"  title="阿里巴巴与麦德龙达成独家战略合作"  >阿里巴巴与麦德龙达成独家战略合作</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
     <li><a  href="/zxzx/hyxx/listinfo-32548.html"  title="百度知道开放：推出高质问答对外合作"  >百度知道开放：推出高质问答对外合作</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
     <li><a  href="/zxzx/hyxx/listinfo-32547.html"  title="苏宁与万达签署紧密合作协议"  >苏宁与万达签署紧密合作协议</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
     <li><a  href="/zxzx/hyxx/listinfo-32545.html"  title="湖南省政府与腾讯签署战略合作协议"  >湖南省政府与腾讯签署战略合作协议</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-32541.html"  title="联合国秘书长潘基文对话李彦宏 共议全球可持续发展"  >联合国秘书长潘基文对话李彦宏 共议全球可持续发展</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
  
 </ul>
 </div>

@@ -848,6 +848,7 @@ def diff2Str_stale(filename, filenameNew):
         #Sort the result:
         #The content added shows at front, content removed follows behind.
         #return sorted(finList)
+
         return finList
 
     except IOError, e:
@@ -1058,11 +1059,13 @@ def recordInFile(url, sourceCode):
     with open(filename, "w") as f:
         f.write(sourceCode + "\n")
 
+#add: 2015.9.8
 def cpFile(url):
     """
     copy the url file from the ./urgentIntermedia into ./urgentIntermedia_new
-    This function is called when Access Error Occurred(no files in the ./urgentIntermedia_new, so the old version of the url sourcecode MUST be save, so the old version of the url sourcecode MUST be saved.
+    This function is called when Access Error Occurred(no files in the ./urgentIntermedia_new,  the old version of the url sourcecode MUST be saved.
     """
+    #writeLog("call cpFile()", "", "\n")
     url = url.replace("/", "_")
 
     filename1 = "./urgentIntermedia/" + url

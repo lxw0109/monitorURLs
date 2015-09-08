@@ -1,7 +1,7 @@
 #!/usr/bin/python2.7
 #coding:utf-8
 #如果想有中文注释就必须得有上面的语句
-#File: monitorUrgentURLs.py
+#File: monitorURLs.py
 #Author: lxw
 #Time: 2015-02-06
 #Usage: Monitor the website specified in the "urls" file.
@@ -11,7 +11,7 @@ import time
 import threading
 import datetime
 from MyThread.myThread import MyThread
-import urgentMyUtils
+import myUtils
 import sys
 import traceback
 
@@ -80,14 +80,12 @@ def monitor(url):
                 #    f.write(url + "\n")
                 aeURLs.append(url)
                 aeLock.release()
-            #add: 2015.9.8
-            urgentMyUtils.cpFile(url)
         else:
-            length, md5Str = urgentMyUtils.getLengthMd5(sourceCode)
+            length, md5Str = myUtils.getLengthMd5(sourceCode)
             nuodLock.acquire()
             newUrlObjDic[url] = URL(length, md5Str)
             nuodLock.release()
-            content = urgentMyUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic, sourceCode, aeURLs)
+            content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic, sourceCode, aeURLs)
             if content:
                 uwLock.acquire()
                 if uwCount < 2:
@@ -97,7 +95,7 @@ def monitor(url):
                 uwCount += 1
                 uwContent += content
                 uwLock.release()
-            urgentMyUtils.recordInFile(url, sourceCode)
+            myUtils.recordInFile(url, sourceCode)
     except Exception, e:
         if url not in aeURLs:
             aeLock.acquire()
@@ -109,14 +107,12 @@ def monitor(url):
             aeContent += "URL: {0}\n监测时间: {1}\n监测结果:监测到网站访问故障，请查看.\n\n".format(url, checkTime)
             aeURLs.append(url)
             aeLock.release()
-        #add: 2015.9.8
-        urgentMyUtils.cpFile(url)
     else:
-        length, md5Str = urgentMyUtils.getLengthMd5(sourceCode)
+        length, md5Str = myUtils.getLengthMd5(sourceCode)
         nuodLock.acquire()
         newUrlObjDic[url] = URL(length, md5Str)
         nuodLock.release()
-        content = urgentMyUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic, sourceCode, aeURLs)
+        content = myUtils.getEmailContent(url, length, md5Str, checkTime, oldUrlObjDic, sourceCode, aeURLs)
         if content:
             uwLock.acquire()
             if uwCount < 2:
@@ -126,7 +122,7 @@ def monitor(url):
             uwCount += 1
             uwContent += content
             uwLock.release()
-        urgentMyUtils.recordInFile(url, sourceCode)
+        myUtils.recordInFile(url, sourceCode)
 
 def process_stale(url):
     """
@@ -138,7 +134,7 @@ def process_stale(url):
     checkTime = time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time()))
     #lxw_NOTE:getEmailContent_stale() "thread safe"?
     try:
-        content = urgentMyUtils.getEmailContent_stale(url, oldUrlObjDic[url], newUrlObjDic[url])
+        content = myUtils.getEmailContent_stale(url, oldUrlObjDic[url], newUrlObjDic[url])
         if content:
             uwLock.acquire()
             if uwCount < 2:
@@ -155,7 +151,7 @@ def process_stale(url):
         string3 = ""
         string4 = "\n" + "------"*13 + "\n"
         string3 += string4
-        urgentMyUtils.writeLog(string1, string2, string3)
+        myUtils.writeLog(string1, string2, string3)
         if url in aeURLs:
             aeLock.acquire()
             aeURLs.remove(url)
@@ -166,7 +162,7 @@ def process_stale(url):
         string3 = traceback.format_exc()
         string4 = "\n" + "------"*13 + "\n"
         string3 += string4
-        urgentMyUtils.writeLog(string1, string2, string3)
+        myUtils.writeLog(string1, string2, string3)
 
 
 def main_fresh(dbOrNot):
@@ -174,7 +170,7 @@ def main_fresh(dbOrNot):
     Monitor URLs using fresh data.
     """
     # set value for oldUrlObjDic dict.
-    f = open("./urgentCriterion_new")
+    f = open("./criterion_new")
     while 1:
         string = f.readline().strip()
         if not string:
@@ -184,7 +180,7 @@ def main_fresh(dbOrNot):
         oldUrlObjDic[arr[0]] = URL(int(arr[1]), arr[2])
     f.close()
 
-    f = open("./urgentAccessErrorURLs")
+    f = open("./accessErrorURLs")
     while 1:
         string= f.readline().strip()
         if not string:
@@ -196,7 +192,7 @@ def main_fresh(dbOrNot):
     threads = []
     urlCount = 0
     # monitor each url in .urls file
-    f = open("./.urgentURLS")
+    f = open("./.urls")
     while 1:
         url = f.readline().strip()
         if not url:
@@ -217,19 +213,19 @@ def main_fresh(dbOrNot):
                 if not thread.isTimedOut():     # not "Timed Out".
                     over = False
                 else:
-                    urgentMyUtils.writeLog("lxw_Timed Out", thread.getURL(), "")
+                    myUtils.writeLog("lxw_Timed Out", thread.getURL(), "")
         if over:
             break
 
     if aeCount > 0:
         allContent = "本次共监测网站{0}个, 其中有{1}个网站访问异常, 详细信息如下:\n\n{2}".format(urlCount, aeCount, aeContent)
-        urgentMyUtils.sendEmail(aeSubject, allContent)
+        myUtils.sendEmail(aeSubject, allContent)
     if uwCount >0:
         allContent = "本次共监测网站{0}个, 其中有{1}个网站监测到有更新, 详细信息如下:\n\n{2}".format(urlCount, uwCount, uwContent)
-        urgentMyUtils.sendEmail(uwSubject, allContent)
+        myUtils.sendEmail(uwSubject, allContent)
 
     #Update Criterion file.
-    f = open("./urgentCriterion_new", "w")
+    f = open("./criterion_new", "w")
     for url in newUrlObjDic.keys():
         f.write("{0},{1},{2}\n".format(url, newUrlObjDic[url].length, newUrlObjDic[url].getMD5Str()))
     f.close()
@@ -237,10 +233,10 @@ def main_fresh(dbOrNot):
     dbOrNot = False
     if dbOrNot:
         #update criterion in database
-        urgentMyUtils.updateCriterion(newUrlObjDic)
+        myUtils.updateCriterion(newUrlObjDic)
 
     #Update accessErrorURLs file.
-    f = open("./urgentAccessErrorURLs", "w")
+    f = open("./accessErrorURLs", "w")
     for url in aeURLs:
         f.write(url + "\n")
     f.close()
@@ -252,7 +248,7 @@ def main_stale(dbOrNot):
     """
     try:
         # set value for oldUrlObjDic dict.
-        f = open("./urgentCriterion")
+        f = open("./criterion")
         while 1:
             string = f.readline().strip()
             if not string:
@@ -263,7 +259,7 @@ def main_stale(dbOrNot):
         f.close()
 
         # set value for newUrlObjDic dict.
-        f = open("./urgentCriterion_new")
+        f = open("./criterion_new")
         while 1:
             string = f.readline().strip()
             if not string:
@@ -278,14 +274,14 @@ def main_stale(dbOrNot):
         string3 = traceback.format_exc()
         string4 = "\n" + "------"*13 + "\n"
         string3 += string4
-        urgentMyUtils.writeLog(string1, string2, string3)
+        myUtils.writeLog(string1, string2, string3)
     except Exception, e:
         string1 = "lxw_Exception."
         string2 = ""
         string3 = traceback.format_exc()
         string4 = "\n" + "------"*13 + "\n"
         string3 += string4
-        urgentMyUtils.writeLog(string1, string2, string3)
+        myUtils.writeLog(string1, string2, string3)
 
     threadingNum = threading.Semaphore(THREADS_NUM)
     threads = []
@@ -301,7 +297,7 @@ def main_stale(dbOrNot):
             string3 = "Being imported as a module."
             string4 = "\n" + "------"*13 + "\n"
             string3 += string4
-            urgentMyUtils.writeLog(string1, string2, string3)
+            myUtils.writeLog(string1, string2, string3)
 
     for thread in threads:
         thread.start()
@@ -313,7 +309,7 @@ def main_stale(dbOrNot):
                 if not thread.isTimedOut():     # not "Timed Out".
                     over = False
                 else:
-                    urgentMyUtils.writeLog("lxw_Timed Out", thread.getURL(), "")
+                    myUtils.writeLog("lxw_Timed Out", thread.getURL(), "")
         if over:
             break
 
@@ -323,10 +319,10 @@ def main_stale(dbOrNot):
     urlCount = len(newUrlObjDic)
     if aeCount > 0:
         allContent = "本次共监测网站{0}个, 其中有{1}个网站访问异常, 详细信息如下:\n\n{2}".format(urlCount, aeCount, aeContent)
-        urgentMyUtils.sendEmail(aeSubject, allContent)
+        myUtils.sendEmail(aeSubject, allContent)
     if uwCount >0:
         allContent = "本次共监测网站{0}个, 其中有{1}个网站监测到有更新, 详细信息如下:\n\n{2}".format(urlCount, uwCount, uwContent)
-        urgentMyUtils.sendEmail(uwSubject, allContent)
+        myUtils.sendEmail(uwSubject, allContent)
 
 def getDbOrNot():
     try:
@@ -350,7 +346,7 @@ def getDbOrNot():
         string3 = traceback.format_exc()
         string4 = "\n" + "------"*13 + "\n"
         string3 += string4
-        urgentMyUtils.writeLog(string1, string2, string3)
+        myUtils.writeLog(string1, string2, string3)
         return False
 
 if __name__ == '__main__':
@@ -358,18 +354,18 @@ if __name__ == '__main__':
     dbOrNot = getDbOrNot()
     if len(sys.argv) < 2:
         main_fresh(dbOrNot)
-        #urgentMyUtils.writeData("len<2\t{0}\n".format(sys.argv))
+        #myUtils.writeData("len<2\t{0}\n".format(sys.argv))
     elif sys.argv[1] == "debug":
         main_stale(dbOrNot)
-        #urgentMyUtils.writeData("len>=2\tlen:{0}\t{1}\n".format(len(sys.argv), sys.argv))
+        #myUtils.writeData("len>=2\tlen:{0}\t{1}\n".format(len(sys.argv), sys.argv))
 
     end = datetime.datetime.now()
 
-    urgentMyUtils.writeData("Monitor Finished.   Monitor Time: {0}.   Time Cost: {1}'{2}\"\n{3}\n\n{3}\n".format(time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), (end-start).seconds//60, (end - start).seconds%60, "------"*13))
+    myUtils.writeData("Monitor Finished.   Monitor Time: {0}.   Time Cost: {1}'{2}\"\n{3}\n\n{3}\n".format(time.strftime("%Y-%m-%d-%H:%M:%S", time.localtime(time.time())), (end-start).seconds//60, (end - start).seconds%60, "------"*13))
 else:
     string1 = ""
     string2 = ""
     string3 = "Being imported as a module."
     string4 = "\n" + "------"*13 + "\n"
     string3 += string4
-    urgentMyUtils.writeLog(string1, string2, string3)
+    myUtils.writeLog(string1, string2, string3)
