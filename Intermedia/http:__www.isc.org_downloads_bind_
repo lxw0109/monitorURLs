@@ -927,11 +927,11 @@ nav .menu > li {border-top-color: #e4e4e4;}
 			<div class="heading-wrap"><i class="icon-info-sign"></i><h3 class="wpb_heading">Links and Information</h3></div>
 			
 <a class="sf-button medium accent slightlyroundedarrow " href="https://www.isc.org/downloads/" target="_self"><span>Download BIND</span><span class="arrow"></span></a>
-<a class="sf-button medium accent slightlyroundedarrow " href="https://kb.isc.org/article/AA-01031" target="_blank"><span>BIND Documentation</span><span class="arrow"></span></a>
+<a class="sf-button medium accent slightlyroundedarrow " href="https://kb.isc.org/article/AA-01031" target="_blank"><span>Read the Documentation</span><span class="arrow"></span></a>
 <a class="sf-button medium orange slightlyroundedarrow " href="https://www.isc.org/?p=61892" target="_blank"><span>BIND Support Subscription</span><span class="arrow"></span></a>
-<a class="sf-button medium orange slightlyroundedarrow " href="https://www.isc.org/mission/contact/" target="_blank"><span>BIND Support Inquiry</span><span class="arrow"></span></a>
+<a class="sf-button medium orange slightlyroundedarrow " href="https://www.isc.org/mission/contact/" target="_blank"><span>Inquire about Support</span><span class="arrow"></span></a>
 <ul>
-<li><a href="https://deepthought.isc.org/category/109/0/10/Software-Products/BIND9/Features/" target="_blank">BIND Features</a></li>
+<li><a href="https://www.isc.org/downloads/bind/bind-features/" target="_blank">BIND Features</a></li>
 <li><a href="https://www.mail-archive.com/bind-users@lists.isc.org/">BIND Users List Archive</a></li>
 <li><a href="http://bikeshed.isc.org/~jreed/dnssec-guide/dnssec-guide.html" target="_blank">BIND DNSSEC Guide</a></li>
 <li><a title="Software Support Policy" href="/downloads/software-support-policy/">Software Support Policy</a></li>
@@ -969,9 +969,9 @@ nav .menu > li {border-top-color: #e4e4e4;}
 			<div class="heading-wrap"><h3 class="wpb_heading wpb_text_heading">Why Use BIND?</h3></div>
 			
 <ul>
-<li>BIND is transparent open source.  If your organization needs some functionality that is not in BIND, you can modify it, and contribute the new feature back to the the community by <a href="https://www.isc.org/git/guidelines/" target="_blank">sending us your source</a>.</li>
-<li>BIND has evolved to be a very flexible, full-featured DNS system. Whatever your application is, BIND most likely has the features required.</li>
-<li>As the first, oldest and most commonly deployed solution, there are more network engineers who are already familiar with BIND than any other system.</li>
+<li>BIND is transparent <a href="https://www.isc.org/git/" target="_blank">open source</a>.  If your organization needs some functionality that is not in BIND, you can modify it, and contribute the new feature back to the the community by <a href="https://www.isc.org/git/guidelines/" target="_blank">sending us your source</a>. Download a tar ball from the <a href="https://www.isc.org/downloads/" target="_blank">ISC web site</a> or <a href="http://ftp.isc.org/isc/bind9/cur/" target="_blank">ftp.isc.org</a>, or a binary from your operating system repository.</li>
+<li>BIND has evolved to be a very flexible, full-featured DNS system. Whatever your application is, BIND most likely has the <a href="https://www.isc.org/downloads/bind/bind-features/" target="_blank">features</a> required.</li>
+<li>As the first, oldest and most commonly deployed solution, there are more network engineers who are already familiar with BIND than any other system. Help is available via our community <a href="https://lists.isc.org/mailman/listinfo/bind-users" target="_blank">mailing-list</a>, or you may <a href="https://www.isc.org/bind-subscription-2/" target="_blank">subscribe</a> for expert, confidential 7&#215;24 support from the ISC team.</li>
 </ul>
 
 		</div> 
@@ -991,7 +991,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 
 
 <!--// WordPress Hook //-->
-<p>Last modified: September 1, 2015 at 4:19 pm</p>
+<p>Last modified: September 8, 2015 at 3:29 pm</p>
 
 					
 					<!--// CLOSE #page-wrap //-->			
@@ -1100,7 +1100,7 @@ var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.js?ver=4.3'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"a688c7dea4","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
+var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"a5ba79f531","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/plugins/love-it-pro/includes/js/love-it.js'></script>

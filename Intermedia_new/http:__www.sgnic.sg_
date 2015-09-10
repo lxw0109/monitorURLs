@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-J_8xAWVZV9S35X9gzy55CQhuVzgif4eqIKK4hMtOngs" value="form-J_8xAWVZV9S35X9gzy55CQhuVzgif4eqIKK4hMtOngs"  />
+<input type="hidden" name="form_build_id" id="form-bC0J9rD3V1cIE_rvTiQgUbbdOom_e-XAy1qf8YLnjT8" value="form-bC0J9rD3V1cIE_rvTiQgUbbdOom_e-XAy1qf8YLnjT8"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-VVhrL8D9sPFFW6sIdg2kF8GlR17-4iQAlNY9sePLIEE" value="form-VVhrL8D9sPFFW6sIdg2kF8GlR17-4iQAlNY9sePLIEE"  />
+<input type="hidden" name="form_build_id" id="form-kT-Eb-XnRaH1MRnUdWqYsbW7IxljJ-gtgOmbl66At_I" value="form-kT-Eb-XnRaH1MRnUdWqYsbW7IxljJ-gtgOmbl66At_I"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -120,6 +120,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-created">
+                <span class="field-content">September 9, 2015, 9:08 am</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/sgnic-q-15005-invitation-quote-anycast-dns-service">SGNIC-Q-15005: Invitation to Quote for an Anycast DNS Service</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-created">
                 <span class="field-content">August 17, 2015, 10:53 am</span>
   </div>
   
@@ -127,22 +136,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="/news/results-july-2015-premium-domain-name-pdn-exercise">Results of July 2015 Premium Domain Name (&quot;PDN&quot;) Exercise</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-created">
                 <span class="field-content">July 24, 2015, 4:40 pm</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="/news/i-love-sg-national-day-2015-promotion">&quot;I Love .SG&quot; National Day 2015 Promotion!</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-created">
-                <span class="field-content">July 24, 2015, 4:25 pm</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/sgnic-and-registrars-celebrate-jubilee-weekend-free-sg-names">SGNIC and registrars celebrate Jubilee Weekend with free .SG names</a></span>
   </div>
 </li>
       </ul>
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 7, 2015, 6:16 pm</span>
+                <span class="field-content">September 9, 2015, 1:44 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/07/welcome-to-apnic-40/">Welcome to APNIC 40!</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/09/apnic-40-policy-sig/">APNIC 40 Policy meeting considers eligibility criteria</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 4, 2015, 4:15 pm</span>
+                <span class="field-content">September 9, 2015, 12:25 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/04/the-iana-stewardship-transition-what-you-need-to-know/">The IANA Stewardship Transition – what you need to know</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/09/isif-asia-internet-operations-research-grants/">ISIF Asia Internet Operations Research Grants</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 4, 2015, 10:04 am</span>
+                <span class="field-content">September 9, 2015, 7:17 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/04/cybergreen-tackles-malware/">CyberGreen tackles malware</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/09/visualise-your-countrys-bgp-network-with-vizas/">Visualize your country’s BGP network with vizAS</a></span>
   </div>
 </li>
       </ul>
