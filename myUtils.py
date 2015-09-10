@@ -593,7 +593,7 @@ def getEmailContent(url, length, md5Str, checkTime, urlObjDic, sourceCode, aeURL
                 content += "\n"
 
     except KeyError, ke:
-        content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n\n".format(url, checkTime)
+        content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n".format(url, checkTime)
         #update & add: 2015.9.8
         writeLog("Information: URL recovery. lxw_KeyError", url, "")
         conList = diff2Str(filename, sourceCode)
@@ -1064,14 +1064,16 @@ def cpFile(url):
 
     filename1 = "./Intermedia/" + url
     filename2 = "./Intermedia_new/" + url
-    with open(filename1, "r") as f1:
-        with open(filename2, "w") as f2:
-            while 1:
-                line = f1.readline()
-                if not line:
-                    break
-                f2.write(line)
-
+    try:
+        with open(filename1, "r") as f1:
+            with open(filename2, "w") as f2:
+                while 1:
+                    line = f1.readline()
+                    if not line:
+                        break
+                    f2.write(line)
+    except IOError as ioe:
+        writeLog("lxw_IOError", "", str(ioe))
 
 def getLengthMd5(sourceCode):
     """

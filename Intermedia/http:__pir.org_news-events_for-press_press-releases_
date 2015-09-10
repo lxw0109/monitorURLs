@@ -168,7 +168,7 @@ wfscr.type = 'text/javascript';
 wfscr.async = true;
 wfscr.src = url + '&r=' + Math.random();
 (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-})('//pir.org/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=1825B4173E759C576749EA6E2AC131C5');
+})('//pir.org/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=DFFB8254A27A1B3611469C71623F4ACF');
 </script>		
 
 <!-- Etrigue Tracking Code -->
@@ -593,7 +593,7 @@ wfscr.src = url + '&r=' + Math.random();
 					<div id="nav_menu-8" class="widget widget_nav_menu"><div class="menu-footer-3-menu-container"><ul id="menu-footer-3-menu" class="menu"><li id="menu-item-1145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1145"><a href="http://pir.org/services/">Services</a>
 <ul class="sub-menu">
 	<li id="menu-item-1409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1409"><a href="http://pir.org/services/become-a-registrar/">Become a Registrar</a></li>
-	<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://pir.org/services/become-a-reseller/">Become a Reseller</a></li>
+	<li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1410"><a href="http://pir.org/services/become-a-reseller/">Become a .org Reseller</a></li>
 	<li id="menu-item-1411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1411"><a href="http://pir.org/services/registrar-login/">Registrar Login</a></li>
 </ul>
 </li>
@@ -732,7 +732,7 @@ wfscr.src = url + '&r=' + Math.random();
 <script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/idle-timer.min.js?ver=1.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var monarchSettings = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/pir.org\/news-events\/for-press\/press-releases\/","stats_nonce":"dba4d94674","share_counts":"94347f267a","follow_counts":"c506e040a2","total_counts":"2585f3163a","media_single":"73a81e93b5","media_total":"c7e078264d","generate_all_window_nonce":"c9ae23f3e1","no_img_message":"No images available for sharing on this page"};
+var monarchSettings = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/pir.org\/news-events\/for-press\/press-releases\/","stats_nonce":"95d7cfe103","share_counts":"cee851d513","follow_counts":"8331a14953","total_counts":"e998fe235b","media_single":"1470d298e8","media_total":"9a058c67b1","generate_all_window_nonce":"aaa53f1d19","no_img_message":"No images available for sharing on this page"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/custom.js?ver=1.2'></script>

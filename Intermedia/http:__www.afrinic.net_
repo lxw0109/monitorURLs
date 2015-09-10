@@ -180,7 +180,7 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
       <!--Begin Top Left Tools-->
             <div id="topleft-mod">
         		<div class="moduletable">
-					Your  IP address is 218.241.108.65		</div>
+					Your  IP address is 218.241.104.79		</div>
 	
       </div>
             <!--End Top Left Tools-->
@@ -1131,7 +1131,7 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt55efa04bd3be8rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt55f0e4bab36e4rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1145,8 +1145,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt55efa04bd3be8"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt55efa04bd3be8rssscroller_module", options);
+					instanceId : "pgt55f0e4bab36e4"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt55f0e4bab36e4rssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);
