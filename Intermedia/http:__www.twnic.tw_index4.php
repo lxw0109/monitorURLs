@@ -130,8 +130,8 @@ MM_reloadPage(true);
               <tr> 
                 <td width="120" valign="bottom"><font class="date"><!-- 到訪人數：
     000001  -->
-    <img src='http://218.241.104.79.right.dnssectest.tw/dnssec.php' width='1' height='1'>
-<img src='http://218.241.104.79.rrsigexpire.dnssectest.tw/dnssec.php' width='1' height='1'>                  </font></td>
+    <img src='http://218.241.108.65.right.dnssectest.tw/dnssec.php' width='1' height='1'>
+<img src='http://218.241.108.65.rrsigexpire.dnssectest.tw/dnssec.php' width='1' height='1'>                  </font></td>
                 <td width="91"><a href="index2.php"><img src="img/english02.gif" width="97" height="22" border="0"></a></td>
               </tr>
             </table> 
@@ -547,9 +547,6 @@ MM_reloadPage(true);
 </tr>
 <tr align="center">
 <td><a href="http://onestop.twnic.net.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/242.gif" border="0"></a></td>
-</tr>
-<tr align="center">
-<td><a href="http://2015.iwrite.twnic.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/238.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="http://www.myhome.net.tw/timeline  " target="_blank"><img src="http://www.twnic.net.tw/brarchive/235.gif" border="0"></a></td>

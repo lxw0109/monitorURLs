@@ -11,7 +11,7 @@
 			// P2 Configuration
 			var ajaxUrl                 = "http://blog.dnspod.cn/wp-admin/admin-ajax.php?p2ajax=true";
 			var updateRate              = "30000"; // 30 seconds
-			var nonce                   = "7e034d65ad";
+			var nonce                   = "fb6963df88";
 			var login_url               = "http://blog.dnspod.cn/wp-login.php?redirect_to=http%3A%2F%2Fblog.dnspod.cn%2F";
 			var templateDir             = "http://blog.dnspod.cn/wp-content/themes/p2012";
 			var isFirstFrontPage        = 1;
@@ -28,7 +28,7 @@
 			var inlineEditComments      = 1;
 			var wpUrl                   = "http://blog.dnspod.cn";
 			var rssUrl                  = "";
-			var pageLoadTime            = "2015-09-10 02:06:01";
+			var pageLoadTime            = "2015-09-15 01:10:52";
 			var original_title          = document.title;
 			var commentsOnPost          = new Array;
 			var postsOnPage             = new Array;
@@ -84,7 +84,7 @@ img.emoji {
 }
 </style>
 <script type="text/javascript">
-var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=4cc0c92db0"},"remote_auth":"W10= 6f67043873fd7a5a3eb641ef422dbd094925eccf 1441850761"};
+var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=c95b0de359"},"remote_auth":"W10= a5cf3cc004cc48b31cfcff7d2f2afcffe695b929 1442279452"};
 duoshuoQuery.sso.login += '&redirect_to=' + encodeURIComponent(window.location.href);
 duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.href);
 </script>
@@ -92,7 +92,7 @@ duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var userSettings = {"url":"\/","uid":"0","time":"1441850761","secure":""};
+var userSettings = {"url":"\/","uid":"0","time":"1442279452","secure":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/utils.min.js?ver=4.2.4'></script>
@@ -160,7 +160,7 @@ try{convertEntities(p2txt);}catch(e){};;
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></li>
-<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1441850761613&f=1"></iframe></li>
+<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1442279452433&f=1"></iframe></li>
 <li id="categories-2" class="widget widget_categories"><h2 class="widgettitle">分类目录</h2>
 		<ul>
 	<li class="cat-item cat-item-1"><a href="http://blog.dnspod.cn/category/uncategorized/" >DNSPod动态</a> (31)
@@ -336,7 +336,7 @@ if (typeof DUOSHUO !== 'undefined')
 												<div class="form"><textarea id="comment" class="expand50-100" name="comment" cols="45" rows="3"></textarea></div> <label class="post-error" for="comment" id="commenttext_error"></label>						<span class="progress"><img src="http://blog.dnspod.cn/wp-content/themes/p2012/i/indicator.gif" alt="Loading..." title="Loading..." /></span>
 						<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="回复" /> <input type='hidden' name='comment_post_ID' value='5100' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="1993debf09" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="133"/></p>					</form>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="af5f5dc325" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="131"/></p>					</form>
 							</div><!-- #respond -->
 				<script type="text/javascript">
 		jQuery(document).ready(function () {
@@ -694,7 +694,7 @@ DNSPOD放假安排如下：</p>
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://2.gravatar.com/avatar/bcab64bf11a0e5e376bc969c0f06dc55?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/bcab64bf11a0e5e376bc969c0f06dc55?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://yaoguu.com/baike/53.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://yaoguu.com']);"  rel='external nofollow' class='url'>腰果科技</a>, and <img alt='' src='http://1.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://www.kaixin001.com/home/?uid=146975586" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.kaixin001.com']);"  rel='external nofollow' class='url'>开星</a> are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://2.gravatar.com/avatar/bcab64bf11a0e5e376bc969c0f06dc55?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/bcab64bf11a0e5e376bc969c0f06dc55?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://yaoguu.com/baike/53.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://yaoguu.com']);"  rel='external nofollow' class='url'>腰果科技</a>, and <img alt='' src='http://2.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://www.kaixin001.com/home/?uid=146975586" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.kaixin001.com']);"  rel='external nofollow' class='url'>开星</a> are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	

@@ -636,7 +636,17 @@ function MM_swapImage() { //v3.0
 <script type="text/javascript">
 
 function searchWhois(whois){
-	window.location=encodeURI("/whois/whois.jsp?whois="+whois+"&lang="+gup("lang"));
+	//window.location=encodeURI("/whois/whois.jsp?whois="+whois+"&lang="+gup("lang"));
+	var form = document.createElement("form");
+    form.setAttribute("method", "post");
+    form.setAttribute("action", "/content.jsp?id=151"+(gup("lang")!=""?("&lang="+gup("lang")):""));
+    var whoisField = document.createElement("input");
+    whoisField.setAttribute("type", "hidden");
+    whoisField.setAttribute("name", "whois");
+    whoisField.setAttribute("value", whois);
+    form.appendChild(whoisField);
+    document.body.appendChild(form);
+    form.submit();
 }
 
 </script>
