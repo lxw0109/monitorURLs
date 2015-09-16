@@ -221,7 +221,7 @@
                   							                    									 <li><a href="/en/about-afnic/presentation/afnic-assignments-strategic-priorities-2012-2015.html">AFNIC assignments &amp; strategic priorities 2012 - 2015</a></li>
                   							                    									 <li><a href="/en/about-afnic/presentation/our-values.html">Our values</a></li>
                   							                    									 <li><a href="/en/about-afnic/presentation/afnic-key-dates-3.html">AFNIC key dates</a></li>
-                  							                    									 <li><a href="/en/about-afnic/presentation/our-team-44.html">Our team</a></li>
+                  							                    									 <li><a href="/en/about-afnic/presentation/our-team-45.html">Our team</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/about-afnic/presentation/members/">Members</a></li>
                   								                    								                  							</ul>
@@ -520,7 +520,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="d4825033c89d19b88822565f41d20d82" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="e577f08ab21dfd015ec1f9b95efa7716" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -826,7 +826,7 @@
                   		                   			<span><a href="/en/about-afnic/presentation/afnic-assignments-strategic-priorities-2012-2015.html" >AFNIC assignments &amp; strategic priorities 2012 - 2015</a></span>
                   		                   			<span><a href="/en/about-afnic/presentation/our-values.html" >Our values</a></span>
                   		                   			<span><a href="/en/about-afnic/presentation/afnic-key-dates-3.html" >AFNIC key dates</a></span>
-                  		                   			<span><a href="/en/about-afnic/presentation/our-team-44.html" >Our team</a></span>
+                  		                   			<span><a href="/en/about-afnic/presentation/our-team-45.html" >Our team</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/about-afnic/organisation/">Organisation</a>

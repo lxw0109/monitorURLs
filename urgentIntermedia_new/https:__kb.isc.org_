@@ -248,7 +248,7 @@
 <div class="category">
   <div class="cat-name">
   	<a href="https://kb.isc.org/category/76/0/10/Software-Products/">Software Products</a>
-    <span>[665]</span>
+    <span>[667]</span>
   </div>
   <div class="sub-cat">
     <ol>
@@ -260,7 +260,7 @@
   <span>[1]</span>
 </li><li>
   <a href="https://kb.isc.org/category/77/0/10/Software-Products/BIND9/">BIND9</a>
-  <span>[490]</span>
+  <span>[492]</span>
 </li><li>
   <a href="https://kb.isc.org/category/78/0/10/Software-Products/DHCP/">DHCP</a>
   <span>[147]</span>
@@ -349,7 +349,7 @@
   <div class="fec-data">
     <!-- list style 3 -->
     <ol class="list-3">
-      <li><a href="https://kb.isc.org/article/AA-00366/0/Welcome-to-ISCs-Knowledge-Base.html">Welcome to ISC's Knowledge Base</a></li><li><a href="https://kb.isc.org/article/AA-00913/0/BIND-9-Security-Vulnerability-Matrix.html">BIND 9 Security Vulnerability Matrix</a></li><li><a href="https://kb.isc.org/article/AA-00340/0/What-to-do-if-your-BIND-or-DHCP-server-has-crashed.html">What to do if your BIND or DHCP server has crashed</a></li><li><a href="https://kb.isc.org/article/AA-00341/0/What-to-do-with-a-misbehaving-BIND-server.html">What to do with a misbehaving BIND server</a></li><li><a href="https://kb.isc.org/article/AA-00771/0/Which-version-of-BIND-do-I-want-to-download-and-install.html">Which version of BIND do I want to download and install?</a></li><li><a href="https://kb.isc.org/article/AA-00959/0/BIND-8-Security-Vulnerability-Matrix.html">BIND 8 Security Vulnerability Matrix</a></li><li><a href="https://kb.isc.org/article/AA-00974/0/ISC-Webinars.html">ISC Webinars</a></li><li><a href="https://kb.isc.org/article/AA-00820/0/DNSSEC-in-6-minutes.html">DNSSEC in 6 minutes!</a></li><li><a href="https://kb.isc.org/article/AA-01035/0/How-to-eliminate-specific-categories-from-a-KB-search.html">How to eliminate specific categories from a KB search</a></li><li><a href="https://kb.isc.org/article/AA-00525/0/Building-DNS-Firewalls-with-Response-Policy-Zones-RPZ.html">Building DNS Firewalls with Response Policy Zones (RPZ)</a></li>
+      <li><a href="https://kb.isc.org/article/AA-00340/0/What-to-do-if-your-BIND-or-DHCP-server-has-crashed.html">What to do if your BIND or DHCP server has crashed</a></li><li><a href="https://kb.isc.org/article/AA-00366/0/Welcome-to-ISCs-Knowledge-Base.html">Welcome to ISC's Knowledge Base</a></li><li><a href="https://kb.isc.org/article/AA-00913/0/BIND-9-Security-Vulnerability-Matrix.html">BIND 9 Security Vulnerability Matrix</a></li><li><a href="https://kb.isc.org/article/AA-00341/0/What-to-do-with-a-misbehaving-BIND-server.html">What to do with a misbehaving BIND server</a></li><li><a href="https://kb.isc.org/article/AA-00771/0/Which-version-of-BIND-do-I-want-to-download-and-install.html">Which version of BIND do I want to download and install?</a></li><li><a href="https://kb.isc.org/article/AA-00959/0/BIND-8-Security-Vulnerability-Matrix.html">BIND 8 Security Vulnerability Matrix</a></li><li><a href="https://kb.isc.org/article/AA-00974/0/ISC-Webinars.html">ISC Webinars</a></li><li><a href="https://kb.isc.org/article/AA-00820/0/DNSSEC-in-6-minutes.html">DNSSEC in 6 minutes!</a></li><li><a href="https://kb.isc.org/article/AA-01035/0/How-to-eliminate-specific-categories-from-a-KB-search.html">How to eliminate specific categories from a KB search</a></li><li><a href="https://kb.isc.org/article/AA-00525/0/Building-DNS-Firewalls-with-Response-Policy-Zones-RPZ.html">Building DNS Firewalls with Response Policy Zones (RPZ)</a></li>
     </ol>
     <!-- /list -->
   </div>
@@ -404,7 +404,7 @@
   <div class="fec-data">
     <!-- list style 3 -->
     <ol class="list-3">
-      <li> <a href="https://kb.isc.org/article/AA-01304/0/Recursive-Client-Rate-limiting-in-BIND-9.9.8-and-9.10.3-production-release.html">Recursive Client Rate limiting in BIND 9.9.8 and 9.10.3 (production release)</a> </li><li> <a href="https://kb.isc.org/article/AA-01291/0/CVE-2015-5986%3A-An-incorrect-boundary-check-can-trigger-a-REQUIRE-assertion-failure-in-openpgpkey_61.c.html">CVE-2015-5986: An incorrect boundary check can trigger a REQUIRE assertion failure in openpgpkey_61.c</a> </li><li> <a href="https://kb.isc.org/article/AA-01287/0/CVE-2015-5722%3A-Parsing-malformed-keys-may-cause-BIND-to-exit-due-to-a-failed-assertion-in-buffer.c.html">CVE-2015-5722: Parsing malformed keys may cause BIND to exit due to a failed assertion in buffer.c</a> </li><li> <a href="https://kb.isc.org/article/AA-01303/0/BIND-9.10.3rc1-Release-Notes.html">BIND 9.10.3rc1 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01302/0/BIND-9.9.8rc1-Release-Notes.html">BIND 9.9.8rc1 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01300/0/BIND-9.9.7-P3-Release-Notes.html">BIND 9.9.7-P3 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01301/0/BIND-9.10.2-P4-Release-Notes.html">BIND 9.10.2-P4 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01299/0/BIND-9.9.7-S6-Release-Notes.html">BIND 9.9.7-S6 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01297/0/DHCP-4.3.3-Release-Notes.html">DHCP 4.3.3 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01293/0/DHCP-4.1-ESV-R12-Release-Notes.html">DHCP 4.1-ESV-R12 Release Notes</a> </li>
+      <li> <a href="https://kb.isc.org/article/AA-01306/0/BIND-9.10.3-Release-Notes.html">BIND 9.10.3 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01305/0/BIND-9.9.8-Release-Notes.html">BIND 9.9.8 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01304/0/Recursive-Client-Rate-limiting-in-BIND-9.9.8-and-9.10.3-production-release.html">Recursive Client Rate limiting in BIND 9.9.8 and 9.10.3 (production release)</a> </li><li> <a href="https://kb.isc.org/article/AA-01291/0/CVE-2015-5986%3A-An-incorrect-boundary-check-can-trigger-a-REQUIRE-assertion-failure-in-openpgpkey_61.c.html">CVE-2015-5986: An incorrect boundary check can trigger a REQUIRE assertion failure in openpgpkey_61.c</a> </li><li> <a href="https://kb.isc.org/article/AA-01287/0/CVE-2015-5722%3A-Parsing-malformed-keys-may-cause-BIND-to-exit-due-to-a-failed-assertion-in-buffer.c.html">CVE-2015-5722: Parsing malformed keys may cause BIND to exit due to a failed assertion in buffer.c</a> </li><li> <a href="https://kb.isc.org/article/AA-01303/0/BIND-9.10.3rc1-Release-Notes.html">BIND 9.10.3rc1 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01302/0/BIND-9.9.8rc1-Release-Notes.html">BIND 9.9.8rc1 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01300/0/BIND-9.9.7-P3-Release-Notes.html">BIND 9.9.7-P3 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01301/0/BIND-9.10.2-P4-Release-Notes.html">BIND 9.10.2-P4 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01299/0/BIND-9.9.7-S6-Release-Notes.html">BIND 9.9.7-S6 Release Notes</a> </li>
     </ol>
     <!-- /list -->
   </div>

@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 14 September 2015 11:10:45
+  Page generated: 15 September 2015 11:10:45
 -->
 
 
@@ -308,21 +308,17 @@ $('.theme-about #header-label span').text('About APNIC');
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <a href="//training.apnic.net/events" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="eLearning - Free, one-hour classes held every Wednesday. Register now!"><img src="https://www.apnic.net/home/carousel/eLearning-website-banner-191x873-01.png" alt="eLearning - Free, one-hour classes held every Wednesday. Register now!"></a>
+      <a href="https://conference.apnic.net/40/survey" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="APNIC 40 - Take the Survey!"><img src="https://www.apnic.net/home/carousel/apnic-40-take-the-survey.jpg" alt="APNIC 40 - Take the Survey!"></a>
     </div>    <div class="item">
-      <a href="//conference.apnic.net/40" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="APNIC 40 - Save the Date!"><img src="https://www.apnic.net/home/carousel/apnic-40-save-the-date.jpg" alt="APNIC 40 - Save the Date!"></a>
+      <a href="//training.apnic.net/events" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="eLearning - Free, one-hour classes held every Wednesday. Register now!"><img src="https://www.apnic.net/home/carousel/eLearning-website-banner-191x873-01.png" alt="eLearning - Free, one-hour classes held every Wednesday. Register now!"></a>
     </div>
     <div class="item">
       <a href="//www.apnic.net/ROA" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="Create your ROA now in MyAPNIC"><img src="https://www.apnic.net/home/carousel/ROA.png" alt="Create your ROA now in MyAPNIC"></a>
-    </div>
-    <div class="item">
-      <a href="//www.apnic.net/IANAxfer" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="IANA Transition"><img src="https://www.apnic.net/__data/assets/image/0008/76526/iana-transfer-homepage-banner.png" alt="IANA Transition"></a>
     </div>
 
   </div>

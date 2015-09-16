@@ -24,10 +24,10 @@
 		<title>Cloud Delivered Enterprise Security by OpenDNS</title>
 
 	
-			<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/homepage.css?v=4df3cefbd151e260f56afe29ff92cbc3" />
+			<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/homepage.css?v=60e576957f5b7588b212fb8a0418c6f5" />
 	
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=ec65df8034a16127c9f0fd67f19c70d8"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=6b63c29408f1d300ff4c9e3cab10161e"></script>
 	<![endif]-->
 
 	<link rel='stylesheet' id='style-css'  href='https://www.opendns.com/wp-content/themes/opendns/style.css?ver=4.3' type='text/css' media='all' />
@@ -37,7 +37,7 @@
 <link rel='stylesheet' id='chosen-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/chosen.css?ver=4.3' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.3' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=dd3729ac77e864348bf5308a57994fc1">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=437d9d762ce34a88eaf5466f0aa9af3d">
 
 	<meta name="viewport" content="width=device-width">
 	
@@ -74,7 +74,7 @@ img.emoji {
 </style>
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=1cb193bc6650c2d89c00f96d7ea8c063'></script>
+<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=6839bcec0d0f5e7a4c106edbe7fe069e'></script>
 <meta name="generator" content="WordPress 4.3" />
 <script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 </head>
@@ -223,11 +223,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<a href="https://www.opendns.com/enterprise-security/threat-intelligence/">
 				<span class="icon "></span>OpenDNS Investigate</a></li><li class="contact-sales demo-request button Investigate menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="#">
-				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=33286d8e9539c781d192de52831e4c2d"></script>
+				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=d86cfe231d458ec831d70ff87ce45fa0"></script>
 		</div>
 	</header>
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=1584239ad69b6327e7cdca6320d947da"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=2b3efaf43d26af3cd06e9185215a0090"></script>
 	<![endif]-->
 	<!--
 	Start of DoubleClick Floodlight Tag: Please do not remove
@@ -508,17 +508,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Sep 11</span>
+							<span class="date">Sep 14</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://blog.opendns.com/2015/09/11/how-bad-guys-hide-online-pt-one/" title="How Bad Guys Hide Online, Part One">How Bad Guys Hide Online, Part One</a>
+							<a href="https://blog.opendns.com/2015/09/14/the-brief-september-7th-13th-2015/" title="The Brief: September 7th-13th, 2015">The Brief: September 7th-13th, 2015</a>
 						</h4>
-						<p class="author">Author: Stephen Lynch</p>
-						<div class="excerpt"><p>In part one of this two-part series, the OpenDNS Company Blog focuses on the common “bag of tricks” that criminals &hellip;<span class="overflow"> use to avoid detection online.  Infosec experts often apply the phrase “know your enemy” when discussing&hellip;</span></p>
+						<p class="author">Author: The Brief</p>
+						<div class="excerpt"><p>Two truths and a lie in this week&#8217;s Brief — McAfee 2016 is real, Ashley Madison passwords are uncrackable, and &hellip;<span class="overflow"> a one-time payment of $6,150 will definitely prevent DDoS attacks from the DD4BC group. Which is which? Find out&hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/09/11/how-bad-guys-hide-online-pt-one/" title="How Bad Guys Hide Online, Part One" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/09/14/the-brief-september-7th-13th-2015/" title="The Brief: September 7th-13th, 2015" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 								<li class="post clearfix">
@@ -530,17 +530,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Sep 9</span>
+							<span class="date">Sep 11</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://blog.opendns.com/2015/09/09/setting-up-a-global-cloud-infrastructure-in-six-easy-steps/" title="The Six Easy Steps to Set Up a Global Cloud Infrastructure">The Six Easy Steps to Set Up a Global Cloud Infrastructure</a>
+							<a href="https://blog.opendns.com/2015/09/11/how-bad-guys-hide-online-pt-one/" title="How Bad Guys Hide Online, Part One">How Bad Guys Hide Online, Part One</a>
 						</h4>
-						<p class="author">Author: Owen Lystrup</p>
-						<div class="excerpt"><p>The Internet is now synonymous with relentless growth. More Internet users are going mobile as their primary choice of access. &hellip;<span class="overflow"> Cloud infrastructure is becoming astronomically more popular among developers and operations engineers&hellip;</span></p>
+						<p class="author">Author: Stephen Lynch</p>
+						<div class="excerpt"><p>In part one of this two-part series, the OpenDNS Company Blog focuses on the common “bag of tricks” that criminals &hellip;<span class="overflow"> use to avoid detection online.  Infosec experts often apply the phrase “know your enemy” when discussing&hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/09/09/setting-up-a-global-cloud-infrastructure-in-six-easy-steps/" title="The Six Easy Steps to Set Up a Global Cloud Infrastructure" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/09/11/how-bad-guys-hide-online-pt-one/" title="How Bad Guys Hide Online, Part One" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -556,17 +556,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Sep 1</span>
+							<span class="date">Sep 14</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://labs.opendns.com/2015/09/01/the-good-the-bad-and-the-parked/" title="The Good, the Bad, and the Parked">The Good, the Bad, and the Parked</a>
+							<a href="https://labs.opendns.com/2015/09/14/phishing-spiking-and-bad-hosting/" title="Phishing, Spiking, and Bad Hosting">Phishing, Spiking, and Bad Hosting</a>
 						</h4>
-						<p class="author">Author: Anthony Kasza</p>
-						<div class="excerpt"><p>A parked domain is a domain name that has been registered and is serving temporary content, is being held for &hellip;<span class="overflow"> future use, or is being used for monetization purposes. Some parked domains serve custom 404 pages, redirects, or&hellip;</span></p>
+						<p class="author">Author: Dhia Mahjoub</p>
+						<div class="excerpt"><p>At OpenDNS Labs we have developed a number of predictive models to hunt down evil on the Internet. We have discussed in previous &hellip;<span class="overflow"> blogs and conferences our algorithms NLPRank [1][2][3], Spike detector [4][5][6], and malicious&hellip;</span></p>
 </div>
-						<a href="https://labs.opendns.com/2015/09/01/the-good-the-bad-and-the-parked/" title="The Good, the Bad, and the Parked" class="read-more">Read More &rarr;</a>
+						<a href="https://labs.opendns.com/2015/09/14/phishing-spiking-and-bad-hosting/" title="Phishing, Spiking, and Bad Hosting" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -777,10 +777,10 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=a66102170a27dbf2842aa531368f273a'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":472,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=42fd1947c3557ff95182ae8dab550a9a'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":455,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
- Served from: www.opendns.com @ 2015-09-13 18:10:52 by W3 Total Cache -->
+ Served from: www.opendns.com @ 2015-09-14 18:10:53 by W3 Total Cache -->

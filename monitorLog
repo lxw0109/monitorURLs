@@ -46,3 +46,19 @@ Monitor Finished.   Monitor Time: 2015-09-15-09:10:30.   Time Cost: 0'28"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
+lxw_IOError: 	2015-09-16-09:10:02
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOError: 	2015-09-16-09:10:05
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2015-09-16-09:10:07
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+lxw_Timed Out: http://nominum.com/press-type/release/	2015-09-16-09:11:02
+
+EMAIL SENDING: 	2015-09-16-09:11:02
+
+EMAIL SENDING SUCCESS: 	2015-09-16-09:11:17
+
+Monitor Finished.   Monitor Time: 2015-09-16-09:11:17.   Time Cost: 1'16"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------

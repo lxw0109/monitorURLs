@@ -1078,6 +1078,14 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
+<a href="https://www.ripe.net/publications/news/announcements/nro-nc-call-for-nominations-2015">
+<span class="Title">NRO NC Call for Nominations 2015</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date: 14 Sep 2015</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
 <span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
 <span class="item-details">
@@ -1090,14 +1098,6 @@
 <span class="Title">The RIPE NCC Relocates Office in 2016</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date: 07 Sep 2015</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/publications/news/announcements/ripe-ncc-receives-14-from-ianas-recovered-ipv4-pool">
-<span class="Title">RIPE NCC Receives /14 from IANA's Recovered IPv4 Pool</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date: 03 Sep 2015</span>
 </span>
 </a>
 </li>
@@ -1307,8 +1307,8 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
-<a href="https://www.nro.net/news/iana-stewardship-transition-coordination-group-icg-call-for-public-comment-on-iana-stewardship-transition-proposal" rel="nofollow">
-<span class="Title">NRO Call for Community Support of the IANA Stewardship Transition Proposal</span>
+<a href="https://www.nro.net/news/creating-an-enabling-environment-for-ipv6-adoption-survey" rel="nofollow">
+<span class="Title">Creating an Enabling Environment for IPv6 Adoption Survey</span>
 </a>
 </li>
 </ul>
