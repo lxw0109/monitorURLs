@@ -1078,26 +1078,26 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ripe-ncc-regional-meeting-in-yerevan">
+<span class="Title">RIPE NCC Regional Meeting in Yerevan</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date: 16 Sep 2015</span>
+</span>
+</a>
+</li>
+<li>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/proposal-regarding-community-based-review-committee-to-assist-rirs-in-periodic-review-of-iana-numbering-services">
+<span class="Title">Proposal Regarding IANA Review Committee Selection Process</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date: 16 Sep 2015</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
 <span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date: 15 Sep 2015</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/publications/news/announcements/nro-nc-call-for-nominations-2015">
-<span class="Title">NRO NC Call for Nominations 2015</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date: 14 Sep 2015</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/the-ripe-ncc-relocates-office-in-2016">
-<span class="Title">The RIPE NCC Relocates Office in 2016</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date: 07 Sep 2015</span>
 </span>
 </a>
 </li>
@@ -1127,15 +1127,6 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
-<a href="https://www.ripe.net/participate/meetings/calendar/ripe-ncc-regional-meeting-yerevan">
-<span class="Title">RIPE NCC Regional Meeting Yerevan</span>
-<span class="item-details">
-<span class="date nobreak byline_date">15 Sep 2015 - 16 Sep 2015</span>
-<span class="location nobreak">Yerevan, Armenia</span>
-</span>
-</a>
-</li>
-<li>
 <a href="https://www.ripe.net/participate/meetings/calendar/enog-10">
 <span class="Title">ENOG 10 / RIPE NCC Regional Meeting</span>
 <span class="item-details">
@@ -1162,6 +1153,15 @@
 </span>
 </a>
 </li>
+<li>
+<a href="https://www.ripe.net/participate/meetings/calendar/see-5-ripe-ncc-regional-meeting">
+<span class="Title">SEE 5/RIPE NCC Regional Meeting</span>
+<span class="item-details">
+<span class="date nobreak byline_date">19 Apr 2016 - 20 Apr 2016</span>
+<span class="location nobreak">Tirana, Albania</span>
+</span>
+</a>
+</li>
 </ul>
 </div>
 </div>
@@ -1175,6 +1175,15 @@
 <div class="block_content">
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
+<li>
+<a href="https://www.ripe.net/participate/meetings/calendar/ripe-ncc-regional-meeting-yerevan">
+<span class="Title">RIPE NCC Regional Meeting Yerevan</span>
+<span class="item-details">
+<span class="date nobreak byline_date">15 Sep 2015 - 16 Sep 2015</span>
+<span class="location nobreak">Yerevan, Armenia</span>
+</span>
+</a>
+</li>
 <li>
 <a href="https://www.ripe.net/participate/meetings/calendar/enog-9">
 <span class="Title">ENOG 9 / RIPE NCC Regional Meeting</span>
@@ -1190,15 +1199,6 @@
 <span class="item-details">
 <span class="date nobreak byline_date">19 May 2015 - 20 May 2015</span>
 <span class="location nobreak">Tbilisi, Georgia</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/participate/meetings/calendar/ripe-70">
-<span class="Title">RIPE 70 Amsterdam</span>
-<span class="item-details">
-<span class="date nobreak byline_date">11 May 2015 - 15 May 2015</span>
-<span class="location nobreak">Amsterdam, the Netherlands</span>
 </span>
 </a>
 </li>
@@ -1224,6 +1224,16 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
+<a href="https://labs.ripe.net/Members/stephane_bortzmeyer/checking-your-internet-connectivity-with-ripe-atlas-anchors" rel="nofollow">
+<span class="Title">Checking your Internet Connectivity with RIPE Atlas Anchors</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date:
+                              <span>14 Sep 2015</span>
+</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://labs.ripe.net/Members/emileaben/has-the-routability-of-longer-than-24-prefixes-changed" rel="nofollow">
 <span class="Title">Has the Routability of Longer-than-/24 Prefixes Changed?</span>
 <span class="item-details">
@@ -1239,16 +1249,6 @@
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
                               <span>04 Sep 2015</span>
-</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://labs.ripe.net/Members/emileaben/the-internet-in-north-korea-hanging-by-a-single-thread" rel="nofollow">
-<span class="Title">The Internet in North Korea - Hanging by a Single Thread?</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date:
-                              <span>26 Aug 2015</span>
 </span>
 </span>
 </a>

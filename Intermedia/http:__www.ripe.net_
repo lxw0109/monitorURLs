@@ -25,37 +25,37 @@
             <meta content="The RIPE NCC is one of five Regional Internet Registries (RIRs) providing Internet resource allocations, registration services and coordination activities that support the operation of the Internet globally." name="description" />
 
   
-    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/reset-cachekey-1f522d2cb8b854d2f1e84b287174f247.css" />
-    <link rel="stylesheet" type="text/css" href="https://www.ripe.net/portal_css/Ripe/collective.js.jqueryui.custom.min-cachekey-0f17a6d3e31174fc3d2a734278e3d3e0.css" />
-    <style type="text/css">@import url(https://www.ripe.net/portal_css/Ripe/ploneglossary_popup-cachekey-2109d9b223f3f3cfd034bf65582497f8.css);</style>
-    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourcecollective.js.prettify.stylesheetsprettify-cachekey-da310f4f87f61ec90a09631c231d7530.css" />
-    <style type="text/css">@import url(https://www.ripe.net/portal_css/Ripe/resourceripe.tinyurl.ripetinyurl-cachekey-8b99d21dcab978518eb1ce92cf281717.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/reset-cachekey-bb9621cf947912eb64595f0fd1859ed6.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.ripe.net/portal_css/Ripe/collective.js.jqueryui.custom.min-cachekey-5936007c8dcc14c8991829ade19a2508.css" />
+    <style type="text/css">@import url(https://www.ripe.net/portal_css/Ripe/ploneglossary_popup-cachekey-5ede1445a59b8717ea0842bc6f177de2.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourcecollective.js.prettify.stylesheetsprettify-cachekey-53be45508727d2d281bb6ddece7f90e2.css" />
+    <style type="text/css">@import url(https://www.ripe.net/portal_css/Ripe/resourceripe.tinyurl.ripetinyurl-cachekey-72666707b52e4d847e7ae125a91ecab9.css);</style>
     <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/++resource++ripe.plonetheme.stylesheets/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsbootstrap-theme.min-cachekey-d56cc101ee83381a611a2f5e8418387d.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsbootstrap-theme.min-cachekey-785ad36e055a703fffee7b37f4adb862.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/++resource++ripe.plonetheme.stylesheets/template.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsplone-components-cachekey-87eb42440df5a584878a141e8a48f8a7.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsplone-components-cachekey-50e62355fb1c67baeab4d54d3cccc9d4.css" />
         <!--[if lte IE 8]>    
     
-    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsie-template-cachekey-3039938772a37c2d26580d3c12fa2e0a.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsie-template-cachekey-5768617ebf933305d856e23584ad6866.css" />
         <![endif]-->
     
 
   
   
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceplone.app.jquery-cachekey-ef13cdbca6300b6fa4e14e036f555921.js"></script>
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/table_sorter-cachekey-3b0bf278e231c9c90dd8d1d165d66473.js"></script>
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourcedefuscate-cachekey-48e506c6203a6f6684aca16fec84eb83.js"></script>
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/collective.js.jqueryui.custom.min-cachekey-2e427989fc84361f9de830d68a9b7ca3.js"></script>
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.tinyurl.ripetinyurl-cachekey-f8e9ba3251864a34d27f7fee13ebf618.js"></script>
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptsbrowser-update-cachekey-32f2083cf01e7ea4443d21b984142cff.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceplone.app.jquery-cachekey-9a1b4332b18fbc4510353e56950b0983.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/table_sorter-cachekey-f90d8d83e3e3772373b207224d212a12.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourcedefuscate-cachekey-4691614f968383890f82daa143a673b7.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/collective.js.jqueryui.custom.min-cachekey-3316b95470231e19d813506337dcda44.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.tinyurl.ripetinyurl-cachekey-bcb97843b53b9ab8479c72036cb7faec.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptsbrowser-update-cachekey-feda1333814067a55c71a3b120418149.js"></script>
     <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/++resource++ripe.sso.javascript.sso.js"></script>
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptsbootstrap.min-cachekey-70709d7b03fb751222e8fb04257f1ff2.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptsbootstrap.min-cachekey-410e691a09e63f4fbfde0005e9c1de85.js"></script>
        <!--[if lte IE 8]>
      
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptshtml5-cachekey-82d97065ccdf8f5cc1178bfa8d53ef89.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptshtml5-cachekey-f9aa8d863f98d9bdd01cac17fa089fdf.js"></script>
        <![endif]-->
      
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptsmasonry.min-cachekey-988b12d9ade63849fe77d3e1aa3c59ea.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptsmasonry.min-cachekey-76c22744c0e0c073f070e8565428a785.js"></script>
 
 
 <title>RIPE Network Coordination Centre</title>
@@ -1078,10 +1078,18 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
-<a href="https://www.ripe.net/publications/news/announcements/nro-nc-call-for-nominations-2015">
-<span class="Title">NRO NC Call for Nominations 2015</span>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ripe-ncc-regional-meeting-in-yerevan">
+<span class="Title">RIPE NCC Regional Meeting in Yerevan</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 14 Sep 2015</span>
+<span class="date nobreak byline_date">Publication date: 16 Sep 2015</span>
+</span>
+</a>
+</li>
+<li>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/proposal-regarding-community-based-review-committee-to-assist-rirs-in-periodic-review-of-iana-numbering-services">
+<span class="Title">Proposal Regarding IANA Review Committee Selection Process</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date: 16 Sep 2015</span>
 </span>
 </a>
 </li>
@@ -1089,15 +1097,7 @@
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
 <span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 08 Sep 2015</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/the-ripe-ncc-relocates-office-in-2016">
-<span class="Title">The RIPE NCC Relocates Office in 2016</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date: 07 Sep 2015</span>
+<span class="date nobreak byline_date">Publication date: 15 Sep 2015</span>
 </span>
 </a>
 </li>
@@ -1127,15 +1127,6 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
-<a href="https://www.ripe.net/participate/meetings/calendar/ripe-ncc-regional-meeting-yerevan">
-<span class="Title">RIPE NCC Regional Meeting Yerevan</span>
-<span class="item-details">
-<span class="date nobreak byline_date">15 Sep 2015 - 16 Sep 2015</span>
-<span class="location nobreak">Yerevan, Armenia</span>
-</span>
-</a>
-</li>
-<li>
 <a href="https://www.ripe.net/participate/meetings/calendar/enog-10">
 <span class="Title">ENOG 10 / RIPE NCC Regional Meeting</span>
 <span class="item-details">
@@ -1162,6 +1153,15 @@
 </span>
 </a>
 </li>
+<li>
+<a href="https://www.ripe.net/participate/meetings/calendar/see-5-ripe-ncc-regional-meeting">
+<span class="Title">SEE 5/RIPE NCC Regional Meeting</span>
+<span class="item-details">
+<span class="date nobreak byline_date">19 Apr 2016 - 20 Apr 2016</span>
+<span class="location nobreak">Tirana, Albania</span>
+</span>
+</a>
+</li>
 </ul>
 </div>
 </div>
@@ -1175,6 +1175,15 @@
 <div class="block_content">
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
+<li>
+<a href="https://www.ripe.net/participate/meetings/calendar/ripe-ncc-regional-meeting-yerevan">
+<span class="Title">RIPE NCC Regional Meeting Yerevan</span>
+<span class="item-details">
+<span class="date nobreak byline_date">15 Sep 2015 - 16 Sep 2015</span>
+<span class="location nobreak">Yerevan, Armenia</span>
+</span>
+</a>
+</li>
 <li>
 <a href="https://www.ripe.net/participate/meetings/calendar/enog-9">
 <span class="Title">ENOG 9 / RIPE NCC Regional Meeting</span>
@@ -1190,15 +1199,6 @@
 <span class="item-details">
 <span class="date nobreak byline_date">19 May 2015 - 20 May 2015</span>
 <span class="location nobreak">Tbilisi, Georgia</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/participate/meetings/calendar/ripe-70">
-<span class="Title">RIPE 70 Amsterdam</span>
-<span class="item-details">
-<span class="date nobreak byline_date">11 May 2015 - 15 May 2015</span>
-<span class="location nobreak">Amsterdam, the Netherlands</span>
 </span>
 </a>
 </li>
@@ -1224,6 +1224,16 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
+<a href="https://labs.ripe.net/Members/stephane_bortzmeyer/checking-your-internet-connectivity-with-ripe-atlas-anchors" rel="nofollow">
+<span class="Title">Checking your Internet Connectivity with RIPE Atlas Anchors</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date:
+                              <span>14 Sep 2015</span>
+</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://labs.ripe.net/Members/emileaben/has-the-routability-of-longer-than-24-prefixes-changed" rel="nofollow">
 <span class="Title">Has the Routability of Longer-than-/24 Prefixes Changed?</span>
 <span class="item-details">
@@ -1239,16 +1249,6 @@
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
                               <span>04 Sep 2015</span>
-</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://labs.ripe.net/Members/emileaben/the-internet-in-north-korea-hanging-by-a-single-thread" rel="nofollow">
-<span class="Title">The Internet in North Korea - Hanging by a Single Thread?</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date:
-                              <span>26 Aug 2015</span>
 </span>
 </span>
 </a>

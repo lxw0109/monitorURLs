@@ -9,16 +9,16 @@
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.dns-oarc.net/blogapi/rsd" />
 <link rel="alternate" type="application/rss+xml" title="DNS-OARC RSS" href="https://www.dns-oarc.net/node/feed" />
 <link rel="shortcut icon" href="/files/oarc-favicon.ico" type="image/x-icon" />
-   <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/files/color/B7-194adb6f/style.css?6" />
+   <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/files/color/B7-194adb6f/style.css?2" />
    </head>
 <body  >
 <div id="all">
@@ -120,7 +120,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-5fr4UCMBg5Jgb576lFitVhpNbyMt9hfBw0Od9m61GYs" value="form-5fr4UCMBg5Jgb576lFitVhpNbyMt9hfBw0Od9m61GYs"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-OiR_TuLS3-T5Z5Yp2RgpVbG07H3iGlS5j5ApLItXT2I" value="form-OiR_TuLS3-T5Z5Yp2RgpVbG07H3iGlS5j5ApLItXT2I"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -137,7 +137,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-Hw9Y3Ns0-v11XRolFEYWtnO-y2V9wqDLcObEOdx6L-c" value="form-Hw9Y3Ns0-v11XRolFEYWtnO-y2V9wqDLcObEOdx6L-c"  />
+<input type="hidden" name="form_build_id" id="form--uFpSBTdtDP2fz5wbPgfDovbxJarikE9JZX22b0PlEY" value="form--uFpSBTdtDP2fz5wbPgfDovbxJarikE9JZX22b0PlEY"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -376,7 +376,7 @@ Current open positions:</p>
 <a href="https://www.jasadvisors.com">JAS Advisors</a><br/>
 <a href="http://jprs.co.jp/en/">JPRS</a><br/>
 <a href="http://www.kisa.or.kr/eng/main.jsp">KISA/KRNIC</a><br/>
-<a href="http://www.markmonitor.com">Mark Monitor</a><br/>
+<a href="http://www.markmonitor.com">MarkMonitor</a><br/>
 <a href="http://www.mindsandmachines.com">Minds+Machines</a><br/>
 <a href="http://www.nic.cl">NIC Chile</a><br/>
 <a href="http://www.nic.mx/">NIC-Mexico</a><br/>

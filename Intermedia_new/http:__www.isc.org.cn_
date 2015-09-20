@@ -16,7 +16,7 @@
 <!--顶部条开始-->
 <div class="isc_top">
     <div class="data">
-2015年09月16日 星期三
+2015年09月20日 星期天
 </div>
      <div class="email">
      <FORM method="post" name="form1" action="http://mm.263.com/login" onsubmit="return check();" target="_blank">
@@ -287,7 +287,7 @@ function check()
 	<div id="ifocus_pic">
 		<div id="ifocus_piclist" style="left:0; top:0;">
 			<ul>
-				<li><a   href="/zxzx/ywsd/listinfo-32580.html"  target="_blank"><img src="/upimages/article20150915130837.jpg" alt="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会<br />”指出：互联网将发展成一个主导现实空间的全新网络空间" /></a></li>
+				<li><a   href="/zxzx/ywsd/listinfo-32580.html"  target="_blank"><img src="/upimages/article20150915130837.jpg" alt="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会”" /></a></li>
 				<li><a  href="/zxzx/ywsd/listinfo-32574.html"  target="_blank"><img src="/upimages/article20150914173014.jpg" alt="中国互联网协会举办第七届中国网民节<br />“拥抱接力  传递温暖”大型线上活动引发强烈反响" /></a></li>
 				<li><a  href="/zxzx/ywsd/listinfo-32565.html"  target="_blank"><img src="/upimages/article20150910223635.jpg" alt="卢卫秘书长在夏季达沃斯论坛上提出：“互联网+”是融合生态环境的营造" /></a></li>
 				<li><a  href="/zxzx/ywsd/listinfo-32542.html"  target="_blank"><img src="/upimages/article20150906110021.jpg" alt="国务院印发《促进大数据发展行动纲要》" /></a></li>
@@ -297,7 +297,7 @@ function check()
 		<div id="ifocus_opdiv"></div>
 		<div id="ifocus_tx">
 			<ul>
-				<li class="current">卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会<br />”指出：互联网将发展成一个主导现实空间的全新网络空间</li>
+				<li class="current">卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会”</li>
 				<li class="normal">中国互联网协会举办第七届中国网民节<br />“拥抱接力  传递温暖”大型线上活动引发强烈反响</li>
 				<li class="normal">卢卫秘书长在夏季达沃斯论坛上提出：“互联网+”是融合生态环境的营造</li>
 				<li class="normal">国务院印发《促进大数据发展行动纲要》</li>
@@ -307,11 +307,11 @@ function check()
 	</div>
 	<div id="ifocus_btn">
 		<ul>
-			<li class="current"><img src="/upimages/article20150915130837.jpg" alt="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会<br />”指出：互联网将发展成一个主导现实空间的全新网络空间" /></li>
-			<li class="normal"><img src="/upimages/article20150914173014.jpg" alt="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会<br />”指出：互联网将发展成一个主导现实空间的全新网络空间" /></li>
-			<li class="normal"><img src="/upimages/article20150910223635.jpg" alt="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会<br />”指出：互联网将发展成一个主导现实空间的全新网络空间" /></li>
-			<li class="normal"><img src="/upimages/article20150906110021.jpg" alt="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会<br />”指出：互联网将发展成一个主导现实空间的全新网络空间" /></li>
-            <li class="normal"><img src="/upimages/article20150831144717.jpg" alt="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会<br />”指出：互联网将发展成一个主导现实空间的全新网络空间" /></li>
+			<li class="current"><img src="/upimages/article20150915130837.jpg" alt="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会”" /></li>
+			<li class="normal"><img src="/upimages/article20150914173014.jpg" alt="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会”" /></li>
+			<li class="normal"><img src="/upimages/article20150910223635.jpg" alt="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会”" /></li>
+			<li class="normal"><img src="/upimages/article20150906110021.jpg" alt="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会”" /></li>
+            <li class="normal"><img src="/upimages/article20150831144717.jpg" alt="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会”" /></li>
 		</ul>
 	</div>
 </div>
@@ -322,17 +322,17 @@ function check()
 	<div style="height: 118px; overflow:hidden;">
     	<h1 style="overflow: hidden; margin-top:7px; width:476px;"><p style="float: left;">【要闻视点】</p>
         <div class="cmore" style=" float:right;"><a href="/zxzx/ywsd/"><img src="images/12495217.gif"></a></div>
-        <span style="margin-left: 10px; float:right;"><img src="images/02270433.gif"></span></h1>
-        <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-32580.html"   title="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会<br />”指出：互联网将发展成一个主导现实空间的全新网络空间" class="red">卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会<br />”指出：互联网将发展成一个主导现实空间的全新网络空间</a></h1>
+        </h1>
+        <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-32580.html"   title="卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会”" class="red">卢卫秘书长主持中国—东盟信息港论坛“打击网络犯罪讨论会”</a></h1>
 	<div class="mg10">中国-东盟信息港论坛9月14日下午在南宁举行打击网络犯罪讨论会。中国互联网协会秘书长卢卫主持会议。... <a  href="/zxzx/ywsd/listinfo-32580.html"   title="详细" class="blue">[详细]</a></div>
 </div>
 <h2><span>协会动态</span><a href="/zxzx/xhdt/" title="更多" class="blue"><img src="images/12495217.gif" /></a></h2>
 <ul class="newslist">
-     <li><a  href="/zxzx/xhdt/listinfo-32581.html" title="卢卫秘书长出席中国—东盟信息港论坛并在“跨境电子商务发展讨论会”上发言" >卢卫秘书长出席中国—东盟信息港论坛并在“跨境电子商务发展讨论</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                     
+     <li><a  href="/zxzx/xhdt/listinfo-32590.html" title="“创客中国—寻找最具投资价值创业项目”招募会启动" >“创客中国—寻找最具投资价值创业项目”招募会启动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
+     <li><a  href="/zxzx/xhdt/listinfo-32581.html" title="卢卫秘书长出席中国—东盟信息港论坛并在“跨境电子商务发展讨论会”上发言" >卢卫秘书长出席中国—东盟信息港论坛并在“跨境电子商务发展讨论</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
      <li><a  href="/zxzx/xhdt/listinfo-32526.html" title="2015年全国网站备案管理工作会议在大连成功召开" >2015年全国网站备案管理工作会议在大连成功召开</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
      <li><a  href="/zxzx/xhdt/listinfo-32424.html" title="互联网网络安全威胁治理行动在京启动" >互联网网络安全威胁治理行动在京启动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
      <li><a  href="/zxzx/xhdt/listinfo-32422.html" title="中国互联网电子数据研究院揭牌成立" >中国互联网电子数据研究院揭牌成立</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
-     <li><a  href="/zxzx/xhdt/listinfo-32399.html" title="2015中国网络安全论坛成功召开" >2015中国网络安全论坛成功召开</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                     
    
 </ul>
 </div>
@@ -439,9 +439,9 @@ function check()
 
         <tr><td width="130" valign="top"><span><a  href="/zxzx/zfxx/listinfo-32476.html"  ><img src="/upimages/article20150817134321.jpg" class="bor" width="110" height="75" alt="工信部苗圩：推动提速降费 落实互联网+"/></a></span></td><td><div>工业和信息化部部长苗圩在2015中国互联网大会致辞时表示，今年是我国互联网跨界融合变革，加速演进升级的关键一年。...<a  href="/zxzx/zfxx/listinfo-32476.html"   title="工信部苗圩：推动提速降费 落实互联网+" class="blue">[详细]</a></div></td></tr></table>
         <ul class="newslist">
+                <li><a  href="/zxzx/zfxx/listinfo-32592.html"  " title="李克强：部署建设大众创业万众创新支撑平台"  >李克强：部署建设大众创业万众创新支撑平台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32583.html"  " title="怀进鹏出席“部省两化深度融合国家示范区建设暨‘基于宽带移动互联网的智能汽车、智慧交通应用示范’工作专题座谈会”并讲话"  >怀进鹏出席“部省两化深度融合国家示范区建设暨‘基于宽带移动互联网的智能汽车、智慧交通应用示范’工作专题座谈会”并讲话</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
                 <li><a  href="/zxzx/zfxx/listinfo-32561.html"  " title="张峰出席2015年中国国际信息通信展览会新闻发布会"  >张峰出席2015年中国国际信息通信展览会新闻发布会</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
-                <li><a  href="/zxzx/zfxx/listinfo-32555.html"  " title="商务部：O2O是零售业发展趋势"  >商务部：O2O是零售业发展趋势</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
-                <li><a  href="/zxzx/zfxx/listinfo-32550.html"  " title="苗圩：创新是建设制造强国的核心力量"  >苗圩：创新是建设制造强国的核心力量</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
                 </ul>
         </div>
         <div id="zf_02"  class="hidden">
@@ -476,10 +476,10 @@ function check()
 <div id="dt_01" >
 <span class="mp"><a href="/hydt/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a   href="/hydt/listinfo-32578.html" title="河南省政府常务会议研究通过“互联网+”行动实施方案" >河南省政府常务会议研究通过“互联网+”行动实施方案</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-32577.html" title="工商总局：十一起电商促销禁限定退货条件" >工商总局：十一起电商促销禁限定退货条件</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-32575.html" title="工商总局明年起监测互联网广告" >工商总局明年起监测互联网广告</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a   href="/hydt/listinfo-32573.html" title="国家计算机病毒中心:监测发现新的安卓手机病毒" >国家计算机病毒中心:监测发现新的安卓手机病毒</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-32594.html" title="钓鱼岛网增日语等5种外国语言" >钓鱼岛网增日语等5种外国语言</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a   href="/hydt/listinfo-32588.html" title="内地与香港互联网代表人士交流会在京举行" >内地与香港互联网代表人士交流会在京举行</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a   href="/hydt/listinfo-32585.html" title="公安部：超9成诈骗钓鱼及赌博网站服务器在境外" >公安部：超9成诈骗钓鱼及赌博网站服务器在境外</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a   href="/hydt/listinfo-32582.html" title="物联网感智创新大赛在京启动" >物联网感智创新大赛在京启动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
              
 </ul>
 </div>
@@ -487,10 +487,10 @@ function check()
 <div id="dt_02" class="hidden">
 <span class="mp"><a href="/zxzx/hlwzl/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-       <li><a    href="/zxzx/hlwzl/listinfo-32577.html"  title="工商总局：十一起电商促销禁限定退货条件" >工商总局：十一起电商促销禁限定退货条件</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a    href="/zxzx/hlwzl/listinfo-32575.html"  title="工商总局明年起监测互联网广告" >工商总局明年起监测互联网广告</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a    href="/zxzx/hlwzl/listinfo-32573.html"  title="国家计算机病毒中心:监测发现新的安卓手机病毒" >国家计算机病毒中心:监测发现新的安卓手机病毒</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a    href="/zxzx/hlwzl/listinfo-32546.html"  title="浙江省依法打击网络谣言 共查处网络谣言案件281起、涉案网民313人" >浙江省依法打击网络谣言 共查处网络谣言案件281起、涉案网民</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+       <li><a    href="/zxzx/hlwzl/listinfo-32585.html"  title="公安部：超9成诈骗钓鱼及赌博网站服务器在境外" >公安部：超9成诈骗钓鱼及赌博网站服务器在境外</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a    href="/zxzx/hlwzl/listinfo-32577.html"  title="工商总局：十一起电商促销禁限定退货条件" >工商总局：十一起电商促销禁限定退货条件</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a    href="/zxzx/hlwzl/listinfo-32575.html"  title="工商总局明年起监测互联网广告" >工商总局明年起监测互联网广告</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a    href="/zxzx/hlwzl/listinfo-32573.html"  title="国家计算机病毒中心:监测发现新的安卓手机病毒" >国家计算机病毒中心:监测发现新的安卓手机病毒</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
                   
 </ul>
 </div>
@@ -498,10 +498,10 @@ function check()
 <div id="dt_03" class="hidden">
 <span class="mp"><a href="/zxzx/jsyy/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a href="/zxzx/jsyy/listinfo-32568.html"   title="我国将加快全国12315互联网平台建设" >我国将加快全国12315互联网平台建设</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+        <li><a href="/zxzx/jsyy/listinfo-32594.html"   title="钓鱼岛网增日语等5种外国语言" >钓鱼岛网增日语等5种外国语言</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a href="/zxzx/jsyy/listinfo-32568.html"   title="我国将加快全国12315互联网平台建设" >我国将加快全国12315互联网平台建设</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a href="/zxzx/jsyy/listinfo-32551.html"   title="支付宝新浪微博可查北京交通 智能停车自动扣费" >支付宝新浪微博可查北京交通 智能停车自动扣费</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a href="/zxzx/jsyy/listinfo-32539.html"   title="我国2018年底前建成政府数据统一开放平台" >我国2018年底前建成政府数据统一开放平台</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a href="/zxzx/jsyy/listinfo-32533.html"   title="中韩网购海运通关系统启动" >中韩网购海运通关系统启动</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
              
 </ul>
 </div>
@@ -509,10 +509,10 @@ function check()
 <div id="dt_04" class="hidden">
 <span class="mp"><a href="/zxzx/qyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a  href="/zxzx/qyxx/listinfo-32578.html"  title="河南省政府常务会议研究通过“互联网+”行动实施方案" >河南省政府常务会议研究通过“互联网+”行动实施方案</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/qyxx/listinfo-32571.html"  title="物联网智能化应用与服务高层论坛在宁波召开" >物联网智能化应用与服务高层论坛在宁波召开</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+        <li><a  href="/zxzx/qyxx/listinfo-32588.html"  title="内地与香港互联网代表人士交流会在京举行" >内地与香港互联网代表人士交流会在京举行</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/qyxx/listinfo-32578.html"  title="河南省政府常务会议研究通过“互联网+”行动实施方案" >河南省政府常务会议研究通过“互联网+”行动实施方案</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/qyxx/listinfo-32571.html"  title="物联网智能化应用与服务高层论坛在宁波召开" >物联网智能化应用与服务高层论坛在宁波召开</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/qyxx/listinfo-32569.html"  title="首届国际 “互联网+”博览会佛山举行" >首届国际 “互联网+”博览会佛山举行</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/qyxx/listinfo-32562.html"  title="中国国际互联网+博览会暨世界机器人博览会开幕" >中国国际互联网+博览会暨世界机器人博览会开幕</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
                    
 </ul>
 </div>
@@ -543,10 +543,10 @@ function check()
 <div id="hy_01" >
 <span class="mp"><a href="/zxzx/hyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a  href="/zxzx/hyxx/listinfo-32579.html"  title="爱奇艺获评2015夏季达沃斯“全球成长型公司”"  >爱奇艺获评2015夏季达沃斯“全球成长型公司”</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-32572.html"  title="腾讯成立企鹅影业 BAT屯兵影视产业"  >腾讯成立企鹅影业 BAT屯兵影视产业</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-32566.html"  title="分享至手机万达电商联手腾讯百度"  >分享至手机万达电商联手腾讯百度</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
-    <li><a  href="/zxzx/hyxx/listinfo-32564.html"  title="易观报告 | 亲加通讯云独占IM云三项第一"  >易观报告 | 亲加通讯云独占IM云三项第一</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32596.html"  title="阿里获世界零售大会最高奖“年度最佳零售商”"  >阿里获世界零售大会最高奖“年度最佳零售商”</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32595.html"  title="百度地图与三星Tizen合作共建LBS开发者生态"  >百度地图与三星Tizen合作共建LBS开发者生态</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32593.html"  title="微博发布商业开放平台新战略 接入更多三方服务"  >微博发布商业开放平台新战略 接入更多三方服务</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32589.html"  title="“2015网易未来科技峰会”在10月15日举行"  >“2015网易未来科技峰会”在10月15日举行</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
  
 </ul>
 </div>
@@ -685,7 +685,7 @@ function check()
     </div>
     <div class="ft_right">
         <ul class="newslist" style='height:170px;'>
-                            <li><span>【发言】</span><a  href="/ftfy/fy/listinfo-32576.html"  title="高新民：“互联网+”是互联网发展的新起点"  style="display:-moz-stack; width:170px; overflow:hidden;"  >高新民：“互联网+”是互联网发展的新起点</a> <span style="margin-left: 1px;"><img src="images/02270433.gif"></span>  </li>                
+                            <li><span>【发言】</span><a  href="/ftfy/fy/listinfo-32576.html"  title="高新民：“互联网+”是互联网发展的新起点" >高新民：“互联网+”是互联网发展的新起点</a></li>                
                             <li><span>【访谈】</span><a  href="/ftfy/ft/listinfo-32205.html"  title="卢卫：“安全百店”助力“护苗” 营造移动网络纯良环境" >卢卫：“安全百店”助力“护苗” 营造移动网络纯良环境</a></li>                
                             <li><span>【发言】</span><a  href="/ftfy/fy/listinfo-32111.html"  title="卢卫秘书长：网络文化与新媒体这个世界这么大，让我们一起去看看" >卢卫秘书长：网络文化与新媒体这个世界这么大，让我们一起去看看</a></li>                
                             <li><span>【访谈】</span><a  href="/ftfy/ft/listinfo-32071.html"  title="卢卫秘书长：多元化 智能化——传媒业转型发展的新态势" >卢卫秘书长：多元化 智能化——传媒业转型发展的新态势</a></li>                

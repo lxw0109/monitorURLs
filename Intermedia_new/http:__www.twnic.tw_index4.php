@@ -439,9 +439,6 @@ MM_reloadPage(true);
 <td height="17"><font size="2"><a href="http://netking.tw" target="_blank">
 《2015第14屆新人王網站設計大賽-台灣限定》活動開跑~</a>(2015-08-19)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="http://www.twnic.net.tw/apira2015" target="_blank">
-第12屆APIRA會議九月於台北召開</a>(2015-07-23)</td></tr>
-<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://www.gsnv6.tw/ipv6_104/" target="_blank">
 2015 IPv6教育訓練開始報名</a>(2015-04-15)</td></tr>
  
@@ -543,9 +540,6 @@ MM_reloadPage(true);
 <td><a href="http://lovetw.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/250.gif" border="0"></a></td>
 </tr>
 <tr align="center">
-<td><a href="http://www.twnic.net.tw/apira2015/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/245.jpeg" border="0"></a></td>
-</tr>
-<tr align="center">
 <td><a href="http://onestop.twnic.net.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/242.gif" border="0"></a></td>
 </tr>
 <tr align="center">
@@ -562,6 +556,9 @@ MM_reloadPage(true);
 </tr>
 <tr align="center">
 <td><a href="http://www.twnic.net.tw/2015talks/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/246.gif" border="0"></a></td>
+</tr>
+<tr align="center">
+<td><a href="http://www.twnic.net.tw/cp" target="_blank"><img src="http://www.twnic.net.tw/brarchive/234.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="https://www.gsnv6.tw/moocs_104/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/233.gif" border="0"></a></td>

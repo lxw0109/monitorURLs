@@ -9,16 +9,16 @@
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.dns-oarc.net/blogapi/rsd" />
 <link rel="alternate" type="application/rss+xml" title="DNS-OARC RSS" href="https://www.dns-oarc.net/node/feed" />
 <link rel="shortcut icon" href="/files/oarc-favicon.ico" type="image/x-icon" />
-   <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?6" />
-<link type="text/css" rel="stylesheet" media="all" href="/files/color/B7-194adb6f/style.css?6" />
+   <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?2" />
+<link type="text/css" rel="stylesheet" media="all" href="/files/color/B7-194adb6f/style.css?2" />
    </head>
 <body  >
 <div id="all">
@@ -120,7 +120,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-1gFEDjqi5SoknOqU_5BzMv0VEojqZRrPXJOA1FjO58E" value="form-1gFEDjqi5SoknOqU_5BzMv0VEojqZRrPXJOA1FjO58E"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-HcBqWT0GYz4XkZ3c-LudBJQg5xAUm_b75W4Fzhnbyis" value="form-HcBqWT0GYz4XkZ3c-LudBJQg5xAUm_b75W4Fzhnbyis"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -137,7 +137,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-tI_IVyMqUm1saHjlWFRjUBOKuSe3-FYLZsoQauAtJA0" value="form-tI_IVyMqUm1saHjlWFRjUBOKuSe3-FYLZsoQauAtJA0"  />
+<input type="hidden" name="form_build_id" id="form-xyT8VyMXi3g0KkJBQ3ynwuGUbR8kUWGSrf_rhZ9Kjj4" value="form-xyT8VyMXi3g0KkJBQ3ynwuGUbR8kUWGSrf_rhZ9Kjj4"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 

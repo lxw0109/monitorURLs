@@ -287,7 +287,7 @@ function MM_swapImage() { //v3.0
 	      密码:
 	      <input name="password" type="password" class="txt_input" id="password" size="25">
           <br>
-          <a href="forgetpwd.jsp?lang=cn">忘记密码</a><input name='login2' type=submit value='登入'><!--<img src="images/newlayout/frontpage4/cn/login.gif" width="66" height="17" align="absmiddle" class="button">--><br>
+          <a href="forgetpwd.jsp?lang=cn">无法登入</a><input name='login2' type=submit value='登入'><!--<img src="images/newlayout/frontpage4/cn/login.gif" width="66" height="17" align="absmiddle" class="button">--><br>
 	    </label>
 	    <input type=hidden name=panel value='4'>
 	    <input type="hidden" name="lang" value="cn" />

@@ -304,6 +304,7 @@ def main_stale(dbOrNot):
             urgentMyUtils.writeLog(string1, string2, string3)
 
     for thread in threads:
+        thread.setDaemon(True)
         thread.start()
 
     while 1:
@@ -318,6 +319,7 @@ def main_stale(dbOrNot):
             break
 
     for thread in threads:
+        thread.stop()
         thread.join()
 
     urlCount = len(newUrlObjDic)

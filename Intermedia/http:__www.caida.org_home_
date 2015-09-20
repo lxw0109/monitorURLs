@@ -367,10 +367,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="/publications/papers/2009/small_blocks_complex_nets/"><img title="Visualization of the PGP network and its dK-randomizations" alt="" height="250" width="300" src="/images/dk_series-pgp_randomizations_med.png"></a>
+<a href="/research/topology/hiddenmetricspaces/"><img title="We explore common properties of complex networks in order to find a general mechanism that would support a structural model of the network explaining the connection between network structure and function. Our proposed mechanism relies on the presence of a metric space hidden behind an observable network, referred to as the Hidden Metric Space (HMS). " alt="" height="250" width="300" src="/images/hiddenmetricspace_med.png"></a>
 </div>
 <div class="captiontext">
-<a href="/publications/papers/2009/small_blocks_complex_nets/">dK-randomizations of the PGP network</a>
+<a href="/research/topology/hiddenmetricspaces/">Hidden Metric Spaces</a>
 </div>
 <hr>
 <div class="captiontext">
@@ -529,42 +529,39 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 <div class="rccontent">
 <table summary="CAIDA What's New feed: New Papers" class="feedtable">
 <tr>
-<td><a href="http://www.caida.org/publications/papers/2015/investigating_excessive_delays_mobile/" title="N. Larson, D. Baltrunas, A. Kvalbein, A. Dhamdhere, k. claffy, and A. Elmokashfi, &quot;Investigating Excessive Delays in Mobile Broadband Networks&quot;, in ACM SIGCOMM Workshop on All Things Cellular (ATC), Aug 2015.">Investigating Excessive Delays in Mobile Broadband Networks</a></td><td>Sep&nbsp;10</td>
+<td><a href="http://www.caida.org/publications/papers/2015/ethics_research_development_creds/" title="E. Kenneally and M. Fomenkov, &quot;Ethics Research &amp; Development Summary: Cyber-security Research Ethics Decision Support (CREDS) Tool&quot;, in ACM SIGCOMM Workshop on Ethics in Networked Systems Research, Aug 2015.">Ethics Research &amp; Development Summary: Cyber-security Research Ethics Decision Support (CREDS) Tool</a></td><td>Sep&nbsp;16</td>
 </tr>
 <tr class="zebra">
+<td><a href="http://www.caida.org/publications/papers/2015/investigating_excessive_delays_mobile/" title="N. Larson, D. Baltrunas, A. Kvalbein, A. Dhamdhere, k. claffy, and A. Elmokashfi, &quot;Investigating Excessive Delays in Mobile Broadband Networks&quot;, in ACM SIGCOMM Workshop on All Things Cellular (ATC), Aug 2015.">Investigating Excessive Delays in Mobile Broadband Networks</a></td><td>Sep&nbsp;10</td>
+</tr>
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/adding_enhanced_services_internet/" title="To be presented at TPRC in September 2015.
 
 k. claffy and D. Clark, &quot;Adding Enhanced Services to the Internet: Lessons from History&quot;, in Telecommunications Policy Research Conference (TPRC), Sep 2015.">Adding Enhanced Services to the Internet: Lessons from History</a></td><td>Sep&nbsp;10</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/leveraging_internet_background_radiation/" title="To be presented at IMC 2015.
 
 K. Benson, A. Dainotti, k. claffy, A. Snoeren, and M. Kallitsis, &quot;Leveraging Internet Background Radiation for Opportunistic Network Analysis&quot;, in Internet Measurement Conference (IMC), Oct 2015.">Leveraging Internet Background Radiation for Opportunistic Network Analysis</a></td><td>Sep&nbsp;9</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/leveraging_ipv4ipv6_identity_duality/" title="I. Livadariu, S. Ferlin, O. Alay, T. Dreibholz, A. Dhamdhere, and A. Elmokashfi, &quot;Leveraging the IPv4/IPv6 Identity Duality by using Multi-Path Transport&quot;, Apr 2015.">Leveraging the IPv4/IPv6 Identity Duality by using Multi-Path Transport</a></td><td>Jul&nbsp;21</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/hyperbolic_graph_generator/" title="R. Aldecoa, C. Orsini, and D. Krioukov, &quot;Hyperbolic graph generator&quot;, Computer Physics Communications, Jun 2015.">Hyperbolic graph generator</a></td><td>Jul&nbsp;8</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/network_mapping_replaying_hyperbolic/" title="F. Papadopoulos, C. Psomas, and D. Krioukov, &quot;Network Mapping by Replaying Hyperbolic Growth&quot;, IEEE/ACM Transactions on Networking, vol. 23, no. 1, pp. 198--211, Feb 2015.">Network Mapping by Replaying Hyperbolic Growth</a></td><td>Jul&nbsp;8</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/comments_cybersecurity_research_development/" title="Comment in response to Request for Information (RFI)-Federal Cybersecurity R&amp;D Strategic Plan, posted by the National Science Foundation on 4/27/2015.
 D. Clark and k. claffy, &quot;Comments on Cybersecurity Research and Development Strategic Plan&quot;, Federal Communications Commission (FCC) Commission Documents, Jun 2015.">Comments on Cybersecurity Research and Development Strategic Plan</a></td><td>Jun&nbsp;30</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/named_data_networking_2014-2015/" title="V. Jacobson, J. Burke, L. Zhang, B. Zhang, K. Claffy, C. Papadopoulos, T. Abdelzaher, L. Wang, J. Halderman, and P. Crowley, &quot;Named Data Networking Next Phase (NDN-NP) Project May 2014 - April 2015 Annual Report&quot;, Tech. rep., Named Data Networking (NDN), Jun 2015.">Named Data Networking Next Phase (NDN-NP) Project Annual Report</a></td><td>Jun&nbsp;29</td>
 </tr>
-<tr>
-<td><a href="http://www.caida.org/publications/papers/2015/how_dangerous_internet_scanning/" title="E. Raftopoulos, E. Glatz, X. Dimitropoulos, and A. Dainotti, &quot;How Dangerous Is Internet Scanning? A Measurement Study of the Aftermath of an Internet-Wide Scan&quot;, in Traffic Monitoring and Analysis Workshop (TMA), Apr 2015, vol. 9053, pp. 158--172.">How Dangerous Is Internet Scanning?</a></td><td>Jun&nbsp;12</td>
-</tr>
 <tr class="zebra">
-<td><a href="http://www.caida.org/publications/papers/2015/inventory_aspirations_internets_future/" title="
-This is a draft copy of a working white paper.
-	
-D. Clark and k. claffy, &quot;An Inventory of Aspirations for the Internet's future&quot;, Tech. rep., Center for Applied Internet Data Analysis (CAIDA), Apr 2015.">An Inventory of Aspirations for the Internet's future</a></td><td>May&nbsp;12</td>
+<td><a href="http://www.caida.org/publications/papers/2015/how_dangerous_internet_scanning/" title="E. Raftopoulos, E. Glatz, X. Dimitropoulos, and A. Dainotti, &quot;How Dangerous Is Internet Scanning? A Measurement Study of the Aftermath of an Internet-Wide Scan&quot;, in Traffic Monitoring and Analysis Workshop (TMA), Apr 2015, vol. 9053, pp. 158--172.">How Dangerous Is Internet Scanning?</a></td><td>Jun&nbsp;12</td>
 </tr>
 </table>
 </div>

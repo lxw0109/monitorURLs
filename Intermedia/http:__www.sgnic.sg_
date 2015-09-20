@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-Vd94gwgxbjBQtsUU0gFG9bEuITc6ht1WqwfbwOScUy8" value="form-Vd94gwgxbjBQtsUU0gFG9bEuITc6ht1WqwfbwOScUy8"  />
+<input type="hidden" name="form_build_id" id="form-fZRFZkxqLUPePCr7lcWKfhJxGZ2pAynqWo27vPV-zd8" value="form-fZRFZkxqLUPePCr7lcWKfhJxGZ2pAynqWo27vPV-zd8"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-wsUUkwzOqNGtnzNzJ6X4V5BY75HrbSX0ewbGr4cDLxU" value="form-wsUUkwzOqNGtnzNzJ6X4V5BY75HrbSX0ewbGr4cDLxU"  />
+<input type="hidden" name="form_build_id" id="form-9T5b8oRHyJC0wyRu2EhpLDZ1JYd-t2xxhlgRrIFtqAU" value="form-9T5b8oRHyJC0wyRu2EhpLDZ1JYd-t2xxhlgRrIFtqAU"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 14, 2015, 9:46 am</span>
+                <span class="field-content">September 18, 2015, 9:27 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/14/human-networking-to-prevent-cyber-threat/">Human Networking to prevent cyber threat</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/18/four-things-from-apnic-40/">Four things from APNIC 40</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 11, 2015, 9:24 am</span>
+                <span class="field-content">September 17, 2015, 9:33 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/11/terima-kasih-jakarta/">Terima kasih, Jakarta!</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/17/myanmars-ict-ministry-opens-door-for-internet-infrastructure-development/">Myanmar’s ICT ministry opens door for Internet infrastructure development</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 10, 2015, 7:00 pm</span>
+                <span class="field-content">September 16, 2015, 9:45 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/10/taichung-to-host-apnic-44/">Taichung to host APNIC 44</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/16/afrinic-comes-to-apnic/">AFRINIC comes to APNIC</a></span>
   </div>
 </li>
       </ul>
