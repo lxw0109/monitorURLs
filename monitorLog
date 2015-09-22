@@ -68,3 +68,43 @@ Monitor Finished.   Monitor Time: 2015-09-20-22:28:56.   Time Cost: 0'31"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
+lxw_IOError: 	2015-09-21-09:10:01
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+Information: URL recovery. lxw_KeyError: http://www.cert.org.cn/	2015-09-21-09:10:01
+
+lxw_IOError: 	2015-09-21-09:10:04
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2015-09-21-09:10:08
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+lxw_Timed Out: http://www.ietf.org/	2015-09-21-09:11:02
+
+EMAIL SENDING: 	2015-09-21-09:11:02
+
+EMAIL SENDING SUCCESS: 	2015-09-21-09:11:04
+
+Monitor Finished.   Monitor Time: 2015-09-21-09:11:04.   Time Cost: 1'2"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Information: URL recovery. lxw_KeyError: http://www.ietf.org/	2015-09-22-09:10:02
+
+lxw_IOError: 	2015-09-22-09:10:02
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOERROR Occurred(File not found, url revives now.): 	2015-09-22-09:10:02
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 675, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.ietf.org_'
+
+lxw_IOError: 	2015-09-22-09:10:05
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2015-09-22-09:10:09
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+EMAIL SENDING: 	2015-09-22-09:10:15
+
+EMAIL SENDING SUCCESS: 	2015-09-22-09:10:27
+
+Monitor Finished.   Monitor Time: 2015-09-22-09:10:27.   Time Cost: 0'25"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------

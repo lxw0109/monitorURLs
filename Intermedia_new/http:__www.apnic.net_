@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 21 September 2015 00:29:11
+  Page generated: 22 September 2015 11:10:48
 -->
 
 
@@ -431,9 +431,10 @@ $('.theme-about #header-label span').text('About APNIC');
       </h2>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-2-september-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 2 September 2015</a></h3>
+      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-18-september-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 18 September 2015</a></h3>
 <p class="ellipsis" data-ellipsis-rows="2">
-<p>Reverse delegations for IPv6 Internet Exchange assignments under 2001:07fa::/32 were not properly imported into RIPE NCC DNS provisioning system.</p>
+<p>APNIC whois nodes in the US and UK were not available for the specified duration.</p>
+
 
 
 

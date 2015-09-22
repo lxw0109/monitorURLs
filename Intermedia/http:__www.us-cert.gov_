@@ -29,7 +29,7 @@
 </script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"uscert_gov_theme","theme_token":"BFAR3csERakTn0lS7sYR_-vaD3wbtuE55B1pEbDjvmk","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.datepicker.min.js":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/js\/uscert_webforms.js":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.js":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/js\/global.js":1,"profiles\/dhs_wcm\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/css\/uscert_webforms.css":1,"modules\/user\/user.css":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/dhs_wcm\/modules\/contrib\/views\/css\/views.css":1,"profiles\/dhs_wcm\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"public:\/\/ctools\/css\/332c34e410da79d301686687e5be1460.css":1,"public:\/\/ctools\/css\/20ea45f22426c83d60486d9f3dee21cc.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"sites\/default\/files\/css\/follow.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/css\/global.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"(\\.gov|\\.mil|\\.org.*|twitter\\.com\\\/share\\?url\\=.*|www\\.facebook\\.com\\\/sharer\\.php\\?u\\=.*|www\\.addthis\\.com\\\/bookmark\\.php\\?url\\=.*|javascript\\:window\\.print\\(\\)\\;)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"You are now leaving an official website of the United State Government (USG), the Department of Homeland Security (DHS) and the United States Computer Emergency Readiness Team (US-CERT). Links to non-USG, non-DHS and non-US-CERT sites are provided for the visitor\u0027s convenience and do not represent an endorsement by USG, DHS or US-CERT of any commercial or private issues, products or services. Note that the privacy policy of the linked site may differ from that of USG, DHS and US-CERT.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackCrossDomains":["us-cert.gov"]},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"uscert_gov_theme","theme_token":"Q5pNaRKa_2yf9KEzR-P9jy91kUrDRupn-osYnKkqyns","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.datepicker.min.js":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/js\/uscert_webforms.js":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.js":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/js\/global.js":1,"profiles\/dhs_wcm\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/css\/uscert_webforms.css":1,"modules\/user\/user.css":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/dhs_wcm\/modules\/contrib\/views\/css\/views.css":1,"profiles\/dhs_wcm\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"public:\/\/ctools\/css\/332c34e410da79d301686687e5be1460.css":1,"public:\/\/ctools\/css\/20ea45f22426c83d60486d9f3dee21cc.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"sites\/default\/files\/css\/follow.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/css\/global.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"(\\.gov|\\.mil|\\.org.*|twitter\\.com\\\/share\\?url\\=.*|www\\.facebook\\.com\\\/sharer\\.php\\?u\\=.*|www\\.addthis\\.com\\\/bookmark\\.php\\?url\\=.*|javascript\\:window\\.print\\(\\)\\;)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"You are now leaving an official website of the United State Government (USG), the Department of Homeland Security (DHS) and the United States Computer Emergency Readiness Team (US-CERT). Links to non-USG, non-DHS and non-US-CERT sites are provided for the visitor\u0027s convenience and do not represent an endorsement by USG, DHS or US-CERT of any commercial or private issues, products or services. Note that the privacy policy of the linked site may differ from that of USG, DHS and US-CERT.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackCrossDomains":["us-cert.gov"]},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});
 //--><!]]>
 </script>
 <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. --><script src="/profiles/dhs_wcm/modules/contrib/usfedgov_google_analytics/js/Universal-Federated-Analytics-Min.js?agency=DHS&subagency=US-CERT" type="text/javascript" id="_fed_an_ua_tag"></script>  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -155,7 +155,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view--current-activity view-id-_current_activity view-display-id-block_1 current-activity-homepage-block view-dom-id-e84447bfc28069b493137c77cd9770f4">
+      <div class="view view--current-activity view-id-_current_activity view-display-id-block_1 current-activity-homepage-block view-dom-id-94a9fa400cf11d9b59d0f22a1e1ac886">
             <div class="view-header">
       <div id="current-activity-header">
 <h2>
@@ -227,7 +227,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view-announcements view-id-announcements view-display-id-block_1 announcements-homepage-block sidebar-widget sidebar-widget-green view-dom-id-3f2d91fa9163ff40db28d5f2e5c265ca">
+      <div class="view view-announcements view-id-announcements view-display-id-block_1 announcements-homepage-block sidebar-widget sidebar-widget-green view-dom-id-b6273c81e048058d109b75e23b55854f">
             <div class="view-header">
       <h3><a href="/announcements/">Announcements</a></h3>    </div>
   
@@ -260,7 +260,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view-recent-vulnerabilities-notes view-id-recent_vulnerabilities_notes view-display-id-block sidebar-widget sidebar-widget-orange recent-vulnerabilities-homepage view-dom-id-6f72b6335d3eb8d42c82460001413449">
+      <div class="view view-recent-vulnerabilities-notes view-id-recent_vulnerabilities_notes view-display-id-block sidebar-widget sidebar-widget-orange recent-vulnerabilities-homepage view-dom-id-efd438867b9b18a4e118e78d8cc123f8">
             <div class="view-header">
       <div id="recent-vulnerabilities"><h3><a href="http://www.kb.cert.org/vuls/">Recent Vulnerabilities</a></h3></div>    </div>
   
@@ -337,7 +337,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       
   
   <div class="pane-content">
-    <div class="view view-us-cert-alerts view-id-us_cert_alerts view-display-id-block_2 view-dom-id-68d52ab71dc783fae065392b9c19930b">
+    <div class="view view-us-cert-alerts view-id-us_cert_alerts view-display-id-block_2 view-dom-id-9f824b8586e37d4de326cf50d959fa7c">
             <div class="view-header">
       <div><img alt="Technical Alerts" src="/sites/default/files/images/tech-alert-icon.png" /></div>
 <h3>Alerts</h3>
@@ -379,7 +379,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       
   
   <div class="pane-content">
-    <div class="view view-bulletins view-id-bulletins view-display-id-block_1 view-dom-id-ff5b16725fba690c2a46ad2a8b219d53">
+    <div class="view view-bulletins view-id-bulletins view-display-id-block_1 view-dom-id-017065c464bd199336ad3490aff5a711">
             <div class="view-header">
       <div><img alt="Bulletins" src="/sites/default/files/images/bulletin-icon.png" /></div>
 <h3>Bulletins</h3>
@@ -420,7 +420,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       
   
   <div class="pane-content">
-    <div class="view view-us-cert-tips-page view-id-us_cert_tips_page view-display-id-block_1 view-dom-id-c529108fdb8039c8d73c9a54d3846048">
+    <div class="view view-us-cert-tips-page view-id-us_cert_tips_page view-display-id-block_1 view-dom-id-ae1123e17e7e6865fcd43cca1d38ec1e">
             <div class="view-header">
       <div><img alt="Tips" src="/sites/default/files/images/tip-icon.png" /></div>
 <h3>Tips</h3>
@@ -461,7 +461,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       
   
   <div class="pane-content">
-    <div class="view view-us-cert-security-publications-page view-id-us_cert_security_publications_page view-display-id-block_1 view-dom-id-0c9fdaf05030c9130644dec7c28d8ba5">
+    <div class="view view-us-cert-security-publications-page view-id-us_cert_security_publications_page view-display-id-block_1 view-dom-id-a4dd462259e5420eb14c1fe640b1991b">
             <div class="view-header">
       <img alt="Security Publications" src="/sites/default/files/images/techdoc-icon.png" /><h3>Technical Documents</h3>
 <p>In-depth articles that provide advice and summarize a variety of internet security topics.</p>    </div>

@@ -168,7 +168,7 @@ wfscr.type = 'text/javascript';
 wfscr.async = true;
 wfscr.src = url + '&r=' + Math.random();
 (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
-})('//pir.org/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=14B7CAC26CAB72E35068FB97B41C63AF');
+})('//pir.org/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=E596B529ECFA1CFB7EDF05BFFB101AB2');
 </script>		
 
 <!-- Etrigue Tracking Code -->
@@ -732,7 +732,7 @@ wfscr.src = url + '&r=' + Math.random();
 <script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/idle-timer.min.js?ver=1.2'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var monarchSettings = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/pir.org\/news-events\/for-press\/press-releases\/","stats_nonce":"868e7706ac","share_counts":"93312ee82d","follow_counts":"b6c2f07ea3","total_counts":"00dd16e38b","media_single":"aecacd77b0","media_total":"07a9dba2a6","generate_all_window_nonce":"bf9c2141c3","no_img_message":"No images available for sharing on this page"};
+var monarchSettings = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/pir.org\/news-events\/for-press\/press-releases\/","stats_nonce":"afd58ca218","share_counts":"b804f2a15d","follow_counts":"9802220127","total_counts":"d0e153ab8c","media_single":"77e71d46ff","media_total":"dcea3d500d","generate_all_window_nonce":"33f4bb5ca0","no_img_message":"No images available for sharing on this page"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/custom.js?ver=1.2'></script>
