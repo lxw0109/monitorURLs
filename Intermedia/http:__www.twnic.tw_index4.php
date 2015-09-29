@@ -430,6 +430,9 @@ MM_reloadPage(true);
                                 <tr> 
                                   <td valign="top" width="22">
             <tr><td></td><td>[公告]</td><td></td></tr><tr><td><img src="http://www.twnic.net.tw/img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://www.twnic.net.tw/NEWS/sql.html" target="_blank">
+有關 SQL Injection 安全威脅處理公告</a>(2015-09-25)</td></tr>
+<tr><td><img src="http://www.twnic.net.tw/img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="/NEWS/2245.pdf" target="_blank">
 2015年度公益計畫徵選公告</a>(2015-07-31)</td></tr>
 <tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
@@ -544,6 +547,9 @@ MM_reloadPage(true);
 </tr>
 <tr align="center">
 <td><a href="http://www.myhome.net.tw/timeline  " target="_blank"><img src="http://www.twnic.net.tw/brarchive/235.gif" border="0"></a></td>
+</tr>
+<tr align="center">
+<td><a href="http://www.careernet.org.tw/n/Class-8607.html" target="_blank"><img src="http://www.twnic.net.tw/brarchive/254.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="http://www.twnic.net.tw/2015adv/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/252.gif" border="0"></a></td>

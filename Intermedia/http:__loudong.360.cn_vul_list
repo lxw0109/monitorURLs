@@ -153,25 +153,10 @@
 			<div class="ld-con-box">
             	            		
 				<div class="ld-con-list">
-					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
+					<div class="ld-list-photo"><a href="/vul/profile/u/o_o"><img src="http://quc.qhimg.com/dm/48_48_100/t01e4a1c10eb298da6e.jpg" ></a></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-302567">简单百宝箱某处运营不当</a> </p>
-						<p>2015年09月20日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
-                            <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
-							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
-                            </span>
-                            						</p> 
-					</div>
-                    
-				</div>
-				
-				
-					
-				<div class="ld-con-list">
-					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
-					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-302723">永春县水利信息网POST注入+数据库下载+弱口令</a> </p>
-						<p>2015年09月20日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+						<p class="list-view"><a href="/vul/profile/u/o_o"  class="loading_userpro" ajax-href="/user/showuserpro/uid/2765378">o_o</a> 发布 <a href="/vul/info/qid/QTVA-2015-305837">青岛重点车辆及驾驶人管理系统sql注入，泄露52w驾驶人信息（求奖金，么么哒）</a> </p>
+						<p>2015年09月27日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>1</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -183,10 +168,10 @@
 				
 					
 				<div class="ld-con-list">
-					<div class="ld-list-photo"><a href="/vul/profile/u/风尘"><img src="http://quc.qhimg.com/dm/48_48_100/t0160555161700b639f.jpg" ></a></div>
+					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view"><a href="/vul/profile/u/风尘"  class="loading_userpro" ajax-href="/user/showuserpro/uid/3098892">风尘</a> 发布 <a href="/vul/info/qid/QTVA-2015-302759">读者官网存在任意上传漏洞</a> </p>
-						<p>2015年09月20日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-305840">华数两处redis未授权访问</a> </p>
+						<p>2015年09月27日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -200,23 +185,8 @@
 				<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-302642">中国联通 某站漏洞</a> </p>
-						<p>2015年09月20日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
-                            <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
-							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
-                            </span>
-                            						</p> 
-					</div>
-                    
-				</div>
-				
-				
-					
-				<div class="ld-con-list">
-					<div class="ld-list-photo"><a href="/vul/profile/u/梦魇"><img src="http://quc.qhimg.com/dm/48_48_100/t01c718ceaeecbd58b9.jpg" ></a></div>
-					<div class="ld-lsit-info">
-						<p class="list-view"><a href="/vul/profile/u/梦魇"  class="loading_userpro" ajax-href="/user/showuserpro/uid/2815771">梦魇</a> 发布 <a href="/vul/info/qid/QTVA-2015-302570">某公安局短信平台配置不当可发送短信科用作轰炸</a> </p>
-						<p>2015年09月20日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-305846">湖北工业大学某站点配置不当（导致4个系统数据库信息泄露（全校教师及附属医院领导信息泄露（账号+密码（身份证号码）及学生相关信息）））</a> </p>
+						<p>2015年09月27日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -230,23 +200,8 @@
 				<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-302351">神州数码某站信息泄露</a> </p>
-						<p>2015年09月20日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
-                            <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
-							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
-                            </span>
-                            						</p> 
-					</div>
-                    
-				</div>
-				
-				
-					
-				<div class="ld-con-list">
-					<div class="ld-list-photo"><a href="/vul/profile/u/黑旋风"><img src="http://quc.qhimg.com/dm/48_48_100/t0155a7071d1a484d48.jpg" ></a></div>
-					<div class="ld-lsit-info">
-						<p class="list-view"><a href="/vul/profile/u/黑旋风"  class="loading_userpro" ajax-href="/user/showuserpro/uid/2777516">黑旋风</a> 发布 <a href="/vul/info/qid/QTVA-2015-302069">湖南医药价格网某系统漏洞</a> </p>
-						<p>2015年09月20日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-305849">小牛装修网站数据未授权访问，5万多用户信息泄漏</a> </p>
+						<p>2015年09月27日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -260,8 +215,8 @@
 				<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-302489">一米鲜某处存在漏洞#导致所有收货地址泄露</a><font class="color_td3 font_width" style="font-size:16px;">￥100</font> </p>
-						<p>2015年09月20日 <span class="color_td1">事件型</span> <span class="color_td1">补天奖励</span> 							                             <span style="float:right">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-305855">奇瑞某平台上传漏洞导致GetShell（可入内网）</a> </p>
+						<p>2015年09月27日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -275,8 +230,8 @@
 				<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-302024">河南航天金穗系统漏洞危及百万人口敏感信息(公安数据)</a><font class="color_td3 font_width" style="font-size:16px;">￥200</font> <img src="http://p9.qhimg.com/t01e328586ffa654845.png" style="vertical-align: text-top" ajax-href="/vul/showtips1" class="img-show1"><img src="http://p1.qhimg.com/t0182f8526066cce8c0.png" style="margin-left: 5px;"></p>
-						<p>2015年09月20日 <span class="color_td1">事件型</span> <span class="color_td1">补天奖励</span> 							                             <span style="float:right">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-305876">奇瑞某系统sql注入到Getshell</a> </p>
+						<p>2015年09月27日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -290,8 +245,53 @@
 				<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-301874">某省公安厅系统漏洞危及千万个人信息可渗入内网</a><font class="color_td3 font_width" style="font-size:16px;">￥500</font> <img src="http://p9.qhimg.com/t01e328586ffa654845.png" style="vertical-align: text-top" ajax-href="/vul/showtips1" class="img-show1"><img src="http://p1.qhimg.com/t0182f8526066cce8c0.png" style="margin-left: 5px;"></p>
-						<p>2015年09月20日 <span class="color_td1">事件型</span> <span class="color_td1">补天奖励</span> 							                             <span style="float:right">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-305195">大同市人民政府信息化中心主站注入</a> </p>
+						<p>2015年09月27日 <span class="color_td1">事件型</span>  <img src="http://p8.qhimg.com/t01f1c8306c36c5710a.png">							                             <span style="float:right">
+                            <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
+							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
+                            </span>
+                            						</p> 
+					</div>
+                    
+				</div>
+				
+				
+					
+				<div class="ld-con-list">
+					<div class="ld-list-photo"><a href="/vul/profile/u/顺德_小进"><img src="http://quc.qhimg.com/dm/48_48_100/t014bc171af5c45df47.jpg" ></a></div>
+					<div class="ld-lsit-info">
+						<p class="list-view"><a href="/vul/profile/u/顺德_小进"  class="loading_userpro" ajax-href="/user/showuserpro/uid/3026639">顺德_小进</a> 发布 <a href="/vul/info/qid/QTVA-2015-305219">郴州电视台存在SQL注入</a> </p>
+						<p>2015年09月27日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+                            <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
+							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
+                            </span>
+                            						</p> 
+					</div>
+                    
+				</div>
+				
+				
+					
+				<div class="ld-con-list">
+					<div class="ld-list-photo"><a href="/vul/profile/u/乌云厂商"><img src="http://quc.qhimg.com/dm/48_48_100/t00df551a583a87f4e9.jpg" ></a></div>
+					<div class="ld-lsit-info">
+						<p class="list-view"><a href="/vul/profile/u/乌云厂商"  class="loading_userpro" ajax-href="/user/showuserpro/uid/2557187">乌云厂商</a> 发布 <a href="/vul/info/qid/QTVA-2015-305723">飞利浦官网 在线商城漏洞 之 注册账号使用任意手机号（绕过短信验证）</a> </p>
+						<p>2015年09月27日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+                            <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
+							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
+                            </span>
+                            						</p> 
+					</div>
+                    
+				</div>
+				
+				
+					
+				<div class="ld-con-list">
+					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
+					<div class="ld-lsit-info">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-305456">百姓宝任意用户密码重置，以18888888888为例</a> </p>
+						<p>2015年09月27日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>1</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -334,7 +334,7 @@
 			 
    
 			 
-			<a href="/vul/list/page/2787">末页</a>
+			<a href="/vul/list/page/2822">末页</a>
 			 
 </div>
 			</div>

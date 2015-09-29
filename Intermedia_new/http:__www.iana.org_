@@ -78,6 +78,12 @@
             </div>
         </div>
 
+        <div id="home-panel-news">
+            ICANN has engaged Ebiquity to administer its 2015 Annual Customer Survey. If you have made use of IANA
+            request services in the last year you can expect to receive an invitation from Jennifer Clark to
+            participate in a survey hosted at https://www.ebiquityinsights.com.
+        </div>
+
         <div id="home-panel-search">
             <gcse:search></gcse:search>
         </div>

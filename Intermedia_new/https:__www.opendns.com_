@@ -24,20 +24,20 @@
 		<title>Cloud Delivered Enterprise Security by OpenDNS</title>
 
 	
-			<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/homepage.css?v=7637e4cb67985b7f06df57d285d16c0f" />
+			<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/homepage.css?v=559879c9b177f91715eac10ea917e1f9" />
 	
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=cbf02fb0fe8b49ad7241f1db36c16b1e"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=0356ff96da57b530818f8ad9e8a61885"></script>
 	<![endif]-->
 
-	<link rel='stylesheet' id='style-css'  href='https://www.opendns.com/wp-content/themes/opendns/style.css?ver=4.3.1' type='text/css' media='all' />
-<link rel='stylesheet' id='flexslider-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/flexslider.css?ver=4.3.1' type='text/css' media='all' />
-<link rel='stylesheet' id='qtip-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/jquery.qtip.css?ver=4.3.1' type='text/css' media='all' />
-<link rel='stylesheet' id='fancybox-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/jquery.fancybox.css?ver=4.3.1' type='text/css' media='all' />
-<link rel='stylesheet' id='chosen-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/chosen.css?ver=4.3.1' type='text/css' media='all' />
-<link rel='stylesheet' id='fontawesome-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.3.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='style-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/style.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/flexslider.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='qtip-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/jquery.qtip.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/jquery.fancybox.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='chosen-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/chosen.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.3.1' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=eaeeb1580ae9df29215eab54252a5a13">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/css/search.css?v=aa22222696481b7256f2efeb7bf49a65">
 
 	<meta name="viewport" content="width=device-width">
 	
@@ -72,9 +72,9 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
-<script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=13101e4fd7a7b786cff3e02c869ca271'></script>
+<script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=142661c0706d8d4579424707dfd4ae80'></script>
 <meta name="generator" content="WordPress 4.3.1" />
 <script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 </head>
@@ -122,7 +122,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<section id="cisco-banner">
 	<div class="grid">
 		<div class="cisco-banner-logo">
-			<a href="http://www.cisco.com/" target="_blank"><img src="https://www.opendns.com/wp-content/themes/opendns/img/Cisco_Logo_RGB_Screen_White.png" class="cisco-logo" alt="OpenDNS is now a part of Cisco" title="OpenDNS is now a part of Cisco"></a>
+			<a href="http://www.cisco.com/" target="_blank"><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/img/Cisco_Logo_RGB_Screen_White.png" class="cisco-logo" alt="OpenDNS is now a part of Cisco" title="OpenDNS is now a part of Cisco"></a>
 		</div>
 		<div class="cisco-banner-learn-more">
 			<p>OpenDNS is now part of Cisco <a href="http://www.cisco.com/web/about/ac49/ac0/ac1/ac259/opendns.html" target="_blank"> Learn More <i class="fa fa-caret-right"></i></a></p>
@@ -138,7 +138,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="grid">
 			<a class="identity" href="https://www.opendns.com/" title="Cloud Web Security for Businesses - Umbrella by OpenDNS">
 				<div class="logo">
-					<img src="https://www.opendns.com/wp-content/themes/opendns/img/logo-opendns-ie.png" class="ie-logo" alt="Cloud Web Security for Businesses - Umbrella by OpenDNS" title="Cloud Web Security for Businesses - Umbrella by OpenDNS">
+					<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/img/logo-opendns-ie.png" class="ie-logo" alt="Cloud Web Security for Businesses - Umbrella by OpenDNS" title="Cloud Web Security for Businesses - Umbrella by OpenDNS">
 					<div>Cloud Web Security for Businesses - Umbrella by OpenDNS</div>
 				</div>
 			</a>
@@ -223,11 +223,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<a href="https://www.opendns.com/enterprise-security/threat-intelligence/">
 				<span class="icon "></span>OpenDNS Investigate</a></li><li class="contact-sales demo-request button Investigate menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="#">
-				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=05b27d7ecf35e51aedca564a832a3308"></script>
+				<span class="icon contact-sales"></span>REQUEST A DEMO</a></li></ul></li></ul>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=9a5ff3c66298da0f8d5ccc1ab52b024f"></script>
 		</div>
 	</header>
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=98763c862435c117a7aed0ed37740508"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=b4c47a2aa14608f97e72d0a29c3d8a92"></script>
 	<![endif]-->
 	<!--
 	Start of DoubleClick Floodlight Tag: Please do not remove
@@ -250,7 +250,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="content">
 	
 <div class="image-banner home-hero no-scrim">
-<div class="banner homepage-hero" style="background-image: url(https://www.opendns.com/wp-content/uploads/2014/07/train-with-no-scrim.jpg);"></div><div class="grid"><h1 class="image-banner-heading"><span>Take Your Security Further</span></h1></div><div class="grid"><p class="ice">Predict attacks before they happen<br>Expand threat protection beyond the perimeter<br>Remove your DNS blind spot</p>
+<div class="banner homepage-hero" style="background-image: url(https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/07/train-with-no-scrim.jpg);"></div><div class="grid"><h1 class="image-banner-heading"><span>Take Your Security Further</span></h1></div><div class="grid"><p class="ice">Predict attacks before they happen<br>Expand threat protection beyond the perimeter<br>Remove your DNS blind spot</p>
 <div class="cta-block">
 <a href="/enterprise-security/" class="business">For Business</a>
 <a href="/home-internet-security/" class="home"> For Personal</a>
@@ -298,7 +298,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<ul>
 				<li>
 					<a href="/enterprise-security/threat-enforcement/">
-						<img src="/wp-content/uploads/2015/04/shield.png" alt="Enterprise Network Security" title="Enterprise Network Security" class="enterprise circle">
+						<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/04/shield.png" alt="Enterprise Network Security" title="Enterprise Network Security" class="enterprise circle">
 					</a>
 					<h3 class="user-group-title">
 						<a href="/enterprise-security/threat-enforcement/">Security Enforcement</a>
@@ -306,7 +306,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</li>
 				<li>
 					<a href="/enterprise-security/threat-intelligence/">
-						<img src="/wp-content/uploads/2015/04/big-data.png" alt="Enterprise Network Security" title="Enterprise Network Security" class="enterprise circle">
+						<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/04/big-data.png" alt="Enterprise Network Security" title="Enterprise Network Security" class="enterprise circle">
 					</a>
 					<h3 class="user-group-title">
 						<a href="/enterprise-security/threat-intelligence/">Security Intelligence</a>
@@ -314,7 +314,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</li>
 				<li>
 					<a href="/enterprise-security/solutions/web-filtering/">
-						<img src="/wp-content/uploads/2015/04/web-filtering.png" alt="Web Filtering" title="Web Filtering" class="filtering circle">
+						<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/04/web-filtering.png" alt="Web Filtering" title="Web Filtering" class="filtering circle">
 					</a>
 					<h3 class="user-group-title">
 						<a href="/enterprise-security/solutions/web-filtering/">Web Filtering</a>
@@ -322,7 +322,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</li>
 				<li>
 					<a href="/partners/msp-partners/">
-						<img src="/wp-content/uploads/2015/04/msp.png" alt="Managed Service Provider" title="Managed Service Provider" class="msp circle">
+						<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/04/msp.png" alt="Managed Service Provider" title="Managed Service Provider" class="msp circle">
 					</a>
 					<h3 class="user-group-title">
 						<a href="/partners/msp-partners/">Security for MSP</a>
@@ -330,7 +330,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</li>
 				<li>
 					<a href="/premium-dns/">
-						<img src="/wp-content/uploads/2015/04/dns.png" alt="DNS" title="DNS" class="dns circle">
+						<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/04/dns.png" alt="DNS" title="DNS" class="dns circle">
 					</a>
 					<h3 class="user-group-title">
 						<a href="/premium-dns/">Enhanced DNS</a>
@@ -351,16 +351,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			</div>
 			<div id="customer-logos">
 				<ul class="slides">
-											<li><img src="https://www.opendns.com/wp-content/uploads/2014/08/bp-bw-@2x.png" alt="BP" title="BP"></li>
-											<li><img src="https://www.opendns.com/wp-content/uploads/2014/08/nvidia-bw-@2x.png" alt="Nvidia" title="Nvidia"></li>
-											<li><img src="https://www.opendns.com/wp-content/uploads/2014/08/xerox-bw-@2x.png" alt="Xerox" title="Xerox"></li>
-											<li><img src="https://www.opendns.com/wp-content/uploads/2015/06/Evernote_Logo_grey1.png" alt="Evernote" title="Evernote"></li>
-											<li><img src="https://www.opendns.com/wp-content/uploads/2014/08/maccaroni-bw-@2x.png" alt="Romanos Macaroni Grill" title="Romanos Macaroni Grill"></li>
-											<li><img src="https://www.opendns.com/wp-content/uploads/2014/08/washington-university-bw-@2x1.png" alt="George Washington University" title="George Washington University"></li>
-											<li><img src="https://www.opendns.com/wp-content/uploads/2014/08/ul-bw-@2x.png" alt="Underwriters Laboratories" title="Underwriters Laboratories"></li>
-											<li><img src="https://www.opendns.com/wp-content/uploads/2014/08/specialized-bw-@2x.png" alt="Specialized" title="Specialized"></li>
-											<li><img src="https://www.opendns.com/wp-content/uploads/2014/08/coldwell-bw-@2x.png" alt="Coldwell Banker Prime Properties" title="Coldwell Banker Prime Properties"></li>
-											<li><img src="https://www.opendns.com/wp-content/uploads/2014/08/eastern-sports-bw-@2x.png" alt="Eastern Mountain Sports" title="Eastern Mountain Sports"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/bp-bw-@2x.png" alt="BP" title="BP"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/nvidia-bw-@2x.png" alt="Nvidia" title="Nvidia"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/xerox-bw-@2x.png" alt="Xerox" title="Xerox"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/06/Evernote_Logo_grey1.png" alt="Evernote" title="Evernote"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/maccaroni-bw-@2x.png" alt="Romanos Macaroni Grill" title="Romanos Macaroni Grill"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/washington-university-bw-@2x1.png" alt="George Washington University" title="George Washington University"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/ul-bw-@2x.png" alt="Underwriters Laboratories" title="Underwriters Laboratories"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/specialized-bw-@2x.png" alt="Specialized" title="Specialized"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/coldwell-bw-@2x.png" alt="Coldwell Banker Prime Properties" title="Coldwell Banker Prime Properties"></li>
+											<li><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/eastern-sports-bw-@2x.png" alt="Eastern Mountain Sports" title="Eastern Mountain Sports"></li>
 									</ul>
 			</div>
 			<div class="nav" id="nav-right">
@@ -382,19 +382,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									<p>See why Edward chose OpenDNS</p>
 								<div class="video-section-play"></div>
 			</div> <!-- .video-section-overlay -->
-							<video preload="auto" width="100%" height="auto" poster="/wp-content/themes/opendns/img/corp-video-splash.jpg">
+							<video preload="auto" width="100%" height="auto" poster="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/img/corp-video-splash.jpg">
 					<source src="https://d3581xjroqhv5u.cloudfront.net/OpenDNS_Overview.mp4" type="video/mp4">
 				</video>
 					</div> <!-- .video-section-video -->
 			</div> <!-- .video-section -->
-			<!--[if lte IE 9]>
-			<script src="/wp-content/themes/opendns/video/jwplayer.js"></script>
+				<!--[if lte IE 9]>
+			<script src="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/video/jwplayer.js"></script>
 			<script>jwplayer.key="QTKn2L5saPONaaH/ZYAYcO+TMbGTMS5EJ2erRqT/s7A=";</script>
 			<script>
 			var playerInstance = jwplayer('hosted-video');
 			playerInstance.setup({
 				file: "https://d3581xjroqhv5u.cloudfront.net/OpenDNS_Overview.mp4",
-				image: "/wp-content/themes/opendns/img/corp-video-splash.jpg",
+				image: "https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/img/corp-video-splash.jpg",
 				width: 960,
 				height: 540
 			});
@@ -407,7 +407,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="product-container">
 	<div class="grid">
 		<h2>Protect Your Business With OpenDNS Umbrella</h2>
-		<div class="screenshot"><img src="/wp-content/uploads/2014/08/product-@2x.png" alt="Product Image" title="Umbrella by OpenDNS" width="944" height="301"></div>
+		<div class="screenshot"><img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/product-@2x.png" alt="Product Image" title="Umbrella by OpenDNS" width="944" height="301"></div>
 		<div class="left-col">
 			<h3 class="product-column-title">Threat protection like no other</h3>
 			<p>OpenDNS Umbrella blocks malware, botnets and phishing over any port, protocol or app, and also detects and contains advanced attacks before they can cause damage. Our Security Graph engine uses big-data analytics and machine learning for predictive intelligence, to automate protection against both known and emergent threats.</p>
@@ -421,7 +421,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<h3 class="product-column-title">We have you covered, anywhere you go</h3>
 		<p>OpenDNS protects you on your laptop, smartphone, desktop, server, and network</p>
 		<div class="devices">
-			<img src="/wp-content/uploads/2014/08/devices-@2x.png" alt="devices" title="Devices OpenDNS protects" width="589" height="72">
+			<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/devices-@2x.png" alt="devices" title="Devices OpenDNS protects" width="589" height="72">
 		</div>
 		<div class="cta">
 			<a href="/enterprise-security/threat-enforcement/features/" class="orange button" title="See Product Features">See Product Features</a>
@@ -437,7 +437,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<div class="item opendns-cisco">
 					<h3 class="trending-item-title">OpenDNS Joins Cisco</h3>
 																		<a href="/cisco-opendns/" class="image-link">
-								<img src="https://www.opendns.com/wp-content/uploads/2015/07/Screen-Shot-2015-07-25-at-10.06.44-AM.png" alt="OpenDNS Joins Cisco">
+								<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/07/Screen-Shot-2015-07-25-at-10.06.44-AM.png" alt="OpenDNS Joins Cisco">
 							</a>
 																			<p class="tag">CIsco Acquisition</p>
 																<p>Cisco completed its acquisition of OpenDNS. Together, we will continue our mission to deliver cloud security that protects any device, anywhere. </p>
@@ -450,7 +450,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<div class="item forrester-on-cisco-opendns">
 					<h3 class="trending-item-title">Forrester on Cisco & OpenDNS</h3>
 																		<a href="/enterprise-security/resources/white-papers/see-what-forrester-is-saying-about-ciscos-acquisition-of-opendns/" class="image-link">
-								<img src="https://www.opendns.com/wp-content/uploads/2015/09/forrester-brief-trending-promo-540x320.png" alt="Forrester on Cisco & OpenDNS">
+								<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/09/forrester-brief-trending-promo-540x320.png" alt="Forrester on Cisco & OpenDNS">
 							</a>
 																			<p class="tag">FORRESTER BRIEF</p>
 																<p>For security and risk pros considering Cisco security solutions, this report details the impact of their acquisition of OpenDNS and why Cisco&#8217;s network security portfolio finally stands on its own merit.</p>
@@ -463,7 +463,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<div class="item what-customers-are-saying">
 					<h3 class="trending-item-title">What Customers Are Saying</h3>
 																		<a href="/enterprise-security/customers/" class="image-link">
-								<img src="https://www.opendns.com/wp-content/uploads/2015/07/PTC-Trending-Area.png" alt="What Customers Are Saying">
+								<img src="https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2015/07/PTC-Trending-Area.png" alt="What Customers Are Saying">
 							</a>
 																			<p class="tag">Customer Video</p>
 																<p>Customer Mark Arnold, Director of Information Security at PTC, explains how OpenDNS helps his team &#8220;defend forward.&#8221;</p>
@@ -478,7 +478,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div><!-- .home-trending-container -->
 
 <div class="image-banner stats">
-<div class="banner home-stats" style="background-image: url(https://www.opendns.com/wp-content/uploads/2014/08/stats-background-@2x.png);"></div><div class="grid"><h2>Numbers We Are Proud Of</h2>
+<div class="banner home-stats" style="background-image: url(https://d295hzzivaok4k.cloudfront.net/wp-content/uploads/2014/08/stats-background-@2x.png);"></div><div class="grid"><h2>Numbers We Are Proud Of</h2>
 <div class="left-box">
 <p><span class='number'>2</span><span class='type'>%</span><br>
 of Internet requests
@@ -508,17 +508,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Sep 21</span>
+							<span class="date">Sep 28</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://blog.opendns.com/2015/09/21/the-brief-september-14th-20th/" title="The Brief: September 14th-20th">The Brief: September 14th-20th</a>
+							<a href="https://blog.opendns.com/2015/09/28/the-brief-september-21st-27th/" title="The Brief: September 21st-27th">The Brief: September 21st-27th</a>
 						</h4>
-						<p class="author">Author: The Brief</p>
-						<div class="excerpt"><p>This week in the Brief: Apple gets the patch, Senators weigh in on securing vehicles, and security professionals need to &hellip;<span class="overflow"> rethink their priorities:                                                                                    &hellip;</span></p>
+						<p class="author">Author: Kara Drapala</p>
+						<div class="excerpt"><p>This week, in the Brief: China is both a hero and a victim, cash is king, and we all live &hellip;<span class="overflow"> in the future with Mikko Hypponen and Apple Watch bugs:                                                                                     &hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/09/21/the-brief-september-14th-20th/" title="The Brief: September 14th-20th" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/09/28/the-brief-september-21st-27th/" title="The Brief: September 21st-27th" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 								<li class="post clearfix">
@@ -530,17 +530,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Sep 17</span>
+							<span class="date">Sep 24</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://blog.opendns.com/2015/09/17/how-bad-guys-hide-online-part-two/" title="How Bad Guys Hide Online, Part Two">How Bad Guys Hide Online, Part Two</a>
+							<a href="https://blog.opendns.com/2015/09/24/hackers-are-returning-to-their-roots-infosec-should-too/" title="Hackers Are Returning to Their Roots, InfoSec Pros Should Too">Hackers Are Returning to Their Roots, InfoSec Pros Should Too</a>
 						</h4>
 						<p class="author">Author: Stephen Lynch</p>
-						<div class="excerpt"><p>For the concluding part of this two-part series, we spoke with security researcher Anthony Kasza about the challenges facing financially-motivated &hellip;<span class="overflow"> criminals as they try to stay anonymous online.  It’s not a controversial&hellip;</span></p>
+						<div class="excerpt"><p>For today’s profit-driven criminals, there’s major money in malware. Malware allows them to package exploits and exfiltration functionality together, making &hellip;<span class="overflow"> it easier for them to compromise a large number of users quickly and&hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/09/17/how-bad-guys-hide-online-part-two/" title="How Bad Guys Hide Online, Part Two" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/09/24/hackers-are-returning-to-their-roots-infosec-should-too/" title="Hackers Are Returning to Their Roots, InfoSec Pros Should Too" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -556,17 +556,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Sep 21</span>
+							<span class="date">Sep 22</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://labs.opendns.com/2015/09/21/xcodeghost-materializes/" title="XCodeGhost \'Materializes\' on App Store">XCodeGhost 'Materializes' on App Store</a>
+							<a href="https://labs.opendns.com/2015/09/22/log-analysis-with-opendns/" title="Log Analysis with OpenDNS">Log Analysis with OpenDNS</a>
 						</h4>
-						<p class="author">Author: Andrew Hay</p>
-						<div class="excerpt"><p>According to several sources, Apple&#8217;s App Store, known for being a strictly regulated closed ecosystem, has been infiltrated with malware &hellip;<span class="overflow"> that our friends over at Palo Alto Networks&#8217; Unit 42 are calling XcodeGhost. Unit 42&hellip;</span></p>
+						<p class="author">Author: Josh Pyorre</p>
+						<div class="excerpt"><p>Logs&#8230;They try to tell you what&#8217;s going on in a system, but it takes a special kind of patience to &hellip;<span class="overflow"> read through hundreds of thousands of lines of machine generated text full of arcane errors and differing timestamps.  As a&hellip;</span></p>
 </div>
-						<a href="https://labs.opendns.com/2015/09/21/xcodeghost-materializes/" title="XCodeGhost \'Materializes\' on App Store" class="read-more">Read More &rarr;</a>
+						<a href="https://labs.opendns.com/2015/09/22/log-analysis-with-opendns/" title="Log Analysis with OpenDNS" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -605,7 +605,7 @@ daily DNS requests
 			<div class="main-column">
 				<div class="nav-footer"><ul class="main"><li class="columns menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><h3 class="title">What We Make</h3>
 <ul class="submenu">
-<li class=" menu-item menu-item-type-post_type menu-item-object-enterprise-product"><a href="https://www.opendns.com/enterprise-security/threat-enforcement/">Threat Enforcement</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-enterprise-product"><a href="https://www.opendns.com/enterprise-security/threat-intelligence/">Threat Intelligence</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.opendns.com/about/innovations/">OpenDNS Innovations</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.opendns.com/home-internet-security/#enhanced-dns">Premium DNS</a></li></ul></li><li class="columns menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><h3 class="title">Who We Are</h3>
+<li class=" menu-item menu-item-type-post_type menu-item-object-enterprise-product"><a href="https://www.opendns.com/enterprise-security/threat-enforcement/">Threat Enforcement</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-enterprise-product"><a href="https://www.opendns.com/enterprise-security/threat-intelligence/">Threat Intelligence</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.opendns.com/about/innovations/">OpenDNS Innovations</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.opendns.com/home-internet-security/">Premium DNS</a></li></ul></li><li class="columns menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><h3 class="title">Who We Are</h3>
 <ul class="submenu">
 <li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.opendns.com/data-center-locations/">Data Center Locations</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://system.opendns.com">System @ OpenDNS</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://blog.opendns.com">Company Blog</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://engineering.opendns.com">Engineering Blog</a></li><li class=" menu-item menu-item-type-custom menu-item-object-custom"><a href="http://labs.opendns.com">Security Labs</a></li></ul></li><li class="columns menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><h3 class="title">Learn More</h3>
 <ul class="submenu">
@@ -665,7 +665,7 @@ var google_remarketing_only = true;
 <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1027916531/?value=0&amp;label=zFolCMuk1wQQ84WT6gM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
-</div><script type="text/javascript" src="/wp-content/themes/opendns/js/lib/jquery.string.min.js"></script>
+</div><script type="text/javascript" src="https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/jquery.string.min.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function($){
   var excludedReferrers = [ "opendns.com", "umbrella.com" ];
@@ -777,10 +777,12 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=3e02d1fd24079d85a0ebdbfa0524e7d1'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":425,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://d295hzzivaok4k.cloudfront.net/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=569ea1d10b1b0173c7a0e8ee4b4951c0'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":536,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
- Served from: www.opendns.com @ 2015-09-21 18:10:57 by W3 Total Cache -->
+Content Delivery Network via Amazon Web Services: CloudFront: d295hzzivaok4k.cloudfront.net
+
+ Served from: www.opendns.com @ 2015-09-28 18:11:00 by W3 Total Cache -->

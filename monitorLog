@@ -1,110 +1,52 @@
-Sun Sep 20 00:00:01 CST 2015 --- Clear Log OK
+Sun Sep 27 00:00:01 CST 2015 --- Clear Log OK
 
-lxw_IOError: 	2015-09-20-09:10:01
+lxw_IOError: 	2015-09-27-09:10:02
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-09-20-09:10:04
-[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-09-20-09:10:07
+lxw_IOError: 	2015-09-27-09:10:07
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING: 	2015-09-20-09:10:14
+lxw_IOError: 	2015-09-27-09:10:10
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+EMAIL SENDING: 	2015-09-27-09:10:13
 
-EMAIL SENDING SUCCESS: 	2015-09-20-09:10:17
+EMAIL SENDING SUCCESS: 	2015-09-27-09:10:16
 
-EMAIL SENDING: 	2015-09-20-09:10:17
+EMAIL SENDING: 	2015-09-27-09:10:16
 
-EMAIL SENDING SUCCESS: 	2015-09-20-09:10:28
+EMAIL SENDING SUCCESS: 	2015-09-27-09:10:23
 
-Monitor Finished.   Monitor Time: 2015-09-20-09:10:28.   Time Cost: 0'27"
+Monitor Finished.   Monitor Time: 2015-09-27-09:10:23.   Time Cost: 0'21"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_IOError: 	2015-09-20-22:16:37
+lxw_IOError: 	2015-09-28-09:10:01
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-09-20-22:16:40
+lxw_IOError: 	2015-09-28-09:10:04
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-09-20-22:16:44
+lxw_IOError: 	2015-09-28-09:10:09
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-lxw_Timed Out: http://www.unbound.net/	2015-09-20-22:17:38
+EMAIL SENDING: 	2015-09-28-09:10:13
 
-EMAIL SENDING: 	2015-09-20-22:17:38
+EMAIL SENDING SUCCESS: 	2015-09-28-09:10:17
 
-EMAIL SENDING SUCCESS: 	2015-09-20-22:17:43
-
-Monitor Finished.   Monitor Time: 2015-09-20-22:17:43.   Time Cost: 1'5"
+Monitor Finished.   Monitor Time: 2015-09-28-09:10:17.   Time Cost: 0'15"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_IOError: 	2015-09-20-22:21:04
+lxw_IOError: 	2015-09-29-09:10:02
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-09-20-22:21:06
+lxw_IOError: 	2015-09-29-09:10:05
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-09-20-22:21:09
+lxw_IOError: 	2015-09-29-09:10:07
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-Information: URL recovery. lxw_KeyError: http://www.unbound.net/	2015-09-20-22:21:13
+EMAIL SENDING: 	2015-09-29-09:10:37
 
-EMAIL SENDING: 	2015-09-20-22:21:17
+EMAIL SENDING SUCCESS: 	2015-09-29-09:10:52
 
-EMAIL SENDING SUCCESS: 	2015-09-20-22:21:19
+EMAIL SENDING: 	2015-09-29-09:10:52
 
-Monitor Finished.   Monitor Time: 2015-09-20-22:21:19.   Time Cost: 0'15"
-------------------------------------------------------------------------------
+EMAIL SENDING SUCCESS: 	2015-09-29-09:11:04
 
-------------------------------------------------------------------------------
-lxw_IOError: 	2015-09-20-22:28:25
-[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-09-20-22:28:27
-[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-09-20-22:28:31
-[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING: 	2015-09-20-22:28:55
-
-EMAIL SENDING SUCCESS: 	2015-09-20-22:28:56
-
-EMAIL SENDING: 	2015-09-20-22:28:56
-
-EMAIL SENDING SUCCESS: 	2015-09-20-22:28:56
-
-Monitor Finished.   Monitor Time: 2015-09-20-22:28:56.   Time Cost: 0'31"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-lxw_IOError: 	2015-09-21-09:10:01
-[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-Information: URL recovery. lxw_KeyError: http://www.cert.org.cn/	2015-09-21-09:10:01
-
-lxw_IOError: 	2015-09-21-09:10:04
-[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-09-21-09:10:08
-[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-lxw_Timed Out: http://www.ietf.org/	2015-09-21-09:11:02
-
-EMAIL SENDING: 	2015-09-21-09:11:02
-
-EMAIL SENDING SUCCESS: 	2015-09-21-09:11:04
-
-Monitor Finished.   Monitor Time: 2015-09-21-09:11:04.   Time Cost: 1'2"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-Information: URL recovery. lxw_KeyError: http://www.ietf.org/	2015-09-22-09:10:02
-
-lxw_IOError: 	2015-09-22-09:10:02
-[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-09-22-09:10:02
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 675, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.ietf.org_'
-
-lxw_IOError: 	2015-09-22-09:10:05
-[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-09-22-09:10:09
-[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING: 	2015-09-22-09:10:15
-
-EMAIL SENDING SUCCESS: 	2015-09-22-09:10:27
-
-Monitor Finished.   Monitor Time: 2015-09-22-09:10:27.   Time Cost: 0'25"
+Monitor Finished.   Monitor Time: 2015-09-29-09:11:04.   Time Cost: 1'2"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------

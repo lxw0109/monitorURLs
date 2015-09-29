@@ -67,7 +67,7 @@
 <link href="https://ns-cdn.neustar.biz/biz/neustar/base/css/_min/ns2014_min.css" media="screen" rel="stylesheet" type="text/css" >
 <link href="/base/css/print.css" media="print" rel="stylesheet" type="text/css" >
 <link href="/base/css/tools.css" media="screen" rel="stylesheet" type="text/css" >
-<link href="/base/css/ns2014.css" media="screen" rel="stylesheet" type="text/css" >
+<link href="https://ns-cdn.neustar.biz/creative_services/biz/neustar/www/base/css/ns-2015.css" media="screen" rel="stylesheet" type="text/css" >
 <!--[if IE]> <link href="/base/css/ie.css" media="screen" rel="stylesheet" type="text/css" ><![endif]--><!--[if lt IE 9]> <script type="text/javascript" src="https://ns-cdn.neustar.biz/_global/js/html5shiv/html5shiv/3.6.1/html5shiv.js"></script><![endif]-->
 <script type="text/javascript" src="https://ns-cdn.neustar.biz/biz/neustar/base/js/_min/ns2014_min.js"></script>
 <script type="text/javascript" src="https://ns-cdn.neustar.biz/biz/neustar/base/js/ns2014.js"></script>    
@@ -249,12 +249,7 @@
             <div class="clr"></div>
         </div>
     </section>
-    <section class="breadcrumbs">
-    <div class="container_12">
-        <aside itemprop="breadcrumb">
-                            <a id="breadcrumbs-mainNav_1" href="/">Home</a> / <a id="breadcrumbs-mainNav_2" href="/about-us" target="_self">About Us</a> / <a id="breadcrumbs-mainNav_12" href="/about-us/news-room">News Room</a> / Press Releases                    </aside>
-    </div>
-</section></header>
+    </header>
 <script type="text/javascript" src="/website/static/js/le-mtagconfig.js"></script>
 <script type="text/javascript">
     dataLayer = [{
@@ -464,7 +459,7 @@ Email: <a href="mailto:PR@neustar.biz">PR@neustar.biz</a></p>
 
 <ul class="grid_2 omega">
 	<li><a href="/about-us">About Us</a></li>
-	<li><a href="http://www.neustar.biz/blog">Blog</a></li>
+	<li><a href="/blog">Blog</a></li>
 	<li><a href="http://www.neustarlife.biz" target="_blank">Careers</a></li>
 	<li><a href="/about-us/contact-us">Contact Us</a></li>
 	<li><a href="/about-us/investor-relations">Investor Relations</a></li>
@@ -539,7 +534,7 @@ Email: <a href="mailto:PR@neustar.biz">PR@neustar.biz</a></p>
 	<div class="expContent">
 	<ul>
 		<li><a href="/about-us">About Us</a></li>
-		<li><a href="http://www.neustar.biz/blog">Blog</a></li>
+		<li><a href="/blog">Blog</a></li>
 		<li><a href="http://www.neustarlife.biz" target="_blank">Careers</a></li>
 		<li><a href="/about-us/contact-us">Contact Us</a></li>
 		<li><a href="/about-us/investor-relations">Investor Relations</a></li>

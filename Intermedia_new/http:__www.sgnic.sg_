@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-xzwXo4QLfzQ0qQ3EaOzmxe4r-w_ZM4uBKy7ebShV_gk" value="form-xzwXo4QLfzQ0qQ3EaOzmxe4r-w_ZM4uBKy7ebShV_gk"  />
+<input type="hidden" name="form_build_id" id="form-b6-bEuirTXwe0s3sO3z8wQnUc9h_j8G44NfarqJb71g" value="form-b6-bEuirTXwe0s3sO3z8wQnUc9h_j8G44NfarqJb71g"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-KN5JGYu-00JRaGN4lJT5AXNwsMeDMRoA0v7Ed-L0-9M" value="form-KN5JGYu-00JRaGN4lJT5AXNwsMeDMRoA0v7Ed-L0-9M"  />
+<input type="hidden" name="form_build_id" id="form-zyziX6T18d6OxCXTyjhRC0zT76dCIqCQScYmMw3xa14" value="form-zyziX6T18d6OxCXTyjhRC0zT76dCIqCQScYmMw3xa14"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 21, 2015, 11:01 am</span>
+                <span class="field-content">September 28, 2015, 9:20 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/21/from-one-member-to-another-make-your-membership-count/">From one Member to another, make your membership count</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/28/lacnic-looks-under-the-browsers-bonnet/">LACNIC looks under the browser’s bonnet</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 21, 2015, 10:30 am</span>
+                <span class="field-content">September 25, 2015, 8:56 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/21/sri-lanka-register-now-for-network-security-workshop/">Sri Lanka! Register now for network security workshop</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/25/ipv6-on-the-march/">IPv6 on the March</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 18, 2015, 9:27 am</span>
+                <span class="field-content">September 25, 2015, 8:08 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/18/four-things-from-apnic-40/">Four things from APNIC 40</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/25/arin-reaches-ipv4-depletion/">ARIN Reaches IPv4 Depletion</a></span>
   </div>
 </li>
       </ul>

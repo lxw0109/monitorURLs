@@ -43,7 +43,7 @@
 <!--[if lt IE 9]>
     <link href="https://www.apnic.net/_designs/corporate-identity/css/bootstrap.min.css" rel="stylesheet">
 <![endif]-->
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.5.2" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.5.3" rel="stylesheet">
         <link href="https://www.apnic.net/__data/assets/css_file/0016/72322/legacy.css?v=0.1.9" rel="stylesheet">
 
         <style>
@@ -68,7 +68,7 @@
         <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <script src="https://www.apnic.net/__data/assets/js_file/0004/76360/miscjs.js?v=0.5.1"></script>
+        <script src="https://www.apnic.net/__data/assets/js_file/0004/76360/miscjs.js?v=0.5.2"></script>
 
 
 						
@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 22 September 2015 11:10:48
+  Page generated: 29 September 2015 11:11:00
 -->
 
 
@@ -187,13 +187,13 @@
 <div class="site-top-nav-level2">
 <div><a href="https://www.apnic.net/services/apply-for-resources">Get IP Addresses</a></div>
 
-<div><a href="https://www.apnic.net/services/become-a-member/manage-your-membership/transfer-resources">Transfer Resources</a></div>
+<div><a href="https://www.apnic.net/manage-ip/manage-resources/transfer-resources">Transfer IP and ASNs</a></div>
 
-<div><a href="https://www.apnic.net/services/services-apnic-provides/registration-services/reverse-dns">Reverse DNS</a></div>
+<div><a href="https://www.apnic.net/manage-ip/manage-resources/reverse-dns">Reverse DNS</a></div>
 
-<div><a href="https://www.apnic.net/services/services-apnic-provides/routing-registry">Routing Registry</a></div>
+<div><a href="https://www.apnic.net/manage-ip/services-apnic-provides/routing-registry">Routing Registry</a></div>
 
-<div><a href="https://www.apnic.net/services/services-apnic-provides/resource-certification">Resource Certification (RPKI)</a></div>
+<div><a href="https://www.apnic.net/manage-ip/services-apnic-provides/resource-certification">Resource Certification (RPKI)</a></div>
 
 <div><a href="https://www.apnic.net/services/become-a-member">Membership</a></div>
 

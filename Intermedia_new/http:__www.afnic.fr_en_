@@ -388,7 +388,7 @@
                                                       <a href="/en/resources/subscriptions-and-social-networks-6.html">Subscriptions and social networks</a>
                                                   </li>
                                                                                                 <li>
-                                                      <a href="/en/resources/afnic-newsletter-37.html">Afnic Newsletter</a>
+                                                      <a href="/en/resources/afnic-newsletter-38.html">Afnic Newsletter</a>
                                                   </li>
                                                                                         </ul>
                                                                 </td>
@@ -520,7 +520,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="fd8f9ecb0fcc0c4e3babb099bd70f06c" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="a5da982ebd50638d35aeb782b4818f87" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>

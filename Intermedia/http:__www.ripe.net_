@@ -1078,18 +1078,10 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
-<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ripe-ncc-regional-meeting-in-yerevan">
-<span class="Title">RIPE NCC Regional Meeting in Yerevan</span>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ripe-ncc-and-cept-com-itu-sign-letter-of-understanding">
+<span class="Title">RIPE NCC and CEPT Com-ITU Sign Letter of Understanding</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 16 Sep 2015</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/proposal-regarding-community-based-review-committee-to-assist-rirs-in-periodic-review-of-iana-numbering-services">
-<span class="Title">Proposal Regarding IANA Review Committee Selection Process</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date: 16 Sep 2015</span>
+<span class="date nobreak byline_date">Publication date: 23 Sep 2015</span>
 </span>
 </a>
 </li>
@@ -1097,7 +1089,15 @@
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
 <span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 15 Sep 2015</span>
+<span class="date nobreak byline_date">Publication date: 22 Sep 2015</span>
+</span>
+</a>
+</li>
+<li>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ripe-ncc-regional-meeting-in-yerevan">
+<span class="Title">RIPE NCC Regional Meeting in Yerevan</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date: 16 Sep 2015</span>
 </span>
 </a>
 </li>
@@ -1224,31 +1224,31 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
-<a href="https://labs.ripe.net/Members/stephane_bortzmeyer/checking-your-internet-connectivity-with-ripe-atlas-anchors" rel="nofollow">
-<span class="Title">Checking your Internet Connectivity with RIPE Atlas Anchors</span>
+<a href="https://labs.ripe.net/Members/mirjam/ipv6-on-the-march" rel="nofollow">
+<span class="Title">IPv6 on the March</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>14 Sep 2015</span>
+                              <span>25 Sep 2015</span>
 </span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://labs.ripe.net/Members/emileaben/has-the-routability-of-longer-than-24-prefixes-changed" rel="nofollow">
-<span class="Title">Has the Routability of Longer-than-/24 Prefixes Changed?</span>
+<a href="https://labs.ripe.net/Members/suzanne_taylor_muzzin/ripe-atlas-time-travel-is-here" rel="nofollow">
+<span class="Title">RIPE Atlas Time Travel Is Here</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>11 Sep 2015</span>
+                              <span>25 Sep 2015</span>
 </span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://labs.ripe.net/Members/massimo_candela/visualising-dns-issues-with-dnsmon" rel="nofollow">
-<span class="Title">Visualising DNS Issues with DNSMON</span>
+<a href="https://labs.ripe.net/Members/emileaben/looking-at-france-ix-with-ripe-atlas-and-ris" rel="nofollow">
+<span class="Title">Looking at France-IX with RIPE Atlas and RIS</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>04 Sep 2015</span>
+                              <span>24 Sep 2015</span>
 </span>
 </span>
 </a>
@@ -1307,8 +1307,8 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
-<a href="https://www.nro.net/news/creating-an-enabling-environment-for-ipv6-adoption-survey" rel="nofollow">
-<span class="Title">Creating an Enabling Environment for IPv6 Adoption Survey</span>
+<a href="https://www.nro.net/news/susan-chalmers-to-lead-efforts-on-ipv6-best-practices-forum" rel="nofollow">
+<span class="Title">Susan Chalmers to Lead Efforts on IPv6 Best Practices Forum</span>
 </a>
 </li>
 </ul>

@@ -120,7 +120,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-YJ9X2RPIweoHFUDI1mOI_PoCQmaH7p38xXGfm6aduH4" value="form-YJ9X2RPIweoHFUDI1mOI_PoCQmaH7p38xXGfm6aduH4"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-qCrdEff_9iP6GL1NBMQzyt84cl4eDjyJ8iSKAh-ObqA" value="form-qCrdEff_9iP6GL1NBMQzyt84cl4eDjyJ8iSKAh-ObqA"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -137,7 +137,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-Mv60wSl0ZS8NIVV3NP5VjUi6SLSudbGmEqgDxXOekVU" value="form-Mv60wSl0ZS8NIVV3NP5VjUi6SLSudbGmEqgDxXOekVU"  />
+<input type="hidden" name="form_build_id" id="form-vuz3d9yJXBau5SyZj9pzq3Zp78RCrUj9WiIBVpwHf-M" value="form-vuz3d9yJXBau5SyZj9pzq3Zp78RCrUj9WiIBVpwHf-M"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -357,6 +357,7 @@ Current open positions:</p>
 <a href="http://www.sidn.nl">SIDN</a><br/>
 <p><center>Bronze</center><a href="http://iis.se/">.SE</a><br/>
 <a href="http://www.ariservices.com">ARI Registry Services</a><br/>
+<a href="http://www.arin.net">ARIN</a><br/>
 <a href="http://bluecatnetworks.com">BlueCat</a><br/>
 <a href="http://www.centralnic.com">CentralNic</a><br/>
 <a href="http://www.cira.ca/">CIRA</a><br/>
@@ -394,7 +395,7 @@ Current open positions:</p>
 <a href="http://tcinet.ru">tcinet.ru</a><br/>
 <a href="http://telus.com">Telus</a><br/>
 <a href="http://www.edgecast.com/">Verizon EdgeCast</a><br/>
-<p><center>Blue</center><a href="http://www.hostmaster.ua">dotua</a><br/>
+<p><center>Blue</center><a href="http://www.hostmaster.ua">Hostmaster Ltd.</a><br/>
 <a href="https://www.maawg.org/">M3AAWG</a><br/>
 <a href="http://www.nlnetlabs.nl/">NLnet Labs</a><br/>
 <a href="http://sinodun.com/">Sinodun</a><br/>
@@ -410,9 +411,7 @@ Current open positions:</p>
 <a href="http://www.ufam.edu.br/">UFAM</a><br/>
 <a href="https://www.utwente.nl">UTwente</a><br/>
 <a href="http://www.wide.ad.jp/">WIDE</a><br/>
-<p><center>Beneficial</center><a href="http://afrinic.net">AFRINIC</a><br/>
-<a href="http://www.cogentco.com/">Cogent</a><br/>
-<a href="http://www.lacnic.net">LACNIC</a><br/>
+<p><center>Beneficial</center><a href="http://www.lacnic.net">LACNIC</a><br/>
 <a href="http://www.netnod.se/">Netnod</a><br/>
 <a href="http://www.ntt.com/">NTT</a><br/>
 <a href="">RTFM</a><br/>

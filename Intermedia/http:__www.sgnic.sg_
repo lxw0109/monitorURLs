@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-r8Xk4V-UKy6DbwZ83JFpGYEqhZF0-rqbQZQXjsIOBNE" value="form-r8Xk4V-UKy6DbwZ83JFpGYEqhZF0-rqbQZQXjsIOBNE"  />
+<input type="hidden" name="form_build_id" id="form-VaMKqGICyWwJumsKyS07NSpt2ofIVjbdulM_rx2Mlfo" value="form-VaMKqGICyWwJumsKyS07NSpt2ofIVjbdulM_rx2Mlfo"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-mGnKY92DUp0RqYpWT-i5O19-BX79hq2Do5sIxt4mQug" value="form-mGnKY92DUp0RqYpWT-i5O19-BX79hq2Do5sIxt4mQug"  />
+<input type="hidden" name="form_build_id" id="form-iknsPk3MW5aPr-nBIvArjNFbwZ0_8E0-rWQo1eqNkwo" value="form-iknsPk3MW5aPr-nBIvArjNFbwZ0_8E0-rWQo1eqNkwo"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 18, 2015, 9:27 am</span>
+                <span class="field-content">September 25, 2015, 8:56 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/18/four-things-from-apnic-40/">Four things from APNIC 40</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/25/ipv6-on-the-march/">IPv6 on the March</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 17, 2015, 9:33 am</span>
+                <span class="field-content">September 25, 2015, 8:08 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/17/myanmars-ict-ministry-opens-door-for-internet-infrastructure-development/">Myanmar’s ICT ministry opens door for Internet infrastructure development</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/25/arin-reaches-ipv4-depletion/">ARIN Reaches IPv4 Depletion</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 16, 2015, 9:45 am</span>
+                <span class="field-content">September 24, 2015, 9:45 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/16/afrinic-comes-to-apnic/">AFRINIC comes to APNIC</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/09/24/the-significance-of-cooperation/">The SIGnificance of Cooperation</a></span>
   </div>
 </li>
       </ul>

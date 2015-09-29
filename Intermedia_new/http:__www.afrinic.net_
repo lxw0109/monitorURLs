@@ -1123,15 +1123,15 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <div id="qaccordion1" class="qaccordion">
      	 <h3 class="acc-header">Latest News</h3>
   	 <div class="acc-content">
-      <p>14 September 2015</p>
-<p><a href="/en/library/news/1461-call-for-hosting-afrinic-25-is-open">Call for Hosting AFRINIC-25 is Open</a></p>
-<p>10 September 2015</p>
-<p><a href="/en/library/news/1459-the-call-for-hosting-afrinics-25th-public-policy-meeting-is-now-open">The Call for Hosting AFRINIC’s 25th Public Policy Meeting is Now Open</a></p>
+      <p>28 September 2015</p>
+<p><a href="/en/library/news/1467-call-for-presentations-for-afrinic-23-is-open" target="_blank">Call for Presentations for AFRINIC-23 is Open</a></p>
+<p>24 September 2015</p>
+<p><a href="/en/library/news/1463-registration-is-open-for-afrinic-23">Registration is Open for AFRINIC-23</a></p>
 <hr />
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt5600aaa188c28rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt5609e524920a1rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1145,8 +1145,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt5600aaa188c28"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt5600aaa188c28rssscroller_module", options);
+					instanceId : "pgt5609e524920a1"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt5609e524920a1rssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);

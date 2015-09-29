@@ -394,6 +394,13 @@
 		</ul>
 	</div>
 		<div class="block-wrapper filterable-block-wrapper news-events-content__filterable-block-wrapper">
+				<a href="http://nominum.com/news-events/survey-shows-consumers-want-simpler-online-protection-from-internet-service-providers/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+			<span class="new filterable-block__new">New</span>			<h2>Consumers Want Simple Online Protection</h2>
+			<p><p>Survey shows consumers want simpler online protection from Internet Service Providers. Growth of connected devices in the home leaves consumers feeling more vulnerable.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
 				<a href="http://nominum.com/news-events/nominum-helps-myrepublic-drive-better-subscriber-experience/" class="filterable-block filter-blocks__filterable-block" data-press-release>
 			<span class="type filterable-block__type">Press Release</span>
 						<h2>Nominum helps MyRepublic drive better subscriber experience</h2>
@@ -488,13 +495,6 @@
 			<span class="type filterable-block__type">Press Release</span>
 						<h2>New Research from Nominum Reveals Worst Global Cyber Threats of 2012</h2>
 			<p><p>DNS Data Contains Threat Insights for Fixed Networks and Mobile Devices. </p>
-</p>
-			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
-		</a>
-				<a href="http://nominum.com/news-events/nominum-releases-new-security-intelligence-application/" class="filterable-block filter-blocks__filterable-block" data-press-release>
-			<span class="type filterable-block__type">Press Release</span>
-						<h2>Nominum Releases New Security Intelligence Application</h2>
-			<p><p>Redwood City, CA, December 12, 2012 – Nominum™, the world’s leading provider of integrated subscriber, network, and security solutions for network operators, today announced the availability of the Security Intelligence application, a component of Nominum’s Network Security Solution that provides threat detection, threat mitigation and threat visibility. </p>
 </p>
 			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
 		</a>

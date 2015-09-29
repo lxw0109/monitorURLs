@@ -11,7 +11,7 @@
 			// P2 Configuration
 			var ajaxUrl                 = "http://blog.dnspod.cn/wp-admin/admin-ajax.php?p2ajax=true";
 			var updateRate              = "30000"; // 30 seconds
-			var nonce                   = "7b986d8c54";
+			var nonce                   = "184adb39d0";
 			var login_url               = "http://blog.dnspod.cn/wp-login.php?redirect_to=http%3A%2F%2Fblog.dnspod.cn%2F";
 			var templateDir             = "http://blog.dnspod.cn/wp-content/themes/p2012";
 			var isFirstFrontPage        = 1;
@@ -28,7 +28,7 @@
 			var inlineEditComments      = 1;
 			var wpUrl                   = "http://blog.dnspod.cn";
 			var rssUrl                  = "";
-			var pageLoadTime            = "2015-09-21 01:10:55";
+			var pageLoadTime            = "2015-09-28 01:10:57";
 			var original_title          = document.title;
 			var commentsOnPost          = new Array;
 			var postsOnPage             = new Array;
@@ -84,7 +84,7 @@ img.emoji {
 }
 </style>
 <script type="text/javascript">
-var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=577bbf967f"},"remote_auth":"W10= 2b7bcd2309ee9cc888f8850d630ef4d1cd085fb6 1442797855"};
+var duoshuoQuery = {"short_name":"dnspodblog","sso":{"login":"http:\/\/blog.dnspod.cn\/wp-login.php?action=duoshuo_login","logout":"http:\/\/blog.dnspod.cn\/wp-login.php?action=logout&_wpnonce=2ea8c6de5a"},"remote_auth":"W10= 4717d357eba815e6c3f44aa3ed7d3510db980072 1443402657"};
 duoshuoQuery.sso.login += '&redirect_to=' + encodeURIComponent(window.location.href);
 duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.href);
 </script>
@@ -92,7 +92,7 @@ duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var userSettings = {"url":"\/","uid":"0","time":"1442797855","secure":""};
+var userSettings = {"url":"\/","uid":"0","time":"1443402657","secure":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/utils.min.js?ver=4.3.1'></script>
@@ -160,10 +160,10 @@ try{convertEntities(p2txt);}catch(e){};;
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></li>
-<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1442797855324&f=1"></iframe></li>
+<li id="ds-qqt-follow-2" class="widget ds-widget-qqt-follow"><iframe  scrolling="no" width="227" height="75" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=DNSPod&style=1&t=1443402657868&f=1"></iframe></li>
 <li id="categories-2" class="widget widget_categories"><h2 class="widgettitle">分类目录</h2>
 		<ul>
-	<li class="cat-item cat-item-1"><a href="http://blog.dnspod.cn/category/uncategorized/" >DNSPod动态</a> (32)
+	<li class="cat-item cat-item-1"><a href="http://blog.dnspod.cn/category/uncategorized/" >DNSPod动态</a> (34)
 </li>
 	<li class="cat-item cat-item-335"><a href="http://blog.dnspod.cn/category/d%e7%9b%91%e6%8e%a7/" >D监控</a> (7)
 </li>
@@ -265,6 +265,166 @@ if (typeof DUOSHUO !== 'undefined')
 
 		<ul id="postlist">
 		
+				    		<li id="prologue-5153" class="post-5153 post type-post status-publish format-standard hentry category-uncategorized">
+	
+		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
+			<img alt='' src='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />		</a>
+		<h4>
+					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
+				<span class="meta">
+			<abbr title="2015-09-25T03:54:56Z">11:54 am <em>on</em> 2015 年 9 月 25 日</abbr>			<span class="actions">
+														<a href="http://blog.dnspod.cn/2015/09/%e6%b4%bb%e5%8a%a8%e5%8f%8c%e8%8a%82%e9%92%9c%e6%83%a0%ef%bc%8c5%e6%8a%98%e6%8a%a2%e8%b4%addnspod%e4%ba%91%e4%b8%bb%e6%9c%ba/" class="thepermalink">链接地址</a>
+				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/09/%e6%b4%bb%e5%8a%a8%e5%8f%8c%e8%8a%82%e9%92%9c%e6%83%a0%ef%bc%8c5%e6%8a%98%e6%8a%a2%e8%b4%addnspod%e4%ba%91%e4%b8%bb%e6%9c%ba/#respond' onclick='return addComment.moveForm( "prologue-5153", "0", "respond", "5153" )'>回复</a>
+							</span>
+							<span class="tags">
+					&nbsp;
+				</span>
+					</span>
+	</h4>
+
+	
+	<div id="content-5153" class="postcontent">
+		<h2><a href="http://blog.dnspod.cn/2015/09/%e6%b4%bb%e5%8a%a8%e5%8f%8c%e8%8a%82%e9%92%9c%e6%83%a0%ef%bc%8c5%e6%8a%98%e6%8a%a2%e8%b4%addnspod%e4%ba%91%e4%b8%bb%e6%9c%ba/">[活动]双节钜惠，5折抢购DNSPOD云主机&nbsp;</a></h2><p>9月15日，2015“云+未来”腾讯云技术领袖峰会在深圳召开。腾讯高级执行副总裁汤道生在会上表示，未来5年将保持每年投入20亿，共计超过100亿元的水平，推进腾讯云的基础设施建设和运营。</p>
+<p><a href="https://www.dnspod.cn/service/purchase/cvm?from=blog"  target="_blank"><img class="alignnone wp-image-5147 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/QQ截图20150918114725-446x334.jpg" alt="QQ截图20150918114725" width="446" height="334" /></a></p>
+<p>当前，以云计算、大数据为代表的互联网技术已渗透到各行各业，成为产业变革的推动力。云服务降低了连接一切的门槛，为用户与社会创造更大的价值。未来，许多的行业创新与竞争都将会是数据驱动，因此，选择合适的云服务合作伙伴，才能走在竞争对手的前面。</p>
+<p><a href="https://www.dnspod.cn/service/purchase/cvm?from=blog"  target="_blank"><img class="alignnone wp-image-5148 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/20150330160309_5754-453x334.jpg" alt="20150330160309_5754" width="453" height="334" /></a></p>
+<p>DNSPOD云主机是腾讯云为DNSPOD用户打造的专属云主机，我们为您提供直观可视化的管理页面，操作简单，方便快捷。提供资源隔离、数据安全、密码安全、安全加固等多达20种安全防护手段，保证您的数据安全是我们时刻的使命。<img s alt="" data-s="300,640" data-type="jpeg" data-ratio="0.6673306772908366" data-w="" data-src="http://mmbiz.qpic.cn/mmbiz/GUHkW7mVic5W1OknlUzd45anvAk59qt3B3fpTJbFl6qGfPjAagfD2ORIDFoakxlEeJn3gmMmhOOnWL9d7zf71jw/640?wx_fmt=jpeg&amp;wx_lazy=1" /></p>
+<p><a href="https://www.dnspod.cn/service/purchase/cvm?from=blog"  target="_blank"><img class="size-full wp-image-5149 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/u14023524163375238040fm21gp0.jpg" alt="u=1402352416,3375238040&amp;fm=21&amp;gp=0" width="391" height="220" /></a></p>
+<p>中秋，国庆，双节将至，为了感谢广大用户对DNSPOD一直以来的支持与信任，9月24日至10月9日，DNSPOD云主机首台5折，全场8折，优惠，为你而来！</p>
+<p><img s alt="" data-s="300,640" data-type="jpeg" data-ratio="0.6254980079681275" data-w="" data-src="http://mmbiz.qpic.cn/mmbiz/GUHkW7mVic5WuCkCHW8y5SI0NzCPbbxDH6cozJ7PQRs7fRUAlSV8DGj5nz6IPFcETAQLicbibF44HkBzN6oiaH3iauA/640?wx_fmt=jpeg&amp;wx_lazy=1" /><a href="https://www.dnspod.cn/service/purchase/cvm?from=blog"  target="_blank"><img class="alignnone wp-image-5150 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/5-500x313.jpg" alt="5" width="500" height="313" /></a></p>
+<p style="text-align: center;"><span style="color: #ff6600;"><strong>莫愁前路无知己，</strong></span></p>
+<p style="text-align: center;"><span style="color: #ff6600;"><strong>云主机抢购5折起！</strong></span></p>
+<p style="text-align: center;"><span style="color: #ff6600;"><strong>趁优惠，改变就现在。</strong></span></p>
+<p style="text-align: center;"><span style="color: #ff6600;"><strong>是时候</strong><strong>拥有你的第一台云主机了！</strong></span></p>
+<section class="135editor" data-id="85508">
+<section>
+<section>
+<section></section>
+<section></section>
+<section></section>
+</section>
+<section>
+<section class="135brush"><span style="color: #3366ff;"><strong>1、个人版云主机，1核1GB1M带宽，原价71元/月，现只要36元/月。</strong></span></p>
+<p><a href="https://www.dnspod.cn/service/purchase/cvm?from=blog"  target="_blank"><img class="size-full wp-image-5151 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/QQ截图20150917164045.jpg" alt="QQ截图20150917164045" width="479" height="429" /></a></p>
+<p><span style="color: #3366ff;"><strong>2、</strong><strong><strong><strong>企业版云主机，4核8GB5M带宽，原价605元/月，现只要303元/月。</strong></strong></strong></span><strong><br />
+</strong></p>
+<p><a href="https://www.dnspod.cn/service/purchase/cvm?from=blog"  target="_blank"><img class="size-full wp-image-5152 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/QQ截图20150917164056.jpg" alt="QQ截图20150917164056" width="485" height="425" /></a></p>
+</section>
+</section>
+</section>
+</section>
+	</div>
+
+	
+	
+	<div class="bottom-of-entry">&nbsp;</div>
+
+	
+
+
+			<div class="respond-wrap" style="display: none; ">
+										<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">回复 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/#respond" style="display:none;">取消回复</a></small></h3>
+									<form action="http://blog.dnspod.cn/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																			<p class="comment-notes"> 必填项已用 <span class="required">*</span> 标注</p>							<p class="comment-form-author"><label for="author">姓名 <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">电子邮件 <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">站点</label> <input id="url" name="url" type="text" value="" size="30" /></p>
+												<div class="form"><textarea id="comment" class="expand50-100" name="comment" cols="45" rows="3"></textarea></div> <label class="post-error" for="comment" id="commenttext_error"></label>						<span class="progress"><img src="http://blog.dnspod.cn/wp-content/themes/p2012/i/indicator.gif" alt="Loading..." title="Loading..." /></span>
+						<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="回复" /> <input type='hidden' name='comment_post_ID' value='5153' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="0418e7664e" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="168"/></p>					</form>
+							</div><!-- #respond -->
+				<script type="text/javascript">
+		jQuery(document).ready(function () {
+			jQuery('#commentform').submit(function () {
+				_gaq.push(
+					['_setAccount', 'UA-6185231-4'],
+					['_trackEvent', 'comment', 'submit']
+				);
+			});
+		});
+	</script>
+				</div></li>
+				    		<li id="prologue-5117" class="post-5117 post type-post status-publish format-standard hentry category-uncategorized">
+	
+		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
+			<img alt='' src='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />		</a>
+		<h4>
+					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
+				<span class="meta">
+			<abbr title="2015-09-21T03:19:15Z">11:19 am <em>on</em> 2015 年 9 月 21 日</abbr>			<span class="actions">
+														<a href="http://blog.dnspod.cn/2015/09/%e9%80%9a%e7%9f%a5%e4%b8%ad%e7%a7%8b%e8%8a%82%e6%94%be%e5%81%87%e5%ae%89%e6%8e%92/" class="thepermalink">链接地址</a>
+				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/09/%e9%80%9a%e7%9f%a5%e4%b8%ad%e7%a7%8b%e8%8a%82%e6%94%be%e5%81%87%e5%ae%89%e6%8e%92/#respond' onclick='return addComment.moveForm( "prologue-5117", "0", "respond", "5117" )'>回复</a>
+							</span>
+							<span class="tags">
+					&nbsp;
+				</span>
+					</span>
+	</h4>
+
+	
+	<div id="content-5117" class="postcontent">
+		<h2><a href="http://blog.dnspod.cn/2015/09/%e9%80%9a%e7%9f%a5%e4%b8%ad%e7%a7%8b%e8%8a%82%e6%94%be%e5%81%87%e5%ae%89%e6%8e%92/">[通知]中秋节放假安排&nbsp;</a></h2><div id="js_content" class="rich_media_content">
+<section class="article135">“一年月色最明夜，千里人心共赏时”，天上明月，人间团圆。9月27日，我们将迎来一年一度的中秋节。今年中秋，天空将出现30年一见的月全食。农历八月十六，月全食带来的“红月亮”将与“超级月亮”喜结良缘。略可惜的是，月全食发生时中国正值白天。</p>
+<p><a href="https://www.dnspod.cn/service/purchase/cvm?from=blog"  target="_blank"><img class="size-full wp-image-5137 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/SXRB201404010823000316366941907.jpg" alt="SXRB201404010823000316366941907" width="574" height="700" /></a></p>
+<p>小编建议大家在日出前、日落后观测“超级月亮”，据说即使用肉眼也能看到月表突起哦，好期待~</p>
+<p>中秋节期间DNSPOD放假安排如下：</p>
+<p><strong>放假时间：2015年9月26日，27日，共计2天。</strong></p>
+<p>为了保证放假期间DNSPOD各项服务正常运行，阿D安排了销售与技术人员值班，有问题请直接登陆官网【提交工单】或致电：400-111-1234，会有专业人员为您耐心解答疑问。</p>
+<p>再次感谢您对DNSPod的信赖和支持！</p>
+<p>——————————————————————————————————————————————————————————————————————————————————————————&#8212;&#8212;</p>
+<p>年年中秋待月圆，月圆最是相思时。D小编将为大家介绍月饼节的一些习俗。</p>
+<section class="135editor" data-id="85636" data-color="rgb(30, 155, 232)" data-custom="rgb(30, 155, 232)">
+<section>
+<section>
+<section><span style="color: #3366ff;"><strong class="135brush" data-brushtype="text">习俗一：赏明月</strong></span></section>
+<section data-width="0px"></section>
+</section>
+<section class="135brush" data-style="box-sizing: border-box;line-height: 25.6000003814697px; background-color: rgb(244, 244, 244);">赏月是中秋节的传统项目之一，《礼记》早有记载“秋暮夕月”，意为拜祭月神，逢此时则要举行迎寒和祭月，设香案。至唐宋时期，赏月之风更加盛行，关于中秋的诗词也层出不穷，包括辛弃疾的《木兰花慢中秋》，苏轼的《水调歌头》。<a href="http://blog.dnspod.cn/wp-content/uploads/2015/09/9e5389bbjw1ek3j9j2upuj20dw0dwq4u_副本.jpg"><br />
+</a> <a href="https://www.dnspod.cn/service/purchase/cvm?from=blog" ><img class="size-full wp-image-5140 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/IMG_9272.jpg" alt="IMG_9272" width="640" height="427" /></a></section>
+</section>
+</section>
+<section class="135editor" data-id="85636">
+<section>
+<section>
+<section><span style="color: #3366ff;"><strong class="135brush" data-brushtype="text">习俗二：吃月饼</strong></span></section>
+<section data-width="0px"></section>
+</section>
+<section class="135brush" data-style="box-sizing: border-box;line-height: 25.6000003814697px; background-color: rgb(244, 244, 244);">俗话说：“八月十五月正圆，中秋月饼香又甜”。月饼一词，源于南宋吴自牧的《梦梁录》，那时仅是一种点心食品。到后来人们逐渐把赏月与月饼结合在一起，寓意家人团圆，寄托思念。同时，月饼也是中秋时节朋友间用来联络感情的重要礼物。</section>
+</section>
+</section>
+<section class="135editor" data-id="85636">
+<section>
+<section>
+<section><span style="color: #3366ff;"><strong class="135brush" data-brushtype="text">习俗三：观大潮</strong></span></section>
+<section data-width="0px"></section>
+</section>
+<section class="135brush" data-style="box-sizing: border-box;line-height: 25.6000003814697px; background-color: rgb(244, 244, 244);">在古代，浙江一带除中秋赏月外，观潮可谓是又一中秋盛事。中秋观潮的风俗由来已久，早在汉代枚乘的《七发》赋中就有了相当详尽的记述。汉以后，中秋观潮之风更盛。明朱廷焕《增补武林旧事》和宋吴自牧《梦粱录》也有观潮记载。</section>
+</section>
+</section>
+<section class="135editor" data-id="85636">
+<section>
+<section>
+<section><span style="color: #3366ff;"><strong class="135brush" data-brushtype="text">习俗四：桂花酒</strong></span></section>
+<section data-width="0px"></section>
+</section>
+<section class="135brush" data-style="box-sizing: border-box;line-height: 25.6000003814697px; background-color: rgb(244, 244, 244);">人们经常在中秋时吃月饼赏桂花，食用桂花制作的各种食品，以糕点、糖果最为多见。中秋之夜，仰望着月中丹桂，闻着阵阵桂香，喝一杯桂花蜜酒，欢庆合家甜甜蜜蜜，已成为节日一种美的享受。</p>
+</section>
+</section>
+</section>
+</section>
+</div>
+<p>&nbsp;</p>
+	</div>
+
+	
+	
+	<div class="bottom-of-entry">&nbsp;</div>
+
+	
+
+
+</li>
 				    		<li id="prologue-5110" class="post-5110 post type-post status-publish format-standard hentry category-uncategorized">
 	
 		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
@@ -321,29 +481,7 @@ if (typeof DUOSHUO !== 'undefined')
 	
 
 
-			<div class="respond-wrap" style="display: none; ">
-										<div id="respond" class="comment-respond">
-				<h3 id="reply-title" class="comment-reply-title">回复 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/#respond" style="display:none;">取消回复</a></small></h3>
-									<form action="http://blog.dnspod.cn/wp-comments-post.php" method="post" id="commentform" class="comment-form">
-																			<p class="comment-notes"> 必填项已用 <span class="required">*</span> 标注</p>							<p class="comment-form-author"><label for="author">姓名 <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' required='required' /></p>
-<p class="comment-form-email"><label for="email">电子邮件 <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required' /></p>
-<p class="comment-form-url"><label for="url">站点</label> <input id="url" name="url" type="text" value="" size="30" /></p>
-												<div class="form"><textarea id="comment" class="expand50-100" name="comment" cols="45" rows="3"></textarea></div> <label class="post-error" for="comment" id="commenttext_error"></label>						<span class="progress"><img src="http://blog.dnspod.cn/wp-content/themes/p2012/i/indicator.gif" alt="Loading..." title="Loading..." /></span>
-						<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="回复" /> <input type='hidden' name='comment_post_ID' value='5110' id='comment_post_ID' />
-<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="ce004adb92" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="201"/></p>					</form>
-							</div><!-- #respond -->
-				<script type="text/javascript">
-		jQuery(document).ready(function () {
-			jQuery('#commentform').submit(function () {
-				_gaq.push(
-					['_setAccount', 'UA-6185231-4'],
-					['_trackEvent', 'comment', 'submit']
-				);
-			});
-		});
-	</script>
-				</div></li>
+</li>
 				    		<li id="prologue-5100" class="post-5100 post type-post status-publish format-standard hentry category-uncategorized">
 	
 		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
@@ -394,7 +532,7 @@ if (typeof DUOSHUO !== 'undefined')
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://2.gravatar.com/avatar/5f94d608ae3a93411b5106363580990f?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/5f94d608ae3a93411b5106363580990f?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.manhuakk.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.manhuakk.com']);"  rel='external nofollow' class='url'>色小组漫画</a>, <img alt='' src='http://0.gravatar.com/avatar/cb65053e2f00724202d1cbfaf0144a94?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/cb65053e2f00724202d1cbfaf0144a94?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> 1, <img alt='' src='http://1.gravatar.com/avatar/1a2892bd439e65d2dca34727aa3729ba?s=16&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/1a2892bd439e65d2dca34727aa3729ba?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://yueqiumao.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://yueqiumao.com']);"  rel='external nofollow' class='url'>月球猫科技</a> and one other person are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://2.gravatar.com/avatar/591e70d58dd0efbe1da3cb83f2f3c0c0?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/591e70d58dd0efbe1da3cb83f2f3c0c0?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.yingsec.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.yingsec.com']);"  rel='external nofollow' class='url'>影乐</a>, <img alt='' src='http://0.gravatar.com/avatar/62cb9f0af5a9227866379358ced9c2f3?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/62cb9f0af5a9227866379358ced9c2f3?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://cuiqg.cc/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://cuiqg.cc']);"  rel='external nofollow' class='url'>CuiQG丶</a>, <img alt='' src='http://2.gravatar.com/avatar/5f94d608ae3a93411b5106363580990f?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/5f94d608ae3a93411b5106363580990f?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.manhuakk.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.manhuakk.com']);"  rel='external nofollow' class='url'>色小组漫画</a> and 3 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	
@@ -403,7 +541,7 @@ if (typeof DUOSHUO !== 'undefined')
 	
 
 <ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2015/09/%e5%85%ac%e5%85%b1dns%e6%9c%8d%e5%8a%a1public-dns%e4%bb%8a%e6%97%a5%e4%b8%8a%e7%ba%bf/#comments"><span class="ds-thread-count" data-thread-key="5100" data-replace="1">4 Comments<span class="screen-reader-text"> on 公共DNS服务Public DNS+今日上线</span></span></a></ul>
+	<a href="http://blog.dnspod.cn/2015/09/%e5%85%ac%e5%85%b1dns%e6%9c%8d%e5%8a%a1public-dns%e4%bb%8a%e6%97%a5%e4%b8%8a%e7%ba%bf/#comments"><span class="ds-thread-count" data-thread-key="5100" data-replace="1">6 Comments<span class="screen-reader-text"> on 公共DNS服务Public DNS+今日上线</span></span></a></ul>
 
 </li>
 				    		<li id="prologue-5083" class="post-5083 post type-post status-publish format-standard hentry category-uncategorized">
@@ -772,7 +910,7 @@ DNSPOD放假安排如下：</p>
 	
 			<div class="discussion" style="display: none">
 			<p>
-				<img alt='' src='http://2.gravatar.com/avatar/bcab64bf11a0e5e376bc969c0f06dc55?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/bcab64bf11a0e5e376bc969c0f06dc55?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://yaoguu.com/baike/53.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://yaoguu.com']);"  rel='external nofollow' class='url'>腰果科技</a>, and <img alt='' src='http://0.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://www.kaixin001.com/home/?uid=146975586" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.kaixin001.com']);"  rel='external nofollow' class='url'>开星</a> are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
+				<img alt='' src='http://2.gravatar.com/avatar/bcab64bf11a0e5e376bc969c0f06dc55?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/bcab64bf11a0e5e376bc969c0f06dc55?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://yaoguu.com/baike/53.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://yaoguu.com']);"  rel='external nofollow' class='url'>腰果科技</a>, and <img alt='' src='http://0.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href="http://www.kaixin001.com/home/?uid=146975586" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.kaixin001.com']);"  rel='external nofollow' class='url'>开星</a> are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
 			</p>
 		</div>
 	
@@ -828,88 +966,6 @@ DNSPOD放假安排如下：</p>
 
 <ul class="commentlist inlinecomments">
 	<a href="http://blog.dnspod.cn/2015/06/%e3%80%90%e9%80%9a%e7%9f%a5%e3%80%91-%e7%ab%af%e5%8d%88%e8%8a%82%e6%94%be%e5%81%87%e5%ae%89%e6%8e%92/#comments"><span class="ds-thread-count" data-thread-key="5038" data-replace="1">4 Comments<span class="screen-reader-text"> on 【通知】 端午节放假安排</span></span></a></ul>
-
-</li>
-				    		<li id="prologue-5031" class="post-5031 post type-post status-publish format-standard hentry category-uncategorized category-notice tag-dnspod tag-381">
-	
-		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
-			<img alt='' src='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />		</a>
-		<h4>
-					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
-				<span class="meta">
-			<abbr title="2015-04-30T06:13:35Z">2:13 pm <em>on</em> 2015 年 4 月 30 日</abbr>			<span class="actions">
-														<a href="http://blog.dnspod.cn/2015/04/%e9%80%9a%e7%9f%a5%e4%ba%94%e4%b8%80%e6%94%be%e5%81%87%e9%80%9a%e7%9f%a5/" class="thepermalink">链接地址</a>
-				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/04/%e9%80%9a%e7%9f%a5%e4%ba%94%e4%b8%80%e6%94%be%e5%81%87%e9%80%9a%e7%9f%a5/#respond' onclick='return addComment.moveForm( "prologue-5031", "0", "respond", "5031" )'>回复</a>
-							</span>
-							<span class="tags">
-					<br />Tags: <a href="http://blog.dnspod.cn/tag/dnspod/" rel="tag">DNSPod ( 112 )</a>, 放假 &nbsp;&nbsp;
-				</span>
-					</span>
-	</h4>
-
-	
-	<div id="content-5031" class="postcontent">
-		<h2><a href="http://blog.dnspod.cn/2015/04/%e9%80%9a%e7%9f%a5%e4%ba%94%e4%b8%80%e6%94%be%e5%81%87%e9%80%9a%e7%9f%a5/">[通知]五一放假通知&nbsp;</a></h2><p>“ 劳动人民最光荣，阿D服务永不休”。首先预祝大家有一个愉快的五一，阿D五一假期放假安排如下：</p>
-<p>放假时间：2015年5月1日-5月3日，共3天；5月4日正常上班</p>
-<p><a href="http://blog.dnspod.cn/wp-content/uploads/2015/04/放假.png" ><img class="alignnone wp-image-5032 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/04/放假-425x334.png" alt="放假" width="425" height="334" /></a></p>
-<p>放假期间，为了保证DNSPod各项服务的正常与稳定，阿D安排了销售人员与技术人员值班，有问题请直接登陆官网提交工单或致电：400-111-1234，所有技术与销售问题均有工作人员处理。</p>
-<p>注：放假期间，由于值班人员有限，阿D可能会不能及时接听您的电话或回复您的消息，但请您放心，值班人员会在最短的时间内回复您的问题。给您造成的不便，敬请谅解。</p>
-<p>再次感谢您对DNSPod的支持！</p>
-	</div>
-
-	
-			<div class="discussion" style="display: none">
-			<p>
-				<img alt='' src='http://2.gravatar.com/avatar/b8d121aba7a3a3be79ce0c534bb9b561?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/b8d121aba7a3a3be79ce0c534bb9b561?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.jinmiaomu.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.jinmiaomu.com']);"  rel='external nofollow' class='url'>绿化苗木</a>, <img alt='' src='http://1.gravatar.com/avatar/1b9911e991ac49bdc932e5de17d3160c?s=16&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/1b9911e991ac49bdc932e5de17d3160c?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.luoboxu.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.luoboxu.com']);"  rel='external nofollow' class='url'>萝卜须</a>, <img alt='' src='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/6ec97d43fd30f5557a9dc02a68cc5b05?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.ganggan.com/trade?=32" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.ganggan.com']);"  rel='external nofollow' class='url'>杠杆网</a> and one other person are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
-			</p>
-		</div>
-	
-	<div class="bottom-of-entry">&nbsp;</div>
-
-	
-
-<ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2015/04/%e9%80%9a%e7%9f%a5%e4%ba%94%e4%b8%80%e6%94%be%e5%81%87%e9%80%9a%e7%9f%a5/#comments"><span class="ds-thread-count" data-thread-key="5031" data-replace="1">4 Comments<span class="screen-reader-text"> on [通知]五一放假通知</span></span></a></ul>
-
-</li>
-				    		<li id="prologue-5024" class="post-5024 post type-post status-publish format-standard hentry category-uncategorized category-notice tag-dnspod tag-383">
-	
-		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
-			<img alt='' src='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />		</a>
-		<h4>
-					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
-				<span class="meta">
-			<abbr title="2015-04-27T06:21:38Z">2:21 pm <em>on</em> 2015 年 4 月 27 日</abbr>			<span class="actions">
-														<a href="http://blog.dnspod.cn/2015/04/tingdiantongzhi/" class="thepermalink">链接地址</a>
-				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/04/tingdiantongzhi/#respond' onclick='return addComment.moveForm( "prologue-5024", "0", "respond", "5024" )'>回复</a>
-							</span>
-							<span class="tags">
-					<br />Tags: <a href="http://blog.dnspod.cn/tag/dnspod/" rel="tag">DNSPod ( 112 )</a>, 停电 &nbsp;&nbsp;
-				</span>
-					</span>
-	</h4>
-
-	
-	<div id="content-5024" class="postcontent">
-		<h2><a href="http://blog.dnspod.cn/2015/04/tingdiantongzhi/">[通知]停电通知&nbsp;</a></h2><p>尊敬的DNSPod用户：</p>
-<p>烟台开发区因供电设施重建，将在2015年4月28号08：00- 18：15之间停电。届时，DNSPod官方网站及解析服务均不受任何影响，但客服电话400-111-1234将无法正常使用。</p>
-<p>在此期间，售前咨询，请直接通过企业QQ（800020304）联系值班销售人员；售后问题，请登陆官网<a href="https://support.dnspod.cn/" >【帮助中心】</a>-提交工单。由于值班人员有限，您的问题处理时间可能较长，不过请您放心，阿D一定会以最快的速度给您回复。</p>
-<p>由此给大家带来的不便，敬请谅解。衷心感谢您对DNSPod的理解和支持。</p>
-	</div>
-
-	
-			<div class="discussion" style="display: none">
-			<p>
-				<img alt='' src='http://1.gravatar.com/avatar/1b9911e991ac49bdc932e5de17d3160c?s=16&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/1b9911e991ac49bdc932e5de17d3160c?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href="http://www.kmway.com" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.kmway.com']);"  rel='external nofollow' class='url'>可米网</a>, <img alt='' src='http://2.gravatar.com/avatar/ec6c9f387852eeeb527fa5d569322684?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ec6c9f387852eeeb527fa5d569322684?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> 1, <img alt='' src='http://2.gravatar.com/avatar/2296cbf6d52f7e1a3bd25d68a0d42711?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2296cbf6d52f7e1a3bd25d68a0d42711?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> dnspod用户 and 5 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
-			</p>
-		</div>
-	
-	<div class="bottom-of-entry">&nbsp;</div>
-
-	
-
-<ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2015/04/tingdiantongzhi/#comments"><span class="ds-thread-count" data-thread-key="5024" data-replace="1">9 Comments<span class="screen-reader-text"> on [通知]停电通知</span></span></a></ul>
 
 </li>
 			

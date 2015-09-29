@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CNNIC 安全小游戏 2015</title>
+<link type="text/css" rel="stylesheet" href="/secgames/Public/css/welcome.css">
+</head>
+<body bgcolor="#FFDC35">	
+   	<div class="login">
+	  <div class="start" style="align:center;">
+	        <ul>
+				<li style="font-size:32px; color:#8600FF; font-weight:bold;">欢迎您!您是第 10310 位游戏玩家!</li>							
+			</ul>
+		<!-- <a href="/secgames/index.php/Home/Index/generateQuestion.html"><img src="/secgames/Public/images/button.png" width="150" height="150"></img></a> -->
+		<a href="/secgames/index.php?m=Home&c=Index&a=generateQuestion"><img src="/secgames/Public/images/button.png" width="150" height="150"></img></a>
+		</div>
+	</div>
+</body>
+</html>
