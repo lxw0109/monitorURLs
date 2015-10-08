@@ -31,7 +31,7 @@
   <div id="top-nav">
    <ul id="primary"><li class="menu-88 first"><a href="https://portal.dns-oarc.net/cgi-bin/login.pl" title="OARC Members-Only Site"> Member Portal </a></li>
 <li class="menu-138 last"><a href="/oarc/services/dnsentropy" title="Web-based DNS randomness test">Test Your DNS</a></li>
-</ul>   <ul id="secondary"><li class="menu-90 first"><a href="https://public.dsc.dns-oarc.net/grapher">DSC</a></li>
+</ul>   <ul id="secondary"><li class="menu-90 first"><a href="https://public-dsc.dns-oarc.net/grapher" title="">DSC</a></li>
 <li class="menu-171 last"><a href="/wiki/mitigating-dns-denial-of-service-attacks" title="Mitigating DNS Denial of Service Attacks ">Mitigating DNS Denial of Service Attacks </a></li>
 </ul>  </div>
   
@@ -120,7 +120,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-qCrdEff_9iP6GL1NBMQzyt84cl4eDjyJ8iSKAh-ObqA" value="form-qCrdEff_9iP6GL1NBMQzyt84cl4eDjyJ8iSKAh-ObqA"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-9ULBcaE7RZlTgLd7jM79xiQLybOTdvKukKyy-X_rHtg" value="form-9ULBcaE7RZlTgLd7jM79xiQLybOTdvKukKyy-X_rHtg"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -137,7 +137,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-vuz3d9yJXBau5SyZj9pzq3Zp78RCrUj9WiIBVpwHf-M" value="form-vuz3d9yJXBau5SyZj9pzq3Zp78RCrUj9WiIBVpwHf-M"  />
+<input type="hidden" name="form_build_id" id="form-MIA-2medgxR9chA7cgX4XIf4jjWC30p15a0aI4EfWDw" value="form-MIA-2medgxR9chA7cgX4XIf4jjWC30p15a0aI4EfWDw"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -347,7 +347,7 @@ Current open positions:</p>
 <a href="http://rightside.co/about/about-us/">Rightside</a><br/>
 <a href="http://www.ripe.net/">RIPE NCC</a><br/>
 <p><center>Silver</center><a href="http://www.afnic.fr/">AFNIC</a><br/>
-<a href="www.akamai.com">Akamai</a><br/>
+<a href="https://www.akamai.com">Akamai</a><br/>
 <a href="http://www.apnic.net/">APNIC</a><br/>
 <a href="http://www.cisco.com/">Cisco</a><br/>
 <a href="http://www.denic.de/">DENIC</a><br/>
@@ -358,6 +358,7 @@ Current open positions:</p>
 <p><center>Bronze</center><a href="http://iis.se/">.SE</a><br/>
 <a href="http://www.ariservices.com">ARI Registry Services</a><br/>
 <a href="http://www.arin.net">ARIN</a><br/>
+<a href="http://www.biigroup.cn/">BII Group</a><br/>
 <a href="http://bluecatnetworks.com">BlueCat</a><br/>
 <a href="http://www.centralnic.com">CentralNic</a><br/>
 <a href="http://www.cira.ca/">CIRA</a><br/>
@@ -377,6 +378,7 @@ Current open positions:</p>
 <a href="https://www.jasadvisors.com">JAS Advisors</a><br/>
 <a href="http://jprs.co.jp/en/">JPRS</a><br/>
 <a href="http://www.kisa.or.kr/eng/main.jsp">KISA/KRNIC</a><br/>
+<a href="http://libertyglobal.com">Liberty Global</a><br/>
 <a href="http://www.markmonitor.com">MarkMonitor</a><br/>
 <a href="http://www.mindsandmachines.com">Minds+Machines</a><br/>
 <a href="http://www.nic.cl">NIC Chile</a><br/>

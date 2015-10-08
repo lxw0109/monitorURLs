@@ -176,7 +176,6 @@
               							<a href="/en/products-and-services/afnic-consulting/">Afnic Consulting</a>
                                               							<ul class="submenu">
                                                     									 <li><a href="/en/products-and-services/afnic-consulting/marketing-strategy-and-sales.html">Marketing strategy and Sales</a></li>
-                  							                    									 <li><a href="/en/products-and-services/afnic-consulting/icann-compliance-institutional-and-regulatory-monitoring.html">ICANN Compliance, institutional and regulatory monitoring</a></li>
                   							                    									 <li><a href="/en/products-and-services/afnic-consulting/competitive-intelligence.html">Competitive Intelligence</a></li>
                   							                    									 <li><a href="/en/products-and-services/afnic-consulting/dnssec-expertise.html">DNSSEC expertise</a></li>
                   							                    									 <li><a href="/en/products-and-services/afnic-consulting/new-tld-opportunity-assessment.html">New TLD opportunity assessment</a></li>
@@ -184,6 +183,7 @@
                   							                    									 <li><a href="/en/products-and-services/afnic-consulting/dns-expertise.html">DNS Expertise</a></li>
                   							                    									 <li><a href="/en/products-and-services/afnic-consulting/secure-your-domain-name-portfolio-1.html">Secure your domain name portfolio</a></li>
                   							                    									 <li><a href="/en/products-and-services/afnic-consulting/new-tld-preparation-1.html">New TLD preparation</a></li>
+                  							                    									 <li><a href="/en/products-and-services/afnic-consulting/icann-compliance-institutional-and-regulatory-monitoring-1.html">ICANN Compliance, institutional and regulatory monitoring</a></li>
                   							  
                   								                  							</ul>
                                                       </td>
@@ -520,7 +520,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="a5da982ebd50638d35aeb782b4818f87" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="ebb6da6bf964333eec0d0caca67eca91" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -588,7 +588,10 @@
 		                    			<li>- <a href="/en/products-and-services/the-fr-tld/" title="Discover the .fr!">Discover the .fr!</a></li>
                     			
 			                    
-		                    			<li>- <a href="/en/your-domain-name/how-to-choose-and-create-your-domain-name/" title="Before buying, how do I choose my domain name?">Before buying, how do I choose my domain name?</a></li>
+		                    			<li>- <a href="/en/your-domain-name/how-to-choose-and-create-your-domain-name/" title="Before buying, how do I choose my domain name to create my website?">Before buying, how do I choose my domain name to create my website?</a></li>
+                    			
+			                    
+		                                            <li>- <a href="/en/your-domain-name/how-to-choose-and-create-your-domain-name/trouver-mon-bureau-d-enregistrement-8.html" title="Where to create and buy my domain name to create my website?">Where to create and buy my domain name to create my website?</a></li>
                     			
 			                    
 		                    			<li>- <a href="/en/your-domain-name/manage-your-domain-name/" title="Manage your domain name">Manage your domain name</a></li>
@@ -657,6 +660,11 @@
   
   <ul>
           <li>
+            <span class="date"><em>10/1/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9364/show/the-fr-tld-at-the-paris-micro-enterprise-trade-fair-from-6-to-8-october.html">The .fr TLD at the Paris Micro-Enterprise Trade Fair from 6 to 8 October</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9364/show/the-fr-tld-at-the-paris-micro-enterprise-trade-fair-from-6-to-8-october.html">At the Paris Micro-Enterprise Trade Fair, the registry for the .fr TLD and three of its accredited registrars will be advising business people about c...</a></span>
+    </li>
+       <li>
             <span class="date"><em>9/1/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9320/show/afnic-selected-for-two-centr-awards-2015.html">Afnic selected for two CENTR Awards 2015</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9320/show/afnic-selected-for-two-centr-awards-2015.html">For the second edition of the CENTR Awards, Afnic has been selected for two categories: « R&amp;D » and « Contributor of the year ».</a></span>
@@ -675,11 +683,6 @@
             <span class="date"><em>6/23/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9170/show/afnic-rewarded-for-its-quality-management-approach-initiated-since-2008.html">Afnic rewarded for its quality management approach initiated since 2008</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9170/show/afnic-rewarded-for-its-quality-management-approach-initiated-since-2008.html">Afnic was awarded its EFQM® Recognized for Excellence (R4E) certification at 4 star-level by Mr Paris, EFQM Delegate General France.</a></span>
-    </li>
-       <li>
-            <span class="date"><em>6/22/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9168/show/99-of-registrars-are-satisfied-with-afnic-services.html">99% of Registrars are satisfied with Afnic Services</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/9168/show/99-of-registrars-are-satisfied-with-afnic-services.html">Afnic has disclosed the results of its annual survey on the quality of its services.</a></span>
     </li>
      </ul>
     <div class="mainContent" style="padding:0">
@@ -797,7 +800,6 @@
           		                	<li>
                   		<a href="/en/products-and-services/afnic-consulting/">Afnic Consulting</a>
                   		                   			<span><a href="/en/products-and-services/afnic-consulting/marketing-strategy-and-sales.html" >Marketing strategy and Sales</a></span>
-                  		                   			<span><a href="/en/products-and-services/afnic-consulting/icann-compliance-institutional-and-regulatory-monitoring.html" >ICANN Compliance, institutional and regulatory monitoring</a></span>
                   		                   			<span><a href="/en/products-and-services/afnic-consulting/competitive-intelligence.html" >Competitive Intelligence</a></span>
                   		                   			<span><a href="/en/products-and-services/afnic-consulting/dnssec-expertise.html" >DNSSEC expertise</a></span>
                   		                   			<span><a href="/en/products-and-services/afnic-consulting/new-tld-opportunity-assessment.html" >New TLD opportunity assessment</a></span>
@@ -805,6 +807,7 @@
                   		                   			<span><a href="/en/products-and-services/afnic-consulting/dns-expertise.html" >DNS Expertise</a></span>
                   		                   			<span><a href="/en/products-and-services/afnic-consulting/secure-your-domain-name-portfolio-1.html" >Secure your domain name portfolio</a></span>
                   		                   			<span><a href="/en/products-and-services/afnic-consulting/new-tld-preparation-1.html" >New TLD preparation</a></span>
+                  		                   			<span><a href="/en/products-and-services/afnic-consulting/icann-compliance-institutional-and-regulatory-monitoring-1.html" >ICANN Compliance, institutional and regulatory monitoring</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/products-and-services/training/">Training</a>

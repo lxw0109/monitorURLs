@@ -321,7 +321,9 @@ MM_reloadPage(true);
                                 <tr align="center"> 
                                   <td><a href="http://itn.tw/" target="_blank"><img src="img/ccnet.gif" border="0" width="120" height="30"></a></td>
                                 </tr>
-                                <tr align="center"> </tr>
+                                <tr align="center">
+                                  <td><a href="http://www.gandi.com.tw/" target="_blank"><img src="img/gdi.gif" border="0" width="120" height="30"></a></td>
+								</tr>
                               </table>
                             </td>
                           </tr>
@@ -540,6 +542,9 @@ MM_reloadPage(true);
                       <td><img src="http://www.twnic.net.tw/img/link.gif" width="135" height="21"></td>
                     </tr>
 <tr align="center">
+<td><a href="http://iview.twnic.net.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/256.gif" border="0"></a></td>
+</tr>
+<tr align="center">
 <td><a href="http://lovetw.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/250.gif" border="0"></a></td>
 </tr>
 <tr align="center">
@@ -547,6 +552,9 @@ MM_reloadPage(true);
 </tr>
 <tr align="center">
 <td><a href="http://www.myhome.net.tw/timeline  " target="_blank"><img src="http://www.twnic.net.tw/brarchive/235.gif" border="0"></a></td>
+</tr>
+<tr align="center">
+<td><a href="http://www.careernet.org.tw/n/Class-8683.html" target="_blank"><img src="http://www.twnic.net.tw/brarchive/258.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="http://www.careernet.org.tw/n/Class-8607.html" target="_blank"><img src="http://www.twnic.net.tw/brarchive/254.gif" border="0"></a></td>
@@ -600,7 +608,7 @@ MM_reloadPage(true);
     </td>
   </tr>
 </table>
-
+ 
 <!-- <div id="Layer1" style="position:absolute; left:160; top:400; width:480; height:160"><a href=http://www.lovetw.tw><img src=09lovetw.gif border=0></a></div>
 <script>
 setTimeout("up_Layer1()",1000);

@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-b6-bEuirTXwe0s3sO3z8wQnUc9h_j8G44NfarqJb71g" value="form-b6-bEuirTXwe0s3sO3z8wQnUc9h_j8G44NfarqJb71g"  />
+<input type="hidden" name="form_build_id" id="form-TQY86_KkLAPaRxQni8RTcNmdvyp--PT0cGJTjf53pE0" value="form-TQY86_KkLAPaRxQni8RTcNmdvyp--PT0cGJTjf53pE0"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-zyziX6T18d6OxCXTyjhRC0zT76dCIqCQScYmMw3xa14" value="form-zyziX6T18d6OxCXTyjhRC0zT76dCIqCQScYmMw3xa14"  />
+<input type="hidden" name="form_build_id" id="form-pHdgG10ixtnP0ug1n4FgqegCxKLnSd6B9n_90WIYNjs" value="form-pHdgG10ixtnP0ug1n4FgqegCxKLnSd6B9n_90WIYNjs"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -120,6 +120,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-created">
+                <span class="field-content">September 21, 2015, 11:10 am</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/sg50-premium-numeric-name-application">SG50 Premium Numeric Name Application</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-created">
                 <span class="field-content">September 9, 2015, 9:08 am</span>
   </div>
   
@@ -127,22 +136,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="/news/sgnic-q-15005-invitation-quote-anycast-dns-service">SGNIC-Q-15005: Invitation to Quote for an Anycast DNS Service</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-created">
                 <span class="field-content">August 17, 2015, 10:53 am</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="/news/results-july-2015-premium-domain-name-pdn-exercise">Results of July 2015 Premium Domain Name (&quot;PDN&quot;) Exercise</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-created">
-                <span class="field-content">July 24, 2015, 4:40 pm</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/i-love-sg-national-day-2015-promotion">&quot;I Love .SG&quot; National Day 2015 Promotion!</a></span>
   </div>
 </li>
       </ul>
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 28, 2015, 9:20 am</span>
+                <span class="field-content">October 7, 2015, 7:02 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/28/lacnic-looks-under-the-browsers-bonnet/">LACNIC looks under the browser’s bonnet</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/10/07/event-wrap-lacnic-24/">Event Wrap: LACNIC 24</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 25, 2015, 8:56 am</span>
+                <span class="field-content">October 7, 2015, 9:12 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/25/ipv6-on-the-march/">IPv6 on the March</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/10/07/the-open-internet/">The Open Internet?</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">September 25, 2015, 8:08 am</span>
+                <span class="field-content">October 7, 2015, 8:32 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/09/25/arin-reaches-ipv4-depletion/">ARIN Reaches IPv4 Depletion</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/10/07/paul-wilson-re-elected-chair-of-aprigf/">Paul Wilson re-elected chair of APrIGF</a></span>
   </div>
 </li>
       </ul>

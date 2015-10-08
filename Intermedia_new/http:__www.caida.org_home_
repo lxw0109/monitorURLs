@@ -370,10 +370,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="/publications/papers/2009/small_blocks_complex_nets/"><img title="Visualization of the PGP network and its dK-randomizations" alt="" height="250" width="300" src="/images/dk_series-pgp_randomizations_med.png"></a>
+<a href="http://imdc.datcat.org/"><img title="DatCat: The Internet Measurement Data Catalog" alt="" height="250" width="300" src="/images/logo_datcat_med.png"></a>
 </div>
 <div class="captiontext">
-<a href="/publications/papers/2009/small_blocks_complex_nets/">dK-randomizations of the PGP network</a>
+<a href="http://imdc.datcat.org/">DatCat</a>
 </div>
 <hr>
 <div class="captiontext">
@@ -410,26 +410,18 @@ padding: 0px 8px 2px 12px;
 <div id="feedtablegroup">
 <div class="column">
 <div class="columnheader">
-<span class="headertext">UPCOMING</span>
-</div>
-<div class="messageareas">
-<b class="rc0"></b><b class="rc1"></b><b class="rc2"></b><b class="rc3"></b>
-<div class="rccontent">
-<table summary="CAIDA What's New feed: Upcoming Events" class="feedtable">
-<tr>
-<td><a href="http://www.caida.org/workshops/ndn/1509/" title="The NDN Project will host its second NDN community meeting (NDNcomm) on September 28th-29th 2015. A two-day hackathon will be held the Saturday and Sunday before the NDNcomm meeting.">NDN Community Meeting (NDNcomm 2015): Architecture, Applications, and Collaboration</a></td><td><span style="white-space:nowrap;">Sep 28-29</span></td>
-</tr>
-</table>
-</div>
-<b class="rc3"></b><b class="rc2"></b><b class="rc1"></b><b class="rc0"></b>
-</div>
-<div class="columnheader">
 <span class="headertext headerlink"><a href="archived-news.xml">NEW</a></span>
 </div>
 <div class="messageareas">
 <b class="rc0"></b><b class="rc1"></b><b class="rc2"></b><b class="rc3"></b>
 <div class="rccontent">
 <table summary="CAIDA What's New main feed" class="feedtable">
+<tr>
+<td><a href="http://www.caida.org/data/active/complete_dns_lookups_dataset.xml" title="This dataset contains PTR and SOA DNS lookups of every routed IPv4 address. We use our own parallel DNS query tool to perform the DNS lookups from a single host at CAIDA over a period of 3-4 weeks.">"Complete Routed-Space DNS Lookups" dataset available</a></td><td>Sep&nbsp;29</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://www.caida.org/workshops/ndn/1509/" title="The NDN Project will host its second NDN community meeting (NDNcomm) on September 28th-29th 2015. A two-day hackathon will be held the Saturday and Sunday before the NDNcomm meeting.">NDN Community Meeting (NDNcomm 2015): Architecture, Applications, and Collaboration</a></td><td><span style="white-space:nowrap;">Sep 28-29</span></td>
+</tr>
 <tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/software_systems_surveying_spoofing_dhs/" title="This slideset was presented at: DHS S&amp;T DDoS Defense Meeting (August 2015)">"Software Systems for Surveying Spoofing Susceptibility" slideset</a></td><td>Aug&nbsp;11</td>
 </tr>
@@ -484,12 +476,6 @@ The goal of this workshop series is to provide a forum for researchers, commerci
 
 This workshop was by invitation only. Slidesets will be posted as they are made available.">5th Workshop on Internet Economics (WIE 2014)</a></td><td><span style="white-space:nowrap;">Dec 10-11</span></td>
 </tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/presentations/2014/inferring_complex_as_relationships_imc/" title="This slideset was presented at the ACM Internet Measurement Conference (IMC) in November 2014.">"Inferring Complex AS Relationships" slideset</a></td><td>Nov&nbsp;26</td>
-</tr>
-<tr>
-<td><a href="http://www.caida.org/publications/presentations/2014/challenges_inferring_internet_interdomain_congestion_imc/" title="This slideset was presented at the ACM Internet Measurement Conference (IMC) in November 2014.">"Challenges in Inferring Internet Interdomain Congestion" slideset</a></td><td>Nov&nbsp;26</td>
-</tr>
 </table>
 </div>
 <b class="rc3"></b><b class="rc2"></b><b class="rc1"></b><b class="rc0"></b>
@@ -532,39 +518,41 @@ This workshop was by invitation only. Slidesets will be posted as they are made 
 <div class="rccontent">
 <table summary="CAIDA What's New feed: New Papers" class="feedtable">
 <tr>
-<td><a href="http://www.caida.org/publications/papers/2015/ethics_research_development_creds/" title="E. Kenneally and M. Fomenkov, &quot;Ethics Research &amp; Development Summary: Cyber-security Research Ethics Decision Support (CREDS) Tool&quot;, in ACM SIGCOMM Workshop on Ethics in Networked Systems Research, Aug 2015.">Ethics Research &amp; Development Summary: Cyber-security Research Ethics Decision Support (CREDS) Tool</a></td><td>Sep&nbsp;16</td>
+<td><a href="http://www.caida.org/publications/papers/2015/aims2015_report/" title="In submission to ACM SIGCOMM Computer Communication Review (CCR).
+k. claffy, &quot;The 7th Workshop on Active Internet Measurements (AIMS-7) Report&quot;, ACM SIGCOMM Computer Communication Review (CCR), Oct 2015.
+">The 7th Workshop on Active Internet Measurements (AIMS-7) Report</a></td><td>Oct&nbsp;1</td>
 </tr>
 <tr class="zebra">
-<td><a href="http://www.caida.org/publications/papers/2015/investigating_excessive_delays_mobile/" title="N. Larson, D. Baltrunas, A. Kvalbein, A. Dhamdhere, k. claffy, and A. Elmokashfi, &quot;Investigating Excessive Delays in Mobile Broadband Networks&quot;, in ACM SIGCOMM Workshop on All Things Cellular (ATC), Aug 2015.">Investigating Excessive Delays in Mobile Broadband Networks</a></td><td>Sep&nbsp;10</td>
+<td><a href="http://www.caida.org/publications/papers/2015/ethics_research_development_creds/" title="E. Kenneally and M. Fomenkov, &quot;Ethics Research &amp; Development Summary: Cyber-security Research Ethics Decision Support (CREDS) Tool&quot;, in ACM SIGCOMM Workshop on Ethics in Networked Systems Research, Aug 2015.">Ethics Research &amp; Development Summary: Cyber-security Research Ethics Decision Support (CREDS) Tool</a></td><td>Sep&nbsp;16</td>
 </tr>
 <tr>
+<td><a href="http://www.caida.org/publications/papers/2015/investigating_excessive_delays_mobile/" title="N. Larson, D. Baltrunas, A. Kvalbein, A. Dhamdhere, k. claffy, and A. Elmokashfi, &quot;Investigating Excessive Delays in Mobile Broadband Networks&quot;, in ACM SIGCOMM Workshop on All Things Cellular (ATC), Aug 2015.">Investigating Excessive Delays in Mobile Broadband Networks</a></td><td>Sep&nbsp;10</td>
+</tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/adding_enhanced_services_internet/" title="To be presented at TPRC in September 2015.
 
 k. claffy and D. Clark, &quot;Adding Enhanced Services to the Internet: Lessons from History&quot;, in Telecommunications Policy Research Conference (TPRC), Sep 2015.">Adding Enhanced Services to the Internet: Lessons from History</a></td><td>Sep&nbsp;10</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/leveraging_internet_background_radiation/" title="To be presented at IMC 2015.
 
 K. Benson, A. Dainotti, k. claffy, A. Snoeren, and M. Kallitsis, &quot;Leveraging Internet Background Radiation for Opportunistic Network Analysis&quot;, in Internet Measurement Conference (IMC), Oct 2015.">Leveraging Internet Background Radiation for Opportunistic Network Analysis</a></td><td>Sep&nbsp;9</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/leveraging_ipv4ipv6_identity_duality/" title="I. Livadariu, S. Ferlin, O. Alay, T. Dreibholz, A. Dhamdhere, and A. Elmokashfi, &quot;Leveraging the IPv4/IPv6 Identity Duality by using Multi-Path Transport&quot;, Apr 2015.">Leveraging the IPv4/IPv6 Identity Duality by using Multi-Path Transport</a></td><td>Jul&nbsp;21</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/hyperbolic_graph_generator/" title="R. Aldecoa, C. Orsini, and D. Krioukov, &quot;Hyperbolic graph generator&quot;, Computer Physics Communications, Jun 2015.">Hyperbolic graph generator</a></td><td>Jul&nbsp;8</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/network_mapping_replaying_hyperbolic/" title="F. Papadopoulos, C. Psomas, and D. Krioukov, &quot;Network Mapping by Replaying Hyperbolic Growth&quot;, IEEE/ACM Transactions on Networking, vol. 23, no. 1, pp. 198--211, Feb 2015.">Network Mapping by Replaying Hyperbolic Growth</a></td><td>Jul&nbsp;8</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/comments_cybersecurity_research_development/" title="Comment in response to Request for Information (RFI)-Federal Cybersecurity R&amp;D Strategic Plan, posted by the National Science Foundation on 4/27/2015.
 D. Clark and k. claffy, &quot;Comments on Cybersecurity Research and Development Strategic Plan&quot;, Federal Communications Commission (FCC) Commission Documents, Jun 2015.">Comments on Cybersecurity Research and Development Strategic Plan</a></td><td>Jun&nbsp;30</td>
 </tr>
-<tr>
-<td><a href="http://www.caida.org/publications/papers/2015/named_data_networking_2014-2015/" title="V. Jacobson, J. Burke, L. Zhang, B. Zhang, K. Claffy, C. Papadopoulos, T. Abdelzaher, L. Wang, J. Halderman, and P. Crowley, &quot;Named Data Networking Next Phase (NDN-NP) Project May 2014 - April 2015 Annual Report&quot;, Tech. rep., Named Data Networking (NDN), Jun 2015.">Named Data Networking Next Phase (NDN-NP) Project Annual Report</a></td><td>Jun&nbsp;29</td>
-</tr>
 <tr class="zebra">
-<td><a href="http://www.caida.org/publications/papers/2015/how_dangerous_internet_scanning/" title="E. Raftopoulos, E. Glatz, X. Dimitropoulos, and A. Dainotti, &quot;How Dangerous Is Internet Scanning? A Measurement Study of the Aftermath of an Internet-Wide Scan&quot;, in Traffic Monitoring and Analysis Workshop (TMA), Apr 2015, vol. 9053, pp. 158--172.">How Dangerous Is Internet Scanning?</a></td><td>Jun&nbsp;12</td>
+<td><a href="http://www.caida.org/publications/papers/2015/named_data_networking_2014-2015/" title="V. Jacobson, J. Burke, L. Zhang, B. Zhang, K. Claffy, C. Papadopoulos, T. Abdelzaher, L. Wang, J. Halderman, and P. Crowley, &quot;Named Data Networking Next Phase (NDN-NP) Project May 2014 - April 2015 Annual Report&quot;, Tech. rep., Named Data Networking (NDN), Jun 2015.">Named Data Networking Next Phase (NDN-NP) Project Annual Report</a></td><td>Jun&nbsp;29</td>
 </tr>
 </table>
 </div>

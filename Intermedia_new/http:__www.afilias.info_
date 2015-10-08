@@ -89,7 +89,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-acxbAzcYzlYm5qjjUmCrojWym3GBLu_Dgzm2D4wedpk" value="form-acxbAzcYzlYm5qjjUmCrojWym3GBLu_Dgzm2D4wedpk"  />
+<input type="hidden" name="form_build_id" id="form--jXAeBuY9AdQkTD3joYr9YbGmxeRwzqDPoYjXHHeE8s" value="form--jXAeBuY9AdQkTD3joYr9YbGmxeRwzqDPoYjXHHeE8s"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 
@@ -503,12 +503,12 @@ width: 16.2em!important;
 				</a>
 			</div>
 			<div>
-				<a href="https://www.nic.ltda/" class="gray-logo-hover" title="LTDA" target="_blank">
+				<a href="https://www.internetx.info" class="gray-logo-hover" title="LTDA" target="_blank">
 					<img alt="dot LTDA Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotLTDA.jpg" title="dot LTDA Logo" /><img alt="dot LTDA Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotLTDA1.jpg" title="dot LTDA Logo" />
 				</a>
 			</div>
 			<div>
-				<a href="http://www.nic.srl/" class="gray-logo-hover" title="SRL" target="_blank">
+				<a href="https://www.internetx.info" class="gray-logo-hover" title="SRL" target="_blank">
 					<img alt="dot SRL Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotSRL.jpg" title="dot SRL Logo" /><img alt="dot SRL Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotSRL1.jpg" title="dot SRL Logo" />
 				</a>
 			</div>

@@ -31,7 +31,7 @@
   <div id="top-nav">
    <ul id="primary"><li class="menu-88 first"><a href="https://portal.dns-oarc.net/cgi-bin/login.pl" title="OARC Members-Only Site"> Member Portal </a></li>
 <li class="menu-138 last"><a href="/oarc/services/dnsentropy" title="Web-based DNS randomness test">Test Your DNS</a></li>
-</ul>   <ul id="secondary"><li class="menu-90 first"><a href="https://public.dsc.dns-oarc.net/grapher">DSC</a></li>
+</ul>   <ul id="secondary"><li class="menu-90 first"><a href="https://public-dsc.dns-oarc.net/grapher" title="">DSC</a></li>
 <li class="menu-171 last"><a href="/wiki/mitigating-dns-denial-of-service-attacks" title="Mitigating DNS Denial of Service Attacks ">Mitigating DNS Denial of Service Attacks </a></li>
 </ul>  </div>
   
@@ -46,9 +46,9 @@
 <p>
 <a href="/oarc/agreements">Joining and Participating in DNS-OARC</a></p>
 <p>
-<a href="https://indico.dns-oarc.net/event/24" color="blue">DNS-OARC Montreal Fall 2015 Workshop</a></p>
+<a href="https://indico.dns-oarc.net/event/24/speakers" color="blue">DNS-OARC Montreal Fall 2015 Workshop Presentations</a></p>
 <p>
-<a href="https://indico.dns-oarc.net/event/21/timetable/#all.detailed">DNS-OARC Spring 2015 Workshop Presentations</a></p>
+<a href="https://plus.google.com/+DnsoarcNetPlus/videos">DNS-OARC Workshop Presentation Videos</a></p>
 <p>
 <a href="https://medium.com/@dnsoarc">Latest OARC Blog Posts</a></p>
 <p>
@@ -82,8 +82,7 @@
 <li class="leaf"><a href="/oarc/services/dlvtest" title="A zone for testing DLVs">dlvtest</a></li>
 <li class="leaf last"><a href="/oarc/services/dontprobe" title="Database of networks and addresses that should not be actively probed">Dont Probe</a></li>
 </ul></li>
-<li class="expanded"><a href="https://indico.dns-oarc.net/index.py">Upcoming Workshops</a><ul class="menu"><li class="collapsed first"><a href="https://indico.dns-oarc.net/event/24/" title="">2015 Montreal</a></li>
-<li class="leaf last"><a href="https://indico.dns-oarc.net/event/22/" title="">2016 Buenos Aires</a></li>
+<li class="expanded"><a href="https://indico.dns-oarc.net/index.py">Upcoming Workshops</a><ul class="menu"><li class="leaf first last"><a href="https://indico.dns-oarc.net/event/22/" title="">2016 Buenos Aires</a></li>
 </ul></li>
 <li class="collapsed"><a href="https://indico.dns-oarc.net/" title="Information about OARC&#039;s parts workshops">Past Workshops</a></li>
 <li class="collapsed"><a href="/oarc/tools">DNS Tools Catalog</a></li>
@@ -120,7 +119,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-AUExZUHxYJApTY0_VlQ90imHaMoUe7kX-9PwIMLD3Yg" value="form-AUExZUHxYJApTY0_VlQ90imHaMoUe7kX-9PwIMLD3Yg"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-zmbaeni9K9ozcdGpSlUPF328X5MH3UGDaQkM_7nAG04" value="form-zmbaeni9K9ozcdGpSlUPF328X5MH3UGDaQkM_7nAG04"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -137,7 +136,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-rxYrQATDTXKtC3eZ2OV0eQIc6f2UV5i2-MgNzD-F7G0" value="form-rxYrQATDTXKtC3eZ2OV0eQIc6f2UV5i2-MgNzD-F7G0"  />
+<input type="hidden" name="form_build_id" id="form-OjJDGtoLyD1qNlvMcwgT4M9OhliuhEis6nP5Fe-EGMY" value="form-OjJDGtoLyD1qNlvMcwgT4M9OhliuhEis6nP5Fe-EGMY"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -170,6 +169,19 @@
   </div>
     <div class="info">
     Submitted by wessels on Thu, 2008-07-03 22:40          </div>
+</div>
+<div class="node  ">
+        <h2><a href=" /oarc/services/tldmon " title=" OARC&#039;s TLDmon Service "> OARC&#039;s TLDmon Service </a></h2>
+     <div class="content">
+          <div class="blue">
+OARC's <a href="https://tldmon.dns-oarc.net/nagios/" target="_blank">TLDmon</a> uses <a href="http://www.nagios.org/">Nagios</a> to monitor operational characteristics of authoritative nameservers for the Root Zone and all Top Level Domains.  TLDmon checks for authoritative answers, EDNS support, lame delegations, consistent NS RR sets, open resolvers, expired RRSIGs, matching serial numbers, and TCP support.  As the Domain Name System continues its evolution, it becomes increasingly important that these critical nameservers are configured correctly.
+</div>  </div>
+    <div class="info">
+    Submitted by admin on Wed, 2015-10-07 10:23          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
+</ul> ]</span>
+              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/oarc/services/tldmon" title="Read the rest of OARC&#039;s TLDmon Service.">Read more</a></li>
+</ul> </span>
+      </div>
 </div>
 <div class="node  ">
         <h2><a href=" /node/348 " title=" RSSAC 002 "> RSSAC 002 </a></h2>
@@ -303,21 +315,6 @@ Ondrej will be standing for re-election.
 </ul> </span>
       </div>
 </div>
-<div class="node  ">
-        <h2><a href=" /oarc/careers " title=" Vacancies at DNS-OARC "> Vacancies at DNS-OARC </a></h2>
-     <div class="content">
-          <p>As part of OARC's strategic development plan, we will be hiring for a number of positions in 2014/5. These are unique opportunities for independent-minded candidates seeking to develop their experience and skills with a nonprofit organization of critical importance to the future of the Internet. This is a chance to play a key role in growing OARC as a respected, sustainable, autonomous, neutral organization.</p>
-<p>
-Current open positions:</p>
-<h2 class="western"><a href="https://www.dns-oarc.net/sweng"><font face="Arial, Helvetica, sans-serif"><font size="2" style="font-size: 11pt;">Software Engineer</font></font></a></h2>
-  </div>
-    <div class="info">
-    Submitted by keith on Thu, 2014-07-17 20:38          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
-</ul> ]</span>
-              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/oarc/careers" title="Read the rest of Vacancies at DNS-OARC.">Read more</a></li>
-</ul> </span>
-      </div>
-</div>
 <div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
 <li class="pager-item"><a href="/node?page=1" title="Go to page 2" class="active">2</a></li>
 <li class="pager-item"><a href="/node?page=2" title="Go to page 3" class="active">3</a></li>
@@ -347,7 +344,7 @@ Current open positions:</p>
 <a href="http://rightside.co/about/about-us/">Rightside</a><br/>
 <a href="http://www.ripe.net/">RIPE NCC</a><br/>
 <p><center>Silver</center><a href="http://www.afnic.fr/">AFNIC</a><br/>
-<a href="www.akamai.com">Akamai</a><br/>
+<a href="https://www.akamai.com">Akamai</a><br/>
 <a href="http://www.apnic.net/">APNIC</a><br/>
 <a href="http://www.cisco.com/">Cisco</a><br/>
 <a href="http://www.denic.de/">DENIC</a><br/>
@@ -358,6 +355,7 @@ Current open positions:</p>
 <p><center>Bronze</center><a href="http://iis.se/">.SE</a><br/>
 <a href="http://www.ariservices.com">ARI Registry Services</a><br/>
 <a href="http://www.arin.net">ARIN</a><br/>
+<a href="http://www.biigroup.cn/">BII Group</a><br/>
 <a href="http://bluecatnetworks.com">BlueCat</a><br/>
 <a href="http://www.centralnic.com">CentralNic</a><br/>
 <a href="http://www.cira.ca/">CIRA</a><br/>
@@ -377,6 +375,7 @@ Current open positions:</p>
 <a href="https://www.jasadvisors.com">JAS Advisors</a><br/>
 <a href="http://jprs.co.jp/en/">JPRS</a><br/>
 <a href="http://www.kisa.or.kr/eng/main.jsp">KISA/KRNIC</a><br/>
+<a href="http://libertyglobal.com">Liberty Global</a><br/>
 <a href="http://www.markmonitor.com">MarkMonitor</a><br/>
 <a href="http://www.mindsandmachines.com">Minds+Machines</a><br/>
 <a href="http://www.nic.cl">NIC Chile</a><br/>

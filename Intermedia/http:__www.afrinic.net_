@@ -1123,13 +1123,15 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <div id="qaccordion1" class="qaccordion">
      	 <h3 class="acc-header">Latest News</h3>
   	 <div class="acc-content">
-      <p>24 September 2015</p>
-<p><a href="/en/library/news/1463-registration-is-open-for-afrinic-23">Registration is Open for AFRINIC-23</a></p>
+      <p style="line-height: 16.2px;">05 October 2015</p>
+<p class="p1"><a href="/en/library/news/1469-limited-services-alert-to-members" target="_blank">Limited Services</a></p>
+<p>28 September 2015</p>
+<p><a href="/en/library/news/1467-call-for-presentations-for-afrinic-23-is-open" target="_blank">Call for Presentations for AFRINIC-23 is Open</a></p>
 <hr />
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt560893a409545rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt561471283371erssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1143,8 +1145,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt560893a409545"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt560893a409545rssscroller_module", options);
+					instanceId : "pgt561471283371e"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt561471283371erssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);

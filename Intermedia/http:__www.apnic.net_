@@ -43,8 +43,8 @@
 <!--[if lt IE 9]>
     <link href="https://www.apnic.net/_designs/corporate-identity/css/bootstrap.min.css" rel="stylesheet">
 <![endif]-->
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.5.3" rel="stylesheet">
-        <link href="https://www.apnic.net/__data/assets/css_file/0016/72322/legacy.css?v=0.1.9" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.6.1" rel="stylesheet">
+        <link href="https://www.apnic.net/__data/assets/css_file/0016/72322/legacy.css?v=0.1.10" rel="stylesheet">
 
         <style>
             /* No Javascript stuff */
@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 28 September 2015 11:10:50
+  Page generated: 07 October 2015 11:11:03
 -->
 
 
@@ -180,12 +180,21 @@
 </script>
 						
 <!-- Site Top Level Nav -->
-
-						
-						<div id="site-top-nav" class="row apnic-sprite apnic-sprite-colours hidden-print">
-<div id="nav-services"><a href="https://www.apnic.net/services">Services</a>
+<div id="site-top-nav" class="test row apnic-sprite apnic-sprite-colours hidden-print">
+<div id="nav-get-ip"><a href="https://www.apnic.net/get-ip">Get IP</a>
 <div class="site-top-nav-level2">
-<div><a href="https://www.apnic.net/services/apply-for-resources">Get IP Addresses</a></div>
+<div><a href="https://www.apnic.net/get-ip/get-ip-addresses-asn">Get IP Addresses / ASN</a></div>
+
+<div><a href="https://www.apnic.net/get-ip/become-a-member">Become a Member</a></div>
+
+<div><a href="https://www.apnic.net/get-ip/helpdesk">Helpdesk</a></div>
+
+<div><a href="https://www.apnic.net/get-ip/faqs">FAQs</a></div>
+
+
+</div></div><div id="nav-manage-ip"><a href="https://www.apnic.net/manage-ip">Manage IP</a>
+<div class="site-top-nav-level2">
+<div><a href="https://www.apnic.net/manage-ip/myapnic">MyAPNIC</a></div>
 
 <div><a href="https://www.apnic.net/manage-ip/manage-resources/transfer-resources">Transfer IP and ASNs</a></div>
 
@@ -195,9 +204,9 @@
 
 <div><a href="https://www.apnic.net/manage-ip/services-apnic-provides/resource-certification">Resource Certification (RPKI)</a></div>
 
-<div><a href="https://www.apnic.net/services/become-a-member">Membership</a></div>
+<div><a href="https://www.apnic.net/get-ip/helpdesk">Helpdesk</a></div>
 
-<div><a href="https://www.apnic.net/services/services-apnic-provides/helpdesk">Helpdesk</a></div>
+<div><a href="https://www.apnic.net/get-ip/faqs">FAQs</a></div>
 
 
 </div></div><div id="nav-training"><a href="//training.apnic.net/#ref=apnic">Training</a>
@@ -268,7 +277,6 @@
 </div>
 </div>
 
-						
 <!-- Header -->
 
 						
@@ -313,12 +321,12 @@ $('.theme-about #header-label span').text('About APNIC');
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <a href="https://conference.apnic.net/40/survey" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="APNIC 40 - Take the Survey!"><img src="https://www.apnic.net/home/carousel/apnic-40-take-the-survey.jpg" alt="APNIC 40 - Take the Survey!"></a>
-    </div>    <div class="item">
       <a href="//training.apnic.net/events" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="eLearning - Free, one-hour classes held every Wednesday. Register now!"><img src="https://www.apnic.net/home/carousel/eLearning-website-banner-191x873-01.png" alt="eLearning - Free, one-hour classes held every Wednesday. Register now!"></a>
+    </div>    <div class="item">
+      <a href="//www.apnic.net/ROA" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="Create your ROA now in MyAPNIC"><img src="https://www.apnic.net/home/carousel/ROA.png" alt="Create your ROA now in MyAPNIC"></a>
     </div>
     <div class="item">
-      <a href="//www.apnic.net/ROA" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="Create your ROA now in MyAPNIC"><img src="https://www.apnic.net/home/carousel/ROA.png" alt="Create your ROA now in MyAPNIC"></a>
+      <a href="//www.apnic.net/IANAxfer" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="IANA Transition"><img src="https://www.apnic.net/__data/assets/image/0008/76526/iana-transfer-homepage-banner.png" alt="IANA Transition"></a>
     </div>
 
   </div>
@@ -478,7 +486,7 @@ $('.theme-about #header-label span').text('About APNIC');
 <!-- Footer content -->
 <div class="row" id="footer">
     <div class="col-md-3" id="copyright-stamp">
-        © APNIC | <a href='//www.apnic.net/privacy'>Privacy</a>
+        © APNIC | <a href='//www.apnic.net/privacy'>Privacy</a> | <a href='//www.apnic.net/helpdesk'>Helpdesk</a>
     </div>
     <div class="col-md-9 text-right">
         <span id="iso9001-stamp" class="apnic-sprite apnic-sprite-icons pull-right"><span>ISO 9001:2008 Certified</span></span>
@@ -532,6 +540,7 @@ $('.theme-about #header-label span').text('About APNIC');
         var is = document.getElementsByTagName('script')[0]; is.parentNode.insertBefore(iga, is);
     })();
 </script>
+<!-- Clear cache -->
 
 
 
