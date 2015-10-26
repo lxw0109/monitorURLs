@@ -185,7 +185,7 @@ $(function(){
 
 	<div class="content">
 
-		<h3><a href="/bugs/new_submit/">最新提交</a> <span class="itemcount">(79)</span><a class="catrss" href="/feeds/submit"></a></h3>
+		<h3><a href="/bugs/new_submit/">最新提交</a> <span class="itemcount">(78)</span><a class="catrss" href="/feeds/submit"></a></h3>
 
 		<table class="listTable">
 			<thead>
@@ -202,7 +202,7 @@ $(function(){
 					<th>2015-10-26</th>
 					<td><a href="/bugs/wooyun-2015-0149453">工商银行某站存在SQL注入</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0149453#comment">0/1</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0149453#comment">0/4</a></th>
 					<th><a title="getshell1993" href="/whitehats/getshell1993">getshe...</a></th>
 				</tr>
 								<tr>
@@ -244,7 +244,7 @@ $(function(){
 			</tbody>
 		</table>
 
-		<h3><a href="/bugs/new_confirm/">最新确认</a> <span class="itemcount">(1251)</span><a class="catrss" href="/feeds/confirm"></a></h3>
+		<h3><a href="/bugs/new_confirm/">最新确认</a> <span class="itemcount">(1252)</span><a class="catrss" href="/feeds/confirm"></a></h3>
 
 		<table class="listTable">
 			<thead>
@@ -257,6 +257,13 @@ $(function(){
 			</thead>
 			<tbody>
 
+								<tr>
+					<th>2015-10-22</th>
+					<td><a href="/bugs/wooyun-2015-0148773">中粮集团某漏洞可内网</a>
+															</td>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0148773#comment">1/6</a></th>
+					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
+				</tr>
 								<tr>
 					<th>2015-10-26</th>
 					<td><a href="/bugs/wooyun-2015-0149123">就医160内部邮箱泄漏/OA弱口令/开发敏感信息泄漏</a>
@@ -292,13 +299,6 @@ $(function(){
 					<th><a title="评论一下" href="/bugs/wooyun-2015-0149224#comment">0/1</a></th>
 					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
 				</tr>
-								<tr>
-					<th>2015-10-23</th>
-					<td><a href="/bugs/wooyun-2015-0148935">中国国际航空某系统未授权访问+SQL注入</a>
-															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0148935#comment">0/2</a></th>
-					<th><a title="路人甲" href="/whitehats/路人甲">路人甲</a></th>
-				</tr>
 				
 			</tbody>
 		</table>
@@ -320,7 +320,7 @@ $(function(){
 					<th>2015-09-11</th>
 					<td><a href="/bugs/wooyun-2015-0140368">万达集团移动办公平台绕过登录验证,成功进入还体验了一次首富的账号</a>
 															</td>
-					<th><a title="评论一下" href="/bugs/wooyun-2015-0140368#comment">6/22</a></th>
+					<th><a title="评论一下" href="/bugs/wooyun-2015-0140368#comment">6/23</a></th>
 					<th><a title="逆流冰河" href="/whitehats/逆流冰河">逆流冰...</a></th>
 				</tr>
 								<tr>

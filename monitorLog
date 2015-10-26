@@ -32,3 +32,13 @@ Monitor Finished.   Monitor Time: 2015-10-26-09:10:18.   Time Cost: 0'16"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
+lxw_IOError: 	2015-10-26-09:21:40
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOError: 	2015-10-26-09:21:42
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2015-10-26-09:21:47
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+Monitor Finished.   Monitor Time: 2015-10-26-09:21:52.   Time Cost: 0'11"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------

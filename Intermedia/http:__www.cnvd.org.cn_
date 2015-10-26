@@ -664,62 +664,62 @@ h1 {
 						
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-06625" title="Network Applied Communication Laboratory Pref Shimane CMS SQL注入漏洞"> 
+									<a href="/flaw/show/CNVD-2015-06787" title="Linux kernel IPC对象实现竞争条件漏洞"> 
 										<img src="images/t_1.jpg" />
 										<font color="#333333;"> 
 											
-												Network Applied Comm...
+												Linux kernel IPC对象...
 											
 										</font>
-										<span class="t_gz_sz_span">[1680]</span>
+										<span class="t_gz_sz_span">[1213]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-06429" title="Apple OS X内核内存破坏漏洞（CNVD-2015-06429）"> 
+									<a href="/flaw/show/CNVD-2015-05994" title="acsno探针管理与测试系统V3.4.系列目录遍历漏洞"> 
 										<img src="images/t_2.jpg" />
 										<font color="#333333;"> 
 											
-												Apple OS X内核内存破...
+												acsno探针管理与测试系...
 											
 										</font>
-										<span class="t_gz_sz_span">[800]</span>
+										<span class="t_gz_sz_span">[951]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-06480" title="Dotclear跨站脚本漏洞（CNVD-2015-06480）"> 
+									<a href="/flaw/show/CNVD-2015-06780" title="Cisco Wireless LAN Controller客户端断开连接漏洞"> 
 										<img src="images/t_3.jpg" />
-										<font color="#333333;"> 
-											
-												Dotclear跨站脚本漏洞...
-											
-										</font>
-										<span class="t_gz_sz_span">[694]</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/flaw/show/CNVD-2015-06564" title="Cisco VPN Client权限提升漏洞"> 
-										<img src="images/t_4.jpg" />
-										<font color="#333333;"> 
-											
-												Cisco VPN Client权限...
-											
-										</font>
-										<span class="t_gz_sz_span">[690]</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/flaw/show/CNVD-2015-06556" title="Cisco Wireless LAN Controller 802.11i管理帧处理拒绝服务漏洞"> 
-										<img src="images/t_5.jpg" />
 										<font color="#333333;"> 
 											
 												Cisco Wireless LAN C...
 											
 										</font>
-										<span class="t_gz_sz_span">[683]</span>
+										<span class="t_gz_sz_span">[873]</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/flaw/show/CNVD-2015-06722" title="Adobe Acrobat/Reader Javascript API执行绕过漏洞（CNVD-2015-06722）"> 
+										<img src="images/t_4.jpg" />
+										<font color="#333333;"> 
+											
+												Adobe Acrobat/Reader...
+											
+										</font>
+										<span class="t_gz_sz_span">[657]</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/flaw/show/CNVD-2015-06705" title="Cisco Application Policy Infrastructure Controller权限提升漏洞"> 
+										<img src="images/t_5.jpg" />
+										<font color="#333333;"> 
+											
+												Cisco Application Po...
+											
+										</font>
+										<span class="t_gz_sz_span">[653]</span>
 									</a>
 								</li>
 							
@@ -753,6 +753,19 @@ h1 {
 						
 						
 							<li>
+								<a href="/flaw/show/CNVD-2015-06149" title="蓝凌智慧协同平台EIS文件包含漏洞">
+									<img src="images/tab_jt.jpg"/>
+									<span>
+										
+											蓝凌智慧协同平台EIS文件包含漏洞
+										
+									</span>
+									<span class="t2_sp_sz">2015-10-26</span>
+									<span class="t2_sp_right">184</span>
+								</a>
+							</li>
+						
+							<li>
 								<a href="/flaw/show/CNVD-2015-06787" title="Linux kernel IPC对象实现竞争条件漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
@@ -761,7 +774,7 @@ h1 {
 										
 									</span>
 									<span class="t2_sp_sz">2015-10-23</span>
-									<span class="t2_sp_right">811</span>
+									<span class="t2_sp_right">1213</span>
 								</a>
 							</li>
 						
@@ -774,7 +787,7 @@ h1 {
 										
 									</span>
 									<span class="t2_sp_sz">2015-10-23</span>
-									<span class="t2_sp_right">38</span>
+									<span class="t2_sp_right">108</span>
 								</a>
 							</li>
 						
@@ -787,7 +800,7 @@ h1 {
 										
 									</span>
 									<span class="t2_sp_sz">2015-10-23</span>
-									<span class="t2_sp_right">316</span>
+									<span class="t2_sp_right">430</span>
 								</a>
 							</li>
 						
@@ -800,7 +813,7 @@ h1 {
 										
 									</span>
 									<span class="t2_sp_sz">2015-10-23</span>
-									<span class="t2_sp_right">31</span>
+									<span class="t2_sp_right">98</span>
 								</a>
 							</li>
 						
@@ -813,20 +826,7 @@ h1 {
 										
 									</span>
 									<span class="t2_sp_sz">2015-10-23</span>
-									<span class="t2_sp_right">301</span>
-								</a>
-							</li>
-						
-							<li>
-								<a href="/flaw/show/CNVD-2015-06795" title="Medicomp Systems MEDCIN Engine栈缓冲区溢出漏洞（CNVD-2015-06795）">
-									<img src="images/tab_jt.jpg"/>
-									<span>
-										
-											Medicomp Systems MEDCIN Engine栈缓冲区溢出漏洞（CNVD-2015-06...
-										
-									</span>
-									<span class="t2_sp_sz">2015-10-23</span>
-									<span class="t2_sp_right">26</span>
+									<span class="t2_sp_right">411</span>
 								</a>
 							</li>
 						
@@ -964,7 +964,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-10-14</span>
-								<span class="t3_sp_right">377</span>
+								<span class="t3_sp_right">384</span>
 							</a>
 						</li>
 					
@@ -990,7 +990,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-08-12</span>
-								<span class="t3_sp_right">1138</span>
+								<span class="t3_sp_right">1141</span>
 							</a>
 						</li>
 					
@@ -1003,7 +1003,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-07-31</span>
-								<span class="t3_sp_right">1495</span>
+								<span class="t3_sp_right">1498</span>
 							</a>
 						</li>
 					
@@ -1016,7 +1016,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-07-21</span>
-								<span class="t3_sp_right">1140</span>
+								<span class="t3_sp_right">1142</span>
 							</a>
 						</li>
 					
@@ -1029,7 +1029,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-07-16</span>
-								<span class="t3_sp_right">1333</span>
+								<span class="t3_sp_right">1336</span>
 							</a>
 						</li>
 					
@@ -1138,7 +1138,7 @@ h1 {
 	<div class="s_w">
 		<div class="t_align_right"><img src="images/zldjb.jpg"/></div>
 		<div class="clf" style="text-align:center;">
-			<span style="color:#999999;">2015-10-12--2015-10-18</span>
+			<span style="color:#999999;">2015-10-19--2015-10-25</span>
 			<div id="weekSerietyLevelPie"></div>
 			<!-- 周漏洞威胁级别趋势图 -->
 		</div>

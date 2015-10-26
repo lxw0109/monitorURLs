@@ -16,7 +16,7 @@
 <!--顶部条开始-->
 <div class="isc_top">
     <div class="data">
-2015年10月25日 星期天
+2015年10月26日 星期一
 </div>
      <div class="email">
      <FORM method="post" name="form1" action="http://mm.263.com/login" onsubmit="return check();" target="_blank">
@@ -323,7 +323,7 @@ function check()
 	<div style="height: 118px; overflow:hidden;">
     	<h1 style="overflow: hidden; margin-top:7px; width:476px;"><p style="float: left;">【要闻视点】</p>
         <div class="cmore" style=" float:right;"><a href="/zxzx/ywsd/"><img src="images/12495217.gif"></a></div>
-        <span style="margin-left: 10px; float:right;"><img src="images/02270433.gif"></span></h1>
+        </h1>
         <h1 style="overflow: hidden; text-align: center; line-height: 24px; margin:3px 0px;"><a  href="/zxzx/ywsd/listinfo-32707.html"   title="创新创业为经济区域化发展插上腾飞双翼——中国•长治“互联网+区域化”发展论坛暨2015全国大学生移动应用创新大赛西北赛区决赛成功举行" class="red">创新创业为经济区域化发展插上腾飞双翼——中国•长治“互联网+区域化”发展论坛暨2015全国大学生移动应用创新大赛西北赛区决赛成功举行</a></h1>
 	<div class="mg10">... <a  href="/zxzx/ywsd/listinfo-32707.html"   title="详细" class="blue">[详细]</a></div>
 </div>
@@ -443,8 +443,8 @@ function check()
 
         <tr><td width="130" valign="top"><span><a  href="/zxzx/zfxx/listinfo-32476.html"  ><img src="/upimages/article20150817134321.jpg" class="bor" width="110" height="75" alt="工信部苗圩：推动提速降费 落实互联网+"/></a></span></td><td><div>工业和信息化部部长苗圩在2015中国互联网大会致辞时表示，今年是我国互联网跨界融合变革，加速演进升级的关键一年。...<a  href="/zxzx/zfxx/listinfo-32476.html"   title="工信部苗圩：推动提速降费 落实互联网+" class="blue">[详细]</a></div></td></tr></table>
         <ul class="newslist">
-                <li><a  href="/zxzx/zfxx/listinfo-32704.html"  " title="北京“双创”实施意见：科技人员可限期留岗创业"  >北京“双创”实施意见：科技人员可限期留岗创业</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                
-                <li><a  href="/zxzx/zfxx/listinfo-32703.html"  " title="完善电信普遍服务补偿长效机制 我国加快推进农村宽带发展"  >完善电信普遍服务补偿长效机制 我国加快推进农村宽带发展</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32704.html"  " title="北京“双创”实施意见：科技人员可限期留岗创业"  >北京“双创”实施意见：科技人员可限期留岗创业</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
+                <li><a  href="/zxzx/zfxx/listinfo-32703.html"  " title="完善电信普遍服务补偿长效机制 我国加快推进农村宽带发展"  >完善电信普遍服务补偿长效机制 我国加快推进农村宽带发展</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
                 <li><a  href="/zxzx/zfxx/listinfo-32701.html"  " title="李克强：用政府税收减法换取“双创”新动能加法"  >李克强：用政府税收减法换取“双创”新动能加法</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>                
                 </ul>
         </div>
@@ -480,7 +480,7 @@ function check()
 <div id="dt_01" >
 <span class="mp"><a href="/hydt/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a   href="/hydt/listinfo-32705.html" title="广州跨境电商迎来“井喷” “全球购”新业态辐射全国" >广州跨境电商迎来“井喷” “全球购”新业态辐射全国</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a   href="/hydt/listinfo-32705.html" title="广州跨境电商迎来“井喷” “全球购”新业态辐射全国" >广州跨境电商迎来“井喷” “全球购”新业态辐射全国</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a   href="/hydt/listinfo-32702.html" title="170号段涉诈骗 深圳两家虚拟运营商上黑名单" >170号段涉诈骗 深圳两家虚拟运营商上黑名单</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a   href="/hydt/listinfo-32700.html" title="“互联网+”时代 高科技如何加上老年人" >“互联网+”时代 高科技如何加上老年人</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a   href="/hydt/listinfo-32692.html" title="教育部：网络低俗语言亟需治理" >教育部：网络低俗语言亟需治理</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
@@ -513,7 +513,7 @@ function check()
 <div id="dt_04" class="hidden">
 <span class="mp"><a href="/zxzx/qyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-        <li><a  href="/zxzx/qyxx/listinfo-32705.html"  title="广州跨境电商迎来“井喷” “全球购”新业态辐射全国" >广州跨境电商迎来“井喷” “全球购”新业态辐射全国</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+        <li><a  href="/zxzx/qyxx/listinfo-32705.html"  title="广州跨境电商迎来“井喷” “全球购”新业态辐射全国" >广州跨境电商迎来“井喷” “全球购”新业态辐射全国</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/qyxx/listinfo-32689.html"  title="Gartner预测2016年十大战略科技趋势" >Gartner预测2016年十大战略科技趋势</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/qyxx/listinfo-32677.html"  title="国际电联2015年世界电信展在布达佩斯开幕" >国际电联2015年世界电信展在布达佩斯开幕</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/qyxx/listinfo-32674.html"  title="江西出台《关于加快高速宽带网络建设推进提速降费的实施意见》" >江西出台《关于加快高速宽带网络建设推进提速降费的实施意见》</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
@@ -547,7 +547,7 @@ function check()
 <div id="hy_01" >
 <span class="mp"><a href="/zxzx/hyxx/" class="more"><img src="images/12495217.gif" /></a></span>
 <ul class="newslist">
-    <li><a  href="/zxzx/hyxx/listinfo-32706.html"  title="互联网+创业未来有三大趋势"  >互联网+创业未来有三大趋势</a><span>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/02270433.gif" /></span></li>             
+    <li><a  href="/zxzx/hyxx/listinfo-32706.html"  title="互联网+创业未来有三大趋势"  >互联网+创业未来有三大趋势</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/hyxx/listinfo-32686.html"  title="网易汉王同天推出云服务"  >网易汉王同天推出云服务</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/hyxx/listinfo-32684.html"  title="阿里云栖大会展示前沿科技力量"  >阿里云栖大会展示前沿科技力量</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
     <li><a  href="/zxzx/hyxx/listinfo-32682.html"  title="阿里神马推个性化搜索"  >阿里神马推个性化搜索</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>             
