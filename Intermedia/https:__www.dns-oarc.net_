@@ -46,9 +46,9 @@
 <p>
 <a href="/oarc/agreements">Joining and Participating in DNS-OARC</a></p>
 <p>
-<a href="https://indico.dns-oarc.net/event/24" color="blue">DNS-OARC Montreal Fall 2015 Workshop</a></p>
+<a href="https://indico.dns-oarc.net/event/24/speakers" color="blue">DNS-OARC Montreal Fall 2015 Workshop Presentations</a></p>
 <p>
-<a href="https://indico.dns-oarc.net/event/21/timetable/#all.detailed">DNS-OARC Spring 2015 Workshop Presentations</a></p>
+<a href="https://plus.google.com/+DnsoarcNetPlus/videos">DNS-OARC Workshop Presentation Videos</a></p>
 <p>
 <a href="https://medium.com/@dnsoarc">Latest OARC Blog Posts</a></p>
 <p>
@@ -82,8 +82,7 @@
 <li class="leaf"><a href="/oarc/services/dlvtest" title="A zone for testing DLVs">dlvtest</a></li>
 <li class="leaf last"><a href="/oarc/services/dontprobe" title="Database of networks and addresses that should not be actively probed">Dont Probe</a></li>
 </ul></li>
-<li class="expanded"><a href="https://indico.dns-oarc.net/index.py">Upcoming Workshops</a><ul class="menu"><li class="collapsed first"><a href="https://indico.dns-oarc.net/event/24/" title="">2015 Montreal</a></li>
-<li class="leaf last"><a href="https://indico.dns-oarc.net/event/22/" title="">2016 Buenos Aires</a></li>
+<li class="expanded"><a href="https://indico.dns-oarc.net/index.py">Upcoming Workshops</a><ul class="menu"><li class="leaf first last"><a href="https://indico.dns-oarc.net/event/22/" title="">2016 Buenos Aires</a></li>
 </ul></li>
 <li class="collapsed"><a href="https://indico.dns-oarc.net/" title="Information about OARC&#039;s parts workshops">Past Workshops</a></li>
 <li class="collapsed"><a href="/oarc/tools">DNS Tools Catalog</a></li>
@@ -120,7 +119,7 @@
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-9ULBcaE7RZlTgLd7jM79xiQLybOTdvKukKyy-X_rHtg" value="form-9ULBcaE7RZlTgLd7jM79xiQLybOTdvKukKyy-X_rHtg"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-ZYI-JGQXbCs6LwCyg2bcZk_19gpGSo9wHCCZ_3vo0tk" value="form-ZYI-JGQXbCs6LwCyg2bcZk_19gpGSo9wHCCZ_3vo0tk"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -137,7 +136,7 @@
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-MIA-2medgxR9chA7cgX4XIf4jjWC30p15a0aI4EfWDw" value="form-MIA-2medgxR9chA7cgX4XIf4jjWC30p15a0aI4EfWDw"  />
+<input type="hidden" name="form_build_id" id="form-lasBEYVd7O7DEx_MLeqOLeOwnkjcpAu00_jFG8a5OO0" value="form-lasBEYVd7O7DEx_MLeqOLeOwnkjcpAu00_jFG8a5OO0"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -172,31 +171,42 @@
     Submitted by wessels on Thu, 2008-07-03 22:40          </div>
 </div>
 <div class="node  ">
+        <h2><a href=" /https%3A/%252Fwww.dns-oarc.net/oarc/agm-2015/results " title=" OARC 2015 AGM Board Election Results  "> OARC 2015 AGM Board Election Results  </a></h2>
+     <div class="content">
+          <p>The following candidates were re/elected to the OARC Board for 2-year terms:
+<ul>
+<li>Paul Ebersman (Comcast)
+</li><li>David Knight (Dyn)
+</li><li>Duane Wessels (Verisign)
+</li></ul>
+</p><p>OARC welcomes Paul Ebersman to the Board and congratulates him and the re-elected Board members on their successful election.</p>
+<p>
+Our sincere thanks to Jim Galvin for his service and support to OARC over the past year.
+</p>
+  </div>
+    <div class="info">
+    Submitted by keith on Wed, 2015-10-14 13:46          </div>
+</div>
+<div class="node  ">
+        <h2><a href=" /oarc/services/tldmon " title=" OARC&#039;s TLDmon Service "> OARC&#039;s TLDmon Service </a></h2>
+     <div class="content">
+          <div class="blue">
+OARC's <a href="https://tldmon.dns-oarc.net/nagios/" target="_blank">TLDmon</a> uses <a href="http://www.nagios.org/">Nagios</a> to monitor operational characteristics of authoritative nameservers for the Root Zone and all Top Level Domains.  TLDmon checks for authoritative answers, EDNS support, lame delegations, consistent NS RR sets, open resolvers, expired RRSIGs, matching serial numbers, and TCP support.  As the Domain Name System continues its evolution, it becomes increasingly important that these critical nameservers are configured correctly.
+</div>  </div>
+    <div class="info">
+    Submitted by admin on Wed, 2015-10-07 10:23          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
+</ul> ]</span>
+              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/oarc/services/tldmon" title="Read the rest of OARC&#039;s TLDmon Service.">Read more</a></li>
+</ul> </span>
+      </div>
+</div>
+<div class="node  ">
         <h2><a href=" /node/348 " title=" RSSAC 002 "> RSSAC 002 </a></h2>
      <div class="content">
           <p>ICANN's <a href="https://www.icann.org/resources/pages/rssac-4c-2012-02-25-en"> Root Server System Advisory Committee</a> has recently defined two standards, including <a href="https://www.icann.org/en/system/files/files/rssac-002-measurements-root-20nov14-en.pdf"> RSSAC 002 </a>, designed to obtain a baseline of the metrics for the Root Zone, specifically so that root operators can detect and mitigate any abnormalities in the performance of the DNS Root Server System as it continues to grow and develop.</p>
   </div>
     <div class="info">
     Submitted by dalini on Wed, 2015-08-05 13:04              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/node/348" title="Read the rest of RSSAC 002.">Read more</a></li>
-</ul> </span>
-      </div>
-</div>
-<div class="node  ">
-        <h2><a href=" /oarc/agm-2015/elections " title=" 2015 OARC Elections "> 2015 OARC Elections </a></h2>
-     <div class="content">
-          <p>During the 2015 OARC <a href="https://indico.dns-oarc.net/event/24/page/3">Annual General Meeting</a> we will be electing three seats on the OARC Board of Directors. The seats becoming available are doing so on the following basis:</p>
-<ul>
-<li>Existing Board member Duane Wessels (for Verisign) has served for two-years and his seat is up for election by rotation.
-</li><li>The Board seat held for Dyn by Dave Knight since April 2015 has reached the end of its two-year term, and is up for election by rotation.<br />
-Dave will be standing for re-election.
-</li><li>The Board seat held for Afilias by Jim Galvin since October 2014 has reached the end of its two-year term, and is up for election by rotation.<br />
-Jim will be standing for re-election.
-</li></ul>
-<p></p>  </div>
-    <div class="info">
-    Submitted by keith on Thu, 2015-07-30 18:17          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
-</ul> ]</span>
-              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/oarc/agm-2015/elections" title="Read the rest of 2015 OARC Elections.">Read more</a></li>
 </ul> </span>
       </div>
 </div>
@@ -229,18 +239,6 @@ Jim will be standing for re-election.
   </div>
     <div class="info">
     Submitted by Anonymous on Wed, 2015-03-25 23:45              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/ditl/2011" title="Read the rest of DITL Data Collection.">Read more</a></li>
-</ul> </span>
-      </div>
-</div>
-<div class="node  ">
-        <h2><a href=" /node/349 " title=" OARC 2015 Spring Workshop (Amsterdam) "> OARC 2015 Spring Workshop (Amsterdam) </a></h2>
-     <div class="content">
-          <p>DNS-OARC&#39;s <a href="https://indico.dns-oarc.net/event/21/">Spring 2015 Workshop</a> will take place co-located with the <a href="https://ripe70.ripe.net">RIPE70</a> meeting at the <a href="https://www.okura.nl">Hotel Okura</a> in Amsterdam, sponsored by <a href="https://www.sidn.nl">SIDN</a>, <a href="https://www.verisigninc.com">Verisign</a> and <a href="http://www.nominum.com">Nominum</a> on the 9th and 10th of May.</p>
-  </div>
-    <div class="info">
-    Submitted by keith on Fri, 2015-03-13 20:02          <span class="terms">categories [ <ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/taxonomy/term/7" rel="tag" title="Public Stories, etc">Public</a></li>
-</ul> ]</span>
-              <span class="links"> <ul class="links inline"><li class="node_read_more first last"><a href="/node/349" title="Read the rest of OARC 2015 Spring Workshop (Amsterdam).">Read more</a></li>
 </ul> </span>
       </div>
 </div>

@@ -43,7 +43,7 @@
 <!--[if lt IE 9]>
     <link href="https://www.apnic.net/_designs/corporate-identity/css/bootstrap.min.css" rel="stylesheet">
 <![endif]-->
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.6.1" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.6.4" rel="stylesheet">
         <link href="https://www.apnic.net/__data/assets/css_file/0016/72322/legacy.css?v=0.1.10" rel="stylesheet">
 
         <style>
@@ -78,7 +78,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 07 October 2015 11:11:03
+  Page generated: 25 October 2015 11:11:11
 -->
 
 
@@ -180,12 +180,10 @@
 </script>
 						
 <!-- Site Top Level Nav -->
-<div id="site-top-nav" class="test row apnic-sprite apnic-sprite-colours hidden-print">
+<div id="site-top-nav" class="row apnic-sprite apnic-sprite-colours hidden-print">
 <div id="nav-get-ip"><a href="https://www.apnic.net/get-ip">Get IP</a>
 <div class="site-top-nav-level2">
 <div><a href="https://www.apnic.net/get-ip/get-ip-addresses-asn">Get IP Addresses / ASN</a></div>
-
-<div><a href="https://www.apnic.net/get-ip/become-a-member">Become a Member</a></div>
 
 <div><a href="https://www.apnic.net/get-ip/helpdesk">Helpdesk</a></div>
 
@@ -286,8 +284,8 @@
 </div>
 <script>
 $('.theme-services #header-label span').text('Services');
-$('.theme-getip #header-label span').text('Get IP');
-$('.theme-manageip #header-label span').text('Manage IP');
+$('.theme-get-ip #header-label span').text('Get IP');
+$('.theme-manage-ip #header-label span').text('Manage IP');
 $('.theme-community #header-label span').text('Community');
 $('.theme-events #header-label span').text('Events');
 $('.theme-publications #header-label span').text('Publications');
@@ -321,12 +319,12 @@ $('.theme-about #header-label span').text('About APNIC');
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <a href="//training.apnic.net/events" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="eLearning - Free, one-hour classes held every Wednesday. Register now!"><img src="https://www.apnic.net/home/carousel/eLearning-website-banner-191x873-01.png" alt="eLearning - Free, one-hour classes held every Wednesday. Register now!"></a>
+      <a href="https://2016.apricot.net" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="APRICOT 2016 - Save the date! Auckland, New Zealand, 15-26 February 2016"><img src="https://www.apnic.net/home/carousel/apricot-2016-save-the-date.jpg" alt="APRICOT 2016 - Save the date! Auckland, New Zealand, 15-26 February 2016"></a>
     </div>    <div class="item">
-      <a href="//www.apnic.net/ROA" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="Create your ROA now in MyAPNIC"><img src="https://www.apnic.net/home/carousel/ROA.png" alt="Create your ROA now in MyAPNIC"></a>
+      <a href="//training.apnic.net/events" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="eLearning - Free, one-hour classes held every Wednesday. Register now!"><img src="https://www.apnic.net/home/carousel/eLearning-website-banner-191x873-01.png" alt="eLearning - Free, one-hour classes held every Wednesday. Register now!"></a>
     </div>
     <div class="item">
-      <a href="//www.apnic.net/IANAxfer" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="IANA Transition"><img src="https://www.apnic.net/__data/assets/image/0008/76526/iana-transfer-homepage-banner.png" alt="IANA Transition"></a>
+      <a href="//www.apnic.net/ROA" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="Create your ROA now in MyAPNIC"><img src="https://www.apnic.net/home/carousel/ROA.png" alt="Create your ROA now in MyAPNIC"></a>
     </div>
 
   </div>
@@ -375,10 +373,10 @@ $('.theme-about #header-label span').text('About APNIC');
 <h2 class="h3">Internet Resources</h2>
 <ul>
    <li><a href="https://www.apnic.net/apnic-info/whois_search/about">APNIC Whois</a></li>
-   <li><a href="https://www.apnic.net/services/apply-for-resources">Get resources</a></li>
+   <li><a href="https://www.apnic.net/get-ip/get-ip-addresses-asn">Get resources</a></li>
 
-   <li><a href="https://www.apnic.net/services/become-a-member/how-much-does-it-cost">Member fees</a></li>
-   <li><a href="https://www.apnic.net/services/make-a-payment">Make a payment</a></li>
+   <li><a href="https://www.apnic.net/get-ip/apnic-membership/how-much-does-it-cost">Member fees</a></li>
+   <li><a href="https://www.apnic.net/get-ip/apnic-membership/billing-procedure/make-a-payment">Make a payment</a></li>
    <li><a href="https://www.apnic.net/publications/research-and-insights/stats">Resource Statistics</a></li>
 </ul>
         </div><!-- /.col-sm-3 -->
@@ -397,11 +395,11 @@ $('.theme-about #header-label span').text('About APNIC');
 <h2 class="h3">Get Help</h2>
 <ul>
 
-<li><a href="https://www.apnic.net/services/services-apnic-provides/helpdesk">Helpdesk</a></li>
+<li><a href="https://www.apnic.net/get-ip/helpdesk">Helpdesk</a></li>
 <li><a href="https://www.apnic.net/community/ipv6-program">IPv6@APNIC</a></li>
 <li><a href="https://training.apnic.net/home">APNIC Training</a></li>
 <li><a href="https://www.apnic.net/apnic-info/whois_search/using-whois/abuse-and-spamming">Hacking and spam</a></li>
-<li><a href="https://www.apnic.net/services/services-apnic-provides/registration-services/reverse-dns">Reverse DNS</a></li>
+<li><a href="https://www.apnic.net/manage-ip/manage-resources/reverse-dns">Reverse DNS</a></li>
 </ul>
         </div><!-- /.col-sm-3 -->
         <div class="col-sm-3" id="news">
@@ -439,9 +437,10 @@ $('.theme-about #header-label span').text('About APNIC');
       </h2>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-18-september-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 18 September 2015</a></h3>
+      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-15-october-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 15 October 2015</a></h3>
 <p class="ellipsis" data-ellipsis-rows="2">
-<p>APNIC whois nodes in the US and UK were not available for the specified duration.</p>
+<p>APNIC experienced a brief unscheduled upstream outage affecting network services traversing the Telstra network. As a result APNIC services were partially unavailable for anyone who reaches APNIC through Telstra.</p>
+
 
 
 

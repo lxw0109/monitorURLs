@@ -974,7 +974,7 @@
 <div class="description">
 <ul>
 <li><a title="" href="https://www.ripe.net/manage-ips-and-asns/resource-management/number-resources" class="internal-link" target="_self">IPv4, IPv6 and ASNs</a></li>
-<li><a class="external-link" href="https://my.ripe.net" target="_self" title="">LIR Portal</a></li>
+<li><a class="external-link" href="https://lirportal.ripe.net/" target="_self" title="">LIR Portal</a></li>
 <li><a title="" href="https://www.ripe.net/manage-ips-and-asns/db" class="internal-link" target="_self">RIPE Database</a></li>
 <li><a title="" href="https://www.ripe.net/manage-ips-and-asns/resource-transfers-and-mergers" class="internal-link" target="_self">Resource Transfers and Mergers</a></li>
 </ul>
@@ -1078,26 +1078,26 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/draft-ripe-ncc-activity-plan-and-budget-2016">
+<span class="Title">Draft RIPE NCC Activity Plan and Budget 2016</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date: 21 Oct 2015</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
 <span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 06 Oct 2015</span>
+<span class="date nobreak byline_date">Publication date: 20 Oct 2015</span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://www.ripe.net/publications/news/announcements/general-meeting-november-2015-registration-open">
-<span class="Title">General Meeting November 2015 - Registration Open</span>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/102nd-ripe-ncc-executive-board-meeting">
+<span class="Title">102nd RIPE NCC Executive Board Meeting</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 05 Oct 2015</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ripe-ncc-and-cept-com-itu-sign-letter-of-understanding">
-<span class="Title">RIPE NCC and CEPT Com-ITU Sign Letter of Understanding</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date: 23 Sep 2015</span>
+<span class="date nobreak byline_date">Publication date: 19 Oct 2015</span>
 </span>
 </a>
 </li>
@@ -1127,15 +1127,6 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
-<a href="https://www.ripe.net/participate/meetings/calendar/enog-10">
-<span class="Title">ENOG 10 / RIPE NCC Regional Meeting</span>
-<span class="item-details">
-<span class="date nobreak byline_date">13 Oct 2015 - 14 Oct 2015</span>
-<span class="location nobreak">Odessa, Ukraine</span>
-</span>
-</a>
-</li>
-<li>
 <a href="https://www.ripe.net/participate/meetings/calendar/ripe-71">
 <span class="Title">RIPE 71 Bucharest</span>
 <span class="item-details">
@@ -1161,6 +1152,15 @@
 </span>
 </a>
 </li>
+<li>
+<a href="https://www.ripe.net/participate/meetings/calendar/see-5-ripe-ncc-regional-meeting">
+<span class="Title">SEE 5/RIPE NCC Regional Meeting</span>
+<span class="item-details">
+<span class="date nobreak byline_date">19 Apr 2016 - 20 Apr 2016</span>
+<span class="location nobreak">Tirana, Albania</span>
+</span>
+</a>
+</li>
 </ul>
 </div>
 </div>
@@ -1174,6 +1174,15 @@
 <div class="block_content">
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
+<li>
+<a href="https://www.ripe.net/participate/meetings/calendar/enog-10">
+<span class="Title">ENOG 10 / RIPE NCC Regional Meeting</span>
+<span class="item-details">
+<span class="date nobreak byline_date">13 Oct 2015 - 14 Oct 2015</span>
+<span class="location nobreak">Odessa, Ukraine</span>
+</span>
+</a>
+</li>
 <li>
 <a href="https://www.ripe.net/participate/meetings/calendar/ripe-ncc-regional-meeting-yerevan">
 <span class="Title">RIPE NCC Regional Meeting Yerevan</span>
@@ -1189,15 +1198,6 @@
 <span class="item-details">
 <span class="date nobreak byline_date">09 Jun 2015 - 10 Jun 2015</span>
 <span class="location nobreak">Kazan, Russia</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.ripe.net/participate/meetings/calendar/ripe-ncc-regional-meeting-tbilisi">
-<span class="Title">RIPE NCC Regional Meeting Tbilisi</span>
-<span class="item-details">
-<span class="date nobreak byline_date">19 May 2015 - 20 May 2015</span>
-<span class="location nobreak">Tbilisi, Georgia</span>
 </span>
 </a>
 </li>
@@ -1223,31 +1223,31 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
-<a href="https://labs.ripe.net/Members/alessandro_improta/real-time-bgp-monitoring-with-isolario-and-bgplay" rel="nofollow">
-<span class="Title">Real-time BGP Monitoring with Isolario and BGPlay</span>
+<a href="https://labs.ripe.net/Members/ray_bellis/researching-f-root-anycast-placement-using-ripe-atlas" rel="nofollow">
+<span class="Title">Researching F-root Anycast Placement Using RIPE Atlas</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>05 Oct 2015</span>
+                              <span>14 Oct 2015</span>
 </span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://labs.ripe.net/Members/emileaben/a-tale-of-bgp-collectors-and-customer-cones" rel="nofollow">
-<span class="Title">A Tale of BGP Collectors and Customer Cones</span>
+<a href="https://labs.ripe.net/Members/colin_petrie/updates-to-the-ripe-ncc-routing-information-service" rel="nofollow">
+<span class="Title">Updates to the RIPE NCC Routing Information Service</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>05 Oct 2015</span>
+                              <span>12 Oct 2015</span>
 </span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://labs.ripe.net/Members/emileaben/iran-and-k-root-the-rest-of-the-story" rel="nofollow">
-<span class="Title">Iran and K-root: The Rest of the Story</span>
+<a href="https://labs.ripe.net/Members/wilhelm/ipv4-in-the-ripe-ncc-service-region-three-years-after-reaching-the-last-8" rel="nofollow">
+<span class="Title">IPv4 in the RIPE NCC Service Region - Three Years After Reaching the Last /8</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>30 Sep 2015</span>
+                              <span>08 Oct 2015</span>
 </span>
 </span>
 </a>
@@ -1306,8 +1306,8 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
-<a href="https://www.nro.net/news/aso-ac-call-for-nominations-on-seat-10-on-the-icann-board" rel="nofollow">
-<span class="Title">ASO AC Call for Nominations on Seat 10 on the ICANN Board</span>
+<a href="https://www.nro.net/news/comparison-table-of-proposed-icann-governance-models" rel="nofollow">
+<span class="Title">Comparison Table of Proposed ICANN Governance Models</span>
 </a>
 </li>
 </ul>

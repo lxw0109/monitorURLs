@@ -733,6 +733,8 @@ def diff2Str(filename, sourceCode):
                 pass
             elif len(diffList[index].strip()) < 2:   # delete the lines that is meaningless
                 pass
+            elif diffList[index].startswith("-"):
+                pass
             else:
                 filterList.append(diffList[index])
 

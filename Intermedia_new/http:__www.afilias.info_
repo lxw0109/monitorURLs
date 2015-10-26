@@ -89,7 +89,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form--jXAeBuY9AdQkTD3joYr9YbGmxeRwzqDPoYjXHHeE8s" value="form--jXAeBuY9AdQkTD3joYr9YbGmxeRwzqDPoYjXHHeE8s"  />
+<input type="hidden" name="form_build_id" id="form-pF3ohyYlwgOLXEZ_2a5OCyWItNDE5JQbwVM3hXhQDwo" value="form-pF3ohyYlwgOLXEZ_2a5OCyWItNDE5JQbwVM3hXhQDwo"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 
@@ -365,7 +365,7 @@ width: 16.2em!important;
     <style type="text/css">
 @media screen and (min-width: 70em) {
     .col-group-owned2 > div:nth-child(13) {margin-left:10%;}
-    .col-group-supported > div:nth-child(26) {margin-left:20%;}
+    .col-group-supported > div:nth-child(26) {margin-left:29.5%;}
 }
 </style>
 <div class="calloutsbox clearfix">
@@ -577,11 +577,11 @@ width: 16.2em!important;
 					<img alt="dot Rich Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotRICH.jpg" title="dot Rich Logo" /><img alt="dot Rich Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotRICH1.jpg" title="dot Rich Logo" />
 				</a>
 			</div>
-			<div>
+			<!--<div>
 				<a href="https://tld.hiv/en" class="gray-logo-hover" title="Dot HIV" target="_blank">
 					<img alt="dot HIV Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotHIV.jpg" title="dot HIV  Logo" /><img alt="dot HIV Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotHIV1.jpg" title="dot HIV Logo" />
 				</a>
-			</div>
+			</div>-->
 			<div>
 				<a href="http://www.nic.global/" class="gray-logo-hover" title="Dot Global" target="_blank">
 					<img alt="dot Global Logo" class="color-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotGlobal.jpg" title="dot Global Logo" /><img alt="dot Global Logo" class="gray-logo" src="sites/afilias.info/themes/afilias.info.2014/images/dotGlobal1.jpg" title="dot Global Logo" />
@@ -762,9 +762,9 @@ div#content {display:none; visibility:hidden;}
   <h2>In the News</h2>
 
   <div class="content">
-    <div class="item-list"><ul><li class="first"><a href="http://delicious.com/afilias">something went wrong</a>
+    <div class="item-list"><ul><li class="first"><a href="http://www.q102.com/articles/community-podcasts-490889/81-speakout-with-angela-giampolo-13815210/">8-1 SpeakOUT with Angela Giampolo | Q102</a>
 </li>
-<li class="last"><a href="http://www.q102.com/articles/community-podcasts-490889/81-speakout-with-angela-giampolo-13815210/">8-1 SpeakOUT with Angela Giampolo | Q102</a>
+<li class="last"><a href="http://newgtlds.icann.org/en/announcements-and-media/case-studies">Case Studies | ICANN New gTLDs</a>
 </li>
 </ul></div><div class="more-link"><a href="/news/media-coverage" title="View this feed&#039;s recent news.">more</a></div>  </div>
 </div>
@@ -805,45 +805,6 @@ div#content {display:none; visibility:hidden;}
       
 <div class="more-link">
   <a href="/news/releases">
-    more  </a>
-</div>
-  
-  
-  
-</div>   </div>
-</div>
-  <div id="block-views-Events-block_1" class="block block-views">
-  <h2>Events</h2>
-
-  <div class="content">
-    <div class="view view-Events view-id-Events view-display-id-block_1 view-dom-id-4">
-    
-  
-  
-      <div class="view-content">
-      <div class="item-list">
-    <ul>
-          <li class="views-row views-row-1 views-row-odd views-row-first views-row-last">  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/events/2015/10/18/icann-54-dublin">ICANN 54 - Dublin</a></span>
-  </div>
-  
-  <div class="views-field-field-location-city-value">
-                <span class="field-content">Dublin, Ireland</span>
-  </div>
-  
-  <div class="views-field-field-date-value">
-                <span class="field-content"><span class="date-display-single">Oct 18, 2015</span></span>
-  </div>
-</li>
-      </ul>
-</div>    </div>
-  
-  
-  
-      
-<div class="more-link">
-  <a href="/news/events">
     more  </a>
 </div>
   

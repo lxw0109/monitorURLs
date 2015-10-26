@@ -149,7 +149,7 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
                           <li><a href="meeting/important-dates-2015.html#ietf94">Important Dates</a></li>
                           <li><a href="https://datatracker.ietf.org/meeting/94/agenda.html">IETF 94  Agenda</a></li>
                           <li><a href="https://datatracker.ietf.org/meeting/94/materials.html">Meeting Materials</a></li>
-                          <li>Remote Participation</li>
+                          <li><a href="meeting/94/remote-participation.html">Remote Participation</a></li>
                       </ul></td>
                       <td width="20%" valign="top" nowrap="nowrap"><p><br />
                           <img src="meeting/94/images/yokohama2.jpg"/ alt="Yokohama" width="200" height="129" /><br />

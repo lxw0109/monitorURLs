@@ -224,7 +224,7 @@
 		<li><a href="/about-us/our-history">Our History</a></li>
 		<li><a href="/about-us/investor-relations">Investor Relations</a></li>
 		<li><a href="/about-us/leadership">Leadership</a></li>
-		<li><a href="/about-us/news-room">News Room</a></li>
+		<li><a href="/about-us/news-room">News &amp; Events</a></li>
 		<li><a href="/blog" target="_blank">Blog</a></li>
 		<li><a href="/about-us/partner-programs">Partners</a></li>
 		<li><a href="/about-us/corporate-responsibility">Corporate Responsibility</a></li>
@@ -268,7 +268,9 @@
         <a id="top"></a>
         <section class="full intro">
     <div class="container_12">
-        <h1 class="grid_12">Neustar News</h1>
+        <div class="grid_12">
+                        <h1>News and Events</h1>
+        </div>
     </div>
 </section>
 <section class="full localnav">
@@ -463,7 +465,7 @@ Email: <a href="mailto:PR@neustar.biz">PR@neustar.biz</a></p>
 	<li><a href="http://www.neustarlife.biz" target="_blank">Careers</a></li>
 	<li><a href="/about-us/contact-us">Contact Us</a></li>
 	<li><a href="/about-us/investor-relations">Investor Relations</a></li>
-	<li><a href="/about-us/news-room">News Room</a></li>
+	<li><a href="/about-us/news-room">News &amp; Events</a></li>
 </ul>
 </div>
 </div>

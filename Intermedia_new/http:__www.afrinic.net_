@@ -1060,7 +1060,7 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 	<table id="wrapper" align="center">
 <tbody>
 <tr>
-<td rowspan="2" align="left" valign="top"><p><a href="/blog/" target="_blank"><img alt="" src="https://farm6.staticflickr.com/5652/21831169618_bf3a718ca1_z_d.jpg" height="305" width="500" /></a></p></td>
+<td rowspan="2" align="left" valign="top"><p><a href="http://afrinic.net/en/library/news/1485-vacancies-at-afrinic"><img alt="sl fire winners" src="https://farm1.staticflickr.com/599/22024409718_302c175342_z_d.jpg" height="305" width="500" /></a></p></td>
 <td align="center" valign="middle"><a href="http://www.fireafrica.org" target="_blank"><img src="/images/stories/front_slide/box_fire.jpg" alt="box fire" width="178" height="88" /></a></td>
 </tr>
 <tr>
@@ -1123,15 +1123,15 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <div id="qaccordion1" class="qaccordion">
      	 <h3 class="acc-header">Latest News</h3>
   	 <div class="acc-content">
-      <p style="line-height: 16.2px;">07 October 2015</p>
-<p><a href="/en/library/news/1473-vote-for-your-favourite-award-nomination-in-the-community-choice-category" target="_blank">Vote For FIRE Awards Nomination</a></p>
-<p style="line-height: 16.2px;">07 October 2015</p>
-<p class="p1"><a href="/en/library/news/1471-afrinews-blog-goes-live" target="_blank">AFRINEWS Blog Goes Live</a></p>
+      <p style="line-height: 16.2px;">21 October 2015</p>
+<p><a href="/en/library/news/1487-winners-of-the-fourth-edition-of-the-fire-awards-2015">Winners of the fourth edition of the FIRE Awards 2015</a></p>
+<p style="line-height: 16.2px;">16 October 2015</p>
+<p><a href="/en/library/news/1485-vacancies-at-afrinic">Vacancies at AFRINIC</a></p>
 <hr />
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt5615c2a88363frssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt562d7db0af570rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1145,8 +1145,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt5615c2a88363f"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt5615c2a88363frssscroller_module", options);
+					instanceId : "pgt562d7db0af570"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt562d7db0af570rssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);
@@ -1309,20 +1309,6 @@ google.setOnLoadCallback(loadFeedControl);
   </div>
 </div>
 <!--End Footer-->
-
-			<!-- Piwik -->
-			<a href="http://piwik.org" title="Web analytics api" onclick="window.open(this.href);return(false);">
-			<script type="text/javascript">
-			var pkBaseURL = (("https:" == document.location.protocol) ? "https://webstats02.jnb.afrinic.net/" : "http://webstats02.jnb.afrinic.net/");
-			document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-			</script><script type="text/javascript">
-			piwik_action_name = '';
-			piwik_idsite = 1;
-			piwik_url = pkBaseURL + "piwik.php";
-			piwik_log(piwik_action_name, piwik_idsite, piwik_url);
-			</script>
-			<object><noscript><p>Web analytics api <img src="http://webstats02.jnb.afrinic.net/piwik.php" style="border:0" alt=""/></p></noscript></object></a>
-			<!-- End Piwik Tag -->
-			</body>
+</body>
 </html>
 

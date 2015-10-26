@@ -248,7 +248,7 @@
 <div class="category">
   <div class="cat-name">
   	<a href="https://kb.isc.org/category/76/0/10/Software-Products/">Software Products</a>
-    <span>[670]</span>
+    <span>[676]</span>
   </div>
   <div class="sub-cat">
     <ol>
@@ -260,7 +260,7 @@
   <span>[1]</span>
 </li><li>
   <a href="https://kb.isc.org/category/77/0/10/Software-Products/BIND9/">BIND9</a>
-  <span>[495]</span>
+  <span>[501]</span>
 </li><li>
   <a href="https://kb.isc.org/category/78/0/10/Software-Products/DHCP/">DHCP</a>
   <span>[147]</span>
@@ -306,7 +306,7 @@
 <div class="category">
   <div class="cat-name">
   	<a href="https://kb.isc.org/category/114/0/10/Whitepapers-Webinars-Presentations/">Whitepapers, Webinars &amp; Presentations</a>
-    <span>[2]</span>
+    <span>[3]</span>
   </div>
   <div class="sub-cat">
     <ol>
@@ -404,7 +404,7 @@
   <div class="fec-data">
     <!-- list style 3 -->
     <ol class="list-3">
-      <li> <a href="https://kb.isc.org/article/AA-01307/0/BIND-9.9.8-S1-Release-Notes.html">BIND 9.9.8-S1 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01306/0/BIND-9.10.3-Release-Notes.html">BIND 9.10.3 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01305/0/BIND-9.9.8-Release-Notes.html">BIND 9.9.8 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01304/0/Recursive-Client-Rate-limiting-in-BIND-9.9.8-and-9.10.3.html">Recursive Client Rate limiting in BIND 9.9.8 and 9.10.3</a> </li><li> <a href="https://kb.isc.org/article/AA-01291/0/CVE-2015-5986%3A-An-incorrect-boundary-check-can-trigger-a-REQUIRE-assertion-failure-in-openpgpkey_61.c.html">CVE-2015-5986: An incorrect boundary check can trigger a REQUIRE assertion failure in openpgpkey_61.c</a> </li><li> <a href="https://kb.isc.org/article/AA-01287/0/CVE-2015-5722%3A-Parsing-malformed-keys-may-cause-BIND-to-exit-due-to-a-failed-assertion-in-buffer.c.html">CVE-2015-5722: Parsing malformed keys may cause BIND to exit due to a failed assertion in buffer.c</a> </li><li> <a href="https://kb.isc.org/article/AA-01303/0/BIND-9.10.3rc1-Release-Notes.html">BIND 9.10.3rc1 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01302/0/BIND-9.9.8rc1-Release-Notes.html">BIND 9.9.8rc1 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01300/0/BIND-9.9.7-P3-Release-Notes.html">BIND 9.9.7-P3 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01301/0/BIND-9.10.2-P4-Release-Notes.html">BIND 9.10.2-P4 Release Notes</a> </li>
+      <li> <a href="https://kb.isc.org/article/AA-01311/0/DNSSEC-Quick-Reference-Guide.html">DNSSEC Quick Reference Guide</a> </li><li> <a href="https://kb.isc.org/article/AA-01309/0/Root-hints-a-collection-of-operational-and-configuration-FAQs.html">Root hints - a collection of operational and configuration FAQs</a> </li><li> <a href="https://kb.isc.org/article/AA-01307/0/BIND-9.9.8-S1-Release-Notes.html">BIND 9.9.8-S1 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01306/0/BIND-9.10.3-Release-Notes.html">BIND 9.10.3 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01305/0/BIND-9.9.8-Release-Notes.html">BIND 9.9.8 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01304/0/Recursive-Client-Rate-limiting-in-BIND-9.9.8-and-9.10.3.html">Recursive Client Rate limiting in BIND 9.9.8 and 9.10.3</a> </li><li> <a href="https://kb.isc.org/article/AA-01291/0/CVE-2015-5986%3A-An-incorrect-boundary-check-can-trigger-a-REQUIRE-assertion-failure-in-openpgpkey_61.c.html">CVE-2015-5986: An incorrect boundary check can trigger a REQUIRE assertion failure in openpgpkey_61.c</a> </li><li> <a href="https://kb.isc.org/article/AA-01287/0/CVE-2015-5722%3A-Parsing-malformed-keys-may-cause-BIND-to-exit-due-to-a-failed-assertion-in-buffer.c.html">CVE-2015-5722: Parsing malformed keys may cause BIND to exit due to a failed assertion in buffer.c</a> </li><li> <a href="https://kb.isc.org/article/AA-01303/0/BIND-9.10.3rc1-Release-Notes.html">BIND 9.10.3rc1 Release Notes</a> </li><li> <a href="https://kb.isc.org/article/AA-01302/0/BIND-9.9.8rc1-Release-Notes.html">BIND 9.9.8rc1 Release Notes</a> </li>
     </ol>
     <!-- /list -->
   </div>
