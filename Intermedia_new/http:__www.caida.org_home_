@@ -376,10 +376,10 @@ padding: 0px 8px 2px 12px;
 <div class="column">
 <div id="splash">
 <div class="imgshadow">
-<a href="/research/topology/hiddenmetricspaces/"><img title="We explore common properties of complex networks in order to find a general mechanism that would support a structural model of the network explaining the connection between network structure and function. Our proposed mechanism relies on the presence of a metric space hidden behind an observable network, referred to as the Hidden Metric Space (HMS). " alt="" height="250" width="300" src="/images/hiddenmetricspace_med.png"></a>
+<a href="/research/topology/as_core_network/2015/"><img title="This visualization represents macroscopic snapshots of IPv4 and IPv6 Internet topology samples captured in January 2015. For the IPv4 map, CAIDA collected data from 118 monitors located in 42 countries on 6 continents. For the IPv6 map, CAIDA collected data from 47 Ark monitors located in 25 countries on 6 continents." alt="" height="250" width="300" src="/research/topology/as_core_network/pics/2015/ascore-2015-jan-ipv4v6-standalone-300h250.png"></a>
 </div>
 <div class="captiontext">
-<a href="/research/topology/hiddenmetricspaces/">Hidden Metric Spaces</a>
+<a href="/research/topology/as_core_network/2015/">AS Core IPv4 + IPv6 (2015)</a>
 </div>
 <hr>
 <div class="captiontext">
@@ -439,6 +439,26 @@ The goal of this workshop series is to provide a forum for researchers, commerci
 <div class="rccontent">
 <table summary="CAIDA What's New main feed" class="feedtable">
 <tr>
+<td><a href="http://www.caida.org/publications/presentations/2015/measuring_monitoring_bgp_ietf/" title="This slideset was presented at: Internet Engineering Task Force (IETF) (November 2015)">"Measuring and Monitoring BGP" slideset</a></td><td>Nov&nbsp;13</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://www.caida.org/publications/presentations/2015/bgp_hackathon_imc/" title="This slideset was presented at: ACM Internet Measurement Conference (IMC) (October 2015)">"BGP Hackathon" slideset</a></td><td>Nov&nbsp;13</td>
+</tr>
+<tr>
+<td><a href="http://www.caida.org/publications/presentations/2015/bgp_stream_imc/" title="This slideset was presented at: ACM Internet Measurement Conference (IMC) (October 2015)">"BGP Stream" slideset</a></td><td>Nov&nbsp;13</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://www.caida.org/publications/presentations/2015/leveraging_internet_background_imc/" title="This slideset was presented at: ACM Internet Measurement Conference (IMC) (October 2015)">"Leveraging Internet Background Radiation for Opportunistic Network Analysis" slideset</a></td><td>Nov&nbsp;13</td>
+</tr>
+<tr>
+<td><a href="http://www.caida.org/publications/presentations/2015/lost_in_space_raim/" title="This slideset was presented at: IRTF Workshop on Research and Applications of Internet Measurements (RAIM) (October 2015)">"Lost in Space: Improving Inference of IPv4 Address Space Utilization" slideset</a></td><td>Nov&nbsp;13</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://www.caida.org/research/topology/as_core_network/" title="CAIDA's visualization of both IPv4 and IPv6 AS-level Internet topology based on Archipelago data for 2015 is available for viewing and download. This visualization represents a macroscopic snapshot of IPv4 and IPv6 Internet topology samples captured in 2015. For the IPv4 map, 118 Ark monitors in 42 countries on 6 continents probed paths toward 281 million /24 IPv4 networks. For the IPv6 map, the subset of 47 IPv6-connected Ark monitors located in 25 countries on 6 continents concurrently probed paths toward 4.9 million IPv6 addresses.
+
+In order to improve our AS Core visualization we have made two major refinements to how we create the graph, including how we rank individual ASes.  First, we now rank ASes based on their transit degree rather then their outdegree.  Second, we now infer links across Internet eXchange (IX) point address space, rather than considering the IX itself a node to which various ISPs attach.">AS Core IPv4+IPv6 Graph 2015 available</a></td><td>Oct&nbsp;30</td>
+</tr>
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/adding_enhanced_services_internet_tprc/" title="This slideset was presented at: Telecommunications Policy Research Conference (TPRC) (September 2015)">"Adding Enhanced Services to the Internet: Lessons from History" slideset</a></td><td>Oct&nbsp;12</td>
 </tr>
 <tr class="zebra">
@@ -476,27 +496,6 @@ Traffic traces in this dataset are anonymized using CryptoPan prefix-preserving 
 AIMS 2015 was by invitation only.
     ">AIMS 2015 Workshop on Active Internet Measurements</a></td><td><span style="white-space:nowrap;">Mar 31-Apr 2</span></td>
 </tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/presentations/2015/ipv6_as_relationships_pam/" title="This slideset was presented at the Passive and Active Network Measurement Workshop (PAM) in March 2015.">"IPv6 AS Relationships, Clique, and Congruence" slideset</a></td><td>Mar&nbsp;26</td>
-</tr>
-<tr>
-<td><a href="http://www.caida.org/publications/presentations/2015/measuring_characterizing_ipv6_router_pam/" title="This slideset was presented at the  Passive and Active Network Measurement Workshop (PAM) in March 2015.">"Measuring and Characterizing IPv6 Router Availability" slideset</a></td><td>Mar&nbsp;25</td>
-</tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/presentations/2015/mapping_technological_frontier_siliconflatirons/" title="This slideset was presented at the Silicon Flatirons Center meeting in February 2015.">"Mapping the Technological Frontier and Sources of Innovation" slideset</a></td><td>Feb&nbsp;11</td>
-</tr>
-<tr>
-<td><a href="http://www.caida.org/workshops/ndn/1502/" title="The NDN-NP Project hosted the 5th NDN Retreat on February 5th-6th 2015 at the Weaver Conference Center, Malamud Room, Institute of the Americas, on the campus of the University of California at San Diego in La Jolla, CA.  The retreat was a closed invitation-only event for NDN participants.">5th NDN Retreat</a></td><td><span style="white-space:nowrap;">Feb 5-6</span></td>
-</tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/presentations/2015/predict_pi_jan/" title="This slideset was presented at: PREDICT PI (Jan 2015)">"DHS PREDICT Project: CAIDA Update" slideset</a></td><td>Jan&nbsp;27</td>
-</tr>
-<tr>
-<td style="background: center"></td><td align="left"><span class="yeartext">2014</span></td>
-</tr>
-<tr>
-<td><a href="http://www.caida.org/publications/presentations/2014/internet_topology_performance_analytics_dhs/" title="This slideset was presented at the DHS S&amp;T R&amp;D Showcase and Technical Workshop in December 2014.">"Internet topology and performance analytics for mapping critical network infrastructure" slideset</a></td><td>Dec&nbsp;19</td>
-</tr>
 </table>
 </div>
 <b class="rc3"></b><b class="rc2"></b><b class="rc1"></b><b class="rc0"></b>
@@ -513,6 +512,12 @@ AIMS 2015 was by invitation only.
 <div class="rccontent">
 <table summary="CAIDA Blog: According to the Best Available Data" class="feedtable">
 <tr>
+<td><a href="http://blog.caida.org/best_available_data/2015/11/10/report-from-the-2nd-ndn-community-meeting-ndncomm-2015/" title="The report for the Second NDN Community Meeting (NDNcomm 2015) is available online now. The meeting, held at UCLA in Los Angeles, California on September 28-29, 2015, provided a platform for attendees from 63 institutions across 13 countries to exchange recent NDN research and development results, to debate existing and proposed functionality in NDN forwarding, [&amp;#8230;]">Report from the 2nd NDN Community Meeting (NDNcomm 2015)</a></td><td>Nov&nbsp;10</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://blog.caida.org/best_available_data/2015/11/06/caida-releases-the-august-2015-internet-topology-data-kit-itdk-2015-08/" title="Nothing feels better than publishing fresh data for the research community, especially when fresh brings new features. Today, CAIDA released the August 2015 version of our popular Internet Topology Data Kit (ITDK) that includes topologies for both IPv4 and IPv6. CAIDA&amp;#8217;s ITDK provides researchers with data that describes connectivity and routing observations gathered from a [&amp;#8230;]">CAIDA releases the August 2015 Internet Topology Data Kit (ITDK 2015-08)</a></td><td>Nov&nbsp;7</td>
+</tr>
+<tr>
 <td><a href="http://blog.caida.org/best_available_data/2015/10/21/recent-papers-on-policy/" title="We recently posted two papers on policy that are worth highlighting: Anchoring policy development around stable points: an approach to regulating the co-evolving ICT ecosystem, published in Telecommunications Policy, Aug 2015. Abstract: The daunting pace of innovation in the information and communications technology (ICT) landscape, a landscape of technology and business structure, is a well-known [&amp;#8230;]">Recent papers on policy</a></td><td>Oct&nbsp;22</td>
 </tr>
 <tr class="zebra">
@@ -520,12 +525,6 @@ AIMS 2015 was by invitation only.
 </tr>
 <tr>
 <td><a href="http://blog.caida.org/best_available_data/2015/07/22/caidas-annual-report-for-2014/" title="[Executive Summary from our annual report for 2014:] This annual report covers CAIDA&amp;#8217;s activities in 2014, summarizing highlights from our research, infrastructure, data-sharing and outreach activities. Our research projects span Internet topology, routing, traffic, security and stability, future Internet architecture, economics and policy. Our infrastructure activities support measurement-based Internet studies, both at CAIDA and around [&amp;#8230;]">CAIDA&rsquo;s Annual Report for 2014</a></td><td>Jul&nbsp;23</td>
-</tr>
-<tr class="zebra">
-<td><a href="http://blog.caida.org/best_available_data/2015/07/20/panel-on-cyberwarfar-and-cyberattacks-at-9th-circuit-judicial-conference/" title="I had the honor of contributing to a panel on &amp;#8220;Cyberwarfare and cyberattacks: protecting ourselves within existing limitations&amp;#8221; at this year&amp;#8217;s 9th Circuit Judicial Conference. The panel moderator was Hon. Thomas M. Hardiman, and the other panelists were Professor Peter Cowhey, of UCSD&amp;#8217;s School of Global Policy and Strategy, and Professor and Lt. Col. Shane [&amp;#8230;]">Panel on Cyberwarfare and Cyberattacks at 9th Circuit Judicial Conference</a></td><td>Jul&nbsp;21</td>
-</tr>
-<tr>
-<td><a href="http://blog.caida.org/best_available_data/2015/07/02/whats-in-a-ranking-comparing-dyns-bakers-dozen-and-caidas-as-rank/" title="The Internet infrastructure is composed of thousands of independent networks (Autonomous Systems, or ASes) that engage in typically voluntary bilateral interconnection (&amp;#8220;peering&amp;#8221;) agreements to provide reachability to each other. Underlying these peering relationships, are business relationships between networks, although whether and how much money ASes exchange when they interconnect is not generally published. Some of [&amp;#8230;]">What&rsquo;s in a Ranking? comparing Dyn&rsquo;s Baker&rsquo;s Dozen and CAIDA&rsquo;s AS Rank</a></td><td>Jul&nbsp;3</td>
 </tr>
 </table>
 </div>
@@ -539,42 +538,41 @@ AIMS 2015 was by invitation only.
 <div class="rccontent">
 <table summary="CAIDA What's New feed: New Papers" class="feedtable">
 <tr>
+<td><a href="http://www.caida.org/publications/papers/2015/second_ndncomm/" title="This report is a brief summary of the second NDN Community Meeting held at UCLA in Los Angeles, California on September 28&ndash;29, 2015. The meeting provided a platform for the attendees from 63 institutions across 13 countries to exchange their recent NDN research and development results, to debate existing and proposed functionality in NDN forwarding, routing, and security, and to provide feedback to the NDN architecture design evolution.">The Second Named Data Networking Community Meeting (NDNcomm 2015)</a></td><td>Nov&nbsp;10</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://www.caida.org/publications/papers/2015/mapping_peering_interconnections/" title="Annotating Internet interconnections with robust physical coordinates at the level of a building facilitates network management including interdomain troubleshooting, but also has practical value for helping to locate points of attacks, congestion, or instability on the Internet. But, like most other aspects of Internet interconnection, its geophysical locus is generally not public; the facility used for a given link must be inferred to construct a macroscopic map of peering. We develop a methodology, called constrained facility search, to infer the physical interconnection facility where an interconnection occurs among all possible candidates. We rely on publicly available data about the presence of networks at different facilities, and execute traceroute measurements from more than 8,500 available measurement servers scattered around the world to identify the technical approach used to establish an interconnection. A key insight of our method is that inference of the technical approach for an interconnection sufficiently constrains the number of candidate facilities such that it is often possible to identify the specific facility where a given interconnection occurs. Validation via private communication with operators confirms the accuracy of our method, which outperforms heuristics based on naming schemes and IP geolocation. Our study also reveals the multiple roles that routers play at interconnection facilities; in many cases the same router implements both private interconnections and public peerings, in some cases via multiple Internet exchange points. Our study also sheds light on peering engineering strategies used by different types of networks around the globe.">Mapping Peering Interconnections to a Facility</a></td><td>Oct&nbsp;30</td>
+</tr>
+<tr>
+<td><a href="http://www.caida.org/publications/papers/2015/bgpstream-tr/" title="We present the design and implementation of BGPStream, an open-source software framework for the analysis of both historical and real-time Border Gateway Protocol (BGP) measurement data. Although BGP is a crucial operational component of the Internet infrastructure, and is the subject of research in the areas of Internet performance, security, topology, protocols, economics, etc., there is no standard and efficient way of processing large amounts of distributed and/or live BGP measurement data. BGPStream fills this gap, enabling efficient investigation of events, rapid prototyping, and building complex tools and efficient large-scale monitoring applications (e.g., detection of connectivity disruptions or BGP hijacking attacks). We discuss the design choices and challenges in the development of BGPStream. We apply the components of the framework to different scenarios, and we describe the development and deployment of complex services for global Internet monitoring that we built on top of it.">BGPStream: a software framework for live and historical BGP data analysis</a></td><td>Oct&nbsp;28</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://www.caida.org/publications/papers/2015/measuring_interdomain_congestion/" title="We have developed a method to localize and quantify interdomain congestion in the Internet. Our Time Sequence Latency Probes (TSLP) method depends on two facts: Internet traffic patterns are typically diurnal, and queues increase packet delay through a router during periods of adjacent link congestion. Repeated round trip delay measurements from a single test point to the two edges of a congested link will show sustained increased latency to the far (but not to the near) side of the link. We are designing and implementing a system for network-wide measurement of congestion using the TSLP method. We plan to support QoE measurements on this system to complement our measurement of QoS metrics such as delay and loss rate.">Measuring Interdomain Congestion and its Impact on QoE</a></td><td>Oct&nbsp;28</td>
+</tr>
+<tr>
+<td><a href="http://www.caida.org/publications/papers/2015/infrastructure_support_qoe/" title="A white paper at the NSF/FCC Workshop on Tracking Quality of Experience in the Internet in October 2015.
+
+k. claffy, &quot;Infrastructure to support QoE measurement&quot;, in Workshop on Tracking Quality of Experience in the Internet, Oct 2015.">Infrastructure to support QoE measurement</a></td><td>Oct&nbsp;26</td>
+</tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/resilience_deployed_tcp_blind" title="To be presented at IMC in Japan, October 2015.
 M. Luckie, R. Beverly, T. Wu, M. Allman, and k. claffy, &quot;Resilience of Deployed TCP to Blind Attacks&quot;, in Internet Measurement Conference (IMC), Oct 2015.">Resilience of Deployed TCP to Blind Attacks</a></td><td>Oct&nbsp;12</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/aims2015_report/" title="In submission to ACM SIGCOMM Computer Communication Review (CCR).
 k. claffy, &quot;The 7th Workshop on Active Internet Measurements (AIMS-7) Report&quot;, ACM SIGCOMM Computer Communication Review (CCR), Oct 2015.
 ">The 7th Workshop on Active Internet Measurements (AIMS-7) Report</a></td><td>Oct&nbsp;1</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/ethics_research_development_creds/" title="E. Kenneally and M. Fomenkov, &quot;Ethics Research &amp; Development Summary: Cyber-security Research Ethics Decision Support (CREDS) Tool&quot;, in ACM SIGCOMM Workshop on Ethics in Networked Systems Research, Aug 2015.">Ethics Research &amp; Development Summary: Cyber-security Research Ethics Decision Support (CREDS) Tool</a></td><td>Sep&nbsp;16</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/papers/2015/investigating_excessive_delays_mobile/" title="N. Larson, D. Baltrunas, A. Kvalbein, A. Dhamdhere, k. claffy, and A. Elmokashfi, &quot;Investigating Excessive Delays in Mobile Broadband Networks&quot;, in ACM SIGCOMM Workshop on All Things Cellular (ATC), Aug 2015.">Investigating Excessive Delays in Mobile Broadband Networks</a></td><td>Sep&nbsp;10</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/papers/2015/adding_enhanced_services_internet/" title="To be presented at TPRC in September 2015.
 
 k. claffy and D. Clark, &quot;Adding Enhanced Services to the Internet: Lessons from History&quot;, in Telecommunications Policy Research Conference (TPRC), Sep 2015.">Adding Enhanced Services to the Internet: Lessons from History</a></td><td>Sep&nbsp;10</td>
-</tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/papers/2015/leveraging_internet_background_radiation/" title="To be presented at IMC 2015.
-
-K. Benson, A. Dainotti, k. claffy, A. Snoeren, and M. Kallitsis, &quot;Leveraging Internet Background Radiation for Opportunistic Network Analysis&quot;, in Internet Measurement Conference (IMC), Oct 2015.">Leveraging Internet Background Radiation for Opportunistic Network Analysis</a></td><td>Sep&nbsp;9</td>
-</tr>
-<tr>
-<td><a href="http://www.caida.org/publications/papers/2015/leveraging_ipv4ipv6_identity_duality/" title="I. Livadariu, S. Ferlin, O. Alay, T. Dreibholz, A. Dhamdhere, and A. Elmokashfi, &quot;Leveraging the IPv4/IPv6 Identity Duality by using Multi-Path Transport&quot;, Apr 2015.">Leveraging the IPv4/IPv6 Identity Duality by using Multi-Path Transport</a></td><td>Jul&nbsp;21</td>
-</tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/papers/2015/hyperbolic_graph_generator/" title="R. Aldecoa, C. Orsini, and D. Krioukov, &quot;Hyperbolic graph generator&quot;, Computer Physics Communications, Jun 2015.">Hyperbolic graph generator</a></td><td>Jul&nbsp;8</td>
-</tr>
-<tr>
-<td><a href="http://www.caida.org/publications/papers/2015/network_mapping_replaying_hyperbolic/" title="F. Papadopoulos, C. Psomas, and D. Krioukov, &quot;Network Mapping by Replaying Hyperbolic Growth&quot;, IEEE/ACM Transactions on Networking, vol. 23, no. 1, pp. 198--211, Feb 2015.">Network Mapping by Replaying Hyperbolic Growth</a></td><td>Jul&nbsp;8</td>
-</tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/papers/2015/comments_cybersecurity_research_development/" title="Comment in response to Request for Information (RFI)-Federal Cybersecurity R&amp;D Strategic Plan, posted by the National Science Foundation on 4/27/2015.
-D. Clark and k. claffy, &quot;Comments on Cybersecurity Research and Development Strategic Plan&quot;, Federal Communications Commission (FCC) Commission Documents, Jun 2015.">Comments on Cybersecurity Research and Development Strategic Plan</a></td><td>Jun&nbsp;30</td>
 </tr>
 </table>
 </div>

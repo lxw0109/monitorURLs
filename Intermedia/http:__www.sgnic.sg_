@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-4xg-qzshPasXGyp8tX2MW8oIENYZRIbh72b3m-hDjcA" value="form-4xg-qzshPasXGyp8tX2MW8oIENYZRIbh72b3m-hDjcA"  />
+<input type="hidden" name="form_build_id" id="form-fIlXruQa-ocso1s717fzj3Q8GwmCjqo3U28LB0himbU" value="form-fIlXruQa-ocso1s717fzj3Q8GwmCjqo3U28LB0himbU"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-I1NTPqUcRAKpnDu1ny6W_eCCwfi0vlaBjxz415fqGGM" value="form-I1NTPqUcRAKpnDu1ny6W_eCCwfi0vlaBjxz415fqGGM"  />
+<input type="hidden" name="form_build_id" id="form-OT7EtHmDYG_7luuoW6I4aOTc65RkIor5M-ZdzHI_mOA" value="form-OT7EtHmDYG_7luuoW6I4aOTc65RkIor5M-ZdzHI_mOA"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -120,6 +120,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-created">
+                <span class="field-content">October 30, 2015, 12:57 pm</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/results-october-2015-premium-numeric-domain-name-exercise">Results of October 2015 Premium Numeric Domain Name Exercise</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-created">
                 <span class="field-content">September 21, 2015, 11:10 am</span>
   </div>
   
@@ -127,22 +136,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="/news/sg50-premium-numeric-name-application">SG50 Premium Numeric Name Application</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-created">
                 <span class="field-content">September 9, 2015, 9:08 am</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="/news/sgnic-q-15005-invitation-quote-anycast-dns-service">SGNIC-Q-15005: Invitation to Quote for an Anycast DNS Service</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-created">
-                <span class="field-content">August 17, 2015, 10:53 am</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/results-july-2015-premium-domain-name-pdn-exercise">Results of July 2015 Premium Domain Name (&quot;PDN&quot;) Exercise</a></span>
   </div>
 </li>
       </ul>
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">October 23, 2015, 10:34 am</span>
+                <span class="field-content">November 13, 2015, 12:33 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/10/23/itu-begins-review-list/">The ITU begins to review its To Do list</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/11/13/software-engineer-not-engineer/">When is a Software Engineer not an Engineer?</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">October 23, 2015, 7:34 am</span>
+                <span class="field-content">November 13, 2015, 9:13 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/10/23/event-wrap-apt-wtsa16-2/">Event Wrap: APT-WTSA16-2</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/11/13/event-wrap-sri-lanka-cyber-security-week-2015/">Event Wrap: Sri Lanka Cyber Security Week 2015</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">October 22, 2015, 11:12 am</span>
+                <span class="field-content">November 12, 2015, 9:15 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/10/22/smishing-evolves-in-south-korea/">Smishing evolves in South Korea</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/11/12/ip-anycast-and-managed-dns/">IP anycast and managed DNS</a></span>
   </div>
 </li>
       </ul>

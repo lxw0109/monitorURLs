@@ -39,19 +39,11 @@
         <link rel="shortcut icon" href="/favicon.ico">
 
 <!-- CSS Core -->
-<!-- Respond.js (for IE8) only works with local copy of CSS (bootstrap must be same domain) -->
-<!--[if lt IE 9]>
-    <link href="https://www.apnic.net/_designs/corporate-identity/css/bootstrap.min.css" rel="stylesheet">
-<![endif]-->
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">        <link href="//cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">        <link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css?v=0.6.4" rel="stylesheet">
-        <link href="https://www.apnic.net/__data/assets/css_file/0016/72322/legacy.css?v=0.1.10" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cloud.typography.com/6771312/722504/css/fonts.css" rel="stylesheet">
+<link href="https://www.apnic.net/__data/assets/css_file/0011/69239/custom.css" rel="stylesheet">
+<link href="https://www.apnic.net/__data/assets/css_file/0016/72322/legacy.css" rel="stylesheet">
 
-        <style>
-            /* No Javascript stuff */
-            .js-disabled{display:none;}
-            .noscript .js-enabled{display:none;}
-            .noscript .js-disabled{display:inherit;}
-        </style>
 
 <!-- CSS Extras -->
         <link href="https://www.apnic.net/__data/assets/css_file/0009/72675/home-20140815-1.css?v=0.3.1" rel="stylesheet">
@@ -78,7 +70,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 26 October 2015 11:11:12
+  Page generated: 16 November 2015 11:11:21
 -->
 
 
@@ -180,7 +172,9 @@
 </script>
 						
 <!-- Site Top Level Nav -->
-<div id="site-top-nav" class="row apnic-sprite apnic-sprite-colours hidden-print">
+
+						
+						<div id="site-top-nav" class="row apnic-sprite apnic-sprite-colours hidden-print">
 <div id="nav-get-ip"><a href="https://www.apnic.net/get-ip">Get IP</a>
 <div class="site-top-nav-level2">
 <div><a href="https://www.apnic.net/get-ip/get-ip-addresses-asn">Get IP Addresses / ASN</a></div>
@@ -275,6 +269,7 @@
 </div>
 </div>
 
+						
 <!-- Header -->
 
 						
@@ -319,7 +314,7 @@ $('.theme-about #header-label span').text('About APNIC');
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <a href="https://2016.apricot.net" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="APRICOT 2016 - Save the date! Auckland, New Zealand, 15-26 February 2016"><img src="https://www.apnic.net/home/carousel/apricot-2016-save-the-date.jpg" alt="APRICOT 2016 - Save the date! Auckland, New Zealand, 15-26 February 2016"></a>
+      <a href="https://2016.apricot.net/register" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="APRICOT 2016 - Register now! Auckland, New Zealand, 15-26 February 2016"><img src="https://www.apnic.net/home/carousel/apricot-2016-banner_register-now.jpg" alt="APRICOT 2016 - Register now! Auckland, New Zealand, 15-26 February 2016"></a>
     </div>    <div class="item">
       <a href="//training.apnic.net/events" class="ga-event" data-ga-category="Homepage Carousel" data-ga-label="eLearning - Free, one-hour classes held every Wednesday. Register now!"><img src="https://www.apnic.net/home/carousel/eLearning-website-banner-191x873-01.png" alt="eLearning - Free, one-hour classes held every Wednesday. Register now!"></a>
     </div>
@@ -437,9 +432,9 @@ $('.theme-about #header-label span').text('About APNIC');
       </h2>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-15-october-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 15 October 2015</a></h3>
-<p class="ellipsis" data-ellipsis-rows="2">
-<p>APNIC experienced a brief unscheduled upstream outage affecting network services traversing the Telstra network. As a result APNIC services were partially unavailable for anyone who reaches APNIC through Telstra.</p>
+      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-11-november-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 11 November 2015</a></h3>
+<p class="ellipsis" data-ellipsis-rows="2"><p>APNIC will cary out maintenance work on its backend load balancing infrastructure. During this period, the services listed may be affected.</p>
+
 
 
 
@@ -463,13 +458,13 @@ $('.theme-about #header-label span').text('About APNIC');
     </div><!-- /.row -->
     <div class="row" id="bottom-row">
         <div class="col-sm-9 features" id="features-1">
-<a class="feature" id="feature-1" href="//www.apnic.net/services/become-a-member"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>Become a Member</span><b class="apnic-sprite apnic-sprite-icons"></b></a>
-<a class="feature" id="feature-2" href="//isif.asia/"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>Support ISIF</span><img src="https://www.apnic.net/__data/assets/image/0006/76407/isif-logo.png" alt=""/></a>
+<a class="feature" id="feature-1" href="https://www.apnic.net/get-ip/apnic-membership"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>Become a Member</span><b class="apnic-sprite apnic-sprite-icons"></b></a>
+<a class="feature" id="feature-2" href="http://isif.asia/"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>Support ISIF</span><img src="https://www.apnic.net/__data/assets/image/0006/76407/isif-logo.png" alt=""/></a>
 <a class="feature" id="feature-3" href="//www.nro.net/"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>APNIC is a member of the </span><b class="apnic-sprite apnic-sprite-icons"><span>NRO</span></b></a>
 <a class="feature" id="feature-4" href="https://www.apnic.net/community/iana-transition"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>IANA Oversight Transition</span></a>
         </div><!-- /.col-sm-9 -->
         <div class="col-sm-3 features" id="features-2">
-<a class="feature" id="feature-5" href="//www.apnic.net/helpdesk" data-ga-label="APNIC Helpdesk Need Help?"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>APNIC Helpdesk</span><em>Need Help?</em><b class="apnic-sprite apnic-sprite-icons"></b></a>
+<a class="feature" id="feature-5" href="https://www.apnic.net/helpdesk" data-ga-label="APNIC Helpdesk Need Help?"><strong class="apnic-sprite apnic-sprite-colours"></strong><span>APNIC Helpdesk</span><em>Need Help?</em><b class="apnic-sprite apnic-sprite-icons"></b></a>
         </div><!-- /.col-sm-3 -->
     </div><!-- /.row -->
 </div><!-- /.container -->
@@ -539,8 +534,6 @@ $('.theme-about #header-label span').text('About APNIC');
         var is = document.getElementsByTagName('script')[0]; is.parentNode.insertBefore(iga, is);
     })();
 </script>
-<!-- Clear cache -->
-
 
 
 </body>

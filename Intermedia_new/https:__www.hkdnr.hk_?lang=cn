@@ -185,11 +185,11 @@ function MM_swapImage() { //v3.0
 			<!--<br>--><div>
 			<ul>
 									<li><a href="/content.jsp?id=164&lang=cn">注册协议</a></li>
-						<li><a href="/content.jsp?id=302&lang=cn">注册协议 (生效于2015年10月26日)</a></li>
+						<li><a href="/content.jsp?id=302&lang=cn">注册协议 (生效于2015年12月1日)</a></li>
 						<li><a href="/content.jsp?id=166&lang=cn">注册服务机构及合作夥伴的行为守则</a></li>
 						<li><a href="/content.jsp?id=168&lang=cn">顾客约章</a></li>
 						<li><a href="/content.jsp?id=282&lang=cn">合作伙伴计划条款与条件</a></li>
-						<li><a href="/content.jsp?id=303&lang=cn">合作伙伴计划条款与条件 (生效于2015年10月26日)</a></li>
+						<li><a href="/content.jsp?id=303&lang=cn">合作伙伴计划条款与条件 (生效于2015年12月1日)</a></li>
 						</ul>
 			</div><!--<br>-->
 			
@@ -236,11 +236,11 @@ function MM_swapImage() { //v3.0
 	  			<td rowspan="2"><a href="/content.jsp?id=131&lang=cn"  target='_blank'><img border=0 src="/images/banner/hkdomain_cn_385x188.jpg"></a></td>
 	  		</tr>-->
 	  		<tr>
-	  			<td><a href="/content.jsp?id=131&lang=cn" target="_blank"><img border=0 src="/images/banner/night_view_cn_544x187.jpg"></a></td>
+	  			<td><a href="http://bestwebsite.hk/"  target='_blank'><img border=0 src="/images/banner/bestHKAward2015_cn.jpg"></a></td>
 	  		</tr>
 	  	</table>
 <br>
-	  	 <!--<a href="/content.jsp?id=63#!/&in=https://www.hkirc.hk/company_info/pressrelease.jsp?item=425"><img src="/images/banner/eng_new.JPG"></a>--><ul class='txt_content'><li>域名注册费用及逾期手续费将于2015年10月26日作出更改，注册协议内的收费表亦将因此更新。请参看<a href='/pdf/HKDNR-Registration_Agreement_chi.pdf' target='_blank'>新版本</a>。</li><li>近日发现有人利用HKDNR名义发出疑是失实的电邮，详情请<a href='/hkdnr/notice_20120920.jsp?lang=cn'>参阅</a>。</li></ul>
+	  	 <!--<a href="/content.jsp?id=63#!/&in=https://www.hkirc.hk/company_info/pressrelease.jsp?item=425"><img src="/images/banner/eng_new.JPG"></a>--><ul class='txt_content'><li>近日发现有人利用HKDNR名义发出疑是失实的电邮，详情请<a href='/hkdnr/notice_20120920.jsp?lang=cn'>参阅</a>。</li></ul>
   					</td>
   				</tr>
   			</table>

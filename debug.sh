@@ -8,7 +8,7 @@
 ps aux|grep "monitorURLs.py"|awk '{print $2}'|xargs kill
 
 #run the monitor.
-cd /home/cnnic/monitorURL
+cd /home/cnnic/other/monitorURL
 
 #use criterion &  criterion_new
 touch accessErrorURLs

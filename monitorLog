@@ -1,44 +1,42 @@
-Sun Oct 25 00:00:01 CST 2015 --- Clear Log OK
+Sun Nov 15 00:00:01 CST 2015 --- Clear Log OK
 
-lxw_IOError: 	2015-10-25-09:10:01
+lxw_IOError: 	2015-11-15-09:10:01
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-10-25-09:10:05
+Information: URL recovery. lxw_KeyError: http://www.ripe.net/	2015-11-15-09:10:04
+
+lxw_IOError: 	2015-11-15-09:10:05
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-10-25-09:10:09
+lxw_IOError: 	2015-11-15-09:10:11
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING: 	2015-10-25-09:10:09
+EMAIL SENDING: 	2015-11-15-09:10:13
 
-EMAIL SENDING SUCCESS: 	2015-10-25-09:10:13
+EMAIL SENDING SUCCESS: 	2015-11-15-09:10:16
 
-EMAIL SENDING: 	2015-10-25-09:10:13
+EMAIL SENDING: 	2015-11-15-09:10:16
 
-EMAIL SENDING SUCCESS: 	2015-10-25-09:10:22
+EMAIL SENDING SUCCESS: 	2015-11-15-09:10:17
 
-Monitor Finished.   Monitor Time: 2015-10-25-09:10:22.   Time Cost: 0'20"
+Monitor Finished.   Monitor Time: 2015-11-15-09:10:17.   Time Cost: 0'16"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_IOError: 	2015-10-26-09:10:02
+lxw_IOError: 	2015-11-16-09:10:02
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-10-26-09:10:05
+lxw_IOError: 	2015-11-16-09:10:05
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-10-26-09:10:11
+lxw_IOError: 	2015-11-16-09:10:11
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING: 	2015-10-26-09:10:13
-
-EMAIL SENDING SUCCESS: 	2015-10-26-09:10:18
-
-Monitor Finished.   Monitor Time: 2015-10-26-09:10:18.   Time Cost: 0'16"
+Monitor Finished.   Monitor Time: 2015-11-16-09:10:16.   Time Cost: 0'14"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_IOError: 	2015-10-26-09:21:40
+lxw_IOError: 	2015-11-17-09:10:01
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-10-26-09:21:42
+lxw_IOError: 	2015-11-17-09:10:04
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-10-26-09:21:47
+lxw_IOError: 	2015-11-17-09:10:13
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-Monitor Finished.   Monitor Time: 2015-10-26-09:21:52.   Time Cost: 0'11"
+Monitor Finished.   Monitor Time: 2015-11-17-09:10:18.   Time Cost: 0'17"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------

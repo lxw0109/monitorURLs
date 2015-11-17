@@ -50,10 +50,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
 <meta http-equiv="Content-Language" content="en-US" >
 <meta name="description" content="Click here for Neustar's press release archives from the year 2012. Also find media kit download and PR contact info" >
-<meta name="keywords" content="domain names, TLDs, new generic top-level domain names, top-level domain names, Lori Anne Wardi, registry, .CO, Internet, entrepreneurs, startups, innovators" >
+<meta name="keywords" content="information services, marketshare, neustar, marketing analytics" >
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" >
 <meta name="description" content="Click here for Neustar's press release archives from the year 2012. Also find media kit download and PR contact info" >
-<meta name="keywords" content="domain names, TLDs, new generic top-level domain names, top-level domain names, Lori Anne Wardi, registry, .CO, Internet, entrepreneurs, startups, innovators" >
+<meta name="keywords" content="information services, marketshare, neustar, marketing analytics" >
 <meta name="twitter:title" content="Neustar | 2012 Press Releases &amp; Company News" >
 <meta name="twitter:description" content="Click here for Neustar's press release archives from the year 2012. Also find media kit download and PR contact info" >
 <meta name="twitter:site" content="@Neustar" >
@@ -112,6 +112,7 @@
 		<li><a href="https://www.neustarlocaleze.biz/manage/login" id="gtm.sitew.login-localeze" target="_blank">Localeze BRM</a></li>
 		<li><a href="https://webapp2.targusinfo.com/" id="gtm.sitew.login-infozone" target="_blank">InfoZone</a></li>
 		<li><a href="https://ipintelligence.neustar.biz/apps/login/?CL=gp.od.dev.nsr" id="gtm.sitew.login-ipi" target="_blank">IP Intelligence</a></li>
+		<li><a href="https://dashboard.p1.neustar.biz/#/login" id="gtm.sitew.login-p1" target="_blank">PlatformOne</a></li>
 		<li class="title">IT/Security</li>
 		<li><a href="https://siteprotect.neustar.biz" id="gtm.sitew.login-siteprotect" target="_blank">SiteProtect</a></li>
 		<li><a href="https://portal.ultradns.com" id="gtm.sitew.login-ultradns" target="_blank">UltraDNS</a></li>
@@ -225,13 +226,18 @@
 		<li><a href="/about-us/investor-relations">Investor Relations</a></li>
 		<li><a href="/about-us/leadership">Leadership</a></li>
 		<li><a href="/about-us/news-room">News &amp; Events</a></li>
-		<li><a href="/blog" target="_blank">Blog</a></li>
 		<li><a href="/about-us/partner-programs">Partners</a></li>
 		<li><a href="/about-us/corporate-responsibility">Corporate Responsibility</a></li>
 		<li><a href="/thetechnology" target="_blank">NPAC</a></li>
 		<li><a href="/about-us/neutrality">Neutrality</a></li>
 		<li><a href="/about-us/contact-us">Contact Us</a></li>
-		<li class="viewall"><a href="/customer-conference" target="_blank">Marketing Summit <img alt="" border="0" src="/base/img/ext-link.png" /></a></li>
+	</ul>
+	</li>
+	<li class="tab"><a href="/blog">Blogs</a>
+	<ul class="grid_3 fly">
+		<li><a href="/blog/marketing">Precision Marketing</a></li>
+		<li><a href="/blog/it-security">Cybersecurity &amp; Performance</a></li>
+		<li><a href="/blog/networking-and-operations">Network Transformation</a></li>
 	</ul>
 	</li>
 	<li class="tab clients"><a href="/clients">Client Success</a></li>

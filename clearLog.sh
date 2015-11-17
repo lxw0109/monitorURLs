@@ -6,6 +6,6 @@
 
 #cd /home/lxw/Project/monitorURL
 #cd /home/lxw/Project/monitorURL && > monitorLog; > criterion; > accessErrorURLs; echo -e "$(date) --- Clear Log OK\n" >> monitorLog|| echo -e "$(date) --- Clear Log ERROR\n" >> monitorLog; exit
-cd /home/cnnic/monitorURL && > monitorLog; > accessErrorURLs; echo -e "$(date) --- Clear Log OK\n" >> monitorLog|| echo -e "$(date) --- Clear Log ERROR\n" >> monitorLog
+cd /home/cnnic/other/monitorURL && > monitorLog; > accessErrorURLs; echo -e "$(date) --- Clear Log OK\n" >> monitorLog|| echo -e "$(date) --- Clear Log ERROR\n" >> monitorLog
 
-cd /home/cnnic/monitorURL && > urgentMonitorLog; > urgentAccessErrorURLs; echo -e "$(date) --- Clear Log OK\n" >> urgentMonitorLog|| echo -e "$(date) --- Clear Log ERROR\n" >> urgentMonitorLog
+cd /home/cnnic/other/monitorURL && > urgentMonitorLog; > urgentAccessErrorURLs; echo -e "$(date) --- Clear Log OK\n" >> urgentMonitorLog|| echo -e "$(date) --- Clear Log ERROR\n" >> urgentMonitorLog

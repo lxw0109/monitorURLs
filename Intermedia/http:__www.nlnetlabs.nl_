@@ -426,16 +426,6 @@ NLnet Labs is a charitable foundation (ANBI) and our main source of income is a 
 	  Open Data repositories store a variety of information from country governments and private sectors.  A concern is that with publishing data, sensitive information can be obtained by visual analytic techniques.  The report shows that it is possible to retrieve precise locations where critical infrastructures overlap.
 	</description><br><a href="http://www.nlnetlabs.nl/downloads/publications/RP45%20Open%20Data%20Analysis%20-%20Critical%20infrastructures.pdf">MSc. report (PDF)</a>.
   </div>
-</div><div class="item">
-<div class="title"><h3>Securing the last mile of DNS with CGA-TSIG</h3></div>
-<div class="pubDate">Tue, 8 Jan 2014</div>
-<div class="description">
-<description>
-        TSIG with shared keys is not scalable as a solution for the DNS last mile problem. CGA-TSIG extends TSIG with CGA so that
-        shared secrets are no longer required. This research investigates the CGA-TSIG proposal by doing a security analysis and
-        by making a PoC implementation in ldns.  
-	</description><br><a href="http://www.nlnetlabs.nl/downloads/publications/report-rp2-buijsman.pdf">MSc. report (PDF)</a>.
-  </div>
 </div><div class="archive"><A href="/labs/news/archive.html">
 		    &gt; archive
 		  </A></div>
@@ -502,6 +492,13 @@ NLnet Labs is a charitable foundation (ANBI) and our main source of income is a 
 
 
 	<div class="item">
+<div class="title"><h3><a href="http://www.nlnetlabs.nl/blog/2015/10/29/algorithm-rollover-in-opendnssec-1-4/">Algorithm Rollover in OpenDNSSEC 1.3</a></h3></div>
+<div class="pubDate">Thu, 29 Oct 2015 by yuri</div>
+<div class="description">
+<description xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">Erratum: Unfortunately it appears that this method does not work for OpenDNSSEC 1.4.x. It still works for 1.3.x, specifically 1.3.18 is tested (thanks Michał Kępień!). The current version of OpenDNSSEC is unable to perform an algorithm rollover. Blindly changing the KSK and ZSK algorithm in the kasp.xml will result in a bogus zone. The only option ...</description><br>
+</div>
+</div>
+		<div class="item">
 <div class="title"><h3><a href="http://www.nlnetlabs.nl/blog/2014/09/19/nsd-4-1-zonefile-mode-and-fork-fix/">NSD 4.1: zonefile-mode and fork fix</a></h3></div>
 <div class="pubDate">Fri, 19 Sep 2014 by wouter</div>
 <div class="description">
@@ -520,13 +517,6 @@ NLnet Labs is a charitable foundation (ANBI) and our main source of income is a 
 <div class="pubDate">Mon, 02 Jun 2014 by olaf</div>
 <div class="description">
 <description xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">July 11 I  will be leaving NLnet Labs to join the Internet Society as Chief Internet Technology Officer. During the last one-and half decade I have tried to push the needle to a more secure, resilient, and dependable Internet. For the last eight and a half years I did this at NLnet Labs by leading a ...</description><br>
-</div>
-</div>
-		<div class="item">
-<div class="title"><h3><a href="http://www.nlnetlabs.nl/blog/2014/05/01/hackathon-at-tnw-2014/">Hackathon at TNW-2014</a></h3></div>
-<div class="pubDate">Thu, 01 May 2014 by wouter</div>
-<div class="description">
-<description xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">Wouter Wijngaards en Olaf Kolkman Context At NLnet Labs we believe that DNSSEC allows for security innovations that will change the global security and privacy landscape. Innovations like DANE, a technology that allows people to use the global DNS to bootstrap a encrypted channel, are only the start of currently unimaginable technical innovation. The deployment ...</description><br>
 </div>
 </div>
 

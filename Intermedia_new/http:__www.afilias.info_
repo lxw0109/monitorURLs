@@ -9,7 +9,7 @@
             Visit the Top Level Domain (TLD) Registry Services and DNS Solutions Experts | Afilias        </title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="Afilias powers key Internet infrastructure, including the .info, .org and .mobi Top Level Domains (TLDs).  Visit the Afilias registry services and DNS experts." />
-<meta name="keywords" content="internationalized domain names,key internet infrastructure,top level domain registry,top level domain experts,dns solutions experts,top level domains,top level domain,registry services,dns technology,dns solutions,TLD experts,dns experts,corporate dns,managed dns,tld registry,idn e-mail,dot brand,dot niche,dnssec,registry,new tld,dot city,afilias,gTLD,Global Registry Services,ccTLD,DNS,IDN,IDN email,managed DNSSEC,RFC" />
+<meta name="keywords" content="internationalized domain names,key internet infrastructure,top level domain registry,top level domain experts,dns solutions experts,top level domains,top level domain,registry services,dns technology,dns solutions,TLD experts,dns experts,corporate dns,managed dns,tld registry,idn e-mail,dot brand,dot niche,dnssec,registry,new tld,dot city,afilias,gTLD,Global Registry Services,ccTLD,DNS,IDN,IDN email,managed DNSSEC" />
 <meta name="copyright" content="© 2013 Afilias Limited. All rights reserved." />
 <link rel="canonical" href="http://www.afilias.info" />
 <meta name="revisit-after" content="1 day" />
@@ -89,7 +89,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-am9Xp2XKtXSxL0jmfzKPMQz0n71dccZM_zoT9m6mJfg" value="form-am9Xp2XKtXSxL0jmfzKPMQz0n71dccZM_zoT9m6mJfg"  />
+<input type="hidden" name="form_build_id" id="form-SAY0viuCsM3QX_ojJF1L5KcbLlpjNfTCxZ_6e1G-UTo" value="form-SAY0viuCsM3QX_ojJF1L5KcbLlpjNfTCxZ_6e1G-UTo"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 
@@ -727,20 +727,20 @@ div#content {display:none; visibility:hidden;}
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-title">
+                <span class="field-content"><a href="/blogs/ram-mohan/help-cryptech-and-me-make-internet-more-secure">Help CrypTech (and me) make the Internet more secure</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">Nov 03, 2015</span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field-title">
                 <span class="field-content"><a href="/blogs/ram-mohan/internet-things-when-sci-fi-becomes-reality">The Internet of Things: When Sci-Fi Becomes Reality</a></span>
   </div>
   
   <div class="views-field-created">
                 <span class="field-content">Aug 06, 2015</span>
-  </div>
-</li>
-          <li class="views-row views-row-2 views-row-even views-row-last">  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/blogs/roland-laplante/can-your-brand-afford-not-have-dotbrand">Can Your Brand Afford to Not Have a dotBrand?</a></span>
-  </div>
-  
-  <div class="views-field-created">
-                <span class="field-content">Jun 22, 2015</span>
   </div>
 </li>
       </ul>
@@ -762,9 +762,9 @@ div#content {display:none; visibility:hidden;}
   <h2>In the News</h2>
 
   <div class="content">
-    <div class="item-list"><ul><li class="first"><a href="http://www.q102.com/articles/community-podcasts-490889/81-speakout-with-angela-giampolo-13815210/">8-1 SpeakOUT with Angela Giampolo | Q102</a>
+    <div class="item-list"><ul><li class="first"><a href="http://delicious.com/afilias">something went wrong</a>
 </li>
-<li class="last"><a href="http://newgtlds.icann.org/en/announcements-and-media/case-studies">Case Studies | ICANN New gTLDs</a>
+<li class="last"><a href="http://www.q102.com/articles/community-podcasts-490889/81-speakout-with-angela-giampolo-13815210/">8-1 SpeakOUT with Angela Giampolo | Q102</a>
 </li>
 </ul></div><div class="more-link"><a href="/news/media-coverage" title="View this feed&#039;s recent news.">more</a></div>  </div>
 </div>
@@ -781,20 +781,20 @@ div#content {display:none; visibility:hidden;}
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-title">
+                <span class="field-content"><a href="/news/2015/11/09/computerworld-names-afilias-ram-mohan-premier-100-technology-leader">Computerworld Names Afilias&#039; Ram Mohan a Premier 100 Technology Leader</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">Nov 9, 2015</span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field-title">
                 <span class="field-content"><a href="/news/2015/07/08/deviceatlas-granted-patent-device-detection-accuracy-method">DeviceAtlas Granted Patent on Device Detection Accuracy Method</a></span>
   </div>
   
   <div class="views-field-created">
                 <span class="field-content">Jul 8, 2015</span>
-  </div>
-</li>
-          <li class="views-row views-row-2 views-row-even views-row-last">  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/2015/07/01/celebration-marriage-equality-each-new-lgbt-name-donates-20-it-gets-better-project">In Celebration of Marriage Equality:  Each New .LGBT Name Donates $20 to the It Gets Better Project</a></span>
-  </div>
-  
-  <div class="views-field-created">
-                <span class="field-content">Jul 1, 2015</span>
   </div>
 </li>
       </ul>

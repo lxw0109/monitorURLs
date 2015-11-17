@@ -78,12 +78,12 @@
     </div>
 </div>
           <div class="searchBox">
-    <form action="/en/search-result" method="get">
-      <input type="hidden" name="search[sort]" value="score" id="search_sort" />	    <input type="text" name="search[keyword]" id="search_keyword" />      <input type="submit" name="submit" value="Search" />
+    <form action="/fr/resultat-de-la-recherche" method="get">
+      <input type="hidden" name="search[sort]" value="score" id="search_sort" />	    <input type="text" name="search[keyword]" id="search_keyword" />      <input type="submit" name="submit" value="Rechercher" />
     </form>
 
     <div class="clear"></div>
-    <a href="/en/search">Advanced search</a>
+    <a href="/fr/recherche">Recherche avancée</a>
 </div>
         </div>
 
@@ -234,7 +234,7 @@
                   							                    									 <li><a href="/en/about-afnic/organisation/become-a-member-of-afnic-12.html">Become a member of AFNIC </a></li>
                   							                    									 <li><a href="/en/about-afnic/organisation/articles-of-association-4.html">Articles of Association</a></li>
                   							                    									 <li><a href="/en/about-afnic/organisation/internal-regulations-7.html">Internal regulations</a></li>
-                  							                    									 <li><a href="/en/about-afnic/organisation/board-of-directors-14.html">Board of Directors</a></li>
+                  							                    									 <li><a href="/en/about-afnic/organisation/board-of-directors-15.html">Board of Directors</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/about-afnic/organisation/international-college/">International College</a></li>
                   								                    								                  							</ul>
@@ -250,7 +250,7 @@
                                                         <td class="rightColumn" rowspan="3">
                                                                             <ul>
                                                                                                 <li>
-                                                      <a href="/en/about-afnic/how-to-come-to-afnic-8.html">How to come to AFNIC </a>
+                                                      <a href="/en/about-afnic/how-to-come-to-afnic-9.html">How to come to Afnic</a>
                                                   </li>
                                                                                         </ul>
                                                                 </td>
@@ -375,7 +375,7 @@
                           						                                                                              <td>
               							<a href="/en/resources/statistics/">Statistics</a>
                                               							<ul class="submenu">
-                                                    									 <li><a href="/en/resources/statistics/quality-of-service-performance-54.html">Quality of service performance</a></li>
+                                                    									 <li><a href="/en/resources/statistics/quality-of-service-performance-55.html">Quality of service performance</a></li>
                   							  
                   								                  							</ul>
                                                       </td>
@@ -388,7 +388,7 @@
                                                       <a href="/en/resources/subscriptions-and-social-networks-6.html">Subscriptions and social networks</a>
                                                   </li>
                                                                                                 <li>
-                                                      <a href="/en/resources/afnic-newsletter-38.html">Afnic Newsletter</a>
+                                                      <a href="/en/resources/afnic-newsletter-39.html">Afnic Newsletter</a>
                                                   </li>
                                                                                         </ul>
                                                                 </td>
@@ -398,8 +398,8 @@
                                                     									 <li><a href="/en/resources/publications/viewpoints-1.html">Viewpoints</a></li>
                   							                    									 <li><a href="/en/resources/publications/scientific-council.html">Scientific Council</a></li>
                   							                    									 <li><a href="/en/resources/publications/the-fr-is-turning-25-2.html">The .fr is turning 25</a></li>
-                  							                    									 <li><a href="/en/resources/publications/reports-of-meetings-of-governing-and-consultative-bodies-11.html">Reports of meetings of governing and consultative bodies</a></li>
                   							                    									 <li><a href="/en/resources/publications/annual-reports-1.html">Annual reports</a></li>
+                  							                    									 <li><a href="/en/resources/publications/reports-of-meetings-of-governing-and-consultative-bodies-12.html">Reports of meetings of governing and consultative bodies</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/resources/publications/french-domain-name-industry-report/">French Domain Name Industry Report</a></li>
                   								                    								    <li><a href="/en/resources/publications/issue-papers/">Issue Papers</a></li>
@@ -503,24 +503,18 @@
       <div class="content-no-background">
           <div class="homepage_header">
               <div class="homeBanner">        <div style="position: relative;width: 705px; height: 320px"> 
-            <div  class="slideshow theatre theatre-fade" >
-                                    <a href="http://www.réussir-en.fr/" title="animation">
-                        <img src="/uploads/animations/front/0fa86e06ae83d16a437893189bad2b7875339880.jpg" alt="" />
-                    </a>
-                                    <a href="http://www.afnic.fr/en/about-afnic/news/general-news/8531/show/afnic-consolidates-its-consultancy-and-expertise-offering.html" title="animation">
-                        <img src="/uploads/animations/front/098716f90b8eecce062aeee3fabd0202fca4d578.jpg" alt="" />
-                    </a>
-                                    <a href="http://www.afnic.fr/en/resources/blog/" title="animation">
-                        <img src="/uploads/animations/front/86b7069b96c7c3bf93e0c588a35998e37e26aa39.jpg" alt="" />
+            <div >
+                                    <a href="#" title="animation">
+                        <img src="/uploads/animations/front/a7d4b4a5709e032dfac98bed7e522f4fabed0130.jpg" alt="" />
                     </a>
                             </div>
         </div>
-        <ul class="imgPager" id="imgPager"><li><a class="jump" title="jump">{#}</a></li></ul> 
+         
 </div>
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="17cead3c9b87d5f8a4f41ffadc7cb504" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="1e26020faa40b6af1d15d6ac0f9dc7a4" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -660,6 +654,11 @@
   
   <ul>
           <li>
+            <span class="date"><em>10/27/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9402/show/concentration-among-registrars-restarts.html">Concentration among Registrars Restarts </a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9402/show/concentration-among-registrars-restarts.html">The Afnic Industry Report on Domain Names focuses this month on the trend lines for Registrars found for 2015.</a></span>
+    </li>
+       <li>
             <span class="date"><em>10/14/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9392/show/afnic-rewarded-during-the-centr-awards-2015-2.html">Afnic rewarded during the CENTR Awards 2015</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9392/show/afnic-rewarded-during-the-centr-awards-2015-2.html">October 07th, 2015, Afnic rewarded in two categories at the CENTR Awards.</a></span>
@@ -678,11 +677,6 @@
             <span class="date"><em>9/1/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9320/show/afnic-selected-for-two-centr-awards-2015.html">Afnic selected for two CENTR Awards 2015</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9320/show/afnic-selected-for-two-centr-awards-2015.html">For the second edition of the CENTR Awards, Afnic has been selected for two categories: « R&amp;D » and « Contributor of the year ».</a></span>
-    </li>
-       <li>
-            <span class="date"><em>7/27/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9246/show/domain-names-industry-report-french-more-and-more-holders-of-fr.html">Domain names Industry Report: French more and more holders of .fr</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/9246/show/domain-names-industry-report-french-more-and-more-holders-of-fr.html">The July 2015 edition of the Afnic Industry Report on Domain Names studies the geographical distribution of the .fr holders.</a></span>
     </li>
      </ul>
     <div class="mainContent" style="padding:0">
@@ -838,7 +832,7 @@
                   		                   			<span><a href="/en/about-afnic/organisation/become-a-member-of-afnic-12.html" >Become a member of AFNIC </a></span>
                   		                   			<span><a href="/en/about-afnic/organisation/articles-of-association-4.html" >Articles of Association</a></span>
                   		                   			<span><a href="/en/about-afnic/organisation/internal-regulations-7.html" >Internal regulations</a></span>
-                  		                   			<span><a href="/en/about-afnic/organisation/board-of-directors-14.html" >Board of Directors</a></span>
+                  		                   			<span><a href="/en/about-afnic/organisation/board-of-directors-15.html" >Board of Directors</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/about-afnic/news/">News</a>
@@ -897,15 +891,15 @@
                   							</li>
           		                	<li>
                   		<a href="/en/resources/statistics/">Statistics</a>
-                  		                   			<span><a href="/en/resources/statistics/quality-of-service-performance-54.html" >Quality of service performance</a></span>
+                  		                   			<span><a href="/en/resources/statistics/quality-of-service-performance-55.html" >Quality of service performance</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/resources/publications/">Publications</a>
                   		                   			<span><a href="/en/resources/publications/viewpoints-1.html" >Viewpoints</a></span>
                   		                   			<span><a href="/en/resources/publications/scientific-council.html" >Scientific Council</a></span>
                   		                   			<span><a href="/en/resources/publications/the-fr-is-turning-25-2.html" >The .fr is turning 25</a></span>
-                  		                   			<span><a href="/en/resources/publications/reports-of-meetings-of-governing-and-consultative-bodies-11.html" >Reports of meetings of governing and consultative bodies</a></span>
                   		                   			<span><a href="/en/resources/publications/annual-reports-1.html" >Annual reports</a></span>
+                  		                   			<span><a href="/en/resources/publications/reports-of-meetings-of-governing-and-consultative-bodies-12.html" >Reports of meetings of governing and consultative bodies</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/resources/faq/">FAQ</a>

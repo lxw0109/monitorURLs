@@ -5,6 +5,7 @@
     
 
     <link href="//www.google-analytics.com" rel="dns-prefetch">
+    <link rel="shortcut icon" href="http://www.nominet.uk/wp-content/themes/nominet/favicon.ico?v=v2" />
     <link rel="apple-touch-icon" sizes="57x57" href="http://www.nominet.uk/wp-content/themes/nominet/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="http://www.nominet.uk/wp-content/themes/nominet/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="http://www.nominet.uk/wp-content/themes/nominet/apple-touch-icon-72x72.png">
@@ -153,25 +154,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-md-8 col-sm-6 news-post">
     <article>
         <div class="panel panel-large panel-lead">
-            <a href="http://www.nominet.uk/the-smart-oxford-challenge-innovative-ideas-for-smarter-cities/">
-                <div class="panel-img" style="background-image: url(http://www.nominet.uk/wp-content/uploads/2015/10/BryanM-756x466.jpg);">
+            <a href="http://www.nominet.uk/nominet-wins-first-ofcom-qualification-to-operate-uks-tv-white-space-database/">
+                <div class="panel-img" style="background-image: url(http://www.nominet.uk/wp-content/uploads/2015/10/Nominet-18-756x466.jpg);">
                     <div class="panel-img-inner">
                     </div>
                 </div>
                 <div class="panel-inner">
                     <div class="panel-content panel-news cat-security">
                         <div class="panel-heading heading-large">
-                            <p><small>30th September 2015</small></p>
-                            <p class="panel-heading panel-heading-large">The Smart Oxford Challenge: innovative ideas for smarter cities</p>
-                                    <p class="byline ">
-            <span>by</span><br><b>Bryan Marshall</b>
-            <br>Research Fellow        </p>
-                        </div>
+                            <p><small>27th October 2015</small></p>
+                            <p class="panel-heading panel-heading-large">Nominet wins first Ofcom qualification to operate UK’s TV white space database</p>
+                                                    </div>
                     </div>
                 </div><!--/panel-inner-->
             </a>
         </div><!--/panel-->
     </article>
+</div><!--/col-->        
+    
+<div class="col-md-4 col-sm-6 news-post">
+    <div class="panel">
+        <a href="http://www.nominet.uk/the-smart-oxford-challenge-innovative-ideas-for-smarter-cities/">
+            <div class="panel-img">
+                                <img src="http://www.nominet.uk/wp-content/uploads/2015/10/BryanM-360x222.jpg" class="attachment-news-regular wp-post-image" alt="Bryan Marshall" />                            </div>
+            <div class="panel-inner">
+                                <span class="radial-lines"><span class="icon-news-category icon-small icon-blog"></span></span>
+                <div class="panel-content cat-security">        
+                    <small>30th September 2015</small>              
+                    <p class="panel-heading">The Smart Oxford Challenge: innovative ideas for smarter cities</p>
+                </div>
+            </div>
+        </a>
+    </div>
 </div><!--/col-->        
     
 <div class="col-md-4 col-sm-6 news-post">
@@ -264,22 +278,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="panel-content cat-security">        
                     <small>26th May 2015</small>              
                     <p class="panel-heading">Today’s children will feature in almost 1,000 online photos by the time they reach age five</p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div><!--/col-->        
-    
-<div class="col-md-4 col-sm-6 news-post">
-    <div class="panel">
-        <a href="http://www.nominet.uk/top-tips-for-ensuring-your-business-is-security-savvy/">
-            <div class="panel-img">
-                                <img src="http://www.nominet.uk/wp-content/uploads/2015/05/iStock_000055158800_Large-360x222.jpg" class="attachment-news-regular wp-post-image" alt="businesswoman holding touch pad with lock" />                            </div>
-            <div class="panel-inner">
-                                <span class="radial-lines"><span class="icon-news-category icon-small icon-blog"></span></span>
-                <div class="panel-content cat-security">        
-                    <small>15th May 2015</small>              
-                    <p class="panel-heading">Top tips for ensuring your business is security savvy &#8211; Cath Goulding</p>
                 </div>
             </div>
         </a>
@@ -403,4 +401,4 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 Page Caching using disk: enhanced
 
- Served from: www.nominet.uk @ 2015-10-26 01:11:19 by W3 Total Cache -->
+ Served from: www.nominet.uk @ 2015-11-16 01:11:28 by W3 Total Cache -->

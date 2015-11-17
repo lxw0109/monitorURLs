@@ -334,77 +334,6 @@ MM_reloadPage(true);
                 </td>
                 <td align="center" valign="top"> 
                   <table width="468" border="0" cellpadding="0" cellspacing="0">
-                    <tr align="right" valign="top"> 
-                      <td height="150"> 
-                        <table width="448" border="0" cellpadding="0" cellspacing="0">
-                          <tr> 
-                            <td colspan="3" height="18"><img src="img/main_table_01.gif" width="444" height="22"></td>
-                          </tr>
-                          <tr> 
-                            <td width="5" background="img/main_table_lbg.gif" height="108">&nbsp;</td>
-                            <td width="431" align="center" height="108"> 
-                              <table border="0" cellpadding="0" cellspacing="0">
-                                <tr valign="top" align="center">
-                                  <td height="17"> 
-                                    <div align="left"><img src="img/main_dn_02.gif" width="20" height="13"> 請輸入欲申請之網域名稱後，按"go" </div>
-                                  </td>
-                                </tr>
-                                <tr valign="top" align="center"> 
-                                  <td>
-                                    <form method="get" action="http://rs.twnic.net.tw/cgi-bin/newdn.cgi" name=form2 target="_blank">
-                                      <table border="0" cellpadding="0" cellspacing="0">
-                                        <tr> 
-                                          <td rowspan="2" width="45" valign="bottom"><img src="img/myhome_logo.gif" width="40" height="39"> 
-                                          </td>
-                                          <td rowspan="2"> 
-                                            <input type="text" id=dname2 name="dname" size="15">
-                                            <select id=sld2 name=sld>
-      <option value="台灣" selected>.台灣</option>
- <option value="tw">.tw(泛中/泛英)</option>
-                                              <option value="com.tw">.com.tw</option>
-                                              <option value="net.tw">.net.tw</option>
-                                              <option value="org.tw">.org.tw</option>
-                                              <option value="idv.tw">.idv.tw</option>
-                                              <option value="game.tw">.game.tw</option>
-                                              <option value="ebiz.tw">.ebiz.tw</option>
-                                              <option value="club.tw">.club.tw</option>
-                                            </select>
-                                          </td>
-<!--
-                                          <td rowspan="2" background="img/mouse_01.gif" class=norepeat><img src="img/go.gif" width="42" height="18" OnClick="MM_openBrWindow('http://rs.twnic.net.tw/cgi-bin/newdn.cgi?dname='+document.all.dname2.value+'&sld='+document.form2.sld2.value,'','width=500,height=400')" style="cursor:pointer;cursor:hand"> 
-                                          </td>
--->
-                                          <td rowspan="2" background="img/mouse_01.gif" class=norepeat><input type=image src="img/go.gif" width="42" height="18" >
-                                          </td>
-                                          <td width="89" valign="bottom"><img src="img/mouse_02.gif" width="89" height="23"></td>
-                                        </tr>
-                                        <tr> 
-                                          <td height="30" align="left" valign="top"><img src="img/mouse_03.gif" width="89" height="30"></td>
-                                        </tr>
-                                      </table>
-                                    </form>
-                                  </td>
-                                </tr>
-                                <tr align="right"> 
-                                  <td> 
-                                    <table border="0" cellpadding="0" cellspacing="1">
-                                      <tr> 
-                                        <td width="1">&nbsp;</td>
-                                        <td width="16" valign="top"><img src="img/main_dn_02.gif" width="20" height="13"></td>
-                                      </tr>
-                                    </table>
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                            <td width="12" background="img/main_table_rbg.gif" height="108">&nbsp;</td>
-                          </tr>
-                          <tr> 
-                            <td colspan="3"><img src="img/main_table_02.gif" width="448" height="22"></td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
                     <tr align="right"> 
                       <td height="71"> 
 <table width="445" border="0">
@@ -432,17 +361,56 @@ MM_reloadPage(true);
                                 <tr> 
                                   <td valign="top" width="22">
             <tr><td></td><td>[公告]</td><td></td></tr><tr><td><img src="http://www.twnic.net.tw/img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="/NEWS/2245.pdf" target="_blank">
-2015年度公益計畫徵選公告</a>(2015-07-31)</td></tr>
+<td height="17"><font size="2"><a href="/NEWS/2294.pdf" target="_blank">
+歡迎上網填寫台灣無線網路使用狀況調查問卷 拿免費好康</a>(2015-11-04)</td></tr>
 <tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="http://www.twnic.net.tw/2015adv/" target="_blank">
-《2015啟動視覺飆創意TWNIC形象廣宣設計競賽》活動開跑~</a>(2015-09-04)</td></tr>
+<td height="17"><font size="2"><a href="http://iview.twnic.net.tw/?page_id=227" target="_blank">
+國際瞭望— IoT (Internet of Things)面臨的挑戰</a>(2015-11-10)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://https://www.facebook.com/twnicNEWS/" target="_blank">
+域名之友粉絲團活動: 尼克寶寶捉迷藏</a>(2015-11-10)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://netking.tw" target="_blank">
-《2015第14屆新人王網站設計大賽-台灣限定》活動開跑~</a>(2015-08-19)</td></tr>
+《2015第14屆新人王網站設計大賽-台灣限定》新人王網路預測活動開跑~</a>(2015-11-03)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="http://www.gsnv6.tw/ipv6_104/" target="_blank">
-2015 IPv6教育訓練開始報名</a>(2015-04-15)</td></tr>
+<td height="17"><font size="2"><a href="http://www.ipv6.org.tw/summit2015" target="_blank">
+歡迎報名參加2015 Taiwan Internet Forum活動</a>(2015-11-02)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://www.twnic.net.tw/2015talks/" target="_blank">
+歡迎參加「.tw/.台灣網路趨勢系列講座@台北x台中」- 11月20日台中場次: 服務上雲端</a>(2015-11-01)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://www.twnic.net.tw/2015talks/" target="_blank">
+歡迎參加「.tw/.台灣網路趨勢系列講座@台北x台中」- 11月27日台北場次: 大數據的創新應用</a>(2015-11-01)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://iview.twnic.net.tw/?page_id=182" target="_blank">
+國際瞭望— 偽造IP位址與路由安全</a>(2015-10-30)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://iview.twnic.net.tw/?page_id=155" target="_blank">
+國際瞭望— IPv6 充滿潛力與機會</a>(2015-10-15)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://www.twnic.net.tw/file/twnic15b.pdf" target="_blank">
+TWNIC出版2015年秋季刊</a>(2015-10-12)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://iview.twnic.net.tw/?page_id=53" target="_blank">
+國際瞭望— IANA管理權移交的發展動向</a>(2015-09-30)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://iview.twnic.net.tw " target="_blank">
+「國際瞭望」資訊平台 掌握國際網路訊息</a>(2015-09-15)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://www.twnic.net.tw/2015adv/" target="_blank">
+2015啟動視覺飆創意TWNIC形象廣宣設計競賽</a>(2015-09-04)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://lovetw.tw/" target="_blank">
+域名飄、愛心揚、根留台灣，一筆註冊、無限希望</a>(2015-09-01)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://onestop.twnic.net.tw/" target="_blank">
+歡迎申請TWNIC一站式域名註冊服務(one-stop services)</a>(2015-07-08)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://www.twnic.net.tw/file/twnic15a.pdf" target="_blank">
+TWNIC出版2015年夏季刊</a>(2015-06-15)</td></tr>
+<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+<td height="17"><font size="2"><a href="http://www.myhome.net.tw/" target="_blank">
+歡迎訂閱TWNIC電子報</a>(2015-01-01)</td></tr>
  
             <? system("perl ./news.cgi"); ?> 
                                   </td>
@@ -539,6 +507,9 @@ MM_reloadPage(true);
                       <td><img src="http://www.twnic.net.tw/img/link.gif" width="135" height="21"></td>
                     </tr>
 <tr align="center">
+<td><a href="http://www.ipv6.org.tw/summit2015/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/268.gif" border="0"></a></td>
+</tr>
+<tr align="center">
 <td><a href="http://iview.twnic.net.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/256.gif" border="0"></a></td>
 </tr>
 <tr align="center">
@@ -548,22 +519,13 @@ MM_reloadPage(true);
 <td><a href="http://onestop.twnic.net.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/242.gif" border="0"></a></td>
 </tr>
 <tr align="center">
-<td><a href="http://www.myhome.net.tw/timeline  " target="_blank"><img src="http://www.twnic.net.tw/brarchive/235.gif" border="0"></a></td>
-</tr>
-<tr align="center">
 <td><a href="http://www.twnic.net.tw/2015adv/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/252.gif" border="0"></a></td>
-</tr>
-<tr align="center">
-<td><a href="http://app.twnic.net.tw/2015" target="_blank"><img src="http://www.twnic.net.tw/brarchive/249.jpeg" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="http://2015.netking.tw" target="_blank"><img src="http://www.twnic.net.tw/brarchive/248.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="http://www.twnic.net.tw/2015talks/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/246.gif" border="0"></a></td>
-</tr>
-<tr align="center">
-<td><a href="https://www.gsnv6.tw/moocs_104/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/233.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="https://www.gsnv6.tw/ipv6_104/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/232.gif" border="0"></a></td>

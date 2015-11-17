@@ -25,37 +25,38 @@
             <meta content="The RIPE NCC is one of five Regional Internet Registries (RIRs) providing Internet resource allocations, registration services and coordination activities that support the operation of the Internet globally." name="description" />
 
   
-    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/reset-cachekey-566185837397c80a054056be0c3b59a2.css" />
-    <link rel="stylesheet" type="text/css" href="https://www.ripe.net/portal_css/Ripe/collective.js.jqueryui.custom.min-cachekey-194d3fd4ca526d6f55ade8af1247081b.css" />
-    <style type="text/css">@import url(https://www.ripe.net/portal_css/Ripe/ploneglossary_popup-cachekey-c9736ffb1940215243eaed2e8d3b7281.css);</style>
-    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourcecollective.js.prettify.stylesheetsprettify-cachekey-9c154c52f7da502bafba9a133dc52b0d.css" />
-    <style type="text/css">@import url(https://www.ripe.net/portal_css/Ripe/resourceripe.tinyurl.ripetinyurl-cachekey-9eb7aeed1263debd0187e817a17082c1.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/reset-cachekey-a90471fb6f0039d75eff998a30649776.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.ripe.net/portal_css/Ripe/collective.js.jqueryui.custom.min-cachekey-7c7e43d7ad1726aefe2eeb0fb357ab93.css" />
+    <style type="text/css">@import url(https://www.ripe.net/portal_css/Ripe/ploneglossary_popup-cachekey-d7cdcd15981648ba1c0ba74ecd7afbf8.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourcecollective.js.prettify.stylesheetsprettify-cachekey-d34b3b1e684e1d3010e50cb146d1de79.css" />
+    <style type="text/css">@import url(https://www.ripe.net/portal_css/Ripe/resourceripe.tinyurl.ripetinyurl-cachekey-cc9e54e3e6552e3379b0787b7004c4d3.css);</style>
     <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/++resource++ripe.plonetheme.stylesheets/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsbootstrap-theme.min-cachekey-90a5438a631eec52d2e433fa1d2200eb.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsbootstrap-theme.min-cachekey-c6659bff4960941bf3f4eaa4771f332b.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/++resource++ripe.plonetheme.stylesheets/template.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsplone-components-cachekey-0473518322e2b8660a5e1bb685108cba.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsplone-components-cachekey-9445c154c4e39bd6a41c6f57620cce20.css" />
         <!--[if lte IE 8]>    
     
-    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsie-template-cachekey-cd1cc7513c885ff81fb412e18abea7ae.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.ripe.net/portal_css/Ripe/resourceripe.plonetheme.stylesheetsie-template-cachekey-fe2e376f5b875036f661121ca17e1448.css" />
         <![endif]-->
     
 
   
   
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceplone.app.jquery-cachekey-2909811b8e95e2171760bdd5607860e2.js"></script>
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/table_sorter-cachekey-be1ab16200948906704844a12d13c577.js"></script>
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourcedefuscate-cachekey-1e71b3e1032893da96815240a17e4c56.js"></script>
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/collective.js.jqueryui.custom.min-cachekey-222e8880ff4d4f41d778d8ff09a0198f.js"></script>
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.tinyurl.ripetinyurl-cachekey-a90154ffdb5492a769bea6a9bfcc00bd.js"></script>
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptsbrowser-update-cachekey-f7f4d778b39f45a320e01afcb5224d7e.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceplone.app.jquery-cachekey-cbb845c226c2d37361d6c0598321f417.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/table_sorter-cachekey-5cf3d5baec699cd65969d94826b33bde.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourcedefuscate-cachekey-052af6bf3c0091873fabb8077ccdc7c3.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/collective.js.jqueryui.custom.min-cachekey-f1137af4fc44c1575ecbd65169f72430.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.tinyurl.ripetinyurl-cachekey-d338a4e2b88ac4760be015a3a0a8c020.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptsbrowser-update-cachekey-06a6fa2f3da6ca8fca83de4e43302b17.js"></script>
     <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/++resource++ripe.sso.javascript.sso.js"></script>
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptsbootstrap.min-cachekey-00098a46fe8c9ec070c60633f4f40a6b.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptsbootstrap.min-cachekey-c967b039d3b27a11e13aeb5f762522d2.js"></script>
        <!--[if lte IE 8]>
      
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptshtml5-cachekey-d328bad049f0ea9bc8ce68e17444108f.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptshtml5-cachekey-50edf0b37505f61bff0f45c56eb3213a.js"></script>
        <![endif]-->
      
-    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptsmasonry.min-cachekey-a1d27c29b01f9a7d867a98e857579b29.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptsmasonry.min-cachekey-56007c7e2a120609cd490043de5fc36d.js"></script>
+    <script type="text/javascript" src="https://www.ripe.net/portal_javascripts/Ripe/resourceripe.plonetheme.javascriptsplone-components-cachekey-86d3af52db97530be12a25c2a4b4ff9a.js"></script>
 
 
 <title>RIPE Network Coordination Centre</title>
@@ -327,6 +328,9 @@
                                     </li>
                                     <li>
                                         <a href="https://www.ripe.net/manage-ips-and-asns/resource-transfers-and-mergers/mergers-and-acquisitions">Mergers and Acquisitions</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.ripe.net/manage-ips-and-asns/resource-transfers-and-mergers/required-documents-for-registry-updates">Required Documents</a>
                                     </li>
                                 </ul>
                             </div>
@@ -772,7 +776,7 @@
                                         <a href="https://www.ripe.net/about-us/what-we-do/coordination-function">Coordination Function</a>
                                     </li>
                                     <li>
-                                        <a href="/analyse/statistics">Statistics</a>
+                                        <a href="https://www.ripe.net/analyse/statistics">Statistics</a>
                                     </li>
                                     <li>
                                         <a href="https://www.ripe.net/publications/ipv6-info-centre">Transition to IPv6</a>
@@ -808,10 +812,10 @@
                                 <a class="h6" href="https://www.ripe.net/about-us/financial-information">Financial Information</a>
                                 <ul>
                                     <li>
-                                        <a href="/ripe/docs/charging">Current Charging Scheme</a>
+                                        <a href="https://www.ripe.net/ripe/docs/charging">Current Charging Scheme</a>
                                     </li>
                                     <li>
-                                        <a href="/participate/member-support/info/billing/billing-procedure-and-fee-schedule-2015">Current Billing Procedure</a>
+                                        <a href="https://www.ripe.net/participate/member-support/info/billing/billing-procedure-and-fee-schedule-2015">Current Billing Procedure</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1078,10 +1082,10 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
-<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/draft-ripe-ncc-activity-plan-and-budget-2016">
-<span class="Title">Draft RIPE NCC Activity Plan and Budget 2016</span>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ripe-ncc-member-update-issue-30">
+<span class="Title">RIPE NCC Member Update: Issue 30</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 21 Oct 2015</span>
+<span class="date nobreak byline_date">Publication date: 13 Nov 2015</span>
 </span>
 </a>
 </li>
@@ -1089,15 +1093,15 @@
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
 <span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 20 Oct 2015</span>
+<span class="date nobreak byline_date">Publication date: 10 Nov 2015</span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/102nd-ripe-ncc-executive-board-meeting">
-<span class="Title">102nd RIPE NCC Executive Board Meeting</span>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/introducing-the-ripe-ncc-new-look">
+<span class="Title">Introducing the RIPE NCC’s New Look</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 19 Oct 2015</span>
+<span class="date nobreak byline_date">Publication date: 02 Nov 2015</span>
 </span>
 </a>
 </li>
@@ -1128,7 +1132,7 @@
 <ul class="collection_item">
 <li>
 <a href="https://www.ripe.net/participate/meetings/calendar/ripe-71">
-<span class="Title">RIPE 71 Bucharest</span>
+<span class="Title">RIPE 71</span>
 <span class="item-details">
 <span class="date nobreak byline_date">16 Nov 2015 - 20 Nov 2015</span>
 <span class="location nobreak">Bucharest, Romania</span>
@@ -1223,31 +1227,31 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
-<a href="https://labs.ripe.net/Members/ray_bellis/researching-f-root-anycast-placement-using-ripe-atlas" rel="nofollow">
-<span class="Title">Researching F-root Anycast Placement Using RIPE Atlas</span>
+<a href="https://labs.ripe.net/Members/wilhelm/impact-of-new-k-root-anycast-nodes-as-seen-by-ripe-atlas" rel="nofollow">
+<span class="Title">Impact of K-root Expansion as Seen by RIPE Atlas</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>14 Oct 2015</span>
+                              <span>16 Nov 2015</span>
 </span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://labs.ripe.net/Members/colin_petrie/updates-to-the-ripe-ncc-routing-information-service" rel="nofollow">
-<span class="Title">Updates to the RIPE NCC Routing Information Service</span>
+<a href="https://labs.ripe.net/Members/suzanne_taylor_muzzin/ripe-atlas-wifi-measurements" rel="nofollow">
+<span class="Title">RIPE Atlas WiFi Measurements</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>12 Oct 2015</span>
+                              <span>13 Nov 2015</span>
 </span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://labs.ripe.net/Members/wilhelm/ipv4-in-the-ripe-ncc-service-region-three-years-after-reaching-the-last-8" rel="nofollow">
-<span class="Title">IPv4 in the RIPE NCC Service Region - Three Years After Reaching the Last /8</span>
+<a href="https://labs.ripe.net/Members/romeo_zwart/update-on-k-root-expansion" rel="nofollow">
+<span class="Title">Update on K-root Expansion</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
-                              <span>08 Oct 2015</span>
+                              <span>12 Nov 2015</span>
 </span>
 </span>
 </a>
@@ -1288,7 +1292,7 @@
 <a class="h5" href="https://www.ripe.net/participate/internet-governance/internet-technical-community/iana/iana-stewardship-transition">IANA Stewardship Transition</a>
 </div>
 <div class="footer_link">
-<a class="blockLink" href="https://www.ripe.net/participate/internet-governance/internet-technical-community/iana/iana-stewardship-transition">
+<a class="blockLink" href="/resolveuid/41e2cb992b164c27b3af67eadfd0328f">
 <i class="fa fa-angle-right"></i>
 </a>
 </div>
@@ -1306,8 +1310,8 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
-<a href="https://www.nro.net/news/comparison-table-of-proposed-icann-governance-models" rel="nofollow">
-<span class="Title">Comparison Table of Proposed ICANN Governance Models</span>
+<a href="https://www.nro.net/news/the-nro-ec-recognises-that-the-icann-mission-statement-is-currently-under-review-by-the-ccwg" rel="nofollow">
+<span class="Title">The NRO Position on Revision of ICANN Mission Statement</span>
 </a>
 </li>
 </ul>
@@ -1378,7 +1382,7 @@
     <div class="col-lg-10" id="footer-links">
         
         <a href="/">Home</a>
-        <a href="/sitemap">Sitemap</a>
+        <a href="https://www.ripe.net/sitemap">Sitemap</a>
         <a href="https://www.ripe.net/support/contact">Contact Us</a>
         <a href="https://www.ripe.net/support/service-announcements/service-and-security-announcements">Service Announcements</a>
         <a href="https://www.ripe.net/about-us/legal/ripe-ncc-privacy-statement">Privacy Statement</a>
