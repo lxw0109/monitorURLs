@@ -219,11 +219,6 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
             <a href="/" id="logo"></a>
             <!--End Logo-->
       <!--Begin Banner Position-->
-            <div class="banner-module">
-        		<div class="moduletable">
-					<p><img style="float: right;" alt="" src="http://afrinic.net/images/ISO.svg" height="77" /></p>		</div>
-	
-      </div>
             <!--End Banner Position-->
     </div>
   </div>
@@ -1119,7 +1114,7 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt564a7eb9a324erssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt564d21bb1ce08rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1133,8 +1128,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt564a7eb9a324e"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt564a7eb9a324erssscroller_module", options);
+					instanceId : "pgt564d21bb1ce08"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt564d21bb1ce08rssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);
@@ -1301,7 +1296,7 @@ google.setOnLoadCallback(loadFeedControl);
 			<!-- Piwik -->
 			<a href="http://piwik.org" title="Web analytics api" onclick="window.open(this.href);return(false);">
 			<script type="text/javascript">
-			var pkBaseURL = (("https:" == document.location.protocol) ? "https://webstats.jnb.afrinic.net" : "http://webstats.jnb.afrinic.net");
+			var pkBaseURL = (("https:" == document.location.protocol) ? "https://webstats.afrinic.net" : "http://webstats.afrinic.net");
 			document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
 			</script><script type="text/javascript">
 			piwik_action_name = '';
@@ -1309,7 +1304,7 @@ google.setOnLoadCallback(loadFeedControl);
 			piwik_url = pkBaseURL + "piwik.php";
 			piwik_log(piwik_action_name, piwik_idsite, piwik_url);
 			</script>
-			<object><noscript><p>Web analytics api <img src="http://webstats.jnb.afrinic.netpiwik.php" style="border:0" alt=""/></p></noscript></object></a>
+			<object><noscript><p>Web analytics api <img src="http://webstats.afrinic.netpiwik.php" style="border:0" alt=""/></p></noscript></object></a>
 			<!-- End Piwik Tag -->
 			</body>
 </html>

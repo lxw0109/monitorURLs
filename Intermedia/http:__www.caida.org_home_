@@ -439,6 +439,12 @@ The goal of this workshop series is to provide a forum for researchers, commerci
 <div class="rccontent">
 <table summary="CAIDA What's New main feed" class="feedtable">
 <tr>
+<td><a href="http://www.caida.org/publications/presentations/2015/brief_history_future_internet_lisa/" title="This slideset was presented at: Large Installation System Administration (LISA) (November 2015)">A Brief History of a Future Internet: the Named Data Networking Architecture</a></td><td>Nov&nbsp;16</td>
+</tr>
+<tr class="zebra">
+<td><a href="http://www.caida.org/publications/presentations/2015/cartographic_capabilities_dhs/" title="This slideset was presented at: DHS Reverse Site Visit (CAIDA) (November 2015)">Cartographic Capabilities for Critical Cyberinfrastructure (&ldquo;C4&rdquo;): Internet topology and performance analytics for mapping critical network infrastructure</a></td><td>Nov&nbsp;16</td>
+</tr>
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/measuring_monitoring_bgp_ietf/" title="This slideset was presented at: Internet Engineering Task Force (IETF) (November 2015)">"Measuring and Monitoring BGP" slideset</a></td><td>Nov&nbsp;13</td>
 </tr>
 <tr class="zebra">
@@ -481,20 +487,6 @@ In order to improve our AS Core visualization we have made two major refinements
 </tr>
 <tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/bgpstream_ripe/" title="This slideset was presented at RIPE Meeting in May 2015.">"BGPStream - An Open Source Framework for Live/Historical BGP Data Analysis" slideset</a></td><td>May&nbsp;13</td>
-</tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/data/passive/passive_2015_dataset.xml" title="
- This dataset contains anonymized passive traffic traces from CAIDA's equinix-chicago monitor on high-speed Internet backbone links. This data is useful for research on the characteristics of Internet traffic, including application breakdown, security events, geographic and topological distribution, and flow volume and duration.
-
-Starting with the 2014 dataset the yearly passive trace datasets will only contain one trace per quarter (previous years contain one trace per month). While we still collect a one-hour trace each month (and add statistics about each trace to the trace statistics page), we are forced by storage limitations to select only one of the three traces for each quarter for inclusion in this yearly collection.
-
-Traffic traces in this dataset are anonymized using CryptoPan prefix-preserving anonymization. All traces in this dataset are anonymized with the same key. In addition, the payload has been removed from all packets.">CAIDA "Anonymized Internet Traces 2015 Dataset" dataset available</a></td><td>Apr&nbsp;7</td>
-</tr>
-<tr>
-<td><a href="http://www.caida.org/workshops/aims/1503/" title="On March 31, 2015, CAIDA hosted the 7th workshop on Active Internet Measurements, a three-day workshop supporting science and policy.
-
-AIMS 2015 was by invitation only.
-    ">AIMS 2015 Workshop on Active Internet Measurements</a></td><td><span style="white-space:nowrap;">Mar 31-Apr 2</span></td>
 </tr>
 </table>
 </div>

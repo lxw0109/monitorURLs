@@ -503,18 +503,24 @@
       <div class="content-no-background">
           <div class="homepage_header">
               <div class="homeBanner">        <div style="position: relative;width: 705px; height: 320px"> 
-            <div >
-                                    <a href="#" title="animation">
-                        <img src="/uploads/animations/front/a7d4b4a5709e032dfac98bed7e522f4fabed0130.jpg" alt="" />
+            <div  class="slideshow theatre theatre-fade" >
+                                    <a href="http://www.réussir-en.fr/" title="animation">
+                        <img src="/uploads/animations/front/0fa86e06ae83d16a437893189bad2b7875339880.jpg" alt="" />
+                    </a>
+                                    <a href="http://www.afnic.fr/en/about-afnic/news/general-news/8531/show/afnic-consolidates-its-consultancy-and-expertise-offering.html" title="animation">
+                        <img src="/uploads/animations/front/098716f90b8eecce062aeee3fabd0202fca4d578.jpg" alt="" />
+                    </a>
+                                    <a href="http://www.afnic.fr/en/resources/blog/" title="animation">
+                        <img src="/uploads/animations/front/86b7069b96c7c3bf93e0c588a35998e37e26aa39.jpg" alt="" />
                     </a>
                             </div>
         </div>
-         
+        <ul class="imgPager" id="imgPager"><li><a class="jump" title="jump">{#}</a></li></ul> 
 </div>
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="2894b3110f157aa32ce583d91fbddf7b" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="d43d6055cccc7dea4ef5c3e84be1fb9d" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -654,6 +660,11 @@
   
   <ul>
           <li>
+      <span class="type"><em>Press release</em></span>      <span class="date"><em>11/18/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9451/show/afnic-continues-to-invest-in-the-online-presence-of-french-internet-users.html">Afnic continues to invest in the online presence of French Internet users </a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9451/show/afnic-continues-to-invest-in-the-online-presence-of-french-internet-users.html">As a central player of the French Internet and the incumbent manager of the .fr TLD, Afnic has been involved with users and professionals ever since t...</a></span>
+    </li>
+       <li>
             <span class="date"><em>10/27/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9402/show/concentration-among-registrars-restarts.html">Concentration among Registrars Restarts </a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9402/show/concentration-among-registrars-restarts.html">The Afnic Industry Report on Domain Names focuses this month on the trend lines for Registrars found for 2015.</a></span>
@@ -672,11 +683,6 @@
             <span class="date"><em>10/1/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9364/show/the-fr-tld-at-the-paris-micro-enterprise-trade-fair-from-6-to-8-october.html">The .fr TLD at the Paris Micro-Enterprise Trade Fair from 6 to 8 October</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9364/show/the-fr-tld-at-the-paris-micro-enterprise-trade-fair-from-6-to-8-october.html">At the Paris Micro-Enterprise Trade Fair, the registry for the .fr TLD and three of its accredited registrars will be advising business people about c...</a></span>
-    </li>
-       <li>
-            <span class="date"><em>9/1/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9320/show/afnic-selected-for-two-centr-awards-2015.html">Afnic selected for two CENTR Awards 2015</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/9320/show/afnic-selected-for-two-centr-awards-2015.html">For the second edition of the CENTR Awards, Afnic has been selected for two categories: « R&amp;D » and « Contributor of the year ».</a></span>
     </li>
      </ul>
     <div class="mainContent" style="padding:0">
@@ -697,6 +703,9 @@
       
   
     
+                        <div class="bcBox separate">
+                <img src="http://publications-new.nic.fr/medias/images/actus/ParisAttacks.jpg" width="250px">            </div>
+        
                         <div class="bcBox separate">
                 <div style="text-align: center;"><a
  href="/en/resources/blog/"><img

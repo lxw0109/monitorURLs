@@ -40,3 +40,33 @@ Monitor Finished.   Monitor Time: 2015-11-17-09:10:18.   Time Cost: 0'17"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
+lxw_IOError: 	2015-11-18-09:10:02
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOError: 	2015-11-18-09:10:05
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2015-11-18-09:10:11
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+lxw_Timed Out: http://www.twnic.tw/index4.php	2015-11-18-09:11:03
+
+Monitor Finished.   Monitor Time: 2015-11-18-09:11:03.   Time Cost: 1'1"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+lxw_IOError: 	2015-11-19-09:10:01
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+Information: URL recovery. lxw_KeyError: http://www.twnic.tw/index4.php	2015-11-19-09:10:03
+
+lxw_IOError: 	2015-11-19-09:10:05
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2015-11-19-09:10:10
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+lxw_Timed Out: https://www.hkdnr.hk/?lang=cn	2015-11-19-09:11:02
+
+EMAIL SENDING: 	2015-11-19-09:11:02
+
+EMAIL SENDING SUCCESS: 	2015-11-19-09:11:05
+
+Monitor Finished.   Monitor Time: 2015-11-19-09:11:05.   Time Cost: 1'4"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------

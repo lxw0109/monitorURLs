@@ -1082,10 +1082,10 @@
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
 <li>
-<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ripe-ncc-member-update-issue-30">
-<span class="Title">RIPE NCC Member Update: Issue 30</span>
+<a href="https://www.ripe.net/publications/news/industry-developments/igf-2015-capping-a-triumphant-decade-1">
+<span class="Title">IGF 2015: Capping a Triumphant Decade</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 13 Nov 2015</span>
+<span class="date nobreak byline_date">Publication date: 18 Nov 2015</span>
 </span>
 </a>
 </li>
@@ -1093,15 +1093,15 @@
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
 <span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 10 Nov 2015</span>
+<span class="date nobreak byline_date">Publication date: 17 Nov 2015</span>
 </span>
 </a>
 </li>
 <li>
-<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/introducing-the-ripe-ncc-new-look">
-<span class="Title">Introducing the RIPE NCC’s New Look</span>
+<a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ripe-ncc-member-update-issue-30">
+<span class="Title">RIPE NCC Member Update: Issue 30</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 02 Nov 2015</span>
+<span class="date nobreak byline_date">Publication date: 13 Nov 2015</span>
 </span>
 </a>
 </li>
@@ -1149,10 +1149,8 @@
 </li>
 <li>
 <a href="https://www.ripe.net/participate/meetings/calendar/menog-16">
-<span class="Title">MENOG 16</span>
+<span class="Title">MENOG 16 (Postponed)</span>
 <span class="item-details">
-<span class="date nobreak byline_date">30 Nov 2015 - 01 Dec 2015</span>
-<span class="location nobreak">Tehran, Iran</span>
 </span>
 </a>
 </li>
@@ -1227,31 +1225,31 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
+<a href="https://labs.ripe.net/Members/nathalie_nathalie/lost-stars-why-operators-switch-off-ipv6" rel="nofollow">
+<span class="Title">Lost Stars - Why Operators Switch off IPv6</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date:
+                              <span>18 Nov 2015</span>
+</span>
+</span>
+</a>
+</li>
+<li>
+<a href="https://labs.ripe.net/Members/emileaben/does-the-internet-route-around-damage" rel="nofollow">
+<span class="Title">Does the Internet Route Around Damage? A Case Study Using RIPE Atlas</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date:
+                              <span>17 Nov 2015</span>
+</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://labs.ripe.net/Members/wilhelm/impact-of-new-k-root-anycast-nodes-as-seen-by-ripe-atlas" rel="nofollow">
 <span class="Title">Impact of K-root Expansion as Seen by RIPE Atlas</span>
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
                               <span>16 Nov 2015</span>
-</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://labs.ripe.net/Members/suzanne_taylor_muzzin/ripe-atlas-wifi-measurements" rel="nofollow">
-<span class="Title">RIPE Atlas WiFi Measurements</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date:
-                              <span>13 Nov 2015</span>
-</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://labs.ripe.net/Members/romeo_zwart/update-on-k-root-expansion" rel="nofollow">
-<span class="Title">Update on K-root Expansion</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date:
-                              <span>12 Nov 2015</span>
 </span>
 </span>
 </a>
