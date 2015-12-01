@@ -89,7 +89,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-s0qyBC0iuLfu1ZIDamKJajaYGgBnCRiD1qjDdeNU5jg" value="form-s0qyBC0iuLfu1ZIDamKJajaYGgBnCRiD1qjDdeNU5jg"  />
+<input type="hidden" name="form_build_id" id="form-6qaeolJkrTR9QOntm8II-b6L0VjWE80_kpqZN-oT840" value="form-6qaeolJkrTR9QOntm8II-b6L0VjWE80_kpqZN-oT840"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 
@@ -762,9 +762,7 @@ div#content {display:none; visibility:hidden;}
   <h2>In the News</h2>
 
   <div class="content">
-    <div class="item-list"><ul><li class="first"><a href="http://delicious.com/afilias">something went wrong</a>
-</li>
-<li class="last"><a href="http://www.q102.com/articles/community-podcasts-490889/81-speakout-with-angela-giampolo-13815210/">8-1 SpeakOUT with Angela Giampolo | Q102</a>
+    <div class="item-list"><ul><li class="first last"><a href="http://delicious.com/afilias">something went wrong</a>
 </li>
 </ul></div><div class="more-link"><a href="/news/media-coverage" title="View this feed&#039;s recent news.">more</a></div>  </div>
 </div>

@@ -22,7 +22,9 @@ touch urgentAccessErrorURLs
 touch urgentReceive.conf
 
 cd ./urgentIntermedia/
-rm ./*
+now=$(date)
+mkdir "$now"    #" is essential.
+mv http* "$now"    #" is essential.
 cd .. 
 mv ./urgentIntermedia_new/* ./urgentIntermedia/
 

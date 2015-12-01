@@ -60,7 +60,7 @@
         <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <script src="https://www.apnic.net/__data/assets/js_file/0004/76360/miscjs.js?v=0.5.2"></script>
+        <script src="https://www.apnic.net/__data/assets/js_file/0004/76360/miscjs.js?v=0.6.1"></script>
 
 
 						
@@ -70,7 +70,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 18 November 2015 11:11:22
+  Page generated: 30 November 2015 11:11:28
 -->
 
 
@@ -141,7 +141,7 @@
         // Random colour by default, but some sections are themed a particular colour
         var colour = _.sample(["blue" , "darkgreen" , "lightgreen" , "orange" , "purple"]);
         var path = window.location.pathname;
-        if(path.match(/^\/(services|get)/)){colour = "orange"}
+        if(path.match(/^\/(services|get-ip|manage-ip)/)){colour = "orange"}
         else if(path.match(/^\/community/)){colour = "darkgreen"}
         else if(path.match(/^\/events/)){colour = "purple"}
         else if(path.match(/^\/about/)){colour = "blue"}
@@ -179,8 +179,6 @@
 <div class="site-top-nav-level2">
 <div><a href="https://www.apnic.net/get-ip/get-ip-addresses-asn">Get IP Addresses / ASN</a></div>
 
-<div><a href="https://www.apnic.net/get-ip/helpdesk">Helpdesk</a></div>
-
 <div><a href="https://www.apnic.net/get-ip/faqs">FAQs</a></div>
 
 
@@ -192,11 +190,9 @@
 
 <div><a href="https://www.apnic.net/manage-ip/manage-resources/reverse-dns">Reverse DNS</a></div>
 
-<div><a href="https://www.apnic.net/manage-ip/services-apnic-provides/routing-registry">Routing Registry</a></div>
+<div><a href="https://www.apnic.net/manage-ip/apnic-services/routing-registry">Routing Registry</a></div>
 
-<div><a href="https://www.apnic.net/manage-ip/services-apnic-provides/resource-certification">Resource Certification (RPKI)</a></div>
-
-<div><a href="https://www.apnic.net/get-ip/helpdesk">Helpdesk</a></div>
+<div><a href="https://www.apnic.net/manage-ip/apnic-services/resource-certification">Resource Certification (RPKI)</a></div>
 
 <div><a href="https://www.apnic.net/get-ip/faqs">FAQs</a></div>
 
@@ -246,6 +242,8 @@
 <div class="site-top-nav-level2">
 <div><a href="https://www.apnic.net/about-APNIC/organization/apnics-region">APNIC Region</a></div>
 
+<div><a href="https://www.apnic.net/get-ip/apnic-membership">APNIC Membership</a></div>
+
 <div><a href="https://www.apnic.net/about-APNIC/organization/structure/apnic-executive-council">Executive Council</a></div>
 
 <div><a href="https://www.apnic.net/about-APNIC/team">Team</a></div>
@@ -279,8 +277,8 @@
 </div>
 <script>
 $('.theme-services #header-label span').text('Services');
-$('.theme-get-ip #header-label span').text('Get IP');
-$('.theme-manage-ip #header-label span').text('Manage IP');
+$('.theme-getip #header-label span').text('Get IP');
+$('.theme-manageip #header-label span').text('Manage IP');
 $('.theme-community #header-label span').text('Community');
 $('.theme-events #header-label span').text('Events');
 $('.theme-publications #header-label span').text('Publications');
@@ -432,8 +430,11 @@ $('.theme-about #header-label span').text('About APNIC');
       </h2>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-11-november-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 11 November 2015</a></h3>
-<p class="ellipsis" data-ellipsis-rows="2"><p>APNIC will cary out maintenance work on its backend load balancing infrastructure. During this period, the services listed may be affected.</p>
+      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-30-november-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 30 November 2015</a></h3>
+<p class="ellipsis" data-ellipsis-rows="2">
+<p>APNIC will cary out maintenance work on its front-end load balancing infrastructure. During this period, the services listed may be affected.</p>
+
+
 
 
 

@@ -11,21 +11,10 @@
 <meta charset='utf-8' />
 <style type="text/css">
 <!--
-.style5 {font-family: arial, helvetica, clean, sans-serif}
+.style11 {font-size: 8pt}
 -->
-</style><style type="text/css">
-<!--
-.style8 {font-size: 13.3333339691162px}
--->
-</style><style type="text/css">
-<!--
-.style9 {color: rgb(0, 0, 0)}
--->
-</style><style type="text/css">
-<!--
-.style10 {background-color: rgb(255, 255, 255)}
--->
-</style><!-- InstanceEndEditable -->
+</style>
+<!-- InstanceEndEditable -->
 <script type="text/javascript" language="JavaScript" src="css/ietf.js"></script>
 <script type="text/javascript">
 document.write('<link id="sheet4" href="/css/ietf4.css" rel="stylesheet" type="text/css" />');
@@ -140,18 +129,19 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
                 </ul></td>
                 <td valign="top"><p><a href="meeting/95/index.html">IETF 95, Buenos Aires, Argentina</a> (UTC -3)<br />
                   April 3-8, 2016</p>
-                  <table width="100%" height="117" border="0">
+                  <table width="100%" height="158" border="0">
                     <tr valign="top">
-                      <td width="80%" valign="top"><br />
+                      <td width="45%" height="154" valign="top"><br />
                         <ul>
                           <li>Register</li>
-                          <li>Important Dates</li>
+                          <li><a href="meeting/important-dates-2016.html">Important Dates</a></li>
                           <li>IETF 95  Agenda</li>
                           <li>Meeting Materials</li>
                           <li>Remote Participation</li>
                       </ul></td>
-                      <td width="20%" valign="top" nowrap="nowrap"><p><br />
-                          <br />
+                      <td width="55%" valign="top" nowrap="nowrap"><p align="right"><br />
+                        <a href="meeting/important-dates-2016.html"><img src="meeting/95/images/ba-brian-campbell-small.jpg"/ alt="Photo Courtesy of Brian Campbell" width="175" height="115" /></a><br />
+                        <span class="style11">Photo By Brian Campbell </span><br />
                       </p></td>
                     </tr>
                 </table></td>

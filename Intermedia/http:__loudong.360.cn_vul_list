@@ -50,6 +50,7 @@
 			<ul id="company_tools_ul" style="position:absolute; text-align:center; display:none; z-index:9998; padding-top:10px; width:100px;">
 				<li style="line-height:30px;"><a href="/company/lists" >厂商列表</a></li>
             	<li style="line-height:30px;"><a href="/company/reward" >付费厂商</a></li>
+                <li style="line-height:30px;"><a href="/help/company" >奖励计划</a></li>
 			</ul>
        </div>
 	   <div style="display:inline-block; float:left; height:50px; " id="ranking_li">
@@ -88,7 +89,7 @@
 		$('#company_tools_ul').css("display","block");
 		$('#company_tools_li').css("background-color","#ffffff");
 		$('#company_tools_li').css("border-radius","3px");
-		$('#company_tools_li').css("height","112px");
+		$('#company_tools_li').css("height","148px");
 		e.stopPropagation();
 	
 	}).mouseout(function(e){
@@ -151,23 +152,24 @@
 		<div class="w980 kudai-new-ld">
 			
 			<div class="ld-con-box">
-            					<div class="ld-con-list">
-					<div class="ld-list-photo"><a href="/vul/profile/u/xiumu"><img src="http://quc.qhimg.com/dm/48_48_100/t01047c3ef798a23c68.jpg" ></a></div>
-					<div class="ld-lsit-info">
-						<p class="list-view"><a href="/vul/profile/u/xiumu"  class="loading_userpro" ajax-href="/user/showuserpro/uid/3157188">xiumu</a> 发布 <a href="/vul/info/qid/QTVA-2015-328271">当当网主站某处存在本地文件包含漏洞</a><font class="color_td3 font_width" style="font-size:16px;">￥200</font><img src="http://p0.qhimg.com/t0115f4d65eb2f4701a.png" style="vertical-align: text-bottom;"> <img src="http://p1.qhimg.com/t0182f8526066cce8c0.png" style="margin-left: 5px;"></p>
-						<p>2015年11月17日 <span class="color_td1">事件型</span> <span class="color_td1">补天奖励</span> 							                             <span style="float:right">
-                            <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>8</span> &nbsp;
-							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>1</span>
-                            </span>
-                                                    
-                        </p>
-					</div> 
-				</div>
-				            									<div class="ld-con-list">
+            	            									<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-326729">广州医科大学多个分站命令执行</a> </p>
-						<p>2015年11月17日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-336443">太原理工大学勤工助学网站SQL注入漏洞</a> </p>
+						<p>2015年11月29日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+                            <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
+							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
+                            </span>
+                            						</p> 
+					</div>
+                    
+				</div>
+								
+												<div class="ld-con-list">
+					<div class="ld-list-photo"><a href="/vul/profile/u/宇过留名"><img src="http://quc.qhimg.com/dm/48_48_100/t00df551a583a87f4e9.jpg" ></a></div>
+					<div class="ld-lsit-info">
+						<p class="list-view"><a href="/vul/profile/u/宇过留名"  class="loading_userpro" ajax-href="/user/showuserpro/uid/3196940">宇过留名</a> 发布 <a href="/vul/info/qid/QTVA-2015-336524">山东某医学类大学教务管理系统存在弱口令</a> </p>
+						<p>2015年11月29日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -179,8 +181,8 @@
 												<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-328529">五星体育网某子站存在多处SQL注入（DBA权限+13个库+可获取大量用户信息）</a> </p>
-						<p>2015年11月17日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-336146">中体彩科技sql注入导致信息泄露</a> </p>
+						<p>2015年11月29日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -192,8 +194,8 @@
 												<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-322571">泰康人寿某站点存在越权和注入等漏洞可导致泄漏任意企业用户敏感信息（姓名/手机号/邮箱等）大量用户以及当当网/东风/中石油/交通银行等员工躺枪</a><font class="color_td3 font_width" style="font-size:16px;">￥500</font> <img src="http://p1.qhimg.com/t0182f8526066cce8c0.png" style="margin-left: 5px;"></p>
-						<p>2015年11月17日 <span class="color_td1">事件型</span> <span class="color_td1">补天奖励</span> 							                             <span style="float:right">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-336137">济宁医学院附属医院兖州院区预约系统泄露大量信息</a> </p>
+						<p>2015年11月29日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -205,21 +207,8 @@
 												<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-329354">河南省专业技术人员继续教育信息管理系统某漏洞导致大量人员信息泄露</a><font class="color_td3 font_width" style="font-size:16px;">￥100</font> </p>
-						<p>2015年11月17日 <span class="color_td1">事件型</span> <span class="color_td1">补天奖励</span> 							                             <span style="float:right">
-                            <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
-							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
-                            </span>
-                            						</p> 
-					</div>
-                    
-				</div>
-								
-												<div class="ld-con-list">
-					<div class="ld-list-photo"><a href="/vul/profile/u/破童"><img src="http://quc.qhimg.com/dm/48_48_100/t00df551a583a87f4e9.jpg" ></a></div>
-					<div class="ld-lsit-info">
-						<p class="list-view"><a href="/vul/profile/u/破童"  class="loading_userpro" ajax-href="/user/showuserpro/uid/2745049">破童</a> 发布 <a href="/vul/info/qid/QTVA-2015-328496">四川明华建设公司主站后台弱口令（以shell多个域名沦陷）</a> </p>
-						<p>2015年11月17日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-336131">北斗星手机网支付漏洞一分钱买商品</a> </p>
+						<p>2015年11月29日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -231,8 +220,8 @@
 												<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-326936">浙江师范大学某站命令执行导致服务器沦陷</a> </p>
-						<p>2015年11月17日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-336158">东风汽车有限公司某处命令执行漏洞#可getshell</a> </p>
+						<p>2015年11月29日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -244,8 +233,8 @@
 												<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-328538">校企桥某处上传漏洞getshell</a> </p>
-						<p>2015年11月17日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-335237">【金融专场】聚财猫 多个分站 git配置泄露</a> </p>
+						<p>2015年11月29日 <span class="color_td1">事件型</span>  <img src="http://p8.qhimg.com/t01f1c8306c36c5710a.png">							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -257,9 +246,9 @@
 												<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-328589">南通市卫生局某系统两处漏洞导致泄露大量个人信息</a><font class="color_td3 font_width" style="font-size:16px;">￥100</font> </p>
-						<p>2015年11月17日 <span class="color_td1">事件型</span> <span class="color_td1">补天奖励</span> 							                             <span style="float:right">
-                            <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-335312">技成培训网存漏洞#泄露大量信息（160万+用户账号#邮箱#密码）</a><font class="color_td3 font_width" style="font-size:16px;">￥100</font> </p>
+						<p>2015年11月29日 <span class="color_td1">事件型</span> <span class="color_td1">补天奖励</span> 							                             <span style="float:right">
+                            <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>1</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
                             						</p> 
@@ -270,9 +259,9 @@
 												<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-326756">太仓市市民健康网漏洞大量居民信息泄露</a> </p>
-						<p>2015年11月17日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
-                            <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-335573">【金融专场】中国东方航空股份有限公司积分商城秒改任意用户密码</a> </p>
+						<p>2015年11月29日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+                            <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>1</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
                             						</p> 
@@ -283,8 +272,8 @@
 												<div class="ld-con-list">
 					<div class="ld-list-photo"><img src="http://p2.qhimg.com/t01e180ece1c6734c3c.png"></div>
 					<div class="ld-lsit-info">
-						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-328136">广东省梅州市梅江区区委区政府sql多枚打包</a> </p>
-						<p>2015年11月17日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
+						<p class="list-view">带头大哥 发布 <a href="/vul/info/qid/QTVA-2015-335417">银川市住房保障局某系统漏洞泄露30W+房产买卖信息#涉及买主个人信息/合同信息等</a> </p>
+						<p>2015年11月29日 <span class="color_td1">事件型</span>  							                             <span style="float:right">
                             <img src="http://p2.qhimg.com/t018915d9ada44ccb53.png" alt=""> <span>0</span> &nbsp;
 							<img src="http://p0.qhimg.com/t01a41531927e4856f1.png" alt=""> <span>0</span>
                             </span>
@@ -326,7 +315,7 @@
 			 
    
 			 
-			<a href="/vul/list/page/2952">末页</a>
+			<a href="/vul/list/page/2996">末页</a>
 			 
 </div>
 			</div>
@@ -360,6 +349,7 @@
         </div>
         <div class="butian-footer-block" >
          <h4 class="butian-footer-block-title" ><strong>关于我们</strong></h4>
+         <a class="butian-footer-block-item" href="/help/rule" >白帽子行为规范</a>
          <a class="butian-footer-block-item" href="/help/guide" >漏洞响应向导</a>
          <a class="butian-footer-block-item" href="/vul/plan" >奖励计划</a>
          <a class="butian-footer-block-item" href="/message/talk/uid/1627346" >用户反馈</a>

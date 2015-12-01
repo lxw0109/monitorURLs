@@ -219,6 +219,11 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
             <a href="/" id="logo"></a>
             <!--End Logo-->
       <!--Begin Banner Position-->
+            <div class="banner-module">
+        		<div class="moduletable">
+					<p><img style="float: right;" alt="" src="http://afrinic.net/images/ISO.svg" height="77" /></p>		</div>
+	
+      </div>
             <!--End Banner Position-->
     </div>
   </div>
@@ -1106,15 +1111,15 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <div id="qaccordion1" class="qaccordion">
      	 <h3 class="acc-header">Latest News</h3>
   	 <div class="acc-content">
-      <p style="border-spacing: 2px; line-height: 16.2px;">16 November 2015</p>
-<p style="border-spacing: 2px; line-height: 16.2px;"><a href="/en/library/news/1513-rpki-v10-engine-deactivation">RPKI v1.0 Engine Deactivation</a></p>
-<p style="border-spacing: 2px; line-height: 16.2px;">30 October 2015</p>
-<p><a href="/en/library/news/1495-icg-completes-its-work-and-awaits-conclusion-of-ccwg-on-enhancing-icann-accountability">ICG Completes its Work and Awaits Conclusion of CCWG on Enhancing ICANN Accountability</a></p>
+      <p style="border-spacing: 2px; line-height: 16.2px;">25 November 2015</p>
+<p><a href="/en/library/news/1523-afrinic-governance-committee-terms-of-reference-tor-version-2" target="_blank">AFRINIC Governance Committee: ToR Version 2</a></p>
+<p style="line-height: 16.2px; border-spacing: 2px;">25 November 2015</p>
+<p style="line-height: 16.2px;"><a href="/en/library/news/1529-board-approves-financial-statements-2014" target="_blank">Board Approves Financial Statements 2014</a></p>
 <hr />
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt564d21bb1ce08rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt565cf3c096f15rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1128,8 +1133,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt564d21bb1ce08"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt564d21bb1ce08rssscroller_module", options);
+					instanceId : "pgt565cf3c096f15"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt565cf3c096f15rssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);

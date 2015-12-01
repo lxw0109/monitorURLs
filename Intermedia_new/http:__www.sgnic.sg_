@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-CH8TfVZF0xpO9UMURVVvvQ_MXYYk4OZjc2n4APhTPAc" value="form-CH8TfVZF0xpO9UMURVVvvQ_MXYYk4OZjc2n4APhTPAc"  />
+<input type="hidden" name="form_build_id" id="form-zZUma76pYXKq73KTCMPV8EPaPdfwK7wAM3RGIzb5Twg" value="form-zZUma76pYXKq73KTCMPV8EPaPdfwK7wAM3RGIzb5Twg"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-nFVC40UAcmLJ4Pdvqcahm_a2RwxWGtN10vZZed_HWcE" value="form-nFVC40UAcmLJ4Pdvqcahm_a2RwxWGtN10vZZed_HWcE"  />
+<input type="hidden" name="form_build_id" id="form-NGr8ss1Uz5bGdmYhygnTVFNHakmie0UvFLsnEgUaSrk" value="form-NGr8ss1Uz5bGdmYhygnTVFNHakmie0UvFLsnEgUaSrk"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -120,6 +120,15 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-created">
+                <span class="field-content">November 23, 2015, 9:02 am</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/sgnic-t-15002-invitation-tender-itt-revamping-sgnic-websites">SGNIC-T-15002: Invitation To Tender (ITT) for Revamping SGNIC Websites</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-created">
                 <span class="field-content">October 30, 2015, 12:57 pm</span>
   </div>
   
@@ -127,22 +136,13 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
                 <span class="field-content"><a href="/news/results-october-2015-premium-numeric-domain-name-exercise">Results of October 2015 Premium Numeric Domain Name Exercise</a></span>
   </div>
 </li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-created">
                 <span class="field-content">September 21, 2015, 11:10 am</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="/news/sg50-premium-numeric-name-application">SG50 Premium Numeric Name Application</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-created">
-                <span class="field-content">September 9, 2015, 9:08 am</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/sgnic-q-15005-invitation-quote-anycast-dns-service">SGNIC-Q-15005: Invitation to Quote for an Anycast DNS Service</a></span>
   </div>
 </li>
       </ul>
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">November 19, 2015, 8:00 am</span>
+                <span class="field-content">November 30, 2015, 10:28 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/11/19/merged-policy-manual-easier-use-maintain/">Merged policy manual easier to use and maintain</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/11/30/event-wrap-communicast-2015-and-mmnog/">Event Wrap: CommuniCast 2015 and MMNOG 2015</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">November 18, 2015, 9:25 am</span>
+                <span class="field-content">November 27, 2015, 12:20 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/11/18/neighbouring-pacific-nations-share-core-network-infrastructure/">Neighbouring Pacific nations share core network infrastructure</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/11/27/event-wrap-irinn-3rd-opm/">Event Wrap: IRINN 3rd OPM, India</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">November 17, 2015, 11:16 am</span>
+                <span class="field-content">November 27, 2015, 11:37 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/11/17/event-wrap-ietf-94-yokohama/">Event Wrap: IETF 94, Yokohama</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/11/27/6765/">Understanding the IPv4 Secondary Market</a></span>
   </div>
 </li>
       </ul>

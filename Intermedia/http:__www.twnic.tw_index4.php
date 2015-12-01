@@ -1,3 +1,4 @@
+﻿
 <html>
 <head>
 <title>TWNIC-財團法人台灣網路資訊中心</title>
@@ -10,7 +11,7 @@
  function CreateWindow(dest)
 {
 msgWindow=window.open(dest,"displayWindow","toolbar=no,width=400,height=400,directories=no,status=no,scrollbars=yes,resize=no,menubar=no")
-} 
+}
 
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
@@ -45,7 +46,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 
 function MM_openBrWindow(theURL,winName,features) { //v2.0
   window.open(theURL,winName,features);
-} 
+}
 
 function surfto(form) {//URL LINK
 var myindex=form.javamagic.selectedIndex
@@ -113,67 +114,66 @@ MM_reloadPage(true);
 <body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('img/map02.gif')">
 <img src="http://img.twnic.net.tw/images/twnic_dot_twnic.gif" width="0" height="0" border="0">
 <table width="777" border="0" cellspacing="0" cellpadding="0">
-  <tr> 
-    <td valign="top"> 
+  <tr>
+    <td valign="top">
       <table width="777" border="0" cellspacing="0" cellpadding="0">
-        <tr> 
+        <tr>
           <td width="144" height="77" valign="top"><img src="img/1_1.jpg" width="144" height="77"></td>
           <td width="125" height="77" valign="top"><img src="img/1_2.jpg" width="125" height="77"></td>
           <td width="154" height="77" valign="top"><img src="img/1_3.jpg" width="154" height="77"></td>
           <td width="151" height="77" valign="top"><img src="img/1_4.jpg" width="152" height="77"></td>
-          <td valign="baseline" width="212"> 
+          <td valign="baseline" width="212">
             <table border="0" cellpadding="0" cellspacing="0">
-              <tr valign="bottom"> 
-                <td colspan="2" height="18"><font class="date"> 
+              <tr valign="bottom">
+                <td colspan="2" height="18"><font class="date">
                   </font></td>
               </tr>
-              <tr> 
-                <td width="120" valign="bottom"><font class="date"><!-- 到訪人數：
-    000001  -->
+              <tr>
+                <td width="120" valign="bottom"><font class="date">
     <img src='http://218.241.108.65.right.dnssectest.tw/dnssec.php' width='1' height='1'>
 <img src='http://218.241.108.65.rrsigexpire.dnssectest.tw/dnssec.php' width='1' height='1'>                  </font></td>
                 <td width="91"><a href="index2.php"><img src="img/english02.gif" width="97" height="22" border="0"></a></td>
               </tr>
-            </table> 
+            </table>
             <img src="img/1_5.jpg" width="202" height="36"></td>
         </tr>
       </table>
     </td>
   </tr>
-  <tr> 
-    <td valign="top" height="34"> 
+  <tr>
+    <td valign="top" height="34">
       <table width="777" border="0" cellspacing="0" cellpadding="2">
-        <tr> 
-          <td width="275" valign="middle"> 
+        <tr>
+          <td width="275" valign="middle">
             <form method="post" action="./whois.cgi" target="_blank">
-              <font color="#001F77" size="2" class="td1">Whois:</font><font color="#001F77"> 
+              <font color="#001F77" size="2" class="td1">Whois:</font><font color="#001F77">
               <input type="text" name="query" size="2">
-                <select name=sld> 
+                <select name=sld>
       <option value="台灣" selected>.台灣</option>
  <option value="tw">.tw(泛中/泛英)</option>
-                            <option value="com.tw">.com.tw</option> 
-                            <option value="org.tw">.org.tw</option> 
-                            <option value="net.tw">.net.tw</option> 
-                            <option value="gov.tw">.gov.tw</option> 
-                            <option value="game.tw">.game.tw</option> 
-                            <option value="ebiz.tw">.ebiz.tw</option> 
-                            <option value="club.tw">.club.tw</option> 
-                            <option value="idv.tw">.idv.tw</option> 
-                            <option value="網路.tw">.網路.tw</option> 
-                            <option value="組織.tw">.組織.tw</option> 
-                            <option value="商業.tw">.商業.tw</option> 
-                            <option>IP</option> 
+                            <option value="com.tw">.com.tw</option>
+                            <option value="org.tw">.org.tw</option>
+                            <option value="net.tw">.net.tw</option>
+                            <option value="gov.tw">.gov.tw</option>
+                            <option value="game.tw">.game.tw</option>
+                            <option value="ebiz.tw">.ebiz.tw</option>
+                            <option value="club.tw">.club.tw</option>
+                            <option value="idv.tw">.idv.tw</option>
+                            <option value="網路.tw">.網路.tw</option>
+                            <option value="組織.tw">.組織.tw</option>
+                            <option value="商業.tw">.商業.tw</option>
+                            <option>IP</option>
               </select>
-              <!--input type="image" img src="img/go_02.gif" width="21" height="16" align="middle" --> 
-              <input type="image" img src="img/go_02.gif" width="25" height="18" align="absmiddle"> 
-              </font> 
+              <!--input type="image" img src="img/go_02.gif" width="21" height="16" align="middle" -->
+              <input type="image" img src="img/go_02.gif" width="25" height="18" align="absmiddle">
+              </font>
             </form></td>
-          <td valign="top" align="right" width="494"> 
+          <td valign="top" align="right" width="494">
             <table border="0" cellspacing="0" cellpadding="1">
-              <tr> 
-                <td bgcolor="#CFCFCF" height="18"> 
+              <tr>
+                <td bgcolor="#CFCFCF" height="18">
                   <table border="0" cellspacing="0" cellpadding="1">
-                    <tr valign="middle" bgcolor="#FFFFFF"> 
+                    <tr valign="middle" bgcolor="#FFFFFF">
                       <td bgcolor="#FFFFFF" valign="top" align="center" nowrap><font class="top"><a href="about/about_01.htm" target="_top">關於我們</a>│<a href="member/member_01.htm" target="_top">董事監察人/委員會</a>│<a href="readn.cgi" target="_top">採購專區</a>│<a href="post/post_01.htm" target="_top">中心公告</a>│<a href="impor/impor_01.htm" target="_top">大事紀要</a>│<a href="map/map_01.htm" target="_top">網站導覽</a>│<a href="service" target="_top">網路客服</a></font></td>
                     </tr>
                   </table>
@@ -185,86 +185,86 @@ MM_reloadPage(true);
       </table>
     </td>
   </tr>
-  <tr> 
-    <td valign="top"> 
+  <tr>
+    <td valign="top">
       <table border="0" cellspacing="0" cellpadding="0">
-        <tr> 
-          <td valign="top"> 
+        <tr>
+          <td valign="top">
             <table width="614" border="0" cellpadding="0" cellspacing="0">
-              <tr> 
-                <td valign="top"> 
+              <tr>
+                <td valign="top">
                   <table width="146" border="0" cellpadding="0" cellspacing="0">
-                    <tr> 
-                      <td> 
+                    <tr>
+                      <td>
                         <table border="0" cellpadding="0" cellspacing="0">
-                          <tr valign="top" bgcolor="#CDDEFA"> 
-                            <td align="center"> 
+                          <tr valign="top" bgcolor="#CDDEFA">
+                            <td align="center">
                               <table width="142" border="0" cellpadding="1">
-                                <tr> 
+                                <tr>
                                   <td align="center" colspan="2"><img src="img/oo.gif" width="8" height="5"></td>
                                 </tr>
-                                <tr> 
+                                <tr>
                                   <td align="center"><img src="img/white.gif" width="8" height="8" border="0"></td>
-                                  <td height="20"><a class=2 href="http://www.twnic.net.tw/newdn/"><u>域名申請/續用管理</u></a> 
+                                  <td height="20"><a class=2 href="http://www.twnic.net.tw/newdn/"><u>域名申請/續用管理</u></a>
                                   </td>
                                 </tr>
-                                <tr> 
+                                <tr>
                                   <td align="center"><img src="img/white.gif" width="8" height="8" border="0"></td>
-                                  <td height="20"><a class=2 href="ip/ip_01.htm"><u>IP/ASN申請</u></a> 
+                                  <td height="20"><a class=2 href="ip/ip_01.htm"><u>IP/ASN申請</u></a>
                                   </td>
                                 </tr>
-                                <tr> 
+                                <tr>
                                   <td align="center"><img src="img/white.gif" width="8" height="8" border="0"></td>
                                   <td height="20"><a class=2 href="dn/dn_h_01.htm"><u>域名爭議處理</u></a></td>
                                 </tr>
-                                <tr> 
+                                <tr>
                                   <td align="center"><img src="img/white.gif" width="8" height="8" border="0"></td>
-                                  <td height="20"><a class=2 href="inter/inter_01.htm"><u>國際動態</u></a> 
+                                  <td height="20"><a class=2 href="inter/inter_01.htm"><u>國際動態</u></a>
                                   </td>
                                 </tr>
-                                <tr> 
+                                <tr>
                                   <td align="center"><img src="img/white.gif" width="8" height="8" border="0"></td>
                                   <td height="20"><a class=2 href="http://xn--fiq228c.tw/" target="_blank"><u>域名技術服務</u></a></td>
                                 </tr>
-                                <tr> 
+                                <tr>
                                   <td align="center"><img src="img/white.gif" width="8" height="8" border="0"></td>
                                   <td height="20"><a class=2 href="http://map.twnic.net.tw/" target="_blank"><u>連線頻寬</u></a></td>
                                 </tr>
-                                <tr> 
+                                <tr>
                                   <td align="center"><img src="img/white.gif" width="8" height="8" border="0"></td>
                                   <td height="20"><a class=2 href="total/total_01.htm"><u>網路統計</u></a></td>
                                 </tr>
-                                <tr> 
+                                <tr>
                                   <td align="center"><img src="img/white.gif" width="8" height="8" border="0"></td>
                                   <td height="20"><a class=2 href="download/download_01.htm"><u>資料下載</u></a></td>
                                 </tr>
-                                <tr> 
+                                <tr>
                                   <td align="center"><img src="img/white.gif" width="8" height="8" border="0"></td>
                                   <td height="20"><a class=2 href="ibnews.php" target="_top"><u>新聞發佈</u></a></td>
                                 </tr>
                                 <!--<tr>
                                   <td align="center"><img src="img/white.gif" width="8" height="8" border="0"></td>
-                                  <td height="20"><a class=2 a href="download/sch.htm" target="_blank"><u>行事曆</u></a></td> 
+                                  <td height="20"><a class=2 a href="download/sch.htm" target="_blank"><u>行事曆</u></a></td>
                                 </tr> -->
-                                <tr> 
+                                <tr>
                                   <td height="20" colspan="2" align="center"><a href="http://www1.twnic.net.tw" target="_blank"><u></u></a><img src="good.gif" width="120" height="79"></td>
                                 </tr>
                               </table>
                             </td>
                           </tr>
-                          <tr valign="top"> 
-                            <td class=norepeat bgcolor="#CDDEFA"> 
+                          <tr valign="top">
+                            <td class=norepeat bgcolor="#CDDEFA">
                               <table width="150" height="523" border="0">
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td width="144"><img src="img/link02.gif" width="135" height="21"></td>
                                 </tr>
-                                <!-- <tr align="center"> 
+                                <!-- <tr align="center">
                                   <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="120" height="60">
                                       <param name="movie" value="img/915a.swf">
                                       <param name="quality" value="high">
                                       <embed src="img/915a.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="120" height="60"></embed></object></td>
                                 </tr>-->
-                                <!-- <tr align="center"> 
+                                <!-- <tr align="center">
                                  <td><a href="http://yourname.tw" target="_blank"><img src="img/1031x.gif" width="120" height="60" border="0"></a></td>
                                 </tr> -->
                                 <tr align="center">
@@ -273,57 +273,57 @@ MM_reloadPage(true);
 
 </td>
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><!-- Facebook Badge START --><a href="https://www.facebook.com/IPv6up.tw" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="IPv6粉絲團">IPv6粉絲團</a><br/><a href="https://www.facebook.com/IPv6up.tw" target="_TOP" title="IPv6粉絲團"><img src="https://www.facebook.com/badge.php?id=674484442572113&bid=2716&key=207946106&format=png&z=703192352" style="border: 0px;" /></a><!-- Facebook Badge END -->
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="http://www.twnic.net.tw/secu/index.html" target="_blank"><img src="http://www.twnic.net.tw/secu/secu.jpg" width="120" height="81" border="0"></a></td>
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="http://網路充電讚.台灣/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/112.gif" width="120" height="90" border="0"></a></td>
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="http://www.ipv6.org.tw" target="_blank"><img src="img/1017b.gif" width="120" height="40" border="0"></a></td>
                                 </tr>
-                                <!--     <tr align="center"> 
+                                <!--     <tr align="center">
                                   <td><a href="http://www.ipv6.org.tw/summit" target="_blank"><img src="img/1017a.gif" width="120" height="74" border="0"></a></td>
                                 </tr> -->
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="http://reg.tisnet.net.tw/" target="_blank"><img src="img/logo01_s.gif" width="120" height="25" border="0"></a></td>
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="http://rs.apol.com.tw/" target="_blank"><img src="img/logo02_s.gif" width="120" height="25" border="0"></a></td>
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="https://domain.hinet.net/" target="_blank"><img src="img/logo03_s.gif" width="120" height="25" border="0"></a></td>
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="http://www.net-chinese.com.tw/" target="_blank"><img src="img/logo04_s.gif" width="120" height="25" border="0"></a></td>
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="http://myname.pchome.com.tw/" target="_blank"><img src="img/logo05_s.gif" width="120" height="25" border="0"></a></td>
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="http://rs.seed.net.tw" target="_blank"><img src="img/logo06_s.gif" width="120" height="25" border="0"></a></td>
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="http://domains.tfn.net.tw/" target="_blank"><img src="img/tfn.gif" width="120" height="30" border="0"></a></td>
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="http://www.neustar.tw/" target="_blank"><img src="img/ns.gif" width="120" height="30" border="0"></a></td>
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="http://www.webnic.tw/" target="_blank"><img src="image/webcc2.gif" border="0" width="120" height="30"></a></td>
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="http://www.ipmirror.tw/" target="_blank"><img src="img/lgmirror.gif" border="0" width="120" height="30"></a></td>
                                 </tr>
-                                <tr align="center"> 
+                                <tr align="center">
                                   <td><a href="http://itn.tw/" target="_blank"><img src="img/ccnet.gif" border="0" width="120" height="30"></a></td>
                                 </tr>
                                 <tr align="center">
                                   <td><a href="http://www.gandi.com.tw/" target="_blank"><img src="img/gdi.gif" border="0" width="120" height="30"></a></td>
-								</tr>
+                                                                </tr>
                               </table>
                             </td>
                           </tr>
@@ -332,38 +332,26 @@ MM_reloadPage(true);
                     </tr>
                   </table>
                 </td>
-                <td align="center" valign="top"> 
+                <td align="center" valign="top">
                   <table width="468" border="0" cellpadding="0" cellspacing="0">
-                    <tr align="right"> 
-                      <td height="71"> 
-<table width="445" border="0">
-<!--<tr>
-<td><img src=2013heart3.jpg border=0><a href=https://www.facebook.com/twnicNEWS target=_blank>歡慶母親節，TWNIC 粉絲愛媽咪，官網傳心意</a></td>
-<tr> -->
-  <tr>
-    <td><marquee scrollamount=2></marquee>
-</td>
-  </tr>
-</table>
+                    <tr align="right">
+                      <td height="71">
                         <table border="0" width="445">
-                        <!--  <tr> 
+                        <!--  <tr>
                             <td align="left" valign="middle"><marquee scrollamount=2>
 <a href="http://www.twnic.net.tw/dn/search/sub02.cgi?cate=a" target="_blank">秋意濃~正是享受美食以及外出旅遊的好時機，您想尋找秋高氣爽放鬆心情的去處嗎，請上.tw/.台灣網站分類查詢專區，這裡匯集了旅遊業、美食業等資訊，讓我們一同尋寶去。GO!
 </a>
 </marquee></td> -->
                           </tr>
-                          <tr> 
+                          <tr>
                             <td align="left" valign="middle"><img src="img/news.gif" width="397" height="28"></td>
                           </tr>
-                          <tr> 
-                            <td> 
+                          <tr>
+                            <td>
                               <table border="0" cellpadding="0" cellspacing="0">
-                                <tr> 
+                                <tr>
                                   <td valign="top" width="22">
-            <tr><td></td><td>[公告]</td><td></td></tr><tr><td><img src="http://www.twnic.net.tw/img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="/NEWS/2294.pdf" target="_blank">
-歡迎上網填寫台灣無線網路使用狀況調查問卷 拿免費好康</a>(2015-11-04)</td></tr>
-<tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+            <tr><td></td><td>[公告]</td><td></td></tr><tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://iview.twnic.net.tw/?page_id=227" target="_blank">
 國際瞭望— IoT (Internet of Things)面臨的挑戰</a>(2015-11-10)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
@@ -372,12 +360,6 @@ MM_reloadPage(true);
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://www.ipv6.org.tw/summit2015" target="_blank">
 歡迎報名參加2015 Taiwan Internet Forum活動</a>(2015-11-02)</td></tr>
-<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="http://www.twnic.net.tw/2015talks/" target="_blank">
-歡迎參加「.tw/.台灣網路趨勢系列講座@台北x台中」- 11月20日台中場次: 服務上雲端</a>(2015-11-01)</td></tr>
-<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="http://www.twnic.net.tw/2015talks/" target="_blank">
-歡迎參加「.tw/.台灣網路趨勢系列講座@台北x台中」- 11月27日台北場次: 大數據的創新應用</a>(2015-11-01)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://iview.twnic.net.tw/?page_id=182" target="_blank">
 國際瞭望— 偽造IP位址與路由安全</a>(2015-10-30)</td></tr>
@@ -408,8 +390,7 @@ TWNIC出版2015年夏季刊</a>(2015-06-15)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://www.myhome.net.tw/" target="_blank">
 歡迎訂閱TWNIC電子報</a>(2015-01-01)</td></tr>
- 
-            <? system("perl ./news.cgi"); ?> 
+            <? system("perl ./news.cgi"); ?>
                                   </td>
                                 </tr>
                               </table>
@@ -418,20 +399,20 @@ TWNIC出版2015年夏季刊</a>(2015-06-15)</td></tr>
                         </table>
                       </td>
                     </tr>
-                    <tr align="center"> 
-                      <td> 
+                    <tr align="center">
+                      <td>
                         <table border="0" cellspacing="0" cellpadding="0" width="450">
-                          <tr> 
+                          <tr>
                             <td background="img/copy_01.gif">&nbsp;</td>
                           </tr>
-                          <tr> 
-                            <td align="center"> 
+                          <tr>
+                            <td align="center">
                               <table border="0" width="450">
-                                <tr> 
-                                  <td align="center"><font class="copyright"><a href="privacy.pdf" target="_blank">隱私權政策</a>Copyright 
+                                <tr>
+                                  <td align="center"><font class="copyright"><a href="privacy.pdf" target="_blank">隱私權政策</a>Copyright
                                     2002 財團法人台灣網路資訊中心 <br>All Rights Reserved.
                                     100臺北市羅斯福路二段9號4樓之2<br>
-                                    4F-2, No. 9, Roosevelt Rd., Sec. 2, Taipei 
+                                    4F-2, No. 9, Roosevelt Rd., Sec. 2, Taipei
                                     100, Taiwan, R.O.C.<br>
                                     總機電話：886-2-23411313•傳真：886-2-2396-8832<br>
                                     客服電話：886-2-23413300•客服傳真：886-2-23968801
@@ -442,7 +423,7 @@ TWNIC出版2015年夏季刊</a>(2015-06-15)</td></tr>
                               </table>
                             </td>
                           </tr>
-                          <tr valign="top"> 
+                          <tr valign="top">
                             <td align="center" background="img/copy_02.gif">&nbsp; </td>
                           </tr>
                         </table>
@@ -455,40 +436,40 @@ TWNIC出版2015年夏季刊</a>(2015-06-15)</td></tr>
             </table>
           </td>
           <td valign="top" align="right" width="13">&nbsp; </td>
-          <td valign="top" align="right" background="img/right_bg.gif"> 
+          <td valign="top" align="right" background="img/right_bg.gif">
             <table width="135" border="0" cellpadding="0" cellspacing="0">
-              <tr bgcolor="#FFFFFF"> 
+              <tr bgcolor="#FFFFFF">
                 <td><center><font color="#426bd2"><a href="index6.php" target="_top">站 內 全 文 檢 索</a><img src="img/oo.gif" width="2" height="16"></font></center></td>
               </tr>
-              <tr bgcolor="#FFFFFF"> 
+              <tr bgcolor="#FFFFFF">
                 <td>
                 </td>
               </tr>
-              <tr valign="top" align="center" bgcolor="#FFFFFF"> 
+              <tr valign="top" align="center" bgcolor="#FFFFFF">
                 <td>
-                  
+
                     <table border="0" cellpadding="0" cellspacing="0">
-                      <tr> 
+                      <tr>
                         <td><img src="img/epaper_01.gif" width="135" height="25"></td>
                       </tr>
-                      <tr> 
+                      <tr>
                         <td><img src="img/epaper_02.gif" width="135" height="38"></td>
                       </tr>
-                      <tr> 
+                      <tr>
                         <td background="img/epaper_bg.gif"><form name="form3">&nbsp;&nbsp;請輸入email：<br>
-                          &nbsp;&nbsp; 
+                          &nbsp;&nbsp;
                           <input type="text" name="email" size="10">
-                          <input type="image" img src="img/send.gif" width="36" height="20" align="absmiddle" onclick="javascript:window.open('http://www.myhome.net.tw/newsletter/subscribe.cgi?email=' + document.form3.email.value,'popupnav','width=340,height=30,resizable=1,scrollbars=auto')"></form> 
+                          <input type="image" img src="img/send.gif" width="36" height="20" align="absmiddle" onclick="javascript:window.open('http://www.myhome.net.tw/newsletter/subscribe.cgi?email=' + document.form3.email.value,'popupnav','width=340,height=30,resizable=1,scrollbars=auto')"></form>
                         </td>
                       </tr>
-                      <tr> 
+                      <tr>
                         <td><img src="img/epaper_03.gif" width="135" height="18"></td>
                       </tr>
-                      <tr> 
+                      <tr>
                         <td><a href="http://www.myhome.net.tw/" target="_blank"><img src="img/epaper_04.jpg" border="0"></a></td>
                       </tr>
                     </table>
-                  
+
                 </td>
               </tr>
  
@@ -555,7 +536,7 @@ TWNIC出版2015年夏季刊</a>(2015-06-15)</td></tr>
     </td>
   </tr>
 </table>
- 
+
 <!-- <div id="Layer1" style="position:absolute; left:160; top:400; width:480; height:160"><a href=http://www.lovetw.tw><img src=09lovetw.gif border=0></a></div>
 <script>
 setTimeout("up_Layer1()",1000);
@@ -563,5 +544,4 @@ setTimeout("up_Layer1()",1000);
 <iframe src="http://img4.ipv6po.org.tw/linktest1.php" width="1" height="1" frameborder="0"></iframe>
 </body>
 </html>
-
 

@@ -355,17 +355,8 @@ MM_reloadPage(true);
 <td height="17"><font size="2"><a href="http://iview.twnic.net.tw/?page_id=227" target="_blank">
 國際瞭望— IoT (Internet of Things)面臨的挑戰</a>(2015-11-10)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="http://netking.tw" target="_blank">
-《2015第14屆新人王網站設計大賽-台灣限定》新人王網路預測活動開跑~</a>(2015-11-03)</td></tr>
-<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://www.ipv6.org.tw/summit2015" target="_blank">
 歡迎報名參加2015 Taiwan Internet Forum活動</a>(2015-11-02)</td></tr>
-<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="http://www.twnic.net.tw/2015talks/" target="_blank">
-歡迎參加「.tw/.台灣網路趨勢系列講座@台北x台中」- 11月20日台中場次: 服務上雲端</a>(2015-11-01)</td></tr>
-<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="http://www.twnic.net.tw/2015talks/" target="_blank">
-歡迎參加「.tw/.台灣網路趨勢系列講座@台北x台中」- 11月27日台北場次: 大數據的創新應用</a>(2015-11-01)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://iview.twnic.net.tw/?page_id=182" target="_blank">
 國際瞭望— 偽造IP位址與路由安全</a>(2015-10-30)</td></tr>
@@ -384,9 +375,6 @@ TWNIC出版2015年秋季刊</a>(2015-10-12)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://www.twnic.net.tw/2015adv/" target="_blank">
 2015啟動視覺飆創意TWNIC形象廣宣設計競賽</a>(2015-09-04)</td></tr>
-<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="http://lovetw.tw/" target="_blank">
-域名飄、愛心揚、根留台灣，一筆註冊、無限希望</a>(2015-09-01)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://onestop.twnic.net.tw/" target="_blank">
 歡迎申請TWNIC一站式域名註冊服務(one-stop services)</a>(2015-07-08)</td></tr>

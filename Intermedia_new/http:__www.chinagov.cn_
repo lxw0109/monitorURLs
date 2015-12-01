@@ -2620,7 +2620,7 @@ $(document).ready(function(){
                     <TD height="20" colSpan=3 style="font-size: 12px;color: #000000;">（浏览本网主页，建议将电脑显示屏的分辨率调为1024*768）</TD>
                   </TR>
                   <TR align=center valign="middle" >
-                    <TD height="20" colSpan=3><script src="http://s16.cnzz.com/stat.php?id=2377544&web_id=2377544&show=pic" language="JavaScript"></script>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<script type="text/javascript">
+                    <TD height="20" colSpan=3><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256821498'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1256821498%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<script type="text/javascript">
  document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://bszs.conac.cn/interact?method=doGet&id=F8B25F1C5367806CE04019AC052851CA' type='text/javascript'%3E%3C/script%3E"));
 </script></TD>
                   </TR>

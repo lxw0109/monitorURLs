@@ -155,7 +155,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-md-8 col-sm-6 news-post">
     <article>
         <div class="panel panel-large panel-lead">
-            <a href="http://www.nominet.uk/service-alert-telephone-outage/">
+            <a href="http://www.nominet.uk/change-to-wholesale-pricing-for-uk-domains/">
                 <div class="panel-img" style="background-image: url(http://www.nominet.uk/wp-content/themes/nominet/library/images/default-news-image-sticky.png);">
                     <div class="panel-img-inner">
                     </div>
@@ -163,14 +163,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="panel-inner">
                     <div class="panel-content panel-news cat-security">
                         <div class="panel-heading heading-large">
-                            <p><small>17th November 2015</small></p>
-                            <p class="panel-heading panel-heading-large">Service Alert: Telephone Outage</p>
+                            <p><small>25th November 2015</small></p>
+                            <p class="panel-heading panel-heading-large">Change to wholesale pricing for .UK domains</p>
                                                     </div>
                     </div>
                 </div><!--/panel-inner-->
             </a>
         </div><!--/panel-->
     </article>
+</div><!--/col-->        
+    
+<div class="col-md-4 col-sm-6 news-post">
+    <div class="panel">
+        <a href="http://www.nominet.uk/proposed-revision-of-our-terms-conditions-of-uk-domain-name-registrations/">
+            <div class="panel-img">
+                                <img src="http://www.nominet.uk/wp-content/themes/nominet/library/images/default-news-image.png" alt="">
+                            </div>
+            <div class="panel-inner">
+                                <span class="radial-lines"><span class="icon-news-category icon-small icon-company-news"></span></span>
+                <div class="panel-content cat-security">        
+                    <small></small>              
+                    <p class="panel-heading">Proposed revision of our Terms &#038; Conditions of .UK Domain Name Registrations</p>
+                </div>
+            </div>
+        </a>
+    </div>
 </div><!--/col-->        
     
 <div class="col-md-4 col-sm-6 news-post">
@@ -263,22 +280,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="panel-content cat-security">        
                     <small>11th June 2015</small>              
                     <p class="panel-heading">New tool gives enterprises insight into their internet traffic</p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div><!--/col-->        
-    
-<div class="col-md-4 col-sm-6 news-post">
-    <div class="panel">
-        <a href="http://www.nominet.uk/update-following-2015-agm-and-ned-election-results/">
-            <div class="panel-img">
-                                <img src="http://www.nominet.uk/wp-content/uploads/2015/06/iStock_000070665209_Large-360x222.jpg" class="attachment-news-regular wp-post-image" alt="2015 AGM and NED election" />                            </div>
-            <div class="panel-inner">
-                                <span class="radial-lines"><span class="icon-news-category icon-small icon-company-news"></span></span>
-                <div class="panel-content cat-security">        
-                    <small>3rd June 2015</small>              
-                    <p class="panel-heading">Update following 2015 AGM and NED election results</p>
                 </div>
             </div>
         </a>
@@ -398,8 +399,3 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </body>
 </html>
 
-<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
-
-Page Caching using disk: enhanced
-
- Served from: www.nominet.uk @ 2015-11-18 01:11:28 by W3 Total Cache -->

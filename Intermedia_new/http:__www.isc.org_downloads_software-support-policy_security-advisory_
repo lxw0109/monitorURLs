@@ -931,7 +931,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 </ul>
 <p>For listing of security vulnerabilities about BIND 9, visit ISC&#8217;s Knowledge Base&#8217;s <a title="BIND 9 Vulnerabilities Matrix" href="https://kb.isc.org/article/AA-00913/0/BIND-9-Security-Vulnerability-Matrix.html" target="_blank">BIND 9 Vulnerabilities Matrix</a>.</p>
 <p>As of Oct, 2010 ISC is now using the <a href="http://nvd.nist.gov/cvss.cfm?calculator&amp;adv&amp;version=2" target="_blank">CVSS</a>, a program of first.org and NIST, to determine the severity of potential security issues.</p>
-<p>To subscribe to our Security Vulnerability RSS feed, please subscribe to <a href="https://www.isc.org/?feed=security-feed" target="_blank">https://www.isc.org/?feed=security-feed</a> <a href="https://www.isc.org/?feed=security-feed" target="_blank"><img class="alignnone wp-image-12557" style="margin-bottom: 3px;" src="https://www.isc.org/wp-content/uploads/2013/05/rss.png" alt="ISC Security Vulnerability RSS Feed" width="15" height="15" /></a></p>
+<p>To subscribe to our Security Vulnerability RSS feed, please subscribe to <a href="https://kb.isc.org/admin/index.php/rss/publisher/2/cb2243268f8a444f0e641c74c7fa35a0/category/74/aHR0cHM6Ly9rYi5pc2Mub3JnLw~~/1" target="_blank">updates from our knowledgebase at kb.isc.org</a> <a><img class="alignnone wp-image-12557" style="margin-bottom: 3px;" src="https://www.isc.org/wp-content/uploads/2013/05/rss.png" alt="ISC Security Vulnerability RSS Feed" width="15" height="15" /></a></p>
 
 		</div> 
 	</div> </div>
@@ -969,7 +969,7 @@ nav .menu > li {border-top-color: #e4e4e4;}
 
 
 <!--// WordPress Hook //-->
-<p>Last modified: September 17, 2015 at 9:57 am</p>
+<p>Last modified: November 30, 2015 at 11:16 am</p>
 
 					
 					<!--// CLOSE #page-wrap //-->			
@@ -997,13 +997,15 @@ USA</p>
 </div>
 		</section>												</div>
 						<div class="span3">
-													<section id="text-4" class="widget widget_text clearfix"><div class="widget-heading clearfix"><h5>Secured by Sucuri.net</h5></div>			<div class="textwidget"><a href="https://monitor18.sucuri.net/verify.php?r=5403054e095be526ddebd9582a76c7a2a7258a37a3"><img src="https://sucuri.net/images/logo-footer.jpg" /></a></div>
+													<section id="text-4" class="widget widget_text clearfix">			<div class="textwidget"><a href="http://open-stand.org"><br /><br /><br /><img alt="grouplogo" height="128px" width="128px" src="http://standards.ieee.org/images/openstand/128x128-green1.png"> </a> <br /> Source: <a href="http://open-stand.org">open-stand.org</a><br /><br /><br /></div>
 		</section>												</div>
 						<div class="span3">
-													<section id="text-7" class="widget widget_text clearfix">			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/ISCdotORG" data-widget-id="579054283334660096">Tweets by @ISCdotORG</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+													<section id="text-7" class="widget widget_text clearfix">			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/ISCdotORG" data-widget-id="579054283334660096">Tweets by @ISCdotORG</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
 		</section>												</div>
 						<div class="span3">
-													<section id="text-2" class="widget widget_text clearfix"><div class="widget-heading clearfix"><h5>Follow ISC</h5></div>			<div class="textwidget"><ul class="social-icons standard colour">
+													<section id="text-10" class="widget widget_text clearfix">			<div class="textwidget"><ul class="social-icons standard colour">
 <li class="twitter"><a href="http://www.twitter.com/iscdotorg" target="_blank">Twitter</a></li>
 <li class="facebook"><a href="https://www.facebook.com/InternetSystemsConsortium" target="_blank">Facebook</a></li>
 <li class="linkedin"><a href="https://www.linkedin.com/company/internet-systems-consortium" target="_blank">LinkedIn</a></li>
@@ -1080,7 +1082,7 @@ var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.js?ver=4.3.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"1307e31675","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
+var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"03f8b978af","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/plugins/love-it-pro/includes/js/love-it.js'></script>
