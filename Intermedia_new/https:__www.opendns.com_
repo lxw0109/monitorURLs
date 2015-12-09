@@ -24,10 +24,10 @@
 		<title>Cloud Delivered Enterprise Security by OpenDNS</title>
 
 	
-			<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/homepage.css?v=33b4929f6afe0dabaa9e9607c8ae2a50" />
+			<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/homepage.css?v=ea21e334eafd13a52f6b3eb5628aed7b" />
 	
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=f9dbbd122226c757f21e33e13fdb9fdc"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/lib/respond.src.js?ver=866efb97b447cb8db589a2ab21fa2ccf"></script>
 	<![endif]-->
 
 	<link rel='stylesheet' id='style-css'  href='https://www.opendns.com/wp-content/themes/opendns/style.css?ver=4.3.1' type='text/css' media='all' />
@@ -37,7 +37,7 @@
 <link rel='stylesheet' id='chosen-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/chosen.css?ver=4.3.1' type='text/css' media='all' />
 <link rel='stylesheet' id='fontawesome-css'  href='https://www.opendns.com/wp-content/themes/opendns/css/fontawesome/font-awesome.css?ver=4.3.1' type='text/css' media='all' />
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=09974dce99fc6ef2e442d1ab0a14e0ba">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.opendns.com/wp-content/themes/opendns/css/search.css?v=1f5d65988db134f241b3524fdfca8be0">
 
 	<meta name="viewport" content="width=device-width">
 	
@@ -74,9 +74,9 @@ img.emoji {
 </style>
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
 <script type='text/javascript' src='https://www.opendns.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=1b7dd1443870b5d5b0e8dbb9e78a4aac'></script>
+<script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-header.min.js?ver=efae42d3b7bc8f223913ecdc10eba897'></script>
 <meta name="generator" content="WordPress 4.3.1" />
-<script async type="text/javascript" src="//cdn.bizible.com/_biz-a.js" ></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<script type="text/javascript" src="//cdn.bizible.com/scripts/bizible.js" async=""></script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 </head>
 
 <!--[if IE 8]>
@@ -86,7 +86,7 @@ img.emoji {
 		"prefix": "min-",
 		"breakpoints": [0, 472, 712, 952]
 	}]
-}' class="home page page-id-1463 page-template page-template-page-home-test page-template-page-home-test-php index homepage-main promotion ie ">
+}' class="home page page-id-1463 page-template page-template-page-home-test page-template-page-home-test-php index homepage-main ie ">
 <![endif]-->
 <!--[if IE 9]>
 <body id="ie9" data-responsejs='{
@@ -95,7 +95,7 @@ img.emoji {
 		"prefix": "min-",
 		"breakpoints": [0, 472, 712, 952]
 	}]
-}' class="home page page-id-1463 page-template page-template-page-home-test page-template-page-home-test-php index homepage-main promotion ie ">
+}' class="home page page-id-1463 page-template page-template-page-home-test page-template-page-home-test-php index homepage-main ie ">
 <![endif]-->
 <!--[if !(IE 6) | !(IE 7) | !(IE 8) | !(IE 9) ]><!-->
 <body data-responsejs='{
@@ -104,7 +104,7 @@ img.emoji {
 		"prefix": "min-",
 		"breakpoints": [0, 472, 712, 952]
 	}]
-}' class="home page page-id-1463 page-template page-template-page-home-test page-template-page-home-test-php index homepage-main promotion ">
+}' class="home page page-id-1463 page-template page-template-page-home-test page-template-page-home-test-php index homepage-main ">
 <!--<![endif]-->
 
 <!-- Google Tag Manager -->
@@ -337,11 +337,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li class="login hidden menu-item menu-item-type-custom menu-item-object-custom menu-item-26387"><a href="https://login.opendns.com/?return_to=https://dashboard2.opendns.com/">Login</a></li>
 <li class="logout hidden menu-item menu-item-type-custom menu-item-object-custom menu-item-26389"><a href="https://dashboard2.opendns.com/">Dashboard</a></li>
 <li class="contact-sales-link menu-item menu-item-type-post_type menu-item-object-page menu-item-26391"><a href="https://www.opendns.com/enterprise-security/contact-us/">Contact Sales</a></li>
-</ul></div>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=0b964acf901a7b073ae08714d614bd35"></script>
+</ul></div>			<script src="https://www.opendns.com//wp-content/themes/opendns/js/menu.js?ver=06708b76d09582c14c03fc79dc57aa9a"></script>
 		</div> <!-- .grid -->
 	</header>
 	<!--[if IE 8]>
-	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=ea08b19f56c3697934f43433922c5715"></script>
+	<script type="text/javascript" src="https://www.opendns.com//wp-content/themes/opendns/js/ie8-message.js?ver=14222d26b38fa9e7141fb9020a11537a"></script>
 	<![endif]-->
 	<!--
 	Start of DoubleClick Floodlight Tag: Please do not remove
@@ -360,20 +360,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</noscript>
 	<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
 
-			<div class="promo-banner ">
-			<div class="grid">
-				<div class="promo-banner-wrapper ">
-					<a href="/enterprise-security/resources/webcasts/uncovering-attacks-before-they-launch/">
-						<div class="promo-banner-icon "></div>
-						<div class="promo-banner-message">
-							<p>Live Webcast 12/3 - Learn how to uncover attacks before they launch</p>
-							<p class="promo-banner-cta">Join Our Webcast <i class="fa fa-caret-right"></i></p>
-						</div> <!-- .promo-banner-message -->
-					</a>
-				</div> <!-- .promo-banner-wrapper -->
-			</div> <!-- .grid -->
-		</div> <!-- .promo-banner -->
-
+	
 			<div class="content">
 	
 <div class="image-banner home-hero no-scrim">
@@ -628,17 +615,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Nov 30</span>
+							<span class="date">Dec 7</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://blog.opendns.com/2015/11/30/the-brief-november-23rd-29th/" title="The Brief: November 23rd - 29th">The Brief: November 23rd - 29th</a>
+							<a href="https://blog.opendns.com/2015/12/07/the-brief-november-30th-december-6th/" title="The Brief: November 30th - December 6th">The Brief: November 30th - December 6th</a>
 						</h4>
 						<p class="author">Author: The Brief</p>
-						<div class="excerpt"><p>This week, in the Brief: problems keep piling up for AshMad victims, Dell has a really, really bad week, and &hellip;<span class="overflow"> putting &#8216;backdoors in backdoors&#8217; is a thing we do now:                                                                   &hellip;</span></p>
+						<div class="excerpt"><p>This week, in the Brief: looking for a new gig? The team behind Chimera is hiring, Mikko Hypponen offers words &hellip;<span class="overflow"> of wisdom, and everyone piles on Flash&#8230;again:                                                                        &hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/11/30/the-brief-november-23rd-29th/" title="The Brief: November 23rd - 29th" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/12/07/the-brief-november-30th-december-6th/" title="The Brief: November 30th - December 6th" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 								<li class="post clearfix">
@@ -650,17 +637,17 @@ daily DNS requests
 					</div>
 					<div class="left">
 						<div class="post-date">
-							<span class="date">Nov 24</span>
+							<span class="date">Dec 3</span>
 						</div>
 					</div>
 					<div class="right">
 						<h4 class="title">
-							<a href="https://blog.opendns.com/2015/11/24/opendns-provides-sheds-light-on-domain-shadowing/" title="OpenDNS Sheds Light on Domain Shadowing">OpenDNS Sheds Light on Domain Shadowing</a>
+							<a href="https://blog.opendns.com/2015/12/03/ghost-in-the-shell-baked-in-security-flaws-are-on-the-rise/" title="Compromised by Design: Baked-In Security Flaws Are Now Systemic">Compromised by Design: Baked-In Security Flaws Are Now Systemic</a>
 						</h4>
 						<p class="author">Author: Owen Lystrup</p>
-						<div class="excerpt"><p>In March this year the Talos Security group at Cisco coined a name for an attack that hackers have been &hellip;<span class="overflow"> using since 2011 at least. Domain Shadowing is when an attacker gains admin access to a legitimate domain, and uses that&hellip;</span></p>
+						<div class="excerpt"><p>Shopping for a deal on a new tablet or laptop? Bargain prices on devices might come with a heavy security &hellip;<span class="overflow"> cost as more mobile apps and devices are going to market preloaded with malware and viruses. This year’s security news has&hellip;</span></p>
 </div>
-						<a href="https://blog.opendns.com/2015/11/24/opendns-provides-sheds-light-on-domain-shadowing/" title="OpenDNS Sheds Light on Domain Shadowing" class="read-more">Read More &rarr;</a>
+						<a href="https://blog.opendns.com/2015/12/03/ghost-in-the-shell-baked-in-security-flaws-are-on-the-rise/" title="Compromised by Design: Baked-In Security Flaws Are Now Systemic" class="read-more">Read More &rarr;</a>
 					</div>
 				</li>
 							</ul>
@@ -897,10 +884,10 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/6878.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=a49aba79d58a21e61b0366ba41cf8bb7'></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":534,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</script><script type='text/javascript' src='https://www.opendns.com/wp-content/themes/opendns/js/lib/combined-footer.min.js?ver=eedff2bb7d81d6daf7873ac7d13dab7e'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01957cb5b6","applicationID":"3419382","transactionName":"YlxaMhZTCERSUUwIClsWeQUQWwlZHEJZBgAYUVcLAR8SUkBG","queueTime":0,"applicationTime":528,"atts":"ThtZRF5JG0o=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
 </html>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
- Served from: www.opendns.com @ 2015-11-30 17:11:28 by W3 Total Cache -->
+ Served from: www.opendns.com @ 2015-12-08 17:11:32 by W3 Total Cache -->

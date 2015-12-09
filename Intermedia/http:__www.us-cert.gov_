@@ -17,19 +17,19 @@
   <link type="text/css" rel="stylesheet" href="https://www.us-cert.gov/sites/default/files/css/css_p6fbplrRgxHxDbsGKZcNn9qS5zlpmxaTbW9STNfntz8.css" media="all" />
 <link type="text/css" rel="stylesheet" href="https://www.us-cert.gov/sites/default/files/css/css_Iuri0k5jNYDYlcDf_RojMfF0oo3SvNMQq1gM4colut8.css" media="all" />
 <link type="text/css" rel="stylesheet" href="https://www.us-cert.gov/sites/default/files/css/css_J1H_tw0GsvmNv_Q1X8kU1WiDl2n9HFQoRdSZhTQAHrU.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://www.us-cert.gov/sites/default/files/css/css_odjCXfD8oU1F-KLtxaPQ_nWMffyO2bmJMGtSVf0kw24.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.us-cert.gov/sites/default/files/css/css_yH0KHj4h2_Ed5j7Hyy0Rl7_3SayuP0PCyhplucNVT7s.css" media="all" />
 <link type="text/css" rel="stylesheet" href="https://www.us-cert.gov/sites/default/files/css/css_KCNZ7YudgplVMn0e5YXrEptF8K7nkEFZt5Yrs5EjYM0.css" media="all" />
   <script type="text/javascript" src="https://www.us-cert.gov/sites/default/files/js/js_PzQtwwJN6K255Fgkv74CFvOLCfi8N530Cg8ngN8_uS0.js"></script>
 <script type="text/javascript" src="https://www.us-cert.gov/sites/default/files/js/js_WSb1OKFlTNmXqF3FGebSlF837Y71-vD1b6tLwaWtK44.js"></script>
-<script type="text/javascript" src="https://www.us-cert.gov/sites/default/files/js/js_t8qa7mYrHOy4nftRp7LJtXkgkxePCjx72dyL1YVCKNg.js"></script>
+<script type="text/javascript" src="https://www.us-cert.gov/sites/default/files/js/js_mL-mnCIWDuMncryciDbzNGuWKvM3vh27puqe0maYoNQ.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.us-cert.gov/sites/default/files/googleanalytics/analytics.js?nyjxm1","ga");ga("create", "UA-34879253-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.us-cert.gov/sites/default/files/googleanalytics/analytics.js?nyr2e2","ga");ga("create", "UA-34879253-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
 //--><!]]>
 </script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"uscert_gov_theme","theme_token":"fKidByJQLQ48naRtVEuNVWBWt6VICaBQO0Ryngt4KfI","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"misc\/ui\/jquery.ui.datepicker.min.js":1,"profiles\/uscert_gov\/modules\/contrib\/jquery_ui_filter\/jquery_ui_filter.js":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/js\/uscert_webforms.js":1,"profiles\/uscert_gov\/modules\/contrib\/jquery_ui_filter\/accordion\/jquery_ui_filter_accordion.js":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.js":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/js\/global.js":1,"profiles\/dhs_wcm\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/css\/uscert_webforms.css":1,"modules\/user\/user.css":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/dhs_wcm\/modules\/contrib\/views\/css\/views.css":1,"profiles\/dhs_wcm\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"public:\/\/ctools\/css\/332c34e410da79d301686687e5be1460.css":1,"public:\/\/ctools\/css\/20ea45f22426c83d60486d9f3dee21cc.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"sites\/default\/files\/css\/follow.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/css\/global.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"jQueryUiFilter":{"disabled":0,"accordionHeaderTag":"h3","accordionOptions":{"active":"false","animated":"slide","autoHeight":"false","clearStyle":"false","collapsible":"true","event":"click","scrollTo":0,"history":"false"}},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"(\\.gov|\\.mil|\\.org.*|twitter\\.com\\\/share\\?url\\=.*|www\\.facebook\\.com\\\/sharer\\.php\\?u\\=.*|www\\.addthis\\.com\\\/bookmark\\.php\\?url\\=.*|javascript\\:window\\.print\\(\\)\\;)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"You are now leaving an official website of the United State Government (USG), the Department of Homeland Security (DHS) and the United States Computer Emergency Readiness Team (US-CERT). Links to non-USG, non-DHS and non-US-CERT sites are provided for the visitor\u0027s convenience and do not represent an endorsement by USG, DHS or US-CERT of any commercial or private issues, products or services. Note that the privacy policy of the linked site may differ from that of USG, DHS and US-CERT.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackCrossDomains":["us-cert.gov"]},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"uscert_gov_theme","theme_token":"a3DLtxVAZXXvlKdQg3QW9HZdcSRzXGmaxDpTmhoC7Fo","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"misc\/ui\/jquery.ui.datepicker.min.js":1,"profiles\/uscert_gov\/modules\/contrib\/jquery_ui_filter\/jquery_ui_filter.js":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/js\/uscert_webforms.js":1,"profiles\/uscert_gov\/modules\/contrib\/jquery_ui_filter\/accordion\/jquery_ui_filter_accordion.js":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.js":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/js\/global.js":1,"profiles\/dhs_wcm\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/dhs_wcm\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"profiles\/uscert_gov\/modules\/custom\/uscert_webforms\/css\/uscert_webforms.css":1,"modules\/user\/user.css":1,"profiles\/uscert_gov\/modules\/contrib\/extlink\/extlink.css":1,"profiles\/dhs_wcm\/modules\/contrib\/views\/css\/views.css":1,"profiles\/dhs_wcm\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"public:\/\/ctools\/css\/332c34e410da79d301686687e5be1460.css":1,"public:\/\/ctools\/css\/20ea45f22426c83d60486d9f3dee21cc.css":1,"sites\/all\/modules\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"sites\/default\/files\/css\/follow.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"profiles\/uscert_gov\/themes\/uscert_gov_theme\/css\/global.css":1,"profiles\/dhs_wcm\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"jQueryUiFilter":{"disabled":0,"accordionHeaderTag":"h3","accordionOptions":{"active":"false","animated":"slide","autoHeight":"false","clearStyle":"false","collapsible":"true","event":"click","scrollTo":0,"history":"false"}},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"(\\.gov|\\.mil|\\.org.*|twitter\\.com\\\/share\\?url\\=.*|www\\.facebook\\.com\\\/sharer\\.php\\?u\\=.*|www\\.addthis\\.com\\\/bookmark\\.php\\?url\\=.*|javascript\\:window\\.print\\(\\)\\;)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"You are now leaving an official website of the United State Government (USG), the Department of Homeland Security (DHS) and the United States Computer Emergency Readiness Team (US-CERT). Links to non-USG, non-DHS and non-US-CERT sites are provided for the visitor\u0027s convenience and do not represent an endorsement by USG, DHS or US-CERT of any commercial or private issues, products or services. Note that the privacy policy of the linked site may differ from that of USG, DHS and US-CERT.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackCrossDomains":["us-cert.gov"]},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});
 //--><!]]>
 </script>
 <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. --><script src="/profiles/dhs_wcm/modules/contrib/usfedgov_google_analytics/js/Universal-Federated-Analytics-Min.js?agency=DHS&subagency=US-CERT" type="text/javascript" id="_fed_an_ua_tag"></script>  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -60,24 +60,22 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       <div class="logo-img"><a href="/"><img alt="U.S. Department of Homeland Security Seal. United States Computer Emergency Readiness Team US-CERT" id="logo" src="/sites/default/files/images/logo.png" /></a></div>    </div>
   </div>
 </div>  </div>
-</div>  </div>
-</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
-  <div id="zone-menu" class="zone zone-menu clearfix container-12">
-    <div class="grid-9 region region-menu" id="region-menu">
-  <div class="region-inner region-menu-inner">
-        <nav class="navigation">
-      <span class="element-invisible">Main menu</span><ul id="main-menu" class="links inline clearfix main-menu"><li class="menu-577 first active"><a href="/" title="" class="active">Home</a></li><li class="menu-581"><a href="/about-us">About Us</a></li><li class="menu-709"><a href="/security-publications">Publications</a></li><li class="menu-579"><a href="/ncas">Alerts and Tips</a></li><li class="menu-580"><a href="/related-resources">Related Resources</a></li><li class="menu-982 last"><a href="/ccubedvp">C³ VP</a></li></ul>          </nav>
-          </div>
-</div>
-
-<div class="grid-3 region region-search" id="region-search">
+</div><div class="grid-4 region region-search" id="region-search">
   <div class="region-inner region-search-inner">
     <div class="block block-block block-3 block-block-3 odd block-without-title" id="block-block-3">
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
       <div id="search-container"><form accept-charset="UTF-8" action="https://search.us-cert.gov/search" id="search_form" method="get"><input name="utf8" type="hidden" value="✓" /><input id="affiliate" name="affiliate" type="hidden" value="us-cert" /><label for="query">Search query</label><input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text" /><input id="search-submit" name="commit" type="submit" value="Search" /> </form></div>
+
 <style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+.view-id-current_job_openings .views-table thead th {
+color: white;
+}
+
+/*--><!]]>*/
+</style><style type="text/css">
 <!--/*--><![CDATA[/* ><!--*/
 .general-table {
         margin-bottom: 2px;
@@ -173,6 +171,16 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   </div>
 </div>  </div>
 </div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <nav class="navigation">
+      <span class="element-invisible">Main menu</span><ul id="main-menu" class="links inline clearfix main-menu"><li class="menu-577 first active"><a href="/" title="" class="active">Home</a></li><li class="menu-581"><a href="/about-us">About Us</a></li><li class="menu-1903"><a href="/current-job-openings" title="">Careers</a></li><li class="menu-709"><a href="/security-publications">Publications</a></li><li class="menu-579"><a href="/ncas">Alerts and Tips</a></li><li class="menu-580"><a href="/related-resources">Related Resources</a></li><li class="menu-982 last"><a href="/ccubedvp">C³ VP</a></li></ul>          </nav>
+          </div>
+</div>
+
+  </div>
 </div></header>    
       <section id="section-content" class="section section-content">
   <div id="zone-preface-wrapper" class="zone-wrapper zone-preface-wrapper clearfix">  
@@ -201,7 +209,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view--current-activity view-id-_current_activity view-display-id-block_1 current-activity-homepage-block view-dom-id-0a338cc737f0cf10d359735edf64cd04">
+      <div class="view view--current-activity view-id-_current_activity view-display-id-block_1 current-activity-homepage-block view-dom-id-19823373600e3040b7d3eca87b6b650d">
             <div class="view-header">
       <div id="current-activity-header">
 <h2>
@@ -218,11 +226,11 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   
       <div class="view-content">
         <div class="views-row views-row-1 views-row-odd views-row-first">
-    <h3 class="entry-title"><span><a href="/ncas/current-activity/2015/11/27/IRS-Releases-First-Series-Tax-Security-Tips">IRS Releases First in a Series of Tax Security Tips</a></span></h3><div class="entry-date"><span>Published </span><span>Friday, November 27, 2015</span></div><div class="entry-description"><div><p>The Internal Revenue Service (IRS) has released the first in a series of tips intended to increase public awareness of how to protect personal and financial data online and at home. A new tip will be available each Monday through the start of the tax season in January, and will continue through the April tax deadline.</p></div></div><div class="views-field views-field-view-node read-more"><span class="field-content"><a href="/ncas/current-activity/2015/11/27/IRS-Releases-First-Series-Tax-Security-Tips">Read Full Entry &raquo;</a></span></div>  </div>
+    <h3 class="entry-title"><span><a href="/ncas/current-activity/2015/12/07/Seven-Steps-Making-Identity-Protection-Part-Your-Routine">Seven Steps for Making Identity Protection Part of Your Routine</a></span></h3><div class="entry-date"><span>Published </span><span>Monday, December 7, 2015</span></div><div class="entry-description"><div><p>The Internal Revenue Service (IRS) has released the third in a series of tips intended to increase public awareness of how to protect personal and financial data online and at home. A new tip will be released each Monday through the start of the tax season in January, and will continue through the April tax deadline. US-CERT and IRS recommend taxpayers prepare for heightened risk this tax season and remain vigilant year-round.</p></div></div><div class="views-field views-field-view-node read-more"><span class="field-content"><a href="/ncas/current-activity/2015/12/07/Seven-Steps-Making-Identity-Protection-Part-Your-Routine">Read Full Entry &raquo;</a></span></div>  </div>
   <div class="views-row views-row-2 views-row-even">
-    <h3 class="entry-title"><span><a href="/ncas/current-activity/2015/11/25/US-CERT-Alerts-Users-Holiday-Phishing-Scams-and-Malware-Campaigns">US-CERT Alerts Users to Holiday Phishing Scams and Malware Campaigns</a></span></h3><div class="entry-date"><span>Published </span><span>Wednesday, November 25, 2015</span></div><div class="entry-description"><div><p>US-CERT reminds users to remain vigilant when browsing or shopping online this holiday season. Ecards from unknown senders may contain malicious links. Fake advertisements or shipping notifications may deliver infected attachments. Spoofed email messages and fraudulent posts on social networking sites may request support for phony causes.</p><p>To avoid seasonal campaigns that could result in security breaches, identity theft, or financial loss, users are encouraged to take the following actions:</p></div></div><div class="views-field views-field-view-node read-more"><span class="field-content"><a href="/ncas/current-activity/2015/11/25/US-CERT-Alerts-Users-Holiday-Phishing-Scams-and-Malware-Campaigns">Read Full Entry &raquo;</a></span></div>  </div>
+    <h3 class="entry-title"><span><a href="/ncas/current-activity/2015/12/03/OpenSSL-Patches-Multiple-Vulnerabilities">OpenSSL Patches Multiple Vulnerabilities</a></span></h3><div class="entry-date"><span>Published </span><span>Thursday, December 3, 2015</span></div><div class="entry-description"><div><p>OpenSSL has released updates patching four vulnerabilities. Exploitation of one of these vulnerabilities could allow an attacker to cause a denial-of-service condition. Updates available include:</p><ul><li>OpenSSL 1.0.2e for 1.0.2 users</li><li>OpenSSL 1.0.1q for 1.0.1 users</li><li>OpenSSL 1.0.0t for 1.0.0 users</li><li>OpenSSL 0.9.8zh for 0.9.8 users</li></ul><p>Users and administrators are encouraged to review the <a href="https://www.openssl.org/news/secadv/20151203.txt">OpenSSL Security Advisory</a> and apply the necessary updates.</p></div></div><div class="views-field views-field-view-node read-more"><span class="field-content"><a href="/ncas/current-activity/2015/12/03/OpenSSL-Patches-Multiple-Vulnerabilities">Read Full Entry &raquo;</a></span></div>  </div>
   <div class="views-row views-row-3 views-row-odd views-row-last">
-    <h3 class="entry-title"><span><a href="/ncas/current-activity/2015/11/24/Dell-Computers-Contain-CA-Root-Certificate-Vulnerability">Dell Computers Contain CA Root Certificate Vulnerability</a></span></h3><div class="entry-date"><span>Published </span><span>Tuesday, November 24, 2015</span></div><div class="entry-description"><div><p>Dell personal computers using the preinstalled certificate authority (CA) root certificate (eDellRoot) contain a critical vulnerability. Exploitation of the vulnerability could allow a remote attacker to read encrypted web browser traffic (HTTPS), impersonate (spoof) any website, or perform other attacks on the affected system.</p></div></div><div class="views-field views-field-view-node read-more"><span class="field-content"><a href="/ncas/current-activity/2015/11/24/Dell-Computers-Contain-CA-Root-Certificate-Vulnerability">Read Full Entry &raquo;</a></span></div>  </div>
+    <h3 class="entry-title"><span><a href="/ncas/current-activity/2015/12/03/IRS-Releases-Second-Tax-Security-Tip">IRS Releases Second Tax Security Tip</a></span></h3><div class="entry-date"><span>Published </span><span>Thursday, December 3, 2015</span></div><div class="entry-description"><div><p>The Internal Revenue Service (IRS) has released the second in a series of tips intended to increase public awareness of how to protect personal and financial data online and at home. A new tip will be available each Monday through the start of the tax season in January, and will continue through the April tax deadline. US-CERT and IRS recommend taxpayers prepare for heightened risk this tax season and remain vigilant year-round.</p></div></div><div class="views-field views-field-view-node read-more"><span class="field-content"><a href="/ncas/current-activity/2015/12/03/IRS-Releases-Second-Tax-Security-Tip">Read Full Entry &raquo;</a></span></div>  </div>
     </div>
   
   
@@ -273,7 +281,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view-announcements view-id-announcements view-display-id-block_1 announcements-homepage-block sidebar-widget sidebar-widget-green view-dom-id-fefbb6b8455648a98560d083f5d01f18">
+      <div class="view view-announcements view-id-announcements view-display-id-block_1 announcements-homepage-block sidebar-widget sidebar-widget-green view-dom-id-b1136d50eef0f5ccb6e007860b09372f">
             <div class="view-header">
       <h3><a href="/announcements/">Announcements</a></h3>    </div>
   
@@ -284,10 +292,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="views-field views-field-field-announcement-url">        <div class="field-content"><a href="https://www.us-cert.gov/incident-notification-guidelines">New Incident Notification Guidelines Take Effect on October 1, 2015 </a></div>  </div>  
   <div>        <p>On October 1, 2015, all Federal Government Departments and Agencies are required to use the new incident notification guidelines. Major changes include the addition of impact classifications, replacement of categories with threat vectors, and a one hour time-limit to notify US-CERT of a confirmed compromise.</p>  </div></li>
           <li class="views-row views-row-2 views-row-even">  
-  <div class="views-field views-field-field-announcement-url">        <div class="field-content"><a href="https://www.us-cert.gov/ccubedvp/getting-started-sltt">New Cybersecurity Resources for SLTT Governments</a></div>  </div>  
+  <div class="views-field views-field-field-announcement-url">        <div class="field-content"><a href="/ccubedvp/getting-started-sltt">New Cybersecurity Resources for SLTT Governments</a></div>  </div>  
   <div>        <p>The Critical Infrastructure Cyber Community (C3) Voluntary Program has developed two new resources for&nbsp;State, Local, Tribal, &amp; Territorial (SLTT) Governments: the SLTT Toolkit and Geographically Specific Resources.</p>  </div></li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field views-field-field-announcement-url">        <div class="field-content"><a href="https://www.us-cert.gov/ccubedvp/getting-started-smb">Small and Midsize Business (SMB) Cybersecurity Toolkit</a></div>  </div>  
+  <div class="views-field views-field-field-announcement-url">        <div class="field-content"><a href="/ccubedvp/getting-started-smb">Small and Midsize Business (SMB) Cybersecurity Toolkit</a></div>  </div>  
   <div>        <p>The Critical Infrastructure Cyber Community (C&sup3;) Voluntary Program has developed the SMB Toolkit, a packet of resources specially designed to help SMBs recognize and address their cybersecurity risks.</p>  </div></li>
       </ul></div>    </div>
   
@@ -306,7 +314,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <div class="block-inner clearfix">
                 
     <div class="content clearfix">
-      <div class="view view-recent-vulnerabilities-notes view-id-recent_vulnerabilities_notes view-display-id-block sidebar-widget sidebar-widget-orange recent-vulnerabilities-homepage view-dom-id-e311a250b40800b96af450714cdfe1ea">
+      <div class="view view-recent-vulnerabilities-notes view-id-recent_vulnerabilities_notes view-display-id-block sidebar-widget sidebar-widget-orange recent-vulnerabilities-homepage view-dom-id-f5f1aaa4170197b6f27b21836fda56b0">
             <div class="view-header">
       <div id="recent-vulnerabilities"><h3><a href="http://www.kb.cert.org/vuls/">Recent Vulnerabilities</a></h3></div>    </div>
   
@@ -314,26 +322,26 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   
       <div class="view-content">
       <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/294607">VU#294607: Lenovo Solution Center LSCTaskService privilege escalation, directory traversal, and CSRF</a></span>  </div>  
+  <span class="published">        <span>Friday, December 4, 2015 at 9:29 AM</span>  </span></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/630239">VU#630239: Epiphany Cardio Server version 3.3 is vulnerable to SQL and LDAP injection</a></span>  </div>  
+  <span class="published">        <span>Tuesday, December 1, 2015 at 3:29 PM</span>  </span></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/792004">VU#792004: RSI Video Technologies Videofied security system Frontel software uses an insecure custom protocol</a></span>  </div>  
+  <span class="published">        <span>Monday, November 30, 2015 at 10:30 AM</span>  </span></li>
+          <li class="views-row views-row-4 views-row-even">  
   <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/566724">VU#566724: Embedded devices use non-unique X.509 certificates and SSH host keys</a></span>  </div>  
   <span class="published">        <span>Wednesday, November 25, 2015 at 8:29 AM</span>  </span></li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-5 views-row-odd">  
   <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/925497">VU#925497: Dell System Detect installs root certificate and private key (DSDTestProvider)</a></span>  </div>  
   <span class="published">        <span>Tuesday, November 24, 2015 at 1:29 PM</span>  </span></li>
-          <li class="views-row views-row-3 views-row-odd">  
+          <li class="views-row views-row-6 views-row-even">  
   <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/870761">VU#870761: Dell Foundation Services installs compromised root CA (eDellRoot)</a></span>  </div>  
   <span class="published">        <span>Tuesday, November 24, 2015 at 1:29 AM</span>  </span></li>
-          <li class="views-row views-row-4 views-row-even">  
+          <li class="views-row views-row-7 views-row-odd views-row-last">  
   <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/428280">VU#428280: CSL DualCom GPRS CS2300-R alarm signalling boards contain multiple vulnerabilties</a></span>  </div>  
   <span class="published">        <span>Monday, November 23, 2015 at 8:35 AM</span>  </span></li>
-          <li class="views-row views-row-5 views-row-odd">  
-  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/419568">VU#419568: Arris cable modems contain an undocumtented backdoor vulnerability and XSS and CSRF</a></span>  </div>  
-  <span class="published">        <span>Friday, November 20, 2015 at 12:29 PM</span>  </span></li>
-          <li class="views-row views-row-6 views-row-even">  
-  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/576313">VU#576313: Apache Commons Collections Java library insecurely deserializes data</a></span>  </div>  
-  <span class="published">        <span>Friday, November 13, 2015 at 12:46 PM</span>  </span></li>
-          <li class="views-row views-row-7 views-row-odd views-row-last">  
-  <div class="vul-title">        <span><a href="http://www.kb.cert.org/vuls/id/438928">VU#438928: Huawei HG532 routers contain a path traversal vulnerability</a></span>  </div>  
-  <span class="published">        <span>Friday, November 6, 2015 at 7:01 AM</span>  </span></li>
       </ul></div>    </div>
   
   
@@ -383,7 +391,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       
   
   <div class="pane-content">
-    <div class="view view-us-cert-alerts view-id-us_cert_alerts view-display-id-block_2 view-dom-id-a7edaba1f6399796c4b157b2ec7ffb42">
+    <div class="view view-us-cert-alerts view-id-us_cert_alerts view-display-id-block_2 view-dom-id-67de6b3a14dbeec4bab83b4d02ead075">
             <div class="view-header">
       <div><img alt="Technical Alerts" src="/sites/default/files/images/tech-alert-icon.png" /></div>
 <h3>Alerts</h3>
@@ -393,14 +401,14 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   
       <div class="view-content">
       <div class="item-list">    <ul class="alerts-summary">          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="date">        <span>Dec 03</span>  </span>  
+  <span class="title">        <span><a href="/ncas/alerts/TA15-337A">Dorkbot</a></span>  </span></li>
+          <li class="views-row views-row-2 views-row-even">  
   <span class="date">        <span>Nov 10</span>  </span>  
   <span class="title">        <span><a href="/ncas/alerts/TA15-314A">Compromised Web Servers and Web Shells - Threat Awareness and Guidance </a></span>  </span></li>
-          <li class="views-row views-row-2 views-row-even">  
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <span class="date">        <span>Oct 13</span>  </span>  
   <span class="title">        <span><a href="/ncas/alerts/TA15-286A">Dridex P2P Malware</a></span>  </span></li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <span class="date">        <span>Aug 28</span>  </span>  
-  <span class="title">        <span><a href="/ncas/alerts/TA15-240A">Controlling Outbound DNS Access</a></span>  </span></li>
       </ul></div>    </div>
   
   
@@ -425,7 +433,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       
   
   <div class="pane-content">
-    <div class="view view-bulletins view-id-bulletins view-display-id-block_1 view-dom-id-f00fefba0f290ebd8a19c0bb8b08564d">
+    <div class="view view-bulletins view-id-bulletins view-display-id-block_1 view-dom-id-787e41c91e3a99df4b76d1ef7fd98e6a">
             <div class="view-header">
       <div><img alt="Bulletins" src="/sites/default/files/images/bulletin-icon.png" /></div>
 <h3>Bulletins</h3>
@@ -435,14 +443,14 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   
       <div class="view-content">
       <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="date">        Dec 07  </span>  
+  <span class="title">        <a href="/ncas/bulletins/SB15-341">Vulnerability Summary for the Week of November 30, 2015</a>  </span></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="date">        Nov 30  </span>  
+  <span class="title">        <a href="/ncas/bulletins/SB15-334-0">Vulnerability Summary for the Week of November 23, 2015</a>  </span></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
   <span class="date">        Nov 23  </span>  
   <span class="title">        <a href="/ncas/bulletins/SB15-327">Vulnerability Summary for the Week of November 16, 2015</a>  </span></li>
-          <li class="views-row views-row-2 views-row-even">  
-  <span class="date">        Nov 16  </span>  
-  <span class="title">        <a href="/ncas/bulletins/SB15-320">Vulnerability Summary for the Week of November 9, 2015</a>  </span></li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <span class="date">        Nov 09  </span>  
-  <span class="title">        <a href="/ncas/bulletins/SB15-313">Vulnerability Summary for the Week of November 2, 2015</a>  </span></li>
       </ul></div>    </div>
   
   
@@ -466,7 +474,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       
   
   <div class="pane-content">
-    <div class="view view-us-cert-tips-page view-id-us_cert_tips_page view-display-id-block_1 view-dom-id-80b63397ab2aee7ce8b0056abff50654">
+    <div class="view view-us-cert-tips-page view-id-us_cert_tips_page view-display-id-block_1 view-dom-id-f2f200397d8f7b69cbc45b70c505feda">
             <div class="view-header">
       <div><img alt="Tips" src="/sites/default/files/images/tip-icon.png" /></div>
 <h3>Tips</h3>
@@ -507,7 +515,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       
   
   <div class="pane-content">
-    <div class="view view-us-cert-security-publications-page view-id-us_cert_security_publications_page view-display-id-block_1 view-dom-id-18c3bd7f26af8101e720f65ddc143002">
+    <div class="view view-us-cert-security-publications-page view-id-us_cert_security_publications_page view-display-id-block_1 view-dom-id-dcd65ce6ad9c4c14d479074832522081">
             <div class="view-header">
       <img alt="Security Publications" src="/sites/default/files/images/techdoc-icon.png" /><h3>Technical Documents</h3>
 <p>In-depth articles that provide advice and summarize a variety of internet security topics.</p>    </div>

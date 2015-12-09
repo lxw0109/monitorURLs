@@ -417,7 +417,7 @@ h1 {
 					so3.addVariable("error_loading_file", "暂无统计数据");  
 					so3.addParam('wmode', 'Transparent'); 
 					so3.addVariable("settings_file", encodeURIComponent("/amcharts/amcolumn_settings.xml"));
-					so3.addVariable("data_file", encodeURIComponent("/amcharts/data1/personal_data1.xml"));
+					so3.addVariable("data_file", encodeURIComponent("/amcharts/data1/personal_data.xml"));
 					so3.addVariable("preloader_color", "#999999");
 					so3.write("personal");
 				});
@@ -561,6 +561,34 @@ h1 {
 							
 							
 								<li>
+									<a href="/webinfo/show/3751"	title="谷歌被曝秘密收集学生信息"> 
+										<img src="/images/tab_jt.jpg" /> 
+										<span>
+											
+												谷歌被曝秘密收集学生信息
+											
+										</span> 
+										<span class="t1_sp_right">
+											2015-12-07
+										</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/webinfo/show/3750"	title="ibupnp漏洞归来影响大量智能系统设备"> 
+										<img src="/images/tab_jt.jpg" /> 
+										<span>
+											
+												ibupnp漏洞归来影响大量智能系统设备
+											
+										</span> 
+										<span class="t1_sp_right">
+											2015-12-07
+										</span>
+									</a>
+								</li>
+							
+								<li>
 									<a href="/webinfo/show/3748"	title="Chrome第三方扩展程序被曝光可记录隐私信息"> 
 										<img src="/images/tab_jt.jpg" /> 
 										<span>
@@ -616,34 +644,6 @@ h1 {
 									</a>
 								</li>
 							
-								<li>
-									<a href="/webinfo/show/3740"	title="iBackDoor：疑似后门，影响iOS应用的高风险代码"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												iBackDoor：疑似后门，影响iOS应用的高风险代码
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-11-17
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3739"	title="三星Galaxy手机通话可被黑客远程监听和记录"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												三星Galaxy手机通话可被黑客远程监听和记录
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-11-17
-										</span>
-									</a>
-								</li>
-							
 						</ul>
 					</div>
 				</div>
@@ -664,62 +664,62 @@ h1 {
 						
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-07746" title="Free WMA MP3 Converter缓冲区溢出漏洞"> 
+									<a href="/flaw/show/CNVD-2015-07039" title="广州市盛祺计算机电子政务系统存在SQL注入漏洞"> 
 										<img src="images/t_1.jpg" />
 										<font color="#333333;"> 
 											
-												Free WMA MP3 Convert...
+												广州市盛祺计算机电子...
 											
 										</font>
-										<span class="t_gz_sz_span">[1326]</span>
+										<span class="t_gz_sz_span">[1087]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-07782" title="TestLink HTML注入漏洞"> 
+									<a href="/flaw/show/CNVD-2015-07072" title="育软电子政务平台SQL注入漏洞"> 
 										<img src="images/t_2.jpg" />
 										<font color="#333333;"> 
 											
-												TestLink HTML注入漏洞...
+												育软电子政务平台SQL注...
 											
 										</font>
-										<span class="t_gz_sz_span">[1257]</span>
+										<span class="t_gz_sz_span">[1001]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-07754" title="多款Huawei路由器信息泄露漏洞"> 
+									<a href="/flaw/show/CNVD-2015-07870" title="Role Scoper WordPress插件反射型跨站脚本漏洞"> 
 										<img src="images/t_3.jpg" />
 										<font color="#333333;"> 
 											
-												多款Huawei路由器信息...
+												Role Scoper WordPres...
 											
 										</font>
-										<span class="t_gz_sz_span">[1081]</span>
+										<span class="t_gz_sz_span">[954]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-07750" title="Huawei eSpace统一网关拒绝服务漏洞"> 
+									<a href="/flaw/show/CNVD-2015-07841" title="金山卫士权限提升漏洞"> 
 										<img src="images/t_4.jpg" />
 										<font color="#333333;"> 
 											
-												Huawei eSpace统一网关...
+												金山卫士权限提升漏洞
 											
 										</font>
-										<span class="t_gz_sz_span">[1069]</span>
+										<span class="t_gz_sz_span">[939]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-07832" title="多款Arris设备信任管理漏洞（CNVD-2015-07832）"> 
+									<a href="/flaw/show/CNVD-2015-07845" title="Cisco ASR 5000 Series Telnetd拒绝服务漏洞"> 
 										<img src="images/t_5.jpg" />
 										<font color="#333333;"> 
 											
-												多款Arris设备信任管理...
+												Cisco ASR 5000 Serie...
 											
 										</font>
-										<span class="t_gz_sz_span">[1069]</span>
+										<span class="t_gz_sz_span">[916]</span>
 									</a>
 								</li>
 							
@@ -753,80 +753,80 @@ h1 {
 						
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-07838" title="迅雷极速版权限提升漏洞">
+								<a href="/flaw/show/CNVD-2015-07962" title="Google Blink DOM同源策略绕过漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											迅雷极速版权限提升漏洞
+											Google Blink DOM同源策略绕过漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-12-01</span>
-									<span class="t2_sp_right">178</span>
-								</a>
-							</li>
-						
-							<li>
-								<a href="/flaw/show/CNVD-2015-07844" title="PPTV聚力网络电视权限提升漏洞">
-									<img src="images/tab_jt.jpg"/>
-									<span>
-										
-											PPTV聚力网络电视权限提升漏洞
-										
-									</span>
-									<span class="t2_sp_sz">2015-12-01</span>
-									<span class="t2_sp_right">10</span>
-								</a>
-							</li>
-						
-							<li>
-								<a href="/flaw/show/CNVD-2015-07839" title="猎豹免费WiFi本地权限提升漏洞">
-									<img src="images/tab_jt.jpg"/>
-									<span>
-										
-											猎豹免费WiFi本地权限提升漏洞
-										
-									</span>
-									<span class="t2_sp_sz">2015-12-01</span>
-									<span class="t2_sp_right">70</span>
-								</a>
-							</li>
-						
-							<li>
-								<a href="/flaw/show/CNVD-2015-07845" title="Cisco ASR 5000 Series Telnetd拒绝服务漏洞">
-									<img src="images/tab_jt.jpg"/>
-									<span>
-										
-											Cisco ASR 5000 Series Telnetd拒绝服务漏洞
-										
-									</span>
-									<span class="t2_sp_sz">2015-11-30</span>
-									<span class="t2_sp_right">142</span>
-								</a>
-							</li>
-						
-							<li>
-								<a href="/flaw/show/CNVD-2015-07846" title="HP Loadrunner Virtual Table Server远程代码执行漏洞">
-									<img src="images/tab_jt.jpg"/>
-									<span>
-										
-											HP Loadrunner Virtual Table Server远程代码执行漏洞
-										
-									</span>
-									<span class="t2_sp_sz">2015-11-30</span>
+									<span class="t2_sp_sz">2015-12-09</span>
 									<span class="t2_sp_right">155</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-07847" title="EMC Isilon OneFS操作系统权限提升漏洞">
+								<a href="/flaw/show/CNVD-2015-07843" title="2345王牌输入法本地权限提升漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											EMC Isilon OneFS操作系统权限提升漏洞
+											2345王牌输入法本地权限提升漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-11-30</span>
-									<span class="t2_sp_right">55</span>
+									<span class="t2_sp_sz">2015-12-09</span>
+									<span class="t2_sp_right">21</span>
+								</a>
+							</li>
+						
+							<li>
+								<a href="/flaw/show/CNVD-2015-07955" title="Google Chrome内存错误引用漏洞（CNVD-2015-07955）">
+									<img src="images/tab_jt.jpg"/>
+									<span>
+										
+											Google Chrome内存错误引用漏洞（CNVD-2015-07955）
+										
+									</span>
+									<span class="t2_sp_sz">2015-12-08</span>
+									<span class="t2_sp_right">177</span>
+								</a>
+							</li>
+						
+							<li>
+								<a href="/flaw/show/CNVD-2015-07956" title="Google Chrome AppCache内存错误引用漏洞（CNVD-2015-07956）">
+									<img src="images/tab_jt.jpg"/>
+									<span>
+										
+											Google Chrome AppCache内存错误引用漏洞（CNVD-2015-07956）
+										
+									</span>
+									<span class="t2_sp_sz">2015-12-08</span>
+									<span class="t2_sp_right">69</span>
+								</a>
+							</li>
+						
+							<li>
+								<a href="/flaw/show/CNVD-2015-07957" title="Google Chrome AppCache内存错误引用漏洞">
+									<img src="images/tab_jt.jpg"/>
+									<span>
+										
+											Google Chrome AppCache内存错误引用漏洞
+										
+									</span>
+									<span class="t2_sp_sz">2015-12-08</span>
+									<span class="t2_sp_right">128</span>
+								</a>
+							</li>
+						
+							<li>
+								<a href="/flaw/show/CNVD-2015-07958" title="Google Chrome DOM同源策略绕过漏洞（CNVD-2015-07958）">
+									<img src="images/tab_jt.jpg"/>
+									<span>
+										
+											Google Chrome DOM同源策略绕过漏洞（CNVD-2015-07958）
+										
+									</span>
+									<span class="t2_sp_sz">2015-12-08</span>
+									<span class="t2_sp_right">22</span>
 								</a>
 							</li>
 						
@@ -837,86 +837,86 @@ h1 {
 					
 					
 						<li>
-							<a href="/patchInfo/show/67357" title="HP Loadrunner Virtual Table Server远程代码执行漏洞的补丁">
+							<a href="/patchInfo/show/67804" title="Google Chrome PDFium安全限制绕过漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										HP Loadrunner Virtual Table Server远程代码执行漏洞的补丁
+										Google Chrome PDFium安全限制绕过漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-08</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/67353" title="EMC Isilon OneFS操作系统权限提升漏洞的补丁">
+							<a href="/patchInfo/show/67798" title="Google Chrome Content Security Policy访问限制绕过漏洞（CNVD-2015-07973）的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										EMC Isilon OneFS操作系统权限提升漏洞的补丁
+										Google Chrome Content Security Policy访问限制绕过漏洞（CNVD-2015-07973）的...
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-08</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/67348" title="FFmpeg 'ff_ivi_init_planes'函数整数溢出漏洞的补丁">
+							<a href="/patchInfo/show/67797" title="Google Chrome Content Security Policy访问限制绕过漏洞（CNVD-2015-07972）的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										FFmpeg 'ff_ivi_init_planes'函数整数溢出漏洞的补丁
+										Google Chrome Content Security Policy访问限制绕过漏洞（CNVD-2015-07972）的...
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-08</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/67347" title="FFmpeg 'smka_decode_frame'函数拒绝服务漏洞的补丁">
+							<a href="/patchInfo/show/67796" title="Google Chrome HTML注入漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										FFmpeg 'smka_decode_frame'函数拒绝服务漏洞的补丁
+										Google Chrome HTML注入漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-08</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/67346" title="FFmpeg &lsquo;jpeg2000_read_main_headers'函数拒绝服务漏洞的补丁">
+							<a href="/patchInfo/show/67795" title="Google Chrome Android Crazy Linker安全绕过漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										FFmpeg &lsquo;jpeg2000_read_main_headers'函数拒绝服务漏洞的补丁
+										Google Chrome Android Crazy Linker安全绕过漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-08</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/67331" title="IBM C&uacute;ram Social Program Management SQL注入漏洞的补丁">
+							<a href="/patchInfo/show/67792" title="Google Chrome存在未明漏洞（CNVD-2015-07969）的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										IBM C&uacute;ram Social Program Management SQL注入漏洞的补丁
+										Google Chrome存在未明漏洞（CNVD-2015-07969）的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-08</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/67330" title="OcProducts OcPortal &lsquo;FIELD_NAME&rsquo;参数跨站脚本漏洞的补丁">
+							<a href="/patchInfo/show/67791" title="Google Chrome sfntly整数溢出漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										OcProducts OcPortal &lsquo;FIELD_NAME&rsquo;参数跨站脚本漏洞的补丁
+										Google Chrome sfntly整数溢出漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-08</span>
 							</a>
 						</li>
 					
@@ -964,7 +964,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-11-18</span>
-								<span class="t3_sp_right">3354</span>
+								<span class="t3_sp_right">4891</span>
 							</a>
 						</li>
 					
@@ -977,7 +977,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-11-18</span>
-								<span class="t3_sp_right">3018</span>
+								<span class="t3_sp_right">4428</span>
 							</a>
 						</li>
 					
@@ -990,7 +990,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-11-13</span>
-								<span class="t3_sp_right">166</span>
+								<span class="t3_sp_right">211</span>
 							</a>
 						</li>
 					
@@ -1003,7 +1003,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-10-30</span>
-								<span class="t3_sp_right">7795</span>
+								<span class="t3_sp_right">9154</span>
 							</a>
 						</li>
 					
@@ -1016,7 +1016,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-10-26</span>
-								<span class="t3_sp_right">8683</span>
+								<span class="t3_sp_right">10027</span>
 							</a>
 						</li>
 					
@@ -1029,7 +1029,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-10-26</span>
-								<span class="t3_sp_right">227</span>
+								<span class="t3_sp_right">259</span>
 							</a>
 						</li>
 					
@@ -1038,6 +1038,19 @@ h1 {
 			<div class="t3_tab_b" id="t3_tab_a2" style="display: none; clear:both;">
 				<ul style=" margin-top:8px; margin-left:20px;">
 					
+					
+						<li>
+							<a href="/webinfo/show/3749" title="2015年CNVD漏洞周报第49期（2015年11月30日-2015年12月06日）">
+								<img src="images/tab_jt.jpg"/>
+								<span>
+									[研究报告/周报]
+									
+										2015年CNVD漏洞周报第49期（2015年11月30日-2015年12月06日...
+									
+								</span>
+								<span class="t3_sp_sz">2015-12-07</span>
+							</a>
+						</li>
 					
 						<li>
 							<a href="/webinfo/show/3746" title="2015年CNVD漏洞周报第48期（2015年11月23日-2015年11月29日）">
@@ -1117,19 +1130,6 @@ h1 {
 							</a>
 						</li>
 					
-						<li>
-							<a href="/webinfo/show/3718" title="2015年CNVD漏洞周报第42期（2015年10月12日-2015年10月18日）">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									[研究报告/周报]
-									
-										2015年CNVD漏洞周报第42期（2015年10月12日-2015年10月18日...
-									
-								</span>
-								<span class="t3_sp_sz">2015-10-20</span>
-							</a>
-						</li>
-					
 				</ul>
 			</div>
 		</div>
@@ -1138,7 +1138,7 @@ h1 {
 	<div class="s_w">
 		<div class="t_align_right"><img src="images/zldjb.jpg"/></div>
 		<div class="clf" style="text-align:center;">
-			<span style="color:#999999;">2015-11-23--2015-11-29</span>
+			<span style="color:#999999;">2015-11-30--2015-12-06</span>
 			<div id="weekSerietyLevelPie"></div>
 			<!-- 周漏洞威胁级别趋势图 -->
 		</div>

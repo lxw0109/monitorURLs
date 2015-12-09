@@ -319,7 +319,7 @@ def main_stale(dbOrNot):
             break
 
     for thread in threads:
-        thread.stop()
+        #thread.stop() #do not exist this method
         thread.join()
 
     urlCount = len(newUrlObjDic)

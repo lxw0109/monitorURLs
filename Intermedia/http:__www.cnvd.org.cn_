@@ -417,7 +417,7 @@ h1 {
 					so3.addVariable("error_loading_file", "暂无统计数据");  
 					so3.addParam('wmode', 'Transparent'); 
 					so3.addVariable("settings_file", encodeURIComponent("/amcharts/amcolumn_settings.xml"));
-					so3.addVariable("data_file", encodeURIComponent("/amcharts/data1/personal_data1.xml"));
+					so3.addVariable("data_file", encodeURIComponent("/amcharts/data1/personal_data.xml"));
 					so3.addVariable("preloader_color", "#999999");
 					so3.write("personal");
 				});
@@ -561,6 +561,62 @@ h1 {
 							
 							
 								<li>
+									<a href="/webinfo/show/3751"	title="谷歌被曝秘密收集学生信息"> 
+										<img src="/images/tab_jt.jpg" /> 
+										<span>
+											
+												谷歌被曝秘密收集学生信息
+											
+										</span> 
+										<span class="t1_sp_right">
+											2015-12-07
+										</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/webinfo/show/3750"	title="ibupnp漏洞归来影响大量智能系统设备"> 
+										<img src="/images/tab_jt.jpg" /> 
+										<span>
+											
+												ibupnp漏洞归来影响大量智能系统设备
+											
+										</span> 
+										<span class="t1_sp_right">
+											2015-12-07
+										</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/webinfo/show/3748"	title="Chrome第三方扩展程序被曝光可记录隐私信息"> 
+										<img src="/images/tab_jt.jpg" /> 
+										<span>
+											
+												Chrome第三方扩展程序被曝光可记录隐私信息
+											
+										</span> 
+										<span class="t1_sp_right">
+											2015-11-30
+										</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/webinfo/show/3747"	title="谷歌可远程更改安卓设备密码，影响74%设备"> 
+										<img src="/images/tab_jt.jpg" /> 
+										<span>
+											
+												谷歌可远程更改安卓设备密码，影响74%设备
+											
+										</span> 
+										<span class="t1_sp_right">
+											2015-11-30
+										</span>
+									</a>
+								</li>
+							
+								<li>
 									<a href="/webinfo/show/3745"	title="VMware更新、修复Apache Flex BlazeDS中的漏洞"> 
 										<img src="/images/tab_jt.jpg" /> 
 										<span>
@@ -588,62 +644,6 @@ h1 {
 									</a>
 								</li>
 							
-								<li>
-									<a href="/webinfo/show/3740"	title="iBackDoor：疑似后门，影响iOS应用的高风险代码"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												iBackDoor：疑似后门，影响iOS应用的高风险代码
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-11-17
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3739"	title="三星Galaxy手机通话可被黑客远程监听和记录"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												三星Galaxy手机通话可被黑客远程监听和记录
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-11-17
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3735"	title="谷歌自查安卓系统漏洞结果报告"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												谷歌自查安卓系统漏洞结果报告
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-11-10
-										</span>
-									</a>
-								</li>
-							
-								<li>
-									<a href="/webinfo/show/3734"	title="vBulletin 5曝远程命令执行漏洞，泄露大量数据"> 
-										<img src="/images/tab_jt.jpg" /> 
-										<span>
-											
-												vBulletin 5曝远程命令执行漏洞，泄露大量数据
-											
-										</span> 
-										<span class="t1_sp_right">
-											2015-11-10
-										</span>
-									</a>
-								</li>
-							
 						</ul>
 					</div>
 				</div>
@@ -664,62 +664,62 @@ h1 {
 						
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-07746" title="Free WMA MP3 Converter缓冲区溢出漏洞"> 
+									<a href="/flaw/show/CNVD-2015-07072" title="育软电子政务平台SQL注入漏洞"> 
 										<img src="images/t_1.jpg" />
 										<font color="#333333;"> 
 											
-												Free WMA MP3 Convert...
+												育软电子政务平台SQL注...
 											
 										</font>
-										<span class="t_gz_sz_span">[1279]</span>
+										<span class="t_gz_sz_span">[989]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-07782" title="TestLink HTML注入漏洞"> 
+									<a href="/flaw/show/CNVD-2015-07039" title="广州市盛祺计算机电子政务系统存在SQL注入漏洞"> 
 										<img src="images/t_2.jpg" />
 										<font color="#333333;"> 
 											
-												TestLink HTML注入漏洞...
+												广州市盛祺计算机电子...
 											
 										</font>
-										<span class="t_gz_sz_span">[1205]</span>
+										<span class="t_gz_sz_span">[949]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-07754" title="多款Huawei路由器信息泄露漏洞"> 
+									<a href="/flaw/show/CNVD-2015-07870" title="Role Scoper WordPress插件反射型跨站脚本漏洞"> 
 										<img src="images/t_3.jpg" />
 										<font color="#333333;"> 
 											
-												多款Huawei路由器信息...
+												Role Scoper WordPres...
 											
 										</font>
-										<span class="t_gz_sz_span">[1028]</span>
+										<span class="t_gz_sz_span">[890]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-07750" title="Huawei eSpace统一网关拒绝服务漏洞"> 
+									<a href="/flaw/show/CNVD-2015-07841" title="金山卫士权限提升漏洞"> 
 										<img src="images/t_4.jpg" />
 										<font color="#333333;"> 
 											
-												Huawei eSpace统一网关...
+												金山卫士权限提升漏洞
 											
 										</font>
-										<span class="t_gz_sz_span">[1021]</span>
+										<span class="t_gz_sz_span">[881]</span>
 									</a>
 								</li>
 							
 								<li>
-									<a href="/flaw/show/CNVD-2015-07748" title="Huawei路由器VPN路由转发跳跃漏洞"> 
+									<a href="/flaw/show/CNVD-2015-07845" title="Cisco ASR 5000 Series Telnetd拒绝服务漏洞"> 
 										<img src="images/t_5.jpg" />
 										<font color="#333333;"> 
 											
-												Huawei路由器VPN路由转...
+												Cisco ASR 5000 Serie...
 											
 										</font>
-										<span class="t_gz_sz_span">[1019]</span>
+										<span class="t_gz_sz_span">[856]</span>
 									</a>
 								</li>
 							
@@ -753,80 +753,80 @@ h1 {
 						
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-07072" title="育软电子政务平台SQL注入漏洞">
+								<a href="/flaw/show/CNVD-2015-07951" title="OpenSSL竞争条件拒绝服务漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											育软电子政务平台SQL注入漏洞
+											OpenSSL竞争条件拒绝服务漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-11-30</span>
-									<span class="t2_sp_right">180</span>
+									<span class="t2_sp_sz">2015-12-07</span>
+									<span class="t2_sp_right">245</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-07832" title="多款Arris设备信任管理漏洞（CNVD-2015-07832）">
+								<a href="/flaw/show/CNVD-2015-07950" title="OpenSSL X509_ATTRIBUTE结构信息泄露漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											多款Arris设备信任管理漏洞（CNVD-2015-07832）
+											OpenSSL X509_ATTRIBUTE结构信息泄露漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-11-27</span>
-									<span class="t2_sp_right">1015</span>
+									<span class="t2_sp_sz">2015-12-07</span>
+									<span class="t2_sp_right">30</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-07829" title="Cisco Networking Services for IOS信息泄露漏洞">
+								<a href="/flaw/show/CNVD-2015-07949" title="OpenSSL ASN.1签名空指针引用漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											Cisco Networking Services for IOS信息泄露漏洞
+											OpenSSL ASN.1签名空指针引用漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-11-27</span>
-									<span class="t2_sp_right">729</span>
+									<span class="t2_sp_sz">2015-12-07</span>
+									<span class="t2_sp_right">130</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-07828" title="Cisco TelePresence Video Communication Server跨站请求伪造漏洞">
+								<a href="/flaw/show/CNVD-2015-07948" title="OpenSSL BN_mod_exp()信息泄露漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											Cisco TelePresence Video Communication Server跨站请求伪造漏洞...
+											OpenSSL BN_mod_exp()信息泄露漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-11-27</span>
-									<span class="t2_sp_right">371</span>
+									<span class="t2_sp_sz">2015-12-07</span>
+									<span class="t2_sp_right">25</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-07833" title="多款Arris设备信任管理漏洞">
+								<a href="/flaw/show/CNVD-2015-07947" title="OpenSSL ServerKeyExchange消息处理远程拒绝服务漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											多款Arris设备信任管理漏洞
+											OpenSSL ServerKeyExchange消息处理远程拒绝服务漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-11-27</span>
-									<span class="t2_sp_right">88</span>
+									<span class="t2_sp_sz">2015-12-07</span>
+									<span class="t2_sp_right">125</span>
 								</a>
 							</li>
 						
 							<li>
-								<a href="/flaw/show/CNVD-2015-07831" title="多款Arris设备跨站脚本漏洞">
+								<a href="/flaw/show/CNVD-2015-07946" title="SearchBlox File Exfiltration拒绝服务漏洞">
 									<img src="images/tab_jt.jpg"/>
 									<span>
 										
-											多款Arris设备跨站脚本漏洞
+											SearchBlox File Exfiltration拒绝服务漏洞
 										
 									</span>
-									<span class="t2_sp_sz">2015-11-27</span>
-									<span class="t2_sp_right">368</span>
+									<span class="t2_sp_sz">2015-12-07</span>
+									<span class="t2_sp_right">20</span>
 								</a>
 							</li>
 						
@@ -837,86 +837,86 @@ h1 {
 					
 					
 						<li>
-							<a href="/patchInfo/show/67324" title="Cisco Adaptive Security Appliance Software拒绝服务漏洞（CNVD-2015-07836）的补丁">
+							<a href="/patchInfo/show/67708" title="Cisco Nexus 5000 Series NX-OS USB驱动输入验证本地拒绝服务漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										Cisco Adaptive Security Appliance Software拒绝服务漏洞（CNVD-2015-07836）的...
+										Cisco Nexus 5000 Series NX-OS USB驱动输入验证本地拒绝服务漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-07</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/67323" title="CloudBees Jenkins任意代码执行漏洞的补丁">
+							<a href="/patchInfo/show/67707" title="Cisco Unified SIP Phone 3905 Series Phones远程拒绝服务漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										CloudBees Jenkins任意代码执行漏洞的补丁
+										Cisco Unified SIP Phone 3905 Series Phones远程拒绝服务漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-07</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/67322" title="OpenStack Swift-on-File任意代码执行漏洞的补丁">
+							<a href="/patchInfo/show/67706" title="EMC NetWorker RPC验证消息处理远程拒绝服务漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										OpenStack Swift-on-File任意代码执行漏洞的补丁
+										EMC NetWorker RPC验证消息处理远程拒绝服务漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-07</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/67321" title="多款Arris设备信任管理漏洞的补丁">
+							<a href="/patchInfo/show/67705" title="cups-filters 'omit_shellescapes' OS注入漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										多款Arris设备信任管理漏洞的补丁
+										cups-filters 'omit_shellescapes' OS注入漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-07</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/67320" title="多款Arris设备跨站脚本漏洞的补丁">
+							<a href="/patchInfo/show/67704" title="Honeywell International Midas和Midas Black验证绕过漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										多款Arris设备跨站脚本漏洞的补丁
+										Honeywell International Midas和Midas Black验证绕过漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-07</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/67318" title="多款Arris设备跨站请求伪造漏洞的补丁">
+							<a href="/patchInfo/show/67703" title="Honeywell International Midas和Midas Black密码验证绕过漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										多款Arris设备跨站请求伪造漏洞的补丁
+										Honeywell International Midas和Midas Black密码验证绕过漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-07</span>
 							</a>
 						</li>
 					
 						<li>
-							<a href="/patchInfo/show/67317" title="多款Arris设备信任管理漏洞（CNVD-2015-07832）的补丁">
+							<a href="/patchInfo/show/67702" title="SearchBlox File Exfiltration拒绝服务漏洞的补丁">
 								<img src="images/tab_jt.jpg"/>
 								<span>
 									
-										多款Arris设备信任管理漏洞（CNVD-2015-07832）的补丁
+										SearchBlox File Exfiltration拒绝服务漏洞的补丁
 									
 								</span>
-								<span class="t2_sp_sz">2015-11-27</span>
+								<span class="t2_sp_sz">2015-12-07</span>
 							</a>
 						</li>
 					
@@ -964,7 +964,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-11-18</span>
-								<span class="t3_sp_right">3156</span>
+								<span class="t3_sp_right">4747</span>
 							</a>
 						</li>
 					
@@ -977,7 +977,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-11-18</span>
-								<span class="t3_sp_right">2847</span>
+								<span class="t3_sp_right">4299</span>
 							</a>
 						</li>
 					
@@ -990,7 +990,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-11-13</span>
-								<span class="t3_sp_right">160</span>
+								<span class="t3_sp_right">208</span>
 							</a>
 						</li>
 					
@@ -1003,7 +1003,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-10-30</span>
-								<span class="t3_sp_right">7630</span>
+								<span class="t3_sp_right">9033</span>
 							</a>
 						</li>
 					
@@ -1016,7 +1016,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-10-26</span>
-								<span class="t3_sp_right">8512</span>
+								<span class="t3_sp_right">9908</span>
 							</a>
 						</li>
 					
@@ -1029,7 +1029,7 @@ h1 {
 									
 								</span>
 								<span class="t3_sp_sz">2015-10-26</span>
-								<span class="t3_sp_right">224</span>
+								<span class="t3_sp_right">255</span>
 							</a>
 						</li>
 					
@@ -1038,6 +1038,32 @@ h1 {
 			<div class="t3_tab_b" id="t3_tab_a2" style="display: none; clear:both;">
 				<ul style=" margin-top:8px; margin-left:20px;">
 					
+					
+						<li>
+							<a href="/webinfo/show/3749" title="2015年CNVD漏洞周报第49期（2015年11月30日-2015年12月06日）">
+								<img src="images/tab_jt.jpg"/>
+								<span>
+									[研究报告/周报]
+									
+										2015年CNVD漏洞周报第49期（2015年11月30日-2015年12月06日...
+									
+								</span>
+								<span class="t3_sp_sz">2015-12-07</span>
+							</a>
+						</li>
+					
+						<li>
+							<a href="/webinfo/show/3746" title="2015年CNVD漏洞周报第48期（2015年11月23日-2015年11月29日）">
+								<img src="images/tab_jt.jpg"/>
+								<span>
+									[研究报告/周报]
+									
+										2015年CNVD漏洞周报第48期（2015年11月23日-2015年11月29日...
+									
+								</span>
+								<span class="t3_sp_sz">2015-11-30</span>
+							</a>
+						</li>
 					
 						<li>
 							<a href="/webinfo/show/3743" title="2015年CNVD漏洞周报第47期（2015年11月16日-2015年11月22日）">
@@ -1104,32 +1130,6 @@ h1 {
 							</a>
 						</li>
 					
-						<li>
-							<a href="/webinfo/show/3718" title="2015年CNVD漏洞周报第42期（2015年10月12日-2015年10月18日）">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									[研究报告/周报]
-									
-										2015年CNVD漏洞周报第42期（2015年10月12日-2015年10月18日...
-									
-								</span>
-								<span class="t3_sp_sz">2015-10-20</span>
-							</a>
-						</li>
-					
-						<li>
-							<a href="/webinfo/show/3714" title="2015年CNVD漏洞周报第40、41期（2015年09月28日-2015年10月11日）">
-								<img src="images/tab_jt.jpg"/>
-								<span>
-									[研究报告/周报]
-									
-										2015年CNVD漏洞周报第40、41期（2015年09月28日-2015年10月...
-									
-								</span>
-								<span class="t3_sp_sz">2015-10-13</span>
-							</a>
-						</li>
-					
 				</ul>
 			</div>
 		</div>
@@ -1138,7 +1138,7 @@ h1 {
 	<div class="s_w">
 		<div class="t_align_right"><img src="images/zldjb.jpg"/></div>
 		<div class="clf" style="text-align:center;">
-			<span style="color:#999999;">2015-11-23--2015-11-29</span>
+			<span style="color:#999999;">2015-11-30--2015-12-06</span>
 			<div id="weekSerietyLevelPie"></div>
 			<!-- 周漏洞威胁级别趋势图 -->
 		</div>

@@ -17,28 +17,28 @@
 
         <!-- Icons -->
 
-        <link rel="apple-touch-icon" sizes="57x57" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-180x180.png">
-        <link rel="icon" type="image/png" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/android-chrome-192x192.png" sizes="192x192">
-        <link rel="icon" type="image/png" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/favicon-96x96.png" sizes="96x96">
-        <link rel="icon" type="image/png" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/favicon-16x16.png" sizes="16x16">
-        <link rel="manifest" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/manifest.json">
-        <link rel="shortcut icon" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/images/icons/favicon.ico">
+        <link rel="apple-touch-icon" sizes="57x57" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/manifest.json">
+        <link rel="shortcut icon" href="http://nominum.com/wp-content/themes/nominum/assets/images/icons/favicon.ico">
         <meta name="msapplication-TileColor" content="#00b3e3">
         <meta name="msapplication-TileImage" content="http://nominum.com/wp-content/themes/nominum/assets/images/icons/mstile-144x144.png">
         <meta name="msapplication-config" content="http://nominum.com/wp-content/themes/nominum/assets/images/icons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
 
         
-<!-- This site is optimized with the Yoast SEO plugin v3.0.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<!-- This site is optimized with the Yoast SEO plugin v3.0.6 - https://yoast.com/wordpress/plugins/seo/ -->
 <title>Nominum | News and Events</title>
 <meta name="description" content="Find out about Nominum News, Press Releases, Press Coverage and Events."/>
 <meta name="robots" content="noodp,noydir"/>
@@ -58,9 +58,9 @@
 <!-- / Yoast SEO plugin. -->
 
 
-        <!-- inject:css --><link rel="stylesheet" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/css/main.min.css"><!-- endinject -->
-        <!--[if lt IE 9]><script src="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/js/ie-head.min.js""></script><![endif]-->
-        <!--[if lte IE 9]><link rel="stylesheet" href="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/css/ie.min.css"><![endif]-->
+        <!-- inject:css --><link rel="stylesheet" href="http://nominum.com/wp-content/themes/nominum/assets/css/main.min.css"><!-- endinject -->
+        <!--[if lt IE 9]><script src="http://nominum.com/wp-content/themes/nominum/assets/js/ie-head.min.js""></script><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="http://nominum.com/wp-content/themes/nominum/assets/css/ie.min.css"><![endif]-->
         <style>
             .platform-tool .is-shaded .slice-overlay {
                 filter: url(#dropshadow);
@@ -375,7 +375,7 @@
 						<p class="tagline"><p>Insights and commentary from our industry experts</p>
 </p>
 					</div>
-	<div class="photo-wrapper call-out-block__photo-wrapper lazy-load" data-bg-src="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/uploads/2015/05/news-events-header.jpg"></div>
+	<div class="photo-wrapper call-out-block__photo-wrapper lazy-load" data-bg-src="http://nominum.com/wp-content/uploads/2015/05/news-events-header.jpg"></div>
 		</header>
 <section class="news-events-content filter-blocks is-gray">
 	<div class="block-wrapper">
@@ -531,8 +531,8 @@
 
     <!-- SCRIPTS -->
 
-    <!-- inject:js --><script src="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/js/core-libs.min.js"></script><!-- endinject -->
-	<!--[if lt IE 9]><script src="http://2svy9q1mhk681zxjw822narp.wpengine.netdna-cdn.com/wp-content/themes/nominum/assets/js/ie-body.min.js""></script></script><![endif]-->
+    <!-- inject:js --><script src="http://nominum.com/wp-content/themes/nominum/assets/js/core-libs.min.js"></script><!-- endinject -->
+	<!--[if lt IE 9]><script src="http://nominum.com/wp-content/themes/nominum/assets/js/ie-body.min.js""></script></script><![endif]-->
 
 	<!-- TRACKERS -->
 	<script>

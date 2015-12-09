@@ -1,42 +1,68 @@
-Sun Nov 29 00:00:01 CST 2015 --- Clear Log OK
+Sun Dec  6 00:00:01 CST 2015 --- Clear Log OK
 
-lxw_IOError: 	2015-11-29-09:10:02
+lxw_IOError: 	2015-12-06-09:10:01
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-Information: URL recovery. lxw_KeyError: http://www.cira.ca/news/news-releases/	2015-11-29-09:10:07
-
-lxw_IOError: 	2015-11-29-09:10:08
-[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-lxw_IOError: 	2015-11-29-09:10:08
+lxw_IOError: 	2015-12-06-09:10:05
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-EMAIL SENDING: 	2015-11-29-09:10:13
+lxw_IOError: 	2015-12-06-09:10:07
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+EMAIL SENDING: 	2015-12-06-09:10:36
 
-EMAIL SENDING SUCCESS: 	2015-11-29-09:10:16
+EMAIL SENDING SUCCESS: 	2015-12-06-09:10:50
 
-EMAIL SENDING: 	2015-11-29-09:10:16
-
-EMAIL SENDING SUCCESS: 	2015-11-29-09:10:16
-
-Monitor Finished.   Monitor Time: 2015-11-29-09:10:16.   Time Cost: 0'14"
+Monitor Finished.   Monitor Time: 2015-12-06-09:10:50.   Time Cost: 0'49"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_IOError: 	2015-11-30-09:10:02
+lxw_IOError: 	2015-12-07-09:10:01
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-11-30-09:10:05
+lxw_IOError: 	2015-12-07-09:10:05
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-11-30-09:10:08
+lxw_IOError: 	2015-12-07-09:10:09
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-Monitor Finished.   Monitor Time: 2015-11-30-09:10:20.   Time Cost: 0'18"
+Information: URL recovery. lxw_KeyError: http://www.twnic.tw/index4.php	2015-12-07-09:10:17
+
+EMAIL SENDING: 	2015-12-07-09:10:17
+
+EMAIL SENDING SUCCESS: 	2015-12-07-09:10:18
+
+Monitor Finished.   Monitor Time: 2015-12-07-09:10:18.   Time Cost: 0'16"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_IOError: 	2015-12-01-09:10:01
+lxw_IOError: 	2015-12-08-09:10:02
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-12-01-09:10:07
-[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-lxw_IOError: 	2015-12-01-09:10:09
+lxw_IOError: 	2015-12-08-09:10:05
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-Monitor Finished.   Monitor Time: 2015-12-01-09:10:13.   Time Cost: 0'11"
+lxw_IOError: 	2015-12-08-09:10:09
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+EMAIL SENDING: 	2015-12-08-09:10:17
+
+EMAIL SENDING SUCCESS: 	2015-12-08-09:10:18
+
+Monitor Finished.   Monitor Time: 2015-12-08-09:10:18.   Time Cost: 0'16"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Information: URL recovery. lxw_KeyError: http://www.isc.org.cn/	2015-12-09-09:10:01
+
+lxw_IOError: 	2015-12-09-09:10:01
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOError: 	2015-12-09-09:10:05
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2015-12-09-09:10:07
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+lxw_Timed Out: http://www.nominet.org.uk/news/press-releases	2015-12-09-09:11:02
+
+EMAIL SENDING: 	2015-12-09-09:11:02
+
+EMAIL SENDING SUCCESS: 	2015-12-09-09:11:03
+
+EMAIL SENDING: 	2015-12-09-09:11:03
+
+EMAIL SENDING SUCCESS: 	2015-12-09-09:11:04
+
+Monitor Finished.   Monitor Time: 2015-12-09-09:11:04.   Time Cost: 1'2"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------

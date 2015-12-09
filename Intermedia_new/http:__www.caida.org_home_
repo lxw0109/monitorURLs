@@ -327,6 +327,9 @@ padding: 0px 8px 2px 12px;
 <a title="CAIDA Funding" href="/funding/">FUNDING</a>
 <ul>
 <li>
+<a title="Measuring Internet Interconnection Performance Metrics project summary" href="/funding/att-interconnection/">AT&amp;T&nbsp;Interconnection</a>
+</li>
+<li>
 <a title="Software Systems for Surveying Spoofing Susceptibility project summary and proposal" href="/funding/spoofer/">Spoofer</a>
 </li>
 <li>
@@ -439,54 +442,54 @@ The goal of this workshop series is to provide a forum for researchers, commerci
 <div class="rccontent">
 <table summary="CAIDA What's New main feed" class="feedtable">
 <tr>
+<td><a href="http://www.caida.org/funding/att-interconnection/" title="Pursuant to an FCC order 15-94, AT&amp;T engages CAIDA as an Independent Measurement Expert to perform various duties in connection with developing a methodology for the measurement of Internet interconnection performance metrics. Acting as an independent contractor, CAIDA will conduct measurements and assessments of performance characteristics of traffic exchanged at Internet Interconnection Points located within the United States.">AT&amp;T: Measuring Internet Interconnection Performance Metrics</a></td><td>Dec&nbsp;1</td>
+</tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/brief_history_future_internet_lisa/" title="This slideset was presented at: Large Installation System Administration (LISA) (November 2015)">A Brief History of a Future Internet: the Named Data Networking Architecture</a></td><td>Nov&nbsp;16</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/cartographic_capabilities_dhs/" title="This slideset was presented at: DHS Reverse Site Visit (CAIDA) (November 2015)">Cartographic Capabilities for Critical Cyberinfrastructure (&ldquo;C4&rdquo;): Internet topology and performance analytics for mapping critical network infrastructure</a></td><td>Nov&nbsp;16</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/measuring_monitoring_bgp_ietf/" title="This slideset was presented at: Internet Engineering Task Force (IETF) (November 2015)">"Measuring and Monitoring BGP" slideset</a></td><td>Nov&nbsp;13</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/bgp_hackathon_imc/" title="This slideset was presented at: ACM Internet Measurement Conference (IMC) (October 2015)">"BGP Hackathon" slideset</a></td><td>Nov&nbsp;13</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/bgp_stream_imc/" title="This slideset was presented at: ACM Internet Measurement Conference (IMC) (October 2015)">"BGP Stream" slideset</a></td><td>Nov&nbsp;13</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/leveraging_internet_background_imc/" title="This slideset was presented at: ACM Internet Measurement Conference (IMC) (October 2015)">"Leveraging Internet Background Radiation for Opportunistic Network Analysis" slideset</a></td><td>Nov&nbsp;13</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/lost_in_space_raim/" title="This slideset was presented at: IRTF Workshop on Research and Applications of Internet Measurements (RAIM) (October 2015)">"Lost in Space: Improving Inference of IPv4 Address Space Utilization" slideset</a></td><td>Nov&nbsp;13</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/research/topology/as_core_network/" title="CAIDA's visualization of both IPv4 and IPv6 AS-level Internet topology based on Archipelago data for 2015 is available for viewing and download. This visualization represents a macroscopic snapshot of IPv4 and IPv6 Internet topology samples captured in 2015. For the IPv4 map, 118 Ark monitors in 42 countries on 6 continents probed paths toward 281 million /24 IPv4 networks. For the IPv6 map, the subset of 47 IPv6-connected Ark monitors located in 25 countries on 6 continents concurrently probed paths toward 4.9 million IPv6 addresses.
 
 In order to improve our AS Core visualization we have made two major refinements to how we create the graph, including how we rank individual ASes.  First, we now rank ASes based on their transit degree rather then their outdegree.  Second, we now infer links across Internet eXchange (IX) point address space, rather than considering the IX itself a node to which various ISPs attach.">AS Core IPv4+IPv6 Graph 2015 available</a></td><td>Oct&nbsp;30</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/adding_enhanced_services_internet_tprc/" title="This slideset was presented at: Telecommunications Policy Research Conference (TPRC) (September 2015)">"Adding Enhanced Services to the Internet: Lessons from History" slideset</a></td><td>Oct&nbsp;12</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/road_to_open_internet_ensr/" title="This slideset was presented at the following venues:
 
     Telecommunications Policy Research Conference (TPRC) (September 2015)
     ACM SIGCOMM Workshop on Ethics in Networked Systems Research (August 2015)">"The Road to an Open Internet is Paved With Pragmatic Disclosure &amp; Transparency Policies" slideset</a></td><td>Oct&nbsp;8</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/data/active/complete_dns_lookups_dataset.xml" title="This dataset contains PTR and SOA DNS lookups of every routed IPv4 address. We use our own parallel DNS query tool to perform the DNS lookups from a single host at CAIDA over a period of 3-4 weeks.">"Complete Routed-Space DNS Lookups" dataset available</a></td><td>Sep&nbsp;29</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/workshops/ndn/1509/" title="The NDN Project will host its second NDN community meeting (NDNcomm) on September 28th-29th 2015. A two-day hackathon will be held the Saturday and Sunday before the NDNcomm meeting.">NDN Community Meeting (NDNcomm 2015): Architecture, Applications, and Collaboration</a></td><td><span style="white-space:nowrap;">Sep 28-29</span></td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/software_systems_surveying_spoofing_dhs/" title="This slideset was presented at: DHS S&amp;T DDoS Defense Meeting (August 2015)">"Software Systems for Surveying Spoofing Susceptibility" slideset</a></td><td>Aug&nbsp;11</td>
 </tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/presentations/2015/creds_tool_clsi/" title="This slideset was presented at: Citizen Lab Summer Institute (June 2015)">Answering the Ethical Questions: Cyber Risk Ethics Decision Support (CREDS) Tool</a></td><td>Jul&nbsp;8</td>
-</tr>
 <tr>
-<td><a href="http://www.caida.org/publications/presentations/2015/bgpstream_ripe/" title="This slideset was presented at RIPE Meeting in May 2015.">"BGPStream - An Open Source Framework for Live/Historical BGP Data Analysis" slideset</a></td><td>May&nbsp;13</td>
+<td><a href="http://www.caida.org/publications/presentations/2015/creds_tool_clsi/" title="This slideset was presented at: Citizen Lab Summer Institute (June 2015)">Answering the Ethical Questions: Cyber Risk Ethics Decision Support (CREDS) Tool</a></td><td>Jul&nbsp;8</td>
 </tr>
 </table>
 </div>

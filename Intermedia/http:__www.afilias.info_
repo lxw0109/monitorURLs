@@ -89,7 +89,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-6qaeolJkrTR9QOntm8II-b6L0VjWE80_kpqZN-oT840" value="form-6qaeolJkrTR9QOntm8II-b6L0VjWE80_kpqZN-oT840"  />
+<input type="hidden" name="form_build_id" id="form-OVBcy2difyj4JWRFBjpVVSGHP0B822YdQ1tWvLhkc38" value="form-OVBcy2difyj4JWRFBjpVVSGHP0B822YdQ1tWvLhkc38"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 
@@ -727,20 +727,20 @@ div#content {display:none; visibility:hidden;}
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-title">
+                <span class="field-content"><a href="/blogs/roland-laplante/video-customer-2025-trust-and-dotbrands">Video: Customer 2025 Trust and dotBrands</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">Dec 02, 2015</span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field-title">
                 <span class="field-content"><a href="/blogs/ram-mohan/help-cryptech-and-me-make-internet-more-secure">Help CrypTech (and me) make the Internet more secure</a></span>
   </div>
   
   <div class="views-field-created">
                 <span class="field-content">Nov 03, 2015</span>
-  </div>
-</li>
-          <li class="views-row views-row-2 views-row-even views-row-last">  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/blogs/ram-mohan/internet-things-when-sci-fi-becomes-reality">The Internet of Things: When Sci-Fi Becomes Reality</a></span>
-  </div>
-  
-  <div class="views-field-created">
-                <span class="field-content">Aug 06, 2015</span>
   </div>
 </li>
       </ul>
@@ -803,6 +803,58 @@ div#content {display:none; visibility:hidden;}
       
 <div class="more-link">
   <a href="/news/releases">
+    more  </a>
+</div>
+  
+  
+  
+</div>   </div>
+</div>
+  <div id="block-views-Events-block_1" class="block block-views">
+  <h2>Events</h2>
+
+  <div class="content">
+    <div class="view view-Events view-id-Events view-display-id-block_1 view-dom-id-4">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/events/2016/01/06/showstoppers-ces">ShowStoppers @ CES</a></span>
+  </div>
+  
+  <div class="views-field-field-location-city-value">
+                <span class="field-content">Las Vegas, NV</span>
+  </div>
+  
+  <div class="views-field-field-date-value">
+                <span class="field-content"><span class="date-display-single">Jan 06, 2016</span></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/events/2016/01/10/namescon-2016">NamesCon 2016</a></span>
+  </div>
+  
+  <div class="views-field-field-location-city-value">
+                <span class="field-content">Las Vegas, NV</span>
+  </div>
+  
+  <div class="views-field-field-date-value">
+                <span class="field-content"><span class="date-display-single">Jan 10, 2016</span></span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/news/events">
     more  </a>
 </div>
   

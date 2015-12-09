@@ -39,7 +39,7 @@
 <link rel="alternate" type="application/rss+xml" title="Your Public Interest Registry &raquo; Feed" href="http://pir.org/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Your Public Interest Registry &raquo; Comments Feed" href="http://pir.org/comments/feed/" />
 		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/pir.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=731afea89f793325fbead0e9e7f45077"}};
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/pir.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=14311627f27c9b55af257c70e9478eec"}};
 			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
 		<style type="text/css">
@@ -56,47 +56,47 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='Base-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/base.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='skeleton-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/skeleton.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='iLightbox-css'  href='http://pir.org/wp-content/themes/nitro/assets/lightbox/ilightbox.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='comments-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/comments.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='custom-buttons-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/buttons.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='superfish-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/superfish.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='prettyphoto-css'  href='http://pir.org/wp-content/themes/nitro/assets/javascripts/prettyPhoto/css/prettyPhoto.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='Styles-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/styles.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
+<link rel='stylesheet' id='Base-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/base.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='skeleton-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/skeleton.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='iLightbox-css'  href='http://pir.org/wp-content/themes/nitro/assets/lightbox/ilightbox.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='comments-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/comments.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-buttons-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/buttons.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='superfish-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/superfish.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyphoto-css'  href='http://pir.org/wp-content/themes/nitro/assets/javascripts/prettyPhoto/css/prettyPhoto.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='Styles-css'  href='http://pir.org/wp-content/themes/nitro/assets/stylesheets/styles.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
 <link rel='stylesheet' id='et_monarch-open-sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' type='text/css' media='all' />
-<link rel='stylesheet' id='et_monarch-css-css'  href='http://pir.org/wp-content/plugins/monarch/css/style.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='events-manager-css'  href='http://pir.org/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='parent-style-css'  href='http://pir.org/wp-content/themes/nitro/style.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='child-style-css'  href='http://pir.org/wp-content/themes/pir/style.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='shiftnav-css'  href='http://pir.org/wp-content/plugins/shiftnav-pro/pro/assets/css/shiftnav.min.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='ubermenu-css'  href='http://pir.org/wp-content/plugins/ubermenu/pro/assets/css/ubermenu.min.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='shiftnav-font-awesome-css'  href='http://pir.org/wp-content/plugins/shiftnav-pro/assets/css/fontawesome/css/font-awesome.min.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='shiftnav-custom-css'  href='http://pir.org/wp-content/plugins/shiftnav-pro/custom/custom.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-paginate-css'  href='http://pir.org/wp-content/plugins/wp-paginate/wp-paginate.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='screen' />
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/jquery.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
+<link rel='stylesheet' id='et_monarch-css-css'  href='http://pir.org/wp-content/plugins/monarch/css/style.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='events-manager-css'  href='http://pir.org/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='http://pir.org/wp-content/themes/nitro/style.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='http://pir.org/wp-content/themes/pir/style.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='shiftnav-css'  href='http://pir.org/wp-content/plugins/shiftnav-pro/pro/assets/css/shiftnav.min.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='ubermenu-css'  href='http://pir.org/wp-content/plugins/ubermenu/pro/assets/css/ubermenu.min.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='shiftnav-font-awesome-css'  href='http://pir.org/wp-content/plugins/shiftnav-pro/assets/css/fontawesome/css/font-awesome.min.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='shiftnav-custom-css'  href='http://pir.org/wp-content/plugins/shiftnav-pro/custom/custom.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-paginate-css'  href='http://pir.org/wp-content/plugins/wp-paginate/wp-paginate.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='screen' />
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/jquery.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/prescripts.js'></script>
-<script type='text/javascript' src='http://pir.org/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/jq-sticky-anything.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-content/plugins/wp-retina-2x/js/picturefill.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/core.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/widget.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/position.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/mouse.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/sortable.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/datepicker.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/menu.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/autocomplete.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/resizable.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/draggable.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/button.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/dialog.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
+<script type='text/javascript' src='http://pir.org/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/jq-sticky-anything.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-content/plugins/wp-retina-2x/js/picturefill.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/core.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/widget.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/position.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/mouse.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/sortable.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/datepicker.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/menu.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/autocomplete.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/resizable.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/draggable.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/button.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-includes/js/jquery/ui/dialog.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var EM = {"ajaxurl":"https:\/\/pir.org\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/pir.org\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"0","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"http:\/\/pir.org\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"1","is_ssl":"","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading..."};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://pir.org/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=731afea89f793325fbead0e9e7f45077'></script>
+<script type='text/javascript' src='http://pir.org/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=14311627f27c9b55af257c70e9478eec'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://pir.org/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://pir.org/wp-includes/wlwmanifest.xml" /> 
 
@@ -716,7 +716,7 @@ var EM = {"ajaxurl":"https:\/\/pir.org\/wp-admin\/admin-ajax.php","locationajaxu
 	<!-- Default Portfolio View - Grabs the variable set in the template-xxx.php files -->
 
 
-<!-- End Default Portfolio View --><link rel='stylesheet' id='theme-style-css'  href='http://pir.org/wp-content/themes/nitro/style.css?ver=731afea89f793325fbead0e9e7f45077' type='text/css' media='all' />
+<!-- End Default Portfolio View --><link rel='stylesheet' id='theme-style-css'  href='http://pir.org/wp-content/themes/nitro/style.css?ver=14311627f27c9b55af257c70e9478eec' type='text/css' media='all' />
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/jquery.touchwipe.min.js'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/jquery.isotope.js'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/jquery.prettyPhoto.js'></script>
@@ -728,38 +728,38 @@ var EM = {"ajaxurl":"https:\/\/pir.org\/wp-admin\/admin-ajax.php","locationajaxu
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/lightbox/ilightbox.js'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/jquery.carouFredSel-6.2.0.js'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/skeleton-key.js'></script>
-<script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/idle-timer.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
+<script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/idle-timer.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var monarchSettings = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/pir.org\/news-events\/for-press\/press-releases\/","stats_nonce":"5cb0dd3831","share_counts":"8f5801b519","follow_counts":"709c5a52ff","total_counts":"02cbc6e646","media_single":"f768e633c6","media_total":"2c61a43ab1","generate_all_window_nonce":"d88951dfbd","no_img_message":"No images available for sharing on this page"};
+var monarchSettings = {"ajaxurl":"http:\/\/pir.org\/wp-admin\/admin-ajax.php","pageurl":"http:\/\/pir.org\/news-events\/for-press\/press-releases\/","stats_nonce":"e23bfb800d","share_counts":"21fc8850a0","follow_counts":"5d8d591bd7","total_counts":"6584ed371f","media_single":"f96feca0f7","media_total":"67b571b5c8","generate_all_window_nonce":"6381a14594","no_img_message":"No images available for sharing on this page"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/custom.js?ver=731afea89f793325fbead0e9e7f45077'></script>
+<script type='text/javascript' src='http://pir.org/wp-content/plugins/monarch/js/custom.js?ver=14311627f27c9b55af257c70e9478eec'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var sticky_anything_engage = {"element":"#registrar_list_header","topspace":"0","minscreenwidth":"0","maxscreenwidth":"999999","zindex":"1","dynamicmode":"","debugmode":"","pushup":"","adminbar":"1"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://pir.org/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/stickThis.js?ver=731afea89f793325fbead0e9e7f45077'></script>
-<script type='text/javascript' src='http://pir.org/wp-content/plugins/dynamic-to-top/js/libs/jquery.easing.js?ver=731afea89f793325fbead0e9e7f45077'></script>
+<script type='text/javascript' src='http://pir.org/wp-content/plugins/sticky-menu-or-anything-on-scroll/assets/js/stickThis.js?ver=14311627f27c9b55af257c70e9478eec'></script>
+<script type='text/javascript' src='http://pir.org/wp-content/plugins/dynamic-to-top/js/libs/jquery.easing.js?ver=14311627f27c9b55af257c70e9478eec'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var mv_dynamic_to_top = {"text":"To Top","version":"0","min":"300","speed":"1100","easing":"easeInExpo","margin":"20"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://pir.org/wp-content/plugins/dynamic-to-top/js/dynamic.to.top.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
+<script type='text/javascript' src='http://pir.org/wp-content/plugins/dynamic-to-top/js/dynamic.to.top.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var ubermenu_data = {"remove_conflicts":"on","reposition_on_load":"off","intent_delay":"300","intent_interval":"100","intent_threshold":"7","scrollto_offset":"50","scrollto_duration":"1000","responsive_breakpoint":"959","accessible":"on","retractor_display_strategy":"responsive","touch_off_close":"on","v":"3.2.1.1","configurations":["main"],"ajax_url":"https:\/\/pir.org\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://pir.org/wp-content/plugins/ubermenu/assets/js/ubermenu.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
+<script type='text/javascript' src='http://pir.org/wp-content/plugins/ubermenu/assets/js/ubermenu.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var shiftnav_data = {"shift_body":"off","shift_body_wrapper":"","lock_body":"on","lock_body_x":"off","swipe_close":"on","swipe_open":"off","swipe_tolerance_x":"150","swipe_tolerance_y":"60","swipe_edge_proximity":"80","open_current":"off","collapse_accordions":"on","scroll_panel":"on","breakpoint":"980","touch_off_close":"on","scroll_offset":"100","disable_transforms":"off"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://pir.org/wp-content/plugins/shiftnav-pro/assets/js/shiftnav.min.js?ver=731afea89f793325fbead0e9e7f45077'></script>
+<script type='text/javascript' src='http://pir.org/wp-content/plugins/shiftnav-pro/assets/js/shiftnav.min.js?ver=14311627f27c9b55af257c70e9478eec'></script>
 <script type='text/javascript' src='http://pir.org/wp-content/themes/nitro/assets/javascripts/theme/footer3.js'></script>
 
 

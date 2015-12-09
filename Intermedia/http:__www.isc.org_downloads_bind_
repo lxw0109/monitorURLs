@@ -333,7 +333,7 @@ ul.member-contact li a:hover {color: #333;}
 .progress.standard .bar {background: #0080c4;}
 
 /*========== Footer Styles ==========*/
-#footer {background-color: #f7f7f7;background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f7f7f7), to(#f7f7f7));background: -webkit-linear-gradient(top, #f7f7f7, #f7f7f7);background: -moz-linear-gradient(top, #f7f7f7, #f7f7f7);background: -ms-linear-gradient(top, #f7f7f7, #f7f7f7);background: -o-linear-gradient(top, #f7f7f7, #f7f7f7);border-top-color: #333333;}
+#footer {background-color: #d3d3d3;background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f7f7f7), to(#d3d3d3));background: -webkit-linear-gradient(top, #d3d3d3, #f7f7f7);background: -moz-linear-gradient(top, #d3d3d3, #f7f7f7);background: -ms-linear-gradient(top, #d3d3d3, #f7f7f7);background: -o-linear-gradient(top, #d3d3d3, #f7f7f7);border-top-color: #333333;}
 #footer, #footer h5, #footer p {color: #2d2f36;}
 #footer h5 {border-bottom-color: #2d2f36;}
 #footer a:not(.sf-button) {color: #0080c4;}
@@ -1025,7 +1025,10 @@ USA</p>
 						<div class="span3">
 													<section id="text-7" class="widget widget_text clearfix">			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/ISCdotORG" data-widget-id="579054283334660096">Tweets by @ISCdotORG</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<ul class="social-icons standard colour">
+</div>
+		</section>												</div>
+						<div class="span3">
+													<section id="text-10" class="widget widget_text clearfix">			<div class="textwidget"><ul class="social-icons standard colour">
 <li class="twitter"><a href="http://www.twitter.com/iscdotorg" target="_blank">Twitter</a></li>
 <li class="facebook"><a href="https://www.facebook.com/InternetSystemsConsortium" target="_blank">Facebook</a></li>
 <li class="linkedin"><a href="https://www.linkedin.com/company/internet-systems-consortium" target="_blank">LinkedIn</a></li>
@@ -1033,8 +1036,6 @@ USA</p>
 </ul>
 </div>
 		</section>												</div>
-						<div class="span3">
-													<section id="rss_multi_importer_widget-8" class="widget widget_rss_multi_importer_widget clearfix"><div class="widget-heading clearfix"><h5><img src="http://www.isc.org/wp-content/plugins/wp-rss-multi-importer/images/rss.png" width="14" height="14" style="border:0;margin-right:5px;"><a href="http://dnsreactions.tumblr.com">DNS Reactions</a></h5></div> <div class="news-wrapper" id="newsticker" style="10px;background-color:#ffffff;">	<div class="news-contents"><div style="top: 101px;margin-left:5px;" class="news"><div class="imagefix" style="float:left;"><a  target="_blank" href="http://dnsreactions.tumblr.com/post/134189925366" ><img width="100" src="http://41.media.tumblr.com/f849939cb2676db893d18d6e86dc8e68/tumblr_nygwr7ZSyP1s9iq8zo1_500.jpg" /></a></div><div class="rssmi_title_class"><a target="_blank" href="http://dnsreactions.tumblr.com/post/134189925366" class="news_title">Success kid manages to manage his fly(thanks Ray Bellis)</a></div>Success kid manages to manage his fly(thanks Ray Bellis) <a target="_blank" href="http://dnsreactions.tumblr.com/post/134189925366">[&hellip;]</a><br/>Sun, Nov 29, 2015<br /></div></div></div></section>												</div>
 						
 											</div>
 				</div>	
@@ -1071,8 +1072,7 @@ USA</p>
 
 </script>					
 		<!--// WORDPRESS FOOTER HOOK //-->
-		<link rel='stylesheet' id='frontend-css'  href='http://www.isc.org/wp-content/plugins/wp-rss-multi-importer/css/frontend.css?ver=4.3.1' type='text/css' media='all' />
-<script type='text/javascript' src='http://www.isc.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+		<script type='text/javascript' src='http://www.isc.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var _wpcf7 = {"loaderUrl":"http:\/\/www.isc.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
@@ -1103,7 +1103,7 @@ var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.js?ver=4.3.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"c76342a224","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
+var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"0a362bdcd2","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/plugins/love-it-pro/includes/js/love-it.js'></script>
@@ -1117,7 +1117,6 @@ var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php",
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/js/view.min.js?auto'></script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/js/functions.js'></script>
 <script type='text/javascript' src='http://www.isc.org/wp-includes/js/comment-reply.min.js?ver=4.3.1'></script>
-<script type='text/javascript' src='http://www.isc.org/wp-content/plugins/wp-rss-multi-importer/scripts/show-excerpt.js?ver=4.3.1'></script>
 
 	
 	<!--// CLOSE BODY //-->

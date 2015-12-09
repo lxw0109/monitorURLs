@@ -80,7 +80,7 @@ function getCookie(name) {
 (function(){
 var lang = (getCookie('nsfocusLanguage')||navigator.language || navigator.userLanguage).toLowerCase();
 if(lang.indexOf('en') != 0){
-         if (lang.indexOf('zh') == 0) {
+         if (lang.indexOf('cn') == 0) {
                    document.location.href = 'http://www.nsfocus.com.cn/index.html'
          } else if (lang.indexOf('ja') == 0) {
                    document.location.href = 'http://jp.nsfocus.com/index.html'

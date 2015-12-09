@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="/favicon.ico" />
             <link rel="stylesheet" type="text/css" media="screen" href="/assets/portal/styles-459cb1dc4fa76b8c3948dfa4933b8890.css" />
 <link rel="stylesheet" type="text/css" media="print" href="/css/portal/print.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/portal/cop21.css" />
     <script type="text/javascript" src="/assets/portal/scripts-aa9b219f67624074aa6ae611eb06bda0.js"></script>
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js"></script>
@@ -231,10 +232,10 @@
                                               							<ul class="submenu">
                                                     									 <li><a href="/en/about-afnic/organisation/consultative-committees-1.html">Consultative Committees</a></li>
                   							                    									 <li><a href="/en/about-afnic/organisation/international-cooperation-4.html">International cooperation</a></li>
-                  							                    									 <li><a href="/en/about-afnic/organisation/become-a-member-of-afnic-12.html">Become a member of AFNIC </a></li>
                   							                    									 <li><a href="/en/about-afnic/organisation/articles-of-association-4.html">Articles of Association</a></li>
                   							                    									 <li><a href="/en/about-afnic/organisation/internal-regulations-7.html">Internal regulations</a></li>
                   							                    									 <li><a href="/en/about-afnic/organisation/board-of-directors-15.html">Board of Directors</a></li>
+                  							                    									 <li><a href="/en/about-afnic/organisation/become-a-member-of-afnic-14.html">Become a member of AFNIC</a></li>
                   							  
                   								                  				                            								    <li><a href="/en/about-afnic/organisation/international-college/">International College</a></li>
                   								                    								                  							</ul>
@@ -375,7 +376,7 @@
                           						                                                                              <td>
               							<a href="/en/resources/statistics/">Statistics</a>
                                               							<ul class="submenu">
-                                                    									 <li><a href="/en/resources/statistics/quality-of-service-performance-55.html">Quality of service performance</a></li>
+                                                    									 <li><a href="/en/resources/statistics/quality-of-service-performance-56.html">Quality of service performance</a></li>
                   							  
                   								                  							</ul>
                                                       </td>
@@ -520,7 +521,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="b948d35014fc98ee88e29342cbebd41f" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="c9e19b1410eff979d94527958df69eb0" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -660,6 +661,16 @@
   
   <ul>
           <li>
+      <span class="type"><em>Press release</em></span>      <span class="date"><em>12/7/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9513/show/french-geotlds-boost-the-domain-name-market.html">French GeoTLDs Boost the Domain Name Market</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9513/show/french-geotlds-boost-the-domain-name-market.html">Launched a year ago, the new TLDs for use in France (.paris, .bzh, etc.) are now part of the country’s digital landscape.  </a></span>
+    </li>
+       <li>
+      <span class="type"><em>Press release</em></span>      <span class="date"><em>11/30/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9488/show/afnic-wins-at-french-communication-awards.html">Afnic wins at French Communication Awards</a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9488/show/afnic-wins-at-french-communication-awards.html">The campaign to promote .fr wins first prize at the Trophée de la Communincation Awards 2015.</a></span>
+    </li>
+       <li>
             <span class="date"><em>11/19/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9462/show/2015-marked-by-an-upswing-in-registrant-changes-of-domain-names-under-the-fr-tld.html">2015 marked by an upswing in registrant changes of domain names under the .fr TL...</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9462/show/2015-marked-by-an-upswing-in-registrant-changes-of-domain-names-under-the-fr-tld.html">This month’s issue of the Afnic Industry Report on Domain Names focuses on the issue of registrant changes of domain names under the .fr TLD. </a></span>
@@ -673,16 +684,6 @@
             <span class="date"><em>10/27/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9402/show/concentration-among-registrars-restarts.html">Concentration among Registrars Restarts </a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9402/show/concentration-among-registrars-restarts.html">The Afnic Industry Report on Domain Names focuses this month on the trend lines for Registrars found for 2015.</a></span>
-    </li>
-       <li>
-            <span class="date"><em>10/14/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9392/show/afnic-rewarded-during-the-centr-awards-2015-2.html">Afnic rewarded during the CENTR Awards 2015</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/9392/show/afnic-rewarded-during-the-centr-awards-2015-2.html">October 07th, 2015, Afnic rewarded in two categories at the CENTR Awards.</a></span>
-    </li>
-       <li>
-            <span class="date"><em>10/12/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9374/show/growth-of-1-1-in-2015-for-the-big-six-vs-2-5-in-2014.html">Growth of 1.1% in 2015 for the &quot;Big Six&quot; (Vs. 2.5% in 2014)</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/9374/show/growth-of-1-1-in-2015-for-the-big-six-vs-2-5-in-2014.html">The Afnic Industry Report on Domain Names analyses the prospects for growth in 2015 of the 6 main Legacy gTLDs: the .com, .net and .org stand up bette...</a></span>
     </li>
      </ul>
     <div class="mainContent" style="padding:0">
@@ -712,7 +713,7 @@
  onmouseover="Le blog de l&#039;Afnic !"
  style="border: 0px solid ; width: 250px; height: 40px;"
  alt="Afnic Blog"
- src="/medias/colonnedroite-blog.jpg"></img></a></div>            </div>
+ src="/medias/images/boutons/blog-vert.jpg"></img></a></div>            </div>
         
                         <div class="bcBox separate">
                 <div style="text-align: center;"><a
@@ -720,7 +721,7 @@
  onmouseover="Recevez la newsletter Afnic"
  style="border: 0px solid ; width: 250px; height: 40px;"
  alt="Newsletter Afnic"
- src="/medias/images/boutons/colonnedroite-newsletter.jpg"></img></a></div>            </div>
+ src="/medias/images/boutons/newsletter-vert.jpg"></img></a></div>            </div>
         
                         <div class="bcBox separate">
                 <a class="twitter-timeline"  href="https://twitter.com/AFNIC"  data-widget-id="314750944233521152">Tweets de @AFNIC</a>
@@ -892,7 +893,7 @@
                   							</li>
           		                	<li>
                   		<a href="/en/resources/statistics/">Statistics</a>
-                  		                   			<span><a href="/en/resources/statistics/quality-of-service-performance-55.html" >Quality of service performance</a></span>
+                  		                   			<span><a href="/en/resources/statistics/quality-of-service-performance-56.html" >Quality of service performance</a></span>
                   							</li>
           		                	<li>
                   		<a href="/en/resources/publications/">Publications</a>
