@@ -89,7 +89,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-OVBcy2difyj4JWRFBjpVVSGHP0B822YdQ1tWvLhkc38" value="form-OVBcy2difyj4JWRFBjpVVSGHP0B822YdQ1tWvLhkc38"  />
+<input type="hidden" name="form_build_id" id="form-GuxuYEoPz3fq7Vpb3wjnPjY-L9pw5-iwTZzCZOpjbD0" value="form-GuxuYEoPz3fq7Vpb3wjnPjY-L9pw5-iwTZzCZOpjbD0"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 
@@ -757,14 +757,6 @@ div#content {display:none; visibility:hidden;}
   
   
 </div>   </div>
-</div>
-  <div id="block-aggregator-feed-2" class="block block-aggregator">
-  <h2>In the News</h2>
-
-  <div class="content">
-    <div class="item-list"><ul><li class="first last"><a href="http://delicious.com/afilias">something went wrong</a>
-</li>
-</ul></div><div class="more-link"><a href="/news/media-coverage" title="View this feed&#039;s recent news.">more</a></div>  </div>
 </div>
   <div id="block-views-news_releases-block_1" class="block block-views">
   <h2>News Releases</h2>

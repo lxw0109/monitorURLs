@@ -1050,7 +1050,7 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 	<table id="wrapper">
 <tbody>
 <tr>
-<td rowspan="2"><p><a href="https://meeting.afrinic.net/afrinic-23/en/" target="_blank"><img alt="sl fire winners" src="https://farm1.staticflickr.com/771/20996133364_0acdf38b09_z_d.jpg" height="305" width="500" /></a></p></td>
+<td rowspan="2"><p><a href="/images/AFRINIC_10_Year_Anniversary_Book_September_2015.pdf" target="_blank"><img alt="sl fire winners" src="https://farm6.staticflickr.com/5681/23023317813_206230e670_o_d.png" height="305" width="500" /></a></p></td>
 <td><a href="http://afrinic.net/blog" target="_self"><img style="font-size: 11px; line-height: normal;" alt="afblog" src="/images/images/afblog.jpg" /></a></td>
 </tr>
 <tr>
@@ -1119,7 +1119,7 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt56677fc4417f0rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+      <p><div id="pgt5670ba478abc5rssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
 <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
@@ -1133,8 +1133,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt56677fc4417f0"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt56677fc4417f0rssscroller_module", options);
+					instanceId : "pgt5670ba478abc5"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt5670ba478abc5rssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);

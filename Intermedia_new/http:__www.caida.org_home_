@@ -426,6 +426,28 @@ padding: 0px 8px 2px 12px;
 <div class="rccontent">
 <table summary="CAIDA What's New feed: Upcoming Events" class="feedtable">
 <tr>
+<td style="background: center"></td><td><span class="yeartext">2016</span></td>
+</tr>
+<tr>
+<td><a href="http://www.caida.org/workshops/aims/1602/" title="CAIDA continues hosting the annual &quot;Active Internet Measurement Systems&quot; (AIMS) workshops to promote discussion between academics, industry, policymakers, and funding agencies on active Internet measurement, and exchange of research ideas and questions that have been answered, or could be answered with proposed measurement infrastructures.
+
+From February 10-12, 2016, CAIDA will host the 8th workshop on Active Internet Measurements (AIMS 2016) on the UC San Diego campus in La Jolla, CA.
+
+AIMS 2016 is by invitation only. Register now, as seats are limited and we have reached capacity in the past.">AIMS 2016 Workshop</a></td><td><span style="white-space:nowrap;">Feb 10-12</span></td>
+</tr>
+<tr class="zebra">
+<td><a href="http://www.caida.org/workshops/bgp-hackathon/1602/" title="On the weekend of February 6th and 7th, 2016, researchers and students from different institutions around the world are invited to gather and participate in the first BGP Hackathon at the San Diego Supercomputer Center at UC San Diego in La Jolla, CA. The hackathon is sponsored by industry, professional organizations, and government agencies, with interest in promoting the development of tools to model, measure, and monitor the routing infrastructure of the Internet.
+
+Application to participate in the first BGP Hackathon is open from December 8, 2016. Application does not guarantee participation. There is no application fee, and no participation fee.
+
+We will accept applications until one week before the hackathon, or until capacity is reached. The deadline to apply for travel reimbursement is December 22, 2015.
+
+The event is scheduled just before NANOG 66 in San Diego. The hackathon also precedes the CAIDA AIMS workshop, which will also be held at the San Diego Supercomputer Center on the UC San Diego campus.">CAIDA BGP Hackathon 2016</a></td><td><span style="white-space:nowrap;">Feb 6-7</span></td>
+</tr>
+<tr>
+<td style="background: center"></td><td align="left"><span class="yeartext">2015</span></td>
+</tr>
+<tr>
 <td><a href="http://www.caida.org/workshops/wie/1512/" title="On December 16-17, 2015, CAIDA and the Massachusetts Institute of Technology (MIT) will host the (invitation-only) 6th interdisciplinary Workshop on Internet Economics (WIE) at the University of California San Diego in La Jolla, CA.
 
 The goal of this workshop series is to provide a forum for researchers, commercial Internet facilities and service providers, technologists, economists, theorists, policy makers, and other stakeholders to empirically inform emerging regulatory and policy debates.">6th Workshop on Internet Economics (WIE 2015)</a></td><td><span style="white-space:nowrap;">Dec 16-17</span></td>
@@ -442,54 +464,67 @@ The goal of this workshop series is to provide a forum for researchers, commerci
 <div class="rccontent">
 <table summary="CAIDA What's New main feed" class="feedtable">
 <tr>
+<td><a href="http://www.caida.org/workshops/bgp-hackathon/1602/cfp.xml" title="
+What: CAIDA BGP Hackathon, Call for Participation (CFP)
+When: Feb 6-7, 2016
+Where: the San Diego Supercomputer Center (SDSC) on the University of California at San Diego (UCSD) campus
+Who: Parties interested in hacking on live BGP data
+Inquiries: bgp-hackathon-info@caida.org
+Important Deadline: Dec 22, 2015 for travel grant requests
+Apply to attend: http://www.caida.org/workshops/bgp-hackathon/1602/
+
+CAIDA, in cooperation with CSU, USC, UFMG, FORTH, Route Views, RIPE NCC, will host a BGP Hackathon on the 6-7th of February 2016 at UC San Diego (La Jolla, CA, USA). The theme of the hackathon is &quot;live BGP measurements and monitoring.&quot; 
+
+Application to participate in the first BGP Hackathon is open from December 8, 2016. Application does not guarantee participation. There is no application fee, and no participation fee.
+
+We will accept applications until one week before the hackathon, or until capacity is reached. The event is scheduled just before NANOG 66 in San Diego. The hackathon also precedes the CAIDA AIMS workshop, which will also be held at the San Diego Supercomputer Center on the UC San Diego campus.">BGP Hackathon 2016 call for participation</a></td><td>Dec&nbsp;9</td>
+</tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/funding/att-interconnection/" title="Pursuant to an FCC order 15-94, AT&amp;T engages CAIDA as an Independent Measurement Expert to perform various duties in connection with developing a methodology for the measurement of Internet interconnection performance metrics. Acting as an independent contractor, CAIDA will conduct measurements and assessments of performance characteristics of traffic exchanged at Internet Interconnection Points located within the United States.">AT&amp;T: Measuring Internet Interconnection Performance Metrics</a></td><td>Dec&nbsp;1</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/brief_history_future_internet_lisa/" title="This slideset was presented at: Large Installation System Administration (LISA) (November 2015)">A Brief History of a Future Internet: the Named Data Networking Architecture</a></td><td>Nov&nbsp;16</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/cartographic_capabilities_dhs/" title="This slideset was presented at: DHS Reverse Site Visit (CAIDA) (November 2015)">Cartographic Capabilities for Critical Cyberinfrastructure (&ldquo;C4&rdquo;): Internet topology and performance analytics for mapping critical network infrastructure</a></td><td>Nov&nbsp;16</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/measuring_monitoring_bgp_ietf/" title="This slideset was presented at: Internet Engineering Task Force (IETF) (November 2015)">"Measuring and Monitoring BGP" slideset</a></td><td>Nov&nbsp;13</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/bgp_hackathon_imc/" title="This slideset was presented at: ACM Internet Measurement Conference (IMC) (October 2015)">"BGP Hackathon" slideset</a></td><td>Nov&nbsp;13</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/bgp_stream_imc/" title="This slideset was presented at: ACM Internet Measurement Conference (IMC) (October 2015)">"BGP Stream" slideset</a></td><td>Nov&nbsp;13</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/leveraging_internet_background_imc/" title="This slideset was presented at: ACM Internet Measurement Conference (IMC) (October 2015)">"Leveraging Internet Background Radiation for Opportunistic Network Analysis" slideset</a></td><td>Nov&nbsp;13</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/lost_in_space_raim/" title="This slideset was presented at: IRTF Workshop on Research and Applications of Internet Measurements (RAIM) (October 2015)">"Lost in Space: Improving Inference of IPv4 Address Space Utilization" slideset</a></td><td>Nov&nbsp;13</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/research/topology/as_core_network/" title="CAIDA's visualization of both IPv4 and IPv6 AS-level Internet topology based on Archipelago data for 2015 is available for viewing and download. This visualization represents a macroscopic snapshot of IPv4 and IPv6 Internet topology samples captured in 2015. For the IPv4 map, 118 Ark monitors in 42 countries on 6 continents probed paths toward 281 million /24 IPv4 networks. For the IPv6 map, the subset of 47 IPv6-connected Ark monitors located in 25 countries on 6 continents concurrently probed paths toward 4.9 million IPv6 addresses.
 
 In order to improve our AS Core visualization we have made two major refinements to how we create the graph, including how we rank individual ASes.  First, we now rank ASes based on their transit degree rather then their outdegree.  Second, we now infer links across Internet eXchange (IX) point address space, rather than considering the IX itself a node to which various ISPs attach.">AS Core IPv4+IPv6 Graph 2015 available</a></td><td>Oct&nbsp;30</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/publications/presentations/2015/adding_enhanced_services_internet_tprc/" title="This slideset was presented at: Telecommunications Policy Research Conference (TPRC) (September 2015)">"Adding Enhanced Services to the Internet: Lessons from History" slideset</a></td><td>Oct&nbsp;12</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/publications/presentations/2015/road_to_open_internet_ensr/" title="This slideset was presented at the following venues:
 
     Telecommunications Policy Research Conference (TPRC) (September 2015)
     ACM SIGCOMM Workshop on Ethics in Networked Systems Research (August 2015)">"The Road to an Open Internet is Paved With Pragmatic Disclosure &amp; Transparency Policies" slideset</a></td><td>Oct&nbsp;8</td>
 </tr>
-<tr class="zebra">
+<tr>
 <td><a href="http://www.caida.org/data/active/complete_dns_lookups_dataset.xml" title="This dataset contains PTR and SOA DNS lookups of every routed IPv4 address. We use our own parallel DNS query tool to perform the DNS lookups from a single host at CAIDA over a period of 3-4 weeks.">"Complete Routed-Space DNS Lookups" dataset available</a></td><td>Sep&nbsp;29</td>
 </tr>
-<tr>
+<tr class="zebra">
 <td><a href="http://www.caida.org/workshops/ndn/1509/" title="The NDN Project will host its second NDN community meeting (NDNcomm) on September 28th-29th 2015. A two-day hackathon will be held the Saturday and Sunday before the NDNcomm meeting.">NDN Community Meeting (NDNcomm 2015): Architecture, Applications, and Collaboration</a></td><td><span style="white-space:nowrap;">Sep 28-29</span></td>
 </tr>
-<tr class="zebra">
-<td><a href="http://www.caida.org/publications/presentations/2015/software_systems_surveying_spoofing_dhs/" title="This slideset was presented at: DHS S&amp;T DDoS Defense Meeting (August 2015)">"Software Systems for Surveying Spoofing Susceptibility" slideset</a></td><td>Aug&nbsp;11</td>
-</tr>
 <tr>
-<td><a href="http://www.caida.org/publications/presentations/2015/creds_tool_clsi/" title="This slideset was presented at: Citizen Lab Summer Institute (June 2015)">Answering the Ethical Questions: Cyber Risk Ethics Decision Support (CREDS) Tool</a></td><td>Jul&nbsp;8</td>
+<td><a href="http://www.caida.org/publications/presentations/2015/software_systems_surveying_spoofing_dhs/" title="This slideset was presented at: DHS S&amp;T DDoS Defense Meeting (August 2015)">"Software Systems for Surveying Spoofing Susceptibility" slideset</a></td><td>Aug&nbsp;11</td>
 </tr>
 </table>
 </div>

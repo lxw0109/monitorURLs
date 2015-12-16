@@ -290,18 +290,14 @@ def main_stale(dbOrNot):
     threadingNum = threading.Semaphore(THREADS_NUM)
     threads = []
 
-    for url in newUrlObjDic.keys():
-        try:
-            #Multiple Thread: Deal with "one url by one single thread".
-            mt = MyThread(process_stale, (url,), threadingNum)
-            threads.append(mt)
-        except Exception, e:
-            string1 = ""
-            string2 = ""
-            string3 = "Being imported as a module."
-            string4 = "\n" + "------"*13 + "\n"
-            string3 += string4
-            urgentMyUtils.writeLog(string1, string2, string3)
+    f = open("./.urgentURLS")
+    while 1:
+        url = f.readline().strip()
+        if not url:
+            break
+        mt = MyThread(process_stale, (url,), threadingNum)
+        threads.append(mt)
+    f.close()
 
     for thread in threads:
         thread.setDaemon(True)
@@ -357,7 +353,8 @@ def getDbOrNot():
 
 if __name__ == '__main__':
     start = datetime.datetime.now()
-    dbOrNot = getDbOrNot()
+    #dbOrNot = getDbOrNot()
+    dbOrNot = False
     if len(sys.argv) < 2:
         main_fresh(dbOrNot)
         #urgentMyUtils.writeData("len<2\t{0}\n".format(sys.argv))

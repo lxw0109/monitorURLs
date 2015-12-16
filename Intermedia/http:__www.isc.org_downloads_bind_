@@ -320,7 +320,7 @@ blockquote.pullquote {border-color: #e4e4e4;}
 .column-highlight .pricing-table-price {color: #fff;background: #00AEEF;border-bottom-color: #00AEEF;}
 .column-highlight .pricing-table-package {background: #B4E5F8;}
 .column-highlight .pricing-table-details {background: #E1F3FA;}
-.wpb_box_text.coloured .box-content-wrap {background: #fb3c2d;color: #fff;}
+.wpb_box_text.coloured .box-content-wrap {background: #1e73be;color: #fff;}
 .wpb_box_text.whitestroke .box-content-wrap {background-color: #fff;border-color: #e4e4e4;}
 .client-item figure {border-color: #e4e4e4;}
 .client-item figure:hover {border-color: #333;}
@@ -1103,7 +1103,7 @@ var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/page-builder/assets/js_composer_front.js?ver=4.3.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"0a362bdcd2","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
+var love_it_vars = {"ajaxurl":"https:\/\/www.isc.org\/wp-admin\/admin-ajax.php","nonce":"2464a631a7","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://www.isc.org/wp-content/themes/flexform/includes/plugins/love-it-pro/includes/js/love-it.js'></script>

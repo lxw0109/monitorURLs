@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en-GB" prefix="og: http://ogp.me/ns#" class="no-js">
-  <head>
+  <head><link rel="stylesheet" type="text/css" href="http://www.nominet.uk/wp-content/cache/minify/000000/M9DPy8_NzEst0c_JTCpKLKrUTy4uhonpAUkdAwwVmcn5ecUQUi8tMScnKTE5GwA.css" media="all" />
+
     <meta charset="UTF-8">
     
 
@@ -44,16 +45,16 @@
 <meta name="twitter:domain" content="Nominet"/>
 <!-- / Yoast SEO plugin. -->
 
-<link rel='stylesheet' id='nominet-css'  href='http://www.nominet.uk/wp-content/themes/nominet/library/css/nominet.min.css?ver=1.0' media='all' />
-<script type='text/javascript' src='http://www.nominet.uk/wp-content/themes/nominet/library/js/lib/modernizr-2.7.1.min.js?ver=2.7.1'></script>
-    <script>
+
+<script type="text/javascript" src="http://www.nominet.uk/wp-content/cache/minify/000000/M9DPy8_NzEst0c_JTCpKLKrUzyoGMfVz81NSi_Iyq4p0jfTM9Qz1gIoA.js"></script>
+<script>
       /*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
 
 !function(){function e(e,n,t,o){"use strict";var r=window.document.createElement("link"),a=n||window.document.getElementsByTagName("script")[0],i=window.document.styleSheets;return r.rel="stylesheet",r.href=e,r.media="only x",o&&(r.onload=o),a.parentNode.insertBefore(r,a),r.onloadcssdefined=function(n){for(var t,o=0;o<i.length;o++)i[o].href&&i[o].href.indexOf(e)>-1&&(t=!0);t?n():setTimeout(function(){r.onloadcssdefined(n)})},r.onloadcssdefined(function(){r.media=t||"all"}),r}function n(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(t){var o=function(r,a){"use strict";if(r&&3===r.length){var i=t.navigator,c=t.document,d=t.Image,s=!(!c.createElementNS||!c.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!c.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&-1===i.userAgent.indexOf("Chrome")||-1!==i.userAgent.indexOf("Series40")),l=new d;l.onerror=function(){o.method="png",o.href=r[2],e(r[2])},l.onload=function(){var t=1===l.width&&1===l.height,i=r[t&&s?0:t?1:2];t&&s?o.method="svg":t?o.method="datapng":o.method="png",o.href=i,n(e(i),a)},l.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",c.documentElement.className+=" grunticon"}};o.loadCSS=e,o.onloadCSS=n,t.grunticon=o}(this),function(e,n){"use strict";var t=n.document,o="grunticon:",r=function(e){if(t.attachEvent?"complete"===t.readyState:"loading"!==t.readyState)e();else{var n=!1;t.addEventListener("readystatechange",function(){n||(n=!0,e())},!1)}},a=function(e){return n.document.querySelector('link[href$="'+e+'"]')},i=function(e){var n,t,r,a,i,c,d={};if(n=e.sheet,!n)return d;t=n.cssRules?n.cssRules:n.rules;for(var s=0;s<t.length;s++)r=t[s].cssText,a=o+t[s].selectorText,i=r.split(");")[0].match(/US\-ASCII\,([^"']+)/),i&&i[1]&&(c=decodeURIComponent(i[1]),d[a]=c);return d},c=function(e){var n,r,a,i;a="data-grunticon-embed";for(var c in e){i=c.slice(o.length);try{n=t.querySelectorAll(i)}catch(d){continue}r=[];for(var s=0;s<n.length;s++)null!==n[s].getAttribute(a)&&r.push(n[s]);if(r.length)for(s=0;s<r.length;s++)r[s].innerHTML=e[c],r[s].style.backgroundImage="none",r[s].removeAttribute(a)}return r},d=function(n){"svg"===e.method&&r(function(){c(i(a(e.href))),"function"==typeof n&&n()})};e.embedIcons=c,e.getCSS=a,e.getIcons=i,e.ready=r,e.svgLoadedCallback=d,e.embedSVG=d}(grunticon,this)}();
       
       grunticon(["http://www.nominet.uk/wp-content/themes/nominet/library/icons/icons.data.svg.css", "http://www.nominet.uk/wp-content/themes/nominet/library/icons/icons.data.png.css", "http://www.nominet.uk/wp-content/themes/nominetlibrary/icons/icons.fallback.css"], grunticon.svgLoadedCallback);
     </script>
-    <noscript><link href="http://www.nominet.uk/wp-content/themes/nominet/library/icons/icons.fallback.css" rel="stylesheet"></noscript>
+    <noscript></noscript>
 
 
   </head>
@@ -77,6 +78,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div id="menu" class="overlay">
             <nav id="nav" role="navigation">
               <div class="menu-{menu slug}-container"><ul><li><a href="http://www.nominet.uk/about/">About</a></li>
+<li><a href="http://www.nominet.uk/careers/">Careers</a></li>
 <li><a href="http://www.nominet.uk/contact-us/">Contact Us</a></li>
 <li><a href="http://www.nominet.uk/domains/">Domains</a></li>
 <li><a href="http://www.nominet.uk/emerging-technology/">Emerging Technology</a></li>
@@ -155,22 +157,73 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-md-8 col-sm-6 news-post">
     <article>
         <div class="panel panel-large panel-lead">
-            <a href="http://www.nominet.uk/nominet-becomes-go-on-uks-first-national-partner/">
-                <div class="panel-img" style="background-image: url(http://www.nominet.uk/wp-content/uploads/2015/12/Nominet_GoOnUK-756x466.jpg);">
+            <a href="http://www.nominet.uk/introducing-turing-1-1-iterating-the-best-dns-forensic-insights-platform-on-the-web-chris-griffiths/">
+                <div class="panel-img" style="background-image: url(http://www.nominet.uk/wp-content/uploads/2015/12/Turing_Screen-756x466.jpg);">
                     <div class="panel-img-inner">
                     </div>
                 </div>
                 <div class="panel-inner">
                     <div class="panel-content panel-news cat-security">
                         <div class="panel-heading heading-large">
-                            <p><small>7th December 2015</small></p>
-                            <p class="panel-heading panel-heading-large">Nominet becomes Go ON UK’s first National Partner</p>
-                                                    </div>
+                            <p><small>9th December 2015</small></p>
+                            <p class="panel-heading panel-heading-large">Introducing turing 1.1: Iterating the best DNS forensic insights platform on the web &#8211; Chris Griffiths</p>
+                                    <p class="byline ">
+            <span>by</span><br><b>Chris Griffiths</b>
+            <br>Director of New Product and Business Development        </p>
+                        </div>
                     </div>
                 </div><!--/panel-inner-->
             </a>
         </div><!--/panel-->
     </article>
+</div><!--/col-->        
+    
+<div class="col-md-4 col-sm-6 news-post">
+    <div class="panel">
+        <a href="http://www.nominet.uk/nominets-iot-tools-breaking-down-the-silos/">
+            <div class="panel-img">
+                                <img src="http://www.nominet.uk/wp-content/uploads/2015/12/IOT_Tools-360x222.png" class="attachment-news-regular wp-post-image" alt="IOT_Tools" />                            </div>
+            <div class="panel-inner">
+                                <span class="radial-lines"><span class="icon-news-category icon-small icon-blog"></span></span>
+                <div class="panel-content cat-security">        
+                    <small>8th December 2015</small>              
+                    <p class="panel-heading">Nominet’s IoT Tools: breaking down the silos</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</div><!--/col-->        
+    
+<div class="col-md-4 col-sm-6 news-post">
+    <div class="panel">
+        <a href="http://www.nominet.uk/iot-technology-powers-an-interactive-flood-map-and-sensor-network/">
+            <div class="panel-img">
+                                <img src="http://www.nominet.uk/wp-content/uploads/2015/12/FloodNetworkImage_8_12_15-360x222.jpg" class="attachment-news-regular wp-post-image" alt="FloodNetworkImage" />                            </div>
+            <div class="panel-inner">
+                                <span class="radial-lines"><span class="icon-news-category icon-small icon-company-news"></span></span>
+                <div class="panel-content cat-security">        
+                    <small></small>              
+                    <p class="panel-heading">IoT technology powers an interactive flood map and sensor network</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</div><!--/col-->        
+    
+<div class="col-md-4 col-sm-6 news-post">
+    <div class="panel">
+        <a href="http://www.nominet.uk/nominet-becomes-go-on-uks-first-national-partner/">
+            <div class="panel-img">
+                                <img src="http://www.nominet.uk/wp-content/uploads/2015/12/Nominet_GoOnUK-360x222.jpg" class="attachment-news-regular wp-post-image" alt="Nominet_GoOnUK" />                            </div>
+            <div class="panel-inner">
+                                <span class="radial-lines"><span class="icon-news-category icon-small icon-company-news"></span></span>
+                <div class="panel-content cat-security">        
+                    <small>7th December 2015</small>              
+                    <p class="panel-heading">Nominet becomes Go ON UK’s first National Partner</p>
+                </div>
+            </div>
+        </a>
+    </div>
 </div><!--/col-->        
     
 <div class="col-md-4 col-sm-6 news-post">
@@ -239,54 +292,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
 </div><!--/col-->        
     
-<div class="col-md-4 col-sm-6 news-post">
-    <div class="panel">
-        <a href="http://www.nominet.uk/the-smart-oxford-challenge-innovative-ideas-for-smarter-cities/">
-            <div class="panel-img">
-                                <img src="http://www.nominet.uk/wp-content/uploads/2015/10/BryanM-360x222.jpg" class="attachment-news-regular wp-post-image" alt="Bryan Marshall" />                            </div>
-            <div class="panel-inner">
-                                <span class="radial-lines"><span class="icon-news-category icon-small icon-blog"></span></span>
-                <div class="panel-content cat-security">        
-                    <small>30th September 2015</small>              
-                    <p class="panel-heading">The Smart Oxford Challenge: innovative ideas for smarter cities</p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div><!--/col-->        
-    
-<div class="col-md-4 col-sm-6 news-post">
-    <div class="panel">
-        <a href="http://www.nominet.uk/nominet-explores-smart-solutions-to-urban-issues-at-first-ever-smart-oxford-challenge/">
-            <div class="panel-img">
-                                <img src="http://www.nominet.uk/wp-content/uploads/2015/09/smart-oxford-challenge-360x222.jpg" class="attachment-news-regular wp-post-image" alt="smart-oxford-challenge" />                            </div>
-            <div class="panel-inner">
-                                <span class="radial-lines"><span class="icon-news-category icon-small icon-emerging-tech"></span></span>
-                <div class="panel-content cat-security">        
-                    <small>17th September 2015</small>              
-                    <p class="panel-heading">Nominet explores smart solutions to urban issues at first ever Smart Oxford Challenge</p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div><!--/col-->        
-    
-<div class="col-md-4 col-sm-6 news-post">
-    <div class="panel">
-        <a href="http://www.nominet.uk/changes-to-uk-whois-policy/">
-            <div class="panel-img">
-                                <img src="http://www.nominet.uk/wp-content/uploads/2015/07/iStock_000033931786_Large-360x222.jpg" class="attachment-news-regular wp-post-image" alt="Changes to .UK WHOIS policyempty copyspace for card, text, advertising, 3d render" />                            </div>
-            <div class="panel-inner">
-                                <span class="radial-lines"><span class="icon-news-category icon-small icon-company-news"></span></span>
-                <div class="panel-content cat-security">        
-                    <small>23rd July 2015</small>              
-                    <p class="panel-heading">Changes to .UK WHOIS policy</p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div><!--/col-->        
-    
     <div id="nav-below">
     <div class="nav-previous alignleft"><a href="http://www.nominet.uk/news/page/2/" >Older posts</a></div>
     <div class="nav-next alignright"></div>
@@ -316,7 +321,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="footer-menu"><li class="col-md-4 col-sm-6"><a href="/about">Our Company</a>
 <ul class="sub-menu">
 	<li><a href="http://www.nominet.uk/about/">About</a></li>
-	<li><a target="_blank" href="http://jobs.nominet.org.uk/">Careers</a></li>
+	<li><a href="http://www.nominet.uk/careers/">Careers</a></li>
 	<li><a href="http://www.nominet.uk/contact-us/">Contact Us</a></li>
 	<li><a href="http://www.nominet.uk/news/">News</a></li>
 </ul>
@@ -379,8 +384,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <!-- /footer -->    </div>
     <!-- /wrapper -->
 
-    <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js?ver=1.11.0'></script>
-<script type='text/javascript' src='http://www.nominet.uk/wp-content/themes/nominet/library/js/scripts.js?ver=1.0.0'></script>
+    <script type="text/javascript" src="http://www.nominet.uk/wp-content/cache/minify/000000/LYrRCoAgDAB_KDb9pCVDNtSZM6i_z6K3u-MQSemCbJYLUxeHZPVrWGR31OPkcWOEGCH8BlUaqG8Bmy3k-a6D1qaOnob06Q8.js"></script>
 <script type='text/javascript' src='http://www.nominet.uk/wp-content/themes/nominet/library/js/lib/jquery.infinitescroll.min.js?ver=1.0.0'></script>
 
 <!--Plugin WP Missed Schedule Active - Secured with Genuine Authenticity KeyTag-->
@@ -409,7 +413,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 Minified using disk
 Database Caching using disk
-Object Caching 2481/2849 objects using disk
-Content Delivery Network via N/A
+Object Caching 2533/2895 objects using disk
 
- Served from: www.nominet.uk @ 2015-12-08 01:11:36 by W3 Total Cache -->
+ Served from: www.nominet.uk @ 2015-12-15 01:11:41 by W3 Total Cache -->

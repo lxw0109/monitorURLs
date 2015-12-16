@@ -11,7 +11,7 @@
 			// P2 Configuration
 			var ajaxUrl                 = "http://blog.dnspod.cn/wp-admin/admin-ajax.php?p2ajax=true";
 			var updateRate              = "30000"; // 30 seconds
-			var nonce                   = "a69e46a912";
+			var nonce                   = "770c268636";
 			var login_url               = "http://blog.dnspod.cn/wp-login.php?redirect_to=http%3A%2F%2Fblog.dnspod.cn%2F";
 			var templateDir             = "http://blog.dnspod.cn/wp-content/themes/p2012";
 			var isFirstFrontPage        = 1;
@@ -28,7 +28,7 @@
 			var inlineEditComments      = 1;
 			var wpUrl                   = "http://blog.dnspod.cn";
 			var rssUrl                  = "";
-			var pageLoadTime            = "2015-12-08 01:11:30";
+			var pageLoadTime            = "2015-12-15 01:11:34";
 			var original_title          = document.title;
 			var commentsOnPost          = new Array;
 			var postsOnPage             = new Array;
@@ -72,7 +72,7 @@ img.emoji {
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var userSettings = {"url":"\/","uid":"0","time":"1449537090","secure":""};
+var userSettings = {"url":"\/","uid":"0","time":"1450141894","secure":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/utils.min.js?ver=4.3.1'></script>
@@ -145,9 +145,9 @@ try{convertEntities(p2txt);}catch(e){};;
 </li>
 	<li class="cat-item cat-item-297"><a href="http://blog.dnspod.cn/category/notice/" >官方通知</a> (252)
 </li>
-	<li class="cat-item cat-item-159"><a href="http://blog.dnspod.cn/category/dynamic-news/" >新闻资讯</a> (35)
+	<li class="cat-item cat-item-159"><a href="http://blog.dnspod.cn/category/dynamic-news/" >新闻资讯</a> (36)
 </li>
-	<li class="cat-item cat-item-1"><a href="http://blog.dnspod.cn/category/uncategorized/" >热门活动</a> (76)
+	<li class="cat-item cat-item-1"><a href="http://blog.dnspod.cn/category/uncategorized/" >热门活动</a> (78)
 </li>
 		</ul>
 </li>
@@ -212,6 +212,177 @@ try{convertEntities(p2txt);}catch(e){};;
 
 		<ul id="postlist">
 		
+				    		<li id="prologue-5443" class="post-5443 post type-post status-publish format-standard hentry category-uncategorized">
+	
+		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
+			<img alt='' src='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />		</a>
+		<h4>
+					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
+				<span class="meta">
+			<abbr title="2015-12-14T08:16:58Z">4:16 pm <em>on</em> 2015 年 12 月 14 日</abbr>			<span class="actions">
+														<a href="http://blog.dnspod.cn/2015/12/%e6%b4%bb%e5%8a%a8dnspod%e6%8a%80%e6%9c%af%e6%b2%99%e9%be%99%e8%af%9a%e9%82%80%e6%82%a8%e6%9d%a5/" class="thepermalink">链接地址</a>
+				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/12/%e6%b4%bb%e5%8a%a8dnspod%e6%8a%80%e6%9c%af%e6%b2%99%e9%be%99%e8%af%9a%e9%82%80%e6%82%a8%e6%9d%a5/#respond' onclick='return addComment.moveForm( "prologue-5443", "0", "respond", "5443" )'>回复</a>
+							</span>
+							<span class="tags">
+					&nbsp;
+				</span>
+					</span>
+	</h4>
+
+	
+	<div id="content-5443" class="postcontent">
+		<h2><a href="http://blog.dnspod.cn/2015/12/%e6%b4%bb%e5%8a%a8dnspod%e6%8a%80%e6%9c%af%e6%b2%99%e9%be%99%e8%af%9a%e9%82%80%e6%82%a8%e6%9d%a5/">[活动]DNSPOD技术沙龙诚邀您来~&nbsp;</a></h2><p><a href="https://www.dnspod.cn/?from=blog" target="_blank"><img class="wp-image-5460 size-full alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/12/banner2_副本.jpg" alt="banner2_副本" width="464" height="352" /></a></p>
+<p><span style="color: #3366ff;"><b>沙龙时间：</b></span></p>
+<p>2015年12月19日 14:00—18:00</p>
+<p><span style="color: #3366ff;"><b>沙龙地点：</b></span></p>
+<p>北京中关村创业大街昊海楼B1层IC咖啡</p>
+<p><span style="color: #3366ff;"><b>沙龙简介：</b></span></p>
+<p>全民进入互联网+时代，</p>
+<p>想了解移动互联最新走向？</p>
+<p>电商爆发的年末，</p>
+<p>该如何做好防刷风控？</p>
+<p>混乱的移动解析市场，</p>
+<p>怎样保证网站稳定与安全？</p>
+<p>寒冬来临创业依旧火热，</p>
+<p>如何在云端创建轻公司？</p>
+<p>&#8230;&#8230;</p>
+<p><strong><span style="color: #000000;">在这里</span></strong></p>
+<p><strong><span style="color: #000000;">所有问题都会找到答案！</span></strong></p>
+<p><span style="color: #3366ff;"><strong>沙龙嘉宾：</strong></span></p>
+<p><a href="https://www.dnspod.cn/?from=blog" target="_blank"><img class="alignnone wp-image-5456 size-full" src="http://blog.dnspod.cn/wp-content/uploads/2015/12/沙龙介绍-1_副本.jpg" alt="沙龙介绍 (1)_副本" width="400" height="495" /></a></p>
+<p><span style="color: #3366ff;"><b>沙龙议程：</b></span></p>
+<p>14:00—14:15 主持人开场</p>
+<p>14:15—14:45 专题演讲</p>
+<p><span style="color: #339966;">《O2O电商防刷风控时间》</span></p>
+<p>14:45—14:50 提问互动</p>
+<p>14:50—15:20 专题演讲</p>
+<p><span style="color: #339966;">《APP和CDN域名劫持的完美风控》</span></p>
+<p>15:20—15:25 提问互动</p>
+<p>15:25—15:30 抽奖环节</p>
+<p>15:30—16:35 专题演讲</p>
+<p><span style="color: #339966;">《破解高效移动应用开发》</span></p>
+<p>16:35—16:40 提问互动</p>
+<p>16:40—17:10 专题演讲</p>
+<p><span style="color: #339966;">《举重若轻，如何在云端构建轻公司》</span></p>
+<p>18:00—20:00 沙龙晚宴</p>
+<p><span style="color: #3366ff;"><b>沙龙问答：</b></span></p>
+<p><span style="color: #339966;">1、本次沙龙收费吗？</span></p>
+<p>本次沙龙是免费交流沙龙，不收取任何费用。</p>
+<p><span style="color: #339966;">2、沙龙是怎样的模式？</span></p>
+<p>线下交流模式，邀请业界一线实践大咖分享实战经验。</p>
+<p><span style="color: #339966;">3、没时间去怎么办？</span></p>
+<p>没时间到现场的童鞋也不要着急，加入我们的微信群可以同步直播沙龙干货。</p>
+<p>关注DNSPOD微信公众号（微信号：dnspod），回复“沙龙”即可加群。</p>
+<p><a href="https://www.dnspod.cn/?from=blog"><img class="size-full wp-image-5457 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/12/微信公众号.jpg" alt="微信公众号" width="179" height="185" /></a></p>
+	</div>
+
+	
+	
+	<div class="bottom-of-entry">&nbsp;</div>
+
+	
+
+
+			<div class="respond-wrap" style="display: none; ">
+										<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">回复 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/#respond" style="display:none;">取消回复</a></small></h3>
+									<form action="http://blog.dnspod.cn/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																			<p class="comment-notes"> 必填项已用 <span class="required">*</span> 标注</p>							<p class="comment-form-author"><label for="author">姓名 <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">电子邮件 <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">站点</label> <input id="url" name="url" type="text" value="" size="30" /></p>
+												<div class="form"><textarea id="comment" class="expand50-100" name="comment" cols="45" rows="3"></textarea></div> <label class="post-error" for="comment" id="commenttext_error"></label>						<span class="progress"><img src="http://blog.dnspod.cn/wp-content/themes/p2012/i/indicator.gif" alt="Loading..." title="Loading..." /></span>
+						<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="回复" /> <input type='hidden' name='comment_post_ID' value='5443' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="8e9b232eef" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="11"/></p>					</form>
+							</div><!-- #respond -->
+						</div></li>
+				    		<li id="prologue-5438" class="post-5438 post type-post status-publish format-standard hentry category-uncategorized">
+	
+		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
+			<img alt='' src='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />		</a>
+		<h4>
+					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
+				<span class="meta">
+			<abbr title="2015-12-14T08:02:53Z">4:02 pm <em>on</em> 2015 年 12 月 14 日</abbr>			<span class="actions">
+														<a href="http://blog.dnspod.cn/2015/12/%e6%b4%bb%e5%8a%a8dnspod%e5%b9%b4%e7%bb%88%e8%81%9a%e6%83%a0%ef%bc%8c%e8%a7%a3%e6%9e%90%e5%a5%97%e9%a4%90%e7%88%86%e6%ac%be%e4%ba%94%e6%8a%98%ef%bc%81/" class="thepermalink">链接地址</a>
+				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/12/%e6%b4%bb%e5%8a%a8dnspod%e5%b9%b4%e7%bb%88%e8%81%9a%e6%83%a0%ef%bc%8c%e8%a7%a3%e6%9e%90%e5%a5%97%e9%a4%90%e7%88%86%e6%ac%be%e4%ba%94%e6%8a%98%ef%bc%81/#respond' onclick='return addComment.moveForm( "prologue-5438", "0", "respond", "5438" )'>回复</a>
+							</span>
+							<span class="tags">
+					&nbsp;
+				</span>
+					</span>
+	</h4>
+
+	
+	<div id="content-5438" class="postcontent">
+		<h2><a href="http://blog.dnspod.cn/2015/12/%e6%b4%bb%e5%8a%a8dnspod%e5%b9%b4%e7%bb%88%e8%81%9a%e6%83%a0%ef%bc%8c%e8%a7%a3%e6%9e%90%e5%a5%97%e9%a4%90%e7%88%86%e6%ac%be%e4%ba%94%e6%8a%98%ef%bc%81/">[活动]DNSPOD年终聚惠，解析套餐爆款五折！&nbsp;</a></h2><p>DNSPOD年终聚惠即将来袭！12月21日起，不用吃土，也无需等待，解析套餐爆款5折！三大优惠特权，只为回馈您一直以来的信任和支持！</p>
+<p><b><a href="https://www.dnspod.cn/?from=blog" target="_blank"><img class="alignnone wp-image-5449 size-medium" src="http://blog.dnspod.cn/wp-content/uploads/2015/12/A0075E33-FE1F-4F75-BFC1-3EAD4117450A-300x276.png" alt="{A0075E33-FE1F-4F75-BFC1-3EAD4117450A}" width="300" height="276" /></a></b></p>
+<p><span style="color: #339966;"><b>创业新贵圈：</b></span></p>
+<p>新购个人套餐，500G的CDN流量包，通通享5折，加速新贵创业！</p>
+<p>个人专业版解析套餐，适用个人/中小型网站，活动期间价格180元/年，500G流量包折后价82元，年终特惠，错过等明年！</p>
+<p><span style="color: #339966;"><b>大气土豪圈：</b></span></p>
+<p>新购企业套餐，3T的CDN流量包可享8折优惠，土豪们值得拥有！</p>
+<p>活动期间，企业创业版解析套餐（1030元/年），企业标准版解析套餐（4790元/年），企业旗舰版套餐（23840元/年），为土豪量身定制的3T的CDN流量包仅需768元。</p>
+<p><span style="color: #339966;"><b>D粉逆袭圈：</b></span></p>
+<p>VIP用户升级套餐，1T的CDN流量包可享8折，老粉优惠直接享。</p>
+<p><span style="color: #3366ff;"><b>活动规则：</b></span></p>
+<p>1.个人专业版5折券限量20张/天，500G CDN流量包5折限量10个/天，每个用户都限 1次抢购机会；</p>
+<p>2.DNSPOD新老用户新购解析套餐均可享受8折优惠；</p>
+<p>3.DNSPOD付费用户升级套餐（仅限线上套餐）补差价，均可享受8折优惠，可联系销售人工协助您操作；</p>
+<p>4.折扣券有效期截止到2016.1.30，券经提交后则视作使用，取消订单后券作废，不进行补发或退回；</p>
+<p>5.活动详情或反馈可点此查看http://blog.dnspod.cn；</p>
+<p>6.本活动优惠不与其他优惠同时享用；</p>
+<p>7.该活动解释权归DNSPOD所有。</p>
+	</div>
+
+	
+	
+	<div class="bottom-of-entry">&nbsp;</div>
+
+	
+
+
+</li>
+				    		<li id="prologue-5435" class="post-5435 post type-post status-publish format-standard hentry category-dynamic-news">
+	
+		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
+			<img alt='' src='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />		</a>
+		<h4>
+					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
+				<span class="meta">
+			<abbr title="2015-12-11T07:55:46Z">3:55 pm <em>on</em> 2015 年 12 月 11 日</abbr>			<span class="actions">
+														<a href="http://blog.dnspod.cn/2015/12/%e6%96%b0%e9%97%bb%e5%9f%9f%e5%90%8d%e6%a0%b9%e6%9c%8d%e5%8a%a1%e5%99%a8%e9%81%ad%e5%a4%a7%e8%a7%84%e6%a8%a1%e6%94%bb%e5%87%bb%ef%bc%9a%e6%af%8f%e7%a7%92500%e4%b8%87%e6%ac%a1/" class="thepermalink">链接地址</a>
+				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/12/%e6%96%b0%e9%97%bb%e5%9f%9f%e5%90%8d%e6%a0%b9%e6%9c%8d%e5%8a%a1%e5%99%a8%e9%81%ad%e5%a4%a7%e8%a7%84%e6%a8%a1%e6%94%bb%e5%87%bb%ef%bc%9a%e6%af%8f%e7%a7%92500%e4%b8%87%e6%ac%a1/#respond' onclick='return addComment.moveForm( "prologue-5435", "0", "respond", "5435" )'>回复</a>
+							</span>
+							<span class="tags">
+					&nbsp;
+				</span>
+					</span>
+	</h4>
+
+	
+	<div id="content-5435" class="postcontent">
+		<h2><a href="http://blog.dnspod.cn/2015/12/%e6%96%b0%e9%97%bb%e5%9f%9f%e5%90%8d%e6%a0%b9%e6%9c%8d%e5%8a%a1%e5%99%a8%e9%81%ad%e5%a4%a7%e8%a7%84%e6%a8%a1%e6%94%bb%e5%87%bb%ef%bc%9a%e6%af%8f%e7%a7%92500%e4%b8%87%e6%ac%a1/">[新闻]域名根服务器遭大规模攻击：每秒500万次&nbsp;</a></h2><p><span style="color: #808080;">来源：<a style="color: #808080;" href="http://tech.qq.com/a/20151210/070451.htm">http://tech.qq.com/a/20151210/070451.htm</a></span></p>
+<p><span style="color: #808080;">作者：李玮</span></p>
+<p><a href="https://www.dnspod.cn/?from=blog" target="_blank"><img class="size-full wp-image-5462 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/12/128994009.png" alt="128994009" width="640" height="274" /></a></p>
+<p>12月10日消息，据国外媒体报道，上周早些时候，互联网基础设施最关键的部分遭到了不同寻常的攻击。在两次时长分别超过1小时的攻击中，多个域名系统根服务器收到了每秒500万次请求。在匹配IP地址和互联网域名的过程中，这些根服务器提供了最终的参考依据。</p>
+<p>第一次攻击发生于11月30日，持续了2小时40分钟。第二次攻击发生在一天后，持续了1小时左右。互联网的13个域名系统根服务器中的大部分都受到影响。这些攻击突然出现，随后又突然结束。在每次攻击中，这些根服务器都收到了数十亿次关于某个域名的请求。目前尚不清楚，是什么人发动了这两次攻击。</p>
+<p>尽管这两次攻击的规模很大，从而被监控互联网域名服务器的外部系统所探测到，但攻击并未对数十亿互联网用户产生影响。这部分是由于，只有当其他域名服务器出现故障，无法响应用户请求时，根服务器才会承担翻译IP地址的任务。</p>
+<p>关注互联网域名系统的贝勒大学信息系统教授兰达尔·沃恩（Randall Vaughn）表示：“我认为，对普通用户来说，这一事件就像是没有发生过。普通用户有可能没有注意到这一攻击，也有可能并未遭遇任何联网问题。”</p>
+<p>尽管对终端用户的影响不大，但此次攻击仍然值得关注。对域名系统根服务器发起每秒500万次请求会占用庞大的计算资源和带宽。域名系统运营分析及研究中心总裁基思·米歇尔（Keith Mitchell）表示，对根服务器来说，这样的流量是正常水平的250倍。</p>
+<p>更令人担心的是，收到请求的域名服务器采用了IP Anycast路由方式，从而将同一公共IP地址分配给不同位置的多台服务器。由于这一攻击影响了Anycast计算机，这意味着发动攻击的资源分散在许多地点，而不是集中在少数几个地点。</p>
+<p>上周五发布的一份报告称：“源地址广泛分布在许多地点，但发起的请求内容却是一致的。此次事件与普通的域名扩大攻击不同。在普通攻击中，域名服务器被当作反射点，用于影响某些第三方。”</p>
+<p>对于这样的攻击，可能性最大的解释是涉及了僵尸网络，或是其他互联设备。这可以解释攻击发生的方式，但外界仍不清楚为何会发生这样的攻击。此外，业内人士也再次呼吁启用BCP 38标准，应对IP地址欺诈。许多网络已经配置了这一标准，但仍有很大一部分网络没有这样做，导致这种攻击成为可能。</p>
+	</div>
+
+	
+	
+	<div class="bottom-of-entry">&nbsp;</div>
+
+	
+
+
+</li>
 				    		<li id="prologue-5176" class="post-5176 post type-post status-publish format-standard hentry category-uncategorized">
 	
 		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
@@ -250,19 +421,7 @@ try{convertEntities(p2txt);}catch(e){};;
 	
 
 
-			<div class="respond-wrap" style="display: none; ">
-										<div id="respond" class="comment-respond">
-				<h3 id="reply-title" class="comment-reply-title">回复 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/#respond" style="display:none;">取消回复</a></small></h3>
-									<form action="http://blog.dnspod.cn/wp-comments-post.php" method="post" id="commentform" class="comment-form">
-																			<p class="comment-notes"> 必填项已用 <span class="required">*</span> 标注</p>							<p class="comment-form-author"><label for="author">姓名 <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' required='required' /></p>
-<p class="comment-form-email"><label for="email">电子邮件 <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required' /></p>
-<p class="comment-form-url"><label for="url">站点</label> <input id="url" name="url" type="text" value="" size="30" /></p>
-												<div class="form"><textarea id="comment" class="expand50-100" name="comment" cols="45" rows="3"></textarea></div> <label class="post-error" for="comment" id="commenttext_error"></label>						<span class="progress"><img src="http://blog.dnspod.cn/wp-content/themes/p2012/i/indicator.gif" alt="Loading..." title="Loading..." /></span>
-						<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="回复" /> <input type='hidden' name='comment_post_ID' value='5176' id='comment_post_ID' />
-<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="2b761ed278" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="12"/></p>					</form>
-							</div><!-- #respond -->
-						</div></li>
+</li>
 				    		<li id="prologue-5172" class="post-5172 post type-post status-publish format-standard hentry category-uncategorized tag-87">
 	
 		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
@@ -292,18 +451,11 @@ try{convertEntities(p2txt);}catch(e){};;
 	</div>
 
 	
-			<div class="discussion" style="display: none">
-			<p>
-				<img alt='' src='http://2.gravatar.com/avatar/b75147444fd55e5545a67398ba6abfa7?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/b75147444fd55e5545a67398ba6abfa7?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href='http://weibo.com/signup/signup.php?inviteCode=1899118685' rel='external nofollow' class='url'>Mr.K</a> is discussing.				<a href="#" class="show-comments">Toggle Comments</a>
-			</p>
-		</div>
 	
 	<div class="bottom-of-entry">&nbsp;</div>
 
 	
 
-<ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2015/11/dnspod%e5%9f%9f%e5%90%8d%e6%b3%a8%e5%86%8c%e4%bc%98%e6%83%a0%e8%bf%9b%e8%a1%8c%e6%97%b6/#comments">1 Comment<span class="screen-reader-text"> on [活动]DNSPOD域名注册优惠进行时……</span></a></ul>
 
 </li>
 				    		<li id="prologue-5160" class="post-5160 post type-post status-publish format-standard hentry category-notice">
@@ -617,156 +769,6 @@ try{convertEntities(p2txt);}catch(e){};;
 
 <ul class="commentlist inlinecomments">
 	<a href="http://blog.dnspod.cn/2015/09/dnspod%e4%ba%91%e4%b8%bb%e6%9c%ba%ef%bc%8c%e5%b8%a6%e4%bd%a0%e4%b8%8a%e4%ba%91%e8%ae%a9%e4%bd%a0%e9%a3%9e/#comments">1 Comment<span class="screen-reader-text"> on [产品]DNSPOD云主机，带你上云让你飞</span></a></ul>
-
-</li>
-				    		<li id="prologue-5100" class="post-5100 post type-post status-publish format-standard hentry category-product tag-dns">
-	
-		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
-			<img alt='' src='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />		</a>
-		<h4>
-					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
-				<span class="meta">
-			<abbr title="2015-09-06T09:39:12Z">5:39 pm <em>on</em> 2015 年 9 月 6 日</abbr>			<span class="actions">
-														<a href="http://blog.dnspod.cn/2015/09/%e5%85%ac%e5%85%b1dns%e6%9c%8d%e5%8a%a1public-dns%e4%bb%8a%e6%97%a5%e4%b8%8a%e7%ba%bf/" class="thepermalink">链接地址</a>
-				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/09/%e5%85%ac%e5%85%b1dns%e6%9c%8d%e5%8a%a1public-dns%e4%bb%8a%e6%97%a5%e4%b8%8a%e7%ba%bf/#respond' onclick='return addComment.moveForm( "prologue-5100", "0", "respond", "5100" )'>回复</a>
-							</span>
-							<span class="tags">
-					<br />Tags: 公共DNS &nbsp;&nbsp;
-				</span>
-					</span>
-	</h4>
-
-	
-	<div id="content-5100" class="postcontent">
-		<h2><a href="http://blog.dnspod.cn/2015/09/%e5%85%ac%e5%85%b1dns%e6%9c%8d%e5%8a%a1public-dns%e4%bb%8a%e6%97%a5%e4%b8%8a%e7%ba%bf/">[产品]公共DNS服务Public DNS+今日上线&nbsp;</a></h2><p>DNSPOD一直致力于为用户提供更优质的域名授权解析服务。但是国内的递归DNS劫持问题非常严重，很大程度上影响了用户的体验。依托于长期的域名解析服务经验，在经过长期的开发和调优之后，DNSPOD正式推出公共域名解析服务“Public DNS+”。</p>
-<h4><span style="color: #0000ff;"><b>DNS劫持影响用户体验</b></span></h4>
-<p>DNS劫持是一种通过改变指定域名在运营商侧 DNS配置的正确解析指向，将该域名的解析结果重定向到劫持IP的劫持行为。DNS劫持类型可大致分为运营商缓存，广告，恶意劫持等类别。 其中运营商缓存是运营商侧为了降低跨网流量及用户访问速度进行的一种良性劫持；广告劫持是运营商或恶意团体将用户正常页面指向到广告页面或在正常页面中插入第三方广告的劫持行为；恶意劫持是指通过改变域名指向IP，将用户访问流量引到挂马，盗号等对用户有害页面的劫持。 <a href="https://www.dnspod.cn/Products/Public.DNS?from=blog" target="_blank"><img class=" size-full wp-image-5101 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/A-hacker-img1.jpg" alt="A-hacker-img1" width="571" height="320" /></a> DNS劫持攻击并不是一种新型的网络攻击手段，但却一直是全球互联网安全领域的棘手课题，这种被称为“高级黑”的攻击曾制造了“百度域名被劫持“事件以及2014年1月21日全国网络故障。</p>
-<h4><span style="color: #0000ff;"><b>Public DNS+的优势</b></span></h4>
-<p><b>一、安全零劫持</b> DNSPOD不会对Public DNS+的解析结果进行劫持，让用户远离各种DNS劫持的烦恼。 但在特殊情况下，为了保护我们的用户免受安全威胁，对于确定恶意域名(如病毒、木马、钓鱼网站等)的解析，我们可能会进行解析阻断，但不会对解析结果进行修改。 当然，对于“不存在”的网站，Public DNS+目前也无能为力。 <a href="https://www.dnspod.cn/Products/Public.DNS?from=blog" target="_blank"><img class=" size-full wp-image-5102 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/4aff7849jw1evnf1448vjg20c806k42y.gif" alt="4aff7849jw1evnf1448vjg20c806k42y" width="440" height="236" /></a> <b>二、准确不丢包</b> Public DNS+是目前国内唯一支持谷歌ECS(edns-client-subnet)协议的公共DNS，自动探测域名的授权DNS是否支持ECS协议。 我们在香港，美国和加拿大等地都部署了后端递归节点，并将尚未部署递归节点的省份运营商线路调度到邻近省份的同运营商节点进行解析，使国内用户不必再忍受Google Public DNS的延迟和丢包，一样可以享受到最精准的解析。 DNSPOD使用的IP地址库综合了多家商业及免费IP库数据(腾讯GSLB、腾讯QQ、IPIP.NET、IP2Location、MaxMind等)，并根据DNSPOD的大量用户反馈进行修正，每月更新2-3次，保证精确识别用户的请求IP，返回最准确的结果。 <a href="https://www.dnspod.cn/Products/Public.DNS?from=blog" target="_blank"><img class="alignnone wp-image-5103 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/publicdns1-500x282.png" alt="publicdns1" width="500" height="282" /></a> <b>三、快速无等待</b> Public DNS+在深圳、上海、天津、香港和北美部署了接入集群节点，通过BGP Anycast技术，在国内与全国Top 16运营商（电信、联通、移动、教育网、长宽、天威、铁通、电信通、歌华有线、东方有线、杭州华数、方正宽带、广东盈通、中信网络、CNISP、陕西广电）进行了对等互联，并可以无缝扩展。 无论用户处于何地都可以就近快速访问DNSPOD的公共DNS，最快得到解析结果，提升网络访问体验。 <a href="https://www.dnspod.cn/Products/Public.DNS?from=blog" target="_blank"><img class="alignnone wp-image-5104 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/publicdns2-465x334.png" alt="publicdns2" width="465" height="334" /></a> <b>四、稳定多容灾</b> Public DNS+使用同一个服务IP 119.29.29.29，国内三地进行进群部署容灾，当某地网络出现故障时可以实现秒级自动故障切换到其他可用地区进行解析。 各地接入集群都由四层负载均衡技术的多台服务器组成，可以实时剔除故障服务器，并在服务器恢复后自动加入集群提供解析服务，排除单点服务器故障可能造成的解析服务中断。 Public DNS+公所有节点均部署了宙斯盾防护设备，宙斯盾防护设备经受过DNSPOD无数次被攻击的考验，对DNS攻击防护率达到100%，可以有效保障公共DNS服务的稳定。  </p>
-	</div>
-
-	
-			<div class="discussion" style="display: none">
-			<p>
-				<img alt='' src='http://1.gravatar.com/avatar/?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo avatar-default' height='16' width='16' /> <a href='http://t.qq.com/ano417' rel='external nofollow' class='url'>消逝的曾经</a>, <img alt='' src='http://2.gravatar.com/avatar/591e70d58dd0efbe1da3cb83f2f3c0c0?s=16&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/591e70d58dd0efbe1da3cb83f2f3c0c0?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href='http://www.yingsec.com/' rel='external nofollow' class='url'>影乐</a>, <img alt='' src='http://0.gravatar.com/avatar/62cb9f0af5a9227866379358ced9c2f3?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/62cb9f0af5a9227866379358ced9c2f3?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href='http://cuiqg.cc/' rel='external nofollow' class='url'>CuiQG丶</a> and 4 others are discussing.				<a href="#" class="show-comments">Toggle Comments</a>
-			</p>
-		</div>
-	
-	<div class="bottom-of-entry">&nbsp;</div>
-
-	
-
-<ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2015/09/%e5%85%ac%e5%85%b1dns%e6%9c%8d%e5%8a%a1public-dns%e4%bb%8a%e6%97%a5%e4%b8%8a%e7%ba%bf/#comments">7 Comments<span class="screen-reader-text"> on [产品]公共DNS服务Public DNS+今日上线</span></a></ul>
-
-</li>
-				    		<li id="prologue-5083" class="post-5083 post type-post status-publish format-standard hentry category-notice tag-371">
-	
-		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
-			<img alt='' src='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />		</a>
-		<h4>
-					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
-				<span class="meta">
-			<abbr title="2015-09-01T03:26:49Z">11:26 am <em>on</em> 2015 年 9 月 1 日</abbr>			<span class="actions">
-														<a href="http://blog.dnspod.cn/2015/09/%e9%80%9a%e7%9f%a59%e6%9c%883%e6%97%a5%e6%94%be%e5%81%87%e5%ae%89%e6%8e%92/" class="thepermalink">链接地址</a>
-				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/09/%e9%80%9a%e7%9f%a59%e6%9c%883%e6%97%a5%e6%94%be%e5%81%87%e5%ae%89%e6%8e%92/#respond' onclick='return addComment.moveForm( "prologue-5083", "0", "respond", "5083" )'>回复</a>
-							</span>
-							<span class="tags">
-					<br />Tags: <a href="http://blog.dnspod.cn/tag/%e6%94%be%e5%81%87%e9%80%9a%e7%9f%a5/" rel="tag">放假通知 ( 17 )</a> &nbsp;&nbsp;
-				</span>
-					</span>
-	</h4>
-
-	
-	<div id="content-5083" class="postcontent">
-		<h2><a href="http://blog.dnspod.cn/2015/09/%e9%80%9a%e7%9f%a59%e6%9c%883%e6%97%a5%e6%94%be%e5%81%87%e5%ae%89%e6%8e%92/">[通知]9月3日放假安排&nbsp;</a></h2><div id="page-content">
-<div id="img-content" class="rich_media_area_primary">
-<h2 id="activity-name" class="rich_media_title"></h2>
-<div id="js_content" class="rich_media_content">
-<p>国务院发话了！</p>
-<p>我们有假了！！</p>
-<p><a href="https://www.dnspod.cn/Products/Public.DNS?from=blog" target="_blank"><img class=" size-full wp-image-5089 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/image002.gif" alt="image002" width="150" height="150" /></a><br />
-今年是中国人民抗日战争胜利70周年</p>
-<p>也是世界反法西斯战争胜利70周年</p>
-<p>为了庆祝这个伟大而神圣的日子</p>
-<p>9月3日全国放假1天</p>
-<p><a href="https://www.dnspod.cn/Products/Public.DNS?from=blog" target="_blank"><img class=" size-full wp-image-5091 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/20144122214279852.gif" alt="20144122214279852" width="400" height="263" /></a><br />
-同时，人社部发消息称</p>
-<p>9月3日放假期间用人单位安排劳动者工作</p>
-<p>应支付劳动者相应工资报酬并安排补休</p>
-<p>不能安排补休的则应该支付双倍工资</p>
-<p><a href="https://www.dnspod.cn/Products/Public.DNS?from=blog" target="_blank"><img class=" size-full wp-image-5092 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/t01306cb8a5283bb2cb.jpg" alt="t01306cb8a5283bb2cb" width="300" height="327" /></a><br />
-DNSPOD放假安排如下：</p>
-<p><strong><span style="color: #3366ff;">2015年9月3日至5日调休放假，共3天。</span></strong></p>
-<p><strong><span style="color: #3366ff;">其中9月3日（星期四）放假，9月4日（星期五）调休，9月6日（星期日）上班。</span></strong></p>
-<p>为了保证DNSPOD各项服务正常运行，放假期间会有销售与技术人员值班，有问题请直接登陆官网【提交工单】或致电：400-111-1234，有值班人员为您耐心解答疑问。<a href="https://www.dnspod.cn/Products/Public.DNS?from=blog" target="_blank"><img class=" wp-image-5084 size-dnspod alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/9月3日放假安排-500x278.jpg" alt="9月3日放假安排" width="500" height="278" /></a></p>
-<p>注：放假期间，由于值班人员有限，可能会出现不能及时接听您的电话或回复您的消息的情况。但请您放心，值班人员会在最短的时间内回复您的问题，由此给您造成的不便，敬请谅解。</p>
-<p>再次感谢您对DNSPOD的信赖和支持！</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-</div>
-</div>
-</div>
-<div id="js_pc_qr_code" class="qr_code_pc_outer"></div>
-	</div>
-
-	
-			<div class="discussion" style="display: none">
-			<p>
-				<img alt='' src='http://0.gravatar.com/avatar/cf15281da7fc99922b39c5f60bccca66?s=16&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/cf15281da7fc99922b39c5f60bccca66?s=32&amp;d=mm&amp;r=g 2x' class='avatar avatar-16 photo' height='16' width='16' /> <a href='http://weibo.com/hustskyking' rel='external nofollow' class='url'>小胡子哥</a> is discussing.				<a href="#" class="show-comments">Toggle Comments</a>
-			</p>
-		</div>
-	
-	<div class="bottom-of-entry">&nbsp;</div>
-
-	
-
-<ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2015/09/%e9%80%9a%e7%9f%a59%e6%9c%883%e6%97%a5%e6%94%be%e5%81%87%e5%ae%89%e6%8e%92/#comments">1 Comment<span class="screen-reader-text"> on [通知]9月3日放假安排</span></a></ul>
-
-</li>
-				    		<li id="prologue-5069" class="post-5069 post type-post status-publish format-standard hentry category-dynamic-news tag-87">
-	
-		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
-			<img alt='' src='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />		</a>
-		<h4>
-					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
-				<span class="meta">
-			<abbr title="2015-08-19T03:27:27Z">11:27 am <em>on</em> 2015 年 8 月 19 日</abbr>			<span class="actions">
-														<a href="http://blog.dnspod.cn/2015/08/%e4%bd%a0%e7%9a%84%e5%9f%9f%e5%90%8d%ef%bc%8c%e8%bf%98%e5%8f%af%e4%bb%a5%e6%9b%b4%e5%ae%89%e5%85%a8/" class="thepermalink">链接地址</a>
-				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/08/%e4%bd%a0%e7%9a%84%e5%9f%9f%e5%90%8d%ef%bc%8c%e8%bf%98%e5%8f%af%e4%bb%a5%e6%9b%b4%e5%ae%89%e5%85%a8/#respond' onclick='return addComment.moveForm( "prologue-5069", "0", "respond", "5069" )'>回复</a>
-							</span>
-							<span class="tags">
-					<br />Tags: <a href="http://blog.dnspod.cn/tag/%e5%9f%9f%e5%90%8d/" rel="tag">域名 ( 7 )</a> &nbsp;&nbsp;
-				</span>
-					</span>
-	</h4>
-
-	
-	<div id="content-5069" class="postcontent">
-		<h2><a href="http://blog.dnspod.cn/2015/08/%e4%bd%a0%e7%9a%84%e5%9f%9f%e5%90%8d%ef%bc%8c%e8%bf%98%e5%8f%af%e4%bb%a5%e6%9b%b4%e5%ae%89%e5%85%a8/">[新闻]你的域名，还可以更安全&nbsp;</a></h2><p>上周，谷歌宣布大规模重组，别人都是成立子公司，Google倒好，成立了一家母公司Alphabet，自己却成了子公司。</p>
-<p><span style="color: #3366ff;"><b>谷歌重组带火.xyz域名</b></span></p>
-<p>你一定以为新公司域名会是Alphabet.com，然而事实并非如此，“Alphabet”的域名在宝马手里。看热闹的人们正期待宝马和谷歌因品牌之争撕X时，眼疾手快的谷歌已经迅速搞定了新控股公司Alphabet的域名：abc.xyz。<a href="https://www.dnspod.cn/?from=blog"><img class="alignnone wp-image-5070 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/08/55cc315e7846f-500x300.jpg" alt="55cc315e7846f" width="500" height="300" /></a></p>
-<p>据美国科技新闻网站“连线”报道，.xyz域名平日每天的注册量为三千个，abc.xyz公布后，.xyz一天的注册量飙升到了将近一万个。所以，是时候抢注个.xyz域名了！立即进入DNSPOD域名注册页面抢注心仪的域名吧！抢注通道：<a href="https://domains.dnspod.cn/?from=blog">https://domains.dnspod.cn/?from=blog</a></p>
-<p><a href="https://www.dnspod.cn/?from=blog"><img class="alignnone wp-image-5071 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/08/QQ截图20150814161624-451x334.jpg" alt="QQ截图20150814161624" width="451" height="334" /></a></p>
-<p><span style="color: #3366ff;"><b>域名价值越发凸显</b></span></p>
-<p>域名虽然看不见摸不着，但作为互联网的入口，域名承载着重要品牌价值与商业价值。随着优质域名的越来越稀少，域名交易价格也在不断创新高。罗永浩200万元收购t.tt；mi.com成交价高达360万美元；360花1700万美元拿下顶级域名360.com。</p>
-<p><a href="https://www.dnspod.cn/?from=blog"><img class=" size-full wp-image-5072 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/08/04-140211-8-3.jpg" alt="04-140211-8-3" width="603" height="317" /></a></p>
-<p>国内外几家大型网站虽然已经有很不错的域名，仍会收购简短、好记的域名，如新浪微博t.cn，谷歌的g.cn，亚马逊的z.cn等单字母域名。</p>
-<p><span style="color: #3366ff;"><b>你的域名，还可以更安全</b></span></p>
-<p>互联网＋的本质是连接一切，而安全则是连接一切的基石。作为国内最大的域名服务商，我们深知肩上的重任，为用户提供安全、稳定、便捷的服务是我们不变的追求。</p>
-<p><a href="https://www.dnspod.cn/?from=blog"><img class=" size-full wp-image-5073 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/08/A-hacker-img1.jpg" alt="A-hacker-img1" width="571" height="320" /></a></p>
-<p>作为中国最大的域名服务商，我们深知肩上的重任，提供安全便捷的服务是我们不变的追求。为保障用户的账号域名安全，DNSPOD出品的D令牌自带安全基因，<span style="color: #ff6600;"><strong>6位动态码30秒变换1次，二次防护，双重保障。</strong></span>各位小主，一定要记得下载呦，直接扫描即可下载，D令牌详情移步：<a href="https://www.dnspod.cn/Products/dtoken?from=blog">https://www.dnspod.cn/Products/dtoken?from=blog</a></p>
-<p><a href="https://www.dnspod.cn/?from=blog"><img class="alignleft wp-image-5074 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/08/QQ截图20150819111505_副本-500x285.jpg" alt="QQ截图20150819111505_副本" width="500" height="285" /></a></p>
-<p>&nbsp;</p>
-	</div>
-
-	
-	
-	<div class="bottom-of-entry">&nbsp;</div>
-
-	
-
 
 </li>
 			

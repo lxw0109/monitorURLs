@@ -27,6 +27,7 @@ mkdir "$now"    #" is essential.
 mv http* "$now"    #" is essential.
 cd .. 
 mv ./urgentIntermedia_new/* ./urgentIntermedia/
+#cp ./urgentIntermedia_new/* ./urgentIntermedia/
 
 #Monitor:
 python ./monitorUrgentURLs.py >> ./urgentMonitorLog

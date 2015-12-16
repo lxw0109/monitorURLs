@@ -50,7 +50,6 @@ def writeLog(tag, url, log):
         #f.flush()
         logLock.release()
 
-
 def writeData(content):
     """
     Write data into Log.
@@ -649,6 +648,24 @@ def getEmailContent_stale(url, oldUrlObj, newUrlObj):
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
+    except KeyError, ke:
+        content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n".format(url, checkTime)
+        #update & add: 2015.9.8
+        writeLog("Information: URL recovery. lxw_KeyError", url, "")
+        conList = diff2Str_stale(filename, filenameNew)
+        if conList != []:
+            content += "检测到网站首页信息更新，具体差异如下:\n"
+            for item in conList:
+                content += item + "\n"
+            content += "\n"
+        else:
+            content += "网站首页无信息更新.\n\n"
+
+        if url in aeURLs:
+            aeLock.acquire()
+            aeURLs.remove(url)
+            aeLock.release()
+
     except Exception, e:
         string1 = "lxw_Exception."
         string2 = ""
@@ -697,11 +714,11 @@ def diff2Str(filename, sourceCode):
         list2 = []
         for data in pq1.find("a"):
             list1.append(PyQuery(data).text())
-        for data in pq1.find("titile"):
+        for data in pq1.find("title"):
             list1.append(PyQuery(data).text())
         for data in pq2.find("a"):
             list2.append(PyQuery(data).text())
-        for data in pq2.find("titile"):
+        for data in pq2.find("title"):
             list2.append(PyQuery(data).text())
 
         #pick out the specific(title) elements ahead of diff.
@@ -761,11 +778,11 @@ def diff2Str(filename, sourceCode):
         return finList
 
     except IOError, e:
-        writeLog("lxw_IOERROR Occurred(File not found, url revives now.)", "", traceback.format_exc())
+        writeLog("lxw_IOERROR Occurred.", "File not found, url revives now.", traceback.format_exc())
         return []
 
     except Exception, e:
-        writeLog("lxw_ERROR", "", traceback.format_exc())
+        writeLog("lxw_ERROR.", "Unexpected Exception.", traceback.format_exc())
         return []
 
 
@@ -797,12 +814,22 @@ def diff2Str_stale(filename, filenameNew):
         list2 = []
         for data in pq1.find("a"):
             list1.append(PyQuery(data).text())
-        for data in pq1.find("titile"):
+        for data in pq1.find("title"):
             list1.append(PyQuery(data).text())
         for data in pq2.find("a"):
             list2.append(PyQuery(data).text())
-        for data in pq2.find("titile"):
+        for data in pq2.find("title"):
             list2.append(PyQuery(data).text())
+
+        #lxw 2015.12.16
+        with open("./debugList", "w") as f:
+            f.write("List 1:\n")
+            for item in list1:
+                f.write(item + "\n")
+            f.write("\n\nList 2:\n")
+            for item in list2:
+                f.write(item + "\n")
+            f.write("\n")
 
         #Work Flow: diff -> filter -> pick -> uniq -> sort
         diffList = list(difflib.ndiff(list1, list2))
@@ -826,8 +853,7 @@ def diff2Str_stale(filename, filenameNew):
         #specList = pickB(filterList)
 
         #uniq should be always behind pick(pickA & pickB).
-        #uniq:
-        #remove the duplicate elements in res.
+        #uniq: #remove the duplicate elements in res.
         #The reason to remove the duplicates is that sometimes the same content is represented by more than one objects.
         #For example, the same piece of news is represented by both a link and a img and a text string.
         #So, In this case we don't need to notify all of these differences, we just need to pick any one of them.
@@ -854,11 +880,11 @@ def diff2Str_stale(filename, filenameNew):
         return finList
 
     except IOError, e:
-        writeLog("lxw_IOERROR Occurred(File not found, url revives now.)", "", traceback.format_exc())
+        writeLog("lxw_IOERROR Occurred.", "File not found, url revives now.", traceback.format_exc())
         return []
 
     except Exception, e:
-        writeLog("lxw_ERROR", "", traceback.format_exc())
+        writeLog("lxw_ERROR.", "Unexpected Exceptions.", traceback.format_exc())
         return []
 
 def diff2StrSwitch(filename, sourceCode):
@@ -918,6 +944,7 @@ def diff2StrSwitch(filename, sourceCode):
 
 def pickA(aList):
     """
+    NO_USE
     deal with aList to ignore the information that's not important(pick out the specific elements).
     """
     resList = []
@@ -945,6 +972,7 @@ def pickA(aList):
 
 def pickB(aList):
     """
+    NO_USE
     deal with aList to ignore the information that's not important(pick out the specific elements).
     NOTE: the differences between pickA() and pickB() is that elements in pickB all start with +/-.
     """
@@ -1067,7 +1095,6 @@ def cpFile(url):
     copy the url file from the ./urgentIntermedia into ./urgentIntermedia_new
     This function is called when Access Error Occurred(no files in the ./urgentIntermedia_new,  the old version of the url sourcecode MUST be saved.
     """
-    #writeLog("call cpFile()", "", "\n")
     url = url.replace("/", "_")
 
     filename1 = "./urgentIntermedia/" + url

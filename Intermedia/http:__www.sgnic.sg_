@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-DaQVbk9hzkFBZhTP3VFoUk4Ol8lrDzYTLUHVfxauXXc" value="form-DaQVbk9hzkFBZhTP3VFoUk4Ol8lrDzYTLUHVfxauXXc"  />
+<input type="hidden" name="form_build_id" id="form-FHigSMcml6mWK4Mcm6s3nofwH7jNEWClHo6qPpACHIg" value="form-FHigSMcml6mWK4Mcm6s3nofwH7jNEWClHo6qPpACHIg"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-VPl8-L8KO-9BQa2f494j-_bZEO1ObTciUTEHDwhWqHw" value="form-VPl8-L8KO-9BQa2f494j-_bZEO1ObTciUTEHDwhWqHw"  />
+<input type="hidden" name="form_build_id" id="form-lhx5NQa7A8ddeZaNLjGdowDnAfrTNA6TN-stVf1eQW4" value="form-lhx5NQa7A8ddeZaNLjGdowDnAfrTNA6TN-stVf1eQW4"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">December 7, 2015, 11:06 am</span>
+                <span class="field-content">December 14, 2015, 12:23 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/12/07/event-wrap-ipv6-summit-in-tokyo-2015-internet-week-2015-tokyo/">Event Wrap: IPv6 Summit in Tokyo 2015 &amp; Internet Week 2015 Tokyo</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/12/14/event-wrap-2015-cyber-offense-and-defense-exercise-taiwan/">Event Wrap: 2015 Cyber Offense and Defense Exercise, Taiwan</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">December 7, 2015, 9:06 am</span>
+                <span class="field-content">December 11, 2015, 8:54 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/12/07/what-is-internet-week/">What is Internet Week?</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/12/11/first-impressions-from-myanmar/">First impressions from Myanmar</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">December 4, 2015, 5:35 am</span>
+                <span class="field-content">December 10, 2015, 8:01 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/12/04/where-is-wsis-heading-post-2015/">Where is WSIS heading post-2015?</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/12/10/podcast-ccwg-accountability-release-3rd-draft-proposal/">Podcast: CCWG -Accountability release 3rd draft proposal</a></span>
   </div>
 </li>
       </ul>

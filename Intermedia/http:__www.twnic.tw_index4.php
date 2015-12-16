@@ -361,9 +361,6 @@ MM_reloadPage(true);
 <td height="17"><font size="2"><a href="http://iview.twnic.net.tw/?page_id=227" target="_blank">
 國際瞭望— IoT (Internet of Things)面臨的挑戰</a>(2015-11-10)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="http://www.ipv6.org.tw/summit2015" target="_blank">
-歡迎報名參加2015 Taiwan Internet Forum活動</a>(2015-11-02)</td></tr>
-<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://iview.twnic.net.tw/?page_id=182" target="_blank">
 國際瞭望— 偽造IP位址與路由安全</a>(2015-10-30)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
@@ -485,9 +482,6 @@ TWNIC出版2015年夏季刊</a>(2015-06-15)</td></tr>
                       <td><img src="http://www.twnic.net.tw/img/link.gif" width="135" height="21"></td>
                     </tr>
 <tr align="center">
-<td><a href="http://www.ipv6.org.tw/summit2015/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/268.gif" border="0"></a></td>
-</tr>
-<tr align="center">
 <td><a href="http://iview.twnic.net.tw/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/256.gif" border="0"></a></td>
 </tr>
 <tr align="center">
@@ -498,9 +492,6 @@ TWNIC出版2015年夏季刊</a>(2015-06-15)</td></tr>
 </tr>
 <tr align="center">
 <td><a href="http://2015.netking.tw" target="_blank"><img src="http://www.twnic.net.tw/brarchive/248.gif" border="0"></a></td>
-</tr>
-<tr align="center">
-<td><a href="http://www.twnic.net.tw/2015talks/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/246.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="https://www.gsnv6.tw/ipv6_104/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/232.gif" border="0"></a></td>
