@@ -644,6 +644,25 @@ def getEmailContent_stale(url, oldUrlObj, newUrlObj):
                 for item in conList:
                     content += item + "\n"
                 content += "\n"
+    except KeyError, ke:
+        content = "URL: {0}\n检测时间: {1}\n检测结果: 网站恢复访问(上次检测时网站不可访问).\n".format(url, checkTime)
+        #update & add: 2015.9.8
+        writeLog("Information: URL recovery. lxw_KeyError", url, "")
+        conList = diff2Str_stale(filename, filenameNew)
+        if conList != []:
+            content += "检测到网站首页信息更新，具体差异如下:\n"
+            for item in conList:
+                content += item + "\n"
+            content += "\n"
+        else:
+            content += "网站首页无信息更新.\n\n"
+
+        if url in aeURLs:
+            aeLock.acquire()
+            aeURLs.remove(url)
+            aeLock.release()
+
+
     except Exception, e:
         string1 = "lxw_Exception."
         string2 = ""
@@ -692,11 +711,11 @@ def diff2Str(filename, sourceCode):
         list2 = []
         for data in pq1.find("a"):
             list1.append(PyQuery(data).text())
-        for data in pq1.find("titile"):
+        for data in pq1.find("title"):
             list1.append(PyQuery(data).text())
         for data in pq2.find("a"):
             list2.append(PyQuery(data).text())
-        for data in pq2.find("titile"):
+        for data in pq2.find("title"):
             list2.append(PyQuery(data).text())
 
         #pick out the specific(title) elements ahead of diff.
@@ -792,11 +811,11 @@ def diff2Str_stale(filename, filenameNew):
         list2 = []
         for data in pq1.find("a"):
             list1.append(PyQuery(data).text())
-        for data in pq1.find("titile"):
+        for data in pq1.find("title"):
             list1.append(PyQuery(data).text())
         for data in pq2.find("a"):
             list2.append(PyQuery(data).text())
-        for data in pq2.find("titile"):
+        for data in pq2.find("title"):
             list2.append(PyQuery(data).text())
 
         #Work Flow: diff -> filter -> pick -> uniq -> sort
@@ -831,16 +850,6 @@ def diff2Str_stale(filename, filenameNew):
 
         #solve the "specific labels unchange problem"
         finList = pickFilter(finList[:])
-
-        '''
-        if "kb.isc.org" in filename:
-            print filename
-            print list1
-            print "--------" * 20
-            print list2
-            print "--------" * 20
-            print finList
-        '''
 
         #Sort the result:
         #The content added shows at front, content removed follows behind.

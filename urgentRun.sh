@@ -21,13 +21,12 @@ touch urgentAccessErrorURLs
 [ -d .Data ] || mkdir .Data
 touch urgentReceive.conf
 
-cd ./urgentIntermedia/
-now=$(date)
-mkdir "$now"    #" is essential.
-mv http* "$now"    #" is essential.
-cd .. 
+#cd ./urgentIntermedia/
+#now=$(date)
+#mkdir "$now"    #" is essential.
+#mv http* "$now"    #" is essential.
+#cd .. 
 mv ./urgentIntermedia_new/* ./urgentIntermedia/
-#cp ./urgentIntermedia_new/* ./urgentIntermedia/
 
 #Monitor:
 python ./monitorUrgentURLs.py >> ./urgentMonitorLog
