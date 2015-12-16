@@ -159,12 +159,10 @@ Solutions:</br>
 If one url costs too much time and does not stop before the time we can wait(1 minute). We will ignore this url and kill the running thread/process.
 2. When access error occured, diff did not run. This may miss some updates.
 Add diff when access error recovers.
-
+3. "no update information" bug
+Some guy in JD told me that maybe we just cared about the information appended instead of the information deleted(which may be pushed into the second pages).
+So I filtered the result of diff to remove the lines began with "-" on October 26. This means that all lines begin with "+" in the mail content.
+So the "no update information" bug appeared, in pickFilter()[urgentMyUtils.py] I filtered all lines begin with "+" BY MISTAKE.
 
 ###Todos:
-0. Only show the information that is added.
-&
-Offer a function that we can **specify a few words** so that only the information contains the words shows.
-1. Use database for data storage. Both file store and DB store are supported, and we can choose.
-2. Add test code to each file.
-3. PySpider: 1. QuickStart&Command Line P2 jQuery to select elements to be extracted.
+0. Offer a function that we can **specify a few words** so that only the information contains the words shows.
