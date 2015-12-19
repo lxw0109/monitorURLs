@@ -1111,7 +1111,7 @@
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
 <span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
 <span class="item-details">
-<span class="date nobreak byline_date">Publication date: 08 Dec 2015</span>
+<span class="date nobreak byline_date">Publication date: 15 Dec 2015</span>
 </span>
 </a>
 </li>
@@ -1131,6 +1131,7 @@
 </span>
 </a>
 </li>
+<li><p class="padding-left"></p></li>
 </ul>
 </div>
 </div>
@@ -1253,6 +1254,16 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
+<a href="https://labs.ripe.net/Members/matt_parker/keeping-the-registry-up-to-date" rel="nofollow">
+<span class="Title">Keeping the Registry Up to Date in a World of IPv4 Transfers</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date:
+                              <span>17 Dec 2015</span>
+</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://labs.ripe.net/Members/marco_hogewoning/christmas-gift-idea-some-ipv6-experience" rel="nofollow">
 <span class="Title">Christmas Gift Idea: Some IPv6 Experience</span>
 <span class="item-details">
@@ -1268,16 +1279,6 @@
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
                               <span>11 Dec 2015</span>
-</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://labs.ripe.net/Members/suzanne_taylor_muzzin/announcing-the-cli-toolset-for-ripe-atlas" rel="nofollow">
-<span class="Title">Announcing the CLI Toolset for RIPE Atlas</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date:
-                              <span>10 Dec 2015</span>
 </span>
 </span>
 </a>
@@ -1301,16 +1302,6 @@
 </div>
 <div class="block_content">
 <div class="portlet collections margin-bottom grey-border">
-<ul class="collection_item">
-<li>
-<a href="https://www.ripe.net/support/service-announcements/degraded-authoritative-dns-service">
-<span class="Title">Degraded Authoritative DNS Service</span>
-<span class="item-details">
-<span class="date nobreak byline_date">14 Dec 2015 08:20</span>
-</span>
-</a>
-</li>
-</ul>
 </div>
 </div>
 <div class="footer_link">

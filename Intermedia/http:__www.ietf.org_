@@ -115,14 +115,10 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
                 <td colspan="2" valign="top" bgcolor="#ccccff"><strong>Next Meeting: <a href="meeting/95/index.html">IETF 95, Buenos Aires, Argentina</a></strong></td>
               </tr>
               <tr>
-                <td height="241" valign="top"><a href="http://open-stand.org/"><img src="../images/openstand-md.png" width="66" height="108" border="0" align="left" hspace="20" alt="Open Stand" longdesc="http://open-stand.org/" />
-                  </a>
+                <td height="216" valign="top"><p><a href="http://open-stand.org/"><img src="../images/openstand-md.png" width="66" height="108" border="0" align="left" hspace="20" alt="Open Stand" longdesc="http://open-stand.org/" /></a></p>
                   <ul>
-                    <li><a href="media/iesg-iab-new.html">New Internet Engineering Steering Group and Internet Architecture Board Members Selected</a></li>
-                    <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/-Pbg5JDZxohiJn3Tc5jzm6Dp26w">Contract Awards January 2015</a></li>
                     <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/4JneJ53BAXmPsJ-ac-enX1LAkjk">IETF 97 - Seoul, South Korea!</a></li>
                     <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/RQR6tw_7s-Z0n_LkZK45KRKJ_K0">IETF 98 - Montreal!</a></li>
-                    <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/5MgSXXCaiN5pYzGAYtQQ_c9kULo">IETF 95 - Buenos Aires!</a></li>
                     <li><a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/dmixjsxZii4IrZm4tf034spGDHI">Juniper to Host IETF 96 in Berlin!</a></li>
                     <li><a href="/blog/">Chair's Blog</a></li>
                     <li><a href="http://tools.ietf.org/dailydose/">IETF Daily Dose</a></li>
@@ -133,7 +129,7 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
                     <tr valign="top">
                       <td width="45%" height="154" valign="top"><br />
                         <ul>
-                          <li>Register</li>
+                          <li><a href="meeting/register.html">Register</a></li>
                           <li><a href="meeting/important-dates-2016.html">Important Dates</a></li>
                           <li>IETF 95  Agenda</li>
                           <li>Meeting Materials</li>

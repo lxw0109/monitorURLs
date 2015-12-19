@@ -70,7 +70,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 16 December 2015 11:11:34
+  Page generated: 19 December 2015 11:11:37
 -->
 
 
@@ -494,7 +494,7 @@ $('.theme-about #header-label span').text('About APNIC');
 <!-- JS Extras -->
 <script src="https://www.google.com/jsapi"></script>        <script src="https://www.apnic.net/__data/assets/js_file/0010/75349/jquery.debouncedresize.min.js?v=0.1.2"></script>
         <script src="https://www.apnic.net/__data/assets/js_file/0009/75348/jquery.ellipsis.min.js?v=0.1.3"></script>
-        <script src="https://www.apnic.net/__data/assets/js_file/0004/72679/home-20140815-1.js?v=0.3.12"></script>
+        <script src="https://www.apnic.net/__data/assets/js_file/0004/72679/home-20140815-1.js?v=0.3.14"></script>
 
 
 <!-- Google Analytics tracking code -->

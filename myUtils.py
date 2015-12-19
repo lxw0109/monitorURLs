@@ -1021,6 +1021,10 @@ def pickFilter(aList):
                 if content1 != content2:
                     pickFilList.append(lineM)
                     pickFilList.append(lineA)
+        #lxw 2015.12.19
+        #The following line is essential.
+        else:   #line begins with "+"
+            pickFilList.append(aList[index])
         index += 1
 
     return pickFilList

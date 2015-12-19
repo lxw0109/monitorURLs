@@ -46,14 +46,14 @@
 
 
 <!-- CSS Extras -->
-        <link href="https://www.apnic.net/__data/assets/css_file/0009/72675/home-20140815-1.css?v=0.3.22" rel="stylesheet">
+        <link href="https://www.apnic.net/__data/assets/css_file/0009/72675/home-20140815-1.css?v=0.3.24" rel="stylesheet">
 
 
 <!-- IE Support -->
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
-        <script src="http://www.apnic.net/_designs/corporate-identity/js/html5shiv.min.js"></script>
-        <script src="http://www.apnic.net/_designs/corporate-identity/js/respond.min.js"></script>
+        <script src="https://www.apnic.net/_designs/corporate-identity/js/html5shiv.min.js"></script>
+        <script src="https://www.apnic.net/_designs/corporate-identity/js/respond.min.js"></script>
 <![endif]-->
 
 <!-- JS Core -->
@@ -70,7 +70,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 15 December 2015 11:11:35
+  Page generated: 18 December 2015 11:11:36
 -->
 
 
@@ -432,8 +432,8 @@ $('.theme-about #header-label span').text('About APNIC');
       </h2>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-16-december-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 16 December 2015</a></h3>
-<p class="ellipsis" data-ellipsis-rows="2">Scheduled maintenance: will be performed by APNIC on Wednesday, 16 December 2015</p>
+      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-15-december-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 15 December 2015</a></h3>
+<p class="ellipsis" data-ellipsis-rows="2">Service disruption: APNIC services were disrupted on Tuesday, 15 December 2015</p>
 <a href="https://www.apnic.net/publications/news/announcements" class="ga-event" data-ga-category="Homepage Service Updates">More announcements</a>      </div>
     </div>
   </div>
@@ -494,7 +494,7 @@ $('.theme-about #header-label span').text('About APNIC');
 <!-- JS Extras -->
 <script src="https://www.google.com/jsapi"></script>        <script src="https://www.apnic.net/__data/assets/js_file/0010/75349/jquery.debouncedresize.min.js?v=0.1.2"></script>
         <script src="https://www.apnic.net/__data/assets/js_file/0009/75348/jquery.ellipsis.min.js?v=0.1.3"></script>
-        <script src="https://www.apnic.net/__data/assets/js_file/0004/72679/home-20140815-1.js?v=0.3.12"></script>
+        <script src="https://www.apnic.net/__data/assets/js_file/0004/72679/home-20140815-1.js?v=0.3.14"></script>
 
 
 <!-- Google Analytics tracking code -->

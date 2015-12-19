@@ -396,6 +396,13 @@
 		</ul>
 	</div>
 		<div class="block-wrapper filterable-block-wrapper news-events-content__filterable-block-wrapper">
+				<a href="http://nominum.com/news-events/cybersecurity-attack-taking-place-right-now-at-an-unprecedented-scale-affecting-global-internet-networks/" class="filterable-block filter-blocks__filterable-block" data-press-release>
+			<span class="type filterable-block__type">Press Release</span>
+			<span class="new filterable-block__new">New</span>			<h2>Malicious Cybersecurity Attack Affecting Internet Networks Worldwide</h2>
+			<p><p>Nominum has detected a cybersecurity attack taking place right now at an unprecedented scale affecting Internet networks worldwide.</p>
+</p>
+			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
+		</a>
 				<a href="http://nominum.com/news-events/latin-american-broadband-provider-increases-revenue-with-nominum/" class="filterable-block filter-blocks__filterable-block" data-press-release>
 			<span class="type filterable-block__type">Press Release</span>
 			<span class="new filterable-block__new">New</span>			<h2>Latin American Broadband Provider Increases Revenue With Nominum </h2>
@@ -490,13 +497,6 @@
 			<span class="type filterable-block__type">Press Release</span>
 						<h2>Nominum Expands into India with Appointment of Umesh Jamwal</h2>
 			<p><p>Telecom Industry Veteran to Offer Nominum’s Service Delivery Platform and App Suite to Communication Service Providers in India, Sri Lanka and Bangladesh.</p>
-</p>
-			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
-		</a>
-				<a href="http://nominum.com/news-events/nominum-and-nextgen-distribution-in-worlds-first-agreement-to-drive-opportunity-for-enterprise-channel-in-australia-and-new-zealand/" class="filterable-block filter-blocks__filterable-block" data-press-release>
-			<span class="type filterable-block__type">Press Release</span>
-						<h2>Nominum &amp; Nextgen Drive Opportunity for Enterprise Channel in Australia &amp; New Zealand</h2>
-			<p><p>Redwood City, CA, and Sydney, Australia May 6, 2013 – Nominum™, the world’s leading provider of integrated subscriber, network, and security solutions for network operators, today announced it has signed its first distributor worldwide, Australia’s Nextgen Distribution.</p>
 </p>
 			<p><span class="fake-link filterable-block__fake-link">Read more</span></p>
 		</a>

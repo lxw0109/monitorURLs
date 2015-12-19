@@ -721,16 +721,6 @@ def diff2Str(filename, sourceCode):
         for data in pq2.find("title"):
             list2.append(PyQuery(data).text())
 
-        #lxw 2015.12.16
-        with open("./debugList", "w") as f:
-            f.write("List 1:\n")
-            for item in list1:
-                f.write(item + "\n")
-            f.write("\n\nList 2:\n")
-            for item in list2:
-                f.write(item + "\n")
-            f.write("\n")
-
         #pick out the specific(title) elements ahead of diff.
         #list1 = pickA(list1)
         #list2 = pickA(list2)
@@ -765,12 +755,6 @@ def diff2Str(filename, sourceCode):
             else:
                 filterList.append(diffList[index])
 
-        #lxw 2015.12.16
-        with open("./filterList", "w") as f:
-            f.write("filterList:\n")
-            for item in filterList:
-                f.write(item + "\n")
-
         #filterList: only +/- exists.
         #pick out the specific(title) elements behind of diff.
         #specList = pickB(filterList)
@@ -784,12 +768,6 @@ def diff2Str(filename, sourceCode):
         finList = []
         #[finList.append(item) for item in specList if not item in finList]
         [finList.append(item) for item in filterList if not item in finList]
-
-        #lxw 2015.12.16
-        with open("./finList", "w") as f:
-            f.write("finList:\n")
-            for item in finList:
-                f.write(item + "\n")
 
         #solve the "specific labels unchange problem"
         finList = pickFilter(finList[:])
@@ -842,16 +820,6 @@ def diff2Str_stale(filename, filenameNew):
             list2.append(PyQuery(data).text())
         for data in pq2.find("title"):
             list2.append(PyQuery(data).text())
-
-        #lxw 2015.12.16
-        with open("./debugList_stale", "w") as f:
-            f.write("List 1:\n")
-            for item in list1:
-                f.write(item + "\n")
-            f.write("\n\nList 2:\n")
-            for item in list2:
-                f.write(item + "\n")
-            f.write("\n")
 
         #Work Flow: diff -> filter -> pick -> uniq -> sort
         diffList = list(difflib.ndiff(list1, list2))

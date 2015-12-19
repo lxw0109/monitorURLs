@@ -11,7 +11,7 @@
 			// P2 Configuration
 			var ajaxUrl                 = "http://blog.dnspod.cn/wp-admin/admin-ajax.php?p2ajax=true";
 			var updateRate              = "30000"; // 30 seconds
-			var nonce                   = "ecdc803820";
+			var nonce                   = "92428a8b56";
 			var login_url               = "http://blog.dnspod.cn/wp-login.php?redirect_to=http%3A%2F%2Fblog.dnspod.cn%2F";
 			var templateDir             = "http://blog.dnspod.cn/wp-content/themes/p2012";
 			var isFirstFrontPage        = 1;
@@ -28,7 +28,7 @@
 			var inlineEditComments      = 1;
 			var wpUrl                   = "http://blog.dnspod.cn";
 			var rssUrl                  = "";
-			var pageLoadTime            = "2015-12-16 01:11:33";
+			var pageLoadTime            = "2015-12-19 01:11:35";
 			var original_title          = document.title;
 			var commentsOnPost          = new Array;
 			var postsOnPage             = new Array;
@@ -72,7 +72,7 @@ img.emoji {
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var userSettings = {"url":"\/","uid":"0","time":"1450228293","secure":""};
+var userSettings = {"url":"\/","uid":"0","time":"1450487495","secure":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/utils.min.js?ver=4.3.1'></script>
@@ -293,7 +293,7 @@ try{convertEntities(p2txt);}catch(e){};;
 												<div class="form"><textarea id="comment" class="expand50-100" name="comment" cols="45" rows="3"></textarea></div> <label class="post-error" for="comment" id="commenttext_error"></label>						<span class="progress"><img src="http://blog.dnspod.cn/wp-content/themes/p2012/i/indicator.gif" alt="Loading..." title="Loading..." /></span>
 						<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="回复" /> <input type='hidden' name='comment_post_ID' value='5443' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="6e44c2f5d9" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="224"/></p>					</form>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="7e48d21319" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="113"/></p>					</form>
 							</div><!-- #respond -->
 						</div></li>
 				    		<li id="prologue-5438" class="post-5438 post type-post status-publish format-standard hentry category-uncategorized">
