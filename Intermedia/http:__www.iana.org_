@@ -78,6 +78,16 @@
             </div>
         </div>
 
+        <div id="home-news">
+        <p>
+        <span class="headline">IANA Customer Survey. </span> We recently conducted our third
+        annual customer satisfaction survey. We have now analyzed the
+        results and can share them with the community. 
+        <a href="/reports/2015/customer-survey-20151115.pdf">This report</a>
+        summarizes the survey methodology and the responses received.
+        </p>
+        </div>
+
         <div id="home-panel-search">
             <gcse:search></gcse:search>
         </div>

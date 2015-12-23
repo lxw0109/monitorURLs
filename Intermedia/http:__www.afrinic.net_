@@ -168,9 +168,7 @@ var rokboxPath = '/plugins/system/rokbox/';
     </script>
 <link href="/templates/rt_nexus_j15/favicon.ico" rel="shortcut icon">
 <meta name="google-site-verification" content="0vk3YeSNJczklOvegai0nGbXhHvRQshbhgIZr1OLntw" />
-<link href="http://fonts.googleapis.com/css?family=Days One" rel="stylesheet" type="text/css">
-<style type="text/css">.msurv {font-family: 'Days One', arial, serif; text-shadow: 1px 1px 10px #323c3d;
-filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
+</head>
 <body id="ff-helvetica" class="f-default custom head-light show-light foot-dark body-light  iehandle">
 <!--Begin Top Bar-->
 
@@ -221,7 +219,7 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
       <!--Begin Banner Position-->
             <div class="banner-module">
         		<div class="moduletable">
-					<p><img style="float: right;" alt="" src="http://afrinic.net/images/ISO.svg" height="77" /></p>		</div>
+					<p><img style="float: right;" alt="" src="//afrinic.net/images/ISO.svg" height="77" /></p>		</div>
 	
       </div>
             <!--End Banner Position-->
@@ -1050,11 +1048,15 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 	<table id="wrapper">
 <tbody>
 <tr>
-<td rowspan="2"><p><a href="/images/AFRINIC_10_Year_Anniversary_Book_September_2015.pdf" target="_blank"><img alt="sl fire winners" src="https://farm6.staticflickr.com/5681/23023317813_206230e670_o_d.png" height="305" width="500" /></a></p></td>
-<td><a href="http://afrinic.net/blog" target="_self"><img style="font-size: 11px; line-height: normal;" alt="afblog" src="/images/images/afblog.jpg" /></a></td>
+<td rowspan="2"><p><a href="/images/2016.jpg" target="_blank"><img alt="fp-2016" src="/images/fp-2016.jpg" height="381" width="540" /></a></p></td>
+<td>
+<p><a href="http://afrinic.net/blog" target="_self"><img style="font-size: 11px; line-height: normal;" alt="afblog" src="/images/images/afblog.jpg" /></a></p>
+<p>&nbsp;</p>
+<p><a href="http://afrinic.net/multimedia/download/local_host_guide.pdf" target="_blank" style="text-decoration: underline; font-size: 11px; line-height: normal;"><img alt="2 box" src="/images/2_box.jpg" height="176" width="178" /></a></p>
+</td>
 </tr>
 <tr>
-<td><a href="http://afrinic.net/multimedia/download/local_host_guide.pdf" target="_blank"><img alt="2 box" src="/images/2_box.jpg" height="176" width="178" /></a></td>
+<td>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -1119,13 +1121,13 @@ filter: dropshadow(color=#323c3d, offx=2, offy=2);}</style>    </head>
 <p><span style="font-size: 8pt;"><a href="/en/library/news">Read other announcements</a></span></p>           </div>
      	 <h3 class="acc-header">NRO</h3>
   	 <div class="acc-content">
-      <p><div id="pgt56735d494179erssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
-<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
+      <p><div id="pgt5678a34a52b2crssscroller_module" class="rssscroller_module" style="height: 100px" ></div><div style="display:none;"><a href="http://www.pagit.eu">PGT RssScroller - Copyright &copy; 2010 by pagit.eu</a></div>
+<script type="text/javascript" src="//www.google.com/jsapi?key=ABQIAAAA_BpgOkczCb6ZB5K3J0klchRLSACP8v950kN6twGynSvDj-aT4BRueBKYjVcYG2lP- GQuP78i_ZVPvw"></script>
 <script type="text/javascript" src="http://www.afrinic.net/modules/mod_pgt_rssscroller/pgt_rssscroller.js"></script>
 <script type="text/javascript">
 function loadFeedControl() {
 	var feedData  = [
-{ title : "NRO", furl : "http://www.nro.net/feed", max : "3" } ]
+{ title : "NRO", furl : "//www.nro.net/feed", max : "3" } ]
 	var options = { scrollMethod : "scroll",
 					nFeedPage : 1,
 					transitionTime : 800,
@@ -1133,8 +1135,8 @@ function loadFeedControl() {
 					showTitle : 1, 
 					showDate : 1,
 					showBody : 0,
-					instanceId : "pgt56735d494179e"				 	};
-	var feedHdl = new PGTFeedControl(feedData, "pgt56735d494179erssscroller_module", options);
+					instanceId : "pgt5678a34a52b2c"				 	};
+	var feedHdl = new PGTFeedControl(feedData, "pgt5678a34a52b2crssscroller_module", options);
 }
 google.load("feeds", "1");
 google.setOnLoadCallback(loadFeedControl);
@@ -1239,7 +1241,7 @@ google.setOnLoadCallback(loadFeedControl);
 <tbody>
 <tr>
 <td style="vertical-align: top;" colspan="6"><a href="#smap1"><img style="margin-right: 5px;" alt="sitemap 32" src="/images/stories/sitemap_32.png" height="18" width="18" /><span style="font-size: 10pt;">Sitemap</span></a></td>
-<td style="vertical-align: top;" colspan="2"><a href="http://www.afrinic.net/index.php?option=com_mediarss&amp;feed_id=1&amp;format=raw" target="_blank" class="jcetooltip" title="Subscribe to AFRINIC RSS feeds"><img alt="AFRINIC RSS feeds" src="/images/stories/RSS_32.png" height="16" width="16" /></a>&nbsp;<a href="http://www.linkedin.com/company/afrinic" target="_blank" title="AFRINIC on LINKEDIN"><img alt="linkedin" src="/images/stories/linkedin.png" height="16" width="16" /></a>&nbsp;<a href="https://twitter.com/AFRINIC" target="_blank" title="AFRINIC on TWITTER"><img alt="twitter 16" src="/images/stories/twitter_16.png" height="16" width="16" /></a>&nbsp;<a href="https://www.facebook.com/afrinic" target="_blank" title="AFRINIC on FACEBOOK"><img alt="Facebook 32" src="/images/stories/Facebook_32.png" height="16" width="16" /></a>&nbsp;<a href="http://www.flickr.com/photos/afrinic/" target="_blank" title="AFRINIC on FLICKR"><img alt="flickr" src="/images/stories/flickr.png" height="16" width="16" /></a>&nbsp;<a href="http://www.youtube.com/user/AfriNICMedia/" target="_blank" title="AFRINIC on YOUTUBE"><img alt="youtube" src="/images/stories/youtube.png" height="16" width="16" /></a></td>
+<td style="vertical-align: top;" colspan="2"><a href="//www.afrinic.net/index.php?option=com_mediarss&amp;feed_id=1&amp;format=raw" target="_blank" class="jcetooltip" title="Subscribe to AFRINIC RSS feeds"><img alt="AFRINIC RSS feeds" src="/images/stories/RSS_32.png" height="16" width="16" /></a>&nbsp;<a href="http://www.linkedin.com/company/afrinic" target="_blank" title="AFRINIC on LINKEDIN"><img alt="linkedin" src="/images/stories/linkedin.png" height="16" width="16" /></a>&nbsp;<a href="https://twitter.com/AFRINIC" target="_blank" title="AFRINIC on TWITTER"><img alt="twitter 16" src="/images/stories/twitter_16.png" height="16" width="16" /></a>&nbsp;<a href="https://www.facebook.com/afrinic" target="_blank" title="AFRINIC on FACEBOOK"><img alt="Facebook 32" src="/images/stories/Facebook_32.png" height="16" width="16" /></a>&nbsp;<a href="http://www.flickr.com/photos/afrinic/" target="_blank" title="AFRINIC on FLICKR"><img alt="flickr" src="/images/stories/flickr.png" height="16" width="16" /></a>&nbsp;<a href="http://www.youtube.com/user/AfriNICMedia/" target="_blank" title="AFRINIC on YOUTUBE"><img alt="youtube" src="/images/stories/youtube.png" height="16" width="16" /></a></td>
 </tr>
 <tr>
 <td style="vertical-align: top;" colspan="8">&nbsp;</td>

@@ -70,7 +70,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 18 December 2015 11:11:36
+  Page generated: 22 December 2015 11:11:39
 -->
 
 
@@ -432,8 +432,8 @@ $('.theme-about #header-label span').text('About APNIC');
       </h2>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-15-december-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 15 December 2015</a></h3>
-<p class="ellipsis" data-ellipsis-rows="2">Service disruption: APNIC services were disrupted on Tuesday, 15 December 2015</p>
+      <div class="panel-body"><h3><a href="https://www.apnic.net/publications/news/2015/service-announcement-23-december-2015" class="ellipsis ga-event" data-ellipsis-rows="1" data-ga-category="Homepage Service Updates">Service announcement: 23 December 2015</a></h3>
+<p class="ellipsis" data-ellipsis-rows="2">Scheduled maintenance: will be performed by APNIC on Wednesday, 23 December 2015</p>
 <a href="https://www.apnic.net/publications/news/announcements" class="ga-event" data-ga-category="Homepage Service Updates">More announcements</a>      </div>
     </div>
   </div>

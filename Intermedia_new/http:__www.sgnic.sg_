@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-0YEjrO6j8doXcBEL__vgjDfV9RQea67TC6ur0PC5OBk" value="form-0YEjrO6j8doXcBEL__vgjDfV9RQea67TC6ur0PC5OBk"  />
+<input type="hidden" name="form_build_id" id="form-i1evG9iZKqyxSedyKpm8CU9wzgCK4B68xPwXoYB4oAo" value="form-i1evG9iZKqyxSedyKpm8CU9wzgCK4B68xPwXoYB4oAo"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-MV3SCk8PAdiuUvNjF8hapQi7PZy-ccq7RunUshVBvWg" value="form-MV3SCk8PAdiuUvNjF8hapQi7PZy-ccq7RunUshVBvWg"  />
+<input type="hidden" name="form_build_id" id="form-Xw4kwvgyXgrb8lTv3yPjE5wLfb5_FSjAiwB_TqCn_ic" value="form-Xw4kwvgyXgrb8lTv3yPjE5wLfb5_FSjAiwB_TqCn_ic"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -129,20 +129,20 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-created">
+                <span class="field-content">November 25, 2015, 10:47 am</span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><a href="/news/sg50-premium-numeric-name-application-final-exercise-2015">SG50 Premium Numeric Name Application, final exercise for 2015</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field-created">
                 <span class="field-content">November 23, 2015, 9:02 am</span>
   </div>
   
   <div class="views-field-title">
                 <span class="field-content"><a href="/news/sgnic-t-15002-invitation-tender-itt-revamping-sgnic-websites">SGNIC-T-15002: Invitation To Tender (ITT) for Revamping SGNIC Websites</a></span>
-  </div>
-</li>
-          <li class="views-row views-row-3 views-row-odd views-row-last">  
-  <div class="views-field-created">
-                <span class="field-content">October 30, 2015, 12:57 pm</span>
-  </div>
-  
-  <div class="views-field-title">
-                <span class="field-content"><a href="/news/results-october-2015-premium-numeric-domain-name-exercise">Results of October 2015 Premium Numeric Domain Name Exercise</a></span>
   </div>
 </li>
       </ul>
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">December 18, 2015, 6:35 am</span>
+                <span class="field-content">December 22, 2015, 11:16 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/12/18/sydney-blockchain-workshop-lawrence-lessig-law-net/">Sydney Blockchain Workshop: Lawrence Lessig on the law and the net</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/12/22/three-of-the-best-ipv6-2/">Three of the best: IPv6</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">December 17, 2015, 3:10 pm</span>
+                <span class="field-content">December 22, 2015, 10:48 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/12/17/event-wrap-taiwan-internet-forum/">Event Wrap: Taiwan Internet Forum</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/12/22/itu-asean-forum-on-ott-services-cambodia/">Event Wrap: ITU-ASEAN forum on OTT services, Cambodia</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">December 16, 2015, 9:55 am</span>
+                <span class="field-content">December 22, 2015, 8:58 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/12/16/now-everybody-can-https/">Now Everybody Can HTTPS</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/12/22/isif-asia-2015-in-review/">ISIF Asia, 2015 in review</a></span>
   </div>
 </li>
       </ul>

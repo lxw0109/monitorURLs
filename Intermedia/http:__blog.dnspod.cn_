@@ -11,7 +11,7 @@
 			// P2 Configuration
 			var ajaxUrl                 = "http://blog.dnspod.cn/wp-admin/admin-ajax.php?p2ajax=true";
 			var updateRate              = "30000"; // 30 seconds
-			var nonce                   = "d8e8c64de5";
+			var nonce                   = "397dfaac4a";
 			var login_url               = "http://blog.dnspod.cn/wp-login.php?redirect_to=http%3A%2F%2Fblog.dnspod.cn%2F";
 			var templateDir             = "http://blog.dnspod.cn/wp-content/themes/p2012";
 			var isFirstFrontPage        = 1;
@@ -28,7 +28,7 @@
 			var inlineEditComments      = 1;
 			var wpUrl                   = "http://blog.dnspod.cn";
 			var rssUrl                  = "";
-			var pageLoadTime            = "2015-12-18 01:11:35";
+			var pageLoadTime            = "2015-12-22 01:11:37";
 			var original_title          = document.title;
 			var commentsOnPost          = new Array;
 			var postsOnPage             = new Array;
@@ -72,7 +72,7 @@ img.emoji {
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var userSettings = {"url":"\/","uid":"0","time":"1450401095","secure":""};
+var userSettings = {"url":"\/","uid":"0","time":"1450746697","secure":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://blog.dnspod.cn/wp-includes/js/utils.min.js?ver=4.3.1'></script>
@@ -143,7 +143,7 @@ try{convertEntities(p2txt);}catch(e){};;
 		<ul>
 	<li class="cat-item cat-item-158"><a href="http://blog.dnspod.cn/category/product/" >产品动态</a> (34)
 </li>
-	<li class="cat-item cat-item-297"><a href="http://blog.dnspod.cn/category/notice/" >官方通知</a> (252)
+	<li class="cat-item cat-item-297"><a href="http://blog.dnspod.cn/category/notice/" >官方通知</a> (253)
 </li>
 	<li class="cat-item cat-item-159"><a href="http://blog.dnspod.cn/category/dynamic-news/" >新闻资讯</a> (36)
 </li>
@@ -212,6 +212,53 @@ try{convertEntities(p2txt);}catch(e){};;
 
 		<ul id="postlist">
 		
+				    		<li id="prologue-5466" class="post-5466 post type-post status-publish format-standard hentry category-notice">
+	
+		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
+			<img alt='' src='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />		</a>
+		<h4>
+					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
+				<span class="meta">
+			<abbr title="2015-12-21T07:31:44Z">3:31 pm <em>on</em> 2015 年 12 月 21 日</abbr>			<span class="actions">
+														<a href="http://blog.dnspod.cn/2015/12/localdns/" class="thepermalink">链接地址</a>
+				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/12/localdns/#respond' onclick='return addComment.moveForm( "prologue-5466", "0", "respond", "5466" )'>回复</a>
+							</span>
+							<span class="tags">
+					&nbsp;
+				</span>
+					</span>
+	</h4>
+
+	
+	<div id="content-5466" class="postcontent">
+		<h2><a href="http://blog.dnspod.cn/2015/12/localdns/">[通知]国内运营商递归DNS解析出现问题&nbsp;</a></h2><p>尊敬的DNSPod用户：</p>
+<p>您好~</p>
+<p>11月30日和12月1日，DNS根服务器受攻击，详情点击：<a href="http://blog.dnspod.cn/2015/12/ddosnews/">http://blog.dnspod.cn/2015/12/ddosnews/</a>同时国内的递归DNS一直在遭受DDoS攻击。</p>
+<p>约从12月6日、7日开始，国内全网的运营商递归DNS出现较大范围的域名间歇性解析缓慢或者解析到127.0.0.1的情况。</p>
+<p>目前DNSPod已经接到了铁通、长宽等多个运营商的反馈，递归DNS到根节点的解析请求被限速等问题，DNSPod正在与运营商一起进行协调解决该问题。</p>
+<p>请关注@DNSPod新浪微博，我们将及时更新事件进展。</p>
+	</div>
+
+	
+	
+	<div class="bottom-of-entry">&nbsp;</div>
+
+	
+
+
+			<div class="respond-wrap" style="display: none; ">
+										<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">回复 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/#respond" style="display:none;">取消回复</a></small></h3>
+									<form action="http://blog.dnspod.cn/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																			<p class="comment-notes"> 必填项已用 <span class="required">*</span> 标注</p>							<p class="comment-form-author"><label for="author">姓名 <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">电子邮件 <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">站点</label> <input id="url" name="url" type="text" value="" size="30" /></p>
+												<div class="form"><textarea id="comment" class="expand50-100" name="comment" cols="45" rows="3"></textarea></div> <label class="post-error" for="comment" id="commenttext_error"></label>						<span class="progress"><img src="http://blog.dnspod.cn/wp-content/themes/p2012/i/indicator.gif" alt="Loading..." title="Loading..." /></span>
+						<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="回复" /> <input type='hidden' name='comment_post_ID' value='5466' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="df36f00d44" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="202"/></p>					</form>
+							</div><!-- #respond -->
+						</div></li>
 				    		<li id="prologue-5443" class="post-5443 post type-post status-publish format-standard hentry category-uncategorized">
 	
 		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
@@ -220,8 +267,8 @@ try{convertEntities(p2txt);}catch(e){};;
 					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
 				<span class="meta">
 			<abbr title="2015-12-14T08:16:58Z">4:16 pm <em>on</em> 2015 年 12 月 14 日</abbr>			<span class="actions">
-														<a href="http://blog.dnspod.cn/2015/12/%e6%b4%bb%e5%8a%a8dnspod%e6%8a%80%e6%9c%af%e6%b2%99%e9%be%99%e8%af%9a%e9%82%80%e6%82%a8%e6%9d%a5/" class="thepermalink">链接地址</a>
-				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/12/%e6%b4%bb%e5%8a%a8dnspod%e6%8a%80%e6%9c%af%e6%b2%99%e9%be%99%e8%af%9a%e9%82%80%e6%82%a8%e6%9d%a5/#respond' onclick='return addComment.moveForm( "prologue-5443", "0", "respond", "5443" )'>回复</a>
+														<a href="http://blog.dnspod.cn/2015/12/shalong/" class="thepermalink">链接地址</a>
+				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/12/shalong/#respond' onclick='return addComment.moveForm( "prologue-5443", "0", "respond", "5443" )'>回复</a>
 							</span>
 							<span class="tags">
 					&nbsp;
@@ -231,7 +278,7 @@ try{convertEntities(p2txt);}catch(e){};;
 
 	
 	<div id="content-5443" class="postcontent">
-		<h2><a href="http://blog.dnspod.cn/2015/12/%e6%b4%bb%e5%8a%a8dnspod%e6%8a%80%e6%9c%af%e6%b2%99%e9%be%99%e8%af%9a%e9%82%80%e6%82%a8%e6%9d%a5/">[活动]DNSPOD技术沙龙诚邀您来~&nbsp;</a></h2><p><a href="https://www.dnspod.cn/?from=blog" target="_blank"><img class="wp-image-5460 size-full alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/12/banner2_副本.jpg" alt="banner2_副本" width="464" height="352" /></a></p>
+		<h2><a href="http://blog.dnspod.cn/2015/12/shalong/">[活动]DNSPOD技术沙龙诚邀您来~&nbsp;</a></h2><p><a href="https://www.dnspod.cn/?from=blog" target="_blank"><img class="wp-image-5460 size-full alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/12/banner2_副本.jpg" alt="banner2_副本" width="464" height="352" /></a></p>
 <p><span style="color: #3366ff;"><b>沙龙时间：</b></span></p>
 <p>2015年12月19日 14:00—18:00</p>
 <p><span style="color: #3366ff;"><b>沙龙地点：</b></span></p>
@@ -283,19 +330,7 @@ try{convertEntities(p2txt);}catch(e){};;
 	
 
 
-			<div class="respond-wrap" style="display: none; ">
-										<div id="respond" class="comment-respond">
-				<h3 id="reply-title" class="comment-reply-title">回复 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/#respond" style="display:none;">取消回复</a></small></h3>
-									<form action="http://blog.dnspod.cn/wp-comments-post.php" method="post" id="commentform" class="comment-form">
-																			<p class="comment-notes"> 必填项已用 <span class="required">*</span> 标注</p>							<p class="comment-form-author"><label for="author">姓名 <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' required='required' /></p>
-<p class="comment-form-email"><label for="email">电子邮件 <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required' /></p>
-<p class="comment-form-url"><label for="url">站点</label> <input id="url" name="url" type="text" value="" size="30" /></p>
-												<div class="form"><textarea id="comment" class="expand50-100" name="comment" cols="45" rows="3"></textarea></div> <label class="post-error" for="comment" id="commenttext_error"></label>						<span class="progress"><img src="http://blog.dnspod.cn/wp-content/themes/p2012/i/indicator.gif" alt="Loading..." title="Loading..." /></span>
-						<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="回复" /> <input type='hidden' name='comment_post_ID' value='5443' id='comment_post_ID' />
-<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="9a76a0d947" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="17"/></p>					</form>
-							</div><!-- #respond -->
-						</div></li>
+</li>
 				    		<li id="prologue-5438" class="post-5438 post type-post status-publish format-standard hentry category-uncategorized">
 	
 		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
@@ -351,8 +386,8 @@ try{convertEntities(p2txt);}catch(e){};;
 					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
 				<span class="meta">
 			<abbr title="2015-12-11T07:55:46Z">3:55 pm <em>on</em> 2015 年 12 月 11 日</abbr>			<span class="actions">
-														<a href="http://blog.dnspod.cn/2015/12/%e6%96%b0%e9%97%bb%e5%9f%9f%e5%90%8d%e6%a0%b9%e6%9c%8d%e5%8a%a1%e5%99%a8%e9%81%ad%e5%a4%a7%e8%a7%84%e6%a8%a1%e6%94%bb%e5%87%bb%ef%bc%9a%e6%af%8f%e7%a7%92500%e4%b8%87%e6%ac%a1/" class="thepermalink">链接地址</a>
-				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/12/%e6%96%b0%e9%97%bb%e5%9f%9f%e5%90%8d%e6%a0%b9%e6%9c%8d%e5%8a%a1%e5%99%a8%e9%81%ad%e5%a4%a7%e8%a7%84%e6%a8%a1%e6%94%bb%e5%87%bb%ef%bc%9a%e6%af%8f%e7%a7%92500%e4%b8%87%e6%ac%a1/#respond' onclick='return addComment.moveForm( "prologue-5435", "0", "respond", "5435" )'>回复</a>
+														<a href="http://blog.dnspod.cn/2015/12/ddosnews/" class="thepermalink">链接地址</a>
+				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/12/ddosnews/#respond' onclick='return addComment.moveForm( "prologue-5435", "0", "respond", "5435" )'>回复</a>
 							</span>
 							<span class="tags">
 					&nbsp;
@@ -362,7 +397,7 @@ try{convertEntities(p2txt);}catch(e){};;
 
 	
 	<div id="content-5435" class="postcontent">
-		<h2><a href="http://blog.dnspod.cn/2015/12/%e6%96%b0%e9%97%bb%e5%9f%9f%e5%90%8d%e6%a0%b9%e6%9c%8d%e5%8a%a1%e5%99%a8%e9%81%ad%e5%a4%a7%e8%a7%84%e6%a8%a1%e6%94%bb%e5%87%bb%ef%bc%9a%e6%af%8f%e7%a7%92500%e4%b8%87%e6%ac%a1/">[新闻]域名根服务器遭大规模攻击：每秒500万次&nbsp;</a></h2><p><span style="color: #808080;">来源：<a style="color: #808080;" href="http://tech.qq.com/a/20151210/070451.htm">http://tech.qq.com/a/20151210/070451.htm</a></span></p>
+		<h2><a href="http://blog.dnspod.cn/2015/12/ddosnews/">[新闻]域名根服务器遭大规模攻击：每秒500万次&nbsp;</a></h2><p><span style="color: #808080;">来源：<a style="color: #808080;" href="http://tech.qq.com/a/20151210/070451.htm">http://tech.qq.com/a/20151210/070451.htm</a></span></p>
 <p><span style="color: #808080;">作者：李玮</span></p>
 <p><a href="https://www.dnspod.cn/?from=blog" target="_blank"><img class="size-full wp-image-5462 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/12/128994009.png" alt="128994009" width="640" height="274" /></a></p>
 <p>12月10日消息，据国外媒体报道，上周早些时候，互联网基础设施最关键的部分遭到了不同寻常的攻击。在两次时长分别超过1小时的攻击中，多个域名系统根服务器收到了每秒500万次请求。在匹配IP地址和互联网域名的过程中，这些根服务器提供了最终的参考依据。</p>
@@ -714,61 +749,6 @@ try{convertEntities(p2txt);}catch(e){};;
 
 	
 
-
-</li>
-				    		<li id="prologue-5110" class="post-5110 post type-post status-publish format-standard hentry category-uncategorized">
-	
-		<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">
-			<img alt='' src='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=48&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/2c66ad49f5a05b436f7e478b98dad1cd?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo' height='48' width='48' />		</a>
-		<h4>
-					<a href="http://blog.dnspod.cn/author/dnspod/" title="Posts by DNSPod ( @dnspod )">DNSPod</a>
-				<span class="meta">
-			<abbr title="2015-09-16T02:59:29Z">10:59 am <em>on</em> 2015 年 9 月 16 日</abbr>			<span class="actions">
-														<a href="http://blog.dnspod.cn/2015/09/dnspod%e4%ba%91%e4%b8%bb%e6%9c%ba%ef%bc%8c%e5%b8%a6%e4%bd%a0%e4%b8%8a%e4%ba%91%e8%ae%a9%e4%bd%a0%e9%a3%9e/" class="thepermalink">链接地址</a>
-				 | <a rel='nofollow' class='comment-reply-link' href='http://blog.dnspod.cn/2015/09/dnspod%e4%ba%91%e4%b8%bb%e6%9c%ba%ef%bc%8c%e5%b8%a6%e4%bd%a0%e4%b8%8a%e4%ba%91%e8%ae%a9%e4%bd%a0%e9%a3%9e/#respond' onclick='return addComment.moveForm( "prologue-5110", "0", "respond", "5110" )'>回复</a>
-							</span>
-							<span class="tags">
-					&nbsp;
-				</span>
-					</span>
-	</h4>
-
-	
-	<div id="content-5110" class="postcontent">
-		<h2><a href="http://blog.dnspod.cn/2015/09/dnspod%e4%ba%91%e4%b8%bb%e6%9c%ba%ef%bc%8c%e5%b8%a6%e4%bd%a0%e4%b8%8a%e4%ba%91%e8%ae%a9%e4%bd%a0%e9%a3%9e/">[产品]DNSPOD云主机，带你上云让你飞&nbsp;</a></h2><p>9月8日，2015全球云计算大会中国站在上海举行，大会议题完整覆盖云计算产业链的上下游，同时也针对混合云、云生态体系建设等备受瞩目的热点话题展开深入探讨。 “云计算”这个概念自2006年谷歌CEO埃里克·施密特在搜索引擎大会提出后，经历了近两年的爆发性增长，已经被许多企业、政府部门认可和接受。 <a href="https://www.dnspod.cn/products/cvm?from=blog" target="_blank"><img class=" size-full wp-image-5111 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/14036623801584.jpg" alt="14036623801584" width="480" height="342" /></a> 在云计算和大数据的应用推动下，数据价值变得前所未有的重要。云主机系统承载着关键行业的核心业务，是云数据中心安全的核心环节。 DNSPOD作为云计算基础服务生态圈的重要平台，为给用户提供更便捷的一站式服务，发布云主机安全产品解决方案，针对个人网站和中小企业提供不同的云主机服务。 <a href="https://www.dnspod.cn/products/cvm?from=blog" target="_blank"><img class="alignnone wp-image-5112 size-dnspod" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/222-500x278.jpg" alt="222" width="500" height="278" /></a> <span style="color: #00ccff;"><strong>个人版云主机</strong></span> 适合个人网站的云服务器。</p>
-<ul>
-<li>用户：个人、站长</li>
-<li>CPU： 1核</li>
-<li>内存： 1GB</li>
-<li>带宽： 1M</li>
-<li>数据盘： 20GB   本地盘</li>
-<li>系统盘： 免费赠送（linux送8G，windows送50G）</li>
-</ul>
-<p><span style="color: #00ccff;"><strong>企业版云主机</strong></span> 适合成熟中小企业的云服务器。</p>
-<ul>
-<li>用户：初创团队</li>
-<li>CPU： 4核</li>
-<li>内存 ：8GB</li>
-<li>带宽： 5M</li>
-<li>数据盘： 300GB   本地盘</li>
-<li>系统盘 ：免费赠送（linux送8G，windows送50G）</li>
-</ul>
-<p><a href="https://www.dnspod.cn/products/cvm?from=blog" target="_blank"><img class=" size-full wp-image-5113 alignnone" src="http://blog.dnspod.cn/wp-content/uploads/2015/09/137152772956253.jpg" alt="137152772956253" width="600" height="400" /></a> DNSPOD云主机聚焦云端数据安全，可靠性高达99.999%，提供多达20种的安全防护手段，保护用户数据安全。我们将全力推动中国云计算生态系统的迅速发展，推进云计算技术的研发和创新。</p>
-	</div>
-
-	
-			<div class="discussion" style="display: none">
-			<p>
-				 dd is discussing.				<a href="#" class="show-comments">Toggle Comments</a>
-			</p>
-		</div>
-	
-	<div class="bottom-of-entry">&nbsp;</div>
-
-	
-
-<ul class="commentlist inlinecomments">
-	<a href="http://blog.dnspod.cn/2015/09/dnspod%e4%ba%91%e4%b8%bb%e6%9c%ba%ef%bc%8c%e5%b8%a6%e4%bd%a0%e4%b8%8a%e4%ba%91%e8%ae%a9%e4%bd%a0%e9%a3%9e/#comments">1 Comment<span class="screen-reader-text"> on [产品]DNSPOD云主机，带你上云让你飞</span></a></ul>
 
 </li>
 			

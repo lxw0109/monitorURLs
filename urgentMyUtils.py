@@ -533,7 +533,7 @@ def sendEmail(subject, content):
 
         fromAddr = email
         toAddrs = rList #["lxwin@foxmail.com", "wangcuicui@cnnic.cn"]
-        ccAddrs = []#cList #["lxwin@foxmail.com"]
+        ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn"]#cList #["lxwin@foxmail.com"]
         bccAddrs = bList
 
         #toAddrs += ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn"]

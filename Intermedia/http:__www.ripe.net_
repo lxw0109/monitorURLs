@@ -1078,26 +1078,6 @@
 <div class="clearbreak"></div>
 </div>
 <div id="sectione137fb48-b97c-417d-9a6b-2868a86761c9" class="row masonry collections white-bg box-shadow clearfix">
-<div id="block-faef524d1d5c4820a10e8d9ed0cc8fa0" class="padding-inner grey-border landing-box collection margin-top col-md-4">
-<div id="itembef31f7d3b424bcc92d142c13d268d77" class="tab-pane fade in desc_False date_False title_True">
-<div class="block_item">
-<div class="header">
-<a class="h5" href="https://www.ripe.net/participate/ripe/rob-blokzijl-obituary">Rob Blokzijl Obituary</a>
-</div>
-<div class="block_content">
-<p><img src="https://www.ripe.net/collections-area/RobBlokzijl2010.png" alt="" title="" class="padding image-left" width="125" /></p>
-<p class="clearfix">We regret to inform the community that Rob Blokzijl, RIPE Chair Emeritus and founding member of the RIPE community, has died aged 72.</p>
-<p> </p>
-</div>
-<div class="footer_link">
-<a class="blockLink" href="https://www.ripe.net/participate/ripe/rob-blokzijl-obituary">
-                                     More info
-                                     <i class="fa fa-angle-right"></i>
-</a>
-</div>
-</div>
-</div>
-</div>
 <div id="block-7ec65837-420c-48f6-bfe3-e420e6d74717" class="padding grey-border landing-box collection">
 <div id="item5f36f34b7ab3dd107ba7f53c5be6af8f" class="tab-pane fade in desc_False date_True title_True">
 <div class="block_item">
@@ -1107,6 +1087,14 @@
 <div class="block_content">
 <div class="portlet collections margin-bottom grey-border">
 <ul class="collection_item">
+<li>
+<a href="https://www.ripe.net/publications/news/announcements/ripe-ncc-activity-plan-and-budget-2016">
+<span class="Title">RIPE NCC Activity Plan and Budget 2016</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date: 21 Dec 2015</span>
+</span>
+</a>
+</li>
 <li>
 <a href="https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/ipv4-chart-updated">
 <span class="Title">RIPE NCC IPv4 Address Space Chart - Now Updated</span>
@@ -1123,15 +1111,6 @@
 </span>
 </a>
 </li>
-<li>
-<a href="https://www.ripe.net/publications/news/announcements/nro-nc-election-2015-result">
-<span class="Title">NRO NC Election 2015: Result</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date: 20 Nov 2015</span>
-</span>
-</a>
-</li>
-<li><p class="padding-left"></p></li>
 </ul>
 </div>
 </div>
@@ -1254,6 +1233,16 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
+<a href="https://labs.ripe.net/Members/suzanne_taylor_muzzin/exploring-the-idea-of-ripe-atlas-virtual-probes" rel="nofollow">
+<span class="Title">Exploring the Idea of RIPE Atlas Virtual Probes</span>
+<span class="item-details">
+<span class="date nobreak byline_date">Publication date:
+                              <span>21 Dec 2015</span>
+</span>
+</span>
+</a>
+</li>
+<li>
 <a href="https://labs.ripe.net/Members/matt_parker/keeping-the-registry-up-to-date" rel="nofollow">
 <span class="Title">Keeping the Registry Up to Date in a World of IPv4 Transfers</span>
 <span class="item-details">
@@ -1269,16 +1258,6 @@
 <span class="item-details">
 <span class="date nobreak byline_date">Publication date:
                               <span>14 Dec 2015</span>
-</span>
-</span>
-</a>
-</li>
-<li>
-<a href="https://labs.ripe.net/Members/stephane_bortzmeyer/dns-censorship-dns-lies-seen-by-atlas-probes" rel="nofollow">
-<span class="Title">DNS Censorship (DNS Lies) As Seen By RIPE Atlas</span>
-<span class="item-details">
-<span class="date nobreak byline_date">Publication date:
-                              <span>11 Dec 2015</span>
 </span>
 </span>
 </a>
@@ -1323,8 +1302,8 @@
 <!-- we do want the dl -->
 <ul class="collection_item">
 <li>
-<a href="https://www.nro.net/news/the-nro-ec-recognises-that-the-icann-mission-statement-is-currently-under-review-by-the-ccwg" rel="nofollow">
-<span class="Title">The NRO Position on Revision of ICANN Mission Statement</span>
+<a href="https://www.nro.net/news/aso-ac-extends-nomination-period-for-seat-10-on-the-icann-board-of-directors" rel="nofollow">
+<span class="Title">ASO AC Extends Nomination Period for Seat 10 on the ICANN Board of Directors</span>
 </a>
 </li>
 </ul>

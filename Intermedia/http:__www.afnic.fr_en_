@@ -388,7 +388,7 @@
                                                       <a href="/en/resources/subscriptions-and-social-networks-6.html">Subscriptions and social networks</a>
                                                   </li>
                                                                                                 <li>
-                                                      <a href="/en/resources/afnic-newsletter-41.html">Afnic Newsletter</a>
+                                                      <a href="/en/resources/afnic-newsletter-42.html">Afnic Newsletter</a>
                                                   </li>
                                                                                         </ul>
                                                                 </td>
@@ -401,7 +401,8 @@
                   							                    									 <li><a href="/en/resources/publications/annual-reports-1.html">Annual reports</a></li>
                   							                    									 <li><a href="/en/resources/publications/reports-of-meetings-of-governing-and-consultative-bodies-12.html">Reports of meetings of governing and consultative bodies</a></li>
                   							  
-                  								                  				                            								    <li><a href="/en/resources/publications/french-domain-name-industry-report/">French Domain Name Industry Report</a></li>
+                  								                  				                            								    <li><a href="/en/resources/publications/practical-guides/">Practical Guides</a></li>
+                  								                    								    <li><a href="/en/resources/publications/french-domain-name-industry-report/">French Domain Name Industry Report</a></li>
                   								                    								    <li><a href="/en/resources/publications/issue-papers/">Issue Papers</a></li>
                   								                    								    <li><a href="/en/resources/publications/legal-brochures/">Legal brochures</a></li>
                   								                    								                  							</ul>
@@ -504,6 +505,9 @@
           <div class="homepage_header">
               <div class="homeBanner">        <div style="position: relative;width: 705px; height: 320px"> 
             <div  class="slideshow theatre theatre-fade" >
+                                    <a href="#" title="animation">
+                        <img src="/uploads/animations/front/054592d6bb5d843076abb238802f1e1fb8d28e86.jpg" alt="" />
+                    </a>
                                     <a href="https://opendata.afnic.fr/en/products-and-services/services/opendata-en.html" title="animation">
                         <img src="/uploads/animations/front/c6a935d2b7db69039cf8ea48a9710cea25ebb927.jpg" alt="" />
                     </a>
@@ -523,7 +527,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="4a19eff8250a0041da982f955004068c" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="303e9b10e996a070f9ec0fba28ae46bb" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>

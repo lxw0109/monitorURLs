@@ -1,136 +1,70 @@
-Sun Dec 13 00:00:01 CST 2015 --- Clear Log OK
+Sun Dec 20 00:00:01 CST 2015 --- Clear Log OK
 
-lxw_IOError: 	2015-12-13-09:10:02
+lxw_IOError: 	2015-12-20-09:10:01
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-12-13-09:10:05
+lxw_IOError: 	2015-12-20-09:10:05
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-Information: URL recovery. lxw_KeyError: http://www.nominet.org.uk/news/press-releases	2015-12-13-09:10:09
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-13-09:10:09
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 675, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.nominet.org.uk_news_press-releases'
-
-lxw_IOError: 	2015-12-13-09:10:10
+lxw_IOError: 	2015-12-20-09:10:08
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING: 	2015-12-13-09:10:11
+EMAIL SENDING: 	2015-12-20-09:10:09
 
-EMAIL SENDING SUCCESS: 	2015-12-13-09:10:20
+EMAIL SENDING SUCCESS: 	2015-12-20-09:10:12
 
-EMAIL SENDING: 	2015-12-13-09:10:20
+EMAIL SENDING: 	2015-12-20-09:10:12
 
-EMAIL SENDING SUCCESS: 	2015-12-13-09:10:22
+EMAIL SENDING SUCCESS: 	2015-12-20-09:10:16
 
-Monitor Finished.   Monitor Time: 2015-12-13-09:10:22.   Time Cost: 0'20"
+Monitor Finished.   Monitor Time: 2015-12-20-09:10:16.   Time Cost: 0'15"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_IOError: 	2015-12-14-09:10:02
+lxw_IOError: 	2015-12-21-09:10:01
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-12-14-09:10:05
+lxw_IOError: 	2015-12-21-09:10:05
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-Information: URL recovery. lxw_KeyError: http://www.twnic.tw/index4.php	2015-12-14-09:10:06
-
-lxw_IOError: 	2015-12-14-09:10:08
+lxw_IOError: 	2015-12-21-09:10:09
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING: 	2015-12-14-09:10:15
+EMAIL SENDING: 	2015-12-21-09:10:25
 
-EMAIL SENDING SUCCESS: 	2015-12-14-09:10:16
+EMAIL SENDING SUCCESS: 	2015-12-21-09:10:32
 
-EMAIL SENDING: 	2015-12-14-09:10:16
-
-EMAIL SENDING SUCCESS: 	2015-12-14-09:10:22
-
-Monitor Finished.   Monitor Time: 2015-12-14-09:10:22.   Time Cost: 0'20"
+Monitor Finished.   Monitor Time: 2015-12-21-09:10:32.   Time Cost: 0'30"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_IOError: 	2015-12-15-09:10:02
+lxw_IOError: 	2015-12-22-09:10:02
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-12-15-09:10:02
+lxw_IOError: 	2015-12-22-09:10:06
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-Information: URL recovery. lxw_KeyError: http://www.cira.ca/news/news-releases/	2015-12-15-09:10:08
-
-lxw_IOError: 	2015-12-15-09:10:09
+lxw_IOError: 	2015-12-22-09:10:08
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING: 	2015-12-15-09:10:12
+lxw_Timed Out: http://www.us-cert.gov/	2015-12-22-09:11:02
 
-EMAIL SENDING SUCCESS: 	2015-12-15-09:10:18
+EMAIL SENDING: 	2015-12-22-09:11:02
 
-EMAIL SENDING: 	2015-12-15-09:10:18
+EMAIL SENDING SUCCESS: 	2015-12-22-09:11:15
 
-EMAIL SENDING SUCCESS: 	2015-12-15-09:10:19
-
-Monitor Finished.   Monitor Time: 2015-12-15-09:10:19.   Time Cost: 0'17"
+Monitor Finished.   Monitor Time: 2015-12-22-09:11:15.   Time Cost: 1'13"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_IOError: 	2015-12-16-09:10:01
+lxw_IOError: 	2015-12-23-09:10:01
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-12-16-09:10:05
+lxw_IOError: 	2015-12-23-09:10:04
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-12-16-09:10:07
+Information: URL recovery. lxw_KeyError: http://www.us-cert.gov/	2015-12-23-09:10:04
+
+lxw_IOError: 	2015-12-23-09:10:10
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-Monitor Finished.   Monitor Time: 2015-12-16-09:10:11.   Time Cost: 0'10"
-------------------------------------------------------------------------------
+EMAIL SENDING: 	2015-12-23-09:10:18
 
-------------------------------------------------------------------------------
-lxw_IOError: 	2015-12-17-09:10:01
-[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-12-17-09:10:06
-[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-12-17-09:10:08
-[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING: 	2015-12-17-09:10:23
+EMAIL SENDING SUCCESS: 	2015-12-23-09:10:22
 
-EMAIL SENDING SUCCESS: 	2015-12-17-09:10:24
+EMAIL SENDING: 	2015-12-23-09:10:22
 
-Monitor Finished.   Monitor Time: 2015-12-17-09:10:24.   Time Cost: 0'22"
-------------------------------------------------------------------------------
+EMAIL SENDING SUCCESS: 	2015-12-23-09:10:34
 
-------------------------------------------------------------------------------
-lxw_IOError: 	2015-12-18-09:10:02
-[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-12-18-09:10:08
-[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-12-18-09:10:09
-[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-Information: URL recovery. lxw_KeyError: http://www.cira.ca/news/news-releases/	2015-12-18-09:10:10
-
-EMAIL SENDING: 	2015-12-18-09:10:13
-
-EMAIL SENDING SUCCESS: 	2015-12-18-09:10:30
-
-EMAIL SENDING: 	2015-12-18-09:10:30
-
-EMAIL SENDING SUCCESS: 	2015-12-18-09:10:32
-
-Monitor Finished.   Monitor Time: 2015-12-18-09:10:32.   Time Cost: 0'29"
-------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------
-lxw_IOError: 	2015-12-19-09:10:02
-[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-Information: URL recovery. lxw_KeyError: http://www.twnic.tw/index4.php	2015-12-19-09:10:03
-
-Information: URL recovery. lxw_KeyError: http://www.nsfocus.com/	2015-12-19-09:10:04
-
-Information: URL recovery. lxw_KeyError: https://kb.isc.org/	2015-12-19-09:10:04
-
-lxw_IOError: 	2015-12-19-09:10:05
-[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-Information: URL recovery. lxw_KeyError: http://www.isc.org/downloads/bind/	2015-12-19-09:10:07
-
-Information: URL recovery. lxw_KeyError: http://www.isc.org/downloads/software-support-policy/security-advisory/	2015-12-19-09:10:07
-
-lxw_IOError: 	2015-12-19-09:10:10
-[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING: 	2015-12-19-09:10:34
-
-EMAIL SENDING SUCCESS: 	2015-12-19-09:10:43
-
-Monitor Finished.   Monitor Time: 2015-12-19-09:10:43.   Time Cost: 0'41"
+Monitor Finished.   Monitor Time: 2015-12-23-09:10:34.   Time Cost: 0'32"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
