@@ -68,3 +68,33 @@ Monitor Finished.   Monitor Time: 2015-12-23-09:10:34.   Time Cost: 0'32"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
+lxw_IOError: 	2015-12-24-09:10:01
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOError: 	2015-12-24-09:10:05
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+Information: URL recovery. lxw_KeyError: http://www.cira.ca/news/news-releases/	2015-12-24-09:10:07
+
+lxw_IOError: 	2015-12-24-09:10:08
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+EMAIL SENDING: 	2015-12-24-09:10:11
+
+EMAIL SENDING SUCCESS: 	2015-12-24-09:10:23
+
+Monitor Finished.   Monitor Time: 2015-12-24-09:10:23.   Time Cost: 0'21"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+lxw_IOError: 	2015-12-25-09:10:02
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOError: 	2015-12-25-09:10:05
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2015-12-25-09:10:09
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+EMAIL SENDING: 	2015-12-25-09:10:12
+
+EMAIL SENDING SUCCESS: 	2015-12-25-09:10:19
+
+Monitor Finished.   Monitor Time: 2015-12-25-09:10:19.   Time Cost: 0'18"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------

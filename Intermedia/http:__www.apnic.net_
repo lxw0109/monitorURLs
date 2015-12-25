@@ -52,15 +52,15 @@
 <!-- IE Support -->
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
-        <script src="https://www.apnic.net/_designs/corporate-identity/js/html5shiv.min.js"></script>
-        <script src="https://www.apnic.net/_designs/corporate-identity/js/respond.min.js"></script>
+        <script src="http://www.apnic.net/_designs/corporate-identity/js/html5shiv.min.js"></script>
+        <script src="http://www.apnic.net/_designs/corporate-identity/js/respond.min.js"></script>
 <![endif]-->
 
 <!-- JS Core -->
         <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <script src="https://www.apnic.net/__data/assets/js_file/0004/76360/miscjs.js?v=0.6.3"></script>
+        <script src="http://www.apnic.net/__data/assets/js_file/0004/76360/miscjs.js?v=0.6.3"></script>
 
 
 						
@@ -70,7 +70,7 @@
   Running Squiz Matrix
   Developed by Squiz - http://www.squiz.net
   Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
-  Page generated: 22 December 2015 11:11:39
+  Page generated: 24 December 2015 11:11:38
 -->
 
 

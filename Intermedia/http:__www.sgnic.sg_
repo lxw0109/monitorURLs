@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-7PGyDaLqj-oEjfyzkCBDCGbGcU2bHZbbCE2cilMlfBk" value="form-7PGyDaLqj-oEjfyzkCBDCGbGcU2bHZbbCE2cilMlfBk"  />
+<input type="hidden" name="form_build_id" id="form-FST3V0uRQ2E-MTh_0R7qDMFStj9r3ZFabJEB2xvdqo0" value="form-FST3V0uRQ2E-MTh_0R7qDMFStj9r3ZFabJEB2xvdqo0"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-egELVMp3bFonostUb15DvF-DgZ5SEsqk6W0_mFMzzCQ" value="form-egELVMp3bFonostUb15DvF-DgZ5SEsqk6W0_mFMzzCQ"  />
+<input type="hidden" name="form_build_id" id="form-2PcGNa95357KmIH_6RmmzXST7ZTUJ2-wzMjJgBs6UdA" value="form-2PcGNa95357KmIH_6RmmzXST7ZTUJ2-wzMjJgBs6UdA"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">December 21, 2015, 11:05 am</span>
+                <span class="field-content">December 23, 2015, 12:02 pm</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/12/21/test-your-ipv6-via-tunnelling/">Testing your IPv6 via tunnelling</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/12/23/three-of-the-best-mobile-internet/">Three of the best: Mobile Internet</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">December 18, 2015, 6:35 am</span>
+                <span class="field-content">December 23, 2015, 10:06 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/12/18/sydney-blockchain-workshop-lawrence-lessig-law-net/">Sydney Blockchain Workshop: Lawrence Lessig on the law and the net</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/12/23/wgig-reflects-on-internet-governance-achievements/">WGIG reflects on Internet governance achievements</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">December 17, 2015, 3:10 pm</span>
+                <span class="field-content">December 23, 2015, 10:04 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/12/17/event-wrap-taiwan-internet-forum/">Event Wrap: Taiwan Internet Forum</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/12/23/world-internet-conference-wuzhen-summit-2015/">Event Wrap: World Internet Conference – Wuzhen Summit 2015</a></span>
   </div>
 </li>
       </ul>

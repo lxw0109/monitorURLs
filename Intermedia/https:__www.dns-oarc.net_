@@ -83,7 +83,8 @@ DNS-OARC 24th Workshop, Buenos Aires, <a href="https://indico.dns-oarc.net/event
 <li class="leaf"><a href="/oarc/services/dontprobe" title="Database of networks and addresses that should not be actively probed">Dont Probe</a></li>
 <li class="leaf last"><a href="https://www.as112.net" title="">AS112</a></li>
 </ul></li>
-<li class="expanded"><a href="https://indico.dns-oarc.net/index.py">Upcoming Workshops</a><ul class="menu"><li class="leaf first last"><a href="https://indico.dns-oarc.net/event/22/" title="">2016 Buenos Aires</a></li>
+<li class="expanded"><a href="https://indico.dns-oarc.net/index.py">Upcoming Workshops</a><ul class="menu"><li class="leaf first"><a href="https://indico.dns-oarc.net/event/25/" title="">2016 Dallas</a></li>
+<li class="leaf last"><a href="https://indico.dns-oarc.net/event/22/" title="">2016 Buenos Aires</a></li>
 </ul></li>
 <li class="collapsed"><a href="https://indico.dns-oarc.net/" title="Information about OARC&#039;s parts workshops">Past Workshops</a></li>
 <li class="collapsed"><a href="/oarc/tools">DNS Tools Catalog</a></li>
@@ -120,7 +121,7 @@ DNS-OARC 24th Workshop, Buenos Aires, <a href="https://indico.dns-oarc.net/event
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-uYBv8RAhEyirh60clNwVKazWa8MwLWA5jqFL7WVU9Tc" value="form-uYBv8RAhEyirh60clNwVKazWa8MwLWA5jqFL7WVU9Tc"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-ZCD-raPqJ55HPlrfMqk3lP71abTUVfxYW-qXUJL373I" value="form-ZCD-raPqJ55HPlrfMqk3lP71abTUVfxYW-qXUJL373I"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -137,7 +138,7 @@ DNS-OARC 24th Workshop, Buenos Aires, <a href="https://indico.dns-oarc.net/event
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-E2Quc9XJXJdR50cmLB80w7W-F2npYYuw6DYdoPhO2cM" value="form-E2Quc9XJXJdR50cmLB80w7W-F2npYYuw6DYdoPhO2cM"  />
+<input type="hidden" name="form_build_id" id="form-qmT-GMGny9nIc8QrlkFY2fg1mgcCjudZR2zGEny1L_U" value="form-qmT-GMGny9nIc8QrlkFY2fg1mgcCjudZR2zGEny1L_U"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
