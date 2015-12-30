@@ -54,7 +54,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="domain" id="edit-domain" size="15" value="" title="Enter the domain you wish to look up." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-FST3V0uRQ2E-MTh_0R7qDMFStj9r3ZFabJEB2xvdqo0" value="form-FST3V0uRQ2E-MTh_0R7qDMFStj9r3ZFabJEB2xvdqo0"  />
+<input type="hidden" name="form_build_id" id="form-4xkQXjNnZfTX47qZTETv_dp2V5epcho_8vN9Ee5vIVk" value="form-4xkQXjNnZfTX47qZTETv_dp2V5epcho_8vN9Ee5vIVk"  />
 <input type="hidden" name="form_id" id="edit-sgnicwhois-box" value="sgnicwhois_box"  />
 
 </div></form>
@@ -69,7 +69,7 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-2PcGNa95357KmIH_6RmmzXST7ZTUJ2-wzMjJgBs6UdA" value="form-2PcGNa95357KmIH_6RmmzXST7ZTUJ2-wzMjJgBs6UdA"  />
+<input type="hidden" name="form_build_id" id="form-a9uAvlp8o4WHWkW2FGqr4jFXAoLRLP3RVv14_9yYdGU" value="form-a9uAvlp8o4WHWkW2FGqr4jFXAoLRLP3RVv14_9yYdGU"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
@@ -171,29 +171,29 @@ $(document).ready(function(){ $('.menu li, .menu').pngFix(); });
     <ul>
           <li class="views-row views-row-1 views-row-odd views-row-first">  
   <div class="views-field-timestamp">
-                <span class="field-content">December 23, 2015, 12:02 pm</span>
+                <span class="field-content">December 28, 2015, 9:17 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/12/23/three-of-the-best-mobile-internet/">Three of the best: Mobile Internet</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/12/28/igf-ipv6-best-practice-document-now-available/">IGF IPv6 Best Practice Document now available</a></span>
   </div>
 </li>
           <li class="views-row views-row-2 views-row-even">  
   <div class="views-field-timestamp">
-                <span class="field-content">December 23, 2015, 10:06 am</span>
+                <span class="field-content">December 28, 2015, 7:51 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/12/23/wgig-reflects-on-internet-governance-achievements/">WGIG reflects on Internet governance achievements</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/12/28/three-of-the-best-guest-posts-2/">Three of the best: Guest posts</a></span>
   </div>
 </li>
           <li class="views-row views-row-3 views-row-odd views-row-last">  
   <div class="views-field-timestamp">
-                <span class="field-content">December 23, 2015, 10:04 am</span>
+                <span class="field-content">December 27, 2015, 8:48 am</span>
   </div>
   
   <div class="views-field-title">
-                <span class="field-content"><a href="http://blog.apnic.net/2015/12/23/world-internet-conference-wuzhen-summit-2015/">Event Wrap: World Internet Conference – Wuzhen Summit 2015</a></span>
+                <span class="field-content"><a href="http://blog.apnic.net/2015/12/27/three-of-the-best-internet-governance-2/">Three of the best: Internet Governance</a></span>
   </div>
 </li>
       </ul>

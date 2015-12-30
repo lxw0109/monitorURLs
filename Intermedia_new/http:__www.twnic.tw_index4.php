@@ -351,13 +351,7 @@ MM_reloadPage(true);
                               <table border="0" cellpadding="0" cellspacing="0">
                                 <tr>
                                   <td valign="top" width="22">
-            <tr><td></td><td>[公告]</td><td></td></tr><tr><td><img src="http://www.twnic.net.tw/img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="/NEWS/2332.pdf" target="_blank">
-網域名稱註冊系統維護公告</a>(2015-12-18)</td></tr>
-<tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
-<td height="17"><font size="2"><a href="http://www.twnic.net.tw/2015talks/" target="_blank">
-歡迎參加「.tw/.台灣網路趨勢系列講座@台北x台中」- 12月25日台北場次: 網路社群</a>(2015-12-01)</td></tr>
-<tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
+            <tr><td></td><td>[公告]</td><td></td></tr><tr><td></td><td>[活動]</td><td></td></tr><tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://iview.twnic.net.tw/?page_id=227" target="_blank">
 國際瞭望— IoT (Internet of Things)面臨的挑戰</a>(2015-11-10)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
@@ -387,7 +381,6 @@ TWNIC出版2015年夏季刊</a>(2015-06-15)</td></tr>
 <tr><td><img src="img/backhome2.gif" width="11" height="11" align="absmiddle" cellspacing="0" cellpadding="0"></td>
 <td height="17"><font size="2"><a href="http://www.myhome.net.tw/" target="_blank">
 歡迎訂閱TWNIC電子報</a>(2015-01-01)</td></tr>
-            <? system("perl ./news.cgi"); ?>
                                   </td>
                                 </tr>
                               </table>
@@ -495,9 +488,6 @@ TWNIC出版2015年夏季刊</a>(2015-06-15)</td></tr>
 </tr>
 <tr align="center">
 <td><a href="https://www.gsnv6.tw/ipv6_104/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/232.gif" border="0"></a></td>
-</tr>
-<tr align="center">
-<td><a href="http://dns-security.twnic.net.tw" target="_blank"><img src="http://www.twnic.net.tw/brarchive/58.gif" border="0"></a></td>
 </tr>
 <tr align="center">
 <td><a href="http://www.twnic.net.tw/tw-class/" target="_blank"><img src="http://www.twnic.net.tw/brarchive/159.gif" border="0"></a></td>

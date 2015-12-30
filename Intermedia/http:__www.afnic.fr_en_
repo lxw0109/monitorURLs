@@ -78,12 +78,12 @@
     </div>
 </div>
           <div class="searchBox">
-    <form action="/en/search-result" method="get">
-      <input type="hidden" name="search[sort]" value="score" id="search_sort" />	    <input type="text" name="search[keyword]" id="search_keyword" />      <input type="submit" name="submit" value="Search" />
+    <form action="/fr/resultat-de-la-recherche" method="get">
+      <input type="hidden" name="search[sort]" value="score" id="search_sort" />	    <input type="text" name="search[keyword]" id="search_keyword" />      <input type="submit" name="submit" value="Rechercher" />
     </form>
 
     <div class="clear"></div>
-    <a href="/en/search">Advanced search</a>
+    <a href="/fr/recherche">Recherche avancée</a>
 </div>
         </div>
 
@@ -300,7 +300,7 @@
                                                     									 <li><a href="/en/dispute-resolution/tools-and-procedures/personal-data-disclosure-request-form-10.html">Personal data disclosure request form</a></li>
                   							                    									 <li><a href="/en/dispute-resolution/tools-and-procedures/verification-request-15.html">Verification request</a></li>
                   							  
-                  								                  				                            								    <li><a href="/en/dispute-resolution/tools-and-procedures/parl-alternative-dispute-resolution-procedures/">Parl : alternative dispute resolution procedures</a></li>
+                  								                  				                            								    <li><a href="/en/dispute-resolution/tools-and-procedures/adr-alternative-dispute-resolution-procedures/">ADR : alternative dispute resolution procedures</a></li>
                   								                    								    <li><a href="/en/dispute-resolution/tools-and-procedures/reach-a-domain-name-administative-contact/">Reach a domain name administative contact</a></li>
                   								                    								    <li><a href="/en/dispute-resolution/tools-and-procedures/reporting-a-domain-name-that-is-illicit-or-contrary-to-public-law-and-order/">Reporting a domain name that is illicit or contrary to public law and order</a></li>
                   								                    								                  							</ul>
@@ -527,7 +527,7 @@
               <div class="homeWhois blueBox domainNameAvailabilityBox"><div class="blueBox domainNameAvailabilityBox">
   <p>Is this domain <br />available ?</p>
   <form method="post" action="/en/products-and-services/services/whois/">
-    <input type="hidden" name="whois[_csrf_token]" value="7bf69b5c03ede4a3b261c9f1dc06659a" id="whois__csrf_token" />    <table>
+    <input type="hidden" name="whois[_csrf_token]" value="b103b1962c6bfde6b33e9b079b8bbede" id="whois__csrf_token" />    <table>
       <tr>
         <td>
           <input type="text" name="whois[name]" title="Your domain name" id="whois_name" />        </td>
@@ -588,7 +588,7 @@
     <h4><span>You are :</span></h4>
 
     <div id="profileContent">
-                    <h3><span>A domain name holder</span></h3>
+                    <h3><span>A domain name registrant</span></h3>
             <div>
                 <ul class="navigation_link">
 			                    
@@ -667,6 +667,11 @@
   
   <ul>
           <li>
+            <span class="date"><em>12/28/15</em></span>
+      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9544/show/rights-holders-how-to-protect-your-rights-under-the-fr-tld-1.html">Rights-holders: how to protect your rights under the .fr TLD </a></span>
+      <span class="content"><a href="/en/about-afnic/news/general-news/9544/show/rights-holders-how-to-protect-your-rights-under-the-fr-tld-1.html">Afnic has published a practical guide for rights-holders, the first in its new collection of practical guides.</a></span>
+    </li>
+       <li>
       <span class="type"><em>Press release</em></span>      <span class="date"><em>12/15/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9522/show/opendata-data-from-the-fr-tld-to-serve-innovation.html">OpenData: Data from the .fr TLD to serve innovation</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9522/show/opendata-data-from-the-fr-tld-to-serve-innovation.html">Afnic, a leader of the Internet in France, is continuing its initiatives to promote the development of innovation by providing activity data from the ...</a></span>
@@ -685,11 +690,6 @@
       <span class="type"><em>Press release</em></span>      <span class="date"><em>12/7/15</em></span>
       <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9513/show/french-geotlds-boost-the-domain-name-market.html">French GeoTLDs Boost the Domain Name Market</a></span>
       <span class="content"><a href="/en/about-afnic/news/general-news/9513/show/french-geotlds-boost-the-domain-name-market.html">Launched a year ago, the new TLDs for use in France (.paris, .bzh, etc.) are now part of the country’s digital landscape.  </a></span>
-    </li>
-       <li>
-      <span class="type"><em>Press release</em></span>      <span class="date"><em>11/30/15</em></span>
-      <span class="title"><em></em><a href="/en/about-afnic/news/general-news/9488/show/afnic-wins-at-french-communication-awards.html">Afnic wins at French Communication Awards</a></span>
-      <span class="content"><a href="/en/about-afnic/news/general-news/9488/show/afnic-wins-at-french-communication-awards.html">The campaign to promote .fr wins first prize at the Trophée de la Communincation Awards 2015.</a></span>
     </li>
      </ul>
     <div class="mainContent" style="padding:0">

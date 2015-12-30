@@ -155,7 +155,7 @@ document.write('<link id="sheet2" href="/css/ietf2.css" rel="stylesheet" type="t
                 <p>(<a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/IqX-LAuvAmncjkYmoIB61T4e3C0%3D/">Read full announcement in the archives here</a>.)</p></td>
                 <td height="61" valign="top" bgcolor="#ffffff"><ul>
                   <li><a href="meeting/94/index.html">IETF 94 Information</a></li>
-                  <li><a href="https://datatracker.ietf.org/meeting/94/materials.html">IETF 94 Proceedings</a></li>
+                  <li><a href="proceedings/94/">IETF 94 Proceedings</a></li>
                 </ul></td>
               </tr>
               <tr>

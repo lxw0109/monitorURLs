@@ -121,7 +121,7 @@ DNS-OARC 24th Workshop, Buenos Aires, <a href="https://indico.dns-oarc.net/event
 </div>
 <input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
 <div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
-</ul></div><input type="hidden" name="form_build_id" id="form-S6KJ1hCISdeIH2oei8XwXvPLzyLpx5UjxsRaLh2HkGc" value="form-S6KJ1hCISdeIH2oei8XwXvPLzyLpx5UjxsRaLh2HkGc"  />
+</ul></div><input type="hidden" name="form_build_id" id="form-jh3iX2-B4o-fzKwl0hWGvdUiATpytaFTpmDaaOR3b3w" value="form-jh3iX2-B4o-fzKwl0hWGvdUiATpytaFTpmDaaOR3b3w"  />
 <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
 
 </div></form>
@@ -138,7 +138,7 @@ DNS-OARC 24th Workshop, Buenos Aires, <a href="https://indico.dns-oarc.net/event
  <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
 </div>
 <input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
-<input type="hidden" name="form_build_id" id="form-KEtNCgRqBg4ZnBAdh0WK6C0lHzVbVaPZFiYCm1T5KdA" value="form-KEtNCgRqBg4ZnBAdh0WK6C0lHzVbVaPZFiYCm1T5KdA"  />
+<input type="hidden" name="form_build_id" id="form-xZoZtcx_6yUd28OkdD18O_L_DISUrEdLDIMsC-vI_bA" value="form-xZoZtcx_6yUd28OkdD18O_L_DISUrEdLDIMsC-vI_bA"  />
 <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
 </div>
 
