@@ -769,10 +769,16 @@ def diff2Str(filename, sourceCode):
         #solve the "specific labels unchange problem"
         finList = pickFilter(finList[:])
 
+        #filter the meaningless lines
+        length = len(finList)
+        del(filterList)
+        filterList = []
+        [filterList.append(item) for item in finList if len(item) > 7 ]
+
         #Sort the result:
         #The content added shows at front, content removed follows behind.
         #return sorted(finList)
-        return finList
+        return filterList
 
     except IOError, e:
         writeLog("lxw_IOERROR Occurred(File not found, url revives now.)", "", traceback.format_exc())
