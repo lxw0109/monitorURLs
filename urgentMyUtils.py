@@ -537,8 +537,7 @@ def sendEmail(subject, content):
         if "无信息更新" in content or "网站访问故障" in content: #NOT: if "无信息更新" or "网站访问故障" in content:
             ccAddrs = []
         else:
-            #ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn"]#cList #["lxwin@foxmail.com"]
-            ccAddrs = []
+            ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn"]#cList #["lxwin@foxmail.com"]
         bccAddrs = bList
 
         #toAddrs += ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn"]
@@ -778,7 +777,7 @@ def diff2Str(filename, sourceCode):
         finList = pickFilter(finList[:])
 
         #2016.2.18 Remove content of old information.
-        #finList = contentFilter(finList)
+        finList = contentFilter(finList)
 
         return finList
 
