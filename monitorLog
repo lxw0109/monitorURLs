@@ -1,246 +1,124 @@
-Sun Dec 27 00:00:01 CST 2015 --- Clear Log OK
+Sun Feb 14 00:00:01 CST 2016 --- Clear Log OK
 
-lxw_IOError: 	2015-12-27-09:10:01
+lxw_IOError: 	2016-02-14-09:10:01
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-12-27-09:10:05
+Information: URL recovery. lxw_KeyError: https://kb.isc.org/	2016-02-14-09:10:03
+
+lxw_IOError: 	2016-02-14-09:10:05
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-12-27-09:10:22
+Information: URL recovery. lxw_KeyError: http://www.isc.org/downloads/bind/	2016-02-14-09:10:07
+
+Information: URL recovery. lxw_KeyError: http://www.isc.org/downloads/software-support-policy/security-advisory/	2016-02-14-09:10:07
+
+lxw_IOError: 	2016-02-14-09:10:08
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING: 	2015-12-27-09:10:22
+lxw_Timed Out: http://jprs.co.jp/en/press/	2016-02-14-09:11:02
 
-EMAIL SENDING SUCCESS: 	2015-12-27-09:10:35
+lxw_Timed Out: http://jprs.co.jp/en/press/	2016-02-14-09:11:02
 
-EMAIL SENDING: 	2015-12-27-09:10:35
+lxw_Timed Out: http://jprs.co.jp/en/press/	2016-02-14-09:11:02
 
-EMAIL SENDING SUCCESS: 	2015-12-27-09:10:41
+lxw_Timed Out: http://jprs.co.jp/en/press/	2016-02-14-09:11:02
 
-Monitor Finished.   Monitor Time: 2015-12-27-09:10:41.   Time Cost: 0'39"
+lxw_Timed Out: http://jprs.co.jp/en/press/	2016-02-14-09:11:02
+
+lxw_Timed Out: http://jprs.co.jp/en/press/	2016-02-14-09:11:02
+
+lxw_Timed Out: http://jprs.co.jp/en/press/	2016-02-14-09:11:02
+
+lxw_Timed Out: http://jprs.co.jp/en/press/	2016-02-14-09:11:02
+
+lxw_Timed Out: http://jprs.co.jp/en/press/	2016-02-14-09:11:02
+
+lxw_Timed Out: http://jprs.co.jp/en/press/	2016-02-14-09:11:02
+
+lxw_Timed Out: http://jprs.co.jp/en/press/	2016-02-14-09:11:02
+
+lxw_Timed Out: http://jprs.co.jp/en/press/	2016-02-14-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-14-09:11:02
+
+EMAIL SENDING: 	2016-02-14-09:11:02
+
+EMAIL SENDING SUCCESS: 	2016-02-14-09:11:06
+
+EMAIL SENDING: 	2016-02-14-09:11:06
+
+EMAIL SENDING SUCCESS: 	2016-02-14-09:11:20
+
+Monitor Finished.   Monitor Time: 2016-02-14-09:11:20.   Time Cost: 1'18"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:01
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__apac.cn_secgames_'
-
-lxw_IOError: 	2015-12-29-09:10:02
+lxw_IOError: 	2016-02-15-09:10:01
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:02
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.wooyun.org_'
+Information: URL recovery. lxw_KeyError: http://jprs.co.jp/en/press/	2016-02-15-09:10:02
 
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:02
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.cert.org.cn_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:02
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.cnvd.org.cn_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:02
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__loudong.360.cn_vul_list'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:02
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/https:__www.monic.mo_monic_faces_index'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:02
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.aptld.org_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:02
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__blog.dnspod.cn_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:03
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.sgnic.sg_'
-
-lxw_IOError: 	2015-12-29-09:10:03
+lxw_IOError: 	2016-02-15-09:10:04
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:03
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.isc.org.cn_'
+Information: URL recovery. lxw_KeyError: http://www.secure64.com/press_releases	2016-02-15-09:10:05
 
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:03
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/https:__www.dns-oarc.net_'
+Information: URL recovery. lxw_KeyError: http://www.verisigninc.com/zh_CN/internet-technology-news/verisign-press-releases/archives/index.xhtml	2016-02-15-09:10:05
 
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:03
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.ietf.org_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:03
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/https:__www.icann.org_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:03
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.us-cert.gov_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:03
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/https:__www.hkdnr.hk_?lang=cn'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:03
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.apnic.net_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:04
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/https:__www.opendns.com_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:04
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.ripe.net_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:05
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.afilias.info_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:05
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.verisigninc.com_zh_CN_internet-technology-news_verisign-press-releases_archives_index.xhtml'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:05
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__pir.org_news-events_for-press_press-releases_'
-
-Information: URL recovery. lxw_KeyError: http://www.twnic.tw/index4.php	2015-12-29-09:10:05
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:05
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.twnic.tw_index4.php'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:05
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.afrinic.net_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:07
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.denic.de_en_homepage.html'
-
-lxw_IOError: 	2015-12-29-09:10:08
+lxw_IOError: 	2016-02-15-09:10:08
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:09
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.nsfocus.com_'
+EMAIL SENDING: 	2016-02-15-09:10:12
 
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:10
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.nominet.org.uk_news_press-releases'
+EMAIL SENDING SUCCESS: 	2016-02-15-09:10:22
 
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:11
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.afnic.fr_en_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:11
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.isc.org_downloads_software-support-policy_security-advisory_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:11
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.isc.org_downloads_bind_'
-
-lxw_IOERROR Occurred(File not found, url revives now.): 	2015-12-29-09:10:12
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 694, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.cira.ca_news_news-releases_'
-
-EMAIL SENDING: 	2015-12-29-09:10:12
-
-EMAIL SENDING SUCCESS: 	2015-12-29-09:10:18
-
-Monitor Finished.   Monitor Time: 2015-12-29-09:10:18.   Time Cost: 0'16"
+Monitor Finished.   Monitor Time: 2016-02-15-09:10:22.   Time Cost: 0'20"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_IOError: 	2015-12-30-09:10:02
+lxw_IOError: 	2016-02-16-09:10:01
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-12-30-09:10:06
+lxw_IOError: 	2016-02-16-09:10:05
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-12-30-09:10:08
+lxw_IOError: 	2016-02-16-09:10:10
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING: 	2015-12-30-09:10:12
+EMAIL SENDING: 	2016-02-16-09:10:33
 
-EMAIL SENDING SUCCESS: 	2015-12-30-09:10:27
+EMAIL SENDING SUCCESS: 	2016-02-16-09:10:37
 
-Monitor Finished.   Monitor Time: 2015-12-30-09:10:27.   Time Cost: 0'25"
+EMAIL SENDING: 	2016-02-16-09:10:37
+
+EMAIL SENDING SUCCESS: 	2016-02-16-09:10:53
+
+Monitor Finished.   Monitor Time: 2016-02-16-09:10:53.   Time Cost: 0'51"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_IOError: 	2015-12-31-09:10:01
+lxw_IOError: 	2016-02-17-09:10:02
 [Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2015-12-31-09:10:05
+Information: URL recovery. lxw_KeyError: http://loudong.360.cn/vul/list	2016-02-17-09:10:02
+
+lxw_IOError: 	2016-02-17-09:10:05
 [Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2015-12-31-09:10:08
+lxw_IOError: 	2016-02-17-09:10:09
 [Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-lxw_Timed Out: http://www.nominet.org.uk/news/press-releases	2015-12-31-09:11:02
+EMAIL SENDING: 	2016-02-17-09:10:09
 
-EMAIL SENDING: 	2015-12-31-09:11:02
+EMAIL SENDING SUCCESS: 	2016-02-17-09:10:13
 
-EMAIL SENDING SUCCESS: 	2015-12-31-09:11:10
+EMAIL SENDING: 	2016-02-17-09:10:13
 
-Monitor Finished.   Monitor Time: 2015-12-31-09:11:10.   Time Cost: 1'9"
+EMAIL SENDING SUCCESS: 	2016-02-17-09:10:24
+
+Monitor Finished.   Monitor Time: 2016-02-17-09:10:24.   Time Cost: 0'22"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+lxw_IOError: 	2016-02-18-09:10:01
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOError: 	2016-02-18-09:10:04
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2016-02-18-09:10:09
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+EMAIL SENDING: 	2016-02-18-09:10:47
+
+EMAIL SENDING SUCCESS: 	2016-02-18-09:10:59
+
+Monitor Finished.   Monitor Time: 2016-02-18-09:10:59.   Time Cost: 0'57"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------

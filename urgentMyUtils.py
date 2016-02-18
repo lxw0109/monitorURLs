@@ -537,7 +537,8 @@ def sendEmail(subject, content):
         if "无信息更新" in content or "网站访问故障" in content: #NOT: if "无信息更新" or "网站访问故障" in content:
             ccAddrs = []
         else:
-            ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn"]#cList #["lxwin@foxmail.com"]
+            #ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn"]#cList #["lxwin@foxmail.com"]
+            ccAddrs = []
         bccAddrs = bList
 
         #toAddrs += ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn"]
@@ -776,9 +777,9 @@ def diff2Str(filename, sourceCode):
         #solve the "specific labels unchange problem"
         finList = pickFilter(finList[:])
 
-        #Sort the result:
-        #The content added shows at front, content removed follows behind.
-        #return sorted(finList)
+        #2016.2.18 Remove content of old information.
+        #finList = contentFilter(finList)
+
         return finList
 
     except IOError, e:
@@ -788,6 +789,20 @@ def diff2Str(filename, sourceCode):
     except Exception, e:
         writeLog("lxw_ERROR.", "Unexpected Exception.", traceback.format_exc())
         return []
+
+def contentFilter(aList):
+    """
+    Deal with "Content Filter" in contentFilter().
+    Content Filters:
+    1. CVE-2013-????:*  Remove the vulnerabilities before 2015.
+    2.
+    """
+    retList = []
+    for item in aList:
+        if item[2:8] == 'CVE-20':
+            if int(item[8:10]) > 15:
+                retList.append(item)
+    return retList
 
 
 def diff2Str_stale(filename, filenameNew):

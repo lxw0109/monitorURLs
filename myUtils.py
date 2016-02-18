@@ -69,215 +69,6 @@ def writeFile(url, length, md5Str):
         f.write("{0},{1},{2}\n".format(url, length, md5Str))
         fileLock.release()
 
-def qs(arr):
-	if not arr:
-		return []
-	low = []
-	high = []
-	for x in arr[1:]:
-		if x <= arr[0]:
-			low.append(x)
-		else:
-			high.append(x)
-	low = qs(low)
-	high = qs(high)
-	return low + arr[:1] + high	# low + arr[0] + high   is NOT OK! --> ERROR PROMPT: 'can only concatenate list(not int) to list'
-
-def qsBetter(arr):
-	if not arr:
-		return []
-	return qs([x for x in arr[1:] if x <= arr[0]]) + arr[:1] + qs([x for x in arr[1:] if x > arr[0]])
-
-def kthBig(arr, k):
-    assert arr
-    arr1 = [x for x in arr[1:] if x > arr[0]]
-    length = len(arr1)
-    if length == k:
-        res = arr[0]    # The EXIT of RECURSION.
-    elif len(arr1) > k:
-        res = kthBig(arr1, k)
-    else:
-        res = kthBig([x for x in arr[1:] if x <= arr[0]], k - length - 1)
-    return res
-
-def selectBig(arr, times):
-    num = 0
-    bound = len(arr)
-    index = 0
-    while num < times:
-        target = -sys.maxint - 1    #arr[0]
-        index = 0
-        while index < bound:
-            if arr[index] > target:
-                target = arr[index]
-                targetIndex = index
-            index += 1
-        if targetIndex != bound - 1:    # swap.
-            arr[bound - 1], arr[targetIndex] = arr[targetIndex], arr[bound - 1]
-        bound -= 1
-        num += 1
-    return target
-
-def bigKItems(arr, k):
-    assert arr
-    arr1 = [x for x in arr[1:] if x > arr[0]]
-    arr2 = [x for x in arr[1:] if x <= arr[0]]
-    length = len(arr1)
-    if length == k:
-        arr[:] = arr1 + arr[0:1] + arr2
-        return    # The EXIT of RECURSION.
-    elif len(arr1) > k:
-        bigKItems(arr1, k)
-        #bigKItems(arr[0:len(arr1)], k)  # NO
-    else:
-        bigKItems(arr2, k - length - 1)
-        #bigKItems(arr[len(arr1)+1:], k - length - 1)    # NO
-    arr[:] = arr1 + arr[0:1] + arr2
-
-def getIPMT(hostname):
-    try:
-        localIP = socket.gethostbyname(hostname)
-        sleep(5)
-        return "Hostname: {0}\t IP: {1}\n".format(hostname, localIP)
-    except Exception, e:
-        print hostname
-
-def getIPs():
-    threadingNum = threading.Semaphore(50)
-    threads = []
-    with open("hosts") as f:
-        while 1:
-            hostname = f.readline().strip()
-            if not hostname:
-                break
-            mt = MyThread(getIPMT, (hostname,), threadingNum)
-            threads.append(mt)
-
-    for thread in threads:
-        thread.start()
-
-    with open("./result", "a") as f:
-        for thread in threads:
-            thread.join()
-            f.write(thread.getResult())
-
-def quickSort(arr, start, end):
-	if start >= end:
-		return
-	i = start
-	j = end
-	target = arr[i]
-	while i < j:
-		while arr[i] <= target and i < end:
-			i += 1
-		while arr[j] > target and j > start:
-			j -= 1
-		if i < j:
-			arr[i], arr[j] = arr[j], arr[i]
-	arr[start] = arr[j]
-	arr[j] = target
-	quickSort(arr, start, j - 1)
-	quickSort(arr, j + 1, end)
-
-def show(arr):
-	for x in arr:
-		print str(x) + ' ',
-	print ''
-
-def processIP():
-    if len(sys.argv) != 2:
-        print 'Usage: "python fileName dataFile"'
-        sys.exit(0)
-    elif not os.path.isfile(sys.argv[1]):
-        print "You've input an illegal fileName."
-        print 'Usage: "python fileName dataFile"'
-        sys.exit(0)
-
-    try:
-        ipAmount = {}
-        #for lineContent in fileinput.input(sys.argv[1], "r"):
-        for lineContent in fileinput.input(sys.argv[1]):
-            process(lineContent, ipAmount)
-
-        num = raw_input("Order by which column?(1 or 2) ")
-        if num == "1":
-            for item in sorted(ipAmount.keys()):
-                print "{0:<10}{1:<20}{2:<20}".format(item, ipAmount[item], ipAmount[item]/256)
-        elif num == "2":
-            templist = sorted(ipAmount.iteritems(), key = lambda x:x[1], reverse=True)   #list
-            for item in templist:
-                print "{0:<10}{1:<20}{2:<20}".format(item[0], ipAmount[item[0]], ipAmount[item[0]]/256)
-
-    except Exception, e:
-        print "NOTE: Exception --> " + str(e)
-        traceback.print_exc()
-
-
-def process(line, Amount):
-    lineList = line.split("|")
-    if len(lineList) < 2:
-        return
-
-    if lineList[2] == "ipv4":
-        if len(lineList[1]) == 2:
-            if not Amount.get(lineList[1]):
-                Amount[lineList[1]] = int(lineList[4])
-            else:
-                Amount[lineList[1]] += int(lineList[4])
-
-def randomInt():
-    target = random.randint(1, 100)
-    while 1:
-        number = input("Please input an integer:")
-        if number == target:
-            print "You got it"
-            break
-        elif number > target:
-            print "Smaller"
-        else:
-            print "Bigger"
-    print "Over"
-    for i in range(0, 5):
-        print i,
-    for i in range(1, 10, 2):
-        print i,
-
-def printMax(a, b):
-    if a > b:
-        print "{0} > {1}".format(a, b)
-    elif a < b:
-        print "{0} < {1}".format(a, b)
-    else:
-        print "{0} = {1}".format(a, b)
-
-class Person(object):
-    def __init__(self, name):
-        self.name = name
-    def sayHello(self):
-        print "Hello {0}".format(self.name)
-    def func(self):
-        pass
-
-def retFunc(x, y):
-    if x > y:
-        return x
-    else:
-        return y
-
-
-def exception():
-    try:
-        text = raw_input("Enter something:")
-    except EOFError:  # Ctrl + D
-        print("Why did you do an EOF on me?")
-    except KeyboardInterrupt:  # Ctrl + C
-        print("You cancelled the operation.")
-    else:
-        print("You entered {0}".format(text))
-
-def reverse(text):
-    return text[::-1]
-
 def dealUrls():
     f = open("./urls")
     f1 = open("./.urls", "w")
@@ -775,9 +566,9 @@ def diff2Str(filename, sourceCode):
         filterList = []
         [filterList.append(item) for item in finList if len(item) > 7 ]
 
-        #Sort the result:
-        #The content added shows at front, content removed follows behind.
-        #return sorted(finList)
+        #2016.2.18 Remove content of old information.
+        filterList = contentFilter(filterList)
+
         return filterList
 
     except IOError, e:
@@ -787,6 +578,20 @@ def diff2Str(filename, sourceCode):
     except Exception, e:
         writeLog("lxw_ERROR", "", traceback.format_exc())
         return []
+
+def contentFilter(aList):
+    """
+    Deal with "Content Filter" in contentFilter().
+    Content Filters:
+    1. CVE-2013-????:*  Remove the vulnerabilities before 2015.
+    2.
+    """
+    retList = []
+    for item in aList:
+        if item[2:8] == 'CVE-20':
+            if int(item[8:10]) > 15:
+                retList.append(item)
+    return retList
 
 
 def diff2Str_stale(filename, filenameNew):
