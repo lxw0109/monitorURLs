@@ -589,7 +589,7 @@ def contentFilter(aList):
     retList = []
     for item in aList:
         if item[2:8] == 'CVE-20':
-            if int(item[8:10]) > 15:
+            if int(item[8:10]) > 14:
                 retList.append(item)
     return retList
 
