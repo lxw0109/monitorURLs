@@ -1,0 +1,428 @@
+<<<<<<< HEAD
+lxw_IOError: 	2016-02-24-17:03:33
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOError: 	2016-02-24-17:03:36
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2016-02-24-17:03:37
+[Errno 2] No such file or directory: './Intermedia/http:__www.denic.de_en_homepage.html'
+Information: URL recovery. lxw_KeyError: https://kb.isc.org/	2016-02-24-17:03:44
+
+lxw_IOError: 	2016-02-24-17:04:11
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+EMAIL SENDING: 	2016-02-24-17:04:41
+
+EMAIL SENDING SUCCESS: 	2016-02-24-17:05:01
+
+EMAIL SENDING: 	2016-02-24-17:05:01
+
+EMAIL SENDING SUCCESS: 	2016-02-24-17:05:01
+
+Monitor Finished.   Monitor Time: 2016-02-24-17:05:01.   Time Cost: 1'28"
+=======
+Sun Feb 21 00:00:01 CST 2016 --- Clear Log OK
+
+lxw_IOError: 	2016-02-21-09:10:01
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+Information: URL recovery. lxw_KeyError: http://www.twnic.tw/index4.php	2016-02-21-09:10:03
+
+lxw_IOError: 	2016-02-21-09:10:04
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+Information: URL recovery. lxw_KeyError: http://www.verisigninc.com/zh_CN/internet-technology-news/verisign-press-releases/archives/index.xhtml	2016-02-21-09:10:04
+
+lxw_IOError: 	2016-02-21-09:10:15
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+EMAIL SENDING: 	2016-02-21-09:10:15
+
+EMAIL SENDING SUCCESS: 	2016-02-21-09:10:23
+
+EMAIL SENDING: 	2016-02-21-09:10:23
+
+EMAIL SENDING SUCCESS: 	2016-02-21-09:10:27
+
+Monitor Finished.   Monitor Time: 2016-02-21-09:10:27.   Time Cost: 0'25"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+lxw_IOError: 	2016-02-22-09:10:02
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+Information: URL recovery. lxw_KeyError: http://www.afnic.fr/en/	2016-02-22-09:10:06
+
+lxw_IOError: 	2016-02-22-09:10:06
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-22-09:11:02
+
+lxw_Timed Out: http://www.dotasia.org/index.html	2016-02-22-09:11:02
+
+EMAIL SENDING: 	2016-02-22-09:11:02
+
+EMAIL SENDING SUCCESS: 	2016-02-22-09:11:05
+
+Monitor Finished.   Monitor Time: 2016-02-22-09:11:05.   Time Cost: 1'3"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+lxw_IOError: 	2016-02-22-09:11:17
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+lxw_IOError: 	2016-02-23-09:10:01
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+Information: URL recovery. lxw_KeyError: http://www.secure64.com/press_releases	2016-02-23-09:10:04
+
+lxw_IOError: 	2016-02-23-09:10:04
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2016-02-23-09:10:13
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+lxw_Timed Out: https://www.opendns.com/	2016-02-23-09:11:02
+
+EMAIL SENDING: 	2016-02-23-09:11:02
+
+EMAIL SENDING SUCCESS: 	2016-02-23-09:11:03
+
+Monitor Finished.   Monitor Time: 2016-02-23-09:11:03.   Time Cost: 1'2"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+lxw_IOError: 	2016-02-24-09:10:02
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOError: 	2016-02-24-09:10:06
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2016-02-24-09:10:31
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: https://www.opendns.com/	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.secure64.com/press_releases	2016-02-24-09:11:03
+
+lxw_Timed Out: http://www.chinagov.cn/	2016-02-24-09:11:03
+
+Monitor Finished.   Monitor Time: 2016-02-24-09:11:03.   Time Cost: 1'1"
+>>>>>>> 0aec64d4b2391f577c180699d7f2c4f6f6ece9b5
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:14:55
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.aptld.org_'
+
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:14:56
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__blog.dnspod.cn_'
+
+lxw_IOError: 	2016-02-24-17:14:56
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:14:56
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/https:__www.dns-oarc.net_'
+
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:14:56
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.wooyun.org_'
+
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:14:57
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__loudong.360.cn_vul_list'
+
+lxw_IOError: 	2016-02-24-17:14:57
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:14:58
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.cnvd.org.cn_'
+
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:14:59
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.afilias.info_'
+
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:14:59
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.afrinic.net_'
+
+lxw_IOError: 	2016-02-24-17:15:00
+[Errno 2] No such file or directory: './Intermedia/http:__www.denic.de_en_homepage.html'
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:15:01
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/https:__www.icann.org_'
+
+Information: URL recovery. lxw_KeyError: http://www.isc.org/downloads/software-support-policy/security-advisory/	2016-02-24-17:15:02
+
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:15:02
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.isc.org_downloads_software-support-policy_security-advisory_'
+
+Information: URL recovery. lxw_KeyError: http://www.isc.org/downloads/bind/	2016-02-24-17:15:02
+
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:15:02
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.isc.org_downloads_bind_'
+
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:15:02
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.afnic.fr_en_'
+
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:15:03
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.nominet.org.uk_news_press-releases'
+
+lxw_IOError: 	2016-02-24-17:15:05
+[Errno 2] No such file or directory: './Intermedia/http:__www.twnic.tw_index4.php'
+lxw_IOError: 	2016-02-24-17:15:10
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+EMAIL SENDING: 	2016-02-24-17:15:40
+
+EMAIL SENDING SUCCESS: 	2016-02-24-17:15:48
+
+EMAIL SENDING: 	2016-02-24-17:15:48
+
+EMAIL SENDING SUCCESS: 	2016-02-24-17:15:53
+
+Monitor Finished.   Monitor Time: 2016-02-24-17:15:53.   Time Cost: 0'57"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+lxw_IOError: 	2016-02-24-17:17:02
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOError: 	2016-02-24-17:17:04
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2016-02-24-17:17:05
+[Errno 2] No such file or directory: './Intermedia/http:__www.denic.de_en_homepage.html'
+Information: URL recovery. lxw_KeyError: http://www.twnic.tw/index4.php	2016-02-24-17:17:09
+
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:17:09
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.twnic.tw_index4.php'
+
+lxw_IOError: 	2016-02-24-17:17:23
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+EMAIL SENDING: 	2016-02-24-17:17:53
+
+EMAIL SENDING SUCCESS: 	2016-02-24-17:17:54
+
+EMAIL SENDING: 	2016-02-24-17:17:54
+
+EMAIL SENDING SUCCESS: 	2016-02-24-17:18:00
+
+Monitor Finished.   Monitor Time: 2016-02-24-17:18:00.   Time Cost: 0'59"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+lxw_IOError: 	2016-02-24-17:40:11
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2016-02-24-17:40:12
+[Errno 2] No such file or directory: './Intermedia/http:__www.denic.de_en_homepage.html'
+Information: URL recovery. lxw_KeyError: http://www.secure64.com/press_releases	2016-02-24-17:40:14
+
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:40:14
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.secure64.com_press_releases'
+
+lxw_IOError: 	2016-02-24-17:40:16
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOError: 	2016-02-24-17:40:20
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+EMAIL SENDING: 	2016-02-24-17:40:25
+
+EMAIL SENDING SUCCESS: 	2016-02-24-17:40:27
+
+Monitor Finished.   Monitor Time: 2016-02-24-17:40:27.   Time Cost: 0'22"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
