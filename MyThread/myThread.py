@@ -22,7 +22,6 @@ class MyThread(threading.Thread):
         self.threadingNum = num
         self.url = self.args[0]
 
-
     def isTimedOut(self):
         """
         Judge whether the current thread timed out or not.
@@ -34,18 +33,11 @@ class MyThread(threading.Thread):
         else:
             return False
 
-
-    #NO_USE
     def getURL(self):
-        """
-        get the url that the thread monitor
-        """
         return self.url
-
 
     def getResult(self):
         return self.res
-
 
     def run(self):
         with self.threadingNum:

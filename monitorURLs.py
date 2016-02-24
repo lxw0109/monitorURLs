@@ -14,6 +14,7 @@ from MyThread.myThread import MyThread
 import myUtils
 import sys
 import traceback
+from threadpool import ThreadPool  #lxw_tp
 
 #Element format: url:length, md5)
 oldUrlObjDic = {}
@@ -192,7 +193,10 @@ def main_fresh(dbOrNot):
         aeURLs.append(string)
     f.close()
 
-    threadingNum = threading.Semaphore(THREADS_NUM)
+    #lxw_tp
+    #threadingNum = threading.Semaphore(THREADS_NUM)
+    tp = ThreadPool(THREADS_NUM)
+
     threads = []
     urlCount = 0
     # monitor each url in .urls file
@@ -202,14 +206,22 @@ def main_fresh(dbOrNot):
         if not url:
             break
         #Multiple Thread: Deal with "one url by one single thread".
-        mt = MyThread(monitor, (url,), threadingNum)
+
+#lxw_tp
+        #mt = MyThread(monitor, (url,), threadingNum)
+        tp.add_task(monitor, url)
         #mt.start()
-        threads.append(mt)
+        #threads.append(mt)
+
         urlCount += 1
     f.close()
-    for thread in threads:
-        thread.start()
 
+#lxw_tp
+    tp.destroy()
+    #for thread in threads:
+    #    thread.start()
+
+    """
     while 1:
         over = True
         for thread in threads:
@@ -220,6 +232,7 @@ def main_fresh(dbOrNot):
                     myUtils.writeLog("lxw_Timed Out", thread.getURL(), "")
         if over:
             break
+    """
 
     if aeCount > 0:
         allContent = "本次共监测网站{0}个, 其中有{1}个网站访问异常, 详细信息如下:\n\n{2}".format(urlCount, aeCount, aeContent)
