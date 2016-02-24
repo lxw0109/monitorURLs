@@ -111,7 +111,7 @@ Considering that the number of urls to be monitored may be LARGE, the program li
  ```
 5. ["The entire Python program exits when no alive non-daemon threads are left"](https://docs.python.org/2.7/library/threading.html),
 **So, I make the program could terminate in finite time by using "setDaemon(True) and join(30) in [threadpool/threadpool.py](https://github.com/lxw0109/monitorURLs/blob/master/threadpool%2Fthreadpool.py)" method**.</br>
-[Reference](http://www.cnblogs.com/jefferybest/archive/2011/10/09/2204050.html)
+[Reference1: "python原生结束线程的方法"中的评论](http://www.cnblogs.com/jefferybest/archive/2011/10/09/2204050.html), [Reference2: Does Daemon Thread Exit with Main Thread?] (http://www.cnblogs.com/lxw0109/p/daemon_thread.html)
 
 ###Peformance:
 1. Time cost:<br>
