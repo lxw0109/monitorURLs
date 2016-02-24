@@ -109,8 +109,8 @@ Considering that the number of urls to be monitored may be LARGE, the program li
 ```
 python ./monitorURLs.py "debug" >> ./monitorLog
 ```
-5. [The entire Python program exits when no alive non-daemon threads are left](https://docs.python.org/2.7/library/threading.html)
-***So, I make the program could terminate in finite time by using setDaemon(True) method**.
+5. [The entire Python program exits when no alive non-daemon threads are left](https://docs.python.org/2.7/library/threading.html)</br>
+**So, I make the program could terminate in finite time by using setDaemon(True) method**.</br>
 [Reference](http://www.cnblogs.com/jefferybest/archive/2011/10/09/2204050.html)
 
 ###Peformance:
