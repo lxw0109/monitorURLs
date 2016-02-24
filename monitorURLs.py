@@ -33,7 +33,7 @@ aeLock = threading.RLock()   # Access Error: Email Subject/Content RLock.
 uwLock = threading.RLock()   # Update Warning: Email Subject/Content RLock.
 nuodLock = threading.RLock()    # newUrlObjDic assignment RLock.
 
-THREADS_NUM = 100   # limit the number of threads
+THREADS_NUM = 10   # limit the number of threads
 
 class URL(object):
     """

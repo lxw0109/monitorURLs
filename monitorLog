@@ -402,3 +402,27 @@ Monitor Finished.   Monitor Time: 2016-02-24-17:18:00.   Time Cost: 0'59"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
+lxw_IOError: 	2016-02-24-17:40:11
+[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
+lxw_IOError: 	2016-02-24-17:40:12
+[Errno 2] No such file or directory: './Intermedia/http:__www.denic.de_en_homepage.html'
+Information: URL recovery. lxw_KeyError: http://www.secure64.com/press_releases	2016-02-24-17:40:14
+
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-24-17:40:14
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.secure64.com_press_releases'
+
+lxw_IOError: 	2016-02-24-17:40:16
+[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
+lxw_IOError: 	2016-02-24-17:40:20
+[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
+EMAIL SENDING: 	2016-02-24-17:40:25
+
+EMAIL SENDING SUCCESS: 	2016-02-24-17:40:27
+
+Monitor Finished.   Monitor Time: 2016-02-24-17:40:27.   Time Cost: 0'22"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
