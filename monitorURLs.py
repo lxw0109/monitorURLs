@@ -33,6 +33,7 @@ aeLock = threading.RLock()   # Access Error: Email Subject/Content RLock.
 uwLock = threading.RLock()   # Update Warning: Email Subject/Content RLock.
 nuodLock = threading.RLock()    # newUrlObjDic assignment RLock.
 
+#lxw_tp
 THREADS_NUM = 10   # limit the number of threads
 
 class URL(object):
@@ -207,7 +208,7 @@ def main_fresh(dbOrNot):
             break
         #Multiple Thread: Deal with "one url by one single thread".
 
-#lxw_tp
+        #lxw_tp
         #mt = MyThread(monitor, (url,), threadingNum)
         tp.add_task(monitor, url)
         #mt.start()
@@ -216,7 +217,7 @@ def main_fresh(dbOrNot):
         urlCount += 1
     f.close()
 
-#lxw_tp
+    #lxw_tp
     tp.destroy()
     #for thread in threads:
     #    thread.start()
