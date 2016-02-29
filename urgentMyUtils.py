@@ -532,15 +532,13 @@ def sendEmail(subject, content):
         bList = filterList(bList)
 
         fromAddr = email
-        toAddrs = rList #["lxwin@foxmail.com", "wangcuicui@cnnic.cn"]
+        toAddrs = rList
         #lxw 2015.12.23
         if "无信息更新" in content or "网站访问故障" in content: #NOT: if "无信息更新" or "网站访问故障" in content:
             ccAddrs = []
         else:
-            ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn"]#cList #["lxwin@foxmail.com"]
+            ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn"]
         bccAddrs = bList
-
-        #toAddrs += ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn"]
 
         message = Message()
         message["Subject"] = subject
@@ -548,7 +546,6 @@ def sendEmail(subject, content):
         message["To"] = ";".join(toAddrs)
         #Copy to
         #message["CC"] is only for display, to send the email we must specify it in the method "SMTP.sendmail".
-        #message["CC"] = "gengguanggang@cnnic.cn;yanzhiwei@cnnic.cn"
         message["CC"] = ";".join(ccAddrs)
         message.set_payload(content)
         message.set_charset("utf-8")
