@@ -31,8 +31,8 @@ import socket
 from time import sleep
 from pyquery import PyQuery
 import sys
-reload(sys)
-sys.setdefaultencoding("utf-8")
+#reload(sys)
+#sys.setdefaultencoding("utf-8")
 
 fileLock = threading.RLock()
 logLock = threading.RLock()
@@ -537,7 +537,8 @@ def sendEmail(subject, content):
         if "无信息更新" in content or "网站访问故障" in content: #NOT: if "无信息更新" or "网站访问故障" in content:
             ccAddrs = []
         else:
-            ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn"]
+            ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn", "is@cnnic.cn"]
+            #ccAddrs = []
         bccAddrs = bList
 
         message = Message()
@@ -775,6 +776,8 @@ def diff2Str(filename, sourceCode):
 
         #2016.2.18 Remove content of old information.
         finList = contentFilter(finList)
+
+        writeLog("lxw_DEBUG.", "---------------", "\n".join(finList))
 
         return finList
 

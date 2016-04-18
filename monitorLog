@@ -1,50 +1,18 @@
-Sun Feb 28 00:00:01 CST 2016 --- Clear Log OK
+Sun Apr 17 00:00:01 CST 2016 --- Clear Log OK
 
-lxw_IOError: 	2016-02-28-09:10:07
-[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-Information: URL recovery. lxw_KeyError: https://www.opendns.com/	2016-02-28-09:10:08
+EMAIL SENDING: 	2016-04-17-09:11:13
 
-lxw_IOERROR Occurred(File not found, url revives now.): 	2016-02-28-09:10:08
-Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/https:__www.opendns.com_'
+EMAIL SENDING SUCCESS: 	2016-04-17-09:11:22
 
-lxw_IOError: 	2016-02-28-09:10:10
-[Errno 2] No such file or directory: './Intermedia/http:__www.denic.de_en_homepage.html'
-lxw_IOError: 	2016-02-28-09:10:12
-[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-lxw_IOError: 	2016-02-28-09:10:27
-[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING: 	2016-02-28-09:10:27
-
-EMAIL SENDING SUCCESS: 	2016-02-28-09:10:35
-
-EMAIL SENDING: 	2016-02-28-09:10:35
-
-EMAIL SENDING SUCCESS: 	2016-02-28-09:10:36
-
-Monitor Finished.   Monitor Time: 2016-02-28-09:10:36.   Time Cost: 0'35"
+Monitor Finished.   Monitor Time: 2016-04-17-09:11:22.   Time Cost: 1'20"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-lxw_IOError: 	2016-02-29-09:10:09
-[Errno 2] No such file or directory: './Intermedia/https:__www.powerdns.com_news_news-archive.html'
-lxw_IOError: 	2016-02-29-09:10:10
-[Errno 2] No such file or directory: './Intermedia/http:__www.denic.de_en_homepage.html'
-lxw_IOError: 	2016-02-29-09:10:14
-[Errno 2] No such file or directory: './Intermedia/http:__www.isra.org.cn_news_index.htm'
-EMAIL SENDING: 	2016-02-29-09:11:17
+EMAIL SENDING: 	2016-04-18-09:11:16
 
-EMAIL SENDING SUCCESS: 	2016-02-29-09:11:18
+EMAIL SENDING SUCCESS: 	2016-04-18-09:11:26
 
-EMAIL SENDING: 	2016-02-29-09:11:18
-
-lxw_IOError: 	2016-02-29-09:11:19
-[Errno 2] No such file or directory: './Intermedia/http:__www.dotasia.org_index.html'
-EMAIL SENDING SUCCESS: 	2016-02-29-09:11:26
-
-Monitor Finished.   Monitor Time: 2016-02-29-09:11:26.   Time Cost: 1'24"
+Monitor Finished.   Monitor Time: 2016-04-18-09:11:26.   Time Cost: 1'24"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
