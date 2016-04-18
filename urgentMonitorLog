@@ -252,3 +252,43 @@ Monitor Finished.   Monitor Time: 2016-04-18-11:00:12.   Time Cost: 0'10"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
+EMAIL SENDING: 	2016-04-18-12:00:11
+
+EMAIL SENDING SUCCESS: 	2016-04-18-12:00:27
+
+Monitor Finished.   Monitor Time: 2016-04-18-12:00:27.   Time Cost: 0'26"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Information: URL recovery. lxw_KeyError: https://kb.isc.org/	2016-04-18-13:00:14
+
+lxw_DEBUG.: ---------------	2016-04-18-13:00:14
+
+EMAIL SENDING: 	2016-04-18-13:00:14
+
+EMAIL SENDING SUCCESS: 	2016-04-18-13:00:20
+
+Monitor Finished.   Monitor Time: 2016-04-18-13:00:20.   Time Cost: 0'18"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Information: URL recovery. lxw_KeyError: http://www.isc.org/	2016-04-18-13:47:11
+
+lxw_DEBUG.: ---------------	2016-04-18-13:47:11
+
+Information: URL recovery. lxw_KeyError: https://kb.isc.org/category/74/0/10/Software-Products/BIND9/Security-Advisories/	2016-04-18-13:47:12
+
+lxw_IOERROR Occurred.: File not found, url revives now.	2016-04-18-13:47:12
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/urgentMyUtils.py", line 699, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './urgentIntermedia/https:__kb.isc.org_category_74_0_10_Software-Products_BIND9_Security-Advisories_'
+
+EMAIL SENDING: 	2016-04-18-13:47:13
+
+EMAIL SENDING SUCCESS: 	2016-04-18-13:47:19
+
+Monitor Finished.   Monitor Time: 2016-04-18-13:47:19.   Time Cost: 0'13"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
