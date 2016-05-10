@@ -1,26 +1,40 @@
-Sun Apr 17 00:00:01 CST 2016 --- Clear Log OK
+Sun May  8 00:00:01 CST 2016 --- Clear Log OK
 
-EMAIL SENDING: 	2016-04-17-09:11:13
+lxw_IOError: 	2016-05-08-09:10:10
+[Errno 2] No such file or directory: './Intermedia/http:__www.denic.de_en_homepage.html'
+EMAIL SENDING: 	2016-05-08-09:10:20
 
-EMAIL SENDING SUCCESS: 	2016-04-17-09:11:22
+EMAIL SENDING SUCCESS: 	2016-05-08-09:10:24
 
-Monitor Finished.   Monitor Time: 2016-04-17-09:11:22.   Time Cost: 1'20"
+Monitor Finished.   Monitor Time: 2016-05-08-09:10:24.   Time Cost: 0'22"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-EMAIL SENDING: 	2016-04-18-09:11:16
+lxw_IOError: 	2016-05-09-09:10:10
+[Errno 2] No such file or directory: './Intermedia/http:__www.denic.de_en_homepage.html'
+EMAIL SENDING: 	2016-05-09-09:10:48
 
-EMAIL SENDING SUCCESS: 	2016-04-18-09:11:26
+EMAIL SENDING SUCCESS: 	2016-05-09-09:10:58
 
-Monitor Finished.   Monitor Time: 2016-04-18-09:11:26.   Time Cost: 1'24"
+Monitor Finished.   Monitor Time: 2016-05-09-09:10:58.   Time Cost: 0'57"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
-EMAIL SENDING: 	2016-04-18-11:27:09
+lxw_IOError: 	2016-05-10-09:10:10
+[Errno 2] No such file or directory: './Intermedia/http:__www.denic.de_en_homepage.html'
+Information: URL recovery. lxw_KeyError: http://search.gmane.org/	2016-05-10-09:10:18
 
-EMAIL SENDING SUCCESS: 	2016-04-18-11:27:20
+lxw_IOERROR Occurred(File not found, url revives now.): 	2016-05-10-09:10:18
+Traceback (most recent call last):
+  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
+    with open(filename) as f:
+IOError: [Errno 2] No such file or directory: './Intermedia/http:__search.gmane.org_'
 
-Monitor Finished.   Monitor Time: 2016-04-18-11:27:20.   Time Cost: 1'22"
+EMAIL SENDING: 	2016-05-10-09:10:19
+
+EMAIL SENDING SUCCESS: 	2016-05-10-09:10:20
+
+Monitor Finished.   Monitor Time: 2016-05-10-09:10:20.   Time Cost: 0'18"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
