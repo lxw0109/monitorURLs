@@ -536,6 +536,7 @@ def sendEmail(subject, content):
         #lxw 2015.12.23
         if "无信息更新" in content or "网站访问故障" in content: #NOT: if "无信息更新" or "网站访问故障" in content:
             ccAddrs = []
+            return  # No useful message. Don't send the email.
         else:
             ccAddrs = ["gengguanggang@cnnic.cn", "yanzhiwei@cnnic.cn", "wangcuicui@cnnic.cn", "is@cnnic.cn"]
             #ccAddrs = []
