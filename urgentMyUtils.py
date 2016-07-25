@@ -343,6 +343,7 @@ def getServerEmail():
         server = decode(server)
         email = email.strip()
         passwd = passwd.strip()
+        print passwd
         server = server.strip()
         f.close()
         return email, passwd, server

@@ -1,24 +1,78 @@
-Sun May 15 00:00:01 CST 2016 --- Clear Log OK
+Sun Jul 24 00:00:01 CST 2016 --- Clear Log OK
 
-lxw_IOError: 	2016-05-15-09:10:11
-[Errno 2] No such file or directory: './Intermedia/http:__www.denic.de_en_homepage.html'
-Information: URL recovery. lxw_KeyError: http://www.isc.org.cn/	2016-05-15-09:10:17
+lxw_IOError: 	2016-07-24-09:10:09
+[Errno 2] No such file or directory: './Intermedia/http:__www.cira.ca_news_news-releases_'
+Information: URL recovery. lxw_KeyError: http://www.ripe.net/	2016-07-24-09:10:10
 
-lxw_IOERROR Occurred(File not found, url revives now.): 	2016-05-15-09:10:17
+Information: URL recovery. lxw_KeyError: http://www.cnvd.org.cn/	2016-07-24-09:10:13
+
+EMAIL SENDING: 	2016-07-24-09:10:41
+
+EMAIL SENDING SUCCESS: 	2016-07-24-09:10:41
+
+EMAIL SENDING: 	2016-07-24-09:10:41
+
+EMAIL SENDING SUCCESS: 	2016-07-24-09:10:43
+
+Monitor Finished.   Monitor Time: 2016-07-24-09:10:43.   Time Cost: 0'42"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+lxw_IOError: 	2016-07-25-09:10:09
+[Errno 2] No such file or directory: './Intermedia/http:__www.cira.ca_news_news-releases_'
+Monitor Finished.   Monitor Time: 2016-07-25-09:10:20.   Time Cost: 0'18"
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+TEST EMAIL SENDING: 	2016-07-25-21:20:36
+
+TEST EMAIL SENDING ERROR: SMTPAuthenticationError	2016-07-25-21:20:39
 Traceback (most recent call last):
-  File "/home/cnnic/monitorURL/myUtils.py", line 485, in diff2Str
-    with open(filename) as f:
-IOError: [Errno 2] No such file or directory: './Intermedia/http:__www.isc.org.cn_'
+  File "config.py", line 310, in testSendEmail
+    sm.login(userName, password)
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, 'Error: authentication failed')
 
-EMAIL SENDING: 	2016-05-15-09:11:03
+------------------------------------------------------------------------------
 
-EMAIL SENDING SUCCESS: 	2016-05-15-09:11:16
+TEST EMAIL SENDING: 	2016-07-25-21:20:51
 
-EMAIL SENDING: 	2016-05-15-09:11:16
+TEST EMAIL SENDING ERROR: SMTPAuthenticationError	2016-07-25-21:20:55
+Traceback (most recent call last):
+  File "config.py", line 310, in testSendEmail
+    sm.login(userName, password)
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, 'Error: authentication failed')
 
-EMAIL SENDING SUCCESS: 	2016-05-15-09:11:30
+------------------------------------------------------------------------------
 
-Monitor Finished.   Monitor Time: 2016-05-15-09:11:30.   Time Cost: 1'29"
+TEST EMAIL SENDING: 	2016-07-25-21:21:06
+
+TEST MAIL SENDING SUCCESS: 	2016-07-25-21:21:10
+
+------------------------------------------------------------------------------
+
+TEST EMAIL SENDING: 	2016-07-25-21:22:16
+
+TEST MAIL SENDING SUCCESS: 	2016-07-25-21:22:20
+
+------------------------------------------------------------------------------
+
+TEST EMAIL SENDING: 	2016-07-25-21:22:33
+
+TEST MAIL SENDING SUCCESS: 	2016-07-25-21:22:37
+
+------------------------------------------------------------------------------
+
+lxw_IOError: 	2016-07-25-21:24:33
+[Errno 2] No such file or directory: './Intermedia/http:__www.cira.ca_news_news-releases_'
+EMAIL SENDING: 	2016-07-25-21:24:37
+
+EMAIL SENDING SUCCESS: 	2016-07-25-21:24:43
+
+Monitor Finished.   Monitor Time: 2016-07-25-21:24:43.   Time Cost: 0'28"
 ------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------
